@@ -365,7 +365,7 @@ def reparse_all():
 
 TILE_DEG = 0.025          # shard grid: tile (iy, ix) covers lat [iy*D, (iy+1)*D), lon [ix*D, (ix+1)*D)
 TILES = os.path.join(OUT, 'tiles')
-LEGACY_INDEX = True       # also write the old single index.json (transition; False -> tiny stub)
+LEGACY_INDEX = False      # True = also write the old single index.json (pre-shard app); False = tiny stub
 ALL_PERMITS_CACHE = os.path.join(ROOT, '.cache', 'all-permits.json')  # written by tools/build_spiral_plan.py
 
 

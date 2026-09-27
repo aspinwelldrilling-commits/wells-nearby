@@ -41,7 +41,7 @@ are processed offline, per area, and cached in the repo:
   ≈1.7×1.45 mi, slim entries: status, value+conf per field, best doc link) and `manifest.json` (bounds `b` s,w,n,e, count `n`,
   content hash `h` per tile). The app (`CW.ensure`) fetches only tiles intersecting the search circle (radius + 0.75 mi buffer)
   as `tiles/<key>.json?v=<hash>`; the service worker keeps them for offline use. Test: `tools/test-shards.py [--base URL]`,
-  bytes: `tools/measure_wcr_bytes.py [--base URL]`. `index.json` is legacy (only read if there is no manifest).
+  bytes: `tools/measure_wcr_bytes.py [--base URL]`. `index.json` is now a tiny stub (the loader reads it only if there is no manifest).
 - Status: `readable` / `partial` / `unreadable` (handwritten/garbled) / `no_wcr` / `no_docs` / `destruction_wcr` / `error`.
 - App (`js/countywcr.js`): uses only high/medium values from records classified `readable` (partial = mostly handwriting,
   shown only as "unverified" hints in the red popup), within plausible bounds, only to fill fields the state record
