@@ -17,7 +17,10 @@
   </header>
 
   <section class="controls card">
-    <button id="btnLocate" class="primary">📍 Use my location</button>
+    <div class="row toprow">
+      <button id="btnLocate" class="primary">📍 Use my location</button>
+      <button id="btnTagTop" class="primary tag">📌 Tag proposed well site</button>
+    </div>
     <div class="row">
       <label>Lat <input id="lat" type="number" inputmode="decimal" step="0.0001" placeholder="33.0417"></label>
       <label>Lon <input id="lon" type="number" inputmode="decimal" step="0.0001" placeholder="-116.8681"></label>
@@ -62,8 +65,16 @@
     <p><b>County documents:</b> tapping a well lists its scanned permit file / completion report from the DEHQ Environmental Health Document Library (looked up live by permit number; optional APN search). Documents open in the County viewer; older logs are handwritten scans.</p>
     <p><b>County WCR values:</b> depth, method, yield, water level and date read by OCR from <i>typed</i> county completion reports are marked “county WCR (OCR)”. <span style="color:#FF1744;font-weight:700">Fluorescent red</span> wells have a county report that could not be read (handwritten, no report found) and no state data — tap and open the report to read it yourself. Grey dashed = area not processed yet.</p>
     <p><b>Duplicates:</b> a county permit and a state WCR are flagged as the same well when permit # or APN match with close dates (<i>Likely</i>), or when they are within 0.75 mi with dates within ~4 months (<i>Possible</i>).</p>
+    <p><b>Well sites:</b> sites you tag (customer, phone, notes, photo, GPS, APN) are stored <i>only on this device</i> and never uploaded. The APN lookup sends only the coordinates to the County GIS parcel service (SanGIS Assessor Parcels). Use <i>My sites → Backup</i> to move them to another device. Clearing browser data deletes them.</p>
     <p>Imagery: Esri World Imagery. Averages exclude missing, zero, and implausible values; <i>n</i> shows how many wells were used.</p>
   </footer>
+
+  <nav id="bottomBar" class="bottombar">
+    <button id="btnSites" type="button">📋 My sites</button>
+    <button id="btnTag" type="button" class="tag">📌 Tag site</button>
+  </nav>
+  <section id="sheet" class="sheet hidden" aria-live="polite"></section>
+  <div id="toast" class="toast" role="status"></div>
 
   <script src="vendor/leaflet/leaflet.js"></script>
   <script src="js/config.js"></script>
@@ -73,5 +84,7 @@
   <script src="js/docs.js"></script>
   <script src="js/countywcr.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/sites.js"></script>
+  <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});</script>
 </body>
 </html>

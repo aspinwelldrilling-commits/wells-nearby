@@ -40,3 +40,17 @@ are processed offline, per area, and cached in the repo:
   screenshot: `/workspace/.venv-pw/bin/python tools/screenshot.py [lat lon out.png]`
 - Add a field: add it to `fieldMap` in both sources in `config.js`, then to `tableColumns` / `wellDetails()`.
 - Geolocation requires HTTPS (or localhost) — host on GitHub Pages / Netlify / Cloudflare Pages.
+
+## Proposed well sites (field tagging) — `js/sites.js`
+- "📌 Tag site" (bottom bar / top button): `watchPosition` high-accuracy, live ±ft, keeps the best fix for up to 30 s
+  (green ≤16 ft, yellow ≤50 ft, red worse; "Capture anyway" always allowed; "place pin by hand" if no GPS).
+  Pin is draggable; a hand adjustment is recorded (`adjusted`, `adjustedFt`, original fix kept in `gps`).
+- Parcel: SanGIS/County "Assessor Parcels" `https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPLU/DPLU_Map/MapServer/0/query`
+  (point-in-polygon, outSR 4326; fields APN, SITUS_*, ACREAGE (often null → polygon area), OWN_NAME1, LEGLDESC). CORS reflects the origin.
+  Outline drawn on the map; APN editable; lookup failure → saved as "pending" and retried on `online` / app start / "Look up APN".
+- Form: customer name (required), phone, notes, photo (camera, resized to 1600 px JPEG ~0.7).
+- Storage: IndexedDB `wells-nearby/sites` on the device only. No customer data leaves the device (only coordinates go to the
+  parcel service). My sites: map, wells nearby (runs the normal search at the site), Google Maps directions, share/copy,
+  edit, delete (confirm); export CSV / KML (with parcel polygons) / JSON backup; import backup (merges by id, newer wins).
+- `sw.js`: network-first cache of the app files so the app opens with no signal (map tiles need signal).
+- Test: `/workspace/.venv-pw/bin/python tools/test-sites.py 33.0417 -116.8681 "Name" [--off dlat,dlon] [--base https://…/]`
