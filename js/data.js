@@ -33,13 +33,14 @@
 
   function classifyMethod(method, fluid) {
     const m = (method || '').toLowerCase().trim(), f = (fluid || '').toLowerCase().trim();
-    for (const cat of C.methodCategories) if (cat.test(m, f)) return cat;
-    return C.methodCategories[C.methodCategories.length - 1];
+    for (const cat of C.methodCategories) if (!cat.explicitOnly && cat.test(m, f)) return cat;
+    return C.methodCategories.find((c) => c.key === 'other');
   }
 
   /** Convert a raw record (source-specific field names) to the normalized well object. */
-  function normalize(raw, fieldMap, origin) {
-    const w = { raw };
+  function normalize(raw, fieldMap, origin, sourceKey) {
+    const src = C.sources[sourceKey] || {};
+    const w = { raw, source: sourceKey || null, group: src.group || 'state', sourceLabel: src.label || '' };
     for (const [k, src] of Object.entries(fieldMap)) w[k] = raw[src] ?? null;
     w.lat = num(w.lat); w.lon = num(w.lon);
 
@@ -65,7 +66,16 @@
 
     w.waterSupply = C.isWaterSupply(w);
     w.destruction = C.isDestruction(w);
+
+    const pd = parseDate(w.permitDate);
+    w.permitDateMs = pd ? pd.getTime() : null;
+
+    if (typeof src.post === 'function') src.post(w);
+    w.srcShort = C.groups[w.group].short;
+    if (w.group === 'county') { w.permitId = w.permit; w.wcr = null; }
+    else { w.permitId = null; }
     w.useShort = (w.plannedUse || w.b118Use || '').replace(/^Water Supply\s*/i, 'WS ').trim() || '—';
+    w.matchLabel = '';
 
     if (origin && w.lat != null && w.lon != null) w.distanceMi = haversineMi(origin.lat, origin.lon, w.lat, w.lon);
     return w;
@@ -84,8 +94,8 @@
   }
 
   /** Primary: ArcGIS spatial query (point + distance), paginated. */
-  async function queryArcgis(lat, lon, radiusMi) {
-    const S = C.sources.arcgis;
+  async function queryArcgis(lat, lon, radiusMi, key = 'arcgis') {
+    const S = C.sources[key];
     const outFields = Object.values(S.fieldMap).join(',');
     let offset = 0, all = [], truncated = false;
     while (true) {
@@ -111,7 +121,7 @@
       offset += feats.length;
       if (all.length >= S.maxRecords) { truncated = true; break; }
     }
-    return { records: all.map((r) => normalize(r, S.fieldMap, { lat, lon })), source: S.label, truncated };
+    return { records: all.map((r) => normalize(r, S.fieldMap, { lat, lon }, key)), source: S.label, truncated };
   }
 
   /** Fallback: CKAN SQL bounding-box query, then distance filter client-side. */
@@ -122,7 +132,7 @@
     const sql = `SELECT ${cols} FROM "${S.resourceId}" WHERE "${F.lat}" BETWEEN ${(lat - dLat).toFixed(6)} AND ${(lat + dLat).toFixed(6)} AND "${F.lon}" BETWEEN ${(lon - dLon).toFixed(6)} AND ${(lon + dLon).toFixed(6)} LIMIT ${S.maxRecords}`;
     const j = await fetchJson(S.sqlUrl + '?sql=' + encodeURIComponent(sql), {}, 40000);
     const rows = j.result.records;
-    const recs = rows.map((r) => normalize(r, F, { lat, lon })).filter((w) => w.distanceMi != null && w.distanceMi <= radiusMi);
+    const recs = rows.map((r) => normalize(r, F, { lat, lon }, 'ckan')).filter((w) => w.distanceMi != null && w.distanceMi <= radiusMi);
     return { records: recs, source: S.label, truncated: rows.length >= S.maxRecords };
   }
 
@@ -140,5 +150,21 @@
     throw new Error('All data sources failed — ' + errors.join(' | '));
   }
 
-  global.WellsData = { queryNearby, queryArcgis, queryCkan, normalize, haversineMi, classifyMethod, num, MI_PER_M };
+  /** County DEHQ permits (ArcGIS). */
+  async function queryCounty(lat, lon, radiusMi) {
+    const res = await queryArcgis(lat, lon, radiusMi, 'county');
+    res.records.sort((a, b) => (a.distanceMi ?? 1e9) - (b.distanceMi ?? 1e9));
+    return res;
+  }
+
+  /** Query state + county in parallel; each may fail independently. */
+  async function queryAll(lat, lon, radiusMi) {
+    const [st, co] = await Promise.allSettled([queryNearby(lat, lon, radiusMi), queryCounty(lat, lon, radiusMi)]);
+    return {
+      state: st.status === 'fulfilled' ? st.value : { records: [], error: String(st.reason && st.reason.message || st.reason) },
+      county: co.status === 'fulfilled' ? co.value : { records: [], error: String(co.reason && co.reason.message || co.reason) },
+    };
+  }
+
+  global.WellsData = { queryAll, queryCounty, parseDate, queryNearby, queryArcgis, queryCkan, normalize, haversineMi, classifyMethod, num, MI_PER_M };
 })(typeof window !== 'undefined' ? window : globalThis);

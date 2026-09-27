@@ -16,6 +16,7 @@
       // c074ca40fd684e41babd776eebefd009). Supports spatial query (point + distance),
       // pagination (maxRecordCount 2000) and CORS (echoes the request Origin).
       arcgis: {
+        group: 'state',
         label: 'DWR OSWCR ArcGIS service',
         queryUrl: 'https://utility.arcgis.com/usrsvcs/servers/c074ca40fd684e41babd776eebefd009/rest/services/Environment/i07_WellCompletionReports/MapServer/0/query',
         pageSize: 2000,
@@ -46,6 +47,8 @@
           address: 'WellLocation',
           city: 'City',
           apn: 'APN',
+          permit: 'PermitNumber',
+          permitDate: 'PermitDate',
           pdfUrl: 'WCRLinks',
         },
       },
@@ -53,6 +56,7 @@
       // CORS '*'). No spatial operator, so we query a bounding box and filter by
       // distance client-side.
       ckan: {
+        group: 'state',
         label: 'CNRA Open Data (CKAN datastore)',
         sqlUrl: 'https://data.cnra.ca.gov/api/3/action/datastore_search_sql',
         resourceId: '8da7b93b-4e69-495d-9caa-335691a1896b',
@@ -82,8 +86,65 @@
           address: 'WELLLOCATION',
           city: 'CITY',
           apn: 'APN',
+          permit: 'PERMITNUMBER',
+          permitDate: 'PERMITDATE',
         },
       },
+
+      // COUNTY: San Diego County DEHQ (LWQD) water well PERMITS, published by County/SanGIS.
+      // Unincorporated area only; points are the center of the permitted parcel (APN).
+      // Has permit #, APN, date opened, use, type of work, status — NO depth/yield/SWL/method
+      // (those come from the matched state WCR, if any). CORS: echoes Origin. Last edited 2023-06.
+      county: {
+        group: 'county',
+        type: 'arcgis',
+        label: 'San Diego County DEHQ well permits (SanGIS)',
+        queryUrl: 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPLU/DPLU_Map/MapServer/100/query',
+        pageSize: 1700,
+        maxRecords: 10000,
+        fieldMap: {
+          permit: 'Record_ID',
+          apn: 'Parcel_No',
+          lat: 'LatitudeGS84',
+          lon: 'LongitudeGS84',
+          llMethod: 'GEO_SRC',
+          dateEnded: 'Opened_Date',   // permit application/opened date (not completion)
+          wellUse: 'Well_Use',
+          recordType: 'Type_Work',
+          status: 'Record_Status',
+          address: 'Address',
+          city: 'City',
+          community: 'ZipCommunity',
+          purveyor: 'APNWater_Purveyor',
+          basin: 'BasinNo',
+        },
+        // Called after generic normalization to fill source-specific derived fields.
+        post: (w) => {
+          w.llAccuracy = 'Parcel center (APN)';
+          w.plannedUse = 'Water Supply ' + (w.wellUse || 'Unknown');
+          w.waterSupply = true;          // layer 100 is the water-well program only
+          w.destruction = /destr/i.test(w.recordType || '');
+        },
+      },
+    },
+
+    // Where each group's markers/labels come from.
+    groups: {
+      state: { label: 'State (DWR WCR)', short: 'State', color: '#f59e0b' },
+      county: { label: 'County (DEHQ permit)', short: 'County', color: '#06b6d4' },
+      both: { label: 'State + County', short: 'Both' },
+    },
+    defaultView: 'both', // 'state' | 'county' | 'both'
+
+    // Duplicate detection between county permits and state WCRs (see js/match.js).
+    matching: {
+      bufferMiles: 0.75,             // fetch both sources this much beyond the radius so pairs straddling the edge still match
+      keyWindowDays: [-90, 1095],    // state work-ended/permit date minus county opened date, for permit#/APN matches
+      proxMiles: 0.75,               // state points are often section centroids (~0.7 mi from a parcel)
+      proxWindowDays: [-7, 120],     // location-only match needs a tight date window
+      // In the Both view a matched well is drawn at the county parcel center, unless the WCR has a
+      // precise reported accuracy (e.g. "10 Ft"); section centroids / unknown / ">50 Ft" lose to the parcel.
+      preciseStateAccuracy: /^\s*\d+(\.\d+)?\s*ft\s*$/i,
     },
 
     // Yield unit -> factor to convert to GPM. Unknown units are excluded from the average.
@@ -109,6 +170,8 @@
       { key: 'cable', label: 'Cable tool', color: '#10b981', test: (m) => /cable/.test(m) },
       { key: 'auger', label: 'Auger', color: '#a3a3a3', test: (m) => /auger/.test(m) },
       { key: 'other', label: 'Other / unknown', color: '#6b7280', test: () => true },
+      // Assigned explicitly to county permits with no matched state WCR (never via test()).
+      { key: 'nolog', label: 'No log data (permit only)', color: '#cbd5e1', test: () => false, explicitOnly: true },
     ],
 
     // Which records count as "water supply wells" (default filter).
@@ -127,12 +190,13 @@
       depth: [1, 3000],     // ft
       swl: [0.01, 2000],    // ft below ground surface (0 / negative = missing or artesian)
       gpm: [0.01, 5000],
-      year: [1900, new Date().getFullYear() + 1],
+      year: [1901, new Date().getFullYear() + 1], // 1900-01-01 is used as a placeholder
     },
 
     // Table columns — add a field here to show it in the table.
     tableColumns: [
       { key: 'distanceMi', label: 'Dist (mi)', fmt: (v) => v == null ? '' : v.toFixed(2), num: true },
+      { key: 'srcShort', label: 'Src' },
       { key: 'depthFt', label: 'Depth (ft)', fmt: (v) => v == null ? '—' : Math.round(v), num: true },
       { key: 'methodLabel', label: 'Method' },
       { key: 'gpm', label: 'GPM', fmt: (v) => v == null ? '—' : (+v.toFixed(1)), num: true },
@@ -140,6 +204,8 @@
       { key: 'dateStr', label: 'Date', sortKey: 'dateMs' },
       { key: 'useShort', label: 'Use' },
       { key: 'wcr', label: 'WCR #' },
+      { key: 'permitId', label: 'County permit' },
+      { key: 'matchLabel', label: 'Dup?' },
     ],
   };
 

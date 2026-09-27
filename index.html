@@ -13,7 +13,7 @@
 <body>
   <header class="topbar">
     <h1>💧 Wells Nearby</h1>
-    <span class="sub">DWR Well Completion Reports</span>
+    <span class="sub">CA DWR + San Diego County well records</span>
   </header>
 
   <section class="controls card">
@@ -27,6 +27,14 @@
         <select id="radius"></select>
       </label>
       <button id="btnSearch">Search</button>
+    </div>
+    <div class="row">
+      <div class="seg" id="viewSel" role="group" aria-label="Data source">
+        <span class="seg-label">Data</span>
+        <button data-view="state">State</button>
+        <button data-view="county">County</button>
+        <button data-view="both">Both</button>
+      </div>
     </div>
     <div class="row checks">
       <label><input type="checkbox" id="optAllUses"> Include non-water-supply (monitoring, etc.)</label>
@@ -48,8 +56,9 @@
   </section>
 
   <footer class="card notes">
-    <p><b>Data:</b> CA DWR Online System for Well Completion Reports (OSWCR), queried live. Values are as key-entered from driller reports and may be missing or wrong — verify with the original WCR PDF.</p>
-    <p><b>Location accuracy:</b> most WCRs are placed at the <i>center of the PLSS section</i> (≈1 sq mi), not the actual wellhead, so many wells stack on one point and distances are approximate.</p>
+    <p><b>State data:</b> CA DWR Online System for Well Completion Reports (OSWCR), queried live. Values are as key-entered from driller reports and may be missing or wrong — verify with the original WCR PDF. Most WCRs are placed at the <i>center of the PLSS section</i> (≈1 sq mi), so many stack on one point.</p>
+    <p><b>County data:</b> San Diego County DEHQ water-well <i>permits</i> (SanGIS), unincorporated area, permits opened 1975–Aug 2020. Located at the <i>center of the permitted parcel</i> (more precise than section centroids). Permits carry no depth/yield/level; those come from a matched state WCR. A permit does not guarantee a well was drilled.</p>
+    <p><b>Duplicates:</b> a county permit and a state WCR are flagged as the same well when permit # or APN match with close dates (<i>Likely</i>), or when they are within 0.75 mi with dates within ~4 months (<i>Possible</i>).</p>
     <p>Imagery: Esri World Imagery. Averages exclude missing, zero, and implausible values; <i>n</i> shows how many wells were used.</p>
   </footer>
 
@@ -57,6 +66,7 @@
   <script src="js/config.js"></script>
   <script src="js/data.js"></script>
   <script src="js/stats.js"></script>
+  <script src="js/match.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

@@ -48,3 +48,28 @@ tbody tr { cursor: pointer; }
 .popup .list { max-height: 220px; overflow-y: auto; }
 .popup .item { border-top: 1px solid var(--line); padding: 4px 0; font-size: 12px; }
 .leaflet-popup-content { margin: 10px 12px; }
+
+.seg { display: flex; align-items: center; gap: 0; width: 100%; }
+.seg-label { font-size: 12px; color: var(--muted); margin-right: 8px; }
+.seg button { flex: 1; border-radius: 0; font-size: 15px; padding: 8px 6px; margin-left: -1px; }
+.seg button:first-of-type { border-radius: 8px 0 0 8px; }
+.seg button:last-of-type { border-radius: 0 8px 8px 0; }
+.seg button.on { background: var(--bg); color: #fff; border-color: var(--bg); font-weight: 600; }
+.status .bad { color: #b91c1c; }
+.well-pin.pin-county { border-radius: 4px; border: 2.5px solid #06b6d4; }
+.well-pin.pin-both { border: 3px solid #06b6d4; box-shadow: 0 0 0 1.5px #fff, 0 0 4px rgba(0,0,0,.8); }
+.well-pin.pin-county, .well-pin.pin-county * { color: #0f172a; }
+.lg { display: inline-block; width: 10px; height: 10px; margin-right: 3px; vertical-align: -1px; }
+.lg-state { border-radius: 50%; background: #f59e0b; border: 2px solid #fff; box-shadow: 0 0 0 1px #999; }
+.lg-county { border-radius: 2px; background: #cbd5e1; border: 2px solid #06b6d4; }
+.srcTag { display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 6px; border-radius: 4px; margin-bottom: 4px; }
+.src-state { background: #fef3c7; color: #92400e; }
+.src-county { background: #cffafe; color: #155e75; }
+.src-both { background: linear-gradient(90deg, #fef3c7, #cffafe); color: #0f172a; }
+.popup .dup { font-size: 12px; background: #f0f9ff; border-left: 3px solid #06b6d4; padding: 3px 6px; margin: 4px 0; }
+.popup .dup.none { background: #f8fafc; border-color: #cbd5e1; color: var(--muted); }
+.popup .sub { font-size: 11px; font-weight: 700; color: #155e75; margin-top: 6px; text-transform: uppercase; }
+.dupTag { font-size: 10px; background: #cffafe; color: #155e75; border-radius: 3px; padding: 0 4px; }
+tr.row-county td.col-srcShort { color: #0e7490; font-weight: 600; }
+tr.row-both td.col-srcShort { color: #0f172a; font-weight: 600; }
+td.col-matchLabel { color: #0e7490; }
