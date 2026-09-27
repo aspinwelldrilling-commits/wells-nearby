@@ -128,6 +128,19 @@
       },
     },
 
+    // San Diego County DEHQ "Environmental Health Document Library" (Documentum behind an AEM page).
+    // The search page has no URL parameters (no deep link), but its JSON API allows CORS (*),
+    // so the app lists documents inline. Each document opens in the county's own viewer (LUEG_View).
+    docLibrary: {
+      searchApi: 'https://file.sandiegocounty.gov/CoSD_LUEG_Repository_External_API/rest/DEHQDocumentLibrary/SearchDocuments',
+      searchPage: 'https://www.sandiegocounty.gov/content/sdc/deh/doclibrary.html',
+      category: 'DEH-LWQD',
+      maxRecords: 350,
+      timeoutMs: 30000,
+      // For APN searches, only these subcategories are shown by default (parcels can have dozens of septic/SAM docs).
+      wellSubtypes: ['DEH-LWQD-Water Well Permit', 'DEH-LWQD-Land Use Archive-Parcel', 'DEH-LWQD-Monitoring Well Permit Application'],
+    },
+
     // Where each group's markers/labels come from.
     groups: {
       state: { label: 'State (DWR WCR)', short: 'State', color: '#f59e0b' },
@@ -206,6 +219,7 @@
       { key: 'wcr', label: 'WCR #' },
       { key: 'permitId', label: 'County permit' },
       { key: 'matchLabel', label: 'Dup?' },
+      { key: 'docHint', label: 'Docs' },
     ],
   };
 

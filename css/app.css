@@ -73,3 +73,15 @@ tbody tr { cursor: pointer; }
 tr.row-county td.col-srcShort { color: #0e7490; font-weight: 600; }
 tr.row-both td.col-srcShort { color: #0f172a; font-weight: 600; }
 td.col-matchLabel { color: #0e7490; }
+
+.popup .docs { margin-top: 6px; border-top: 1px solid var(--line); padding-top: 4px; font-size: 12px; }
+.popup .doclist { margin: 4px 0; padding-left: 0; list-style: none; }
+.popup .doclist li { padding: 3px 0; border-bottom: 1px dotted var(--line); }
+.popup .doclist a { font-weight: 600; }
+.popup .muted, .muted { color: var(--muted); }
+.popup .bad { color: #b91c1c; }
+.popup .liblink { margin-top: 4px; font-size: 11px; }
+.popup .copy { cursor: pointer; text-decoration: underline dotted; }
+.popup .copy.copied::after { content: ' ✓'; color: #16a34a; }
+.popup .item a.open-item { color: inherit; }
+td.col-docHint { text-align: center; }

@@ -1,7 +1,7 @@
 /* Wells Nearby — UI: geolocation, map, summary, table. */
 (function () {
   'use strict';
-  const C = window.WELLS_CONFIG, D = window.WellsData, S = window.WellsStats, M = window.WellsMatch;
+  const C = window.WELLS_CONFIG, D = window.WellsData, S = window.WellsStats, M = window.WellsMatch, W = window.WellsDocs;
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fmt = (v, d = 0) => (v == null ? '—' : Number(v).toLocaleString(undefined, { maximumFractionDigits: d, minimumFractionDigits: d }));
@@ -120,6 +120,7 @@
     const allUses = $('optAllUses').checked, destroyed = $('optDestroyed').checked;
     const view = M.buildView(state.view, state.stateRecs, state.countyRecs, state.radius);
     state.shown = view.filter((w) => (allUses || w.waterSupply) && (destroyed || !w.destruction));
+    state.shown.forEach((w) => { const q = W.docQueries(w); w.docHint = q.some((x) => !x.secondary) ? '📄' : q.length ? 'APN' : ''; });
     renderSummary(); renderMarkers(); renderTable();
   }
 
@@ -197,7 +198,7 @@
     if (w.group === 'county') {
       const mt = w.matches.length ? `<div class="dup">${esc(w.matchLabel)} same well as state ${esc(w.wcr)} — ${esc(w.matches[0].reason)}. Log values below are from that WCR.</div>` : '<div class="dup none">No matching state WCR found — permit record only.</div>';
       const pdf = w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">WCR PDF</a>` : '';
-      return `${src}<b>${esc(w.permit)}</b>${pdf}${mt}<table>${countyRows(w)}${w.matches.length ? rowsLog.join('') : ''}${row('Distance', fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>`;
+      return `${src}<b>${esc(w.permit)}</b>${pdf}${mt}<table>${countyRows(w)}${w.matches.length ? rowsLog.join('') : ''}${row('Distance', fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>${docsBlock(w)}`;
     }
     const rows = rowsLog.concat([
       row('Date', w.dateStr),
@@ -213,16 +214,77 @@
     const c = w.group === 'both' ? w.county : (w.match && w.match.county);
     const dup = c ? `<div class="dup">${esc(w.matchLabel)} duplicate of county permit ${esc(c.permit)} — ${esc(w.match.reason)}</div>` : '';
     const ctab = c ? `<div class="sub">County permit</div><table>${countyRows(c)}</table>` : '';
-    return `${src}<b>${esc(w.wcr || w.legacyLog || 'WCR ?')}</b>${pdf}${dup}<table>${rows.join('')}</table>${ctab}`;
+    return `${src}<b>${esc(w.wcr || w.legacyLog || 'WCR ?')}</b>${pdf}${dup}<table>${rows.join('')}</table>${ctab}${docsBlock(w)}`;
   }
+
+  // ---------- County document library (fetched when the popup opens) ----------
+  const docReqs = new Map(); let docSeq = 0;
+  function docsBlock(w) {
+    const qs = W.docQueries(w);
+    if (!qs.length) return '';
+    const id = 'docs' + (++docSeq);
+    docReqs.set(id, qs);
+    if (docReqs.size > 200) docReqs.delete(docReqs.keys().next().value);
+    return `<div class="docs" id="${id}"><div class="sub">County documents (DEHQ library)</div><div class="docs-body"><span class="muted">…</span></div></div>`;
+  }
+  function libLink(q) {
+    return `<a href="${esc(C.docLibrary.searchPage)}" target="_blank" rel="noopener">Open library search ↗</a> <span class="muted">(enter ${q.type === 'record_id' ? 'Record ID' : 'APN'} <b class="copy" data-copy="${esc(q.value)}" title="tap to copy">${esc(q.value)}</b>)</span>`;
+  }
+  function renderDocList(docs, q, filtered) {
+    if (!docs.length) return `<div class="muted">No documents found for ${esc(q.label)}${q.guessed ? ' (permit ID derived from the WCR)' : ''}.</div>`;
+    return `<div class="muted">${docs.length} document${docs.length > 1 ? 's' : ''} for ${esc(q.label)}${filtered ? ' (well-related)' : ''}${q.guessed ? ' — permit ID derived from WCR' : ''}:</div><ul class="doclist">${docs.map((d) =>
+      `<li><a href="${esc(d.url)}" target="_blank" rel="noopener">${d.isWcr ? '📋 Well Completion Report' : '📄 ' + esc(d.description && !/^approved$/i.test(d.description) ? d.description : (/^approved$/i.test(d.description) ? 'Approved permit' : d.subtype))}</a>${d.isWcr ? ' <span class="dupTag">driller log</span>' : ''}${d.permit && q.type !== 'record_id' ? ` <small>${esc(d.permit)}</small>` : ''} <small class="muted">scanned ${esc(d.scanned)} · ${d.sizeKb} KB</small></li>`).join('')}</ul>`;
+  }
+  async function runDocQuery(el, q) {
+    const body = el.querySelector('.docs-body');
+    body.innerHTML = `<span class="muted">Searching county library for ${esc(q.label)}…</span>`;
+    try {
+      let docs = await W.search(q.type, q.value);
+      let filtered = false;
+      if (q.type === 'parcel_number') {
+        const well = docs.filter((d) => C.docLibrary.wellSubtypes.includes('DEH-LWQD-' + d.subtype));
+        filtered = well.length < docs.length; docs = well;
+      }
+      return renderDocList(docs, q, filtered);
+    } catch (e) {
+      return `<div class="bad">Library lookup failed (${esc(e.message || e)}).</div>`;
+    }
+  }
+  async function loadDocs(root) {
+    for (const el of root.querySelectorAll('.docs')) {
+      if (el.dataset.loaded) continue; el.dataset.loaded = '1';
+      const qs = docReqs.get(el.id) || [];
+      const main = qs.find((q) => !q.secondary) || qs[0];
+      const apn = qs.find((q) => q.secondary && q !== main);
+      const body = el.querySelector('.docs-body');
+      let html = await runDocQuery(el, main);
+      if (apn) html += `<button class="small" data-apn="1">Also search parcel ${esc(apn.value)}</button><div class="apn-res"></div>`;
+      html += `<div class="liblink">${libLink(main)}</div>`;
+      body.innerHTML = html;
+      const b = body.querySelector('button[data-apn]');
+      if (b) b.onclick = async (ev) => {
+        ev.stopPropagation(); b.disabled = true;
+        const tmp = document.createElement('div'); tmp.innerHTML = '<div class="docs-body"></div>';
+        const res = await runDocQuery(tmp, apn);
+        body.querySelector('.apn-res').innerHTML = res; b.remove();
+      };
+      body.querySelectorAll('.copy').forEach((c) => (c.onclick = (ev) => { ev.stopPropagation(); navigator.clipboard && navigator.clipboard.writeText(c.dataset.copy); c.classList.add('copied'); }));
+    }
+  }
+  map.on('popupopen', (e) => loadDocs(e.popup.getElement()));
 
   function groupPopup(ws) {
     if (ws.length === 1) return `<div class="popup">${wellDetails(ws[0])}</div>`;
+    setTimeout(() => document.querySelectorAll('.leaflet-popup .item .open-item').forEach((a) => (a.onclick = (ev) => {
+      ev.preventDefault();
+      const w = ws[+a.closest('.item').dataset.i];
+      if (w && w._marker) L.popup({ maxWidth: 310, maxHeight: 300 }).setLatLng(w._marker.getLatLng()).setContent(`<div class="popup">${wellDetails(w)}</div>`).openOn(map);
+    })), 0);
     const acc = ws[0].llAccuracy ? ` — ${esc(ws[0].llAccuracy)}` : '';
     const sorted = [...ws].sort((a, b) => (b.dateMs || 0) - (a.dateMs || 0));
     const g = C.groups[ws[0].group];
     return `<div class="popup"><div class="srcTag src-${ws[0].group}">${esc(g.label)}</div><h3>${ws.length} records at this point${acc}</h3><div class="list">${sorted.map((w) =>
-      `<div class="item"><b>${esc(w.wcr || w.permit || '?')}</b>${w.matchLabel ? ` <span class="dupTag">dup: ${esc(w.matchLabel)}</span>` : ''} · ${w.depthFt != null ? fmt(w.depthFt) + ' ft' : '— ft'} · ${w.gpm != null ? fmt(w.gpm, 1) + ' gpm' : '— gpm'} · SWL ${w.swlFt != null ? fmt(w.swlFt) : '—'} · ${esc(w.methodLabel)} · ${w.dateStr}${w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">PDF</a>` : ''}</div>`).join('')}</div></div>`;
+      `<div class="item" data-i="${ws.indexOf(w)}"><a href="#" class="open-item"><b>${esc(w.wcr || w.permit || '?')}</b></a>${w.matchLabel ? ` <span class="dupTag">dup: ${esc(w.matchLabel)}</span>` : ''} · ${w.depthFt != null ? fmt(w.depthFt) + ' ft' : '— ft'} · ${w.gpm != null ? fmt(w.gpm, 1) + ' gpm' : '— gpm'} · SWL ${w.swlFt != null ? fmt(w.swlFt) : '—'} · ${esc(w.methodLabel)} · ${w.dateStr}${w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">PDF</a>` : ''}</div>`).join('')}</div></div>`;
   }
 
   // ---------- Summary ----------

@@ -28,9 +28,13 @@ with sync_playwright() as p:
     pg.evaluate('() => WellsApp.map.setZoom(15, {animate: false})'); pg.wait_for_timeout(2500)
     pg.locator('#map').screenshot(path=out.replace('.png', '-map.png'))
     pg.evaluate('''() => { const s = WellsApp.state.shown;
-      const w = s.find(x => x.group === 'both' && x.depthFt) || s.find(x => x.group === 'both') || s[0];
+      const w = s.find(x => x.group === 'both' && x.county && /LWELL-0/.test(x.county.permit)) || s.find(x => x.group === 'both' && x.depthFt) || s.find(x => x.group === 'both') || s[0];
       if (w && w._marker) { WellsApp.map.setView(w._marker.getLatLng(), 15, {animate: false}); w._marker.openPopup(); } }''')
-    pg.wait_for_timeout(2500)
+    try: pg.wait_for_selector('.leaflet-popup .doclist, .leaflet-popup .docs .bad, .leaflet-popup .docs-body div.muted', timeout=40000)
+    except Exception as e: print('docs wait:', e)
+    pg.evaluate("() => { const d = document.querySelector('.leaflet-popup .docs'); if (d) d.scrollIntoView(); }")
+    pg.wait_for_timeout(1500)
+    print('docs:', (pg.inner_text('.leaflet-popup .docs') if pg.locator('.leaflet-popup .docs').count() else 'none').replace('\n', ' | '))
     print('popup:', pg.inner_text('.leaflet-popup-content')[:400].replace('\n', ' | '))
     pg.locator('#map').screenshot(path=out.replace('.png', '-popup.png'))
     b.close()
