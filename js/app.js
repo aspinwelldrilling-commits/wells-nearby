@@ -1,7 +1,7 @@
 /* Wells Nearby — UI: geolocation, map, summary, table. */
 (function () {
   'use strict';
-  const C = window.WELLS_CONFIG, D = window.WellsData, S = window.WellsStats, M = window.WellsMatch, W = window.WellsDocs;
+  const C = window.WELLS_CONFIG, D = window.WellsData, S = window.WellsStats, M = window.WellsMatch, W = window.WellsDocs, CW = window.WellsCountyWcr;
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fmt = (v, d = 0) => (v == null ? '—' : Number(v).toLocaleString(undefined, { maximumFractionDigits: d, minimumFractionDigits: d }));
@@ -42,15 +42,30 @@
   });
 
   // ---------- Controls ----------
-  C.radiusOptions.forEach((r) => { const o = document.createElement('option'); o.value = r; o.textContent = `${r} mi`; $('radius').appendChild(o); });
-  $('radius').value = String(C.defaultRadiusMiles);
+  // Radius: slider 0–1 mi (0.05 steps) + quick buttons for wider searches. 0 = tapped point (searches minRadius internally).
+  state.radiusUi = C.defaultRadiusMiles;
+  const effRadius = (ui) => Math.max(ui, C.minRadiusMiles);
+  function showRadius() {
+    const ui = state.radiusUi;
+    $('radiusVal').textContent = ui === 0 ? `0 mi (tapped point, ${C.minRadiusMiles} mi)` : `${+ui.toFixed(2)} mi`;
+    $('radius').value = String(Math.min(ui, 1));
+    document.querySelectorAll('#radiusWide button').forEach((b) => b.classList.toggle('on', +b.dataset.r === ui));
+  }
+  let radiusTimer = null;
+  function setRadius(ui, go) {
+    state.radiusUi = Math.max(0, Math.min(5, Math.round(ui * 100) / 100));
+    showRadius();
+    if (go && state.lat != null) { clearTimeout(radiusTimer); radiusTimer = setTimeout(() => { updateUrl(); search(); }, 150); }
+  }
+  $('radius').oninput = (e) => setRadius(+e.target.value, false);
+  $('radius').onchange = (e) => setRadius(+e.target.value, true);
+  document.querySelectorAll('#radiusWide button').forEach((b) => (b.onclick = () => setRadius(+b.dataset.r, true)));
   $('btnLocate').onclick = locate;
   $('btnSearch').onclick = () => {
     const lat = parseFloat($('lat').value), lon = parseFloat($('lon').value);
     if (!Number.isFinite(lat) || !Number.isFinite(lon) || Math.abs(lat) > 90 || Math.abs(lon) > 180) return setStatus('Enter a valid latitude and longitude (e.g. 33.0417, -116.8681).', true);
     setLocation(lat, lon, 'manual');
   };
-  $('radius').onchange = () => { if (state.lat != null) { updateUrl(); search(); } };
   $('optAllUses').onchange = $('optDestroyed').onchange = () => applyFilters();
   $('btnCsv').onclick = downloadCsv;
   document.querySelectorAll('#viewSel button').forEach((b) => (b.onclick = () => setView(b.dataset.view)));
@@ -81,7 +96,7 @@
     if (state.lat == null) return;
     const u = new URL(location.href);
     u.searchParams.set('lat', state.lat.toFixed(5)); u.searchParams.set('lon', state.lon.toFixed(5));
-    u.searchParams.set('r', $('radius').value); u.searchParams.set('view', state.view);
+    u.searchParams.set('r', String(state.radiusUi)); u.searchParams.set('view', state.view);
     history.replaceState(null, '', u);
   }
 
@@ -93,16 +108,18 @@
   }
 
   async function search() {
-    state.radius = parseFloat($('radius').value);
+    state.radius = effRadius(state.radiusUi);
     const { lat, lon, radius } = state, id = ++state.reqId;
     drawMe();
     setStatus(`Searching ${radius} mi around ${lat.toFixed(5)}, ${lon.toFixed(5)}…`);
     const t0 = performance.now();
     // Fetch a buffer beyond the radius so duplicates straddling the edge still pair up; views are cut back to the radius.
-    const res = await D.queryAll(lat, lon, radius + C.matching.bufferMiles);
+    // At 0 mi ("just this point") fetch a bit wider so the nearest wells can be shown if none are within 0.05 mi.
+    const res = await D.queryAll(lat, lon, Math.max(radius, state.radiusUi === 0 ? C.nearestFetchMiles : 0) + C.matching.bufferMiles);
     if (id !== state.reqId) return; // a newer search started
     state.stateRecs = res.state.records; state.countyRecs = res.county.records;
     M.findMatches(state.stateRecs, state.countyRecs);
+    CW.apply(state.stateRecs, state.countyRecs, { lat, lon });
     const inR = (w) => w.distanceMi <= radius;
     const parts = [];
     parts.push(res.state.error ? `<span class="bad">State data failed: ${esc(res.state.error)}</span>`
@@ -119,9 +136,25 @@
     if (state.lat == null) return;
     const allUses = $('optAllUses').checked, destroyed = $('optDestroyed').checked;
     const view = M.buildView(state.view, state.stateRecs, state.countyRecs, state.radius);
-    state.shown = view.filter((w) => (allUses || w.waterSupply) && (destroyed || !w.destruction));
+    const keep = (w) => (allUses || w.waterSupply) && (destroyed || !w.destruction);
+    state.shown = view.filter(keep);
+    state.nearestMode = false;
+    if (!state.shown.length && state.radiusUi === 0) {
+      // 0 mi and nothing within 0.05 mi: show the nearest wells to the tapped point instead of an empty result.
+      const wide = M.buildView(state.view, state.stateRecs, state.countyRecs, C.nearestFetchMiles).filter(keep).filter((w) => w.distanceMi != null)
+        .sort((a, b) => a.distanceMi - b.distanceMi);
+      if (wide.length) {
+        const d0 = wide[0].distanceMi;
+        state.shown = wide.filter((w, i) => i < C.nearestCount || w.distanceMi <= d0 + 0.01);
+        state.nearestMode = true;
+      }
+    }
     state.shown.forEach((w) => { const q = W.docQueries(w); w.docHint = q.some((x) => !x.secondary) ? '📄' : q.length ? 'APN' : ''; });
     renderSummary(); renderMarkers(); renderTable();
+    if (state.nearestMode) {
+      const pts = state.shown.filter((w) => w.lat != null).map((w) => [w.lat, w.lon]).concat([[state.lat, state.lon]]);
+      map.fitBounds(L.latLngBounds(pts).pad(0.3), { maxZoom: 17 });
+    }
   }
 
   // ---------- Map drawing ----------
@@ -131,7 +164,7 @@
     L.circle(ll, { radius: state.radius * 1609.344, color: '#38bdf8', weight: 2, fillOpacity: 0.05, interactive: false }).addTo(meLayer);
     L.marker(ll, { icon: L.divIcon({ className: '', html: '<div class="me-pin"></div>', iconSize: [18, 18], iconAnchor: [9, 9] }), zIndexOffset: 1000 })
       .bindPopup(`<div class="popup"><h3>Your location</h3>${state.lat.toFixed(6)}, ${state.lon.toFixed(6)}<br>${esc(state.how || '')}</div>`).addTo(meLayer);
-    map.fitBounds(L.latLng(ll).toBounds(state.radius * 1609.344 * 2.1));
+    map.fitBounds(L.latLng(ll).toBounds(Math.max(state.radius, 0.2) * 1609.344 * 2.1));
   }
 
   function pinIcon(ws) {
@@ -141,7 +174,11 @@
     const size = ws.length > 1 ? Math.min(34, 20 + Math.log2(ws.length) * 3) : 16;
     const g = ws[0].group; // state | county | both
     const label = ws.length > 1 ? ws.length : '';
-    return L.divIcon({ className: '', html: `<div class="well-pin pin-${g}" style="width:${size}px;height:${size}px;background:${color}">${label}</div>`, iconSize: [size, size], iconAnchor: [size / 2, size / 2] });
+    const nRed = ws.filter((w) => w.wcrFlag === 'read').length, nPend = ws.filter((w) => w.wcrFlag === 'pending').length;
+    // Fluorescent red = at least one report here must be read by hand (all red if every record needs it).
+    const cls = nRed === ws.length ? ' pin-red' : nRed ? ' pin-somered' : nPend === ws.length ? ' pin-pending' : '';
+    const bg = nRed === ws.length ? C.countyWcr.needsReadColor : color;
+    return L.divIcon({ className: '', html: `<div class="well-pin pin-${g}${cls}" style="width:${size}px;height:${size}px;background:${bg}">${label}</div>`, iconSize: [size, size], iconAnchor: [size / 2, size / 2] });
   }
 
   function renderMarkers() {
@@ -155,7 +192,8 @@
       groups.get(k).push(w);
     }
     for (const ws of groups.values()) {
-      const m = L.marker([ws[0].lat, ws[0].lon], { icon: pinIcon(ws), zIndexOffset: ws[0].group === 'county' ? 0 : 100 })
+      const red = ws.some((w) => w.wcrFlag === 'read');
+      const m = L.marker([ws[0].lat, ws[0].lon], { icon: pinIcon(ws), zIndexOffset: red ? 500 : ws[0].group === 'county' ? 0 : 100 })
         .bindPopup(() => groupPopup(ws), { maxWidth: 310, maxHeight: 300 });
       m.addTo(ws[0].group === 'county' ? countyLayer : stateLayer);
       ws.forEach((w) => (w._marker = m));
@@ -178,7 +216,7 @@
   function countyRows(c) {
     return [
       row('Permit', `<b>${esc(c.permit)}</b>`),
-      row('Opened', c.dateStr),
+      row('Opened', c.openedStr || c.dateStr),
       row('Work', esc(c.recordType || '—') + (c.status ? ` <small>(${esc(c.status)})</small>` : '')),
       row('Use', esc(c.wellUse || '—')),
       row('Address', esc(c.address || '—')),
@@ -189,16 +227,19 @@
   function wellDetails(w) {
     const g = C.groups[w.group];
     const src = `<div class="srcTag src-${w.group}">${esc(g.label)}</div>`;
+    const tag = (k) => { const f = w.fieldSrc && w.fieldSrc[k]; return f && f.src === 'ocr' ? ` <span class="ocrTag" title="read by OCR from the county completion report">county WCR (OCR, ${esc(f.conf)})</span>` : ''; };
     const rowsLog = [
-      row('Depth', w.depthFt != null ? fmt(w.depthFt) + ' ft' : '—'),
+      row('Depth', (w.depthFt != null ? fmt(w.depthFt) + ' ft' : '—') + tag('depthFt')),
       row('Method', `${w.methodLabel} <small>(${esc(w.methodDetail)})</small>`),
-      row('Yield', w.gpm != null ? fmt(w.gpm, 1) + ' GPM' : (w.yieldZero ? '0 (dry?)' : '—')),
-      row('SWL', w.swlFt != null ? fmt(w.swlFt) + ' ft' : '—'),
+      row('Yield', (w.gpm != null ? fmt(w.gpm, 1) + ' GPM' : (w.yieldZero ? '0 (dry?)' : '—')) + tag('gpm')),
+      row('SWL', (w.swlFt != null ? fmt(w.swlFt) + ' ft' : '—') + tag('swlFt')),
     ];
+    if (w.fieldSrc && w.fieldSrc.date && w.fieldSrc.date.src === 'ocr') rowsLog.push(row('Drilled', esc(w.dateStr) + tag('date')));
     if (w.group === 'county') {
       const mt = w.matches.length ? `<div class="dup">${esc(w.matchLabel)} same well as state ${esc(w.wcr)} — ${esc(w.matches[0].reason)}. Log values below are from that WCR.</div>` : '<div class="dup none">No matching state WCR found — permit record only.</div>';
       const pdf = w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">WCR PDF</a>` : '';
-      return `${src}<b>${esc(w.permit)}</b>${pdf}${mt}<table>${countyRows(w)}${w.matches.length ? rowsLog.join('') : ''}${row('Distance', fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>${docsBlock(w)}`;
+      const hasLog = w.matches.length || w.depthFt != null || w.gpm != null || w.swlFt != null || w.methodKey !== 'nolog';
+      return `${src}<b>${esc(w.permit)}</b>${pdf}${wcrBlock(w)}${mt}<table>${countyRows(w)}${hasLog ? rowsLog.join('') : ''}${row('Distance', fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>${docsBlock(w)}`;
     }
     const rows = rowsLog.concat([
       row('Date', w.dateStr),
@@ -214,7 +255,36 @@
     const c = w.group === 'both' ? w.county : (w.match && w.match.county);
     const dup = c ? `<div class="dup">${esc(w.matchLabel)} duplicate of county permit ${esc(c.permit)} — ${esc(w.match.reason)}</div>` : '';
     const ctab = c ? `<div class="sub">County permit</div><table>${countyRows(c)}</table>` : '';
-    return `${src}<b>${esc(w.wcr || w.legacyLog || 'WCR ?')}</b>${pdf}${dup}<table>${rows.join('')}</table>${ctab}${docsBlock(w)}`;
+    return `${src}<b>${esc(w.wcr || w.legacyLog || 'WCR ?')}</b>${pdf}${c ? wcrBlock(w) : ''}${dup}<table>${rows.join('')}</table>${ctab}${docsBlock(w)}`;
+  }
+
+  // County completion-report status: red call-to-action when the report must be read by hand.
+  const OCR_COL = { depthFt: 'depthFt', gpm: 'gpm', swlFt: 'swlFt', methodLabel: 'method', dateStr: 'date' };
+  function ocrMark(w, key) {
+    const f = OCR_COL[key] && w.fieldSrc && w.fieldSrc[OCR_COL[key]];
+    return f && f.src === 'ocr' ? `<sup class="ocrmk" title="from county WCR (OCR), ${esc(f.conf)} confidence">OCR</sup>` : '';
+  }
+  function wcrBlock(w) {
+    const st = w.wcrStatus || 'not_processed';
+    const text = CW.STATUS_TEXT[st] || st;
+    const url = w.wcrDocUrl;
+    const checks = (w.ocrCheck || []).map((k) => `${k.field.replace('Ft', '').replace('gpm', 'GPM')}: OCR ${fmt(k.ocr)} vs state ${fmt(k.state)} ${k.ok ? '✓' : '✗'}`).join(' · ');
+    if (w.wcrFlag === 'read') {
+      const partialState = w.group !== 'county' && (w.gpm != null || w.swlFt != null) ? '<br><small>State record has no depth (other values shown are from the state).</small>' : '';
+      const pg = w.wcrEntry && w.wcrEntry.bestDocPage ? ` (page ${w.wcrEntry.bestDocPage})` : '';
+      const h = CW.hints(w.wcrEntry);
+      const cs = (w.county || w).status || '';
+      const expired = st === 'no_wcr' && /expir|cancel|void|withdr/i.test(cs) ? `<br><small>Permit status "${esc(cs)}" — the well may never have been drilled.</small>` : '';
+      const hint = h.length ? `<br><small>Partly legible, unverified: ${esc(h.join(', '))}</small>` : '';
+      return `<div class="needread"><b>Read this report yourself</b><br>${esc(text)}.${partialState}${hint}${expired}<br>${url
+        ? `<a class="readbtn" href="${esc(url)}" target="_blank" rel="noopener">📋 Open ${st === 'unreadable' || st === 'partial' ? 'completion report' + pg : 'permit documents'} ↗</a>`
+        : 'See the document list below.'}</div>`;
+    }
+    if (w.wcrFlag === 'pending') {
+      return `<div class="wcrinfo pending">County WCR: ${esc(text)}. ${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">Open document ↗</a>` : 'Documents are listed below.'}</div>`;
+    }
+    if (st === 'not_processed') return '';
+    return `<div class="wcrinfo">County WCR: ${esc(text)}${url ? ` · <a href="${esc(url)}" target="_blank" rel="noopener">open report ↗</a>` : ''}${checks ? `<br><small>Check vs state: ${esc(checks)}</small>` : ''}</div>`;
   }
 
   // ---------- County document library (fetched when the popup opens) ----------
@@ -294,6 +364,16 @@
     const stat = (k, v, d) => `<div class="stat"><div class="k">${k}</div><div class="v">${v}</div><div class="d">${d}</div></div>`;
     const methods = s.methods.filter((m) => m.count);
     const noteStacked = s.uniqueLocations < s.total ? `${s.total} records at ${s.uniqueLocations} distinct map points. ` : '';
+    const nRed = state.shown.filter((w) => w.wcrFlag === 'read').length;
+    const nPend = state.shown.filter((w) => w.wcrFlag === 'pending').length;
+    const nOcr = state.shown.filter((w) => w.fieldSrc && Object.values(w.fieldSrc).some((f) => f.src === 'ocr')).length;
+    const wcrNote = (nOcr || nRed || nPend) ? `<div class="wcrsum">${nOcr ? `<span class="ocrTag">${nOcr} with values from county WCR (OCR)</span> ` : ''}${nRed ? `<span class="redTag">${nRed} to read yourself</span> ` : ''}${nPend ? `<span class="pendTag">${nPend} not yet processed</span>` : ''}</div>` : '';
+    let nearest = '';
+    if (s.total === 0) {
+      const allUses = $('optAllUses').checked, destroyed = $('optDestroyed').checked;
+      const cand = M.buildView(state.view, state.stateRecs, state.countyRecs, 1e9).filter((w) => (allUses || w.waterSupply) && (destroyed || !w.destruction) && w.distanceMi != null).sort((a, b) => a.distanceMi - b.distanceMi);
+      if (cand.length) nearest = ` Nearest record: ${esc(cand[0].wcr || cand[0].permit || '')} at ${fmt(cand[0].distanceMi, 2)} mi — widen the radius.`;
+    }
     const nCounty = state.shown.filter((w) => w.group === 'county').length;
     const nNoLog = state.shown.filter((w) => w.methodKey === 'nolog').length;
     const nDup = state.shown.filter((w) => w.matchLabel).length;
@@ -303,8 +383,8 @@
       both: `State WCRs + county permits with duplicates merged (${nDup} merged pairs, drawn at the county parcel point). ${nNoLog} county permits have no WCR match (no log data). Year = drilled date, or permit date for county-only.`,
     }[state.view];
     el.innerHTML = `
-      <h2>${esc(C.groups[state.view].label)} · within ${state.radius} mi · ${s.total} wells</h2>
-      ${s.total === 0 ? '<p>No matching wells. Try a larger radius, another data view, or include all uses.</p>' : `
+      <h2>${esc(C.groups[state.view].label)} · ${state.nearestMode ? `nearest to this point (none within ${state.radius} mi)` : `within ${state.radius} mi`} · ${s.total} wells</h2>
+      ${s.total === 0 ? `<p>No matching wells within ${state.radius} mi.${nearest || ' Try a larger radius, another data view, or include all uses.'}</p>` : `${wcrNote}
       <div class="stats">
         ${stat('Avg depth', fmt(s.depth.avg) + ' <small>ft</small>', `min ${fmt(s.depth.min)} · max ${fmt(s.depth.max)} · median ${fmt(s.depth.median)} · n=${s.depth.n}`)}
         ${stat('Avg yield', fmt(s.gpm.avg, 1) + ' <small>GPM</small>', `median ${fmt(s.gpm.median, 1)} · range ${fmt(s.gpm.min, 1)}–${fmt(s.gpm.max)} · n=${s.gpm.n}${s.yieldZeroCount ? ` · ${s.yieldZeroCount} reported 0` : ''}`)}
@@ -333,7 +413,7 @@
     });
     const t = $('wellTable');
     t.innerHTML = `<thead><tr>${cols.map((c) => `<th data-k="${c.key}" class="${c.num ? 'num' : ''}">${c.label}${c.key === key ? (dir > 0 ? ' ▲' : ' ▼') : ''}</th>`).join('')}</tr></thead>
-      <tbody>${rows.map((w, i) => `<tr data-i="${i}" class="row-${w.group}">${cols.map((c) => `<td class="${c.num ? 'num' : ''} col-${c.key}">${esc(c.fmt ? c.fmt(w[c.key]) : (w[c.key] || '—'))}</td>`).join('')}</tr>`).join('')}</tbody>`;
+      <tbody>${rows.map((w, i) => `<tr data-i="${i}" class="row-${w.group}${w.wcrFlag === 'read' ? ' row-red' : w.wcrFlag === 'pending' ? ' row-pending' : ''}">${cols.map((c) => `<td class="${c.num ? 'num' : ''} col-${c.key}">${esc(c.fmt ? c.fmt(w[c.key]) : (w[c.key] || '—'))}${ocrMark(w, c.key)}</td>`).join('')}</tr>`).join('')}</tbody>`;
     t.querySelectorAll('th').forEach((th) => (th.onclick = () => {
       const k = th.dataset.k; state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 }; renderTable();
     }));
@@ -359,7 +439,9 @@
 
   // ---------- Startup ----------
   const qp = new URLSearchParams(location.search);
-  if (qp.get('r') && C.radiusOptions.includes(+qp.get('r'))) $('radius').value = qp.get('r');
+  const qr = parseFloat(qp.get('r'));
+  setRadius(Number.isFinite(qr) ? qr : C.defaultRadiusMiles, false);
+  CW.load().then(() => { if (state.stateRecs.length || state.countyRecs.length) { CW.apply(state.stateRecs, state.countyRecs, { lat: state.lat, lon: state.lon }); applyFilters(); } });
   if (qp.get('all') === '1') $('optAllUses').checked = true;
   setView(qp.get('view') || C.defaultView);
   const qlat = parseFloat(qp.get('lat')), qlon = parseFloat(qp.get('lon'));

@@ -1,0 +1,66 @@
+{
+ "permit": "DEH2016-LWELL-001272",
+ "processed": "2026-09-27T09:27:04-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41059644",
+   "desc": "WCR redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-11-04",
+   "kb": 842
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35279004",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2016-02-11",
+   "kb": 793
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35350510",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 216
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41059644",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "high",
+   "ocrConf": 95.819099,
+   "raw": "Total Depth of Completed Well 325",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 17.0,
+   "conf": "low",
+   "ocrConf": 43.543758,
+   "raw": "Depth to Static 17\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-02-17",
+   "conf": "high",
+   "ocrConf": 96.748047,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41059644",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "test"
+}

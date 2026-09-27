@@ -85,3 +85,26 @@ td.col-matchLabel { color: #0e7490; }
 .popup .copy.copied::after { content: ' ✓'; color: #16a34a; }
 .popup .item a.open-item { color: inherit; }
 td.col-docHint { text-align: center; }
+
+.controls label.radius { min-width: 100%; }
+.controls label.radius output { font-weight: 700; color: var(--ink); font-size: 15px; }
+input[type=range]#radius { width: 100%; height: 34px; accent-color: #0284c7; margin: 2px 0; }
+.radius-wide { display: flex; gap: 6px; align-items: center; font-size: 12px; color: var(--muted); }
+.radius-wide button.on { background: var(--bg); color: #fff; }
+.well-pin.pin-red { background: #FF1744 !important; border-color: #fff; box-shadow: 0 0 0 2px #FF1744, 0 0 10px 3px rgba(255,23,68,.85); color: #fff !important; }
+.well-pin.pin-somered { box-shadow: 0 0 0 3px #FF1744, 0 0 8px 2px rgba(255,23,68,.8); }
+.well-pin.pin-pending { border-style: dashed; border-color: #64748b; opacity: .85; }
+tr.row-red td { background: #ffe3e8; color: #9f0020; font-weight: 600; }
+tr.row-red td:first-child { box-shadow: inset 4px 0 0 #FF1744; }
+tr.row-red td.col-wcrLabel { color: #fff; background: #FF1744; }
+tr.row-pending td { color: #64748b; font-style: italic; }
+.popup .needread { background: #fff0f3; border: 2px solid #FF1744; border-radius: 8px; padding: 6px 8px; margin: 6px 0; color: #9f0020; font-size: 12px; }
+.popup .readbtn { display: inline-block; margin-top: 5px; background: #FF1744; color: #fff !important; font-weight: 700; padding: 7px 10px; border-radius: 6px; text-decoration: none; font-size: 13px; }
+.popup .wcrinfo { font-size: 12px; background: #f0fdf4; border-left: 3px solid #16a34a; padding: 3px 6px; margin: 4px 0; }
+.popup .wcrinfo.pending { background: #f8fafc; border-left-color: #94a3b8; color: var(--muted); }
+.ocrTag { font-size: 10px; background: #dcfce7; color: #166534; border-radius: 3px; padding: 0 4px; white-space: nowrap; }
+.redTag { font-size: 11px; background: #FF1744; color: #fff; border-radius: 3px; padding: 1px 5px; font-weight: 700; }
+.pendTag { font-size: 11px; background: #e2e8f0; color: #475569; border-radius: 3px; padding: 1px 5px; }
+.wcrsum { margin: 0 0 8px; display: flex; gap: 6px; flex-wrap: wrap; }
+
+sup.ocrmk { font-size: 9px; font-weight: 700; color: #15803d; margin-left: 2px; letter-spacing: .02em; }

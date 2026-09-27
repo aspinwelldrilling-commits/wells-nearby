@@ -7,6 +7,9 @@
 
   const CONFIG = {
     defaultRadiusMiles: 1,
+    minRadiusMiles: 0.05,   // slider 0 = "tapped point": search this small radius internally
+    nearestFetchMiles: 0.5, // r=0: if nothing within minRadiusMiles, show the nearest wells within this distance
+    nearestCount: 3,
     radiusOptions: [0.25, 0.5, 1, 2, 3, 5],
     // Default map center if no location yet (San Diego County)
     defaultCenter: [33.03, -116.87],
@@ -141,6 +144,14 @@
       wellSubtypes: ['DEH-LWQD-Water Well Permit', 'DEH-LWQD-Land Use Archive-Parcel', 'DEH-LWQD-Monitoring Well Permit Application'],
     },
 
+    // Values read from county completion reports by tools/extract_county_wcr.py (cached JSON in the repo).
+    countyWcr: {
+      indexUrl: 'data/county-wcr/index.json',
+      maxGpsShiftMiles: 1.0,     // GPS read from a WCR must be within this of the parcel center, else ignored
+      agreeTolerance: { rel: 0.1, abs: { depthFt: 10, gpm: 2, swlFt: 5 } }, // OCR vs state "agrees" if within this
+      needsReadColor: '#FF1744', // fluorescent red: "read this report yourself"
+    },
+
     // Where each group's markers/labels come from.
     groups: {
       state: { label: 'State (DWR WCR)', short: 'State', color: '#f59e0b' },
@@ -219,6 +230,7 @@
       { key: 'wcr', label: 'WCR #' },
       { key: 'permitId', label: 'County permit' },
       { key: 'matchLabel', label: 'Dup?' },
+      { key: 'wcrLabel', label: 'WCR data' },
       { key: 'docHint', label: 'Docs' },
     ],
   };
