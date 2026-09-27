@@ -115,7 +115,9 @@
     const t0 = performance.now();
     // Fetch a buffer beyond the radius so duplicates straddling the edge still pair up; views are cut back to the radius.
     // At 0 mi ("just this point") fetch a bit wider so the nearest wells can be shown if none are within 0.05 mi.
-    const res = await D.queryAll(lat, lon, Math.max(radius, state.radiusUi === 0 ? C.nearestFetchMiles : 0) + C.matching.bufferMiles);
+    const qr = Math.max(radius, state.radiusUi === 0 ? C.nearestFetchMiles : 0) + C.matching.bufferMiles;
+    // county WCR shards for the same circle load in parallel with the well queries
+    const [res] = await Promise.all([D.queryAll(lat, lon, qr), CW.ensure(lat, lon, qr)]);
     if (id !== state.reqId) return; // a newer search started
     state.stateRecs = res.state.records; state.countyRecs = res.county.records;
     M.findMatches(state.stateRecs, state.countyRecs);

@@ -3,9 +3,14 @@
 import { readFileSync } from 'fs';
 import vm from 'vm';
 for (const f of ['config.js', 'data.js', 'stats.js', 'match.js', 'countywcr.js']) vm.runInThisContext(readFileSync(new URL('../js/' + f, import.meta.url), 'utf8'));
-const idx = JSON.parse(readFileSync(new URL('../data/county-wcr/index.json', import.meta.url), 'utf8')).permits;
+// all permits from the local shards (manifest + tiles), served to the loader as a legacy index
+const dir = new URL('../data/county-wcr/', import.meta.url);
+const man = JSON.parse(readFileSync(new URL('manifest.json', dir), 'utf8'));
+const idx = {};
+for (const k of Object.keys(man.tiles)) Object.assign(idx, JSON.parse(readFileSync(new URL(`tiles/${k}.json`, dir), 'utf8')).permits);
 const realFetch = globalThis.fetch;
-globalThis.fetch = (u, o) => (String(u).includes('index.json') ? Promise.resolve({ ok: true, json: async () => ({ permits: idx }) }) : realFetch(u, o));
+globalThis.fetch = (u, o) => (String(u).includes('manifest.json') ? Promise.resolve({ ok: false })
+  : String(u).includes('index.json') ? Promise.resolve({ ok: true, json: async () => ({ permits: idx }) }) : realFetch(u, o));
 await WellsCountyWcr.load();
 
 

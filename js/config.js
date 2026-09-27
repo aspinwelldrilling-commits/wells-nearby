@@ -146,7 +146,8 @@
 
     // Values read from county completion reports by tools/extract_county_wcr.py (cached JSON in the repo).
     countyWcr: {
-      indexUrl: 'data/county-wcr/index.json',
+      manifestUrl: 'data/county-wcr/manifest.json', // tile manifest (bounds + hash per tile) -> tiles/<key>.json
+      indexUrl: 'data/county-wcr/index.json',       // legacy single file, used only if there is no manifest
       maxGpsShiftMiles: 1.0,     // GPS read from a WCR must be within this of the parcel center, else ignored
       agreeTolerance: { rel: 0.1, abs: { depthFt: 10, gpm: 2, swlFt: 5 } }, // OCR vs state "agrees" if within this
       needsReadColor: '#FF1744', // fluorescent red: "read this report yourself"

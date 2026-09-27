@@ -7,7 +7,7 @@
 
 Per batch (default 150 permits, ~35 min at ~14 s/permit):
   extract_county_wcr.py --permits <batch> --area <id>  ->  headless phone check (tools/verify_wcr_area.py) of a sample of
-  the new permits  ->  git commit + push  ->  wait until the live GitHub Pages index.json has the new permits and re-check a
+  the new permits  ->  git commit + push  ->  wait until the live GitHub Pages manifest/tiles have the new permits and re-check a
   sample on the live site.  If the local check fails, nothing is pushed from then on (extraction continues; see log).
 Resume: just start it again. Permits already in data/county-wcr/ are skipped; progress is derived from the cache files.
 Polite: extract_county_wcr.py makes one county request at a time with --delay between; if a batch is mostly errors
@@ -15,6 +15,8 @@ Polite: extract_county_wcr.py makes one county request at a time with --delay be
 Stop: kill <pid> (SIGTERM; the current permit may be lost and is redone on resume). Lock: .cache/spiral.lock
 """
 import argparse, collections, datetime as dt, fcntl, json, os, random, subprocess, sys, time, urllib.request
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from extract_county_wcr import tile_key  # noqa: E402  (same grid as the shards)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PY = '/workspace/.venv-pw/bin/python'
@@ -73,7 +75,7 @@ Run / resume (background, verify-then-push every 150 permits):
     cd /workspace/wells-app && nohup /workspace/.venv-pw/bin/python tools/spiral_run.py --push >> .cache/spiral.log 2>&1 &
     /workspace/.venv-pw/bin/python tools/spiral_run.py --status     # progress + ETA
 
-"Live" = permits of the area confirmed in the GitHub Pages index.json after the last verified push.
+"Live" = permits of the area confirmed in the live GitHub Pages shards (manifest hash + tile contents) after the last verified push.
 "other" = no_docs + error + destruction report.
 
 | # | Ring | Area | mi from Ramona | Permits | Processed | Readable | Partial | Unreadable | No WCR | Other | Status | Live |
@@ -116,13 +118,23 @@ def verify(permits, base=''):
 
 
 def wait_live(permits, timeout=1200):
+    """True once the live manifest lists, for every tile holding one of these permits, the same content hash as the local
+    manifest, and the live tiles actually contain the permits."""
+    man = load_json(os.path.join(OUT, 'manifest.json'), {}).get('tiles', {})
+    keys = {}
+    for p in permits:
+        r = load_json(os.path.join(OUT, p + '.json'), {})
+        if r.get('lat') is not None: keys.setdefault(tile_key(r['lat'], r['lon']), []).append(p)
     t0 = time.time()
     while time.time() - t0 < timeout:
         try:
-            req = urllib.request.Request(LIVE + f'data/county-wcr/index.json?ts={int(time.time())}', headers={'Cache-Control': 'no-cache'})
-            idx = json.load(urllib.request.urlopen(req, timeout=60)).get('permits', {})
-            missing = [p for p in permits if p not in idx]
-            if not missing: return True, len(idx)
+            get = lambda u: json.load(urllib.request.urlopen(urllib.request.Request(LIVE + u, headers={'Cache-Control': 'no-cache'}), timeout=60))
+            live = get(f'data/county-wcr/manifest.json?ts={int(time.time())}').get('tiles', {})
+            stale = [k for k in keys if (live.get(k) or {}).get('h') != (man.get(k) or {}).get('h')]
+            if not stale:
+                missing = [p for k, ps in keys.items() for p in ps if p not in get(f'data/county-wcr/tiles/{k}.json?v={man[k]["h"]}').get('permits', {})]
+                if not missing: return True, sum(t['n'] for t in live.values())
+                log('   live tiles missing permits:', missing[:5])
         except Exception as e:
             log('   live check error', str(e)[:120])
         time.sleep(45)
@@ -208,7 +220,7 @@ def main():
                                 pr['liveCount'] = total
                                 okl, msgl = verify(s[:3], LIVE)
                                 entry['liveVerified'] = okl
-                                log(f'   live: index has {n} permits; live app check: {"ok" if okl else "FAILED " + msgl[-200:]}')
+                                log(f'   live: shards have {n} permits; live app check: {"ok" if okl else "FAILED " + msgl[-200:]}')
                             else:
                                 log('   live site did not show the new permits within 20 min')
                     except Exception as e:

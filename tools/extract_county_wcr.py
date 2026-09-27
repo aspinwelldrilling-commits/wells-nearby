@@ -8,7 +8,9 @@ For each county water-well permit in an area:
      handwriting is not readable with tesseract and is reported as 'unreadable'),
   4. parse depth, drilling method/fluid, yield (GPM), static water level, date work ended, decimal lat/lon,
      with per-field confidence (tesseract word confidence) and plausibility checks,
-  5. write data/county-wcr/<PERMIT>.json and rebuild data/county-wcr/index.json (what the app loads).
+  5. write data/county-wcr/<PERMIT>.json (with the permit's parcel point) and rebuild the shards the app loads:
+     data/county-wcr/tiles/<iy>_<ix>.json (fixed 0.025 deg lat/lon grid, ~1.7 x 1.45 mi) + data/county-wcr/manifest.json
+     (bounds, count and content hash per tile). The app fetches only the tiles that intersect its search circle.
 
 Polite: one request at a time, --delay seconds (default 2.5) between county requests. Cached permits are skipped
 unless --force. Requires: poppler-utils (pdftotext/pdfimages/pdftoppm), tesseract-ocr, playwright + Chrome.
@@ -17,7 +19,7 @@ Usage:
   /workspace/.venv-pw/bin/python tools/extract_county_wcr.py --lat 33.0417 --lon -116.8681 --radius 1 --area ramona
   /workspace/.venv-pw/bin/python tools/extract_county_wcr.py --permits DEH2014-LWELL-000720,DEH2016-LWELL-001272
 """
-import argparse, base64, datetime as dt, glob, json, os, re, signal, subprocess, sys, tempfile, time, urllib.parse, urllib.request
+import argparse, base64, datetime as dt, glob, hashlib, json, math, os, re, signal, subprocess, sys, tempfile, time, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'county-wcr')
@@ -361,14 +363,94 @@ def reparse_all():
     log(f'reparsed {n} permits; index has {rebuild_index()}')
 
 
+TILE_DEG = 0.025          # shard grid: tile (iy, ix) covers lat [iy*D, (iy+1)*D), lon [ix*D, (ix+1)*D)
+TILES = os.path.join(OUT, 'tiles')
+LEGACY_INDEX = True       # also write the old single index.json (transition; False -> tiny stub)
+ALL_PERMITS_CACHE = os.path.join(ROOT, '.cache', 'all-permits.json')  # written by tools/build_spiral_plan.py
+
+
+def tile_key(lat, lon):
+    return f'{math.floor(lat / TILE_DEG + 1e-9)}_{math.floor(lon / TILE_DEG + 1e-9)}'
+
+
+def tile_bounds(key):
+    iy, ix = (int(x) for x in key.split('_'))
+    return [round(iy * TILE_DEG, 6), round(ix * TILE_DEG, 6), round((iy + 1) * TILE_DEG, 6), round((ix + 1) * TILE_DEG, 6)]  # s, w, n, e
+
+
+def permit_coords(permits):
+    """Parcel point (lat, lon) of each permit from the county layer: local cache first, then the layer itself (batched)."""
+    out = {}
+    try:
+        for p in json.load(open(ALL_PERMITS_CACHE)):
+            if p.get('lat') is not None: out[p['id'].upper()] = (p['lat'], p['lon'])
+    except Exception:
+        pass
+    want = [p for p in permits if p not in out]
+    for i in range(0, len(want), 100):
+        ids = ','.join("'" + p.replace("'", '') + "'" for p in want[i:i + 100])
+        q = urllib.parse.urlencode({'where': f'Record_ID IN ({ids})', 'outFields': 'Record_ID', 'returnGeometry': 'true', 'outSR': 4326, 'f': 'json'})
+        try:
+            for f in http_json(COUNTY_LAYER + '?' + q).get('features', []):
+                g = f.get('geometry') or {}
+                if g.get('y') is not None: out[f['attributes']['Record_ID'].upper()] = (g['y'], g['x'])
+        except Exception as e:
+            log('coordinate lookup failed:', e)
+        time.sleep(1)
+    return {p: out[p] for p in permits if p in out}
+
+
+def slim(r):
+    """What the app needs per permit (see js/countywcr.js)."""
+    f = {}
+    for k, v in (r.get('fields') or {}).items():
+        if k == 'activity': f[k] = v
+        elif k == 'gps': f[k] = {'lat': v['lat'], 'lon': v['lon'], 'conf': v['conf']}
+        elif isinstance(v, dict): f[k] = {'value': v.get('value'), 'conf': v.get('conf')}
+    e = {'status': r.get('status'), 'fields': f, 'bestDocUrl': r.get('bestDocUrl')}
+    if r.get('bestDocPage'): e['bestDocPage'] = r['bestDocPage']
+    return e
+
+
 def rebuild_index():
-    idx = {}
+    """Rebuild tiles/*.json + manifest.json (and the legacy index.json) from all per-permit files. Returns permit count."""
+    recs, missing = {}, []
     for f in sorted(glob.glob(os.path.join(OUT, 'DEH*.json'))):
-        r = json.load(open(f))
-        idx[r['permit']] = {k: r.get(k) for k in ('status', 'processed', 'fields', 'bestDocUrl', 'bestDocPage', 'area')} | {'nDocs': len(r.get('docs', [])), 'nWcrPages': len(r.get('wcrPages', []))}
-    json.dump({'generated': dt.datetime.now().astimezone().isoformat(timespec='seconds'), 'count': len(idx), 'permits': idx},
-              open(os.path.join(OUT, 'index.json'), 'w'), separators=(',', ':'))
-    return len(idx)
+        r = json.load(open(f)); recs[r['permit']] = (f, r)
+        if r.get('lat') is None: missing.append(r['permit'])
+    if missing:  # backfill parcel points into the permit files (once)
+        co = permit_coords(missing)
+        for p, (la, lo) in co.items():
+            f, r = recs[p]; r['lat'], r['lon'] = la, lo
+            json.dump(r, open(f, 'w'), indent=1)
+    tiles, unplaced = {}, []
+    for p, (f, r) in recs.items():
+        if r.get('lat') is None: unplaced.append(p); continue
+        tiles.setdefault(tile_key(r['lat'], r['lon']), {})[p] = slim(r)
+    os.makedirs(TILES, exist_ok=True)
+    man = {}
+    for k in sorted(tiles):
+        body = json.dumps(tiles[k], sort_keys=True, separators=(',', ':'))
+        h = hashlib.sha1(body.encode()).hexdigest()[:10]
+        path = os.path.join(TILES, k + '.json')
+        text = '{"tile":"%s","bounds":%s,"permits":%s}' % (k, json.dumps(tile_bounds(k), separators=(',', ':')), body)
+        if not os.path.exists(path) or open(path).read() != text:
+            open(path, 'w').write(text)
+        man[k] = {'b': tile_bounds(k), 'n': len(tiles[k]), 'h': h}
+    for path in glob.glob(os.path.join(TILES, '*.json')):
+        if os.path.basename(path)[:-5] not in man: os.remove(path)
+    if unplaced: log(f'{len(unplaced)} permits without a parcel point (not in any tile): {",".join(unplaced[:10])}')
+    now = dt.datetime.now().astimezone().isoformat(timespec='seconds')
+    json.dump({'version': 1, 'generated': now, 'tileDeg': TILE_DEG, 'count': sum(m['n'] for m in man.values()),
+               'boundsOrder': 'south,west,north,east', 'tiles': man},
+              open(os.path.join(OUT, 'manifest.json'), 'w'), separators=(',', ':'))
+    if LEGACY_INDEX:
+        idx = {p: {k: r.get(k) for k in ('status', 'processed', 'fields', 'bestDocUrl', 'bestDocPage', 'area')} | {'nDocs': len(r.get('docs', [])), 'nWcrPages': len(r.get('wcrPages', []))}
+               for p, (f, r) in recs.items()}
+        json.dump({'generated': now, 'count': len(idx), 'permits': idx}, open(os.path.join(OUT, 'index.json'), 'w'), separators=(',', ':'))
+    else:
+        json.dump({'moved': 'manifest.json (per-tile shards in tiles/)', 'count': 0, 'permits': {}}, open(os.path.join(OUT, 'index.json'), 'w'))
+    return len(recs)
 
 
 PERMIT_TIMEOUT_S = 300
@@ -394,15 +476,19 @@ def main():
     if a.reparse:
         return reparse_all()
     os.makedirs(OUT, exist_ok=True)
+    coords = {}
     if a.permits:
         permits = [p.strip().upper() for p in a.permits.split(',') if p.strip()]
     else:
         feats = county_permits(a.lat, a.lon, a.radius)
+        coords = {f['Record_ID'].upper(): (f['_lat'], f['_lon']) for f in feats if f.get('Record_ID') and f.get('_lat') is not None}
         permits = [f['Record_ID'] for f in feats if f.get('Record_ID') and (a.include_destruction or not re.search(r'destr', f.get('Type_Work') or '', re.I))]
         log(f'{len(feats)} county permits in {a.radius} mi, {len(permits)} to consider (destruction excluded: {not a.include_destruction})')
     todo = [p for p in dict.fromkeys(permits) if a.force or not os.path.exists(os.path.join(OUT, p + '.json'))]
     if a.limit: todo = todo[:a.limit]
     log(f'{len(todo)} permits to process ({len(permits) - len(todo)} already cached)')
+    missing = [p for p in todo if p not in coords]
+    if missing: coords.update(permit_coords(missing))
     viewer = Viewer()
     stats = {}
     try:
@@ -420,6 +506,7 @@ def main():
                 finally:
                     signal.alarm(0)
                 rec['area'] = a.area
+                if p in coords: rec['lat'], rec['lon'] = coords[p]
                 json.dump(rec, open(os.path.join(OUT, p + '.json'), 'w'), indent=1)
                 stats[rec['status']] = stats.get(rec['status'], 0) + 1
                 f = rec['fields']

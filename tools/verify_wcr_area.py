@@ -15,6 +15,17 @@ from playwright.sync_api import sync_playwright
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+
+def local_index():
+    """All permits from the local shards (data/county-wcr/tiles/*.json), falling back to the legacy index.json."""
+    d = os.path.join(ROOT, 'data', 'county-wcr')
+    if os.path.exists(os.path.join(d, 'manifest.json')):
+        idx = {}
+        for k in json.load(open(os.path.join(d, 'manifest.json')))['tiles']:
+            idx.update(json.load(open(os.path.join(d, 'tiles', k + '.json')))['permits'])
+        return idx
+    return json.load(open(os.path.join(d, 'index.json')))['permits']
+
 JS_FIND = '''(P) => { const s = WellsApp.state.shown;
   const w = s.find(x => x.permit === P) || s.find(x => x.county && x.county.permit === P) || s.find(x => x.match && x.match.county && x.match.county.permit === P);
   if (!w) return {found: false, n: s.length};
@@ -31,7 +42,7 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument('permits'); ap.add_argument('--base', default=''); ap.add_argument('--shots', default='')
     a = ap.parse_args()
     pts = {p['id'].upper(): p for p in json.load(open(os.path.join(ROOT, '.cache', 'all-permits.json')))}
-    idx = json.load(open(os.path.join(ROOT, 'data', 'county-wcr', 'index.json')))['permits']
+    idx = local_index()
     permits = [p.strip().upper() for p in a.permits.split(',') if p.strip()]
     srv = None
     if a.base:
@@ -62,7 +73,7 @@ def main():
                 for la, lo in spots:
                     pg.goto(f"{base}index.html?lat={la:.6f}&lon={lo:.6f}&r=0.25&view=county&all=1&ts={os.getpid()}", timeout=60000)
                     pg.wait_for_selector('#summary:not(.hidden)', timeout=60000)
-                    pg.wait_for_function('() => window.WellsCountyWcr && WellsCountyWcr.index', timeout=30000)
+                    pg.wait_for_function('(P) => window.WellsCountyWcr && WellsCountyWcr.index && WellsCountyWcr.index[P]', arg=P, timeout=30000)
                     pg.wait_for_timeout(1500)
                     r = pg.evaluate(JS_FIND, P)
                     if r['found']: break

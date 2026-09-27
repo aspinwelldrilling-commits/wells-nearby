@@ -36,7 +36,12 @@ are processed offline, per area, and cached in the repo:
   status: `… tools/spiral_run.py --status` · stop: `kill -- -<PID>` (process group; the current permit is redone on resume).
 - Per permit: find docs (DEHQ library) → download likely WCR docs via headless viewer → pdftotext (generated PDFs) or
   tesseract 300 dpi (typed scans) → regex fields (depth, method, GPM, SWL, date ended, decimal lat/long) with per-field
-  confidence (tesseract word confidence: high ≥80, medium ≥50, low). Output `data/county-wcr/<PERMIT>.json` + `index.json`.
+  confidence (tesseract word confidence: high ≥80, medium ≥50, low). Output `data/county-wcr/<PERMIT>.json` (incl. parcel point)
+  + shards the app loads: `tiles/<iy>_<ix>.json` on a fixed 0.025° grid (tile = lat [iy·0.025, +0.025), lon [ix·0.025, +0.025),
+  ≈1.7×1.45 mi, slim entries: status, value+conf per field, best doc link) and `manifest.json` (bounds `b` s,w,n,e, count `n`,
+  content hash `h` per tile). The app (`CW.ensure`) fetches only tiles intersecting the search circle (radius + 0.75 mi buffer)
+  as `tiles/<key>.json?v=<hash>`; the service worker keeps them for offline use. Test: `tools/test-shards.py [--base URL]`,
+  bytes: `tools/measure_wcr_bytes.py [--base URL]`. `index.json` is legacy (only read if there is no manifest).
 - Status: `readable` / `partial` / `unreadable` (handwritten/garbled) / `no_wcr` / `no_docs` / `destruction_wcr` / `error`.
 - App (`js/countywcr.js`): uses only high/medium values from records classified `readable` (partial = mostly handwriting,
   shown only as "unverified" hints in the red popup), within plausible bounds, only to fill fields the state record

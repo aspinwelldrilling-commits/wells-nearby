@@ -13,14 +13,50 @@
 (function (global) {
   'use strict';
   const C = global.WELLS_CONFIG, D = global.WellsData;
-  let INDEX = null;
+  // Data is sharded on a fixed lat/lon grid (tools/extract_county_wcr.py): data/county-wcr/manifest.json lists each tile's
+  // bounds + content hash; only tiles intersecting the search circle are fetched (tiles/<key>.json?v=<hash>, so a changed
+  // tile gets a new URL). The service worker keeps fetched tiles for offline use. Falls back to the old single index.json
+  // if there is no manifest.
+  let INDEX = null, MANIFEST = null, manifestP = null;
+  const loaded = new Map(); // tile key -> hash merged into INDEX
+  const baseUrl = () => C.countyWcr.manifestUrl.replace(/[^/]*$/, '');
 
   async function load() {
-    if (INDEX) return INDEX;
-    try {
-      const r = await fetch(C.countyWcr.indexUrl, { cache: 'no-cache' });
-      INDEX = r.ok ? (await r.json()).permits || {} : {};
-    } catch (e) { INDEX = {}; }
+    if (manifestP) return manifestP;
+    manifestP = (async () => {
+      INDEX = INDEX || {};
+      try {
+        const r = await fetch(C.countyWcr.manifestUrl, { cache: 'no-cache' });
+        if (r.ok) { const m = await r.json(); if (m && m.tiles) MANIFEST = m; }
+      } catch (e) { /* offline and not cached */ }
+      if (!MANIFEST) { // legacy single index
+        try { const r = await fetch(C.countyWcr.indexUrl, { cache: 'no-cache' }); if (r.ok) Object.assign(INDEX, (await r.json()).permits || {}); } catch (e) { /* none */ }
+        MANIFEST = { legacy: true, tiles: {} };
+      }
+      return INDEX;
+    })();
+    return manifestP;
+  }
+
+  /** Tiles of the manifest intersecting the circle (lat, lon, radiusMi). */
+  function tilesFor(lat, lon, radiusMi) {
+    if (!MANIFEST || !MANIFEST.tiles) return [];
+    const dLat = radiusMi / 69.05 + 0.001, dLon = radiusMi / (69.17 * Math.cos(lat * Math.PI / 180)) + 0.001;
+    return Object.entries(MANIFEST.tiles).filter(([, t]) => t.b[0] <= lat + dLat && t.b[2] >= lat - dLat && t.b[1] <= lon + dLon && t.b[3] >= lon - dLon);
+  }
+
+  /** Make sure the WCR results for every county permit within radiusMi of (lat, lon) are loaded. */
+  async function ensure(lat, lon, radiusMi) {
+    await load();
+    const need = tilesFor(lat, lon, radiusMi).filter(([k, t]) => loaded.get(k) !== t.h);
+    await Promise.all(need.map(async ([k, t]) => {
+      try {
+        const r = await fetch(`${baseUrl()}tiles/${k}.json?v=${t.h}`);
+        if (!r.ok) return;
+        const j = await r.json();
+        Object.assign(INDEX, j.permits || {}); loaded.set(k, t.h);
+      } catch (e) { /* offline and not cached: those permits show as not processed */ }
+    }));
     return INDEX;
   }
 
@@ -132,5 +168,5 @@
     not_processed: 'Not yet processed (this area has not been run through the extractor)',
   };
 
-  global.WellsCountyWcr = { load, apply, ocrValues, hints, STATUS_TEXT, get index() { return INDEX; } };
+  global.WellsCountyWcr = { load, ensure, tilesFor, apply, ocrValues, hints, STATUS_TEXT, get index() { return INDEX; }, get manifest() { return MANIFEST; }, get loadedTiles() { return [...loaded.keys()]; } };
 })(typeof window !== 'undefined' ? window : globalThis);
