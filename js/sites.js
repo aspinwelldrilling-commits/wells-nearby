@@ -63,7 +63,7 @@
       if (!f) return { found: false };
       const a = f.attributes, area = a['Shape.STArea()'];
       return { found: true, apn: fmtApn(a.APN), address: situs(a), acreage: a.ACREAGE || (area ? +(area / 43560).toFixed(2) : null),
-        acreageSrc: a.ACREAGE ? 'assessor' : 'GIS polygon area', owner: (a.OWN_NAME1 || '').trim(), legal: (a.LEGLDESC || '').replace(/\\/g, ' ').trim(),
+        acreageSrc: a.ACREAGE ? 'assessor' : 'GIS polygon area', situsNum: a.SITUS_ADDRESS || null, situsStreet: (a.SITUS_STREET || '').trim(), owner: (a.OWN_NAME1 || '').trim(), legal: (a.LEGLDESC || '').replace(/\\/g, ' ').trim(),
         rings: f.geometry && f.geometry.rings ? simplifyRings(f.geometry.rings) : null };
     } finally { clearTimeout(t); }
   }
@@ -72,7 +72,7 @@
     if (!p.found) { rec.apnStatus = rec.apn ? 'manual' : 'none'; rec.parcel = null; rec.address = ''; return; }
     if (!rec.apn || rec.apnSource !== 'manual') { rec.apn = p.apn; rec.apnSource = 'lookup'; }
     rec.apnStatus = rec.apnSource === 'manual' && rec.apn !== p.apn ? 'manual' : 'ok';
-    rec.parcel = { apn: p.apn, address: p.address, acreage: p.acreage, acreageSrc: p.acreageSrc, owner: p.owner, legal: p.legal, rings: p.rings };
+    rec.parcel = { apn: p.apn, address: p.address, situsNum: p.situsNum, situsStreet: p.situsStreet, acreage: p.acreage, acreageSrc: p.acreageSrc, owner: p.owner, legal: p.legal, rings: p.rings };
     rec.address = p.address || '';
   }
 
@@ -89,7 +89,7 @@
     for (const s of sites) {
       if (editing && editing.id === s.id) continue;
       const m = L.marker([s.lat, s.lon], { icon: siteIcon(s.apnStatus === 'pending' ? 'pending' : ''), zIndexOffset: 2000, title: s.customer });
-      m.bindPopup(() => sitePopup(s), { maxWidth: 290 });
+      m.bindPopup(() => sitePopup(s), { maxWidth: 290, maxHeight: Math.max(260, ($('map').clientHeight || 400) - 100) });
       m.addTo(sitesLayer);
     }
   }
@@ -105,9 +105,12 @@
         ${s.notes ? `<tr><td>Notes</td><td>${esc(s.notes)}</td></tr>` : ''}
         <tr><td>Tagged</td><td>${esc(when(s.created))}</td></tr>
       </table>
-      ${s.photo ? `<img class="site-photo" src="${s.photo}" alt="site photo">` : ''}
-      <div class="site-actions"></div>`;
+      ${window.WellsSeptic ? WellsSeptic.summaryHtml(s) : ''}
+      <div class="site-actions"></div>
+      ${window.WellsSeptic ? '<div class="sep-box"></div>' : ''}
+      ${s.photo ? `<img class="site-photo" src="${s.photo}" alt="site photo">` : ''}`;
     actionButtons(s, div.querySelector('.site-actions'), true);
+    if (window.WellsSeptic) { WellsSeptic.fillSite(s, div.querySelector('.sep-box')); WellsSeptic.showForSite(s); }
     return div;
   }
   const when = (iso) => { try { return new Date(iso).toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' }); } catch (e) { return iso || ''; } };
@@ -144,6 +147,7 @@
     const g = b('🧭 Directions', null, 'act-dir'); g.href = gmapsUrl(s); g.target = '_blank'; g.rel = 'noopener'; g.classList.add('btnlink');
     b('📤 Share', () => share(s));
     if (!inPopup) b('🗺 Map', () => showOnMap(s));
+    if (window.WellsSeptic) b('📏 Setbacks', () => WellsSeptic.openSetbacks(s), 'act-setbacks');
     b('✏️ Edit', () => openForm(s));
     if (s.apnStatus === 'pending' || s.apnStatus === 'none') b('🔎 Look up APN', () => retryLookup(s));
     b('🗑', () => removeSite(s), 'danger');
@@ -191,6 +195,7 @@
   // ---------------------------------------------------------------- bottom sheet
   let sheetMode = '', editing = null, watchId = null, gpsTimer = null, draftMarker = null;
   function openSheet(mode, html) {
+    if (sheetMode === 'setback' && mode !== 'setback' && window.WellsSeptic) WellsSeptic.onSheetClose();
     sheetMode = mode;
     const sh = $('sheet');
     sh.innerHTML = html; sh.classList.remove('hidden'); document.body.classList.add('sheet-open');
@@ -198,6 +203,7 @@
     sh.scrollTop = 0;
   }
   function closeSheet() {
+    if (sheetMode === 'setback' && window.WellsSeptic) WellsSeptic.onSheetClose();
     stopGps();
     const sh = $('sheet'); sh.classList.add('hidden'); sh.innerHTML = ''; document.body.classList.remove('sheet-open');
     $('bottomBar').classList.remove('hidden');
@@ -383,7 +389,7 @@
       const it = document.createElement('div'); it.className = 'l-item';
       it.innerHTML = `<div class="l-main"><b>${esc(s.customer)}</b> <small class="muted">${esc(when(s.created))}</small><br>
         APN <b>${esc(s.apn || '—')}</b> ${apnBadge(s)}${s.address ? `<br><small>${esc(s.address)}</small>` : ''}<br>
-        <small class="muted">${s.lat.toFixed(6)}, ${s.lon.toFixed(6)} · ${gpsNote(s)}${s.photo ? ' · 📷' : ''}</small></div><div class="site-actions"></div>`;
+        <small class="muted">${s.lat.toFixed(6)}, ${s.lon.toFixed(6)} · ${gpsNote(s)}${s.photo ? ' · 📷' : ''}</small>${window.WellsSeptic ? WellsSeptic.summaryHtml(s) : ''}</div><div class="site-actions"></div>`;
       it.querySelector('.l-main').onclick = () => showOnMap(s);
       actionButtons(s, it.querySelector('.site-actions'), false);
       box.appendChild(it);
@@ -400,8 +406,10 @@
   }
   function exportCsv() {
     const cols = [['customer', 'Customer'], ['phone', 'Phone'], ['apn', 'APN'], ['apnStatus', 'APN status'], ['address', 'Address'], ['acreage', 'Acres'], ['lat', 'Latitude'], ['lon', 'Longitude'],
-      ['accuracyFt', 'GPS accuracy (ft)'], ['adjusted', 'Pin adjusted'], ['adjustedFt', 'Adjusted (ft)'], ['notes', 'Notes'], ['created', 'Tagged'], ['photo', 'Photo'], ['maps', 'Google Maps']];
-    const val = (s, k) => ({ accuracyFt: s.gps && s.gps.accuracyFt, acreage: s.parcel && s.parcel.acreage, photo: s.photo ? 'yes' : '', maps: `https://www.google.com/maps/search/?api=1&query=${s.lat.toFixed(6)},${s.lon.toFixed(6)}`,
+      ['accuracyFt', 'GPS accuracy (ft)'], ['adjusted', 'Pin adjusted'], ['adjustedFt', 'Adjusted (ft)'], ['notes', 'Notes'], ['created', 'Tagged'], ['photo', 'Photo'], ['maps', 'Google Maps'],
+      ['sewerStatus', 'Sewer/septic (County layer)'], ['septicRecords', 'Septic records found'], ['warnings', 'Setback warnings'], ['marks', 'Septic/sewer marks (distance from well)']];
+    const sx = (s) => (window.WellsSeptic ? WellsSeptic.exportFields(s) : {});
+    const val = (s, k) => (['sewerStatus', 'septicRecords', 'warnings', 'marks'].includes(k) ? sx(s)[k] : undefined) ?? ({ accuracyFt: s.gps && s.gps.accuracyFt, acreage: s.parcel && s.parcel.acreage, photo: s.photo ? 'yes' : '', maps: `https://www.google.com/maps/search/?api=1&query=${s.lat.toFixed(6)},${s.lon.toFixed(6)}`,
       lat: s.lat.toFixed(7), lon: s.lon.toFixed(7), adjusted: s.adjusted ? 'yes' : 'no' }[k] ?? s[k]);
     const q = (v) => (v == null ? '' : /[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v));
     download(`well-sites_${stamp()}.csv`, 'text/csv', [cols.map((c) => c[1]).join(',')].concat(sites.map((s) => cols.map(([k]) => q(val(s, k))).join(','))).join('\n'));
@@ -415,11 +423,12 @@
     <ExtendedData><Data name="APN"><value>${x(s.apn)}</value></Data><Data name="Phone"><value>${x(s.phone)}</value></Data><Data name="GPS accuracy ft"><value>${s.gps && s.gps.accuracyFt != null ? s.gps.accuracyFt : ''}</value></Data><Data name="Tagged"><value>${x(s.created)}</value></Data></ExtendedData>
     <Point><coordinates>${s.lon.toFixed(7)},${s.lat.toFixed(7)},0</coordinates></Point>
   </Placemark>${s.parcel && s.parcel.rings ? `
-  <Placemark><name>${x(s.customer)} — parcel ${x(s.parcel.apn)}</name><styleUrl>#parcel</styleUrl><MultiGeometry>${s.parcel.rings.map((r) => `<Polygon><outerBoundaryIs><LinearRing><coordinates>${r.map(([la, lo]) => `${lo},${la},0`).join(' ')}</coordinates></LinearRing></outerBoundaryIs></Polygon>`).join('')}</MultiGeometry></Placemark>` : ''}`).join('\n');
+  <Placemark><name>${x(s.customer)} — parcel ${x(s.parcel.apn)}</name><styleUrl>#parcel</styleUrl><MultiGeometry>${s.parcel.rings.map((r) => `<Polygon><outerBoundaryIs><LinearRing><coordinates>${r.map(([la, lo]) => `${lo},${la},0`).join(' ')}</coordinates></LinearRing></outerBoundaryIs></Polygon>`).join('')}</MultiGeometry></Placemark>` : ''}${window.WellsSeptic && s.marks && s.marks.length ? '\n  ' + WellsSeptic.kmlFor(s, x) : ''}`).join('\n');
     download(`well-sites_${stamp()}.kml`, 'application/vnd.google-earth.kml+xml', `<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document>
   <name>Proposed well sites (${stamp()})</name>
   <Style id="site"><IconStyle><color>ff00d7ff</color><scale>1.3</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href></Icon></IconStyle></Style>
+  ${window.WellsSeptic ? WellsSeptic.kmlStyles() : ''}
   <Style id="parcel"><LineStyle><color>ff15ccfa</color><width>2</width></LineStyle><PolyStyle><color>2015ccfa</color></PolyStyle></Style>
 ${pm}
 </Document></kml>`);
@@ -457,5 +466,5 @@ ${pm}
   $('btnTagTop').onclick = startTag;
   $('btnSites').onclick = openList;
   refresh().then(() => { retryPending(); const id = new URLSearchParams(location.search).get('site'); const s = id && sites.find((x) => x.id === id); if (s) showOnMap(s); });
-  window.WellsSites = { Store, lookupParcel, refresh, get sites() { return sites; }, startTag, openList, summaryText };
+  window.WellsSites = { Store, lookupParcel, refresh, get sites() { return sites; }, startTag, openList, summaryText, openSheet, closeSheet, toast, showOnMap, get sheetMode() { return sheetMode; } };
 })();

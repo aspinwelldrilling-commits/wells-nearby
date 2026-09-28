@@ -235,6 +235,29 @@
       tapZoom: 16,       // tap the map for the parcel APN from this zoom
       defaultOpacity: 70,
     },
+    // Septic / sewer (js/septic.js). Only APNs, street number/name and coordinates are sent — never customer data.
+    septic: {
+      // County DPW/DEHQ parcel sewer/septic designation (points, one per APN, 10-digit APN without dashes). CORS reflects origin.
+      wwUrl: 'https://geo.sandag.org/server/rest/services/Hosted/WW_Septic_Sewer_Public/FeatureServer/0/query',
+      neighborM: 60,          // neighbors within ~200 ft of the site / tapped point
+      timeoutMs: 20000,
+      serviceAreas: [
+        { name: 'LAFCO sewer service areas (Ramona MWD, Olivenhain MWD, Borrego WD)', nameField: 'NAME',
+          url: 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/LAFCO/lafco_water_and_fire_districts_P/MapServer/51/query' },
+        { name: 'County Sanitation District service areas', nameField: 'label', where: "service_area <> 'OUTSIDE'",
+          url: 'https://geo.sandag.org/server/rest/services/Hosted/Wastewater_District_CN/FeatureServer/0/query' },
+      ],
+      mains: [
+        { name: 'County SD gravity main', fields: 'diameter,material,status,owner', size: 'diameter', mat: 'material',
+          url: 'https://geo.sandag.org/server/rest/services/Hosted/Wastewater_Gravity_Main_CN/FeatureServer/0/query' },
+        { name: 'County SD force main', fields: 'diameter,material,status,owner', size: 'diameter', mat: 'material',
+          url: 'https://geo.sandag.org/server/rest/services/Hosted/Wastewater_Pressurized_Main_CN/FeatureServer/0/query' },
+        { name: 'City of San Diego sewer main', fields: 'size_num,matl_desc,main_typ_desc', size: 'size_num', mat: 'matl_desc',
+          url: 'https://geo.sandag.org/server/rest/services/Hosted/Sewer_Main_SD/FeatureServer/0/query' },
+      ],
+      mainsMinZoom: 15,       // sewer mains are drawn from this zoom (queried for the visible area)
+      mainsCheckFt: 100,      // setback screen: look for mapped public sewer mains this close to the site
+    },
     siteGps: { goodFt: 16, okFt: 50, maxWaitS: 30 },   // accuracy thresholds (ft) + how long to refine the fix
     sitePhoto: { maxPx: 1600, quality: 0.72 },
     tableColumns: [

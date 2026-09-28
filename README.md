@@ -76,3 +76,24 @@ are processed offline, per area, and cached in the repo:
   edit, delete (confirm); export CSV / KML (with parcel polygons) / JSON backup; import backup (merges by id, newer wins).
 - `sw.js`: network-first cache of the app files so the app opens with no signal (map tiles need signal).
 - Test: `/workspace/.venv-pw/bin/python tools/test-sites.py 33.0417 -116.8681 "Name" [--off dlat,dlon] [--base https://…/]`
+
+## Septic / sewer + setbacks — `js/septic.js`, `js/septic-core.js`
+- **Records (DEHQ library)**: site popups (and the map-tap popup → "🚽 Septic / sewer here") list septic layouts, septic permits and
+  old septic files (subcategories `OWTS Layout`, `OWTS Permit`, `Land Use Archive-Parcel`) via `WellsDocs.searchRaw`. Search order:
+  dashed APN (8-digit key `xxx-xxx-xx`; the library matches "contains", so multi-APN archive files are found) → street number +
+  street name (`SITUS_ADDRESS` / `SITUS_STREET`, stored with the site at tagging time; the address search misses archive files).
+  Merged by FileRecordId. "🏘 Neighbors on assessor page xxx-xxx" searches the book-page prefix and groups other parcels' files.
+  Links open `LUEG_View`. The last result is saved with the site (`site.septic`) and shown offline.
+- **Status**: `WW_Septic_Sewer_Public` (geo.sandag.org, County DPW/DEHQ, data through May 2025; 10-digit APN) for the parcel +
+  counts for parcels within 60 m, in plain words with the confidence level (1–6) and a screening-layer caveat.
+- **Map "🚽 Sewer" button** (top-left): service areas (LAFCO layer 51: Ramona / Olivenhain / Borrego MWD; County SD service areas)
+  and public sewer mains (County SD gravity + force mains, City of SD) queried for the view from zoom 15. No public GIS exists for
+  Ramona MWD / Padre Dam / other districts' mains. Remembered in localStorage `wellsNearby.sewer`.
+- **📏 Setbacks** (site popup / My sites): rings at 50 ft (sewer / tight line), 100 ft (tank / leach line), 150 ft (seepage pit);
+  pick an item and tap the map (lines: tap each point, ✓ Finish). Distance = true distance from the well pin to the point or the
+  nearest point of any segment (local WGS84 tangent plane). Inside a setback → red warning with feet; within 10 ft outside →
+  "check with a tape". ✏️ Move (drag handles) / 🗑 Delete. Also checks mapped public sewer mains within 100 ft.
+  Marks: `site.marks = [{id, kind, pts:[[lat,lon]…], created}]`, in CSV (status, warnings, marks with distances), KML (rings +
+  marks) and the JSON backup. While the tool is open `WellsApp.state.mapTool` suppresses the normal tap popups.
+- Privacy: requests carry only APNs, street number/name and coordinates — never customer name/phone/notes.
+- Tests: `node tools/test-septic-core.mjs` (distance/warning unit checks) · `/workspace/.venv-pw/bin/python tools/test-septic.py [--base URL] [--shots DIR]`

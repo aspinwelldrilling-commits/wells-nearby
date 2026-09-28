@@ -54,5 +54,34 @@
     return p;
   }
 
-  global.WellsDocs = { docQueries, search };
+  /** Raw library search with any criteria, e.g. {parcel_number: '284-291-60'} or {street_number, street_name}, plus
+   *  subtypes ['DEH-LWQD-OWTS Layout', ...]. Returns the raw records. Cached per criteria; ts= cache-buster for CORS. */
+  const rawCache = new Map();
+  function searchRaw(criteria, subtypes) {
+    const L = C.docLibrary;
+    const parts = Object.entries(criteria).map(([k, v]) => `${k}=${encodeURIComponent(String(v).trim().toUpperCase())}`);
+    parts.push(`doc_category=${L.category}`);
+    if (subtypes && subtypes.length) parts.push('doc_subcategory=' + subtypes.map(encodeURIComponent).join(','));
+    parts.push(`maxrecord_count=${L.maxRecords}`);
+    const key = parts.join('&');
+    if (rawCache.has(key)) return rawCache.get(key);
+    const once = async () => {
+      const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), L.timeoutMs);
+      try {
+        const r = await fetch(`${L.searchApi}?${key}&ts=${Date.now()}`, { signal: ctl.signal });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return await r.json();
+      } finally { clearTimeout(t); }
+    };
+    const p = (async () => {
+      let j;
+      try { j = await once(); } catch (e) { await new Promise((res) => setTimeout(res, 1200)); j = await once(); }
+      return j.records || [];
+    })();
+    rawCache.set(key, p);
+    p.catch(() => rawCache.delete(key));
+    return p;
+  }
+
+  global.WellsDocs = { docQueries, search, searchRaw };
 })(typeof window !== 'undefined' ? window : globalThis);

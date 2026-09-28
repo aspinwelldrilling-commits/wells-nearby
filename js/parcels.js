@@ -84,7 +84,7 @@
   const fmtApn = (a) => { const s = String(a || '').replace(/\D/g, ''); return s.length === 10 ? `${s.slice(0, 3)}-${s.slice(3, 6)}-${s.slice(6, 8)}-${s.slice(8)}` : String(a || ''); };
   let tapSeq = 0;
   map.on('click', async (e) => {
-    if (!st.on || map.getZoom() < P.tapZoom) return;
+    if (!st.on || map.getZoom() < P.tapZoom || A.state.mapTool) return;
     const seq = ++tapSeq;
     const q = new URLSearchParams({ geometry: `${e.latlng.lng},${e.latlng.lat}`, geometryType: 'esriGeometryPoint', inSR: '4326',
       spatialRel: 'esriSpatialRelIntersects', outFields: 'APN,ACREAGE', returnGeometry: 'true', outSR: '4326', geometryPrecision: '6', f: 'json' });

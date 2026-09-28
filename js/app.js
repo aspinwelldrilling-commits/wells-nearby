@@ -35,6 +35,7 @@
   L.control.scale({ imperial: true, metric: false }).addTo(map);
 
   map.on('click', (e) => {
+    if (state.mapTool) return;   // a map tool (e.g. septic marking in js/septic.js) owns taps
     const { lat, lng } = e.latlng;
     L.popup().setLatLng(e.latlng).setContent(
       `<div class="popup">${lat.toFixed(5)}, ${lng.toFixed(5)}<br><button class="small" id="searchHere">Search here</button></div>`).openOn(map);

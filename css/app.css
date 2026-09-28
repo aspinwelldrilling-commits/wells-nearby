@@ -179,3 +179,65 @@ a.btnlink { display: inline-block; text-decoration: none; color: var(--ink); bac
 .parcel-ctl .pc-hint.warn { color: #b45309; font-weight: 600; }
 .pc-apn { margin-top: 6px; padding-top: 6px; border-top: 1px solid #e2e8f0; font-size: 13px; }
 .pc-apn.muted { color: #64748b; }
+
+/* ---------- septic / sewer (js/septic.js) ---------- */
+.sep-box { margin-top: 8px; border-top: 1px solid var(--line); padding-top: 4px; font-size: 12px; }
+.sep-box .sub, .sep-recs .sub { font-size: 11px; font-weight: 700; color: #155e75; margin-top: 6px; text-transform: uppercase; }
+.sep-status { border-left: 4px solid #94a3b8; background: #f8fafc; padding: 4px 7px; margin: 4px 0; border-radius: 0 6px 6px 0; }
+.sep-status.septic { border-color: #a16207; background: #fefce8; }
+.sep-status.sewer { border-color: #16a34a; background: #f0fdf4; }
+.sep-verdict { font-size: 14px; }
+.sep-verdict small { color: var(--muted); font-size: 11px; }
+.sep-why, .sep-nb { margin-top: 2px; }
+.sep-caveat { margin-top: 3px; font-size: 11px; color: #92400e; font-style: italic; }
+.sep-recs .doclist, .sep-box .doclist { margin: 4px 0; padding-left: 0; list-style: none; }
+.sep-box .doclist li { padding: 4px 0; border-bottom: 1px dotted var(--line); }
+.sep-box .doclist a { font-weight: 600; font-size: 13px; }
+.sep-box .doclist small { display: block; }
+.sep-box .small, .sep-box .muted.small { font-size: 11px; }
+.sep-box button.small { margin-top: 6px; padding: 8px 10px; font-size: 13px; }
+.sep-nbp { margin: 3px 0; } .sep-nbp summary { cursor: pointer; font-weight: 600; padding: 4px 0; }
+.sep-parcel { margin-top: 6px; font-size: 13px; }
+.sep-tapbtn { display: block; margin-top: 6px; }
+.popup .sep-tapbtn { padding: 8px 10px; font-size: 13px; }
+.sb-sum { font-size: 13px; font-weight: 700; padding: 7px 9px; border-radius: 8px; margin: 4px 0; }
+.sb-sum.bad { background: #fee2e2; color: #991b1b; border: 2px solid #dc2626; }
+.sb-sum.near { background: #fef3c7; color: #92400e; }
+.sb-sum.ok { background: #dcfce7; color: #166534; }
+.sb-sum.none { background: #f1f5f9; color: #475569; font-weight: 500; }
+.sheet.compact { max-height: 46vh; }
+body.sheet-open:has(.sheet.compact) { padding-bottom: 46vh; }
+.sb-tools { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin: 6px 0; }
+.sb-tools button { font-size: 13px; padding: 8px 4px; line-height: 1.15; border-radius: 10px; min-height: 52px; font-weight: 600; }
+.sb-tools button span { display: block; font-size: 16px; }
+.sb-tools button small { display: block; font-size: 11px; color: var(--muted); font-weight: 500; }
+.sb-tools button.on { background: #0f172a; color: #fff; border-color: #0f172a; } .sb-tools button.on small { color: #cbd5e1; }
+.sb-instr { background: #eff6ff; border: 2px solid #3b82f6; border-radius: 10px; padding: 8px; font-size: 14px; margin: 4px 0; }
+.sb-row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-top: 6px; }
+.sb-row button { padding: 9px 12px; font-size: 14px; }
+.sb-row button.good, .sb-instr button.good { background: #16a34a; color: #fff; border: 0; }
+.sb-row button.danger { color: #b91c1c; }
+.sb-item { border-top: 1px solid var(--line); padding: 8px 0; font-size: 14px; }
+.sb-item.inside .sb-text { color: #991b1b; font-weight: 700; }
+.sb-item.near .sb-text { color: #92400e; font-weight: 600; }
+.sb-item.ok .sb-text { color: #166534; }
+.sb-mains { font-size: 13px; margin: 8px 0 4px; }
+.sb-mains.bad { color: #991b1b; font-weight: 700; }
+.sb-ring-label { font: 700 11px/16px sans-serif; color: #fff; background: rgba(15,23,42,.8); border: 2px solid; border-radius: 9px; text-align: center; white-space: nowrap; }
+.leaflet-tooltip.sb-tip { font-weight: 700; font-size: 12px; padding: 2px 6px; }
+.leaflet-tooltip.sb-tip.bad { background: #dc2626; color: #fff; border-color: #7f1d1d; }
+.mark-handle div { width: 30px; height: 30px; border-radius: 50%; background: rgba(255,255,255,.95); border: 3px solid #0f172a; box-shadow: 0 0 6px rgba(0,0,0,.6); }
+#map.map-tool { cursor: crosshair; }
+#map.map-tool .leaflet-marker-icon:not(.mark-handle), #map.map-tool path.leaflet-interactive { pointer-events: none; }
+.sewer-ctl { background: #fff; border-radius: 8px; overflow: hidden; }
+.sewer-ctl .sw-btn { display: block; font-size: 14px; font-weight: 600; padding: 8px 10px; min-height: 40px; border: 0; border-radius: 0; background: #fff; color: #0f172a; white-space: nowrap; }
+.sewer-ctl.on .sw-btn { background: #84cc16; color: #111; }
+.sewer-ctl .sw-panel { display: none; padding: 4px 10px 6px; width: 170px; font-size: 13px; }
+.sewer-ctl.open .sw-panel { display: block; }
+.sewer-ctl .sw-panel label { display: flex; align-items: center; gap: 6px; padding: 5px 0; }
+.sewer-ctl .sw-panel input { width: 20px; height: 20px; }
+.sewer-ctl .sw-hint { font-size: 11px; color: #475569; }
+.sw-sw { display: inline-block; width: 10px; height: 10px; margin-right: 3px; vertical-align: -1px; border-radius: 2px; }
+.sw-sw.a { background: #14b8a6; } .sw-sw.b { background: #38bdf8; } .sw-sw.m { background: #84cc16; height: 4px; vertical-align: 2px; }
+/* while a popup is open, the top map buttons (zoom / Lines / Sewer / layers) step aside so a tall popup is readable on a phone */
+.map.popup-open .leaflet-top { opacity: 0; pointer-events: none; transition: opacity .15s; }
