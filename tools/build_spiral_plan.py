@@ -3,7 +3,7 @@
 area center; areas are grouped in rings spiraling outward from Ramona (Travis's base) and ordered by distance within a ring.
 
   python3 tools/build_spiral_plan.py            # re-download permit points (one light paged GIS query) and rebuild
-  python3 tools/build_spiral_plan.py --cached   # reuse .cache/all-permits.json
+  python3 tools/build_spiral_plan.py --cached   # reuse /workspace/wells-state/all-permits.json
 
 Writes tools/spiral_plan.json (areas with permit lists; destruction permits excluded as in extract_county_wcr.py).
 Progress is tracked separately by tools/spiral_run.py (tools/spiral_progress.json + tools/spiral_plan.md).
@@ -11,7 +11,8 @@ Progress is tracked separately by tools/spiral_run.py (tools/spiral_progress.jso
 import json, math, os, re, sys, time, urllib.parse, urllib.request, datetime as dt
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CACHE = os.path.join(ROOT, '.cache', 'all-permits.json')
+STATE = os.environ.get('WELLS_STATE', '/workspace/wells-state')   # outside the repo: survives git clean / .cache loss
+CACHE = os.path.join(STATE, 'all-permits.json')
 PLAN = os.path.join(ROOT, 'tools', 'spiral_plan.json')
 LAYER = 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPLU/DPLU_Map/MapServer/100/query'
 UA = 'WellsNearby-extractor/1.0 (small-business field tool; low-rate)'

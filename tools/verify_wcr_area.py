@@ -8,7 +8,7 @@ shown wells and open its popup. Expected:
                               (or state values if a matched state WCR already has depth)
 Usage:
   /workspace/.venv-pw/bin/python tools/verify_wcr_area.py PERMIT[,PERMIT...] [--base https://.../wells-nearby/] [--shots DIR]
-Exit code 0 = all checks passed.  Coordinates come from .cache/all-permits.json (tools/build_spiral_plan.py).
+Exit code 0 = all checks passed.  Coordinates: the permit files (lat/lon), else /workspace/wells-state/all-permits.json.
 """
 import sys, os, json, http.server, threading, functools, argparse
 from playwright.sync_api import sync_playwright
@@ -41,7 +41,15 @@ JS_FIND = '''(P) => { const s = WellsApp.state.shown;
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('permits'); ap.add_argument('--base', default=''); ap.add_argument('--shots', default='')
     a = ap.parse_args()
-    pts = {p['id'].upper(): p for p in json.load(open(os.path.join(ROOT, '.cache', 'all-permits.json')))}
+    pts = {}
+    try:
+        pts = {p['id'].upper(): p for p in json.load(open(os.path.join(os.environ.get('WELLS_STATE', '/workspace/wells-state'), 'all-permits.json')))}
+    except Exception: pass
+    for P in a.permits.split(','):  # prefer the parcel point stored in the permit file
+        try:
+            r = json.load(open(os.path.join(ROOT, 'data', 'county-wcr', P.strip().upper() + '.json')))
+            if r.get('lat') is not None: pts[P.strip().upper()] = {'lat': r['lat'], 'lon': r['lon']}
+        except Exception: pass
     idx = local_index()
     permits = [p.strip().upper() for p in a.permits.split(',') if p.strip()]
     srv = None

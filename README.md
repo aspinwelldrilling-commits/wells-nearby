@@ -32,8 +32,13 @@ are processed offline, per area, and cached in the repo:
   resumable (cached permits skipped), and every 150 permits runs `tools/verify_wcr_area.py` (headless 412×915 phone check of a
   sample: readable → "county WCR (OCR)" tags, unreadable → red pin + "Read this report yourself" link), commits, pushes, and
   waits for the live Pages index. Progress table: `tools/spiral_plan.md`. Run/resume:
-  `setsid nohup /workspace/.venv-pw/bin/python tools/spiral_run.py --push >> .cache/spiral.log 2>&1 &` ·
+  `setsid nohup /workspace/.venv-pw/bin/python tools/spiral_run.py --push >> /workspace/wells-state/spiral.out 2>&1 < /dev/null &` ·
+  log `/workspace/wells-state/spiral.log` (state lives outside the repo so it survives `.cache` loss / git clean) ·
   status: `… tools/spiral_run.py --status` · stop: `kill -- -<PID>` (process group; the current permit is redone on resume).
+  Safety (after the Sep 28 2026 incident, when tesseract vanished on a box restart and ~1,500 permits were silently
+  marked no_wcr): the extractor refuses to run without its OCR tools (exit 4; the runner auto-installs them with sudo),
+  classifies read/viewer/search failures as `error` (retried, max 2) instead of `no_wcr`, the runner re-does errored or
+  misclassified permits first (REPAIR phase), and a batch with >75% no_wcr (baseline ~40%) is not pushed and stops the run.
 - Per permit: find docs (DEHQ library) → download likely WCR docs via headless viewer → pdftotext (generated PDFs) or
   tesseract 300 dpi (typed scans) → regex fields (depth, method, GPM, SWL, date ended, decimal lat/long) with per-field
   confidence (tesseract word confidence: high ≥80, medium ≥50, low). Output `data/county-wcr/<PERMIT>.json` (incl. parcel point)

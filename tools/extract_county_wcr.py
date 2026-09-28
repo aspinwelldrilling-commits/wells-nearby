@@ -19,7 +19,7 @@ Usage:
   /workspace/.venv-pw/bin/python tools/extract_county_wcr.py --lat 33.0417 --lon -116.8681 --radius 1 --area ramona
   /workspace/.venv-pw/bin/python tools/extract_county_wcr.py --permits DEH2014-LWELL-000720,DEH2016-LWELL-001272
 """
-import argparse, base64, datetime as dt, glob, hashlib, json, math, os, re, signal, subprocess, sys, tempfile, time, urllib.parse, urllib.request
+import argparse, base64, datetime as dt, glob, hashlib, json, math, os, re, shutil, signal, subprocess, sys, tempfile, time, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'county-wcr')
@@ -28,7 +28,7 @@ COUNTY_LAYER = 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPLU/
 DOC_API = 'https://file.sandiegocounty.gov/CoSD_LUEG_Repository_External_API/rest/DEHQDocumentLibrary/SearchDocuments'
 VIEWER = 'https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId='
 UA = 'WellsNearby-extractor/1.0 (small-business field tool; low-rate)'
-SCRIPT_VERSION = 2
+SCRIPT_VERSION = 3  # 3: tool/read/viewer failures -> 'error' (not no_wcr); preflight check of OCR tools
 MAX_DOCS = 4
 MAX_DOC_BYTES = 25_000_000
 MAX_OCR_PAGES = 6
@@ -277,8 +277,17 @@ def merge_pages(pages):
     return best
 
 
+# Errors that mean "we could not look", not "there is no report": a permit with one of these and no WCR page found is
+# classified 'error' (retried), never 'no_wcr'. (Sep 2026: tesseract vanished after a box restart and ~2,300 permits were
+# silently marked no_wcr.)
+HARD_ERROR = re.compile(r'^(read|viewer|no pdf|search)\b', re.I)
+
+
 def classify(record):
     f = record['fields']
+    if not record['wcrPages'] and any(HARD_ERROR.search(e) for e in record.get('errors', [])):
+        return 'error'
+
     usable = [k for k in KEY_FIELDS if k in f and f[k]['conf'] in ('high', 'medium')]
     if not record['docs']:
         return 'no_docs'
@@ -291,6 +300,24 @@ def classify(record):
     if usable:
         return 'partial'
     return 'unreadable'
+
+
+REQUIRED_TOOLS = ['tesseract', 'pdftoppm', 'pdftotext', 'pdfimages', 'pdfinfo']
+
+
+def preflight():
+    """Fail loudly (exit 4) if an OCR/PDF tool is missing or tesseract can't read English — instead of silently
+    classifying every scanned report as no_wcr."""
+    missing = [t for t in REQUIRED_TOOLS if not shutil.which(t)]
+    if not missing:
+        langs = run(['tesseract', '--list-langs'], timeout=30)
+        if 'eng' not in (langs.stdout + langs.stderr).split():
+            missing.append('tesseract language data "eng" (tesseract-ocr-eng)')
+    if not os.path.exists('/usr/bin/google-chrome'):
+        missing.append('/usr/bin/google-chrome')
+    if missing:
+        log('PREFLIGHT FAILED — missing: ' + ', '.join(missing) + '.  Fix: sudo apt-get install -y tesseract-ocr tesseract-ocr-eng poppler-utils')
+        sys.exit(4)
 
 
 def process_permit(permit, viewer, delay, tmp):
@@ -348,6 +375,11 @@ def finalize(rec, all_pages):
     rec['status'] = classify(rec)
 
 
+def load_rec(permit):
+    try: return json.load(open(os.path.join(OUT, permit + '.json')))
+    except Exception: return None
+
+
 def reparse_all():
     """Re-run the parser on cached page text (no network). Use after improving parse_fields()."""
     n = 0
@@ -366,7 +398,7 @@ def reparse_all():
 TILE_DEG = 0.025          # shard grid: tile (iy, ix) covers lat [iy*D, (iy+1)*D), lon [ix*D, (ix+1)*D)
 TILES = os.path.join(OUT, 'tiles')
 LEGACY_INDEX = False      # True = also write the old single index.json (pre-shard app); False = tiny stub
-ALL_PERMITS_CACHE = os.path.join(ROOT, '.cache', 'all-permits.json')  # written by tools/build_spiral_plan.py
+ALL_PERMITS_CACHE = os.path.join(os.environ.get('WELLS_STATE', '/workspace/wells-state'), 'all-permits.json')  # tools/build_spiral_plan.py; optional
 
 
 def tile_key(lat, lon):
@@ -476,6 +508,7 @@ def main():
     if a.reparse:
         return reparse_all()
     os.makedirs(OUT, exist_ok=True)
+    preflight()
     coords = {}
     if a.permits:
         permits = [p.strip().upper() for p in a.permits.split(',') if p.strip()]
@@ -505,7 +538,10 @@ def main():
                     viewer.close(); viewer = Viewer()
                 finally:
                     signal.alarm(0)
-                rec['area'] = a.area
+                old = load_rec(p)
+                rec['area'] = a.area or (old or {}).get('area', '')
+                if old and old.get('status') == 'error' and rec['status'] == 'error':
+                    rec['retries'] = old.get('retries', 0) + 1
                 if p in coords: rec['lat'], rec['lon'] = coords[p]
                 json.dump(rec, open(os.path.join(OUT, p + '.json'), 'w'), indent=1)
                 stats[rec['status']] = stats.get(rec['status'], 0) + 1
