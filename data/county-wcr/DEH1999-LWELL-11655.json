@@ -1,0 +1,53 @@
+{
+ "permit": "DEH1999-LWELL-11655",
+ "processed": "2026-09-27T21:53:06-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35322246",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-07-26",
+   "kb": 507
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35322246",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35322246",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-01-30",
+   "conf": "high",
+   "ocrConf": 95.587555,
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35322246",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "partial",
+ "area": "ramona-east",
+ "lat": 33.07498695937335,
+ "lon": -116.81088012867725
+}
