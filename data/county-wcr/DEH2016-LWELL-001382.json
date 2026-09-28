@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2016-LWELL-001382",
+ "processed": "2026-09-27T23:14:26-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35237030",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-01-10",
+   "kb": 265
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35212317",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 208
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308065",
+   "desc": "approved",
+   "subtype": "Water Well Permit",
+   "scanned": "2016-05-25",
+   "kb": 386
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35237030",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1235.0,
+   "conf": "high",
+   "ocrConf": 96.455299,
+   "raw": "Total Depth of Completed Well 1235",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.321938,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 23.0,
+   "conf": "medium",
+   "ocrConf": 67.977272,
+   "raw": "Water Level 23 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drillin",
+   "conf": "high",
+   "ocrConf": 92.120056,
+   "raw": "Drilling Method Air Drillin Drilling Fluid personal",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-05-23",
+   "conf": "low",
+   "ocrConf": 3.257103,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.05001,
+   "lon": -116.80251,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35237030",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "ramona-east",
+ "lat": 33.05060646711213,
+ "lon": -116.80250880652005
+}

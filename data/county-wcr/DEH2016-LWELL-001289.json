@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2016-LWELL-001289",
+ "processed": "2026-09-27T23:13:48-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298759",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-01-10",
+   "kb": 249
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35200100",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 220
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35179985",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2016-02-26",
+   "kb": 380
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298759",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1185.0,
+   "conf": "high",
+   "ocrConf": 85.248146,
+   "raw": "Total Depth of Completed Well 1185",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.526405,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 49.0,
+   "conf": "medium",
+   "ocrConf": 73.411728,
+   "raw": "Water Level 49 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.235092,
+   "raw": "Drilling Method Air Drilling Drilling Fluid personal",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-05-13",
+   "conf": "medium",
+   "ocrConf": 65.049812,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.05156,
+   "lon": -116.80109,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298759",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "ramona-east",
+ "lat": 33.05315665936686,
+ "lon": -116.80035611525481
+}

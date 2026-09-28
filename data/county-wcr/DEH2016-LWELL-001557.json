@@ -1,0 +1,83 @@
+{
+ "permit": "DEH2016-LWELL-001557",
+ "processed": "2026-09-27T23:16:00-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35241094",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2016-11-11",
+   "kb": 389
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35241081",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 215
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35242169",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-02-05",
+   "kb": 194
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35242169",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1510.0,
+   "conf": "high",
+   "ocrConf": 96.644768,
+   "raw": "Total Depth of Completed Well 1510",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.9561,
+   "raw": "Estimated Yield* 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 90.723984,
+   "raw": "Drilling Method Air Drilling Drilling Fluid an",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-04-28",
+   "conf": "high",
+   "ocrConf": 84.852875,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.0794233,
+   "lon": -116.7779459,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35242169",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "ramona-east",
+ "lat": 33.07932786084954,
+ "lon": -116.77824616950703
+}

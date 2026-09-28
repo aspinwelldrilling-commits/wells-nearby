@@ -1,0 +1,90 @@
+{
+ "permit": "DEH2016-LWELL-001475",
+ "processed": "2026-09-27T23:14:51-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35205932",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 211
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35250222",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-02-05",
+   "kb": 193
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35230703",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2016-09-06",
+   "kb": 477
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35250222",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35250222",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 740.0,
+   "conf": "low",
+   "ocrConf": 33.11824,
+   "raw": "Total Depth of Completed Well 740",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 96.289528,
+   "raw": "Estimated Yield* 18 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 96.015129,
+   "raw": "Water Level 70 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "medium",
+   "ocrConf": 71.429504,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Ai",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.0240038,
+   "lon": -116.8068401,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35250222",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "ramona-east",
+ "lat": 33.02386118103508,
+ "lon": -116.80703117748223
+}

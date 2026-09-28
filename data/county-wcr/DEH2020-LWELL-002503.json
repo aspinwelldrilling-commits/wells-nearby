@@ -1,0 +1,104 @@
+{
+ "permit": "DEH2020-LWELL-002503",
+ "processed": "2026-09-27T23:22:40-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35446433",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-05-20",
+   "kb": 2982
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35607275",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-01-28",
+   "kb": 302
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35458781",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-05-20",
+   "kb": 65
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35446433",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35446433",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 721.0,
+   "conf": "medium",
+   "ocrConf": 67.416687,
+   "raw": "Total Depth of Completed Well 721",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 96.075829,
+   "raw": "Estimated Yield* 150 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 34.0,
+   "conf": "high",
+   "ocrConf": 96.381531,
+   "raw": "Water Level 34 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 91.801529,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 5,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 77.957077,
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-04-24",
+   "conf": "medium",
+   "ocrConf": 74.299164,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.060222,
+   "lon": -116.752006,
+   "conf": "high",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35446433",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "ramona-east",
+ "lat": 33.05786021954124,
+ "lon": -116.75503681300641
+}
