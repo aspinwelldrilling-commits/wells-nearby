@@ -1,0 +1,61 @@
+{
+ "permit": "DEH2015-LWELL-000984",
+ "processed": "2026-09-28T00:28:37-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35136775",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 688
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35171948",
+   "desc": "approved",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-06-09",
+   "kb": 563
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35136775",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.775627,
+   "raw": "Estimated Yield* 300 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 22.0,
+   "conf": "medium",
+   "ocrConf": 68.795616,
+   "raw": "Water Level 22 ss (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-08-25",
+   "conf": "low",
+   "ocrConf": 25.907616,
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35136775",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "partial",
+ "area": "ramona-north",
+ "lat": 33.19143646870781,
+ "lon": -116.90182694156708
+}

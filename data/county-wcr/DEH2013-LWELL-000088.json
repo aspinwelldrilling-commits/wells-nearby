@@ -1,0 +1,75 @@
+{
+ "permit": "DEH2013-LWELL-000088",
+ "processed": "2026-09-28T00:24:43-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35120004",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-16",
+   "kb": 763
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35208558",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-02-10",
+   "kb": 133
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35120004",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35120004",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 95.81929,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-02-13",
+   "conf": "medium",
+   "ocrConf": 66.787033,
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 92.785141,
+   "raw": "Water Level 5 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rota",
+   "conf": "high",
+   "ocrConf": 93.229759,
+   "raw": "Drilling Method Air Rota Drilling Fluid\n",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35120004",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "partial",
+ "area": "ramona-north",
+ "lat": 33.19143646870781,
+ "lon": -116.90182694156708
+}

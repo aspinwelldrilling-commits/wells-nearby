@@ -1,0 +1,70 @@
+{
+ "permit": "DEH2019-LWELL-002241",
+ "processed": "2026-09-28T00:35:03-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35514028",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-06-27",
+   "kb": 5734
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35514028",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "medium",
+   "ocrConf": 96.642815,
+   "raw": "Total Depth of Boring 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 521.0,
+   "conf": "medium",
+   "ocrConf": 57.892361,
+   "raw": "Water Level 521 ss (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 90.82708,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 44.148159,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-04-02",
+   "conf": "high",
+   "ocrConf": 82.556808,
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35514028",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "ramona-north",
+ "lat": 33.17174703553315,
+ "lon": -116.88635657595695
+}

@@ -1,0 +1,69 @@
+{
+ "permit": "DEH2015-LWELL-001134",
+ "processed": "2026-09-28T00:30:16-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35158418",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 403
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35182201",
+   "desc": "APPROVED APPLICATION",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-09-29",
+   "kb": 402
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35158418",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 350.0,
+   "conf": "high",
+   "ocrConf": 96.228668,
+   "raw": "Estimated Yield* 350 (GPM",
+   "page": 4,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 34.0,
+   "conf": "low",
+   "ocrConf": 7.676659,
+   "raw": "Water Level 34 (Feet",
+   "page": 4,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rota Orilling",
+   "conf": "low",
+   "ocrConf": 21.780838,
+   "raw": "Drilling Method Air Rota Orilling Fluid\n",
+   "page": 4,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-08-11",
+   "conf": "medium",
+   "ocrConf": 65.56427,
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35158418",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "partial",
+ "area": "ramona-north",
+ "lat": 33.19143646870781,
+ "lon": -116.90182694156708
+}
