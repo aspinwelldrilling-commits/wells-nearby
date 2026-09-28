@@ -121,6 +121,8 @@
     const [res] = await Promise.all([D.queryAll(lat, lon, qr), CW.ensure(lat, lon, qr)]);
     if (id !== state.reqId) return; // a newer search started
     state.stateRecs = res.state.records; state.countyRecs = res.county.records;
+    // well permits newer than the county GIS layer (Aug 2020) that the extractor found in the DEH library
+    state.countyRecs.push(...CW.libraryRecords(lat, lon, qr, new Set(state.countyRecs.map((c) => c.permit && c.permit.toUpperCase()))));
     M.findMatches(state.stateRecs, state.countyRecs);
     CW.apply(state.stateRecs, state.countyRecs, { lat, lon });
     const inR = (w) => w.distanceMi <= radius;
@@ -133,6 +135,52 @@
     parts.push(`${Math.round(performance.now() - t0)} ms`);
     setStatus(parts.join(' · '), !!(res.state.error && res.county.error));
     applyFilters();
+    parcelHere(lat, lon, id);
+  }
+
+  // ------------------------------------------------ the parcel at the search point: its well permits + septic
+  // The county GIS permit layer ends in Aug 2020 and its points are parcel centres, so a newer well on this parcel only
+  // exists in the DEH document library, filed by APN (exact format XXX-XXX-XX-XX). Several wells per APN are kept.
+  async function parcelHere(lat, lon, id) {
+    const el = $('parcelCard');
+    if (!el || !window.WellsSites) return;
+    el.classList.add('hidden'); el.innerHTML = '';
+    let p;
+    try { p = await WellsSites.lookupParcel(lat, lon); } catch (e) { return; }
+    if (id !== state.reqId || !p || !p.found || !p.apn) return;
+    const apn = W.apnFull(p.apn) || p.apn;
+    let docs = [], libErr = null;
+    try { docs = await W.searchRaw({ parcel_number: apn }); } catch (e) { libErr = e.message || 'failed'; }
+    if (id !== state.reqId) return;
+    const pts = (p.rings || []).flat();
+    const cLat = pts.length ? (Math.min(...pts.map((q) => q[0])) + Math.max(...pts.map((q) => q[0]))) / 2 : lat;
+    const cLon = pts.length ? (Math.min(...pts.map((q) => q[1])) + Math.max(...pts.map((q) => q[1]))) / 2 : lon;
+    const known = new Map(state.countyRecs.filter((c) => c.permit).map((c) => [c.permit.toUpperCase(), c]));
+    const byPermit = new Map();
+    for (const d of docs) { const pid = String(d.permit_id || '').trim().toUpperCase(); if (/-LWELL-/.test(pid)) (byPermit.get(pid) || byPermit.set(pid, []).get(pid)).push(d); }
+    const added = [];
+    for (const [pid, ds] of byPermit) {
+      if (known.has(pid)) continue;
+      const first = ds.map((d) => (d.r_creation_date || '').slice(0, 10)).filter(Boolean).sort()[0];
+      const w = CW.libRecord(pid, cLat, cLon, apn, first, { lat, lon });
+      state.countyRecs.push(w); known.set(pid, w); added.push(pid);
+    }
+    // layer permits filed on this APN too (GIS Parcel_No is XXX-XXX-XX-XX)
+    const onApn = state.countyRecs.filter((c) => c.permit && W.apnFull(c.apn) === apn).map((c) => c.permit.toUpperCase());
+    const wells = [...new Set([...byPermit.keys(), ...onApn])].sort();
+    if (added.length) { M.findMatches(state.stateRecs, state.countyRecs); CW.apply(state.stateRecs, state.countyRecs, { lat, lon }); applyFilters(); }
+    const wellLine = (pid) => { const c = known.get(pid), e = CW.index && CW.index[pid];
+      const tag = c && c.libraryOnly ? ' <small class="muted">library only</small>' : '';
+      const st = e ? ` · <small>${esc(CW.STATUS_TEXT[e.status] || e.status)}</small>` : ' · <small class="muted">WCR not processed yet</small>';
+      const n = (byPermit.get(pid) || []).length;
+      return `<li><b>${esc(pid)}</b>${tag}${st}${n ? ` · <small>${n} doc${n > 1 ? 's' : ''}</small>` : ''}</li>`; };
+    el.innerHTML = `<div class="sub">🏠 This parcel: APN ${esc(apn)}${p.acreage ? ` · ${esc(p.acreage)} ac` : ''}${p.address ? ` · ${esc(p.address)}` : ''}</div>
+      <div><b>Well permits on this APN:</b> ${wells.length ? `<ul class="doclist">${wells.map(wellLine).join('')}</ul>` : '<span class="muted">none found</span>'}
+      ${libErr ? `<div class="bad small">Document library search failed (${esc(libErr)})</div>` : ''}
+      ${added.length ? `<div class="muted small">${added.length} permit${added.length > 1 ? 's are' : ' is'} newer than the county GIS layer (ends Aug 2020); added from the DEH library at the parcel centre.</div>` : ''}</div>
+      <div class="sep-box"></div>`;
+    el.classList.remove('hidden');
+    if (window.WellsSeptic) WellsSeptic.fillBox(el.querySelector('.sep-box'), { apn, apns: [apn], parcel: p, address: p.address || '', lat, lon });
   }
 
   function applyFilters() {

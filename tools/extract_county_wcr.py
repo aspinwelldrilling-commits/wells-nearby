@@ -25,6 +25,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'county-wcr')
 PAGE_CACHE = os.path.join(ROOT, '.cache', 'wcr-pages')   # page text + word confidences (local only, for --reparse)
 COUNTY_LAYER = 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPLU/DPLU_Map/MapServer/100/query'
+PARCEL_LAYER = 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPLU/DPLU_Map/MapServer/0/query'
 DOC_API = 'https://file.sandiegocounty.gov/CoSD_LUEG_Repository_External_API/rest/DEHQDocumentLibrary/SearchDocuments'
 VIEWER = 'https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId='
 UA = 'WellsNearby-extractor/1.0 (small-business field tool; low-rate)'
@@ -62,6 +63,32 @@ def county_permits(lat, lon, radius):
     return [f for f in feats if f.get('_lat') is None or hav(lat, lon, f['_lat'], f['_lon']) <= radius + 0.1]  # +0.1 mi margin: app distances can differ slightly
 
 
+def corridor_circles(path, buffer):
+    """Circles (lat, lon, r) covering a buffer of `buffer` mi around a polyline [(lat, lon), ...], plus a distance fn."""
+    def xy(p, lat0): return ((p[1]) * 69.17 * math.cos(math.radians(lat0)), p[0] * 69.05)
+    lat0 = sum(p[0] for p in path) / len(path)
+    def seg_d(q, a, b):
+        (qx, qy), (ax, ay), (bx, by) = xy(q, lat0), xy(a, lat0), xy(b, lat0)
+        dx, dy = bx - ax, by - ay; L = dx * dx + dy * dy
+        t = 0 if L == 0 else max(0, min(1, ((qx - ax) * dx + (qy - ay) * dy) / L))
+        return math.hypot(qx - ax - t * dx, qy - ay - t * dy)
+    dist = lambda q: min(seg_d(q, path[i], path[i + 1]) for i in range(len(path) - 1)) if len(path) > 1 else seg_d(q, path[0], path[0])
+    circles, step = [], buffer
+    for i in range(max(1, len(path) - 1)):
+        a, b = path[i], path[min(i + 1, len(path) - 1)]
+        (ax, ay), (bx, by) = xy(a, lat0), xy(b, lat0)
+        n = max(1, math.ceil(math.hypot(bx - ax, by - ay) / step))
+        for k in range(n + 1):
+            circles.append((a[0] + (b[0] - a[0]) * k / n, a[1] + (b[1] - a[1]) * k / n, buffer * 1.2))
+    return circles, dist
+
+
+def county_permits_where(where):
+    q = urllib.parse.urlencode({'where': where, 'outFields': '*', 'returnGeometry': 'true', 'outSR': 4326, 'f': 'json'})
+    j = http_json(COUNTY_LAYER + '?' + q)
+    return [dict(f['attributes'], _lat=(f.get('geometry') or {}).get('y'), _lon=(f.get('geometry') or {}).get('x')) for f in j.get('features', [])]
+
+
 def county_permits_raw(lat, lon, radius):
     out, offset = [], 0
     while True:
@@ -78,8 +105,62 @@ def county_permits_raw(lat, lon, radius):
 
 
 def search_docs(permit):
-    q = urllib.parse.urlencode({'record_id': permit.upper(), 'doc_category': 'DEH-LWQD', 'maxrecord_count': 350, 'ts': int(time.time() * 1000)})
-    return http_json(DOC_API + '?' + q).get('records', [])
+    # The library matches record_id as a PREFIX (DEH1981-LWELL-997 also returns DEH1981-LWELL-9972's docs): keep exact hits only.
+    q = urllib.parse.urlencode({'record_id': permit.upper(), 'doc_category': 'DEH-LWQD', 'maxrecord_count': 2000, 'ts': int(time.time() * 1000)})
+    recs = http_json(DOC_API + '?' + q).get('records', [])
+    return [d for d in recs if not d.get('permit_id') or d['permit_id'].strip().upper() == permit.upper()]
+
+
+def apn_dashed(v):
+    """County APN in the library's exact format XXX-XXX-XX-XX (10 digits; an 8-digit APN gets the -00 suffix)."""
+    d = re.sub(r'\D', '', str(v or ''))
+    if len(d) == 8: d += '00'
+    return f'{d[:3]}-{d[3:6]}-{d[6:8]}-{d[8:10]}' if len(d) >= 10 else None
+
+
+def library_parcel_docs(apn):
+    """All DEH-LWQD docs filed under exactly this APN (the library matches parcel_number as a prefix too)."""
+    a = apn_dashed(apn)
+    q = urllib.parse.urlencode({'parcel_number': a, 'doc_category': 'DEH-LWQD', 'maxrecord_count': 2000, 'ts': int(time.time() * 1000)})
+    recs = http_json(DOC_API + '?' + q).get('records', [])
+    return [d for d in recs if re.sub(r'\D', '', d.get('parcel_nbr') or '')[:10] == re.sub(r'\D', '', a)]
+
+
+def parcels_near(lat, lon, radius=None, apn=None):
+    """Assessor parcels (APN 10 digits -> centroid lat, lon) within radius mi of a point, or one APN."""
+    out, offset = {}, 0
+    while True:
+        base = {'outFields': 'APN', 'returnGeometry': 'true', 'outSR': 4326, 'geometryPrecision': 6, 'f': 'json',
+                'resultOffset': offset, 'resultRecordCount': 1000, 'orderByFields': 'APN'}
+        if apn: base['where'] = f"APN='{re.sub(chr(92) + 'D', '', apn_dashed(apn))}'"
+        else: base.update({'where': '1=1', 'geometry': f'{lon},{lat}', 'geometryType': 'esriGeometryPoint', 'inSR': 4326,
+                           'spatialRel': 'esriSpatialRelIntersects', 'distance': radius, 'units': 'esriSRUnit_StatuteMile'})
+        j = http_json(PARCEL_LAYER + '?' + urllib.parse.urlencode(base))
+        feats = j.get('features', [])
+        for f in feats:
+            pts = [pt for ring in (f.get('geometry') or {}).get('rings', []) for pt in ring]
+            if pts and f['attributes'].get('APN'):
+                xs, ys = [p[0] for p in pts], [p[1] for p in pts]
+                out[f['attributes']['APN']] = (round((min(ys) + max(ys)) / 2, 6), round((min(xs) + max(xs)) / 2, 6))
+        if not j.get('exceededTransferLimit') or not feats: break
+        offset += len(feats)
+    return out
+
+
+def library_only_permits(parcels, known, delay=0.5):
+    """LWELL permits filed in the DEH library under these parcels that are NOT in the county GIS layer (the layer stops
+    at Aug 2020). Returns {permit: (lat, lon, apn)} with the parcel centroid as the location. Several wells per APN are kept."""
+    out = {}
+    for i, (apn, (la, lo)) in enumerate(sorted(parcels.items()), 1):
+        try: docs = library_parcel_docs(apn)
+        except Exception as e: log(f'library parcel search {apn} failed: {e}'); continue
+        for d in docs:
+            pid = (d.get('permit_id') or '').strip().upper()
+            if re.search(r'-LWELL-', pid) and pid not in known and pid not in out:
+                out[pid] = (la, lo, apn_dashed(apn))
+        if i % 50 == 0: log(f'library parcel scan {i}/{len(parcels)}: {len(out)} library-only well permits so far')
+        time.sleep(delay)
+    return out
 
 
 def doc_priority(d):
@@ -102,6 +183,18 @@ class Viewer:
         self.page = self.browser.new_page(user_agent=UA)
 
     def fetch(self, file_id):
+        try:
+            return self._fetch(file_id)
+        except Exception as e:
+            # e.g. "Request content was evicted from inspector cache" (large PDFs): one retry on a fresh page
+            log(f'viewer {file_id}: {str(e)[:80]} -> retry on a fresh page')
+            try: self.page.close()
+            except Exception: pass
+            self.page = self.browser.new_page(user_agent=UA)
+            time.sleep(3)
+            return self._fetch(file_id)
+
+    def _fetch(self, file_id):
         with self.page.expect_response(lambda r: 'DataActionGetFile' in r.url, timeout=90000) as resp:
             self.page.goto(VIEWER + str(file_id), wait_until='domcontentloaded', timeout=90000)
         j = resp.value.json()
@@ -441,6 +534,10 @@ def slim(r):
         elif isinstance(v, dict): f[k] = {'value': v.get('value'), 'conf': v.get('conf')}
     e = {'status': r.get('status'), 'fields': f, 'bestDocUrl': r.get('bestDocUrl')}
     if r.get('bestDocPage'): e['bestDocPage'] = r['bestDocPage']
+    if r.get('libraryOnly') and r.get('lat') is not None:
+        # permit not in the county GIS layer (opened after Aug 2020): the app adds it as a county record from this
+        dates = sorted(d['scanned'] for d in r.get('docs') or [] if d.get('scanned'))
+        e['lib'] = {'lat': r['lat'], 'lon': r['lon'], 'apn': r.get('apn'), 'firstDoc': dates[0] if dates else None}
     return e
 
 
@@ -504,19 +601,71 @@ def main():
     ap.add_argument('--include-destruction', action='store_true'); ap.add_argument('--force', action='store_true')
     ap.add_argument('--delay', type=float, default=2.5); ap.add_argument('--limit', type=int, default=0)
     ap.add_argument('--reparse', action='store_true', help='re-parse cached page text, no network')
+    ap.add_argument('--corridor', default='', help='"lat,lon;lat,lon;..." polyline: permits within --buffer mi of it')
+    ap.add_argument('--buffer', type=float, default=0.5)
+    ap.add_argument('--list-only', action='store_true', help='print the permits that would be processed and exit')
+    ap.add_argument('--apns', default='', help='comma list of APNs: process every LWELL permit filed under them in the DEH library')
+    ap.add_argument('--library-parcels', action='store_true', help='radius mode: also scan every parcel in the radius in the DEH '
+                    'library for well permits missing from the GIS layer (layer ends Aug 2020)')
     a = ap.parse_args()
     if a.reparse:
         return reparse_all()
     os.makedirs(OUT, exist_ok=True)
     preflight()
-    coords = {}
-    if a.permits:
+    coords, apn_of = {}, {}
+    if a.apns:
+        permits = []
+        for apn in [x.strip() for x in a.apns.split(',') if x.strip()]:
+            par = parcels_near(None, None, apn=apn)
+            ll = next(iter(par.values()), (None, None))
+            docs = library_parcel_docs(apn)
+            ids = list(dict.fromkeys((d.get('permit_id') or '').strip().upper() for d in docs if re.search(r'-LWELL-', d.get('permit_id') or '')))
+            layer = county_permits_where(f"Parcel_No='{apn_dashed(apn)}'")
+            ids += [f['Record_ID'].upper() for f in layer if f['Record_ID'].upper() not in ids]
+            for f in layer: coords[f['Record_ID'].upper()] = (f['_lat'], f['_lon'])
+            for pid in ids:
+                apn_of[pid] = apn_dashed(apn)
+                if pid not in coords and ll[0] is not None: coords[pid] = ll
+            log(f'APN {apn_dashed(apn)}: {len(docs)} library docs, well permits {ids} ({len(layer)} in GIS layer), parcel centroid {ll}')
+            permits += ids
+    elif a.permits:
         permits = [p.strip().upper() for p in a.permits.split(',') if p.strip()]
+    elif a.corridor:
+        path = [tuple(float(v) for v in pt.split(',')) for pt in a.corridor.split(';') if pt.strip()]
+        circles, dist = corridor_circles(path, a.buffer)
+        feats, par = {}, {}
+        for (la, lo, r) in circles:
+            for f in county_permits_raw(la, lo, r):
+                if f.get('Record_ID') and f.get('_lat') is not None and dist((f['_lat'], f['_lon'])) <= a.buffer: feats[f['Record_ID'].upper()] = f
+            if a.library_parcels:
+                par.update({k: v for k, v in parcels_near(la, lo, r).items() if dist(v) <= a.buffer})
+        feats = list(feats.values())
+        coords = {f['Record_ID'].upper(): (f['_lat'], f['_lon']) for f in feats}
+        permits = [f['Record_ID'].upper() for f in feats if a.include_destruction or not re.search(r'destr', f.get('Type_Work') or '', re.I)]
+        log(f'{len(feats)} county permits within {a.buffer} mi of the corridor ({len(circles)} query circles), {len(permits)} to consider')
+        if a.library_parcels:
+            known = set(coords)
+            log(f'scanning {len(par)} corridor parcels in the DEH library for well permits missing from the GIS layer…')
+            extra = library_only_permits(par, known)
+            for pid, (la, lo, apn) in extra.items(): coords[pid] = (la, lo); apn_of[pid] = apn
+            permits += list(extra)
+            log(f'{len(extra)} library-only well permits: {sorted(extra)}')
     else:
         feats = county_permits(a.lat, a.lon, a.radius)
         coords = {f['Record_ID'].upper(): (f['_lat'], f['_lon']) for f in feats if f.get('Record_ID') and f.get('_lat') is not None}
         permits = [f['Record_ID'] for f in feats if f.get('Record_ID') and (a.include_destruction or not re.search(r'destr', f.get('Type_Work') or '', re.I))]
         log(f'{len(feats)} county permits in {a.radius} mi, {len(permits)} to consider (destruction excluded: {not a.include_destruction})')
+        if a.library_parcels:
+            par = parcels_near(a.lat, a.lon, a.radius)
+            known = {f['Record_ID'].upper() for f in county_permits_raw(a.lat, a.lon, a.radius * 1.25) if f.get('Record_ID')}
+            log(f'scanning {len(par)} parcels in the DEH library for well permits missing from the GIS layer…')
+            extra = library_only_permits(par, known)
+            for pid, (la, lo, apn) in extra.items(): coords[pid] = (la, lo); apn_of[pid] = apn
+            permits += list(extra)
+            log(f'{len(extra)} library-only well permits: {sorted(extra)}')
+    if a.list_only:
+        print(json.dumps({'permits': list(dict.fromkeys(permits)), 'libraryOnly': apn_of, 'coords': {p: coords.get(p) for p in permits}}))
+        return
     todo = [p for p in dict.fromkeys(permits) if a.force or not os.path.exists(os.path.join(OUT, p + '.json'))]
     if a.limit: todo = todo[:a.limit]
     log(f'{len(todo)} permits to process ({len(permits) - len(todo)} already cached)')
@@ -543,6 +692,9 @@ def main():
                 if old and old.get('status') == 'error' and rec['status'] == 'error':
                     rec['retries'] = old.get('retries', 0) + 1
                 if p in coords: rec['lat'], rec['lon'] = coords[p]
+                elif old and old.get('lat') is not None: rec['lat'], rec['lon'] = old['lat'], old['lon']
+                if p in apn_of: rec['apn'], rec['libraryOnly'] = apn_of[p], True
+                elif old and old.get('libraryOnly'): rec['apn'], rec['libraryOnly'] = old.get('apn'), True
                 json.dump(rec, open(os.path.join(OUT, p + '.json'), 'w'), indent=1)
                 stats[rec['status']] = stats.get(rec['status'], 0) + 1
                 f = rec['fields']

@@ -247,7 +247,7 @@ def main():
             log('   extractor PREFLIGHT failed (OCR tools missing) — stopping'); sys.exit(4)
         if r.returncode != 0 and not done:
             log('   extractor failed with nothing done — stopping'); sys.exit(2)
-        if c.get('error', 0) > 0.5 * max(1, len(done)):
+        if len(done) >= 10 and c.get("error", 0) > 0.5 * len(done):
             S['bad_streak'] += 1
             log(f'   mostly errors (county servers?) — backing off 15 min (streak {S["bad_streak"]})')
             if S['bad_streak'] >= 3: log('   3 bad batches in a row — stopping; resume later'); sys.exit(3)

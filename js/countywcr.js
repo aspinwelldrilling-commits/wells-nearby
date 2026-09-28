@@ -60,6 +60,28 @@
     return INDEX;
   }
 
+  /** County permit record for a well permit that is only in the DEH document library (opened after the county GIS
+   *  permit layer ends in Aug 2020). Located at the parcel centre, like layer permits. */
+  function libRecord(permit, lat, lon, apn, firstDoc, origin) {
+    const F = C.sources.county.fieldMap, raw = {};
+    raw[F.permit] = permit; raw[F.apn] = apn || ''; raw[F.lat] = lat; raw[F.lon] = lon;
+    raw[F.dateEnded] = firstDoc ? Date.parse(firstDoc) : null; raw[F.recordType] = 'Well permit (DEH library only)';
+    raw[F.status] = 'Not in county GIS layer (after Aug 2020)'; raw[F.wellUse] = '';
+    const w = D.normalize(raw, F, origin, 'county');
+    w.libraryOnly = true; w.llAccuracy = 'Parcel center (APN, assessor parcel)';
+    return w;
+  }
+  /** Library-only permits cached in the loaded tiles within radiusMi (skipping permits already in `known`). */
+  function libraryRecords(lat, lon, radiusMi, known) {
+    const out = [];
+    for (const [p, e] of Object.entries(INDEX || {})) {
+      if (!e.lib || known.has(p)) continue;
+      if (D.haversineMi(lat, lon, e.lib.lat, e.lib.lon) > radiusMi) continue;
+      out.push(libRecord(p, e.lib.lat, e.lib.lon, e.lib.apn, e.lib.firstDoc, { lat, lon }));
+    }
+    return out;
+  }
+
   const usable = (f) => f && (f.conf === 'high' || f.conf === 'medium');
   const inB = (v, [lo, hi]) => v != null && v >= lo && v <= hi;
 
@@ -168,5 +190,5 @@
     not_processed: 'Not yet processed (this area has not been run through the extractor)',
   };
 
-  global.WellsCountyWcr = { load, ensure, tilesFor, apply, ocrValues, hints, STATUS_TEXT, get index() { return INDEX; }, get manifest() { return MANIFEST; }, get loadedTiles() { return [...loaded.keys()]; } };
+  global.WellsCountyWcr = { load, ensure, libRecord, libraryRecords, tilesFor, apply, ocrValues, hints, STATUS_TEXT, get index() { return INDEX; }, get manifest() { return MANIFEST; }, get loadedTiles() { return [...loaded.keys()]; } };
 })(typeof window !== 'undefined' ? window : globalThis);

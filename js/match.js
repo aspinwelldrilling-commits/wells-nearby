@@ -69,13 +69,21 @@
     }
     cands.sort((a, b) => b.score - a.score);
     const exclusive = new Set();
-    for (const k of cands) {
-      if (k.s.match) continue;
-      if (exclusive.has(k.c)) continue;
-      if (!k.key && k.c.matches.length) continue; // proximity match only for otherwise-unmatched permits
+    const take = (k) => {
       k.s.match = { county: k.c, conf: k.conf, reason: k.reason };
       k.c.matches.push({ state: k.s, conf: k.conf, reason: k.reason });
       if (!k.key) exclusive.add(k.c);
+    };
+    // Pass 1 one-to-one: several wells often share one APN (2 permits + 2 WCRs on a parcel), so each WCR first pairs with
+    // a still-unpaired permit instead of all WCRs piling onto the best-scoring permit (which hid the other permit).
+    for (const k of cands) {
+      if (k.s.match || exclusive.has(k.c) || k.c.matches.length) continue;
+      take(k);
+    }
+    // Pass 2: leftover WCRs with a permit #/APN match may share a permit (re-drills, several logs filed on one permit).
+    for (const k of cands) {
+      if (k.s.match || !k.key || exclusive.has(k.c)) continue;
+      take(k);
     }
     // Labels + copy log data onto county records from their best state match.
     for (const s of stateRecs) {
@@ -114,8 +122,12 @@
         }));
       } else out.push(s);
     }
-    for (const c of countyRecs) if (!c.matches.length) out.push(c);
-    return out.filter(inR);
+    const res = out.filter(inR);
+    // A permit is hidden behind its matched WCR(s); if none of those lands inside the radius (WCR kept its own GPS point
+    // elsewhere), still list the permit so a well on this parcel never disappears.
+    const shown = new Set(res.filter((w) => w.group === 'both').map((w) => w.county));
+    for (const c of countyRecs) if (inR(c) && (!c.matches.length || !shown.has(c))) res.push(c);
+    return res;
   }
 
   global.WellsMatch = { findMatches, buildView, apnKey, permitKey };

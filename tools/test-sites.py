@@ -16,6 +16,13 @@ if not base:
     threading.Thread(target=srv.serve_forever, daemon=True).start()
     base = f'http://127.0.0.1:{srv.server_address[1]}/'
 photo = os.path.join(root, '.cache', 'test-photo.jpg')
+if not os.path.exists(photo):  # fixture (the .cache dir does not survive a box restart): a small generated JPEG
+    os.makedirs(os.path.dirname(photo), exist_ok=True)
+    with sync_playwright() as p0:
+        b0 = p0.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox'])
+        pg0 = b0.new_page(viewport={'width': 640, 'height': 480})
+        pg0.set_content('<body style="margin:0;height:480px;background:linear-gradient(skyblue,olive)"></body>')
+        pg0.screenshot(path=photo, type='jpeg', quality=80); b0.close()
 ok = lambda c, m: print(('PASS ' if c else 'FAIL ') + m)
 with sync_playwright() as p:
     b = p.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox'])

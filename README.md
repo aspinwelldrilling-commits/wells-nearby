@@ -47,6 +47,19 @@ are processed offline, per area, and cached in the repo:
   content hash `h` per tile). The app (`CW.ensure`) fetches only tiles intersecting the search circle (radius + 0.75 mi buffer)
   as `tiles/<key>.json?v=<hash>`; the service worker keeps them for offline use. Test: `tools/test-shards.py [--base URL]`,
   bytes: `tools/measure_wcr_bytes.py [--base URL]`. `index.json` is now a tiny stub (the loader reads it only if there is no manifest).
+- **APNs, exact matching, post-2020 permits:** the DEH library matches `record_id` and `parcel_number` as PREFIXES
+  (`DEH1981-LWELL-997` also returns `…-9972`; `285-030-0` returns other parcels), so every lookup (extractor, `docs.js`,
+  septic) filters to the exact permit / APN. APNs are always sent as `XXX-XXX-XX-XX` (`WellsDocs.apnFull`,
+  `apn_dashed`); an 8-digit APN is searched as the `XXX-XXX-XX` prefix and filtered. The county GIS permit layer stops at
+  Aug 2020, so newer wells exist only in the library: `--apns 285-030-06-00` processes every LWELL permit filed under an APN,
+  `--library-parcels` (radius or corridor mode) scans every parcel in the area for such permits. They are stored with
+  `libraryOnly`, `apn` and the parcel centre, and the tile entry gets `lib` so the app adds them as county permits. Corridor
+  mode: `--corridor "lat,lon;lat,lon;…" --buffer 0.6` (permits within 0.6 mi of the polyline); `--list-only` prints the
+  permit list. Several permits/WCRs on one APN are paired one-to-one first (`match.js`), so none is hidden.
+- App "This parcel" card (under the summary): after every search, the parcel at the search point → all well permits filed
+  under its APN in the DEH library (library-only ones are added to the map/table at the parcel centre) with their WCR status,
+  plus the septic box (status layer + DEH septic records; "Septic on file" when the layer says Not known but OWTS records
+  exist). Test: `tools/test-parcel-here.py [--base URL]` (default parcel 285-030-06-00); unit: `node tools/test-apn-match.mjs`.
 - Status: `readable` / `partial` / `unreadable` (handwritten/garbled) / `no_wcr` / `no_docs` / `destruction_wcr` / `error`.
 - App (`js/countywcr.js`): uses only high/medium values from records classified `readable` (partial = mostly handwriting,
   shown only as "unverified" hints in the red popup), within plausible bounds, only to fill fields the state record

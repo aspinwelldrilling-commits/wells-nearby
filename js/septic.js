@@ -58,7 +58,7 @@
   // (b) DEH septic records
   async function fetchRecords(ctx) {
     const lists = [], tried = [], errors = [];
-    const keys = [...new Set((ctx.apns || []).map(K.apnSearchKey).filter(Boolean))];
+    const keys = [...new Set((ctx.apns || []).map(K.apnDashed).filter(Boolean))];
     for (const k of keys) {   // APN first (primary: addresses change, and the well often comes before the house)
       try { lists.push({ via: 'APN', docs: (await W.searchRaw({ parcel_number: k }, K.SEPTIC_SUBTYPES)).map(K.normDoc) }); tried.push('APN ' + k); }
       catch (e) { errors.push('APN ' + k); }
@@ -104,6 +104,14 @@
     const pRecs = (ctx.apns && ctx.apns.length) || ctx.address ? fetchRecords(ctx).then((res) => { rcEl.innerHTML = recordsHtml(res); refreshPopup(); return res; })
       .catch(() => { rcEl.innerHTML = cache && cache.records ? recordsHtml(cache.records, saved(cache.records.checkedAt)) : '<div class="bad">Septic records unavailable (offline?).</div>'; refreshPopup(); return null; })
       : Promise.resolve((rcEl.innerHTML = '<div class="muted">No APN or address yet — septic records need one.</div>', null));
+    // The screening layer is often "Not known" for rural parcels that DO have a septic system on file with DEH: say so.
+    Promise.all([pStatus, pRecs]).then(([st, res]) => {
+      if (!st || !res || !res.docs || !res.docs.length || /^(sewer|septic)/.test((st.own && st.own.key) || '')) return;
+      const permits = [...new Set(res.docs.map((d) => d.permit).filter(Boolean))];
+      const el = stEl.querySelector('.sep-status');
+      if (el) el.insertAdjacentHTML('beforeend', `<div class="sep-why"><b>🟤 Septic on file:</b> the DEH library has ${res.docs.length} septic record${res.docs.length > 1 ? 's' : ''} for this APN (${permits.map(esc).join(', ')}), so this parcel has (or had) an onsite septic system.</div>`);
+      refreshPopup();
+    });
     const nbBtn = box.querySelector('.sep-nbbtn');
     if (nbBtn) nbBtn.onclick = async (ev) => {
       ev.stopPropagation(); nbBtn.disabled = true; nbBtn.textContent = 'Searching neighbors…';
