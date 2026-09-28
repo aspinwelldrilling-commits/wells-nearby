@@ -1,0 +1,98 @@
+{
+ "permit": "DEH2015-LWELL-001209",
+ "processed": "2026-09-27T20:24:45-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35271956",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2018-11-09",
+   "kb": 1107
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35170629",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-12-14",
+   "kb": 940
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35185752",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 616
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35271956",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 810.0,
+   "conf": "high",
+   "ocrConf": 96.944427,
+   "raw": "Total Depth of Completed Well 810",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 96.620888,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 320.0,
+   "conf": "high",
+   "ocrConf": 82.87854,
+   "raw": "Water Level 320 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 95.608269,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid _Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 75.617264,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-01-29",
+   "conf": "medium",
+   "ocrConf": 79.886147,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.0741,
+   "lon": -116.8914,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35271956",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "ramona",
+ "lat": 33.07421436626928,
+ "lon": -116.89200479196116
+}
