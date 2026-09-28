@@ -1,0 +1,61 @@
+{
+ "permit": "DEH2004-LWELL-15817",
+ "processed": "2026-09-28T02:24:28-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35303887",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-07",
+   "kb": 410
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35303887",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35303887",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 383.0,
+   "conf": "low",
+   "ocrConf": 26.912216,
+   "raw": "TOTAL DEPTH OF BORING 383",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 95.515038,
+   "raw": "ESTIMATED YIELD * 60 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-03-18",
+   "conf": "high",
+   "ocrConf": 93.866501,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35303887",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
+ "area": "highland-valley",
+ "lat": 33.029935098451105,
+ "lon": -116.95140795578752
+}
