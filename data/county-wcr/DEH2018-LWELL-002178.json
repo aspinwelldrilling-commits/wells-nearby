@@ -1,0 +1,96 @@
+{
+ "permit": "DEH2018-LWELL-002178",
+ "processed": "2026-09-28T08:04:28-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35425443",
+   "desc": "WCR redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-05-18",
+   "kb": 21
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35494056",
+   "desc": "approved",
+   "subtype": "Water Well Permit",
+   "scanned": "2018-12-06",
+   "kb": 685
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35389836",
+   "desc": "final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-05-18",
+   "kb": 205
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35425443",
+   "page": 1,
+   "source": "text",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35425443",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well          300",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                   60 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Downhole Hammer             Drilling Fluid    Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2019-01-14",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.1091278,
+   "lon": -116.6720639,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35425443",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "santa-ysabel",
+ "lat": 33.108822478852645,
+ "lon": -116.6724197135179
+}
