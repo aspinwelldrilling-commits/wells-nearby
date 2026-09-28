@@ -1,0 +1,48 @@
+{
+ "permit": "DEH1997-LWELL-8136",
+ "processed": "2026-09-27T18:30:50-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35285912",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-07-24",
+   "kb": 310
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35285912",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 23.073288,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 31.415833,
+   "raw": "WATER LEVEL 400 (Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35285912",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
+ "area": "ramona",
+ "lat": 33.0358766409711,
+ "lon": -116.89538263691028
+}
