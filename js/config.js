@@ -226,6 +226,15 @@
       outFields: 'APN,SITUS_ADDRESS,SITUS_FRACTION,SITUS_PRE_DIR,SITUS_STREET,SITUS_SUFFIX,SITUS_POST_DIR,SITUS_SUITE,SITUS_COMMUNITY,SITUS_ZIP,ACREAGE,Shape.STArea(),OWN_NAME1,LEGLDESC',
       timeoutMs: 12000,
     },
+    // Property lines overlay (js/parcels.js): county MapServer export of the same parcel layer, restyled.
+    parcelLines: {
+      exportUrl: 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPLU/DPLU_Map/MapServer/export',
+      color: [255, 235, 59, 255], widthPt: 1.5,  // bright yellow, thin
+      minZoom: 15,       // the service draws parcels only below 1:36,000
+      labelZoom: 18,     // APN labels in the tiles from this zoom
+      tapZoom: 16,       // tap the map for the parcel APN from this zoom
+      defaultOpacity: 70,
+    },
     siteGps: { goodFt: 16, okFt: 50, maxWaitS: 30 },   // accuracy thresholds (ft) + how long to refine the fix
     sitePhoto: { maxPx: 1600, quality: 0.72 },
     tableColumns: [

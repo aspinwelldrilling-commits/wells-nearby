@@ -53,6 +53,16 @@ are processed offline, per area, and cached in the repo:
 - Add a field: add it to `fieldMap` in both sources in `config.js`, then to `tableColumns` / `wellDetails()`.
 - Geolocation requires HTTPS (or localhost) — host on GitHub Pages / Netlify / Cloudflare Pages.
 
+## Property lines (parcel boundaries) — `js/parcels.js`
+- "▦ Lines" button on the map, top-left under the zoom buttons. On → bright yellow parcel outlines + an opacity slider
+  (0–100 %, step 5); both remembered on the device (localStorage `wellsNearby.parcels`). Off by default.
+- Server-rendered: SanGIS/County `DPLU_Map/MapServer/export` (same "Assessor Parcels" layer 0 as the APN lookup) restyled
+  via `dynamicLayers`, 512 px transparent PNG tiles (2× pixels on phones), in their own pane under the well pins.
+  Shown from zoom 15 (the service only draws parcels below 1:36,000); a "zoom in" hint shows when zoomed out.
+  Zoom ≥ 18: APN labels (layer 1, white/black halo). Zoom ≥ 16: tap the map → the tapped parcel's APN + acreage is added to
+  the tap popup and its outline highlighted (cyan). Settings in `config.js` → `parcelLines`.
+- Tiles are not cached by the service worker (county sends no-store; only useful online). Test: `tools/test-parcels.py [--base URL]`.
+
 ## Proposed well sites (field tagging) — `js/sites.js`
 - "📌 Tag site" (bottom bar / top button): `watchPosition` high-accuracy, live ±ft, keeps the best fix for up to 30 s
   (green ≤16 ft, yellow ≤50 ft, red worse; "Capture anyway" always allowed; "place pin by hand" if no GPS).

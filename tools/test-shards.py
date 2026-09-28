@@ -50,7 +50,7 @@ with sync_playwright() as p, tempfile.TemporaryDirectory() as prof:
     pg.goto(f'{base}index.html?lat=33.0417&lon=-116.8681&r=1&view=both')
     pg.wait_for_function('() => navigator.serviceWorker && navigator.serviceWorker.controller', timeout=30000)
     pg.wait_for_selector('#summary:not(.hidden)', timeout=90000); pg.wait_for_timeout(2000)
-    cached = pg.evaluate("async () => { const ks = await (await caches.open('wells-nearby-shell-v2')).keys(); return ks.map(r => r.url).filter(u => /county-wcr/.test(u)).length; }")
+    cached = pg.evaluate("async () => { const n = (await caches.keys()).find(k => k.startsWith('wells-nearby-shell')); const ks = n ? await (await caches.open(n)).keys() : []; return ks.map(r => r.url).filter(u => /county-wcr/.test(u)).length; }")
     check(cached >= 2, f'service worker cached manifest + tiles ({cached} entries)')
     ctx.set_offline(True)
     pg.reload(wait_until='domcontentloaded'); pg.wait_for_timeout(4000)

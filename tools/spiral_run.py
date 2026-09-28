@@ -97,6 +97,16 @@ def git(*args, check=True):
     return r.stdout.strip()
 
 
+def push_commits():
+    """Push local commits. This checkout is the only writer, so origin/main is normally an ancestor of HEAD and a plain
+    push works even with someone's uncommitted edits in the tree. Otherwise rebase onto origin with --autostash."""
+    git('fetch', '-q', 'origin')
+    behind = subprocess.run(['git', 'merge-base', '--is-ancestor', 'origin/main', 'HEAD'], cwd=ROOT).returncode != 0
+    if behind:
+        git('rebase', '-q', '--autostash', 'origin/main')
+    git('push', '-q', 'origin', 'HEAD:main')
+
+
 def sample(permits, k_read=4, k_red=5):
     by = collections.defaultdict(list)
     for p in permits: by[status_of(p)].append(p)
@@ -211,7 +221,7 @@ def main():
                     git('add', 'data/county-wcr', 'tools/spiral_progress.json', 'tools/spiral_plan.md')
                     git('commit', '-q', '-m', f"WCR cache: {ar['name']} (+{len(done)}, {total}/{ar['count']}) {dict(c)}")
                     try:
-                        git('pull', '-q', '--rebase'); git('push', '-q')
+                        push_commits()
                         entry['commit'] = git('rev-parse', '--short', 'HEAD'); log('   pushed', entry['commit'])
                         if not a.no_push_live_check:
                             live, n = wait_live(done)
@@ -224,7 +234,8 @@ def main():
                             else:
                                 log('   live site did not show the new permits within 20 min')
                     except Exception as e:
-                        log('   push failed:', str(e)[:300]); push_ok = False
+                        # not fatal: the commit stays local and goes out with the next batch's push
+                        log('   push failed (will retry with the next batch):', str(e)[:300])
             pr['batches'].append(entry); save_prog(prog); write_md(plan, prog)
             if push_ok and entry.get('commit'):
                 # commit the tracker update (live status) with the next batch; keep the tree clean otherwise
