@@ -396,7 +396,38 @@
    "liveCount": 498
   },
   "san-pasqual": {
-   "batches": []
+   "batches": [
+    {
+     "at": "2026-09-28T05:51:48-07:00",
+     "n": 150,
+     "counts": {
+      "no_wcr": 48,
+      "unreadable": 88,
+      "partial": 10,
+      "readable": 3,
+      "no_docs": 1
+     },
+     "secPerPermit": 15.1,
+     "verified": true,
+     "commit": "1a86a91",
+     "live": true,
+     "liveVerified": true
+    },
+    {
+     "at": "2026-09-28T06:29:08-07:00",
+     "n": 150,
+     "counts": {
+      "unreadable": 69,
+      "no_docs": 10,
+      "no_wcr": 42,
+      "partial": 23,
+      "readable": 6
+     },
+     "secPerPermit": 14.2,
+     "verified": false
+    }
+   ],
+   "liveCount": 150
   }
  }
 }

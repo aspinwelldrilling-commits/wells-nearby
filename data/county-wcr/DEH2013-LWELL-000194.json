@@ -1,0 +1,95 @@
+{
+ "permit": "DEH2013-LWELL-000194",
+ "processed": "2026-09-28T06:34:06-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35111957",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-16",
+   "kb": 924
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35115094",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-02-12",
+   "kb": 877
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35111957",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35111957",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35111957",
+   "page": 8,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35111957",
+   "page": 9,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1200.0,
+   "conf": "medium",
+   "ocrConf": 96.682877,
+   "raw": "Total Depth of Boring 1200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 9,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 66.882111,
+   "raw": "Water Level _10 (Feet",
+   "page": 9,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 86.077354,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 9,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 64.650581,
+   "page": 9,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-29",
+   "conf": "high",
+   "ocrConf": 96.580696,
+   "page": 9,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35111957",
+ "errors": [],
+ "bestDocPage": 9,
+ "status": "readable",
+ "area": "san-pasqual",
+ "lat": 33.130053974477235,
+ "lon": -116.93513107019923
+}

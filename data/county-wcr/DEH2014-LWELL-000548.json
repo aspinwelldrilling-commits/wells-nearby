@@ -1,0 +1,85 @@
+{
+ "permit": "DEH2014-LWELL-000548",
+ "processed": "2026-09-28T06:38:22-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34759685",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-11-27",
+   "kb": 598
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34698450",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2014-05-29",
+   "kb": 227
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34706732",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 210
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34759685",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 960.0,
+   "conf": "medium",
+   "ocrConf": 96.813339,
+   "raw": "Total Depth of Boring 960",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 4,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 86.820763,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 4,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 33.142448,
+   "raw": "Water Level .60 (Feet",
+   "page": 4,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Ceeay",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Drilling Method Air ceeay Drilling Fluid\n",
+   "page": 4,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-06-04",
+   "conf": "high",
+   "ocrConf": 96.413994,
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34759685",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "readable",
+ "area": "san-pasqual",
+ "lat": 33.17464387486661,
+ "lon": -116.93412337386684
+}

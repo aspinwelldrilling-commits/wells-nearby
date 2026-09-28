@@ -1,0 +1,70 @@
+{
+ "permit": "DEH2005-LWELL-17582",
+ "processed": "2026-09-28T06:16:20-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35461185",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-10",
+   "kb": 215
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35461185",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 960.0,
+   "conf": "medium",
+   "ocrConf": 96.796257,
+   "raw": "Total Depth of Boring 960",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 58.900627,
+   "raw": "Estimated Yield * 25 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 45.268463,
+   "raw": "Drilling Method _ Air Drilling Fluid Foam",
+   "page": 3,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "high",
+   "ocrConf": 87.68837,
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-11-02",
+   "conf": "low",
+   "ocrConf": 43.297096,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35461185",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
+ "area": "san-pasqual",
+ "lat": 33.07042853233925,
+ "lon": -116.92410295368651
+}

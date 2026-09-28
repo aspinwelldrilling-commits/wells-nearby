@@ -1,0 +1,53 @@
+{
+ "permit": "DEH2008-LWELL-19428",
+ "processed": "2026-09-28T06:20:17-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35480114",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-14",
+   "kb": 404
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35480114",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35480114",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 38.0,
+   "conf": "low",
+   "ocrConf": 19.135902,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 38",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Hammer",
+   "conf": "high",
+   "ocrConf": 93.260696,
+   "raw": "DRILLING\nMETHOD air hammer FLUID ",
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35480114",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "partial",
+ "area": "san-pasqual",
+ "lat": 33.10091505494451,
+ "lon": -117.02656095675421
+}

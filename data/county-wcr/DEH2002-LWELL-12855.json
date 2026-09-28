@@ -1,0 +1,54 @@
+{
+ "permit": "DEH2002-LWELL-12855",
+ "processed": "2026-09-28T06:06:39-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35408402",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-07-26",
+   "kb": 400
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35408402",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35408402",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1083.0,
+   "conf": "low",
+   "ocrConf": 34.939453,
+   "raw": "TOTAL DEPTH OF BORING 1083",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.84964,
+   "raw": "ESTIMATED YIELD * 30 (GPM",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35408402",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
+ "area": "san-pasqual",
+ "lat": 33.07022455789061,
+ "lon": -116.92565041325331
+}

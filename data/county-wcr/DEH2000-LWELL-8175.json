@@ -1,0 +1,48 @@
+{
+ "permit": "DEH2000-LWELL-8175",
+ "processed": "2026-09-28T06:03:51-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35387422",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-07-24",
+   "kb": 324
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35387422",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 20",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "low",
+   "ocrConf": 44.00034,
+   "raw": "STATIC\nWATER LeveL__120 Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35387422",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
+ "area": "san-pasqual",
+ "lat": 33.07808142585082,
+ "lon": -117.03540953219195
+}
