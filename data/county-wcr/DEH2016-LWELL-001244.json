@@ -1,0 +1,83 @@
+{
+ "permit": "DEH2016-LWELL-001244",
+ "processed": "2026-09-28T03:03:39-07:00",
+ "version": 2,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35333050",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2016-01-05",
+   "kb": 632
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35293697",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-01-10",
+   "kb": 226
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35293697",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1010.0,
+   "conf": "medium",
+   "ocrConf": 51.796745,
+   "raw": "Total Depth of Completed Well 1010",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 97.006371,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 94.011917,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 51.777084,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-02-10",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.0025,
+   "lon": -116.9051,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35293697",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "highland-valley",
+ "lat": 33.003023242793546,
+ "lon": -116.90420690565973
+}
