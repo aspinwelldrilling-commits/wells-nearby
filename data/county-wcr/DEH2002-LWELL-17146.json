@@ -1,7 +1,7 @@
 {
  "permit": "DEH2002-LWELL-17146",
- "processed": "2026-09-28T09:41:14-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:02:17-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35417449",
@@ -11,13 +11,36 @@
    "kb": 281
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35417449",
- "errors": [
-  "read 35417449: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35417449",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 1309.0,
+   "conf": "low",
+   "ocrConf": 14.293831,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1309",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 32.656342,
+   "raw": "ESTIMATED YIELD * 3 (gpm",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35417449",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
  "area": "lakeside",
  "lat": 32.91111774148878,
  "lon": -116.90296555737393
