@@ -1,7 +1,7 @@
 {
  "permit": "DEH2018-LWELL-002103",
- "processed": "2026-09-28T10:37:12-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:55:23-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35371213",
@@ -18,13 +18,85 @@
    "kb": 526
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35371213",
- "errors": [
-  "read 35371213: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35371213",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35371213",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35371213",
+   "page": 7,
+   "source": "ocr",
+   "nFields": 0
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 1413.0,
+   "conf": "high",
+   "ocrConf": 89.607826,
+   "raw": "Total Depth of Completed Well 1413",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 85.0,
+   "conf": "high",
+   "ocrConf": 96.968086,
+   "raw": "Estimated Yield* 85 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.77877,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Mu",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-10-25",
+   "conf": "medium",
+   "ocrConf": 53.136688,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.8793,
+   "lon": -116.8636,
+   "conf": "high",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 58.0,
+   "conf": "high",
+   "ocrConf": 96.55233,
+   "raw": "Water Level 58 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 84.791267,
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35371213",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
  "area": "lakeside",
  "lat": 32.87791022858051,
  "lon": -116.86476998049339

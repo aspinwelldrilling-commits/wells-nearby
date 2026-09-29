@@ -1,7 +1,7 @@
 {
  "permit": "DEH2019-LWELL-002213",
- "processed": "2026-09-28T10:39:04-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:57:14-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35500606",
@@ -25,14 +25,71 @@
    "kb": 275
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35500606",
- "errors": [
-  "read 35500606: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35500594: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35500606",
+   "page": 6,
+   "source": "text",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35500606",
+   "page": 7,
+   "source": "text",
+   "nFields": 0
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 1440.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well                                1440",
+   "page": 6,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 840.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                                 840 (Feet",
+   "page": 6,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method                 Downhole Hammer                             Dril",
+   "page": 6,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 6,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2019-03-04",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 6,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 32.9113785,
+   "lon": -116.9133589,
+   "conf": "high",
+   "page": 6,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35500606",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
  "area": "lakeside",
  "lat": 32.91129034302061,
  "lon": -116.91327684527457
