@@ -1,15 +1,8 @@
 {
  "permit": "DEH1994-LWELL-526",
- "processed": "2026-09-28T09:08:44-07:00",
- "version": 2,
+ "processed": "2026-09-28T17:23:53-07:00",
+ "version": 4,
  "docs": [
-  {
-   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35394686",
-   "desc": "",
-   "subtype": "Water Well Permit",
-   "scanned": "2017-07-25",
-   "kb": 236
-  },
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35375984",
    "desc": "",
@@ -18,14 +11,19 @@
    "kb": 233
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35394686",
- "errors": [
-  "read 35394686: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35375984: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35375984",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
  ],
- "status": "no_wcr",
+ "fields": {},
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35375984",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
  "area": "lakeside",
  "lat": 32.93198856164186,
  "lon": -116.84245401572035

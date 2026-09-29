@@ -1,15 +1,8 @@
 {
  "permit": "DEH1994-LWELL-524",
- "processed": "2026-09-28T12:34:14-07:00",
- "version": 2,
+ "processed": "2026-09-28T17:23:36-07:00",
+ "version": 4,
  "docs": [
-  {
-   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35447144",
-   "desc": "",
-   "subtype": "Water Well Permit",
-   "scanned": "2017-07-25",
-   "kb": 272
-  },
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34861426",
    "desc": "",
@@ -25,14 +18,28 @@
    "kb": 195
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35447144",
- "errors": [
-  "read 35447144: [Errno 2] No such file or directory: 'tesseract'",
-  "read 34861426: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34861426",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "swlFt": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 12.811401,
+   "raw": "WATER LEVEL 7? __(Ft",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34861426",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
  "area": "alpine",
  "lat": 32.83287423091199,
  "lon": -116.72739845430318
