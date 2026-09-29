@@ -47,6 +47,11 @@ are processed offline, per area, and cached in the repo:
   content hash `h` per tile). The app (`CW.ensure`) fetches only tiles intersecting the search circle (radius + 0.75 mi buffer)
   as `tiles/<key>.json?v=<hash>`; the service worker keeps them for offline use. Test: `tools/test-shards.py [--base URL]`,
   bytes: `tools/measure_wcr_bytes.py [--base URL]`. `index.json` is now a tiny stub (the loader reads it only if there is no manifest).
+- **Small checkable chunks (current mode):** `tools/spiral_run.py --push --chunk <file|ID,ID> --label "<name>"` redoes just those
+  permits (--force, each keeps its area), verifies locally, commits, pushes, waits for the live site, re-checks live, and exits.
+  Every start runs the OCR preflight + canary (`DEH1977-LWELL-5873` must yield WCR pages; PDF cached in the state dir).
+  `--alarm 0.97` for rechecks of no_wcr records (a high no_wcr share is expected there). Spot-check afterwards:
+  `tools/spotcheck_library.py --file <list> --n 30`.
 - **APNs, exact matching, post-2020 permits:** the DEH library matches `record_id` and `parcel_number` as PREFIXES
   (`DEH1981-LWELL-997` also returns `…-9972`; `285-030-0` returns other parcels), so every lookup (extractor, `docs.js`,
   septic) filters to the exact permit / APN. APNs are always sent as `XXX-XXX-XX-XX` (`WellsDocs.apnFull`,
