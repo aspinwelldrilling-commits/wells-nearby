@@ -90,6 +90,17 @@
   <script src="js/parcels.js"></script>
   <script src="js/septic-core.js"></script>
   <script src="js/septic.js"></script>
-  <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});</script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      const hadSw = !!navigator.serviceWorker.controller;
+      navigator.serviceWorker.register('sw.js').then((r) => r.update()).catch(() => {});
+      // a new version took over while this page is open: offer a reload so old and new code are not mixed
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (!hadSw || document.getElementById('swUpdate')) return;
+        const d = document.createElement('button'); d.id = 'swUpdate'; d.type = 'button'; d.className = 'sw-update';
+        d.textContent = '⟳ App updated — tap to reload'; d.onclick = () => location.reload(); document.body.appendChild(d);
+      });
+    }
+  </script>
 </body>
 </html>

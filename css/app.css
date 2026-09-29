@@ -241,3 +241,12 @@ body.sheet-open:has(.sheet.compact) { padding-bottom: 46vh; }
 .sw-sw.a { background: #14b8a6; } .sw-sw.b { background: #38bdf8; } .sw-sw.m { background: #84cc16; height: 4px; vertical-align: 2px; }
 /* while a popup is open, the top map buttons (zoom / Lines / Sewer / layers) step aside so a tall popup is readable on a phone */
 .map.popup-open .leaflet-top { opacity: 0; pointer-events: none; transition: opacity .15s; }
+/* Leaflet gives every .leaflet-control pointer-events:auto, so the faded buttons (Lines opacity slider, zoom, Sewer, layers)
+   still caught taps/clicks meant for the popup under them (e.g. "Search here"); switch them off too. */
+.map.popup-open .leaflet-top .leaflet-control, .map.popup-open .leaflet-top .leaflet-control * { pointer-events: none !important; }
+.sw-update { position: fixed; top: 8px; left: 50%; transform: translateX(-50%); z-index: 2000; background: #0f172a; color: #fff; border: 0; border-radius: 20px; padding: 10px 16px; font-size: 15px; font-weight: 600; box-shadow: 0 2px 10px rgba(0,0,0,.4); }
+.status .small { margin-left: 6px; }
+.map-note { position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); z-index: 1000; max-width: calc(100% - 20px); background: rgba(15,23,42,.92); color: #fff; font-size: 14px; font-weight: 600; padding: 8px 12px; border-radius: 18px; box-shadow: 0 2px 8px rgba(0,0,0,.45); text-align: center; }
+.map-note.hidden { display: none; }
+.map-note.ok { background: rgba(22,101,52,.92); } .map-note.warn { background: rgba(146,64,14,.94); } .map-note.err { background: rgba(153,27,27,.95); }
+.map-note button.small { margin-left: 6px; padding: 4px 10px; font-size: 13px; }

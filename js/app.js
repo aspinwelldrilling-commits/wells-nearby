@@ -34,12 +34,32 @@
   }, { collapsed: true }).addTo(map);
   L.control.scale({ imperial: true, metric: false }).addTo(map);
 
+  // Map tap -> popup with "Search here". The button's handler is bound to THIS popup's own button node. (It used to be
+  // looked up by id in a setTimeout; when a popup was already open, the old one is still in the DOM for Leaflet's
+  // 200 ms fade-out, so the id lookup found the OLD button and the visible one did nothing — "Search here isn't working".)
+  function toolActive() {
+    if (!state.mapTool) return false;
+    // self-heal: a map tool only owns taps while its sheet is actually open (e.g. setbacks closed some other way)
+    if (window.WellsSeptic && WellsSeptic.isActive && !WellsSeptic.isActive()) { state.mapTool = false; WellsSeptic.onSheetClose(); return false; }
+    return true;
+  }
+  function searchHerePopup(latlng) {
+    const { lat, lng } = latlng;
+    const box = document.createElement('div'); box.className = 'popup tap-popup';
+    box.innerHTML = `${lat.toFixed(5)}, ${lng.toFixed(5)}<br><button type="button" class="small search-here" id="searchHere">Search here</button>`;
+    const b = box.querySelector('button');
+    b.dataset.lat = lat; b.dataset.lon = lng;
+    L.DomEvent.on(b, 'click', (ev) => { L.DomEvent.stop(ev); searchHereGo(lat, lng, b); });
+    return L.popup({ maxWidth: 310 }).setLatLng(latlng).setContent(box).openOn(map);
+  }
+  function searchHereGo(lat, lng, b) {
+    if (b) { b.disabled = true; b.textContent = 'Searching…'; }
+    map.closePopup();
+    setLocation(lat, lng, 'map tap');
+  }
   map.on('click', (e) => {
-    if (state.mapTool) return;   // a map tool (e.g. septic marking in js/septic.js) owns taps
-    const { lat, lng } = e.latlng;
-    L.popup().setLatLng(e.latlng).setContent(
-      `<div class="popup">${lat.toFixed(5)}, ${lng.toFixed(5)}<br><button class="small" id="searchHere">Search here</button></div>`).openOn(map);
-    setTimeout(() => { const b = $('searchHere'); if (b) b.onclick = () => { map.closePopup(); setLocation(lat, lng, 'map tap'); }; }, 0);
+    if (toolActive()) return;   // a map tool (e.g. septic marking in js/septic.js) owns taps
+    searchHerePopup(e.latlng);
   });
 
   // ---------- Controls ----------
@@ -83,6 +103,19 @@
   }
 
   function setStatus(msg, err) { const s = $('status'); s.innerHTML = msg; s.classList.toggle('err', !!err); }
+  // The status line sits above the map and is often scrolled out of view (desktop, or zoomed-in phone), so a search
+  // started from the map also reports on the map itself: "Searching…", the result count, "No signal" / error + Retry.
+  const mapNote = L.DomUtil.create('div', 'map-note hidden', map.getContainer());
+  L.DomEvent.disableClickPropagation(mapNote); L.DomEvent.disableScrollPropagation(mapNote);
+  let mapNoteT = null;
+  map.on('popupopen', () => { if (!mapNote.classList.contains('busy')) mapNote.classList.add('hidden'); });   // never cover a popup button
+  function note(html, kind, ms) {
+    clearTimeout(mapNoteT);
+    mapNote.className = 'map-note' + (kind ? ' ' + kind : '');
+    mapNote.innerHTML = html;
+    const r = mapNote.querySelector('.note-retry'); if (r) r.onclick = () => { if (state.lat != null) search(); };
+    if (ms) mapNoteT = setTimeout(() => mapNote.classList.add('hidden'), ms);
+  }
 
   function locate() {
     if (!('geolocation' in navigator)) return setStatus('Geolocation not available — enter coordinates manually.', true);
@@ -108,34 +141,65 @@
     search();
   }
 
+  // A search must always end in a result or a clear message (no signal / error + Retry), never a silent stall.
+  function retryHtml(msg) { return `${msg} <button type="button" class="small" id="btnRetry">↻ Retry</button>`; }
+  function bindRetry() { const b = $('btnRetry'); if (b) b.onclick = () => { if (state.lat != null) search(); }; }
   async function search() {
     state.radius = effRadius(state.radiusUi);
     const { lat, lon, radius } = state, id = ++state.reqId;
-    drawMe();
-    setStatus(`Searching ${radius} mi around ${lat.toFixed(5)}, ${lon.toFixed(5)}…`);
-    const t0 = performance.now();
-    // Fetch a buffer beyond the radius so duplicates straddling the edge still pair up; views are cut back to the radius.
-    // At 0 mi ("just this point") fetch a bit wider so the nearest wells can be shown if none are within 0.05 mi.
-    const qr = Math.max(radius, state.radiusUi === 0 ? C.nearestFetchMiles : 0) + C.matching.bufferMiles;
-    // county WCR shards for the same circle load in parallel with the well queries
-    const [res] = await Promise.all([D.queryAll(lat, lon, qr), CW.ensure(lat, lon, qr)]);
-    if (id !== state.reqId) return; // a newer search started
-    state.stateRecs = res.state.records; state.countyRecs = res.county.records;
-    // well permits newer than the county GIS layer (Aug 2020) that the extractor found in the DEH library
-    state.countyRecs.push(...CW.libraryRecords(lat, lon, qr, new Set(state.countyRecs.map((c) => c.permit && c.permit.toUpperCase()))));
-    M.findMatches(state.stateRecs, state.countyRecs);
-    CW.apply(state.stateRecs, state.countyRecs, { lat, lon });
-    const inR = (w) => w.distanceMi <= radius;
-    const parts = [];
-    parts.push(res.state.error ? `<span class="bad">State data failed: ${esc(res.state.error)}</span>`
-      : `State: ${state.stateRecs.filter(inR).length} records${res.state.errors && res.state.errors.length ? ' (fallback source)' : ''}`);
-    parts.push(res.county.error ? `<span class="bad">County data failed: ${esc(res.county.error)}</span>`
-      : `County: ${state.countyRecs.filter(inR).length} permits`);
-    if (res.state.truncated || res.county.truncated) parts.push('<b>RESULT TRUNCATED — reduce radius</b>');
-    parts.push(`${Math.round(performance.now() - t0)} ms`);
-    setStatus(parts.join(' · '), !!(res.state.error && res.county.error));
-    applyFilters();
-    parcelHere(lat, lon, id);
+    const offline = () => navigator.onLine === false;
+    let slowT = null;
+    try {
+      drawMe();
+      setStatus(`Searching ${radius} mi around ${lat.toFixed(5)}, ${lon.toFixed(5)}…${offline() ? ' <b>(no signal?)</b>' : ''}`);
+      state.searching = true;
+      note(`⏳ Searching ${radius} mi here…${offline() ? ' (no signal?)' : ''}`, 'busy');
+      slowT = setTimeout(() => { if (id === state.reqId && state.searching) note('⏳ Still searching… a state or county server is slow', 'busy'), setStatus(`Still searching ${radius} mi around ${lat.toFixed(5)}, ${lon.toFixed(5)}… (a state or county server is slow; it gives up after about a minute)`); }, 10000);
+      const t0 = performance.now();
+      // Fetch a buffer beyond the radius so duplicates straddling the edge still pair up; views are cut back to the radius.
+      // At 0 mi ("just this point") fetch a bit wider so the nearest wells can be shown if none are within 0.05 mi.
+      const qr = Math.max(radius, state.radiusUi === 0 ? C.nearestFetchMiles : 0) + C.matching.bufferMiles;
+      // county WCR shards for the same circle load in parallel with the well queries (never fatal)
+      const [res] = await Promise.all([D.queryAll(lat, lon, qr), CW.ensure(lat, lon, qr).catch(() => null)]);
+      if (id !== state.reqId) return; // a newer search started
+      state.stateRecs = res.state.records; state.countyRecs = res.county.records;
+      // well permits newer than the county GIS layer (Aug 2020) that the extractor found in the DEH library
+      state.countyRecs.push(...CW.libraryRecords(lat, lon, qr, new Set(state.countyRecs.map((c) => c.permit && c.permit.toUpperCase()))));
+      M.findMatches(state.stateRecs, state.countyRecs);
+      CW.apply(state.stateRecs, state.countyRecs, { lat, lon });
+      const inR = (w) => w.distanceMi <= radius;
+      const both = !!(res.state.error && res.county.error);
+      if (both && offline()) {
+        setStatus(retryHtml('📵 No signal — could not search here. Move to better coverage and tap Retry.'), true); bindRetry();
+        note('📵 No signal — could not search here. <button type="button" class="small note-retry">↻ Retry</button>', 'err');
+        applyFilters();
+        return;
+      }
+      const parts = [];
+      parts.push(res.state.error ? `<span class="bad">State data failed: ${esc(res.state.error)}</span>`
+        : `State: ${state.stateRecs.filter(inR).length} records${res.state.errors && res.state.errors.length ? ' (fallback source)' : ''}`);
+      parts.push(res.county.error ? `<span class="bad">County data failed: ${esc(res.county.error)}</span>`
+        : `County: ${state.countyRecs.filter(inR).length} permits`);
+      if (res.state.truncated || res.county.truncated) parts.push('<b>RESULT TRUNCATED — reduce radius</b>');
+      parts.push(`${Math.round(performance.now() - t0)} ms`);
+      const anyErr = !!(res.state.error || res.county.error);
+      if (anyErr && offline()) parts.unshift('<b>📵 No signal</b> — showing what could be loaded');
+      setStatus(anyErr ? retryHtml(parts.join(' · ')) : parts.join(' · '), both); if (anyErr) bindRetry();
+      applyFilters();
+      const nShown = state.shown.length;
+      const found = state.nearestMode ? `No wells within ${radius} mi — showing the nearest ${nShown}` : nShown ? `${nShown} well${nShown > 1 ? 's' : ''} within ${radius} mi` : `No wells found within ${radius} mi — try a wider radius`;
+      if (anyErr) note(`${offline() ? '📵 No signal — ' : '⚠ '}${res.state.error && res.county.error ? 'search failed' : (res.state.error ? 'state' : 'county') + ' data failed'} · ${esc(found)} <button type="button" class="small note-retry">↻ Retry</button>`, 'err');
+      else note(`✓ ${esc(found)}`, nShown ? 'ok' : 'warn', 6000);
+      parcelHere(lat, lon, id).catch((e) => console.warn('parcel card failed', e));
+    } catch (e) {
+      if (id !== state.reqId) return;
+      console.error('search failed', e);
+      setStatus(retryHtml(offline() ? '📵 No signal — could not search here.' : `Search failed (${esc(e && e.message || e)}).`), true); bindRetry();
+      note(`${offline() ? '📵 No signal' : '⚠ Search failed'} <button type="button" class="small note-retry">↻ Retry</button>`, 'err');
+    } finally {
+      clearTimeout(slowT);
+      if (id === state.reqId) state.searching = false;
+    }
   }
 
   // ------------------------------------------------ the parcel at the search point: its well permits + septic
@@ -513,5 +577,5 @@
   if (Number.isFinite(qlat) && Number.isFinite(qlon)) setLocation(qlat, qlon, 'from link');
   else locate();
 
-  window.WellsApp = { state, map, search, setLocation, setView };
+  window.WellsApp = { state, map, search, setLocation, setView, searchHerePopup };
 })();

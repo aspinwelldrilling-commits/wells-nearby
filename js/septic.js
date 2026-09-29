@@ -138,7 +138,7 @@
   // Tapped parcel: add a "Septic / sewer here" button to the map-tap popup
   map.on('popupopen', (e) => {
     const el = e.popup.getElement(), box = el && el.querySelector('.popup');
-    if (!box || !box.querySelector('#searchHere') || box.querySelector('.sep-tapbtn')) return;
+    if (!box || !box.querySelector('.search-here') || box.querySelector('.sep-tapbtn')) return;
     const ll = e.popup.getLatLng();
     const b = document.createElement('button'); b.className = 'small sep-tapbtn'; b.type = 'button'; b.textContent = '🚽 Septic / sewer here';
     box.appendChild(b);
@@ -408,7 +408,7 @@
     else { cur.draft.push(p); renderSheet(); }
   });
   function onSheetClose() {
-    if (!cur) return;
+    if (!cur) { A.state.mapTool = false; $('map').classList.remove('map-tool'); map.doubleClickZoom.enable(); return; }
     if (cur.editId) finishEdit(true);
     cur = null; A.state.mapTool = false; $('map').classList.remove('map-tool'); map.doubleClickZoom.enable();
     $('sheet').classList.remove('compact');
@@ -440,6 +440,6 @@
     + Object.entries(K.KINDS).map(([k, v]) => `<Style id="mk-${k}"><LineStyle><color>ff${v.color.slice(5, 7)}${v.color.slice(3, 5)}${v.color.slice(1, 3)}</color><width>4</width></LineStyle><IconStyle><color>ff${v.color.slice(5, 7)}${v.color.slice(3, 5)}${v.color.slice(1, 3)}</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>`).join('')
     + '<Style id="mk-bad"><LineStyle><color>ff2626dc</color><width>6</width></LineStyle><IconStyle><color>ff2626dc</color><scale>1.3</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon></IconStyle></Style>';
 
-  window.WellsSeptic = { fillBox, siteCtx, fillSite: (s, box) => fillBox(box, siteCtx(s)), fetchStatus, fetchRecords, openSetbacks, onSheetClose, showForSite,
+  window.WellsSeptic = { isActive: () => !!cur && !$('sheet').classList.contains('hidden'), fillBox, siteCtx, fillSite: (s, box) => fillBox(box, siteCtx(s)), fetchStatus, fetchRecords, openSetbacks, onSheetClose, showForSite,
     summaryHtml, exportFields, kmlFor, kmlStyles, mainsNear, drawSetbacks, get current() { return cur; }, applyRef, ref };
 })();

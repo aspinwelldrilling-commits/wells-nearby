@@ -1,7 +1,7 @@
 {
  "permit": "DEH1981-LWELL-8015",
- "processed": "2026-09-28T08:22:23-07:00",
- "version": 2,
+ "processed": "2026-09-28T17:54:35-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35285446",
@@ -11,13 +11,25 @@
    "kb": 438
   }
  ],
- "wcrPages": [],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35285446",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35285446",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
  "fields": {},
  "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35285446",
- "errors": [
-  "read 35285446: [Errno 2] No such file or directory: 'tesseract'"
- ],
- "status": "no_wcr",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "unreadable",
  "area": "lakeside",
  "lat": 32.8926202010746,
  "lon": -116.91837540444291

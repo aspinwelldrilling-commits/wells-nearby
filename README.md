@@ -98,6 +98,12 @@ are processed offline, per area, and cached in the repo:
   parcel service). My sites: map, wells nearby (runs the normal search at the site), Google Maps directions, share/copy,
   edit, delete (confirm); export CSV / KML (with parcel polygons) / JSON backup; import backup (merges by id, newer wins).
 - `sw.js`: network-first cache of the app files so the app opens with no signal (map tiles need signal).
+- **Map tap → "Search here"** (`js/app.js` `searchHerePopup`): the handler is bound to that popup's own button (never looked up by
+  id — while a popup fades out for 200 ms two `#searchHere` buttons exist). Searches always end in a result or a message, shown in
+  the status line AND on the map (`.map-note`): "Searching…", "Still searching…" after 10 s, count / "No wells found", "📵 No signal"
+  or "… data failed" with ↻ Retry. Faded top map buttons don't catch clicks while a popup is open. A stale setbacks map-tool flag
+  (sheet gone without Done) self-heals. New service worker → "App updated — tap to reload" banner.
+  Test (desktop 1440×900 mouse + phone 390×844 touch): `/workspace/.venv-pw/bin/python tools/test-search-here.py [--base URL] [--only desktop|phone]`
 - Test: `/workspace/.venv-pw/bin/python tools/test-sites.py 33.0417 -116.8681 "Name" [--off dlat,dlon] [--base https://…/]`
 
 ## Septic / sewer + setbacks — `js/septic.js`, `js/septic-core.js`
