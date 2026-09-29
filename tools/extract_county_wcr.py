@@ -29,7 +29,7 @@ PARCEL_LAYER = 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPLU/
 DOC_API = 'https://file.sandiegocounty.gov/CoSD_LUEG_Repository_External_API/rest/DEHQDocumentLibrary/SearchDocuments'
 VIEWER = 'https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId='
 UA = 'WellsNearby-extractor/1.0 (small-business field tool; low-rate)'
-SCRIPT_VERSION = 3  # 3: tool/read/viewer failures -> 'error' (not no_wcr); preflight check of OCR tools
+SCRIPT_VERSION = 4  # 4: 1970s-80s "Water Well Drillers Report" forms count as WCR pages. 3: tool/read/viewer failures -> 'error' (not no_wcr); preflight check of OCR tools
 MAX_DOCS = 4
 MAX_DOC_BYTES = 25_000_000
 MAX_OCR_PAGES = 6
@@ -180,19 +180,45 @@ class Viewer:
         from playwright.sync_api import sync_playwright
         self.pw = sync_playwright().start()
         self.browser = self.pw.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox'])
-        self.page = self.browser.new_page(user_agent=UA)
+        self.page = self._new_page()
+
+    def _new_page(self):
+        return self.browser.new_page(user_agent=UA)
 
     def fetch(self, file_id):
         try:
             return self._fetch(file_id)
         except Exception as e:
-            # e.g. "Request content was evicted from inspector cache" (large PDFs): one retry on a fresh page
-            log(f'viewer {file_id}: {str(e)[:80]} -> retry on a fresh page')
+            # e.g. "Request content was evicted from inspector cache" (large PDFs overflow the inspector buffer):
+            # retry on a fresh page, fetching the file response ourselves through a route (no inspector buffer)
+            log(f'viewer {file_id}: {str(e)[:80]} -> retry via route on a fresh page')
             try: self.page.close()
             except Exception: pass
-            self.page = self.browser.new_page(user_agent=UA)
+            self.page = self._new_page()
             time.sleep(3)
-            return self._fetch(file_id)
+            return self._fetch_routed(file_id)
+
+    def _fetch_routed(self, file_id):
+        box = {}
+        def handler(route):
+            r = route.fetch(timeout=120000)
+            box['body'] = r.body()
+            route.fulfill(response=r)
+        pat = '**/*DataActionGetFile*'
+        self.page.route(pat, handler)
+        try:
+            self.page.goto(VIEWER + str(file_id), wait_until='domcontentloaded', timeout=90000)
+            t0 = time.time()
+            while 'body' not in box and time.time() - t0 < 120:
+                self.page.wait_for_timeout(500)
+        finally:
+            try: self.page.unroute(pat)
+            except Exception: pass
+        if 'body' not in box: raise RuntimeError('file response not seen (routed)')
+        j = json.loads(box['body'])
+        b64 = (((j.get('data') or {}).get('File') or {}).get('BinaryData')) or ''
+        data = base64.b64decode(b64) if b64 else b''
+        return data if data[:4] == b'%PDF' else None
 
     def _fetch(self, file_id):
         with self.page.expect_response(lambda r: 'DataActionGetFile' in r.url, timeout=90000) as resp:
@@ -222,7 +248,11 @@ def pdf_info(path):
     return pages, creator, img_pages
 
 
-WCR_PAGE = re.compile(r'well\s*completion|completion\s*report|dwr\s*-?\s*188|total\s+depth\s+of\s+(completed|boring)|water\s+level\s*(and|&)\s*yield|geologic\s+log', re.I)
+WCR_PAGE = re.compile(r'well\s*completion|completion\s*report|dwr\s*-?\s*188|total\s+depth\s+of\s+(completed|boring)|water\s+level\s*(and|&)\s*yield|geologic\s+log'
+                      # 1970s-80s county form "WATER WELL DRILLERS REPORT" / "Well driller's report and Log" / "WELL DRILLER'S STATEMENT"
+                      # (not the modern permit condition "a Water Well Drillers Report must be submitted", nor "(well driller's report)")
+                      r"|water\s+well\s+drill+ers?\W{0,3}s?\s+report(?!\W{0,3}(must|shall|is\s+required|to\s+be|within))"
+                      r"|well\s+drill+ers?\W{0,3}s?\s+statement|drill+ers?\W{0,3}s?\s+report\s+and\s+log", re.I)
 
 
 def ocr_page(pdf, page, tmp):
