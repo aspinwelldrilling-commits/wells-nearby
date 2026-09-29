@@ -797,7 +797,25 @@
    "liveCount": 482
   },
   "chunk:Alpine repair 1/2": {
-   "batches": []
+   "batches": [
+    {
+     "at": "2026-09-28T21:15:15-07:00",
+     "n": 150,
+     "counts": {
+      "partial": 3,
+      "unreadable": 142,
+      "no_wcr": 4,
+      "error": 1
+     },
+     "secPerPermit": 16.0,
+     "redo": true,
+     "verified": true,
+     "commit": "003ed03",
+     "live": true,
+     "liveVerified": true
+    }
+   ],
+   "liveCount": 379
   }
  }
 }
