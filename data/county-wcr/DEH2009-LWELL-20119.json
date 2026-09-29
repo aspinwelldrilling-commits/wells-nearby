@@ -1,7 +1,7 @@
 {
  "permit": "DEH2009-LWELL-20119",
- "processed": "2026-09-28T10:03:55-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:27:30-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308734",
@@ -11,13 +11,51 @@
    "kb": 228
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308734",
- "errors": [
-  "read 35308734: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308734",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 4
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "high",
+   "ocrConf": 92.867401,
+   "raw": "Total Depth of Completed Well 360",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.024643,
+   "raw": "Estimated Yield * 50 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 89.25177,
+   "raw": "Drilling Method _ Air Drilling Fluid Fresh",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-05-01",
+   "conf": "medium",
+   "ocrConf": 61.587902,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308734",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
  "area": "lakeside",
  "lat": 32.84276802599499,
  "lon": -116.8961294165638

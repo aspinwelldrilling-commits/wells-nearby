@@ -1,7 +1,7 @@
 {
  "permit": "DEH2008-LWELL-19701",
- "processed": "2026-09-28T09:59:14-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:22:03-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35105942",
@@ -18,13 +18,43 @@
    "kb": 78
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35105942",
- "errors": [
-  "read 35105942: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35105942",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 92.550781,
+   "raw": "Total Depth of Completed Well 100",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 92.825943,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid pursuant",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-06-05",
+   "conf": "high",
+   "ocrConf": 93.125343,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35105942",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
  "area": "lakeside",
  "lat": 32.875767775790095,
  "lon": -116.88742128578247

@@ -1,7 +1,7 @@
 {
  "permit": "DEH2007-LWELL-18443",
- "processed": "2026-09-28T09:53:01-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:18:49-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35418707",
@@ -11,13 +11,43 @@
    "kb": 224
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35418707",
- "errors": [
-  "read 35418707: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35418707",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.069565,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 92.022652,
+   "raw": "Drilling Method Air Drilling Drilling Fluid _Fresh",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-08-13",
+   "conf": "low",
+   "ocrConf": 41.243153,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35418707",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
  "area": "lakeside",
  "lat": 32.8775993581586,
  "lon": -116.8837094516073

@@ -1,7 +1,7 @@
 {
  "permit": "DEH2004-LWELL-16280",
- "processed": "2026-09-28T09:47:32-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:13:04-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35416050",
@@ -11,13 +11,29 @@
    "kb": 393
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35416050",
- "errors": [
-  "read 35416050: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35416050",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 1
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 1044.0,
+   "conf": "low",
+   "ocrConf": 34.622353,
+   "raw": "TOTAL DEPTH OF BORING\n1044",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35416050",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "unreadable",
  "area": "lakeside",
  "lat": 32.87635545354003,
  "lon": -116.84067979435451

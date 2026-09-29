@@ -1,7 +1,7 @@
 {
  "permit": "DEH2010-LWELL-20621",
- "processed": "2026-09-28T10:08:28-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:31:03-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35246399",
@@ -18,13 +18,60 @@
    "kb": 71
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35246399",
- "errors": [
-  "read 35246399: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35246399",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 5
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 925.0,
+   "conf": "medium",
+   "ocrConf": 96.376373,
+   "raw": "Total Depth of Boring 925",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 97.020515,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 89.581245,
+   "raw": "Water Level _100 (Feet",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "medium",
+   "ocrConf": 73.048523,
+   "raw": "Drilling Method Air Drilling Drilling Fluid_ Fresh",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-07-09",
+   "conf": "low",
+   "ocrConf": 40.086479,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35246399",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
  "area": "lakeside",
  "lat": 32.91232747249968,
  "lon": -116.91086322183025

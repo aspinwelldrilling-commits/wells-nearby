@@ -1,7 +1,7 @@
 {
  "permit": "DEH2016-LWELL-001406",
- "processed": "2026-09-28T10:28:44-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:47:54-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35197286",
@@ -18,14 +18,74 @@
    "kb": 136
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35197286",
- "errors": [
-  "read 35197286: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35312586: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35312586",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 87.0,
+   "conf": "medium",
+   "ocrConf": 95.626274,
+   "raw": "Total Depth of Boring 87",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 97.004379,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 62.0,
+   "conf": "high",
+   "ocrConf": 95.50882,
+   "raw": "Water Level 62 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.852997,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 54.566399,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-08-05",
+   "conf": "high",
+   "ocrConf": 88.971443,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.8843,
+   "lon": -116.8556,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35312586",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
  "area": "lakeside",
  "lat": 32.88396783392733,
  "lon": -116.85507176922789

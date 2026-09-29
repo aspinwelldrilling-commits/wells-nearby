@@ -1,7 +1,7 @@
 {
  "permit": "DEH2011-LWELL-20968",
- "processed": "2026-09-28T10:12:30-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:32:41-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35107956",
@@ -18,14 +18,67 @@
    "kb": 240
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35107956",
- "errors": [
-  "read 35107956: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35107938: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35107956",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 5
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 1010.0,
+   "conf": "medium",
+   "ocrConf": 96.438286,
+   "raw": "Total Depth of Boring 1010",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 125.0,
+   "conf": "high",
+   "ocrConf": 96.815811,
+   "raw": "Estimated Yield* 125 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 55.98946,
+   "raw": "Water Level 30 (Feet",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary Oritling",
+   "conf": "low",
+   "ocrConf": 12.617691,
+   "raw": "Drilling Method Direct Rotary Oritling Fluid Air",
+   "page": 3,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 15.623001,
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-07-22",
+   "conf": "medium",
+   "ocrConf": 58.229145,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35107956",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
  "area": "lakeside",
  "lat": 32.85575876688094,
  "lon": -116.86108684510269

@@ -1,7 +1,7 @@
 {
  "permit": "DEH2009-LWELL-20039",
- "processed": "2026-09-28T10:02:49-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:26:09-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35315392",
@@ -11,13 +11,58 @@
    "kb": 205
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35315392",
- "errors": [
-  "read 35315392: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35315392",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 4
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "high",
+   "ocrConf": 96.296509,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 250",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 51.0,
+   "conf": "high",
+   "ocrConf": 96.093925,
+   "raw": "WATER LEVEL 51 (Ft",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Rotary",
+   "conf": "medium",
+   "ocrConf": 79.607178,
+   "raw": "DRILLING METHOD Reverse Rotary FLUID Water",
+   "page": 3,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 95.991455,
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-12-18",
+   "conf": "medium",
+   "ocrConf": 57.552925,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35315392",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
  "area": "lakeside",
  "lat": 32.86588926386721,
  "lon": -116.92081923797204

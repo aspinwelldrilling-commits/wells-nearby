@@ -1,7 +1,7 @@
 {
  "permit": "DEH2012-LWELL-21169",
- "processed": "2026-09-28T10:14:44-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:34:18-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35108745",
@@ -18,14 +18,45 @@
    "kb": 236
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35108745",
- "errors": [
-  "read 35108745: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35117263: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35108745",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 117.0,
+   "conf": "medium",
+   "ocrConf": 96.145538,
+   "raw": "Total Depth of Boring 117",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 90.28344,
+   "raw": "Estimated Yield * 100 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 87.812859,
+   "raw": "Water Level 18 Ss (Feet",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35108745",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
  "area": "lakeside",
  "lat": 32.88820093516673,
  "lon": -116.92676977284557

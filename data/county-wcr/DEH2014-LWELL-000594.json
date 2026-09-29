@@ -1,7 +1,7 @@
 {
  "permit": "DEH2014-LWELL-000594",
- "processed": "2026-09-28T10:20:43-07:00",
- "version": 2,
+ "processed": "2026-09-28T19:41:09-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34682270",
@@ -25,13 +25,28 @@
    "kb": 428
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34682270",
- "errors": [
-  "read 34682146: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34682146",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "swlFt": {
+   "value": 28.0,
+   "conf": "medium",
+   "ocrConf": 69.853729,
+   "raw": "WATER LEVEL 28 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34682146",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
  "area": "lakeside",
  "lat": 32.8825272215398,
  "lon": -116.92268787307077
