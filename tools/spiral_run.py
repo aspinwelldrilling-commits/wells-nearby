@@ -62,6 +62,7 @@ def ensure_env():
         if still:
             log(f'PREFLIGHT FAILED: still missing {still} (apt: {(r.stderr or r.stdout)[-300:]}) — not running'); sys.exit(4)
         log('preflight: installed OCR tools')
+    canary()
     cache = os.path.join(STATE, 'all-permits.json')
     if not os.path.exists(cache):
         log('preflight: permit-location cache missing — downloading (paged county GIS query)')
@@ -69,6 +70,41 @@ def ensure_env():
         import build_spiral_plan
         build_spiral_plan.download()
     log('preflight ok')
+
+
+CANARY_PERMIT = 'DEH1977-LWELL-5873'   # 1977 "Water Well Drillers Report": must yield WCR pages via OCR
+
+
+def canary():
+    """End-to-end OCR self-test on a known county WCR (cached PDF in the state dir, downloaded once): the extractor's
+    read_pdf must find >= 1 WCR page. Catches a broken tesseract/poppler/language pack or regex before any batch runs."""
+    import tempfile, re as _re
+    sys.path.insert(0, os.path.join(ROOT, 'tools'))
+    import extract_county_wcr as X
+    pdf = os.path.join(STATE, 'canary.pdf')
+    if not os.path.exists(pdf):
+        r = load_json(os.path.join(OUT, CANARY_PERMIT + '.json'), {}) or {}
+        fid = _re.search(r'FileRecordId=(\d+)', (r.get('bestDocUrl') or '')).group(1)
+        v = X.Viewer()
+        try: data = v.fetch(fid)
+        finally: v.close()
+        open(pdf, 'wb').write(data)
+    with tempfile.TemporaryDirectory() as tmp:
+        pages = X.read_pdf(pdf, tmp)
+    if not pages:
+        log(f'CANARY FAILED: no WCR page read from {CANARY_PERMIT} ({pdf}) — OCR pipeline broken, not running'); sys.exit(4)
+    log(f'canary ok: {len(pages)} WCR page(s) read from {CANARY_PERMIT}')
+
+
+def chunk_permits(spec):
+    """--chunk: comma list of permits, or a file (JSON list / {'permits': [...]} / one per line)."""
+    if os.path.exists(spec):
+        t = open(spec).read().strip()
+        try:
+            j = json.loads(t); return [x.upper() for x in (j['permits'] if isinstance(j, dict) else j)]
+        except Exception:
+            return [x.strip().upper() for x in t.split() if x.strip()]
+    return [x.strip().upper() for x in spec.split(',') if x.strip()]
 
 
 def repair_candidates(plan):
@@ -209,6 +245,9 @@ def main():
     ap.add_argument('--rings', default=''); ap.add_argument('--areas', default=''); ap.add_argument('--batch', type=int, default=150)
     ap.add_argument('--delay', type=float, default=2.5); ap.add_argument('--push', action='store_true')
     ap.add_argument('--no-push-live-check', action='store_true'); ap.add_argument('--status', action='store_true')
+    ap.add_argument('--chunk', default='', help='run ONLY these permits (list or file) with --force, grouped by plan area, then exit')
+    ap.add_argument('--label', default='chunk', help='commit/log label for --chunk')
+    ap.add_argument('--alarm', type=float, default=NO_WCR_ALARM, help='no_wcr share that stops the run (rechecks of no_wcr records expect a high share)')
     a = ap.parse_args()
     plan = load_json(PLAN, None); prog = load_json(PROG, {'areas': {}})
     if a.status:
@@ -229,7 +268,7 @@ def main():
 
     def run_batch(ar, batch, force=False, label=''):
         """Extract one batch, sanity-check, verify, commit, push, live-check. Returns False to retry the same work later."""
-        pr = prog['areas'].setdefault(ar['id'], {'batches': []})
+        pr = prog['areas'].setdefault(ar.get('progKey', ar['id']), {'batches': []})
         log(f"{ar['id']} (ring {ar['ring']}){label}: batch of {len(batch)}" + (' (redo, --force)' if force else ''))
         t0 = time.time()
         before = {p: (load_json(os.path.join(OUT, p + '.json'), {}) or {}).get('processed') for p in batch} if force else {}
@@ -253,9 +292,9 @@ def main():
             if S['bad_streak'] >= 3: log('   3 bad batches in a row — stopping; resume later'); sys.exit(3)
             time.sleep(900); return False
         S['bad_streak'] = 0
-        if len(done) >= ALARM_MIN_N and c.get('no_wcr', 0) / len(done) > NO_WCR_ALARM:
+        if len(done) >= ALARM_MIN_N and c.get('no_wcr', 0) / len(done) > a.alarm:
             S['push_ok'] = False
-            log(f"   ALARM: no_wcr {c.get('no_wcr', 0)}/{len(done)} = {c.get('no_wcr', 0) / len(done):.0%} (baseline ~40%, limit {NO_WCR_ALARM:.0%}) — "
+            log(f"   ALARM: no_wcr {c.get('no_wcr', 0)}/{len(done)} = {c.get('no_wcr', 0) / len(done):.0%} (baseline ~40%, limit {a.alarm:.0%}) — "
                 'NOT pushing and stopping. Check tools (tesseract), the viewer and a few permits by hand; results stay uncommitted.')
             write_md(plan, prog); sys.exit(5)
         entry = {'at': dt.datetime.now().astimezone().isoformat(timespec='seconds'), 'n': len(done), 'counts': dict(c), 'secPerPermit': round(secs, 1)}
@@ -294,6 +333,16 @@ def main():
         pr['batches'].append(entry); save_prog(prog); write_md(plan, prog)
         return True
 
+    if a.chunk:  # one small, checkable chunk: these permits only, then stop
+        want = list(dict.fromkeys(chunk_permits(a.chunk)))
+        # one pseudo-area: --area '' keeps each permit's own area in its record; progress logged under 'chunk:<label>'
+        ar = {'id': '', 'progKey': 'chunk:' + a.label, 'name': a.label, 'ring': -1, 'permits': want, 'count': len(want)}
+        log(f"CHUNK {a.label}: {len(want)} permits")
+        k = 0
+        while k < len(want):
+            if run_batch(ar, want[k:k + a.batch], force=True, label=f' {a.label}'): k += a.batch
+        write_md(plan, prog); save_prog(prog)
+        log(f'CHUNK {a.label} finished'); return
     # 1) repair phase: misclassified / errored permits first
     rep = repair_candidates(plan)
     if rep:

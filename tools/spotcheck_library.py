@@ -9,8 +9,10 @@ ap = argparse.ArgumentParser(); ap.add_argument('permits', nargs='?', default=''
 a = ap.parse_args()
 ps = [p for p in a.permits.split(',') if p]
 if a.file:
-    t = open(a.file).read(); j = json.loads(t[t.index('{'):]) if '{' in t else {'permits': t.split()}
-    ps += j['permits'] if isinstance(j, dict) else j
+    t = open(a.file).read().strip()
+    try: j = json.loads(t)
+    except ValueError: j = json.loads(t[t.index('{'):]) if '{' in t else t.split()  # log-prefixed JSON or one id per line
+    ps += [x.upper() for x in (j['permits'] if isinstance(j, dict) else j)]
 random.seed(a.seed)
 if len(ps) > a.n: ps = random.sample(ps, a.n)
 bad = 0

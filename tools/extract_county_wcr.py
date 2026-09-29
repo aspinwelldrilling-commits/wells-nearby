@@ -29,7 +29,7 @@ PARCEL_LAYER = 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPLU/
 DOC_API = 'https://file.sandiegocounty.gov/CoSD_LUEG_Repository_External_API/rest/DEHQDocumentLibrary/SearchDocuments'
 VIEWER = 'https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId='
 UA = 'WellsNearby-extractor/1.0 (small-business field tool; low-rate)'
-SCRIPT_VERSION = 4  # 4: 1970s-80s "Water Well Drillers Report" forms count as WCR pages. 3: tool/read/viewer failures -> 'error' (not no_wcr); preflight check of OCR tools
+SCRIPT_VERSION = 5  # 5: letter-spaced county text layers checked in compact form. 4: 1970s-80s "Water Well Drillers Report" forms count as WCR pages. 3: tool/read/viewer failures -> 'error' (not no_wcr); preflight check of OCR tools
 MAX_DOCS = 4
 MAX_DOC_BYTES = 25_000_000
 MAX_OCR_PAGES = 6
@@ -281,6 +281,17 @@ WCR_PAGE = re.compile(r'well\s*completion|completion\s*report|dwr\s*-?\s*188|tot
                       r"|well\s+drill+ers?\W{0,3}s?\s+statement|drill+ers?\W{0,3}s?\s+report\s+and\s+log", re.I)
 
 
+# Some county text layers are letter-spaced ("N otice of Intent N o.", "W A T E R  W E L L"): also test the layer with all
+# whitespace/punctuation removed against compact keywords.
+WCR_COMPACT = re.compile(r'wellcompletion|completionreport|dwr188|totaldepthof(completed|boring)|waterlevel(and)?yield|geologiclog'
+                         # OCR'd layers garble letters ("REPORJ", "SFATEMENT"): stems, not whole words
+                         r'|waterwelldrill+ers?s?repor(?!t?(must|shall|isrequired|tobe|within))|welldrill+ers?s?.tatement|drill+ers?s?reportandlog|welllogtotal')
+
+
+def layer_is_wcr(text):
+    return bool(WCR_PAGE.search(text) or WCR_COMPACT.search(re.sub(r'[^a-z0-9]', '', text.lower())))
+
+
 def ocr_page(pdf, page, tmp):
     """Returns (text, words) where words = [(start, end, conf)] offsets into text."""
     png = os.path.join(tmp, f'p{page}')
@@ -393,19 +404,19 @@ def read_pdf(path, tmp):
     for p in range(1, pages + 1):
         layer = run(['pdftotext', '-layout', '-f', str(p), '-l', str(p), path, '-']).stdout
         if generated or p not in img_pages:
-            if WCR_PAGE.search(layer):
+            if layer_is_wcr(layer):
                 res.append({'page': p, 'source': 'text', 'fields': parse_fields(layer, [], 'text'), 'chars': len(layer), 'text': layer, 'words': []})
             continue
         # scanned page: use the county's own text layer (if any) only to decide whether it's a WCR page
         # ignore the redaction notice overlay (added to redacted scans) when judging whether a real text layer exists
         stripped = re.sub(r'the\s+information\s+in\s+this\s+grayed.*?personal\s+information\.?', '', layer, flags=re.I | re.S)
         has_layer = len(re.sub(r'\s', '', stripped)) > 300
-        if has_layer and not WCR_PAGE.search(layer):
+        if has_layer and not layer_is_wcr(layer):
             continue
         if not has_layer and p > MAX_OCR_PAGES:
             continue
         text, words = ocr_page(path, p, tmp)
-        if WCR_PAGE.search(text) or (has_layer and WCR_PAGE.search(layer)):
+        if WCR_PAGE.search(text) or (has_layer and layer_is_wcr(layer)):
             res.append({'page': p, 'source': 'ocr', 'fields': parse_fields(text, words, 'ocr'), 'chars': len(text), 'text': text, 'words': words})
     return res
 
