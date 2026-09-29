@@ -1,7 +1,7 @@
 {
  "permit": "DEH1995-LWELL-3700",
- "processed": "2026-09-28T12:39:03-07:00",
- "version": 2,
+ "processed": "2026-09-28T22:03:58-07:00",
+ "version": 5,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35309864",
@@ -11,13 +11,51 @@
    "kb": 442
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35309864",
- "errors": [
-  "read 35309864: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35309864",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35309864",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 2
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 14.792801,
+   "raw": "TOTAL DEPTH OF BorING 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 14.0,
+   "conf": "medium",
+   "ocrConf": 60.992523,
+   "raw": "ESTIMATED YIELD \u201c14 (GPM",
+   "page": 4,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 25.313766,
+   "raw": "WATER LEVEL 250 (Ft",
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35309864",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "partial",
  "area": "alpine",
  "lat": 32.74705601872855,
  "lon": -116.68856219431184
