@@ -141,6 +141,22 @@
   // ------------------------------------------------ the parcel at the search point: its well permits + septic
   // The county GIS permit layer ends in Aug 2020 and its points are parcel centres, so a newer well on this parcel only
   // exists in the DEH document library, filed by APN (exact format XXX-XXX-XX-XX). Several wells per APN are kept.
+  /** A point inside the parcel (rings of [lat, lon]): area centroid of the largest ring, or for L/U shapes the middle
+   *  of the longest inside stretch of the horizontal line through it (same rule as tools/extract_county_wcr.py). */
+  function insidePoint(rings, lat, lon) {
+    if (!rings || !rings.length) return [lat, lon];
+    const edges = (r) => r.map((a, i) => [a, r[(i + 1) % r.length]]);
+    const ac = (r) => { let a = 0, cx = 0, cy = 0; for (const [[y1, x1], [y2, x2]] of edges(r)) { const k = x1 * y2 - x2 * y1; a += k; cx += (x1 + x2) * k; cy += (y1 + y2) * k; }
+      return a ? [a / 2, cx / (3 * a), cy / (3 * a)] : [0, r[0][1], r[0][0]]; };
+    const big = rings.reduce((m, r) => (Math.abs(ac(r)[0]) > Math.abs(ac(m)[0]) ? r : m), rings[0]);
+    let [, x, y] = ac(big);
+    const xs = []; for (const r of rings) for (const [[y1, x1], [y2, x2]] of edges(r)) if ((y1 > y) !== (y2 > y)) xs.push(x1 + (y - y1) * (x2 - x1) / (y2 - y1));
+    xs.sort((a, b) => a - b);
+    let inside = false; for (const v of xs) if (x < v) inside = !inside;
+    if (!inside) { let best = null; for (let i = 0; i + 1 < xs.length; i += 2) if (!best || xs[i + 1] - xs[i] > best[1] - best[0]) best = [xs[i], xs[i + 1]]; if (best) x = (best[0] + best[1]) / 2; else return [lat, lon]; }
+    return [+y.toFixed(6), +x.toFixed(6)];
+  }
+
   async function parcelHere(lat, lon, id) {
     const el = $('parcelCard');
     if (!el || !window.WellsSites) return;
@@ -152,9 +168,7 @@
     let docs = [], libErr = null;
     try { docs = await W.searchRaw({ parcel_number: apn }); } catch (e) { libErr = e.message || 'failed'; }
     if (id !== state.reqId) return;
-    const pts = (p.rings || []).flat();
-    const cLat = pts.length ? (Math.min(...pts.map((q) => q[0])) + Math.max(...pts.map((q) => q[0]))) / 2 : lat;
-    const cLon = pts.length ? (Math.min(...pts.map((q) => q[1])) + Math.max(...pts.map((q) => q[1]))) / 2 : lon;
+    const [cLat, cLon] = insidePoint(p.rings, lat, lon);
     const known = new Map(state.countyRecs.filter((c) => c.permit).map((c) => [c.permit.toUpperCase(), c]));
     const byPermit = new Map();
     for (const d of docs) { const pid = String(d.permit_id || '').trim().toUpperCase(); if (/-LWELL-/.test(pid)) (byPermit.get(pid) || byPermit.set(pid, []).get(pid)).push(d); }

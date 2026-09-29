@@ -126,6 +126,30 @@ def library_parcel_docs(apn):
     return [d for d in recs if re.sub(r'\D', '', d.get('parcel_nbr') or '')[:10] == re.sub(r'\D', '', a)]
 
 
+def inside_point(rings):
+    """(lat, lon) inside the parcel: area centroid of the largest ring, or (L/U-shaped parcels, where the centroid falls
+    outside) the middle of the longest inside stretch of the horizontal line through it."""
+    def area_c(r):
+        a = cx = cy = 0.0
+        for (x1, y1), (x2, y2) in zip(r, r[1:] + r[:1]):
+            k = x1 * y2 - x2 * y1; a += k; cx += (x1 + x2) * k; cy += (y1 + y2) * k
+        return (a / 2, cx / (3 * a), cy / (3 * a)) if a else (0, r[0][0], r[0][1])
+    def inside(x, y):
+        c = False
+        for r in rings:
+            for (x1, y1), (x2, y2) in zip(r, r[1:] + r[:1]):
+                if (y1 > y) != (y2 > y) and x < x1 + (y - y1) * (x2 - x1) / (y2 - y1): c = not c
+        return c
+    big = max(rings, key=lambda r: abs(area_c(r)[0]))
+    _, x, y = area_c(big)
+    if not inside(x, y):
+        xs = sorted(x1 + (y - y1) * (x2 - x1) / (y2 - y1) for r in rings for (x1, y1), (x2, y2) in zip(r, r[1:] + r[:1]) if (y1 > y) != (y2 > y))
+        spans = [(xs[i], xs[i + 1]) for i in range(0, len(xs) - 1, 2)]
+        if spans: a, b = max(spans, key=lambda t: t[1] - t[0]); x = (a + b) / 2
+        else: x, y = big[0]
+    return (round(y, 6), round(x, 6))
+
+
 def parcels_near(lat, lon, radius=None, apn=None):
     """Assessor parcels (APN 10 digits -> centroid lat, lon) within radius mi of a point, or one APN."""
     out, offset = {}, 0
@@ -138,10 +162,9 @@ def parcels_near(lat, lon, radius=None, apn=None):
         j = http_json(PARCEL_LAYER + '?' + urllib.parse.urlencode(base))
         feats = j.get('features', [])
         for f in feats:
-            pts = [pt for ring in (f.get('geometry') or {}).get('rings', []) for pt in ring]
-            if pts and f['attributes'].get('APN'):
-                xs, ys = [p[0] for p in pts], [p[1] for p in pts]
-                out[f['attributes']['APN']] = (round((min(ys) + max(ys)) / 2, 6), round((min(xs) + max(xs)) / 2, 6))
+            rings = (f.get('geometry') or {}).get('rings', [])
+            if rings and f['attributes'].get('APN'):
+                out[f['attributes']['APN']] = inside_point(rings)
         if not j.get('exceededTransferLimit') or not feats: break
         offset += len(feats)
     return out
@@ -160,7 +183,10 @@ def library_only_permits(parcels, known, delay=0.5):
                 out[pid] = (la, lo, apn_dashed(apn))
         if i % 50 == 0: log(f'library parcel scan {i}/{len(parcels)}: {len(out)} library-only well permits so far')
         time.sleep(delay)
-    return out
+    # `known` is only the layer permits near the area: drop candidates that ARE in the layer (at a point elsewhere)
+    in_layer = permit_coords(list(out))
+    if in_layer: log(f'{len(in_layer)} candidates are in the GIS layer elsewhere, not library-only: {sorted(in_layer)}')
+    return {k: v for k, v in out.items() if k not in in_layer}
 
 
 def doc_priority(d):
@@ -653,9 +679,9 @@ def main():
             layer = county_permits_where(f"Parcel_No='{apn_dashed(apn)}'")
             ids += [f['Record_ID'].upper() for f in layer if f['Record_ID'].upper() not in ids]
             for f in layer: coords[f['Record_ID'].upper()] = (f['_lat'], f['_lon'])
+            coords.update(permit_coords([pid for pid in ids if pid not in coords]))  # in the layer under another APN
             for pid in ids:
-                apn_of[pid] = apn_dashed(apn)
-                if pid not in coords and ll[0] is not None: coords[pid] = ll
+                if pid not in coords and ll[0] is not None: coords[pid] = ll; apn_of[pid] = apn_dashed(apn)
             log(f'APN {apn_dashed(apn)}: {len(docs)} library docs, well permits {ids} ({len(layer)} in GIS layer), parcel centroid {ll}')
             permits += ids
     elif a.permits:
@@ -724,7 +750,7 @@ def main():
                 if p in coords: rec['lat'], rec['lon'] = coords[p]
                 elif old and old.get('lat') is not None: rec['lat'], rec['lon'] = old['lat'], old['lon']
                 if p in apn_of: rec['apn'], rec['libraryOnly'] = apn_of[p], True
-                elif old and old.get('libraryOnly'): rec['apn'], rec['libraryOnly'] = old.get('apn'), True
+                elif old and old.get('libraryOnly') and p not in coords: rec['apn'], rec['libraryOnly'] = old.get('apn'), True
                 json.dump(rec, open(os.path.join(OUT, p + '.json'), 'w'), indent=1)
                 stats[rec['status']] = stats.get(rec['status'], 0) + 1
                 f = rec['fields']
