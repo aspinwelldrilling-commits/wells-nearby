@@ -869,7 +869,23 @@
    "liveCount": 42
   },
   "chunk:redo missed no_wcr lakeside": {
-   "batches": []
+   "batches": [
+    {
+     "at": "2026-10-02T16:07:46-07:00",
+     "n": 35,
+     "counts": {
+      "unreadable": 3,
+      "no_wcr": 32
+     },
+     "secPerPermit": 24.7,
+     "redo": true,
+     "verified": true,
+     "commit": "44644dd",
+     "live": true,
+     "liveVerified": true
+    }
+   ],
+   "liveCount": 35
   }
  }
 }
