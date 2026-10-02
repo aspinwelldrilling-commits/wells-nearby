@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Regression: grayed 1980s-90s completion reports must be detected; permit-only scans must not.
 
-Uses the PDFs saved during the Alpine hand-check (wells-state/handcheck). DEH1991-LWELL-8477 was not
-saved; it is the same duplicated-privacy-notice miss as DEH1986-LWELL-6053 and is covered by the redo.
+Uses the PDFs saved during the Alpine hand-check (wells-state/handcheck). Saved during the Alpine hand-check, plus DEH1991-LWELL-8477 fetched for this fix.
 """
 import os, sys, tempfile
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -13,6 +12,7 @@ HAND = os.environ.get('WELLS_HANDCHECK', '/workspace/wells-state/handcheck')
 MISSES = {
     'DEH1985-LWELL-7760': 'DEH1985-LWELL-7760.pdf',       # grayed so hard PSM 4 returns nothing
     'DEH1986-LWELL-6053': 'DEH1986-LWELL-6053.pdf',       # privacy notice duplicated, blocks OCR
+    'DEH1991-LWELL-8477': 'DEH1991-LWELL-8477.pdf',       # "TER WELL DRILLERS REPORT" / "(12) WELi. LOG"
     'DEH1987-LWELL-11880': 'DEH1987-LWELL-11880_0.pdf',   # DAILLERS / ORILLERS
     'DEH1992-LWELL-6180': 'DEH1992-LWELL-6180_0.pdf',     # ORILLERS REPORT
     'DEH1996-LWELL-6302': 'DEH1996-LWELL-6302_0.pdf',     # DAILLERS / (12) WELL LOG

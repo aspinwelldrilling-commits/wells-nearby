@@ -285,7 +285,9 @@ WCR_PAGE = re.compile(r'well\s*completion|completion\s*report|dwr\s*-?\s*188|tot
                       r"|water\s+well\s+" + _DRILL + r"\W{0,3}s?\s+report(?!\W{0,3}(must|shall|is\s+required|to\s+be|within))"
                       r"|well\s+" + _DRILL + r"\W{0,3}s?\s+statem[enr]{2}t"
                       r"|wel+i?\W{0,4}completion\W{0,8}rep"
-                      r"|\(\s*12\s*\)\s*wel\w{0,4}\s*-?\s*l+og", re.I)
+                      r"|\(\s*12\s*\)\s*wel\w{0,4}\s*[\W_]{0,3}\s*l+og"
+                      # "WATER" clipped to "TER" on a carbon copy: "TER WELL DRILLERS REPORT"
+                      r"|t[e3]r\s+well\s+" + _DRILL + r"\W{0,3}s?\s+report(?!\W{0,3}(must|shall|is\s+required|to\s+be|within))", re.I)
 
 
 # Some county text layers are letter-spaced ("N otice of Intent N o.", "W A T E R  W E L L"): also test the layer with all
@@ -296,7 +298,8 @@ WCR_COMPACT = re.compile(r'wellcompletion|completionreport|dwr188|totaldepthof(c
                          r'|waterwell(?:dr|da|or)?ill+ers?s?repor(?!t?(must|shall|isrequired|tobe|within))'
                          r'|well(?:dr|da|or)?ill+ers?s?statem'
                          r'|wel+i?completionrep'
-                         r'|12wel[el]?l?og')
+                         r'|12wel[a-z]{0,2}log'
+                         r'|(?:water|ter)well(?:dr|da|or)?ill+ers?s?repor(?!t?(must|shall|isrequired|tobe|within))')
 
 
 def layer_is_wcr(text):
