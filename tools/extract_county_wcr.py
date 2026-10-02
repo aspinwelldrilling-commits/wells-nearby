@@ -29,7 +29,7 @@ PARCEL_LAYER = 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPLU/
 DOC_API = 'https://file.sandiegocounty.gov/CoSD_LUEG_Repository_External_API/rest/DEHQDocumentLibrary/SearchDocuments'
 VIEWER = 'https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId='
 UA = 'WellsNearby-extractor/1.0 (small-business field tool; low-rate)'
-SCRIPT_VERSION = 5  # 5: letter-spaced county text layers checked in compact form. 4: 1970s-80s "Water Well Drillers Report" forms count as WCR pages. 3: tool/read/viewer failures -> 'error' (not no_wcr); preflight check of OCR tools
+SCRIPT_VERSION = 6  # 6: grayed 1980s-90s reports (garbled headings, duplicated privacy notice, PSM-4-blank scans). 5: letter-spaced text layers in compact form. 4: 1970s-80s "Water Well Drillers Report". 3: tool failures -> error
 MAX_DOCS = 4
 MAX_DOC_BYTES = 25_000_000
 MAX_OCR_PAGES = 6
@@ -274,29 +274,85 @@ def pdf_info(path):
     return pages, creator, img_pages
 
 
+# OCR of carbon-copy scans: DRILLERS->DAILLERS/ORILLERS, STATEMENT->STATEMERT, WELL->WELI, REPORT->REPC.
+_DRILL = r'(?:dr|da|or)?ill+ers?'
 WCR_PAGE = re.compile(r'well\s*completion|completion\s*report|dwr\s*-?\s*188|total\s+depth\s+of\s+(completed|boring)|water\s+level\s*(and|&)\s*yield|geologic\s+log'
                       # 1970s-80s county form "WATER WELL DRILLERS REPORT" / "Well driller's report and Log" / "WELL DRILLER'S STATEMENT"
                       # (not the modern permit condition "a Water Well Drillers Report must be submitted", nor "(well driller's report)")
                       r"|water\s+well\s+drill+ers?\W{0,3}s?\s+report(?!\W{0,3}(must|shall|is\s+required|to\s+be|within))"
-                      r"|well\s+drill+ers?\W{0,3}s?\s+statement|drill+ers?\W{0,3}s?\s+report\s+and\s+log", re.I)
+                      r"|well\s+drill+ers?\W{0,3}s?\s+statement|drill+ers?\W{0,3}s?\s+report\s+and\s+log"
+                      # garbled headings seen on grayed scans (still require report/statement/section 12, not "NAME OF WELL DRILLER")
+                      r"|water\s+well\s+" + _DRILL + r"\W{0,3}s?\s+report(?!\W{0,3}(must|shall|is\s+required|to\s+be|within))"
+                      r"|well\s+" + _DRILL + r"\W{0,3}s?\s+statem[enr]{2}t"
+                      r"|wel+i?\W{0,4}completion\W{0,8}rep"
+                      r"|\(\s*12\s*\)\s*wel\w{0,4}\s*-?\s*l+og", re.I)
 
 
 # Some county text layers are letter-spaced ("N otice of Intent N o.", "W A T E R  W E L L"): also test the layer with all
 # whitespace/punctuation removed against compact keywords.
 WCR_COMPACT = re.compile(r'wellcompletion|completionreport|dwr188|totaldepthof(completed|boring)|waterlevel(and)?yield|geologiclog'
-                         # OCR'd layers garble letters ("REPORJ", "SFATEMENT"): stems, not whole words
-                         r'|waterwelldrill+ers?s?repor(?!t?(must|shall|isrequired|tobe|within))|welldrill+ers?s?.tatement|drill+ers?s?reportandlog|welllogtotal')
+                         # OCR'd layers garble letters ("REPORJ", "SFATEMENT", "ORILLERS", "WELI-COMPLETION-REPC", "(12) WELL LOG")
+                         r'|waterwelldrill+ers?s?repor(?!t?(must|shall|isrequired|tobe|within))|welldrill+ers?s?.tatement|drill+ers?s?reportandlog|welllogtotal'
+                         r'|waterwell(?:dr|da|or)?ill+ers?s?repor(?!t?(must|shall|isrequired|tobe|within))'
+                         r'|well(?:dr|da|or)?ill+ers?s?statem'
+                         r'|wel+i?completionrep'
+                         r'|12wel[el]?l?og')
 
 
 def layer_is_wcr(text):
     return bool(WCR_PAGE.search(text) or WCR_COMPACT.search(re.sub(r'[^a-z0-9]', '', text.lower())))
 
 
+# Words of the county overlay: "The information in this grayed area has been blocked from public viewing
+# pursuant to section 13752 of the Water Code and the Information Practice Act of 1977, to protect personal information."
+_PRIVACY_WORDS = set('the information in this grayed area has been blocked from public viewing pursuant to section of water code and practice act protect personal 13752 1977'.split())
+
+
+def strip_privacy_notice(text):
+    """Remove the gray-area privacy overlay, including a second copy interleaved word-by-word (the single-phrase
+    regex leaves that copy in place, so the page looks like a long non-report text layer and is never OCR'd)."""
+    vocab = sorted(_PRIVACY_WORDS, key=len, reverse=True)
+
+    def leftover(token):
+        t = token.lower()
+        changed = True
+        while changed and t:
+            changed = False
+            for w in vocab:
+                if t.startswith(w):
+                    t = t[len(w):]; changed = True; break
+                if len(t) > len(w) and t.endswith(w):
+                    t = t[:-len(w)]; changed = True; break
+        return t
+
+    kept = []
+    for line in text.splitlines():
+        words = re.findall(r'[A-Za-z0-9]+', line)
+        if words and not any(leftover(w) for w in words):
+            continue
+        kept.append(line)
+    return '\n'.join(kept)
+
+
+def _ocr_tsv(png, psm):
+    return run(['tesseract', png, '-', '--psm', psm, 'tsv']).stdout
+
+
 def ocr_page(pdf, page, tmp):
-    """Returns (text, words) where words = [(start, end, conf)] offsets into text."""
+    """Returns (text, words) where words = [(start, end, conf)] offsets into text.
+    PSM 4 (single column) is the default. A heavy gray privacy overlay makes that pass return nothing on some
+    1980s scans; PSM 6 (uniform block) still reads the form, so fall back when the first pass is essentially blank."""
     png = os.path.join(tmp, f'p{page}')
     run(['pdftoppm', '-r', '300', '-gray', '-png', '-f', str(page), '-l', str(page), '-singlefile', pdf, png])
-    tsv = run(['tesseract', png + '.png', '-', '--psm', '4', 'tsv']).stdout
+    text, words = _words_from_tsv(_ocr_tsv(png + '.png', '4'))
+    if len(re.sub(r'\s', '', text)) < 40:
+        text6, words6 = _words_from_tsv(_ocr_tsv(png + '.png', '6'))
+        if len(re.sub(r'\s', '', text6)) > len(re.sub(r'\s', '', text)):
+            return text6, words6
+    return text, words
+
+
+def _words_from_tsv(tsv):
     lines, cur_key, text, words = [], None, '', []
     for row in tsv.splitlines()[1:]:
         c = row.split('\t')
@@ -407,16 +463,17 @@ def read_pdf(path, tmp):
             if layer_is_wcr(layer):
                 res.append({'page': p, 'source': 'text', 'fields': parse_fields(layer, [], 'text'), 'chars': len(layer), 'text': layer, 'words': []})
             continue
-        # scanned page: use the county's own text layer (if any) only to decide whether it's a WCR page
-        # ignore the redaction notice overlay (added to redacted scans) when judging whether a real text layer exists
-        stripped = re.sub(r'the\s+information\s+in\s+this\s+grayed.*?personal\s+information\.?', '', layer, flags=re.I | re.S)
+        # scanned page: use the county's own text layer (if any) only to decide whether it's a WCR page.
+        # The redaction notice is sometimes duplicated/interleaved; strip every copy before that decision.
+        stripped = strip_privacy_notice(layer)
         has_layer = len(re.sub(r'\s', '', stripped)) > 300
-        if has_layer and not layer_is_wcr(layer):
+        if has_layer and not layer_is_wcr(stripped):
             continue
         if not has_layer and p > MAX_OCR_PAGES:
             continue
         text, words = ocr_page(path, p, tmp)
-        if WCR_PAGE.search(text) or (has_layer and layer_is_wcr(layer)):
+        # OCR text uses the same garbled/compact patterns as text layers (PSM output is not cleaner than the layer).
+        if layer_is_wcr(text) or (has_layer and layer_is_wcr(stripped)):
             res.append({'page': p, 'source': 'ocr', 'fields': parse_fields(text, words, 'ocr'), 'chars': len(text), 'text': text, 'words': words})
     return res
 
