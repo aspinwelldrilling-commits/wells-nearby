@@ -1,0 +1,49 @@
+{
+ "permit": "DEH2000-LWELL-14377",
+ "processed": "2026-10-02T16:23:42-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308364",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-07-31",
+   "kb": 362
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308364",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 39.0,
+   "conf": "low",
+   "ocrConf": 8.457977,
+   "raw": "TOTAL DEPTH OF BorING _39",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 63.0,
+   "conf": "low",
+   "ocrConf": 67.839539,
+   "raw": "WATER level 63 (Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308364",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
+ "area": "",
+ "lat": 33.075565207612,
+ "lon": -116.60838320052248
+}
