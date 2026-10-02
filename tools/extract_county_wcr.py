@@ -287,7 +287,11 @@ WCR_PAGE = re.compile(r'well\s*completion|completion\s*report|dwr\s*-?\s*188|tot
                       r"|wel+i?\W{0,4}completion\W{0,8}rep"
                       r"|\(\s*12\s*\)\s*wel\w{0,4}\s*[\W_]{0,3}\s*l+og"
                       # "WATER" clipped to "TER" on a carbon copy: "TER WELL DRILLERS REPORT"
-                      r"|t[e3]r\s+well\s+" + _DRILL + r"\W{0,3}s?\s+report(?!\W{0,3}(must|shall|is\s+required|to\s+be|within))", re.I)
+                      r"|t[e3]r\s+well\s+" + _DRILL + r"\W{0,3}s?\s+report(?!\W{0,3}(must|shall|is\s+required|to\s+be|within))"
+                      # i read as l ("DRll,.LERS"), or the word split ("DRILL SES REPCAT" / "DRELLEAS STATEMENT")
+                      r"|water\s+well\s+dr[il1]+[,.\s]*l*ers?\W{0,3}s?\s+report(?!\W{0,3}(must|shall|is\s+required|to\s+be|within))"
+                      r"|water\s+well\s+drill[\w\s]{0,10}repc"
+                      r"|drell+e?as\W{0,3}s?\s+statem", re.I)
 
 
 # Some county text layers are letter-spaced ("N otice of Intent N o.", "W A T E R  W E L L"): also test the layer with all
@@ -299,7 +303,9 @@ WCR_COMPACT = re.compile(r'wellcompletion|completionreport|dwr188|totaldepthof(c
                          r'|well(?:dr|da|or)?ill+ers?s?statem'
                          r'|wel+i?completionrep'
                          r'|12wel[a-z]{0,2}log'
-                         r'|(?:water|ter)well(?:dr|da|or)?ill+ers?s?repor(?!t?(must|shall|isrequired|tobe|within))')
+                         r'|(?:water|ter)well(?:dr|da|or)?ill+ers?s?repor(?!t?(must|shall|isrequired|tobe|within))'
+                         r'|waterwelldr[il1]+l*ers?s?repor(?!t?(must|shall|isrequired|tobe|within))'
+                         r'|waterwelldrill[a-z]{0,6}repc|drelleasstatem')
 
 
 def layer_is_wcr(text):
@@ -348,9 +354,15 @@ def ocr_page(pdf, page, tmp):
     png = os.path.join(tmp, f'p{page}')
     run(['pdftoppm', '-r', '300', '-gray', '-png', '-f', str(page), '-l', str(page), '-singlefile', pdf, png])
     text, words = _words_from_tsv(_ocr_tsv(png + '.png', '4'))
-    if len(re.sub(r'\s', '', text)) < 40:
+    n = len(re.sub(r'\s', '', text))
+    # Blank (gray stamp ate the column pass) or a short read that is not a report: try a uniform-block pass.
+    # Full permit applications already come back long, so they are not OCR'd twice.
+    if n < 40 or (n < 800 and not layer_is_wcr(text)):
         text6, words6 = _words_from_tsv(_ocr_tsv(png + '.png', '6'))
-        if len(re.sub(r'\s', '', text6)) > len(re.sub(r'\s', '', text)):
+        n6 = len(re.sub(r'\s', '', text6))
+        if n < 40 and n6 > n:
+            return text6, words6
+        if layer_is_wcr(text6):
             return text6, words6
     return text, words
 
