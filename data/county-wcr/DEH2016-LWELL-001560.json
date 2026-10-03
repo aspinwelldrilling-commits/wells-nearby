@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2016-LWELL-001560",
+ "processed": "2026-10-02T20:54:23-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35244710",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2016-11-30",
+   "kb": 525
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35329917",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 219
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35239850",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2018-10-18",
+   "kb": 218
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35239850",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 305.0,
+   "conf": "medium",
+   "ocrConf": 96.756905,
+   "raw": "Total Depth of Boring 305",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 175.0,
+   "conf": "high",
+   "ocrConf": 88.190628,
+   "raw": "Estimated Yield* 175 == (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.193863,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Mud",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Mud",
+   "conf": "high",
+   "ocrConf": 94.900452,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-02-21",
+   "conf": "low",
+   "ocrConf": 47.539925,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.9689,
+   "lon": -116.3964,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35239850",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 32.96877403174497,
+ "lon": -116.39671495544098
+}
