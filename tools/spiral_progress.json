@@ -1339,7 +1339,25 @@
    "liveCount": 400
   },
   "chunk:Alpine no-report 2": {
-   "batches": []
+   "batches": [
+    {
+     "at": "2026-10-03T13:37:52-07:00",
+     "n": 150,
+     "counts": {
+      "no_wcr": 38,
+      "readable": 15,
+      "unreadable": 63,
+      "partial": 34
+     },
+     "secPerPermit": 7.5,
+     "redo": true,
+     "verified": true,
+     "commit": "3f10d5f",
+     "live": true,
+     "liveVerified": true
+    }
+   ],
+   "liveCount": 376
   }
  }
 }

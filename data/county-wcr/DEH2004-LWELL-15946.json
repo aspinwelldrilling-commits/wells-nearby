@@ -1,7 +1,7 @@
 {
  "permit": "DEH2004-LWELL-15946",
- "processed": "2026-09-28T13:38:19-07:00",
- "version": 2,
+ "processed": "2026-10-03T13:57:09-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35303406",
@@ -11,13 +11,35 @@
    "kb": 291
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35303406",
- "errors": [
-  "read 35303406: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35303406",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 1195.0,
+   "conf": "low",
+   "ocrConf": 33.039322,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1195",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-05-10",
+   "conf": "high",
+   "ocrConf": 93.28788,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35303406",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
  "area": "alpine",
  "lat": 32.76349557504778,
  "lon": -116.68545261122813
