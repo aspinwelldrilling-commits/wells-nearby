@@ -1,7 +1,7 @@
 {
  "permit": "DEH2001-LWELL-14410",
- "processed": "2026-09-28T07:48:45-07:00",
- "version": 2,
+ "processed": "2026-10-02T23:48:39-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308424",
@@ -11,13 +11,35 @@
    "kb": 280
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308424",
- "errors": [
-  "read 35308424: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308424",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "gpm": {
+   "value": 54.0,
+   "conf": "high",
+   "ocrConf": 95.603577,
+   "raw": "ESTIMATED YIELD * 54 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-04-03",
+   "conf": "high",
+   "ocrConf": 94.226921,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308424",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
  "area": "santa-ysabel",
  "lat": 33.06941787893201,
  "lon": -116.7478998544719

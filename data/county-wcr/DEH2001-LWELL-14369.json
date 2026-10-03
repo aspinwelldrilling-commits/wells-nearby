@@ -1,7 +1,7 @@
 {
  "permit": "DEH2001-LWELL-14369",
- "processed": "2026-09-28T07:48:35-07:00",
- "version": 2,
+ "processed": "2026-10-02T23:49:25-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35301147",
@@ -11,13 +11,44 @@
    "kb": 439
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35301147",
- "errors": [
-  "read 35301147: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35301147",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 1408.0,
+   "conf": "medium",
+   "ocrConf": 74.316071,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1408",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "medium",
+   "ocrConf": 51.225639,
+   "raw": "ESTIMATED YIELD * 6 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 65.0,
+   "conf": "high",
+   "ocrConf": 96.056496,
+   "raw": "WATER LEVEL 65 (Ft",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35301147",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
  "area": "santa-ysabel",
  "lat": 33.087888252289005,
  "lon": -116.74854887344644
