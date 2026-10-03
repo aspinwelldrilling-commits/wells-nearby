@@ -1,7 +1,7 @@
 {
  "permit": "DEH2017-LWELL-001663",
- "processed": "2026-09-28T08:03:59-07:00",
- "version": 2,
+ "processed": "2026-10-02T17:57:42-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35297499",
@@ -25,14 +25,73 @@
    "kb": 422
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35297499",
- "errors": [
-  "read 35297499: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35261544: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35297499",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 5
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 510.0,
+   "conf": "high",
+   "ocrConf": 93.60984,
+   "raw": "Total Depth of Completed Well 510",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 95.174294,
+   "raw": "Estimated Yield * 10 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 39.829407,
+   "raw": "Water Level .250 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.722183,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Air",
+   "page": 5,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 66.20343,
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-04-13",
+   "conf": "high",
+   "ocrConf": 94.981171,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.0769,
+   "lon": -116.649,
+   "conf": "high",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35297499",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
  "area": "santa-ysabel",
  "lat": 33.07661914323194,
  "lon": -116.64887949797354

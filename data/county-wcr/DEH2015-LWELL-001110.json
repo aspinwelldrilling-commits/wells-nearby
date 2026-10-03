@@ -1,7 +1,7 @@
 {
  "permit": "DEH2015-LWELL-001110",
- "processed": "2026-09-28T08:02:38-07:00",
- "version": 2,
+ "processed": "2026-10-02T17:44:37-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35316687",
@@ -25,15 +25,79 @@
    "kb": 701
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35316687",
- "errors": [
-  "read 35316687: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35256571: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35169985: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35316687",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35256571",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 4
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 415.0,
+   "conf": "high",
+   "ocrConf": 93.767693,
+   "raw": "Total Depth of Completed Well 415",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Water Level 7 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-10-29",
+   "conf": "medium",
+   "ocrConf": 79.702286,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.0887,
+   "lon": -116.6444,
+   "conf": "low",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 95.727669,
+   "raw": "Estimated Yield * 45 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.750542,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Air",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 66.403854,
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35256571",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
  "area": "santa-ysabel",
  "lat": 33.08805841075427,
  "lon": -116.64383878316106
