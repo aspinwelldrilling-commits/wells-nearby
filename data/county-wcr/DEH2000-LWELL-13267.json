@@ -1,7 +1,7 @@
 {
  "permit": "DEH2000-LWELL-13267",
- "processed": "2026-09-28T13:09:33-07:00",
- "version": 2,
+ "processed": "2026-10-03T13:22:05-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298708",
@@ -11,13 +11,36 @@
    "kb": 265
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298708",
- "errors": [
-  "read 35298708: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298708",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "gpm": {
+   "value": 14.0,
+   "conf": "medium",
+   "ocrConf": 79.107727,
+   "raw": "ESTIMATED YieLD 14 (gpm",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 390.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LeveL 390 (Ft",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298708",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
  "area": "alpine",
  "lat": 32.80805161555943,
  "lon": -116.77683352549357

@@ -1,7 +1,7 @@
 {
  "permit": "DEH2009-LWELL-20304",
- "processed": "2026-09-28T14:12:32-07:00",
- "version": 2,
+ "processed": "2026-10-03T13:34:58-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35481261",
@@ -11,13 +11,43 @@
    "kb": 294
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35481261",
- "errors": [
-  "read 35481261: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35481261",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 3
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "high",
+   "ocrConf": 96.679001,
+   "raw": "Total Depth of Completed Well 250",
+   "page": 4,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary -",
+   "conf": "low",
+   "ocrConf": 7.386826,
+   "raw": "Drilling Method _Air Rotary - Drilling Fluid viewing",
+   "page": 4,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-09-02",
+   "conf": "high",
+   "ocrConf": 81.59124,
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35481261",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "readable",
  "area": "alpine",
  "lat": 32.83272187669793,
  "lon": -116.69830169989741

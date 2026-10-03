@@ -1,7 +1,7 @@
 {
  "permit": "DEH2008-LWELL-19765",
- "processed": "2026-09-28T14:07:06-07:00",
- "version": 2,
+ "processed": "2026-10-03T13:27:36-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35105983",
@@ -18,13 +18,52 @@
    "kb": 112
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35105983",
- "errors": [
-  "read 35105983: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35105983",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 4
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 61.374886,
+   "raw": "Total Depth of Boring - 600",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 4,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "low",
+   "ocrConf": 14.27314,
+   "raw": "Estimated Yield* 15 ~\u2014\u2014 (GPM",
+   "page": 4,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary Air",
+   "conf": "high",
+   "ocrConf": 80.477631,
+   "raw": "Drilling Method Rotary air Drilling Fluid Fresh",
+   "page": 4,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-07-22",
+   "conf": "low",
+   "ocrConf": 46.545113,
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35105983",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "partial",
  "area": "alpine",
  "lat": 32.821054914254724,
  "lon": -116.73388306431957

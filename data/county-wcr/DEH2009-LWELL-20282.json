@@ -1,7 +1,7 @@
 {
  "permit": "DEH2009-LWELL-20282",
- "processed": "2026-09-28T14:12:22-07:00",
- "version": 2,
+ "processed": "2026-10-03T13:20:27-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308370",
@@ -11,13 +11,51 @@
    "kb": 226
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308370",
- "errors": [
-  "read 35308370: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308370",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 4
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 850.0,
+   "conf": "medium",
+   "ocrConf": 73.909607,
+   "raw": "Total Depth of Completed Well 850",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 39.152603,
+   "raw": "Estimated Yield* 3 ss (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Dri",
+   "conf": "low",
+   "ocrConf": 44.586342,
+   "raw": "Drilling Method Air Dri Drilling Fluid Fresh",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-11-19",
+   "conf": "low",
+   "ocrConf": 49.303131,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308370",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
  "area": "alpine",
  "lat": 32.82587039021294,
  "lon": -116.73023124282386
