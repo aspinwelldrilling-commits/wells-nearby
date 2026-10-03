@@ -1,7 +1,7 @@
 {
  "permit": "DEH2002-LWELL-14733",
- "processed": "2026-09-28T13:22:28-07:00",
- "version": 2,
+ "processed": "2026-10-03T14:01:11-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35322224",
@@ -25,13 +25,19 @@
    "kb": 277
   }
  ],
- "wcrPages": [],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35322224",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
  "fields": {},
  "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35322224",
- "errors": [
-  "viewer 35322224: Response.json: Protocol error (Network.getResponseBody): Request content was evicted from inspector cache\nResponse body "
- ],
- "status": "no_wcr",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "unreadable",
  "area": "alpine",
  "lat": 32.763246068817715,
  "lon": -116.67901749875627
