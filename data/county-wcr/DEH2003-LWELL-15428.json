@@ -1,7 +1,7 @@
 {
  "permit": "DEH2003-LWELL-15428",
- "processed": "2026-09-28T13:30:53-07:00",
- "version": 2,
+ "processed": "2026-10-03T11:56:28-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35310652",
@@ -11,13 +11,45 @@
    "kb": 345
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35310652",
- "errors": [
-  "read 35310652: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35310652",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 139.0,
+   "conf": "low",
+   "ocrConf": 32.622543,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __139.0",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 35.0,
+   "conf": "medium",
+   "ocrConf": 71.387894,
+   "raw": "ESTIMATED YIELD * 35 _ (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 18.727989,
+   "raw": "WATER LEVEL__ 260) _(Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35310652",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
  "area": "alpine",
  "lat": 32.81747581337477,
  "lon": -116.77552145769918

@@ -1,7 +1,7 @@
 {
  "permit": "DEH1998-LWELL-9395",
- "processed": "2026-09-28T12:54:47-07:00",
- "version": 2,
+ "processed": "2026-10-03T11:43:53-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35389638",
@@ -11,13 +11,29 @@
    "kb": 245
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35389638",
- "errors": [
-  "read 35389638: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35389638",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 772.0,
+   "conf": "low",
+   "ocrConf": 51.090637,
+   "raw": "TOTAL DEPTH OF BoRING 772",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35389638",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
  "area": "alpine",
  "lat": 32.84189122032645,
  "lon": -116.76128160984082
