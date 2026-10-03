@@ -1,7 +1,7 @@
 {
  "permit": "DEH2004-LWELL-16286",
- "processed": "2026-09-28T13:41:51-07:00",
- "version": 2,
+ "processed": "2026-10-03T12:03:28-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35343668",
@@ -11,13 +11,19 @@
    "kb": 375
   }
  ],
- "wcrPages": [],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35343668",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
  "fields": {},
  "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35343668",
- "errors": [
-  "read 35343668: [Errno 2] No such file or directory: 'tesseract'"
- ],
- "status": "no_wcr",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "unreadable",
  "area": "alpine",
  "lat": 32.81532320180158,
  "lon": -116.77131614955924
