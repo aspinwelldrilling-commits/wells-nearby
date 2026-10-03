@@ -64,8 +64,11 @@ def main():
     fails, results = [], []
     with sync_playwright() as p:
         b = p.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox'])
+        # Block the service worker: it precaches manifest.json and, on a failed tile fetch, can answer
+        # tiles/*.json?v=<hash> with ignoreSearch (a stale shard). Verify must see the files on disk.
         ctx = b.new_context(viewport={'width': 412, 'height': 915}, device_scale_factor=1, is_mobile=True, has_touch=True,
-                            geolocation={'latitude': 33.0417, 'longitude': -116.8681, 'accuracy': 10}, permissions=['geolocation'])
+                            geolocation={'latitude': 33.0417, 'longitude': -116.8681, 'accuracy': 10}, permissions=['geolocation'],
+                            service_workers='block')
         pg = ctx.new_page()
         errs = []
         pg.on('pageerror', lambda e: errs.append(str(e)[:200]))
@@ -77,14 +80,25 @@ def main():
             spots = [(pt['lat'], pt['lon'])]
             g = ((idx.get(P) or {}).get('fields') or {}).get('gps')
             if g and g.get('conf') in ('high', 'medium'): spots.append((g['lat'], g['lon']))
+            r = {'found': False}
             try:
                 for la, lo in spots:
-                    pg.goto(f"{base}index.html?lat={la:.6f}&lon={lo:.6f}&r=0.25&view=county&all=1&ts={os.getpid()}", timeout=60000)
-                    pg.wait_for_selector('#summary:not(.hidden)', timeout=60000)
-                    pg.wait_for_function('(P) => window.WellsCountyWcr && WellsCountyWcr.index && WellsCountyWcr.index[P]', arg=P, timeout=30000)
-                    pg.wait_for_timeout(1500)
-                    r = pg.evaluate(JS_FIND, P)
-                    if r['found']: break
+                    # County GIS sometimes returns an empty circle for a few seconds (summary is already
+                    # visible, the WCR shard is loaded, but the permit is not in state.shown). Retry the
+                    # same point before calling it missing — that flake used to fail a whole batch.
+                    for attempt in range(3):
+                        pg.goto(f"{base}index.html?lat={la:.6f}&lon={lo:.6f}&r=0.25&view=county&all=1&ts={os.getpid()}-{attempt}", timeout=60000)
+                        pg.wait_for_selector('#summary:not(.hidden)', timeout=60000)
+                        pg.wait_for_function('() => window.WellsApp && WellsApp.state && !WellsApp.state.searching', timeout=60000)
+                        pg.wait_for_function('(P) => window.WellsCountyWcr && WellsCountyWcr.index && WellsCountyWcr.index[P]', arg=P, timeout=30000)
+                        pg.wait_for_timeout(400)
+                        r = pg.evaluate(JS_FIND, P)
+                        if r.get('found'): break
+                        st = pg.evaluate("() => (document.getElementById('status') || {}).innerText || ''")
+                        r['statusText'] = st
+                        print(f"RETRY {P} not shown ({attempt + 1}/3) n={r.get('n')} status={st[:140]!r}", flush=True)
+                        pg.wait_for_timeout(2000)
+                    if r.get('found'): break
                 pg.wait_for_timeout(800)
                 # grouped marker ("N records at this point"): open this permit's own popup from the list
                 item = pg.locator('.leaflet-popup .item .open-item', has_text=P)
@@ -95,8 +109,9 @@ def main():
                 fails.append(f'{P}: page error {str(e)[:150]}'); continue
             r.update(permit=P, expected=exp)
             ok, why = True, ''
-            if not r['found']:
-                ok, why = False, 'permit not shown in app'
+            if not r.get('found'):
+                st = (r.get('statusText') or '').replace('\n', ' ')[:120]
+                ok, why = False, 'permit not shown in app' + (f' [{st}]' if st else '')
             elif r['status'] != exp:
                 ok, why = False, f"app status {r['status']} != index {exp}"
             elif r['flag'] == 'state':

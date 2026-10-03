@@ -263,7 +263,7 @@ def main():
     ensure_env()
     rings = {int(x) for x in a.rings.split(',') if x.strip()}; only = {x.strip() for x in a.areas.split(',') if x.strip()}
     areas = [ar for ar in plan['areas'] if (not rings or ar['ring'] in rings) and (not only or ar['id'] in only)]
-    S = {'push_ok': a.push, 'bad_streak': 0}
+    S = {'push_ok': a.push, 'bad_streak': 0, 'held': []}  # held = extracted but not yet verified (a flaky check must not latch push off)
     log(f'spiral run pid {os.getpid()}: {len(areas)} areas, push={a.push}, batch={a.batch}, delay={a.delay}')
 
     def run_batch(ar, batch, force=False, label=''):
@@ -307,9 +307,21 @@ def main():
                 smp = sample(done); ok, msg = verify(smp)
             entry['verified'] = ok
             if not ok:
-                log('   LOCAL VERIFICATION FAILED — pushing disabled for the rest of this run:', msg)
-                S['push_ok'] = False
+                # One flaky local check (county GIS "not shown") must not disable every later push.
+                # Hold this batch uncommitted; the next batch re-checks a sample of it before anything is pushed.
+                log('   LOCAL VERIFICATION FAILED — holding this batch uncommitted (will re-check before the next push):', msg)
+                S['held'].extend(done)
             else:
+                if S['held']:
+                    okh, msgh = verify(sample(S['held']))
+                    if not okh:
+                        log('   held permits still fail verify — pushing disabled for the rest of this run:', msgh)
+                        S['push_ok'] = False
+                        S['held'].extend(done)
+                    else:
+                        log(f"   held {len(S['held'])} permits re-checked ok")
+                        S['held'] = []
+            if ok and S['push_ok']:
                 total = len(ar['permits']) - area_counts(ar).get('todo', 0)
                 save_prog(prog); write_md(plan, prog)
                 git('add', 'data/county-wcr', 'tools/spiral_progress.json', 'tools/spiral_plan.md')
