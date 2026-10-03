@@ -1,7 +1,7 @@
 {
  "permit": "DEH2008-LWELL-19352",
- "processed": "2026-09-28T07:57:34-07:00",
- "version": 2,
+ "processed": "2026-10-02T18:18:22-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35315017",
@@ -11,13 +11,28 @@
    "kb": 282
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35315017",
- "errors": [
-  "read 35315017: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35315017",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 290.0,
+   "conf": "low",
+   "ocrConf": 3.755081,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL290",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35315017",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
  "area": "santa-ysabel",
  "lat": 33.08097465597462,
  "lon": -116.65170454914725

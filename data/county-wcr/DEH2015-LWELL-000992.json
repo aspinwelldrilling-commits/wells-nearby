@@ -1,7 +1,7 @@
 {
  "permit": "DEH2015-LWELL-000992",
- "processed": "2026-09-28T08:01:50-07:00",
- "version": 2,
+ "processed": "2026-10-02T18:21:26-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35222261",
@@ -25,14 +25,72 @@
    "kb": 881
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35222261",
- "errors": [
-  "read 35222261: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35198281: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35222261",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35222261",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 5
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 610.0,
+   "conf": "high",
+   "ocrConf": 96.354095,
+   "raw": "Total Depth of Completed Well 610",
+   "page": 2,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.70359,
+   "raw": "Drilling Method Air Drilling Drilling Fluid\nDepth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-05-06",
+   "conf": "medium",
+   "ocrConf": 62.047764,
+   "page": 2,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 98.0,
+   "conf": "high",
+   "ocrConf": 96.173889,
+   "raw": "Estimated Yield* 98 (GPM",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 48.0,
+   "conf": "high",
+   "ocrConf": 80.221497,
+   "raw": "Water Level 48 \u2014\u2014__\u2014s (Feet",
+   "page": 2,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.09465,
+   "lon": -116.64784,
+   "conf": "low",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35222261",
+ "errors": [],
+ "bestDocPage": 2,
+ "status": "readable",
  "area": "santa-ysabel",
  "lat": 33.097015072557845,
  "lon": -116.64841502367629

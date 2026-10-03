@@ -1,7 +1,7 @@
 {
  "permit": "DEH1980-LWELL-4277",
- "processed": "2026-09-28T07:33:21-07:00",
- "version": 2,
+ "processed": "2026-10-02T18:26:57-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35289607",
@@ -11,13 +11,19 @@
    "kb": 221
   }
  ],
- "wcrPages": [],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35289607",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
  "fields": {},
  "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35289607",
- "errors": [
-  "read 35289607: [Errno 2] No such file or directory: 'tesseract'"
- ],
- "status": "no_wcr",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
  "area": "santa-ysabel",
  "lat": 33.0993970379242,
  "lon": -116.64825577523207
