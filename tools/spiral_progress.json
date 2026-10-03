@@ -1014,7 +1014,40 @@
    "liveCount": 447
   },
   "chunk:Julian toward Ramona 1": {
-   "batches": []
+   "batches": [
+    {
+     "at": "2026-10-03T00:07:08-07:00",
+     "n": 150,
+     "counts": {
+      "no_docs": 5,
+      "readable": 5,
+      "no_wcr": 43,
+      "unreadable": 85,
+      "partial": 12
+     },
+     "secPerPermit": 13.9,
+     "redo": true,
+     "verified": true,
+     "commit": "731b665",
+     "live": true,
+     "liveVerified": true
+    },
+    {
+     "at": "2026-10-03T00:48:13-07:00",
+     "n": 150,
+     "counts": {
+      "unreadable": 89,
+      "no_wcr": 29,
+      "readable": 13,
+      "partial": 17,
+      "no_docs": 2
+     },
+     "secPerPermit": 15.7,
+     "redo": true,
+     "verified": false
+    }
+   ],
+   "liveCount": 400
   }
  }
 }
