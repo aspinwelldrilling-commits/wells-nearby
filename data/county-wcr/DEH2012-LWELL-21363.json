@@ -1,0 +1,84 @@
+{
+ "permit": "DEH2012-LWELL-21363",
+ "processed": "2026-10-04T13:26:28-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35201369",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-16",
+   "kb": 564
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35248269",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-01-28",
+   "kb": 399
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35201369",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 67.283707,
+   "raw": "Total Depth of Completed Well _200",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.540268,
+   "raw": "Estimated Yield * 50 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 83.0,
+   "conf": "medium",
+   "ocrConf": 72.220078,
+   "raw": "Water Level 83 ss (Feet",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Down-Hole Hammer",
+   "conf": "high",
+   "ocrConf": 89.855858,
+   "raw": "Drilling Method Down-Hole Hammer Drilling Fluid Air",
+   "page": 3,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 53.94973,
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-12-07",
+   "conf": "high",
+   "ocrConf": 92.300407,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35201369",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
+ "area": "",
+ "lat": 33.396951182679835,
+ "lon": -117.18967400479502
+}
