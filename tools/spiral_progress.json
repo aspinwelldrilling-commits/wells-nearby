@@ -1583,7 +1583,27 @@
    "liveCount": 13
   },
   "chunk:Ramona north leftover 1": {
-   "batches": []
+   "batches": [
+    {
+     "at": "2026-10-03T20:42:59-07:00",
+     "n": 150,
+     "counts": {
+      "unreadable": 115,
+      "no_docs": 8,
+      "readable": 7,
+      "error": 12,
+      "partial": 7,
+      "destruction_wcr": 1
+     },
+     "secPerPermit": 20.1,
+     "redo": true,
+     "verified": true,
+     "commit": "d5897c8",
+     "live": true,
+     "liveVerified": true
+    }
+   ],
+   "liveCount": 164
   }
  }
 }
