@@ -1,0 +1,53 @@
+{
+ "permit": "DEH2014-LWELL-000415",
+ "processed": "2026-10-04T06:25:17-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34871001",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-16",
+   "kb": 877
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34783631",
+   "desc": "APPROVAL",
+   "subtype": "Water Well Permit",
+   "scanned": "2014-01-28",
+   "kb": 399
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34871001",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 44.249947,
+   "raw": "Estimated Yield* 1 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-01-17",
+   "conf": "high",
+   "ocrConf": 96.546997,
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34871001",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "partial",
+ "area": "",
+ "lat": 32.683038813334434,
+ "lon": -116.3266987144862
+}
