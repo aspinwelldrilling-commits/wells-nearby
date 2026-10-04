@@ -1887,7 +1887,27 @@
    "liveCount": 385
   },
   "chunk:Bonsall / Vista east 1": {
-   "batches": []
+   "batches": [
+    {
+     "at": "2026-10-04T03:34:16-07:00",
+     "n": 150,
+     "counts": {
+      "partial": 27,
+      "unreadable": 69,
+      "no_wcr": 28,
+      "readable": 20,
+      "destruction_wcr": 3,
+      "no_docs": 3
+     },
+     "secPerPermit": 5.3,
+     "redo": true,
+     "verified": true,
+     "commit": "f7b0446",
+     "live": true,
+     "liveVerified": true
+    }
+   ],
+   "liveCount": 150
   }
  }
 }

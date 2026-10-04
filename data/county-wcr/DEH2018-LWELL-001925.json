@@ -1,0 +1,92 @@
+{
+ "permit": "DEH2018-LWELL-001925",
+ "processed": "2026-10-04T03:40:36-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35346751",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2018-11-09",
+   "kb": 556
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35351123",
+   "desc": "approved",
+   "subtype": "Water Well Permit",
+   "scanned": "2018-03-05",
+   "kb": 371
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35346751",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 670.0,
+   "conf": "medium",
+   "ocrConf": 96.07608,
+   "raw": "Total Depth of Boring 670",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 77.552048,
+   "raw": "Estimated Yield* 100 _\u2014S\u2014s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 43.862782,
+   "raw": "Water Level 200 \u2014s\u2014_\u2014s(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.643852,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 30.901787,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-02",
+   "conf": "medium",
+   "ocrConf": 64.274727,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.2603,
+   "lon": -117.1749,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35346751",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.261416229481284,
+ "lon": -117.17612345441783
+}
