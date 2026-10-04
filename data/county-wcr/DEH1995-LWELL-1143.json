@@ -1,7 +1,7 @@
 {
  "permit": "DEH1995-LWELL-1143",
- "processed": "2026-09-27T23:54:35-07:00",
- "version": 2,
+ "processed": "2026-10-03T19:55:55-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35276455",
@@ -11,28 +11,13 @@
    "kb": 239
   }
  ],
- "wcrPages": [
-  {
-   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35276455",
-   "page": 3,
-   "source": "ocr",
-   "nFields": 1
-  }
- ],
- "fields": {
-  "gpm": {
-   "value": 1.0,
-   "conf": "low",
-   "ocrConf": 0.0,
-   "raw": "ESTIMATED YIELD * 1B Fe (GPM",
-   "page": 3,
-   "source": "ocr"
-  }
- },
+ "wcrPages": [],
+ "fields": {},
  "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35276455",
- "errors": [],
- "bestDocPage": 3,
- "status": "unreadable",
+ "errors": [
+  "read 35276455: Command '['tesseract', '/tmp/wcr-worker-9le7oq6r/p3.png', '-', '--psm', '4', 'tsv']' timed out after 180 seconds"
+ ],
+ "status": "error",
  "area": "ramona-north",
  "lat": 33.077105849747845,
  "lon": -116.86229717605093
