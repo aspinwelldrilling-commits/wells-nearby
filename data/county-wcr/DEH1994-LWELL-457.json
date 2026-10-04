@@ -1,0 +1,77 @@
+{
+ "permit": "DEH1994-LWELL-457",
+ "processed": "2026-10-04T13:48:05-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35123490",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-06-21",
+   "kb": 400
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35221815",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-04-13",
+   "kb": 300
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35123490",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35123490",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 5.198677,
+   "raw": "ESTIMATED YIELD 3s (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 22.38472,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___20",
+   "page": 4,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 94.292633,
+   "raw": "WATER LEVEL 60 (Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 4,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Hammer",
+   "conf": "medium",
+   "ocrConf": 76.788185,
+   "raw": "DRILLING\nMETHOD air hammer FLUID\nTOTAL",
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35123490",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "partial",
+ "area": "",
+ "lat": 33.28751032235717,
+ "lon": -117.24111206718864
+}
