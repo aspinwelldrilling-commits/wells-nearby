@@ -1,7 +1,7 @@
 {
  "permit": "DEH2015-LWELL-000857",
- "processed": "2026-09-28T06:53:18-07:00",
- "version": 2,
+ "processed": "2026-10-03T17:28:09-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35125478",
@@ -18,13 +18,51 @@
    "kb": 324
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35125478",
- "errors": [
-  "read 35116385: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35116385",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 4
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 1127.0,
+   "conf": "high",
+   "ocrConf": 96.087273,
+   "raw": "Total Depth of Completed Well 1127",
+   "page": 4,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 70.0,
+   "conf": "low",
+   "ocrConf": 31.193451,
+   "raw": "Estimated Yield * 70 (GPM",
+   "page": 4,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 382.0,
+   "conf": "high",
+   "ocrConf": 87.508667,
+   "raw": "Water Level 382 (Feet",
+   "page": 4,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-22",
+   "conf": "medium",
+   "ocrConf": 68.839165,
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35116385",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "readable",
  "area": "san-pasqual",
  "lat": 33.07204712658398,
  "lon": -116.99810310028086

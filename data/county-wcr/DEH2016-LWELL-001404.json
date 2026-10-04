@@ -1,7 +1,7 @@
 {
  "permit": "DEH2016-LWELL-001404",
- "processed": "2026-09-28T06:58:31-07:00",
- "version": 2,
+ "processed": "2026-10-03T17:25:31-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35367490",
@@ -25,13 +25,67 @@
    "kb": 536
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35367490",
- "errors": [
-  "read 35367490: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35367490",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 1416.0,
+   "conf": "medium",
+   "ocrConf": 95.211586,
+   "raw": "Total Depth of Boring 1416",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 96.316055,
+   "raw": "Estimated Yield * 600 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 122.0,
+   "conf": "high",
+   "ocrConf": 86.086655,
+   "raw": "Water Level 122 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 91.15155,
+   "raw": "Drilling Method Air Drilling Drilling Fluid\nDepth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-07-11",
+   "conf": "medium",
+   "ocrConf": 75.183777,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.10331,
+   "lon": -116.95792,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35367490",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
  "area": "san-pasqual",
  "lat": 33.10125908503292,
  "lon": -116.96009904509414

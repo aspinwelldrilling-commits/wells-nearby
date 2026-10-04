@@ -1,7 +1,7 @@
 {
  "permit": "DEH2017-LWELL-001860",
- "processed": "2026-09-28T07:02:54-07:00",
- "version": 2,
+ "processed": "2026-10-03T17:42:32-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35335999",
@@ -18,13 +18,19 @@
    "kb": 580
   }
  ],
- "wcrPages": [],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35335999",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
  "fields": {},
  "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35335999",
- "errors": [
-  "read 35335999: [Errno 2] No such file or directory: 'tesseract'"
- ],
- "status": "no_wcr",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "unreadable",
  "area": "san-pasqual",
  "lat": 33.123328523234484,
  "lon": -117.01651749962862

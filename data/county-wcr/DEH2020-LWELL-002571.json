@@ -1,7 +1,7 @@
 {
  "permit": "DEH2020-LWELL-002571",
- "processed": "2026-09-28T07:06:53-07:00",
- "version": 2,
+ "processed": "2026-10-03T17:29:07-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35459367",
@@ -25,15 +25,79 @@
    "kb": 60
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35459367",
- "errors": [
-  "read 35459367: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35557076: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35467010: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35459367",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35459367",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 860.0,
+   "conf": "medium",
+   "ocrConf": 75.082855,
+   "raw": "Total Depth of Completed Well 860",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 94.99221,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 231.0,
+   "conf": "high",
+   "ocrConf": 94.34626,
+   "raw": "Water Level 231 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 87.832977,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 5,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 47.022827,
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-09-11",
+   "conf": "medium",
+   "ocrConf": 77.328415,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.11812,
+   "lon": -116.97542,
+   "conf": "high",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35459367",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
  "area": "san-pasqual",
  "lat": 33.11740819786694,
  "lon": -116.9728072012849

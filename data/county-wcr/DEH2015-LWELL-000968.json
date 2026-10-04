@@ -1,7 +1,7 @@
 {
  "permit": "DEH2015-LWELL-000968",
- "processed": "2026-09-28T06:54:58-07:00",
- "version": 2,
+ "processed": "2026-10-03T17:32:03-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35169389",
@@ -18,14 +18,53 @@
    "kb": 526
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35169389",
- "errors": [
-  "read 35169389: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35169382: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35169389",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35169389",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35169389",
+   "page": 7,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35169389",
+   "page": 15,
+   "source": "ocr",
+   "nFields": 2
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "swlFt": {
+   "value": 84.0,
+   "conf": "medium",
+   "ocrConf": 76.984833,
+   "raw": "Water Level 84 (Feet",
+   "page": 15,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-05-19",
+   "conf": "high",
+   "ocrConf": 93.035721,
+   "page": 15,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35169389",
+ "errors": [],
+ "bestDocPage": 15,
+ "status": "partial",
  "area": "san-pasqual",
  "lat": 33.15969304779304,
  "lon": -116.94838245604474

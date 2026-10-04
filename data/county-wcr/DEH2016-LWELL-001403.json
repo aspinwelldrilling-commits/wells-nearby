@@ -1,7 +1,7 @@
 {
  "permit": "DEH2016-LWELL-001403",
- "processed": "2026-09-28T06:58:11-07:00",
- "version": 2,
+ "processed": "2026-10-03T17:24:57-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40310164",
@@ -25,13 +25,59 @@
    "kb": 532
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40310164",
- "errors": [
-  "read 40310164: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40310164",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 760.0,
+   "conf": "medium",
+   "ocrConf": 95.927078,
+   "raw": "Total Depth of Boring 760",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 94.518753,
+   "raw": "Estimated Yield* 800 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling Sa",
+   "conf": "low",
+   "ocrConf": 36.109596,
+   "raw": "Drilling Method Air Drilling Sa Fluid Maili",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-09-26",
+   "conf": "low",
+   "ocrConf": 42.971748,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.10223,
+   "lon": -116.96003,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40310164",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
  "area": "san-pasqual",
  "lat": 33.10125908503292,
  "lon": -116.96009904509414

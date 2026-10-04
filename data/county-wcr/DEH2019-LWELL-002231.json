@@ -1,7 +1,7 @@
 {
  "permit": "DEH2019-LWELL-002231",
- "processed": "2026-09-28T07:04:26-07:00",
- "version": 2,
+ "processed": "2026-10-03T17:25:55-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35411371",
@@ -15,9 +15,9 @@
  "fields": {},
  "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35411371",
  "errors": [
-  "read 35411371: [Errno 2] No such file or directory: 'tesseract'"
+  "read 35411371: Command '['tesseract', '/tmp/wcr-worker-1l85320i/p4.png', '-', '--psm', '6', 'tsv']' timed out after 180 seconds"
  ],
- "status": "no_wcr",
+ "status": "error",
  "area": "san-pasqual",
  "lat": 33.13219135978111,
  "lon": -116.91852651892172

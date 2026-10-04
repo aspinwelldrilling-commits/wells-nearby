@@ -1472,9 +1472,41 @@
      "commit": "bccca51",
      "live": true,
      "liveVerified": true
+    },
+    {
+     "at": "2026-10-03T16:29:13-07:00",
+     "n": 22,
+     "counts": {
+      "unreadable": 9,
+      "no_wcr": 13
+     },
+     "secPerPermit": 4.2,
+     "redo": true,
+     "verified": true,
+     "commit": "806e993",
+     "live": true,
+     "liveVerified": true
     }
    ],
    "liveCount": 172
+  },
+  "chunk:San Pasqual / Escondido east no-report 1": {
+   "batches": [
+    {
+     "at": "2026-10-03T17:36:19-07:00",
+     "n": 150,
+     "counts": {
+      "unreadable": 41,
+      "no_wcr": 79,
+      "partial": 10,
+      "readable": 19,
+      "error": 1
+     },
+     "secPerPermit": 7.4,
+     "redo": true,
+     "verified": false
+    }
+   ]
   }
  }
 }

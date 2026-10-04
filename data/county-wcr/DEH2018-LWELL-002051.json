@@ -1,7 +1,7 @@
 {
  "permit": "DEH2018-LWELL-002051",
- "processed": "2026-09-28T07:03:35-07:00",
- "version": 2,
+ "processed": "2026-10-03T17:34:00-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35376976",
@@ -18,13 +18,43 @@
    "kb": 395
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35376976",
- "errors": [
-  "read 35376976: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35376976",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 518.0,
+   "conf": "medium",
+   "ocrConf": 76.583298,
+   "raw": "Total Depth of Completed Well 518",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.942535,
+   "raw": "Estimated Yield * 300 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-08-30",
+   "conf": "high",
+   "ocrConf": 91.114174,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35376976",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
  "area": "san-pasqual",
  "lat": 33.086009702338764,
  "lon": -117.02780682881868

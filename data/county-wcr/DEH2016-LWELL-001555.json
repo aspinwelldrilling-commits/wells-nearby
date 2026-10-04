@@ -1,7 +1,7 @@
 {
  "permit": "DEH2016-LWELL-001555",
- "processed": "2026-09-28T07:00:22-07:00",
- "version": 2,
+ "processed": "2026-10-03T17:30:43-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39767685",
@@ -25,13 +25,58 @@
    "kb": 198
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39767685",
- "errors": [
-  "read 39767685: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39767685",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 1500.0,
+   "conf": "high",
+   "ocrConf": 96.506248,
+   "raw": "Total Depth of Completed Well 1500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 92.626793,
+   "raw": "Estimated Yield\u201c 600 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "medium",
+   "ocrConf": 77.786255,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-02-16",
+   "conf": "high",
+   "ocrConf": 89.879295,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.1538,
+   "lon": -116.9923,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39767685",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
  "area": "san-pasqual",
  "lat": 33.15808835351717,
  "lon": -116.93644368067123
