@@ -1,0 +1,83 @@
+{
+ "permit": "DEH2014-LWELL-000617",
+ "processed": "2026-10-04T13:56:43-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34713816",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-10-22",
+   "kb": 1909
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34713807",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2014-07-29",
+   "kb": 341
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34698701",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-08-23",
+   "kb": 277
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34713816",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 725.0,
+   "conf": "low",
+   "ocrConf": 47.934982,
+   "raw": "Total Depth of Completed Well 725",
+   "page": 4,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.536087,
+   "raw": "Estimated Yield * 200 (GPM",
+   "page": 4,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "medium",
+   "ocrConf": 58.970871,
+   "raw": "Drilling Method _ Air Rotary Drilling Fluid ",
+   "page": 4,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-08-11",
+   "conf": "medium",
+   "ocrConf": 62.046093,
+   "page": 4,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.30214,
+   "lon": -117.24019,
+   "conf": "medium",
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34713816",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "partial",
+ "area": "",
+ "lat": 33.30211985211601,
+ "lon": -117.23958105364214
+}

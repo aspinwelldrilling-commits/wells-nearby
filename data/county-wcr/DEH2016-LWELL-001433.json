@@ -1,0 +1,90 @@
+{
+ "permit": "DEH2016-LWELL-001433",
+ "processed": "2026-10-04T13:51:42-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39838704",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-11-26",
+   "kb": 1212
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35236788",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2016-08-17",
+   "kb": 682
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35320357",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2018-11-21",
+   "kb": 561
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35225274",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 259
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39838704",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 795.0,
+   "conf": "low",
+   "ocrConf": 13.893494,
+   "raw": "Total Depth of Completed Well 795",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 95.676353,
+   "raw": "Estimated Yield* 120 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary Drilling",
+   "conf": "medium",
+   "ocrConf": 74.784111,
+   "raw": "Drilling Method _Air Rotary Drilling Drilling Fluid\nDepth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-10-04",
+   "conf": "high",
+   "ocrConf": 89.744911,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.34257,
+   "lon": -117.1835,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39838704",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 33.34248035051645,
+ "lon": -117.18326661071428
+}

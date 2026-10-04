@@ -1,0 +1,75 @@
+{
+ "permit": "DEH2016-LWELL-001461",
+ "processed": "2026-10-04T13:57:42-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35238250",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2016-08-30",
+   "kb": 677
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35249378",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 216
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35373340",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2018-09-13",
+   "kb": 167
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35373340",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 965.0,
+   "conf": "high",
+   "ocrConf": 95.387268,
+   "raw": "Total Depth of Completed Well 965",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.614784,
+   "raw": "Estimated Yield * 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-11-16",
+   "conf": "medium",
+   "ocrConf": 62.44302,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.30901,
+   "lon": -117.23619,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35373340",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.30848056041792,
+ "lon": -117.23555077825442
+}
