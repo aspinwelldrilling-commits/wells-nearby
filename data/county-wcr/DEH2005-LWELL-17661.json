@@ -1,0 +1,76 @@
+{
+ "permit": "DEH2005-LWELL-17661",
+ "processed": "2026-10-04T04:46:06-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35147724",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-10",
+   "kb": 212
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35127808",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-01-18",
+   "kb": 82
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35147724",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "high",
+   "ocrConf": 85.125114,
+   "raw": "Total Depth of Completed Well 320",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 95.438919,
+   "raw": "Estimated Yield * 15 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 42.546276,
+   "raw": "Drilling Method Air Drilling Fluid Foam",
+   "page": 3,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "high",
+   "ocrConf": 90.71891,
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-12-01",
+   "conf": "medium",
+   "ocrConf": 54.181747,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35147724",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
+ "area": "",
+ "lat": 32.81436256084849,
+ "lon": -116.66989105774917
+}
