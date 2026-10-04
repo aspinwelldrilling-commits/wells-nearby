@@ -2332,7 +2332,28 @@
    "liveCount": 400
   },
   "chunk:Santee / El Cajon / Crest / Dehesa 1": {
-   "batches": []
+   "batches": [
+    {
+     "at": "2026-10-04T11:28:15-07:00",
+     "n": 150,
+     "counts": {
+      "unreadable": 87,
+      "no_wcr": 37,
+      "readable": 10,
+      "partial": 10,
+      "no_docs": 4,
+      "error": 1,
+      "destruction_wcr": 1
+     },
+     "secPerPermit": 4.9,
+     "redo": true,
+     "verified": true,
+     "commit": "b34d033",
+     "live": true,
+     "liveVerified": true
+    }
+   ],
+   "liveCount": 150
   }
  }
 }
