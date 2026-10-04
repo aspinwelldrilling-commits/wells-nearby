@@ -1,0 +1,69 @@
+{
+ "permit": "DEH2014-LWELL-000530",
+ "processed": "2026-10-04T03:31:54-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34737556",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 226
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34803372",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2014-05-14",
+   "kb": 146
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34737556",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 96.632988,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 82.180679,
+   "raw": "Estimated Yield* 25 ss (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary Orilling",
+   "conf": "medium",
+   "ocrConf": 69.577858,
+   "raw": "Drilling Method Air Rotary Orilling Fluid ",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-07-28",
+   "conf": "low",
+   "ocrConf": 25.07859,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34737556",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
+ "area": "",
+ "lat": 33.233827658707696,
+ "lon": -117.18010693368853
+}
