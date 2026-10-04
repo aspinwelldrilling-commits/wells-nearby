@@ -1,0 +1,97 @@
+{
+ "permit": "DEH2018-LWELL-002189",
+ "processed": "2026-10-03T23:17:02-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35404424",
+   "desc": "Redacted WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-04-30",
+   "kb": 2057
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35496290",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-01-02",
+   "kb": 266
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35404424",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35404424",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 92.0,
+   "conf": "high",
+   "ocrConf": 90.365089,
+   "raw": "Total Depth of Completed Well 92",
+   "page": 4,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 94.142532,
+   "raw": "Estimated Yield* 18 (GPM",
+   "page": 4,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 95.831848,
+   "raw": "Water Level 70 (Feet",
+   "page": 4,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 95.021637,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 4,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 62.172222,
+   "page": 4,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-04-16",
+   "conf": "low",
+   "ocrConf": 35.615112,
+   "page": 4,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.728262,
+   "lon": -116.832302,
+   "conf": "high",
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35404424",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "readable",
+ "area": "",
+ "lat": 32.728486515907775,
+ "lon": -116.83171754090014
+}
