@@ -2276,7 +2276,27 @@
    "liveCount": 400
   },
   "chunk:Fallbrook 1": {
-   "batches": []
+   "batches": [
+    {
+     "at": "2026-10-04T10:28:47-07:00",
+     "n": 150,
+     "counts": {
+      "readable": 12,
+      "unreadable": 95,
+      "partial": 20,
+      "no_wcr": 15,
+      "no_docs": 7,
+      "destruction_wcr": 1
+     },
+     "secPerPermit": 5.2,
+     "redo": true,
+     "verified": true,
+     "commit": "8a3df57",
+     "live": true,
+     "liveVerified": true
+    }
+   ],
+   "liveCount": 150
   }
  }
 }
