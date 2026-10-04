@@ -1,15 +1,29 @@
 {
  "permit": "DEH1984-LWELL-4782",
- "processed": "2026-09-28T21:04:38-07:00",
- "version": 5,
- "docs": [],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": null,
- "errors": [
-  "search: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+ "processed": "2026-10-04T07:47:45-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35292210",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-07-25",
+   "kb": 212
+  }
  ],
- "status": "error",
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35292210",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {},
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35292210",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
  "area": "alpine",
  "lat": 32.812314064363804,
  "lon": -116.7609579744483
