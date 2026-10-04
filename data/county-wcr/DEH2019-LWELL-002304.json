@@ -1,0 +1,89 @@
+{
+ "permit": "DEH2019-LWELL-002304",
+ "processed": "2026-10-04T13:05:59-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35420384",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-02-15",
+   "kb": 973
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35571312",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-06-11",
+   "kb": 228
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35512120",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-02-15",
+   "kb": 277
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35420384",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35420384",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1115.0,
+   "conf": "low",
+   "ocrConf": 29.34066,
+   "raw": "Total Depth of Completed Well 1115",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 92.659447,
+   "raw": "Estimated Yield* 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 78.212128,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-06-25",
+   "conf": "medium",
+   "ocrConf": 66.718491,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.4036,
+   "lon": -117.1249,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35420384",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 33.40419744541975,
+ "lon": -117.12488931544546
+}

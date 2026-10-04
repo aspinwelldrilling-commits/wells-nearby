@@ -1,0 +1,84 @@
+{
+ "permit": "DEH2014-LWELL-000435",
+ "processed": "2026-10-04T12:58:45-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34698502",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2014-02-18",
+   "kb": 580
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34708151",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-16",
+   "kb": 279
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34708151",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 86.0,
+   "conf": "medium",
+   "ocrConf": 96.352638,
+   "raw": "Total Depth of Boring 86",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 28.0,
+   "conf": "medium",
+   "ocrConf": 54.727646,
+   "raw": "Water Level 28 (Feet",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary Oriting",
+   "conf": "medium",
+   "ocrConf": 67.117851,
+   "raw": "Drilling Method Direct Rotary Oriting Fluid_ Bentonite",
+   "page": 3,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 92.050301,
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-04-09",
+   "conf": "high",
+   "ocrConf": 80.936485,
+   "page": 3,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.3606,
+   "lon": -117.1618,
+   "conf": "low",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34708151",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
+ "area": "",
+ "lat": 33.36221187835116,
+ "lon": -117.1631025524484
+}

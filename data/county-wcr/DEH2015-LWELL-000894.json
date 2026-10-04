@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2015-LWELL-000894",
+ "processed": "2026-10-04T13:08:29-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35167351",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 966
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35125676",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2018-10-18",
+   "kb": 224
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35122931",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-04-20",
+   "kb": 757
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35125676",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 272.0,
+   "conf": "high",
+   "ocrConf": 83.49131,
+   "raw": "Total Depth of Completed Well 272",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 95.590607,
+   "raw": "Estimated Yield * 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 110.0,
+   "conf": "high",
+   "ocrConf": 83.508636,
+   "raw": "Water Level 110 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Down-Hole Hammer",
+   "conf": "medium",
+   "ocrConf": 77.586311,
+   "raw": "Drilling Method Down-Hole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 43.957848,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-04",
+   "conf": "high",
+   "ocrConf": 92.971603,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35125676",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.42526512996131,
+ "lon": -117.0844741011053
+}

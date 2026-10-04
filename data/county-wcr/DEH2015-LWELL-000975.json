@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2015-LWELL-000975",
+ "processed": "2026-10-04T13:03:59-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35278250",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 1082
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35161432",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-01-10",
+   "kb": 774
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35161423",
+   "desc": "approved",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-06-16",
+   "kb": 675
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35161432",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 810.0,
+   "conf": "medium",
+   "ocrConf": 59.131428,
+   "raw": "Total Depth of Completed Well 810",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 110.0,
+   "conf": "low",
+   "ocrConf": 30.414375,
+   "raw": "Estimated Yield* 110 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 51.329304,
+   "raw": "Water Level 200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.05307,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 62.029453,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-09-11",
+   "conf": "low",
+   "ocrConf": 7.397697,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35161432",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.38584569381036,
+ "lon": -117.15092179832085
+}
