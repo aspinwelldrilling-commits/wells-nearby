@@ -1,0 +1,92 @@
+{
+ "permit": "DEH2016-LWELL-001481",
+ "processed": "2026-10-04T14:38:11-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35252283",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2016-09-20",
+   "kb": 483
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35320673",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 201
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35226881",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2018-09-13",
+   "kb": 178
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35226881",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 660.0,
+   "conf": "medium",
+   "ocrConf": 96.915428,
+   "raw": "Total Depth of Boring 660",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 76.74559,
+   "raw": "Estimated Yield * 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 248.0,
+   "conf": "medium",
+   "ocrConf": 72.248032,
+   "raw": "Water Level 248 _\u2014_\u2014s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 92.019814,
+   "raw": "Drilling Method Air Drilling Drilling Fluid oe",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-10-21",
+   "conf": "high",
+   "ocrConf": 92.238205,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.46103,
+   "lon": -117.3225,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35226881",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.46105201012522,
+ "lon": -117.32270426063455
+}
