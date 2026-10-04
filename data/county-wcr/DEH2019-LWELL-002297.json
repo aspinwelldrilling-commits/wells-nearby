@@ -1,0 +1,97 @@
+{
+ "permit": "DEH2019-LWELL-002297",
+ "processed": "2026-10-04T13:14:05-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35408038",
+   "desc": "redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-11-04",
+   "kb": 3442
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35408021",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-06-11",
+   "kb": 674
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35411629",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-05-21",
+   "kb": 745
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35408038",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35408038",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 590.0,
+   "conf": "low",
+   "ocrConf": 45.138302,
+   "raw": "Total Depth of Completed Well 590",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 95.828857,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 95.0,
+   "conf": "high",
+   "ocrConf": 96.595688,
+   "raw": "Water Level 95 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "low",
+   "ocrConf": 32.192619,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-08-12",
+   "conf": "medium",
+   "ocrConf": 77.80648,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.4292,
+   "lon": -117.0936,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35408038",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 33.428666522863345,
+ "lon": -117.0934594188242
+}
