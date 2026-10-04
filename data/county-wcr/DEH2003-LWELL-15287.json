@@ -1,7 +1,7 @@
 {
  "permit": "DEH2003-LWELL-15287",
- "processed": "2026-09-28T07:21:18-07:00",
- "version": 2,
+ "processed": "2026-10-03T19:21:17-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35414106",
@@ -11,13 +11,28 @@
    "kb": 264
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35414106",
- "errors": [
-  "read 35414106: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35414106",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "swlFt": {
+   "value": 26.0,
+   "conf": "medium",
+   "ocrConf": 79.171326,
+   "raw": "WATER LEVEL 26 (Ft",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35414106",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
  "area": "poway",
  "lat": 32.94351912471927,
  "lon": -116.95577568635214

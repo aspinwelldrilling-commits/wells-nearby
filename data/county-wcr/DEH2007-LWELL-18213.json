@@ -1,7 +1,7 @@
 {
  "permit": "DEH2007-LWELL-18213",
- "processed": "2026-09-28T07:24:00-07:00",
- "version": 2,
+ "processed": "2026-10-03T19:23:33-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35306467",
@@ -11,13 +11,42 @@
    "kb": 357
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35306467",
- "errors": [
-  "read 35306467: [Errno 2] No such file or directory: 'tesseract'"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35306467",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35306467",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 2
+  }
  ],
- "status": "no_wcr",
+ "fields": {
+  "depthFt": {
+   "value": 33.0,
+   "conf": "low",
+   "ocrConf": 15.843498,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __33",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 34.403206,
+   "raw": "ESTIMATED YIELD *'2= __ (GPM",
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35306467",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "unreadable",
  "area": "poway",
  "lat": 32.943013257624735,
  "lon": -116.98855627384971

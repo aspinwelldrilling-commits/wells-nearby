@@ -1,7 +1,7 @@
 {
  "permit": "DEH2003-LWELL-15401",
- "processed": "2026-09-28T07:21:51-07:00",
- "version": 2,
+ "processed": "2026-10-03T19:22:47-07:00",
+ "version": 6,
  "docs": [
   {
    "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35302262",
@@ -18,14 +18,25 @@
    "kb": 226
   }
  ],
- "wcrPages": [],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35302262",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35308138",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
  "fields": {},
  "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35302262",
- "errors": [
-  "read 35302262: [Errno 2] No such file or directory: 'tesseract'",
-  "read 35308138: [Errno 2] No such file or directory: 'tesseract'"
- ],
- "status": "no_wcr",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
  "area": "poway",
  "lat": 32.94175935618647,
  "lon": -116.97998772895522
