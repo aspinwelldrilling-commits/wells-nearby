@@ -1682,7 +1682,26 @@
    "liveCount": 400
   },
   "chunk:Jamul 2": {
-   "batches": []
+   "batches": [
+    {
+     "at": "2026-10-03T23:23:17-07:00",
+     "n": 150,
+     "counts": {
+      "unreadable": 96,
+      "no_wcr": 21,
+      "partial": 21,
+      "readable": 8,
+      "no_docs": 4
+     },
+     "secPerPermit": 4.6,
+     "redo": true,
+     "verified": true,
+     "commit": "395085c",
+     "live": true,
+     "liveVerified": true
+    }
+   ],
+   "liveCount": 150
   }
  }
 }
