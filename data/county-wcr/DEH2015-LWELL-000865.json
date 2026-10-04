@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2015-LWELL-000865",
+ "processed": "2026-10-04T14:08:20-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35154774",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-10-23",
+   "kb": 3107
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35119336",
+   "desc": "approved",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-03-23",
+   "kb": 220
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35154781",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-03-21",
+   "kb": 245
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35154774",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1016.0,
+   "conf": "high",
+   "ocrConf": 87.455109,
+   "raw": "Total Depth of Completed Well 1016",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.821342,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 80.021484,
+   "raw": "Water Level 40 ss (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "medium",
+   "ocrConf": 72.84967,
+   "raw": "Drilling Method Air Rotary Drilling Fluid pursuant",
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-24",
+   "conf": "low",
+   "ocrConf": 23.110481,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.4724,
+   "lon": -117.26573,
+   "conf": "low",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35154774",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 33.31519896281354,
+ "lon": -117.25961831835905
+}
