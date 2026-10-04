@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2017-LWELL-001635",
+ "processed": "2026-10-04T01:37:05-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35288891",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-04-02",
+   "kb": 1112
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35288885",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 302
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35288874",
+   "desc": "approved",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-02-13",
+   "kb": 608
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35288891",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1335.0,
+   "conf": "low",
+   "ocrConf": 45.348381,
+   "raw": "Total Depth of Completed Well 1335",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "medium",
+   "ocrConf": 76.260178,
+   "raw": "Estimated Yield* 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 202.0,
+   "conf": "medium",
+   "ocrConf": 77.020554,
+   "raw": "Water Level 202 _\u2014_\u2014s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.123642,
+   "raw": "Drilling Method Air Drilling Drilling Fluid personal",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-03-10",
+   "conf": "low",
+   "ocrConf": 15.461365,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.2164,
+   "lon": -116.99675,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35288891",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 33.210690299151366,
+ "lon": -116.99711007919329
+}
