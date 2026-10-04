@@ -1,0 +1,69 @@
+{
+ "permit": "DEH2014-LWELL-000662",
+ "processed": "2026-10-04T02:54:46-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34677025",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 388
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34678812",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2014-09-08",
+   "kb": 306
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34677025",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 33.535545,
+   "raw": "Estimated Yield * 4\u00b0 (GPM",
+   "page": 4,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 90.837616,
+   "raw": "Water Level 50 . (Feet",
+   "page": 4,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "medium",
+   "ocrConf": 75.240204,
+   "raw": "Drilling Method Air Drilling Drilling Fluid viewing",
+   "page": 4,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-09-24",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34677025",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "partial",
+ "area": "",
+ "lat": 33.245892370823576,
+ "lon": -117.11727858561571
+}
