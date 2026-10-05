@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2020-LWELL-002641",
+ "processed": "2026-10-04T22:37:42-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35484842",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-06-22",
+   "kb": 7050
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35491939",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-08-13",
+   "kb": 1992
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35484851",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-06-22",
+   "kb": 88
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35484842",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 810.0,
+   "conf": "high",
+   "ocrConf": 84.098953,
+   "raw": "Total Depth of Completed Well 810",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 220.0,
+   "conf": "high",
+   "ocrConf": 95.828957,
+   "raw": "Estimated Yield\u201d 220 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 107.0,
+   "conf": "high",
+   "ocrConf": 95.802032,
+   "raw": "Water Level 107 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 92.321266,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-08-28",
+   "conf": "medium",
+   "ocrConf": 79.276855,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.220501,
+   "lon": -116.54875,
+   "conf": "medium",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35484842",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.21930648799926,
+ "lon": -116.54921198376732
+}
