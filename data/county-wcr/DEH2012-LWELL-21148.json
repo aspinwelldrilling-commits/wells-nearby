@@ -1,0 +1,70 @@
+{
+ "permit": "DEH2012-LWELL-21148",
+ "processed": "2026-10-04T22:24:33-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35130728",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-16",
+   "kb": 375
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35108527",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-01-26",
+   "kb": 152
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35130728",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1210.0,
+   "conf": "medium",
+   "ocrConf": 96.349358,
+   "raw": "Total Depth of Boring 1210",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.638268,
+   "raw": "Estimated Yield * 10 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 93.765312,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Air",
+   "page": 3,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 46.348755,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35130728",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "readable",
+ "area": "",
+ "lat": 33.076308251291344,
+ "lon": -117.10570755331048
+}
