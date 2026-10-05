@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2015-LWELL-000943",
+ "processed": "2026-10-04T17:30:15-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35172917",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-03-30",
+   "kb": 919
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35133256",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 584
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35153125",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-05-19",
+   "kb": 850
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35172917",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "high",
+   "ocrConf": 95.67775,
+   "raw": "Total Depth of Completed Well 310",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 70.0,
+   "conf": "medium",
+   "ocrConf": 79.017731,
+   "raw": "Estimated Yield\u201c 70 Ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 46.584343,
+   "raw": "Water Level 35 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 94.227905,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 69.267258,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-25",
+   "conf": "high",
+   "ocrConf": 93.787079,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35172917",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.35934716699275,
+ "lon": -117.1381252495864
+}

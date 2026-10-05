@@ -2800,9 +2800,40 @@
      "commit": "b1c2a0e1",
      "live": true,
      "liveVerified": true
+    },
+    {
+     "at": "2026-10-04T16:59:24-07:00",
+     "n": 1,
+     "counts": {
+      "unreadable": 1
+     },
+     "secPerPermit": 53.6,
+     "redo": true,
+     "verified": true,
+     "commit": "c37d0410",
+     "live": true,
+     "liveVerified": true
     }
    ],
-   "liveCount": 300
+   "liveCount": 301
+  },
+  "chunk:Pala / Pala Mesa 1": {
+   "batches": [
+    {
+     "at": "2026-10-04T17:16:22-07:00",
+     "n": 150,
+     "counts": {
+      "partial": 21,
+      "unreadable": 80,
+      "no_wcr": 29,
+      "readable": 16,
+      "no_docs": 4
+     },
+     "secPerPermit": 6.3,
+     "redo": true,
+     "verified": false
+    }
+   ]
   }
  }
 }
