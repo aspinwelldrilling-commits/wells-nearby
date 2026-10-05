@@ -1,0 +1,61 @@
+{
+ "permit": "DEH2010-LWELL-20519",
+ "processed": "2026-10-04T17:53:21-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35106499",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-16",
+   "kb": 285
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35100070",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-01-21",
+   "kb": 74
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35106499",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 88.304642,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 90.930397,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Fresh",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-03-25",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35106499",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
+ "area": "",
+ "lat": 32.61948086261448,
+ "lon": -116.76082111463543
+}

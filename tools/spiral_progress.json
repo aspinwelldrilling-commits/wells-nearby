@@ -2832,6 +2832,54 @@
      "secPerPermit": 6.3,
      "redo": true,
      "verified": false
+    },
+    {
+     "at": "2026-10-04T17:35:58-07:00",
+     "n": 150,
+     "counts": {
+      "no_docs": 9,
+      "no_wcr": 22,
+      "readable": 13,
+      "partial": 19,
+      "unreadable": 87
+     },
+     "secPerPermit": 5.2,
+     "redo": true,
+     "verified": true,
+     "commit": "cf979d40",
+     "live": true,
+     "liveVerified": true
+    }
+   ],
+   "liveCount": 300
+  },
+  "chunk:Dulzura / Otay Lakes 2": {
+   "batches": [
+    {
+     "at": "2026-10-04T17:49:02-07:00",
+     "n": 150,
+     "counts": {
+      "unreadable": 98,
+      "no_wcr": 25,
+      "partial": 19,
+      "no_docs": 5,
+      "readable": 3
+     },
+     "secPerPermit": 4.3,
+     "redo": true
+    },
+    {
+     "at": "2026-10-04T18:00:22-07:00",
+     "n": 127,
+     "counts": {
+      "unreadable": 75,
+      "no_wcr": 25,
+      "partial": 14,
+      "readable": 10,
+      "no_docs": 3
+     },
+     "secPerPermit": 5.3,
+     "redo": true
     }
    ]
   }
