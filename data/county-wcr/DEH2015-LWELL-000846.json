@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2015-LWELL-000846",
+ "processed": "2026-10-04T18:53:57-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41293881",
+   "desc": "WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-01-30",
+   "kb": 706
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35114411",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 214
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35123367",
+   "desc": "disapproved",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-03-02",
+   "kb": 205
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35156889",
+   "desc": "approved",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-07-02",
+   "kb": 445
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41293881",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1510.0,
+   "conf": "high",
+   "ocrConf": 94.70208,
+   "raw": "Total Depth of Completed Well: 1510",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "medium",
+   "ocrConf": 71.289398,
+   "raw": "Estimated Yield*: 6(GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 288.0,
+   "conf": "high",
+   "ocrConf": 86.573929,
+   "raw": "Water Level: 288 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 96.596703,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: _ Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-07-07",
+   "conf": "high",
+   "ocrConf": 95.257195,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41293881",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.1949735995815,
+ "lon": -117.20904681901192
+}
