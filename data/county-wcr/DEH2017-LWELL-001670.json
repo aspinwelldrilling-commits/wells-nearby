@@ -1,0 +1,68 @@
+{
+ "permit": "DEH2017-LWELL-001670",
+ "processed": "2026-10-05T00:01:15-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35294475",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-03-21",
+   "kb": 1981
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35416354",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-10-06",
+   "kb": 1016
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35416354",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35416354",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 145.0,
+   "conf": "medium",
+   "ocrConf": 96.89344,
+   "raw": "Total Depth of Boring 145",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Circulation Rotary",
+   "conf": "high",
+   "ocrConf": 93.856705,
+   "raw": "Drilling Method Reverse Circulation Rotary Drilling Fluid Viewing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-03-12",
+   "conf": "medium",
+   "ocrConf": 54.778519,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35416354",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.28300404266314,
+ "lon": -117.37505204217352
+}
