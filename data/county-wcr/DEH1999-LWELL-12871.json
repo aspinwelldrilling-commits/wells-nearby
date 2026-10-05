@@ -1,6 +1,6 @@
 {
  "permit": "DEH1999-LWELL-12871",
- "processed": "2026-10-03T20:08:18-07:00",
+ "processed": "2026-10-05T01:52:07-07:00",
  "version": 6,
  "docs": [
   {
@@ -11,13 +11,61 @@
    "kb": 793
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298963",
- "errors": [
-  "read 35298963: "
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298963",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298963",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298963",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298963",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 1
+  }
  ],
- "status": "error",
+ "fields": {
+  "swlFt": {
+   "value": 18.0,
+   "conf": "medium",
+   "ocrConf": 73.312202,
+   "raw": "WATER LEVEL __18Q _(Ft",
+   "page": 4,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 694.0,
+   "conf": "medium",
+   "ocrConf": 76.189072,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL.694",
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-12-27",
+   "conf": "medium",
+   "ocrConf": 78.533745,
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35298963",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "readable",
  "area": "ramona-north",
  "lat": 33.07917945877834,
  "lon": -116.84523998154059

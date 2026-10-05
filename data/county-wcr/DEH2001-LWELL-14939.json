@@ -1,6 +1,6 @@
 {
  "permit": "DEH2001-LWELL-14939",
- "processed": "2026-10-03T21:16:13-07:00",
+ "processed": "2026-10-05T01:52:41-07:00",
  "version": 6,
  "docs": [
   {
@@ -11,13 +11,35 @@
    "kb": 305
   }
  ],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35457008",
- "errors": [
-  "read 35457008: Command '['tesseract', '/tmp/wcr-worker-5u_mtk9a/p3.png', '-', '--psm', '4', 'tsv']' timed out after 180 seconds"
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35457008",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
  ],
- "status": "error",
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 22.529114,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 800",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-01-10",
+   "conf": "medium",
+   "ocrConf": 64.307129,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35457008",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
  "area": "",
  "lat": 32.79859530657898,
  "lon": -116.85218143717495

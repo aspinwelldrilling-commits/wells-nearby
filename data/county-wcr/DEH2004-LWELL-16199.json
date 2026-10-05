@@ -1,6 +1,6 @@
 {
  "permit": "DEH2004-LWELL-16199",
- "processed": "2026-10-03T22:29:03-07:00",
+ "processed": "2026-10-05T06:54:32-07:00",
  "version": 6,
  "docs": [
   {
@@ -18,13 +18,19 @@
    "kb": 67
   }
  ],
- "wcrPages": [],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35201028",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
  "fields": {},
  "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35201028",
- "errors": [
-  "read 35201028: Command '['tesseract', '/tmp/wcr-worker-ifo4x7zj/p3.png', '-', '--psm', '4', 'tsv']' timed out after 180 seconds"
- ],
- "status": "error",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "unreadable",
  "area": "",
  "lat": 32.74943592872331,
  "lon": -116.77068092584427
