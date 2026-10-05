@@ -1,0 +1,84 @@
+{
+ "permit": "DEH2018-LWELL-001909",
+ "processed": "2026-10-04T23:45:37-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35337506",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-02-08",
+   "kb": 1445
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35344796",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2018-01-25",
+   "kb": 611
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35337506",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 2010.0,
+   "conf": "low",
+   "ocrConf": 0.613785,
+   "raw": "Total Depth of Completed Well 2010",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 240.0,
+   "conf": "high",
+   "ocrConf": 96.475845,
+   "raw": "Estimated Yield * 240 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 210.0,
+   "conf": "high",
+   "ocrConf": 88.122803,
+   "raw": "Water Level 210 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.109489,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid _Mud",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Mud",
+   "conf": "high",
+   "ocrConf": 85.308868,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-04-13",
+   "conf": "high",
+   "ocrConf": 95.403389,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35337506",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 33.343803632244025,
+ "lon": -117.01739581991674
+}
