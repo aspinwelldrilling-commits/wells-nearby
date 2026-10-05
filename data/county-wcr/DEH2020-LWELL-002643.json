@@ -1,0 +1,105 @@
+{
+ "permit": "DEH2020-LWELL-002643",
+ "processed": "2026-10-04T21:49:42-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35487863",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-10",
+   "kb": 5515
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35478041",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-08-13",
+   "kb": 3154
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35487847",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-10",
+   "kb": 277
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35487863",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35487863",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 685.0,
+   "conf": "medium",
+   "ocrConf": 84.385361,
+   "raw": "Total Depth of Boring 685",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 95.931923,
+   "raw": "Estimated Yield* 800 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 380.0,
+   "conf": "high",
+   "ocrConf": 96.549873,
+   "raw": "Water Level 380 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "low",
+   "ocrConf": 45.373184,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 5,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 60.703918,
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-10-16",
+   "conf": "medium",
+   "ocrConf": 69.364433,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.19413,
+   "lon": -116.23071,
+   "conf": "high",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35487863",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 33.33138296392557,
+ "lon": -116.38925443537882
+}

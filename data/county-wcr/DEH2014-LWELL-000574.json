@@ -1,0 +1,92 @@
+{
+ "permit": "DEH2014-LWELL-000574",
+ "processed": "2026-10-04T21:51:36-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34636778",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 1157
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34636669",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2014-07-03",
+   "kb": 1142
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34636778",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 96.412956,
+   "raw": "Total Depth of Boring 1000",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 320.0,
+   "conf": "high",
+   "ocrConf": 96.989159,
+   "raw": "Estimated Yield* 320 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 102.0,
+   "conf": "medium",
+   "ocrConf": 74.52655,
+   "raw": "Water Level _102 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.658142,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 71.084869,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-08-07",
+   "conf": "high",
+   "ocrConf": 96.296837,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.1979,
+   "lon": -116.3077,
+   "conf": "low",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=34636778",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.194867298096675,
+ "lon": -116.29934207634406
+}

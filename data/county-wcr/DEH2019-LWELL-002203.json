@@ -1,0 +1,97 @@
+{
+ "permit": "DEH2019-LWELL-002203",
+ "processed": "2026-10-04T21:40:41-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35394003",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-10-18",
+   "kb": 2916
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35393982",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2019-01-18",
+   "kb": 910
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35394003",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35394003",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 85.362717,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 95.113777,
+   "raw": "Estimated Yield* 600 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 235.0,
+   "conf": "high",
+   "ocrConf": 96.68116,
+   "raw": "Water Level 235 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 84.891251,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 33.785858,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-04-04",
+   "conf": "medium",
+   "ocrConf": 79.463295,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.2641,
+   "lon": -116.3801,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35394003",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.265482990053094,
+ "lon": -116.38154750315749
+}

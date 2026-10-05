@@ -1,0 +1,76 @@
+{
+ "permit": "DEH2012-LWELL-21135",
+ "processed": "2026-10-04T21:50:41-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35108517",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-16",
+   "kb": 221
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35130696",
+   "desc": "APPROVED",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-01-26",
+   "kb": 239
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35108517",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 1500.0,
+   "conf": "high",
+   "ocrConf": 86.369911,
+   "raw": "Estimated Yield * 1,500 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 312.0,
+   "conf": "medium",
+   "ocrConf": 70.700188,
+   "raw": "Water Level 312 (Feet",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Circulation Rotary",
+   "conf": "high",
+   "ocrConf": 95.543625,
+   "raw": "Drilling Method Reverse Circulation Rotary Drilling Fluid _Polymer",
+   "page": 3,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Polymer",
+   "conf": "medium",
+   "ocrConf": 69.526901,
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-04-24",
+   "conf": "high",
+   "ocrConf": 83.758553,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35108517",
+ "errors": [],
+ "bestDocPage": 3,
+ "status": "partial",
+ "area": "",
+ "lat": 33.31033304750049,
+ "lon": -116.37180309198843
+}

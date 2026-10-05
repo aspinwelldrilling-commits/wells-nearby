@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2016-LWELL-001414",
+ "processed": "2026-10-04T21:45:22-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35315496",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2016-08-02",
+   "kb": 605
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35201439",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 323
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35234498",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 323
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35201439",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.901039,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 4,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 56.762005,
+   "raw": "Estimated Yield* 200 __\u2014(GPM",
+   "page": 4,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 88.29834,
+   "raw": "Water Level _120 (Feet",
+   "page": 4,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 95.724854,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 4,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 65.997589,
+   "page": 4,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-08-05",
+   "conf": "medium",
+   "ocrConf": 67.705162,
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35201439",
+ "errors": [],
+ "bestDocPage": 4,
+ "status": "readable",
+ "area": "",
+ "lat": 33.25519359226268,
+ "lon": -116.34683634071938
+}
