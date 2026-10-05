@@ -1,0 +1,98 @@
+{
+ "permit": "DEH2015-LWELL-001015",
+ "processed": "2026-10-04T18:11:37-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35262855",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2017-08-18",
+   "kb": 1029
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35165447",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-03-30",
+   "kb": 777
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35178802",
+   "desc": "approved",
+   "subtype": "Water Well Permit",
+   "scanned": "2015-07-02",
+   "kb": 940
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35165447",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1412.0,
+   "conf": "low",
+   "ocrConf": 46.980515,
+   "raw": "Total Depth of Completed Well _1412",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 96.76165,
+   "raw": "Estimated Yield* 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 23.0,
+   "conf": "medium",
+   "ocrConf": 73.092056,
+   "raw": "Water Level .23 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.556755,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 49.658401,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-09-02",
+   "conf": "high",
+   "ocrConf": 84.91478,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.9961,
+   "lon": -117.183,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35165447",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 32.99598135469122,
+ "lon": -117.18211356074954
+}
