@@ -1,0 +1,90 @@
+{
+ "permit": "DEH2020-LWELL-002582",
+ "processed": "2026-10-04T19:32:34-07:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35470351",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-10-21",
+   "kb": 2980
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35471622",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-05-29",
+   "kb": 1792
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35470351",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35470351",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "high",
+   "ocrConf": 92.236481,
+   "raw": "Total Depth of Completed Well 260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 16.56221,
+   "raw": "Estimated Yield\u201d +\u00ab40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 95.947113,
+   "raw": "Water Level 45 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud Driling",
+   "conf": "low",
+   "ocrConf": 46.010132,
+   "raw": "Drilling Method Other - MUD Driling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-07-17",
+   "conf": "medium",
+   "ocrConf": 77.369652,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.29128,
+   "lon": -116.89721,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35470351",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.29089504224621,
+ "lon": -116.89772759082716
+}
