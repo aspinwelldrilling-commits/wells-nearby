@@ -136,6 +136,7 @@
 
   function setLocation(lat, lon, how) {
     state.lat = lat; state.lon = lon; state.how = how;
+    if (window.WellsSearch) WellsSearch.onLocation(lat, lon);   // a pin from an earlier address/APN search goes away
     $('lat').value = lat.toFixed(5); $('lon').value = lon.toFixed(5);
     updateUrl();
     search();
@@ -292,7 +293,7 @@
     const ll = [state.lat, state.lon];
     L.circle(ll, { radius: state.radius * 1609.344, color: '#38bdf8', weight: 2, fillOpacity: 0.05, interactive: false }).addTo(meLayer);
     L.marker(ll, { icon: L.divIcon({ className: '', html: '<div class="me-pin"></div>', iconSize: [18, 18], iconAnchor: [9, 9] }), zIndexOffset: 1000 })
-      .bindPopup(`<div class="popup"><h3>Your location</h3>${state.lat.toFixed(6)}, ${state.lon.toFixed(6)}<br>${esc(state.how || '')}</div>`).addTo(meLayer);
+      .bindPopup(`<div class="popup"><h3>${/GPS/.test(state.how || '') ? 'Your location' : 'Search point'}</h3>${state.lat.toFixed(6)}, ${state.lon.toFixed(6)}<br>${esc(state.how || '')}</div>`).addTo(meLayer);
     map.fitBounds(L.latLng(ll).toBounds(Math.max(state.radius, 0.2) * 1609.344 * 2.1));
   }
 
@@ -577,5 +578,5 @@
   if (Number.isFinite(qlat) && Number.isFinite(qlon)) setLocation(qlat, qlon, 'from link');
   else locate();
 
-  window.WellsApp = { state, map, search, setLocation, setView, searchHerePopup };
+  window.WellsApp = { state, map, search, setLocation, setView, searchHerePopup, insidePoint };
 })();

@@ -17,6 +17,17 @@ Sources (both queried live from the browser, CORS OK):
   `js/data.js` (query + normalize), `js/stats.js` (summaries), `js/match.js` (county↔state duplicate matching, State/County/Both views), `js/docs.js` (county document library), `js/app.js` (UI), `vendor/leaflet/` (Leaflet 1.9.4).
 - Link params: `?lat=33.0417&lon=-116.8681&r=1&view=both&all=1` (`r` = slider value 0–1 mi, or 2/3/5 via "wider";
   `r=0` searches 0.05 mi internally; if nothing is that close it shows the nearest 3 wells within 0.5 mi).
+- Address / APN search (`js/search.js`, settings `addressSearch` in `js/config.js`): the 🔍 box on the map. **APN first**
+  (addresses change, or don't exist yet when the well is drilled): `285-030-06-00`, `2850300600`, `28503006` / `285-030-06`
+  (8 digits → `APN_8`, every suffix listed), `APN 285 030 06 00` → County parcel layer `DPLU_Map/MapServer/0` (`APN` / `APN_8`),
+  centred on a point inside the parcel, outline drawn. Anything else = street address, looked up in parallel in SANDAG's public
+  regional locator `geo.sandag.org/.../SANDAG_COMPOSITE_LOCATOR/GeocodeServer` (keyless, CORS, San Diego County only; it ignores
+  city names, so a typed community like "Ramona" is turned into its ZIP(s)) and the parcel layer's situs address
+  (`SITUS_ADDRESS` + `SITUS_STREET`, gives the APN). A community or ZIP alone → the County `ZIPCODE5` locator (ZIP centre).
+  One clear hit → map centres, pin, normal nearby search (same path as `?lat=&lon=`); several → pick list; none → message.
+  Recent searches (max 8) are kept in `localStorage` (`wellsNearby.recentSearches`) on the device only. Esri's World Geocoder
+  is not used: it now requires an access token and its terms forbid keeping results (the recent list) without a stored-geocode
+  token.
 
 ## County WCR extraction (OCR cache)
 County completion reports are scanned PDFs behind an OutSystems viewer (no direct PDF URL, no text layer on most), so they

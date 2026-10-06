@@ -250,3 +250,30 @@ body.sheet-open:has(.sheet.compact) { padding-bottom: 46vh; }
 .map-note.hidden { display: none; }
 .map-note.ok { background: rgba(22,101,52,.92); } .map-note.warn { background: rgba(146,64,14,.94); } .map-note.err { background: rgba(153,27,27,.95); }
 .map-note button.small { margin-left: 6px; padding: 4px 10px; font-size: 13px; }
+/* ---------- address / APN search box on the map (js/search.js) ---------- */
+/* sits between the top-left buttons (zoom / Lines / Sewer) and the layers button (top-right) */
+.addr-search { position: absolute; top: 10px; left: 54px; right: 54px; z-index: 1001; max-width: 420px; }
+@media (min-width: 720px) { .addr-search { left: 50%; transform: translateX(-50%); right: auto; width: 420px; } }
+.addr-search .as-bar { display: flex; align-items: center; background: #fff; border-radius: 10px; box-shadow: 0 1px 6px rgba(0,0,0,.45); overflow: hidden; margin: 0; }
+.addr-search .as-input { flex: 1; min-width: 0; font-size: 16px; padding: 10px 6px 10px 12px; border: 0; outline: 0; background: transparent; color: var(--ink); -webkit-appearance: none; appearance: none; }
+.addr-search .as-input::-webkit-search-cancel-button { display: none; }
+.addr-search .as-input::placeholder { color: #64748b; }
+.addr-search .as-clear, .addr-search .as-go { border: 0; border-radius: 0; background: transparent; padding: 0; min-width: 42px; height: 42px; font-size: 17px; color: #475569; }
+.addr-search .as-go { background: var(--accent); color: #fff; min-width: 46px; }
+.addr-search .as-go:disabled { opacity: .8; }
+.addr-search .as-drop { margin-top: 6px; background: #fff; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.45); max-height: min(60vh, 300px); overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.addr-search .as-head { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--muted); padding: 6px 12px; border-bottom: 1px solid var(--line); }
+.addr-search .as-head button { font-size: 12px; padding: 2px 8px; }
+.addr-search .as-row { display: flex; border-bottom: 1px solid var(--line); }
+.addr-search .as-row:last-child { border-bottom: 0; }
+.addr-search .as-pick { flex: 1; text-align: left; border: 0; border-radius: 0; background: #fff; padding: 10px 12px; font-size: 15px; min-height: 44px; color: var(--ink); }
+.addr-search .as-pick small { display: block; color: var(--muted); font-size: 12px; margin-top: 1px; }
+.addr-search .as-pick:active, .addr-search .as-pick:hover { background: #f1f5f9; }
+.addr-search .as-del { border: 0; border-radius: 0; background: #fff; color: #94a3b8; min-width: 44px; padding: 0; font-size: 15px; }
+.addr-search .as-msg { padding: 10px 12px; font-size: 14px; color: var(--ink); }
+.addr-search .as-msg.warn { color: #92400e; } .addr-search .as-msg.err { color: #991b1b; }
+.addr-search .as-msg button { font-size: 13px; padding: 4px 10px; margin-left: 4px; }
+.map.popup-open .addr-search:not(.open) { opacity: 0; pointer-events: none; transition: opacity .15s; }
+.as-pin { width: 30px; height: 40px; position: relative; }
+.as-pin::before { content: ''; position: absolute; left: 3px; top: 0; width: 24px; height: 24px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); transform-origin: center; background: #db2777; border: 2px solid #fff; box-shadow: 0 1px 5px rgba(0,0,0,.6); top: 4px; }
+.as-pin span { position: absolute; left: 0; right: 0; top: 7px; text-align: center; font-size: 13px; line-height: 18px; }

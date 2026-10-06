@@ -226,6 +226,48 @@
       outFields: 'APN,SITUS_ADDRESS,SITUS_FRACTION,SITUS_PRE_DIR,SITUS_STREET,SITUS_SUFFIX,SITUS_POST_DIR,SITUS_SUITE,SITUS_COMMUNITY,SITUS_ZIP,ACREAGE,Shape.STArea(),OWN_NAME1,LEGLDESC',
       timeoutMs: 12000,
     },
+    // Address / APN search box on the map (js/search.js). APN -> the parcel layer above. Addresses -> SANDAG's public regional
+    // locator (no key; covers San Diego County only; knows ZIP codes but not city names, so a typed community becomes its
+    // ZIPs) + the parcel layer's situs address. Esri's World Geocoder is not used: it now needs an access token, and its terms
+    // forbid keeping results (the recent-search list) without a paid "stored" token.
+    addressSearch: {
+      geocoderUrl: 'https://geo.sandag.org/server/rest/services/SANDAG_COMPOSITE_LOCATOR/GeocodeServer/findAddressCandidates',
+      zipUrl: 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/ZIPCODE5/GeocodeServer/findAddressCandidates',  // "Ramona" / "92065" alone
+      timeoutMs: 12000,
+      maxCandidates: 12,   // asked from the geocoder
+      maxShown: 8,         // shown in the pick list
+      minScore: 70,
+      dedupeM: 120,        // geocoder hits this close to another hit are the same place
+      sameAddressM: 1500,  // same house number + street this close = same address (street points are interpolated)
+      recentMax: 8,
+      countyBounds: [32.52, -117.62, 33.52, -116.07],   // S, W, N, E
+      communities: {
+        'AGUANGA': ['92536'], 'ALPINE': ['91901', '91903'], 'BONITA': ['91902', '91908'], 'BONSALL': ['92003'], 'BORREGO SPRINGS': ['92004'],
+        'BOULEVARD': ['91905'], 'CAMP PENDLETON': ['92055'], 'CAMPO': ['91906'], 'CARDIFF': ['92007'],
+        'CARLSBAD': ['92008', '92009', '92010', '92011', '92013', '92018'], 'CHULA VISTA': ['91909', '91910', '91911', '91912', '91913', '91914', '91915', '91921'],
+        'CORONADO': ['92118', '92178'], 'DEL MAR': ['92014'], 'DESCANSO': ['91916'], 'DULZURA': ['91917'], 'EL CAJON': ['92019', '92020', '92021', '92022'],
+        'ELFIN FOREST': ['92029'], 'ENCINITAS': ['92023', '92024'], 'ESCONDIDO': ['92025', '92026', '92027', '92029', '92030', '92033', '92046'],
+        'FALLBROOK': ['92028', '92088'], 'GUATAY': ['91931'], 'IMPERIAL BEACH': ['91932', '91933'], 'JACUMBA': ['91934'], 'JAMUL': ['91935'],
+        'JULIAN': ['92036'], 'LA JOLLA': ['92037', '92038', '92039', '92092', '92093'], 'LA MESA': ['91941', '91942', '91943', '91944'], 'LAKESIDE': ['92040'],
+        'LEMON GROVE': ['91945', '91946'], 'LEUCADIA': ['92024'], 'MOUNT LAGUNA': ['91948'], 'NATIONAL CITY': ['91950', '91951'], 'OCOTILLO': ['92004'],
+        'OCEANSIDE': ['92049', '92051', '92052', '92054', '92056', '92057', '92058'], 'OLIVENHAIN': ['92024'], 'PALA': ['92059'], 'PALOMAR MOUNTAIN': ['92060'],
+        'PAUMA VALLEY': ['92061'], 'PINE VALLEY': ['91962'], 'POTRERO': ['91963'], 'POWAY': ['92064', '92074'], 'RAINBOW': ['92028'], 'RAMONA': ['92065'],
+        'RANCHITA': ['92066'], 'RANCHO SANTA FE': ['92067', '92091'], 'SAN DIEGO': Array.from({ length: 99 }, (_, i) => '921' + String(i + 1).padStart(2, '0')),
+        'SAN MARCOS': ['92069', '92078', '92079', '92096'], 'SAN YSIDRO': ['92173'], 'SANTA YSABEL': ['92070'], 'SANTEE': ['92071', '92072'],
+        'SOLANA BEACH': ['92075'], 'SPRING VALLEY': ['91976', '91977', '91978', '91979'], 'TECATE': ['91980'], 'VALLEY CENTER': ['92082'],
+        'VISTA': ['92081', '92083', '92084', '92085'], 'WARNER SPRINGS': ['92086'],
+        // places that share a postal city
+        'SAN DIEGO COUNTRY ESTATES': ['92065'], 'WYNOLA': ['92036'], 'PINE HILLS': ['92036'], 'CUYAMACA': ['92036'], 'SHELTER VALLEY': ['92036'],
+        'BANNER': ['92036'], 'MESA GRANDE': ['92070'], 'HIDDEN MEADOWS': ['92026'], 'HARMONY GROVE': ['92029'], 'DEL DIOS': ['92029'], 'SAN PASQUAL': ['92025', '92027'],
+        'TWIN OAKS': ['92069'], 'DE LUZ': ['92028'], 'CREST': ['92021'], 'HARBISON CANYON': ['92019'], 'DEHESA': ['92019'], 'GRANITE HILLS': ['92019'],
+        'RANCHO SAN DIEGO': ['92019'], 'BOSTONIA': ['92021'], 'BLOSSOM VALLEY': ['92021'], 'FLINN SPRINGS': ['92021'], 'WINTER GARDENS': ['92040'],
+        'LAKE MORENA': ['91906'], 'CASA DE ORO': ['91977'], 'LA PRESA': ['91977'], 'MOUNT HELIX': ['91941'], 'RANCHO BERNARDO': ['92127', '92128'],
+        '4S RANCH': ['92127'], 'SCRIPPS RANCH': ['92131'], 'RANCHO PENASQUITOS': ['92129'], 'CARMEL VALLEY': ['92130'], 'MIRA MESA': ['92126'], 'OTAY MESA': ['92154'],
+      },
+      communityAliases: { 'CARDIFF BY THE SEA': 'CARDIFF', 'MT LAGUNA': 'MOUNT LAGUNA', 'IMPERIAL BCH': 'IMPERIAL BEACH', 'BORREGO': 'BORREGO SPRINGS',
+        'OCOTILLO WELLS': 'OCOTILLO', 'JACUMBA HOT SPRINGS': 'JACUMBA', 'PAUMA': 'PAUMA VALLEY', 'PALOMAR MTN': 'PALOMAR MOUNTAIN', 'MT HELIX': 'MOUNT HELIX',
+        'SDCE': 'SAN DIEGO COUNTRY ESTATES', 'RSF': 'RANCHO SANTA FE' },
+    },
     // Property lines overlay (js/parcels.js): county MapServer export of the same parcel layer, restyled.
     parcelLines: {
       exportUrl: 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPLU/DPLU_Map/MapServer/export',
