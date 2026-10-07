@@ -1,0 +1,76 @@
+{
+ "permit": "WP0030108",
+ "processed": "2026-10-07T06:12:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "537-120-024",
+ "address": "Westward Ave",
+ "city": "South Sunset",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256129",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 9
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256129",
+   "page": 1,
+   "source": "text",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256129",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        600",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-10-18",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.917725,
+   "lon": -116.918675,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256129",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.917725,
+ "lon": -116.918675,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256107",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256129",
+ "serviceType": "Destruction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

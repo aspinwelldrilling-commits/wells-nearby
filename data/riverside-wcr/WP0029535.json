@@ -1,0 +1,76 @@
+{
+ "permit": "WP0029535",
+ "processed": "2026-10-07T05:52:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "424-120-015",
+ "address": "15922 Highway 79",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248847",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 506
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248847",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248847",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 860.0,
+   "conf": "medium",
+   "ocrConf": 78.295929,
+   "raw": "Total Depth of Completed Well 860",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 94.550072,
+   "raw": "Estimated Yield* 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-01-13",
+   "conf": "medium",
+   "ocrConf": 72.269028,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.89331,
+   "lon": -116.98316,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248847",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.89331,
+ "lon": -116.98316,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205827",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248847",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

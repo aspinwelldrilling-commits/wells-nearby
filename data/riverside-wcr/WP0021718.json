@@ -1,0 +1,79 @@
+{
+ "permit": "WP0021718",
+ "processed": "2026-10-07T05:54:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "544-070-017",
+ "address": "Old Banning Idyllwild Rd",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247105",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 438
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247105",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 92.0886,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.805069,
+   "raw": "Estimated Yield* 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 82.32917,
+   "raw": "Water Level _100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.058121,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-06-09",
+   "conf": "high",
+   "ocrConf": 95.557648,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247105",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.87076396000003,
+ "lon": -116.88326513399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203830",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247105",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020300",
+ "processed": "2026-10-07T05:54:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "531-290-006",
+ "address": "9750 Mias Canyon Rd",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246693",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 427
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246693",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 270.0,
+   "conf": "high",
+   "ocrConf": 96.587044,
+   "raw": "Total Depth of Completed Well 270",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 94.967247,
+   "raw": "Drilling Method ROTARY Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-10-09",
+   "conf": "low",
+   "ocrConf": 44.941483,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246693",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.98067840400006,
+ "lon": -116.89001029999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204546",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246693",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030159",
+ "processed": "2026-10-07T05:54:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "408-040-007",
+ "address": "10600 Highland Springs Ave ",
+ "city": "Cherry Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256108",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 13
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256108",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256108",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 623.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        623",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 343.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                343 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Direct Rotary             Drilling Fluid    Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-11-23",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.96767,
+   "lon": -116.93834,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 140.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*           140 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256108",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.96767,
+ "lon": -116.93834,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256109",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256108",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

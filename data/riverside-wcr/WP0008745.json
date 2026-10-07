@@ -1,0 +1,48 @@
+{
+ "permit": "WP0008745",
+ "processed": "2026-10-07T05:46:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "421-220-024",
+ "address": "15411 County Landfill Rd",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239823",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1613
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239823",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 33.096252,
+   "raw": "ESTIMATED YIELD * __3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239823",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.88362837100004,
+ "lon": -116.99206148999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216795",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239823",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

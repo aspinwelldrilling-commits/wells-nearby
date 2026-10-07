@@ -1,0 +1,70 @@
+{
+ "permit": "WP0028655",
+ "processed": "2026-10-07T06:09:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "430-040-024",
+ "address": "19625 Gilman Springs Rd",
+ "city": "Gilman Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248756",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 576
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248756",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248756",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 7.707672,
+   "raw": "Completed depth 800\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2000.0,
+   "conf": "high",
+   "ocrConf": 87.320053,
+   "raw": "Discharge _2000 gal/min",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 163.0,
+   "conf": "medium",
+   "ocrConf": 72.975868,
+   "raw": "Standing level after well completion 163 ft",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248756",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.83087490100007,
+ "lon": -116.99271595599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/223986",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248756",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "partial"
+}

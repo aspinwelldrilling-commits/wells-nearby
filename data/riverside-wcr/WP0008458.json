@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008458",
+ "processed": "2026-10-07T05:47:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "425-200-014",
+ "address": "35600 Ramona Expy",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239666",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1043
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239666",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 108.4,
+   "conf": "low",
+   "ocrConf": 33.090721,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 108.4",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-09-24",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239666",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.829054416000076,
+ "lon": -117.04107896999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215889",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239666",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

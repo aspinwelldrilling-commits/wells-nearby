@@ -1,0 +1,48 @@
+{
+ "permit": "WP0003368",
+ "processed": "2026-10-07T06:00:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "421-080-001",
+ "address": "36251 Highway 60",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235696",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 748
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235696",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "1995-09-20",
+   "conf": "low",
+   "ocrConf": 44.64373,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235696",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.91049165800007,
+ "lon": -117.02508395499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222213",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235696",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

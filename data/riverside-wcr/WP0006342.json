@@ -1,0 +1,57 @@
+{
+ "permit": "WP0006342",
+ "processed": "2026-10-07T05:46:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "401-090-002",
+ "address": "9221 Lilac Ln",
+ "city": "Cherry Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238353",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 813
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238353",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 38.0,
+   "conf": "low",
+   "ocrConf": 15.176453,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _38",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 95.0,
+   "conf": "low",
+   "ocrConf": 48.745712,
+   "raw": "WATER LEVEL ____ 95 _(Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238353",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.98769921100006,
+ "lon": -116.96294431399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217250",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238353",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

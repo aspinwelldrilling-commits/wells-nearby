@@ -1,0 +1,79 @@
+{
+ "permit": "WP0017692",
+ "processed": "2026-10-07T05:53:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "556-030-013",
+ "address": "19305 Hwy 243",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245691",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 777
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245691",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "high",
+   "ocrConf": 94.921303,
+   "raw": "Total Depth of Completed Well 550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 17.0,
+   "conf": "high",
+   "ocrConf": 89.324959,
+   "raw": "Estimated Yield * 17 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "medium",
+   "ocrConf": 50.696148,
+   "raw": "Water Level 40 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.785088,
+   "raw": "Drilling Method Air Drilling Drilling Fluid - ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-06-06",
+   "conf": "high",
+   "ocrConf": 93.882622,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245691",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.840352636000034,
+ "lon": -116.81210549199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210169",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245691",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

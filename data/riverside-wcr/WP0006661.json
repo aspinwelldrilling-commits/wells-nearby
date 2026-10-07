@@ -1,0 +1,64 @@
+{
+ "permit": "WP0006661",
+ "processed": "2026-10-07T06:01:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "406-070-025",
+ "address": "38900 14th St",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238559",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 944
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238559",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 620.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 620",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 86.94104,
+   "raw": "ESTIMATED YIELD * 300 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 366.0,
+   "conf": "medium",
+   "ocrConf": 59.911995,
+   "raw": "WATER LEVEL__366 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238559",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.94760790400005,
+ "lon": -116.98495049999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218343",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238559",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

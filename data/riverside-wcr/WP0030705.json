@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030705",
+ "processed": "2026-10-07T05:56:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "531-030-058",
+ "address": "43370 Dunlap St",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274992",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 13
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274992",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274992",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well         500",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 153.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                153 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Other - Mud Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Other - Mud Rotary         Drilling Fluid    Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-07-12",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.971662,
+   "lon": -116.905362,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             20 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274992",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.971662,
+ "lon": -116.905362,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293533",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274992",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

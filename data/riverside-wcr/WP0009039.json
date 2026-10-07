@@ -1,0 +1,48 @@
+{
+ "permit": "WP0009039",
+ "processed": "2026-10-07T05:48:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "407-110-016",
+ "address": "9992 Nancy Ave",
+ "city": "Cherry Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239998",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1026
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239998",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 22.11969,
+   "raw": "ESTIMATED YIELD * .250@ \u2014 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239998",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.976762378000046,
+ "lon": -116.98953447599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214016",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239998",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

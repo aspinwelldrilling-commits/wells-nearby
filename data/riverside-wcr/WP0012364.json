@@ -1,0 +1,97 @@
+{
+ "permit": "WP0012364",
+ "processed": "2026-10-07T05:48:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "519-170-007",
+ "address": "13984 Apache Trl",
+ "city": "Cabazon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241476",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1449
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241476",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241476",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241476",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 88.0,
+   "conf": "high",
+   "ocrConf": 87.339149,
+   "raw": "Total Depth of Completed Well 88",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 28.0,
+   "conf": "high",
+   "ocrConf": 96.674149,
+   "raw": "Water Level 28 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "low",
+   "ocrConf": 40.992947,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 88.478035,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.886523,
+   "lon": -117.639139,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-11-20",
+   "conf": "medium",
+   "ocrConf": 66.413254,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241476",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.922328701000026,
+ "lon": -116.81234825199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212621",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241476",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

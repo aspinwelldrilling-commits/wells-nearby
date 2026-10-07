@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012454",
+ "processed": "2026-10-07T05:47:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "407-100-003",
+ "address": "38995 Kehl Canyon Rd",
+ "city": "Cherry Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241580",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 874
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241580",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _24",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 1.0,
+   "conf": "medium",
+   "ocrConf": 58.941872,
+   "raw": "WATER LEVEL _ 1 s(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241580",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.97985033400005,
+ "lon": -116.99972761299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212779",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241580",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

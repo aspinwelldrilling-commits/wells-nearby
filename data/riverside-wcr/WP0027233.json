@@ -1,0 +1,55 @@
+{
+ "permit": "WP0027233",
+ "processed": "2026-10-07T05:52:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "407-160-002",
+ "address": "10594 Union St",
+ "city": "Cherry Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249477",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 790
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249477",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 96.678642,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-25",
+   "conf": "high",
+   "ocrConf": 94.350624,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249477",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.967634917000055,
+ "lon": -117.000721968,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310174",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249477",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

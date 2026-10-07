@@ -1,0 +1,68 @@
+{
+ "permit": "WP0029817",
+ "processed": "2026-10-07T06:12:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "407-220-018",
+ "address": "36244 Cherry Valley Blvd",
+ "city": "Calimesa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248897",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 120
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248897",
+   "page": 1,
+   "source": "text",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248897",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-04-28",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.972708,
+   "lon": -117.029233,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248897",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.972708,
+ "lon": -117.029233,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205815",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248897",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

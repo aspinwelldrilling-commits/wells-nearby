@@ -1,0 +1,54 @@
+{
+ "permit": "WP0002661",
+ "processed": "2026-10-07T05:41:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "430-070-010",
+ "address": "SANDERSON RD & S GILMAN SPRGS RD",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235088",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1793
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235088",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235088",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "medium",
+   "ocrConf": 61.619431,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _900",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235088",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.83683046700003,
+ "lon": -117.00712547499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220017",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235088",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

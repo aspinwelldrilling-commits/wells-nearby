@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022754",
+ "processed": "2026-10-07T05:51:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "544-020-003",
+ "address": "Longhorn & Old Idyllwild Rd",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249284",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 363
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249284",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 94.520142,
+   "raw": "Estimated Yield* 15 {GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-10-25",
+   "conf": "low",
+   "ocrConf": 17.67495,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249284",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.899879775000045,
+ "lon": -116.88972448199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19133",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249284",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

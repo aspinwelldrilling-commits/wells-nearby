@@ -1,0 +1,81 @@
+{
+ "permit": "WP0019011",
+ "processed": "2026-10-07T05:53:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "543-050-004",
+ "address": "296 Old Idyllwild Rd",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246158",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 849
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246158",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 80.818604,
+   "raw": "Total Depth of Boring 100",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.706406,
+   "raw": "Estimated Yield * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 77.304596,
+   "raw": "Water Level 100 _\u2014\u2014_\u2014s (Feet",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 91.357002,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-10-23",
+   "conf": "low",
+   "ocrConf": 4.027634,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246158",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.903576059000045,
+ "lon": -116.87916781999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207931",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246158",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

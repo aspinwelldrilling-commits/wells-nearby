@@ -1,0 +1,92 @@
+{
+ "permit": "WP0030532",
+ "processed": "2026-10-07T05:52:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "531-210-030",
+ "address": "8745 Bluff St ",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293541",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 78
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293541",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293541",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "low",
+   "ocrConf": 19.184097,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 95.597694,
+   "raw": "Estimated Yield*, - 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 171.0,
+   "conf": "medium",
+   "ocrConf": 65.395782,
+   "raw": "Water Level _ 171 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud Rotary",
+   "conf": "high",
+   "ocrConf": 81.995331,
+   "raw": "Drilling Method Other - Mud Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 87.666191,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-07-27",
+   "conf": "medium",
+   "ocrConf": 77.808884,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293541",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.99486,
+ "lon": -116.914052,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/315588",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293541",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

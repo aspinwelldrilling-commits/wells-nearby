@@ -1,0 +1,71 @@
+{
+ "permit": "WP0024606",
+ "processed": "2026-10-07T06:09:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "545-130-014",
+ "address": "46305 Poppet Flats Rd",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248150",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 454
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248150",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 97.002625,
+   "raw": "Estimated Yield* 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 78.186394,
+   "raw": "Water Level 400 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.023956,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-09-12",
+   "conf": "high",
+   "ocrConf": 94.489563,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248150",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.850101891000065,
+ "lon": -116.85207503299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201518",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248150",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

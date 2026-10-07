@@ -1,0 +1,84 @@
+{
+ "permit": "WP0029580",
+ "processed": "2026-10-07T05:55:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "413-270-015",
+ "address": "36240 Cherry Valley Blvd",
+ "city": "Calimesa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248851",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1569
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248851",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248851",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "high",
+   "ocrConf": 89.02816,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 95.077942,
+   "raw": "Estimated Yield* 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 230.0,
+   "conf": "high",
+   "ocrConf": 92.493462,
+   "raw": "Water Level 230 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-01-22",
+   "conf": "low",
+   "ocrConf": 40.195751,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.97145,
+   "lon": -117.03223,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248851",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.97145,
+ "lon": -117.03223,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205820",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248851",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

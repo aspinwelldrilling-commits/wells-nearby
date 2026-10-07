@@ -1,0 +1,70 @@
+{
+ "permit": "WP0027115",
+ "processed": "2026-10-07T05:54:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "424-080-019",
+ "address": "14495 Green Acres Dr",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249452",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 853
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249452",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 94.886154,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.217781,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 88.308876,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-07-07",
+   "conf": "medium",
+   "ocrConf": 63.699425,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249452",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.91202006100008,
+ "lon": -116.98679379199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198664",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249452",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

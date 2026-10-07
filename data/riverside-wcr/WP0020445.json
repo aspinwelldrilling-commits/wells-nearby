@@ -1,0 +1,72 @@
+{
+ "permit": "WP0020445",
+ "processed": "2026-10-07T05:53:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "531-290-006",
+ "address": "9750 Mias Canyon Rd",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246747",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 439
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246747",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 96.443703,
+   "raw": "Total Depth of Boring 500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.053719,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 61.325642,
+   "raw": "Water Level 150 ___\u2014(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-01-08",
+   "conf": "low",
+   "ocrConf": 45.320911,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246747",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.98067840400006,
+ "lon": -116.89001029999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204675",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246747",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0002755",
+ "processed": "2026-10-07T06:00:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "417-020-028",
+ "address": "Beaumont Sanitary Landfill",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235035",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 802
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235035",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 96.572662,
+   "raw": "WATER LEVEL 120 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1995-06-13",
+   "conf": "low",
+   "ocrConf": 1.539291,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235035",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.92898001000003,
+ "lon": -116.99777030199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220428",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235035",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

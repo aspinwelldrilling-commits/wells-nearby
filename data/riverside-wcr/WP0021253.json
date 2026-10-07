@@ -1,0 +1,63 @@
+{
+ "permit": "WP0021253",
+ "processed": "2026-10-07T06:08:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "421-250-010",
+ "address": "17255 S Highland Springs Rd",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246888",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 385
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246888",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 64.431122,
+   "raw": "Total Depth of Completed Well _25",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 95.966728,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid sic",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-11-16",
+   "conf": "high",
+   "ocrConf": 87.019356,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246888",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.86336838700004,
+ "lon": -116.95381801199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203385",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246888",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

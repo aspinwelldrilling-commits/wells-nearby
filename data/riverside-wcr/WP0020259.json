@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020259",
+ "processed": "2026-10-07T06:11:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "430-130-052",
+ "address": "2070 N Sanderson Ave",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246677",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 566
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246677",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 43.586929,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 20",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-06-29",
+   "conf": "high",
+   "ocrConf": 81.106682,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246677",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.823125969000046,
+ "lon": -117.00411379699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204505",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246677",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

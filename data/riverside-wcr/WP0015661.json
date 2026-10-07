@@ -1,0 +1,49 @@
+{
+ "permit": "WP0015661",
+ "processed": "2026-10-07T05:48:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "36523 Highway 60",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244677",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 990
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244677",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 23.134186,
+   "raw": "(12) WELL LOG: Total depth 200",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244677",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.92917091100003,
+ "lon": -117.02424096899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/224589",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244677",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

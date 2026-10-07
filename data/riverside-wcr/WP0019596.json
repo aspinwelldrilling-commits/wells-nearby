@@ -1,0 +1,64 @@
+{
+ "permit": "WP0019596",
+ "processed": "2026-10-07T06:08:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "430-070-005",
+ "address": "",
+ "city": "Gilman Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246284",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 57
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246284",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 190.0,
+   "conf": "medium",
+   "ocrConf": 96.496658,
+   "raw": "Total Depth of Boring 190",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 160.0,
+   "conf": "low",
+   "ocrConf": 16.007751,
+   "raw": "Water Level 160 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-02-03",
+   "conf": "medium",
+   "ocrConf": 53.645496,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246284",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.842591637000055,
+ "lon": -116.99756226199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208302",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246284",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

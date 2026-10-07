@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012592",
+ "processed": "2026-10-07T06:04:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "431-030-014",
+ "address": "1720 Hereford Way",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243951",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 783
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243951",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 43.630924,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-05-25",
+   "conf": "medium",
+   "ocrConf": 61.683903,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243951",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.80813985100008,
+ "lon": -116.99415706799999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243951",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

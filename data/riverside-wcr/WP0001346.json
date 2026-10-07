@@ -1,0 +1,68 @@
+{
+ "permit": "WP0001346",
+ "processed": "2026-10-07T05:41:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "430-060-019",
+ "address": "19251 Sanderson Ave",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234321",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2605
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234321",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234321",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234321",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 885.0,
+   "conf": "low",
+   "ocrConf": 75.374847,
+   "raw": "TOTAL DEPTH OF BORING __ 885",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-04-15",
+   "conf": "low",
+   "ocrConf": 35.157028,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234321",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.84142563300003,
+ "lon": -117.01478777499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222060",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234321",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

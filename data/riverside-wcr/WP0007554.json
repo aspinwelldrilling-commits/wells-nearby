@@ -1,0 +1,57 @@
+{
+ "permit": "WP0007554",
+ "processed": "2026-10-07T05:47:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "417-210-003",
+ "address": "13850 Bolo Ct",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239123",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 971
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239123",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 163.0,
+   "conf": "low",
+   "ocrConf": 44.424011,
+   "raw": "TOTAL DEPTH OF BORING 163",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD * 5 \u00a2 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239123",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.921019632000025,
+ "lon": -116.99124941299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217534",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239123",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

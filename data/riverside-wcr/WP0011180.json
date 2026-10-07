@@ -1,0 +1,48 @@
+{
+ "permit": "WP0011180",
+ "processed": "2026-10-07T05:48:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "431-040-021",
+ "address": "1521 Potter Rd",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241307",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 829
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241307",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "medium",
+   "ocrConf": 65.338715,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _220",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241307",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.80872860900007,
+ "lon": -116.98599863799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213732",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241307",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

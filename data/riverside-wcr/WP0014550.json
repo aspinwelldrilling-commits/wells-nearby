@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014550",
+ "processed": "2026-10-07T06:07:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "421-250-010",
+ "address": "17255 Highland Springs Rd",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243089",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 780
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243089",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 9.707863,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 95.871338,
+   "raw": "WATER LEVEL 8 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-10-14",
+   "conf": "high",
+   "ocrConf": 83.069061,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243089",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.86142778800007,
+ "lon": -116.95254594399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211389",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243089",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

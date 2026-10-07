@@ -1,0 +1,63 @@
+{
+ "permit": "WP0016827",
+ "processed": "2026-10-07T06:04:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "421-200-023",
+ "address": "16411 Lamb Canyon Rd",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245340",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3510
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245340",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 117.0,
+   "conf": "high",
+   "ocrConf": 96.457909,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 117",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 105.0,
+   "conf": "medium",
+   "ocrConf": 51.169926,
+   "raw": "WATER LEVEL 105 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-11-21",
+   "conf": "high",
+   "ocrConf": 96.028595,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245340",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.87812490600004,
+ "lon": -117.00259114499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209422",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245340",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

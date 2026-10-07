@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021251",
+ "processed": "2026-10-07T06:12:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "421-250-010",
+ "address": "17255 S Highland Springs Rd",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246890",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 383
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246890",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 95.197609,
+   "raw": "Total Depth of Completed Well 25",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-11-17",
+   "conf": "high",
+   "ocrConf": 82.685944,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246890",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.86336838700004,
+ "lon": -116.95381801199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203383",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246890",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019293",
+ "processed": "2026-10-07T06:11:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "421-250-011",
+ "address": "Site 1-Highland Springs Road",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246208",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 431
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246208",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 144.5,
+   "conf": "high",
+   "ocrConf": 91.696167,
+   "raw": "Total Depth of Completed Well 144.5",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 85.0,
+   "conf": "high",
+   "ocrConf": 94.697586,
+   "raw": "Water Level 85 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-11-20",
+   "conf": "high",
+   "ocrConf": 88.663071,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246208",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.86767194400005,
+ "lon": -116.93487174899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208086",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246208",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

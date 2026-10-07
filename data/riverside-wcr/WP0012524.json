@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012524",
+ "processed": "2026-10-07T06:04:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "406-310-006",
+ "address": "BROOKSIDE AVE",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241693",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 915
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241693",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1424.0,
+   "conf": "medium",
+   "ocrConf": 57.856735,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __1424",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-11-03",
+   "conf": "low",
+   "ocrConf": 3.474464,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241693",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.961139983000066,
+ "lon": -116.99873168199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212900",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241693",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

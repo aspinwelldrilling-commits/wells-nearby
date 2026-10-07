@@ -1,0 +1,71 @@
+{
+ "permit": "WP0017689",
+ "processed": "2026-10-07T05:54:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "401-050-021",
+ "address": "8585 Mountain View Ave",
+ "city": "Cherry Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245688",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 782
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245688",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "high",
+   "ocrConf": 91.907059,
+   "raw": "Total Depth of Completed Well 550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 14.0,
+   "conf": "high",
+   "ocrConf": 95.640015,
+   "raw": "Estimated Yield* 14 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 89.556816,
+   "raw": "Water Level _100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-05-09",
+   "conf": "high",
+   "ocrConf": 96.425873,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245688",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.99423580800004,
+ "lon": -116.97885390299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208374",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245688",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

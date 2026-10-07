@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000164",
+ "processed": "2026-10-07T05:40:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "532-080-001",
+ "address": "12800 Saubel",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233488",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1061
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233488",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1150.0,
+   "conf": "medium",
+   "ocrConf": 75.867325,
+   "raw": "Completed depth 1150 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 89.088104,
+   "raw": "Standing level after well completion 4 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233488",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.93830617500004,
+ "lon": -116.83287465499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222350",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233488",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

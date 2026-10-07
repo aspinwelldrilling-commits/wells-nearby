@@ -1,0 +1,64 @@
+{
+ "permit": "WP0004204",
+ "processed": "2026-10-07T05:43:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "537-200-016",
+ "address": "43319 Hill Top Dr",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236197",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 861
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236197",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 57.551323,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 190.0,
+   "conf": "low",
+   "ocrConf": 45.842472,
+   "raw": "ESTIMATED YIELD - 190 \u2014 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 49.0,
+   "conf": "low",
+   "ocrConf": 6.726723,
+   "raw": "WATER LEVEL_49___ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236197",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.90648130500006,
+ "lon": -116.90670540699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219826",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236197",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}
