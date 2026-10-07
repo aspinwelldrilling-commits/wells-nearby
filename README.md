@@ -147,6 +147,26 @@ are processed offline, per area, and cached in the repo:
 - Privacy: requests carry only APNs, street number/name and coordinates — never customer name/phone/notes.
 - Tests: `node tools/test-septic-core.mjs` (distance/warning unit checks) · `/workspace/.venv-pw/bin/python tools/test-septic.py [--base URL] [--shots DIR]`
 
+## My Jobs (private, on-device only) — `js/myjobs.js`
+**Private layer: job data never goes in this repo or to any server.** The contractor imports his own Google Earth export
+(`.kmz` / `.kml`, e.g. *My Places* with folders `Drilling 2019` … `Drilling 2026`, one subfolder per job) or the matched
+`.json` made from it on the office computer, via the map's **⛏ My jobs** control. The file is parsed entirely in the browser
+(KMZ: a tiny zip reader + `DecompressionStream('deflate-raw')`; KML: `DOMParser`) and stored only in this browser's
+IndexedDB (`wells-nearby-myjobs/data`, separate from the sites DB). Nothing is uploaded; no job data is in the repo.
+- Jobs = children of a year folder (name contains 19xx/20xx); other top-level folders become one entry each. Exact duplicate
+  folders (same drawings) are merged, empty folders skipped.
+- Well point per job: the small circle named "proposed well" (newest "updated/new proposed well" first; for destructions the
+  "existing well / to be destroyed" circle), else the centre of its radius/setback circle, else the common end of its
+  measurement lines, else the centre of all its drawings (marked approximate in the popup).
+- Map: one pin per job (blue, or coloured by match confidence once the `.json` is imported; square ✕ = destruction), grouped
+  into count bubbles at zoom ≤ 13, job drawings (KML line/fill colours) from zoom 15. Popup: job, year folder, well point
+  source, matched permit + County WCR / permit document links + state WCR, other candidates. Year filter, *Zoom to all*,
+  *Remove my jobs from this device*. Also listed in the layer control as *My Jobs (this device)*.
+- The `.json` format: `{kind:'my-jobs', version:1, jobs:[{key, name, group, year, kind, well:{lat,lon,src}, pm:[{n,t:'L'|'P'|'T',c:[[lat,lon]…],s}],
+  parcel, match:{permit, confidence, reason, apn, distM, opened, typeWork, wcrStatusText, wcrDocUrl, docs, stateWcr}, alternates, notes}]}`.
+  Re-importing a `.kmz` keeps matches from an earlier `.json` import (same job key).
+- Test (synthetic jobs, no real data): `/workspace/.venv-pw/bin/python tools/test-myjobs.py [--base URL] [--file my.kmz]`
+
 ## Imperial County (DWR OSWCR snapshot)
 Imperial has no county well-permit GIS or county WCR library, so its layer is the state DWR OSWCR index for
 `CountyName='Imperial'`, cached as static tiles: `tools/build_imperial_wcr.py [--phase ocotillo|all] [--refresh]` →

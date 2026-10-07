@@ -71,6 +71,7 @@
     <p><b>Address / APN search:</b> the 🔍 box on the map takes an APN (285-030-06-00, 2850300600 or 8-digit 28503006 — preferred, since addresses change or do not exist yet before a house is built) or a San Diego County street address (add the community or ZIP, e.g. “729 Main St, Ramona”). APNs are looked up in the County parcel layer; addresses in SANDAG's regional address locator and the County parcel situs addresses. Riverside and Imperial County work too: 9-digit APNs (XXX-XXX-XXX) are looked up in the Riverside Assessor layer and the Imperial parcels (state DWR parcel layer), and Imperial addresses (e.g. “600 E Main St, El Centro”) in California's statewide address locator. “Ocotillo” is the Imperial County town (92259); “Ocotillo Wells” is the San Diego County one. The typed text is sent only to those County / State / SANDAG public map services; recent searches are kept <i>only on this device</i>.</p>
     <p><b>Imperial County:</b> the magenta <i>Imperial WCRs (DWR)</i> layer is a snapshot of the state OSWCR well completion reports for Imperial County (Ocotillo / Coyote Wells / Plaster City and the rest of the county). Most are placed at the <i>centre of the PLSS section</i> (dashed hollow pins), so the popup shows DWR's location accuracy; a pin may be ~0.5 mi off. PDFs open in DWR's Box viewer. The same WCRs also appear in the live State search.</p>
     <p><b>Los Angeles County:</b> LA County publishes no public well-permit map layer, so LA wells are <i>state DWR OSWCR records only</i> (no county permits). The purple-ring <i>LA County WCRs</i> layer shows OSWCR records cached in the app area by area (starting with Pomona Valley / Claremont / La Verne / San Dimas / Diamond Bar), so they show without a search and offline; tap a ring for the WCR number, location and APN as entered on the state record and a link to the DWR WCR viewer. The same records are counted in the live State search.</p>
+    <p><b>My jobs:</b> <i>⛏ My jobs</i> on the map imports your own Google Earth export (.kmz / .kml) or the matched .json made from it, and draws each job (lines, setback circles, a pin at the well) with its matched County permit / WCR. The file is read <i>on this device only</i>, kept in this browser's storage and never uploaded; <i>Remove my jobs from this device</i> deletes it.</p>
     <p>Imagery: Esri World Imagery. Averages exclude missing, zero, and implausible values; <i>n</i> shows how many wells were used.</p>
   </footer>
 
@@ -96,6 +97,7 @@
   <script src="js/septic.js"></script>
   <script src="js/imperial.js"></script>
   <script src="js/lawcr.js"></script>
+  <script src="js/myjobs.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
       const hadSw = !!navigator.serviceWorker.controller;
