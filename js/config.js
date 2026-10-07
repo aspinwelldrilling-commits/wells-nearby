@@ -204,6 +204,17 @@
       needsReadColor: '#FF1744', // fluorescent red: "read this report yourself"
     },
 
+    // Imperial County: static snapshot of DWR OSWCR well completion reports (tools/build_imperial_wcr.py -> data/imperial-wcr/,
+    // 0.025° tiles like data/riverside-wcr). Own map overlay + toggle (js/imperial.js). The live State search returns the
+    // same WCRs, so the overlay is not merged into the search table / stats.
+    imperialWcr: {
+      manifestUrl: 'data/imperial-wcr/manifest.json',
+      label: 'Imperial WCRs (DWR)',
+      color: '#c026d3',
+      minZoom: 9,        // tiles are fetched for the visible area from this zoom
+      defaultOn: true,
+    },
+
     // Where each group's markers/labels come from.
     groups: {
       state: { label: 'State (DWR WCR)', short: 'State', color: '#f59e0b' },

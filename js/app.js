@@ -26,7 +26,7 @@
   const countyLayer = L.layerGroup().addTo(map);  // county permits
   const linkLayer = L.layerGroup();               // dashed lines: county parcel <-> state point for matched pairs (off by default)
   const meLayer = L.layerGroup().addTo(map);
-  L.control.layers({ 'Satellite': imagery, 'Streets': streets }, {
+  const layersCtl = L.control.layers({ 'Satellite': imagery, 'Streets': streets }, {
     'Roads & labels': labels,
     '<span class="lg lg-state"></span> State wells (DWR)': stateLayer,
     '<span class="lg lg-county"></span> County permits (DEHQ)': countyLayer,
@@ -591,5 +591,5 @@
   if (Number.isFinite(qlat) && Number.isFinite(qlon)) setLocation(qlat, qlon, 'from link');
   else locate();
 
-  window.WellsApp = { state, map, search, setLocation, setView, searchHerePopup, insidePoint };
+  window.WellsApp = { state, map, search, setLocation, setView, searchHerePopup, insidePoint, layersCtl };
 })();

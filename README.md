@@ -137,3 +137,15 @@ are processed offline, per area, and cached in the repo:
   marks) and the JSON backup. While the tool is open `WellsApp.state.mapTool` suppresses the normal tap popups.
 - Privacy: requests carry only APNs, street number/name and coordinates — never customer name/phone/notes.
 - Tests: `node tools/test-septic-core.mjs` (distance/warning unit checks) · `/workspace/.venv-pw/bin/python tools/test-septic.py [--base URL] [--shots DIR]`
+
+## Imperial County (DWR OSWCR snapshot)
+Imperial has no county well-permit GIS or county WCR library, so its layer is the state DWR OSWCR index for
+`CountyName='Imperial'`, cached as static tiles: `tools/build_imperial_wcr.py [--phase ocotillo|all] [--refresh]` →
+`data/imperial-wcr/manifest.json` + `tiles/<iy>_<ix>.json` (0.025° grid, same as `data/riverside-wcr`). One paged ArcGIS
+request fetches every Imperial row; the raw response is cached outside the repo (`/workspace/wells-state/imperial/raw/`).
+Only DWR values are written (no geocoding / TRS→lat-lon / invented APNs); `LLAccuracy` + `MethodofDeterminationLL` are kept
+and shown in the popup (most rows are *Centroid of Section* → dashed hollow pins). PDFs are not downloaded: `WCRLinks` (DWR
+Box viewer URL) is linked as-is. Rows with no coordinates or coordinates far outside the county are listed in the
+manifest's `unplaced`; placed rows outside the county line carry `oc:1`. `js/imperial.js` draws the overlay with its own
+toggle (*Imperial WCRs (DWR)*) and is not merged into the search table/stats (the live State search returns the same WCRs).
+Test: `/workspace/.venv-pw/bin/python tools/test-imperial.py [--base URL]`.
