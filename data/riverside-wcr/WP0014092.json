@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014092",
+ "processed": "2026-10-06T19:30:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-150-059",
+ "address": "Sage Road/Morgan Road",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242590",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 713
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242590",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 90.0,
+   "conf": "high",
+   "ocrConf": 95.214226,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 90",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 36.791908,
+   "raw": "WATER LEVEL____ 40 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242590",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53904529000005,
+ "lon": -116.90594774299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211083",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242590",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

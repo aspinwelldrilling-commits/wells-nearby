@@ -1,0 +1,71 @@
+{
+ "permit": "WP0004142",
+ "processed": "2026-10-06T18:53:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "927-100-053",
+ "address": "36500 De Portola Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236161",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 875
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236161",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 67.610687,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 36.663971,
+   "raw": "ESTIMATED YieLD*220__+ (gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 41.49897,
+   "raw": "WATER LEVEL 20 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1997-03-21",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236161",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.504328101000056,
+ "lon": -117.02941172699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219585",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236161",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,85 @@
+{
+ "permit": "WP0028050",
+ "processed": "2026-10-06T19:48:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-210-016",
+ "address": "42072 Rolling Hills Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248700",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248700",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248700",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "low",
+   "ocrConf": 65.16658,
+   "raw": "Total Depth of Boring 500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 96.028175,
+   "raw": "Estimated Yield* 35 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 162.0,
+   "conf": "high",
+   "ocrConf": 96.952667,
+   "raw": "Water Level 162 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-11-07",
+   "conf": "medium",
+   "ocrConf": 78.635269,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.50923,
+   "lon": -116.809267,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248700",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.509234873000025,
+ "lon": -116.80927889799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34443",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248700",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

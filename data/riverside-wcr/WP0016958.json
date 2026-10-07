@@ -1,0 +1,57 @@
+{
+ "permit": "WP0016958",
+ "processed": "2026-10-06T19:41:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-020-033",
+ "address": "45355 Michael Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245463",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 71
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245463",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 32.69,
+   "conf": "low",
+   "ocrConf": 74.158508,
+   "raw": "TOTAL DEPTH OF BORING ___ 32.69",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 69.046638,
+   "raw": "ESTIMATED YIELD * 2 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245463",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.466161062000026,
+ "lon": -116.92222274499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209547",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245463",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

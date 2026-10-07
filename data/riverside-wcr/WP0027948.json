@@ -1,0 +1,76 @@
+{
+ "permit": "WP0027948",
+ "processed": "2026-10-06T19:51:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-090-011",
+ "address": "40646 Tumbleweed Tr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249681",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 63
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249681",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249681",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "high",
+   "ocrConf": 92.447929,
+   "raw": "Total Depth of Completed Well 260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 31.0,
+   "conf": "high",
+   "ocrConf": 88.65287,
+   "raw": "Estimated Yield* 31 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-10-18",
+   "conf": "medium",
+   "ocrConf": 68.941986,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.52901,
+   "lon": -116.79459,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249681",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.529014877000066,
+ "lon": -116.79460189699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19369",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249681",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

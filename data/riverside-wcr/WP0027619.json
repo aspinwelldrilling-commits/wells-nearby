@@ -1,0 +1,57 @@
+{
+ "permit": "WP0027619",
+ "processed": "2026-10-06T19:47:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-490-015",
+ "address": "44626 Laura Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249582",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 61
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249582",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 91.652336,
+   "raw": "Total Depth of Boring 500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.512306,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249582",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.47620487100005,
+ "lon": -116.781411892,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198922",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249582",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

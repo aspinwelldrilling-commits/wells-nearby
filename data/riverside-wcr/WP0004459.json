@@ -1,0 +1,63 @@
+{
+ "permit": "WP0004459",
+ "processed": "2026-10-06T18:53:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-230-039",
+ "address": "42155 Schmidt Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236379",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 67
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236379",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 245.0,
+   "conf": "medium",
+   "ocrConf": 76.42672,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 245",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 28.843979,
+   "raw": "ESTIMATED YIELD * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-01-09",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236379",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51076460000007,
+ "lon": -116.86503606799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210217",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236379",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

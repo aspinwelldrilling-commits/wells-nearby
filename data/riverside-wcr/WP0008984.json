@@ -1,0 +1,57 @@
+{
+ "permit": "WP0008984",
+ "processed": "2026-10-06T19:06:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "917-250-005",
+ "address": "41500 Highway 71",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239935",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 898
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239935",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "medium",
+   "ocrConf": 86.947876,
+   "raw": "TOTAL DEPTH OF BORING _ 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 79.769844,
+   "raw": "WATER LEVEL 25 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239935",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.44374787800007,
+ "lon": -116.93832308699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217753",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239935",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010261",
+ "processed": "2026-10-06T19:11:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-020-018",
+ "address": "42355 Fresz Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240473",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 765
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240473",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "low",
+   "ocrConf": 49.434933,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-04-25",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 41.828403,
+   "raw": "ESTIMATED YieLD *_20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240473",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50953351800007,
+ "lon": -116.91126794399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213027",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240473",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

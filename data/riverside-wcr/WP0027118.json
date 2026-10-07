@@ -1,0 +1,71 @@
+{
+ "permit": "WP0027118",
+ "processed": "2026-10-06T19:47:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-180-024",
+ "address": "49040 Trotter Ln",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249454",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 749
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249454",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 340.0,
+   "conf": "medium",
+   "ocrConf": 60.401855,
+   "raw": "Total Depth of Completed Well 340",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 24.0,
+   "conf": "high",
+   "ocrConf": 83.272919,
+   "raw": "Estimated Yield* 24 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 45.486889,
+   "raw": "Depth to Static 4\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-08-17",
+   "conf": "medium",
+   "ocrConf": 51.604187,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249454",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.515852,
+ "lon": -116.804944,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198667",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249454",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

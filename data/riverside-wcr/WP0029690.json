@@ -1,0 +1,90 @@
+{
+ "permit": "WP0029690",
+ "processed": "2026-10-06T19:49:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-540-012",
+ "address": "51846 Kearsarge Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256084",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 369
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256084",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256084",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256084",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 485.0,
+   "conf": "high",
+   "ocrConf": 84.325706,
+   "raw": "Total Depth of Completed Well 485",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 94.133286,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 95.791115,
+   "raw": "Water Level 35 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-03-04",
+   "conf": "medium",
+   "ocrConf": 75.625305,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.463769,
+   "lon": -116.756172,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256084",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.463769,
+ "lon": -116.756172,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256085",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256084",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

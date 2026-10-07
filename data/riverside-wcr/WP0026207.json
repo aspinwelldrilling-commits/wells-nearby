@@ -1,0 +1,72 @@
+{
+ "permit": "WP0026207",
+ "processed": "2026-10-06T19:46:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-430-018",
+ "address": "43295 Wiasmul Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248262",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 322
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248262",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "medium",
+   "ocrConf": 89.974785,
+   "raw": "Total Depth of Boring 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.973892,
+   "raw": "Estimated Yield ) 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 83.940002,
+   "raw": "Water Level 600 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-06-03",
+   "conf": "high",
+   "ocrConf": 96.538338,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248262",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.49317574600008,
+ "lon": -116.73509606199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199310",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248262",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

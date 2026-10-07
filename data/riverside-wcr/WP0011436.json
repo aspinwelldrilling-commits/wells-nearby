@@ -1,0 +1,57 @@
+{
+ "permit": "WP0011436",
+ "processed": "2026-10-06T19:15:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-030-005",
+ "address": "40050 Delmar Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241659",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 954
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241659",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 655.0,
+   "conf": "low",
+   "ocrConf": 67.227409,
+   "raw": "TOTAL DEPTH OF BORING 655",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 48.422951,
+   "raw": "ESTIMATED YIELD * 4 = (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241659",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54045566900004,
+ "lon": -116.80260988199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213947",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241659",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

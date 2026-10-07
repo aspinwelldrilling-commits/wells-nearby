@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014387",
+ "processed": "2026-10-06T19:29:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-320-015",
+ "address": "41790 Avenida Abril",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244092",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 755
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244092",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 780.0,
+   "conf": "high",
+   "ocrConf": 96.801231,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 780",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "medium",
+   "ocrConf": 60.497879,
+   "raw": "ESTIMATED YieLD * 60 __ (Gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244092",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51514086900005,
+ "lon": -116.93340348199996,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244092",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

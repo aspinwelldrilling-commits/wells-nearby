@@ -1,0 +1,99 @@
+{
+ "permit": "WP0027739",
+ "processed": "2026-10-06T19:51:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-050-017",
+ "address": "49807 Watomi Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249622",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 56
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249622",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249622",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 395.0,
+   "conf": "high",
+   "ocrConf": 85.995117,
+   "raw": "Total Depth of Completed Well 395",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.447212,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 92.0,
+   "conf": "high",
+   "ocrConf": 95.711273,
+   "raw": "Water Level 92 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary Dritling",
+   "conf": "low",
+   "ocrConf": 37.954338,
+   "raw": "Drilling Method Direct Rotary Dritling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 91.351532,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-06-11",
+   "conf": "medium",
+   "ocrConf": 78.95089,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.535395,
+   "lon": -116.78823,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249622",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53510229700004,
+ "lon": -116.78853927699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198979",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249622",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

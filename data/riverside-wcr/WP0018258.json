@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018258",
+ "processed": "2026-10-06T19:41:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-090-015",
+ "address": "49930 Forest Springs Rd",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245903",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 61
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245903",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 35.575043,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-11-19",
+   "conf": "medium",
+   "ocrConf": 65.795883,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245903",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52876702700007,
+ "lon": -116.78967294699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208833",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245903",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

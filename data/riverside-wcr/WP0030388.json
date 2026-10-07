@@ -1,0 +1,56 @@
+{
+ "permit": "WP0030388",
+ "processed": "2026-10-06T19:50:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-410-016",
+ "address": "52090 Elder Creek Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256137",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 560
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256137",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 19.0,
+   "conf": "low",
+   "ocrConf": 37.565304,
+   "raw": "ESTIMATED YIELD \u00ab19 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256137",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.49349,
+ "lon": -116.75149,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256122",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256137",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

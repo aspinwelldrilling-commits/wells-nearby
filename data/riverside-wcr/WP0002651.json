@@ -1,0 +1,55 @@
+{
+ "permit": "WP0002651",
+ "processed": "2026-10-06T18:50:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-100-009",
+ "address": "3520 Lake Riverside Estates",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235090",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 898
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235090",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 96.587967,
+   "raw": "DRILLING\nMETHOD Rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2023-05-05",
+   "conf": "low",
+   "ocrConf": 48.289856,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235090",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52469857500006,
+ "lon": -116.80217415899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219994",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235090",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

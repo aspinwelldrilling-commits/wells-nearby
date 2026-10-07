@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027786",
+ "processed": "2026-10-06T19:51:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-450-023-1",
+ "address": "44049 Julip Ct",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249631",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 64
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249631",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1100.0,
+   "conf": "high",
+   "ocrConf": 82.589981,
+   "raw": "Total Depth of Completed Well 1100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 97.008438,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-11",
+   "conf": "medium",
+   "ocrConf": 56.112129,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249631",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.483474874000024,
+ "lon": -116.74726188599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310204",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249631",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

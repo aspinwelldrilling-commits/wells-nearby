@@ -1,0 +1,63 @@
+{
+ "permit": "WP0015088",
+ "processed": "2026-10-06T19:33:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-160-008",
+ "address": "51255 Hernley Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244345",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 737
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244345",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 30.386917,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 33.127762,
+   "raw": "ESTIMATED YIELD * 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-12-23",
+   "conf": "medium",
+   "ocrConf": 75.890198,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244345",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.486967768000056,
+ "lon": -116.76478088599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210551",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244345",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

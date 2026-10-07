@@ -1,0 +1,84 @@
+{
+ "permit": "WP0029376",
+ "processed": "2026-10-06T19:50:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-110-022",
+ "address": "49765 Kiowa Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248832",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 626
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248832",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248832",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 91.477737,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 96.176468,
+   "raw": "Estimated Yield* 35 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 82.478485,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-08-05",
+   "conf": "low",
+   "ocrConf": 40.216759,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.52417,
+   "lon": -116.79196,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248832",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52392248,
+ "lon": -116.79196,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/231231",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248832",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

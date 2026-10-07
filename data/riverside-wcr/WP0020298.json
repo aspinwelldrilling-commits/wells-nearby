@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020298",
+ "processed": "2026-10-06T19:42:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-090-022",
+ "address": "40845 S Preakness Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246691",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 346
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246691",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "low",
+   "ocrConf": 38.054131,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 310",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 80.531349,
+   "raw": "WATER LEVEL 4 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-09-26",
+   "conf": "low",
+   "ocrConf": 29.772484,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246691",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.527571366000075,
+ "lon": -116.79420803799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204545",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246691",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

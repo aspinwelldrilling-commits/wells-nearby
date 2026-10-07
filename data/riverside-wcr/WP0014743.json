@@ -1,0 +1,71 @@
+{
+ "permit": "WP0014743",
+ "processed": "2026-10-06T19:31:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-440-020",
+ "address": "FEETCHER Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243176",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 720
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243176",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 25.137306,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 78.179955,
+   "raw": "ESTIMATED YiELD * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 82.0,
+   "conf": "low",
+   "ocrConf": 48.743507,
+   "raw": "WATER LeveL 82 __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-17",
+   "conf": "low",
+   "ocrConf": 44.3964,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243176",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48504634100004,
+ "lon": -116.73272740899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210255",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243176",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

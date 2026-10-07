@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014255",
+ "processed": "2026-10-06T19:29:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-060-009",
+ "address": "49478 Cherokee Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242817",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 743
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242817",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "low",
+   "ocrConf": 5.22699,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL240",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-10-03",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242817",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.532336988000054,
+ "lon": -116.79703718599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211201",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242817",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,77 @@
+{
+ "permit": "WP0012177",
+ "processed": "2026-10-06T19:20:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-280-021",
+ "address": "48348 Deer Haven Way",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241333",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1429
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241333",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241333",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 975.0,
+   "conf": "low",
+   "ocrConf": 30.02948,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL975",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 168.0,
+   "conf": "medium",
+   "ocrConf": 52.329872,
+   "raw": "WATER LeveL 168 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-04-13",
+   "conf": "high",
+   "ocrConf": 92.181862,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 40.885509,
+   "raw": "ESTIMATED YIELD * 3 (GPM",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241333",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53070345500004,
+ "lon": -116.81660153799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212430",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241333",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013460",
+ "processed": "2026-10-06T19:26:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-150-051",
+ "address": "40368 Sage Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242513",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 673
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242513",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 98.0,
+   "conf": "medium",
+   "ocrConf": 54.170341,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL98",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 21.0,
+   "conf": "low",
+   "ocrConf": 42.455486,
+   "raw": "WATER LeveL 21_ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-11-16",
+   "conf": "high",
+   "ocrConf": 88.340919,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242513",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.538020378000056,
+ "lon": -116.90657498299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212577",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242513",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

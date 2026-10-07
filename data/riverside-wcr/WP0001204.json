@@ -1,0 +1,70 @@
+{
+ "permit": "WP0001204",
+ "processed": "2026-10-06T18:46:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-220-022",
+ "address": "45455 Witten Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234207",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 763
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234207",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "medium",
+   "ocrConf": 73.734589,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___350",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.700829,
+   "raw": "DRILLING\nMETHOD AIR FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.470657,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-09-26",
+   "conf": "low",
+   "ocrConf": 47.913681,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234207",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50763776000008,
+ "lon": -116.86931470899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221678",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234207",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018767",
+ "processed": "2026-10-06T19:42:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-490-023",
+ "address": "44303 Star Gaze Way",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246086",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 878
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246086",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.419312,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.052124,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-07-01",
+   "conf": "high",
+   "ocrConf": 94.759636,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246086",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.481316924000055,
+ "lon": -116.78508313499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207662",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246086",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

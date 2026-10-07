@@ -1,0 +1,63 @@
+{
+ "permit": "WP0012328",
+ "processed": "2026-10-06T19:23:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-370-017",
+ "address": "48879 Ruben Dr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241436",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 768
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241436",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 480.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 480",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 64.637466,
+   "raw": "WATER LEVEL - 150 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-03-24",
+   "conf": "high",
+   "ocrConf": 92.426437,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241436",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48029047000006,
+ "lon": -116.80890751399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212553",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241436",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

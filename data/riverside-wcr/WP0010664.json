@@ -1,0 +1,72 @@
+{
+ "permit": "WP0010664",
+ "processed": "2026-10-06T19:12:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-090-024",
+ "address": "40843 South Tanforan Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240891",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 778
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240891",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 204.0,
+   "conf": "medium",
+   "ocrConf": 87.492798,
+   "raw": "TOTAL DEPTH OF BORING _204",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 199.0,
+   "conf": "low",
+   "ocrConf": 48.218529,
+   "raw": "ESTIMATED YIELD * 199 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 39.0,
+   "conf": "low",
+   "ocrConf": 29.454918,
+   "raw": "WATER LEVEL ___39__ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-04-23",
+   "conf": "high",
+   "ocrConf": 96.447136,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240891",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52817425100005,
+ "lon": -116.79639562399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213343",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240891",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013473",
+ "processed": "2026-10-06T19:26:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-160-013",
+ "address": "60870 Indian Paint Brush Rd",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242533",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 750
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242533",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 35.297653,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "medium",
+   "ocrConf": 59.755455,
+   "raw": "ESTIMATED YIELD * 9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-29",
+   "conf": "medium",
+   "ocrConf": 78.562149,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242533",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53022968300007,
+ "lon": -116.81460589699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212598",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242533",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

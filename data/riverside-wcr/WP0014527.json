@@ -1,0 +1,57 @@
+{
+ "permit": "WP0014527",
+ "processed": "2026-10-06T19:31:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-100-048",
+ "address": "SE Corner of Apollo Lane",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243061",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 767
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243061",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 241.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 241",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 17.73201,
+   "raw": "WATER LEVEL__22 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243061",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.490162723000026,
+ "lon": -116.81160206499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211366",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243061",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

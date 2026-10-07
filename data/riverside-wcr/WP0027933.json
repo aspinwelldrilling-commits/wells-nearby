@@ -1,0 +1,76 @@
+{
+ "permit": "WP0027933",
+ "processed": "2026-10-06T19:48:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-040-036",
+ "address": "Misty Meadows Dr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249678",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 67
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249678",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249678",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "high",
+   "ocrConf": 89.539772,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "medium",
+   "ocrConf": 72.914055,
+   "raw": "Estimated Yield* 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-09-10",
+   "conf": "medium",
+   "ocrConf": 74.643738,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.450137,
+   "lon": -116.782102,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249678",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.45014186700007,
+ "lon": -116.78211388899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19352",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249678",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

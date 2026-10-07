@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013477",
+ "processed": "2026-10-06T19:26:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-450-027",
+ "address": "44191 Mountain Cir",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242540",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 726
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242540",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 605.0,
+   "conf": "low",
+   "ocrConf": 32.97065,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL605",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "low",
+   "ocrConf": 47.663116,
+   "raw": "ESTIMATED YIELD * 15 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-12-04",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242540",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48083538900005,
+ "lon": -116.73911019099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212611",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242540",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

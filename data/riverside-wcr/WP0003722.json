@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003722",
+ "processed": "2026-10-06T18:51:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-170-035",
+ "address": "45120 Highway 79",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235910",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1285
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235910",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 415.0,
+   "conf": "low",
+   "ocrConf": 49.255142,
+   "raw": "TOTAL DEPTH OF BORING 415",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1996-03-24",
+   "conf": "high",
+   "ocrConf": 88.152367,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235910",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.444259905000024,
+ "lon": -116.87415093599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218346",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235910",
+ "serviceType": "Reconstruction Deepening",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0016809",
+ "processed": "2026-10-06T19:41:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-200-041",
+ "address": "46560 Boulder Vista Dr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245319",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 786
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245319",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 695.0,
+   "conf": "high",
+   "ocrConf": 90.012276,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL695",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "low",
+   "ocrConf": 30.32019,
+   "raw": "ESTIMATED YIELD * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 208.0,
+   "conf": "medium",
+   "ocrConf": 63.979393,
+   "raw": "WATER LeveL 208 _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-11-03",
+   "conf": "medium",
+   "ocrConf": 67.850159,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245319",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.477413064000075,
+ "lon": -116.84006596899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209401",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245319",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

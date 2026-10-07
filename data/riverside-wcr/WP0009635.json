@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009635",
+ "processed": "2026-10-06T19:09:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "917-150-025",
+ "address": "Off Wacker Drive",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240651",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 911
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240651",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "low",
+   "ocrConf": 15.758392,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 325",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-10-01",
+   "conf": "high",
+   "ocrConf": 93.150909,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240651",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.46282284900008,
+ "lon": -116.979835219,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214492",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240651",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

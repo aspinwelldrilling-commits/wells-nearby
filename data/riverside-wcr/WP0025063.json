@@ -1,0 +1,70 @@
+{
+ "permit": "WP0025063",
+ "processed": "2026-10-06T19:46:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-190-049",
+ "address": "39605 Spanish Oaks Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248114",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 365
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248114",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1500.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Total Depth of Completed Well 1500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.916878,
+   "raw": "Drilling Method Air Drilling Drilling Fluid oe",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-03-04",
+   "conf": "medium",
+   "ocrConf": 53.247646,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.5473,
+   "lon": -116.9569,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248114",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.5473,
+ "lon": -116.9569,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200049",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248114",
+ "serviceType": "Reconstruction Deepening",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

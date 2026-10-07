@@ -1,0 +1,63 @@
+{
+ "permit": "WP0016479",
+ "processed": "2026-10-06T19:38:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-190-008",
+ "address": "41898 Saddleback Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245192",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 742
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245192",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 20.867302,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YieLD * 30+ _ (gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-04-07",
+   "conf": "high",
+   "ocrConf": 81.009048,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245192",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51262064300005,
+ "lon": -116.80723065899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210699",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245192",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

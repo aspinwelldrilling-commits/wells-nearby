@@ -1,0 +1,63 @@
+{
+ "permit": "WP0028431",
+ "processed": "2026-10-06T19:48:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-500-025",
+ "address": "40369 Arcola Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270894",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 32
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270894",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 90.974022,
+   "raw": "Estimated Yield* 150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 48.0,
+   "conf": "high",
+   "ocrConf": 94.156326,
+   "raw": "Water Level 48 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-06-07",
+   "conf": "high",
+   "ocrConf": 82.031784,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270894",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53828387000004,
+ "lon": -116.92890392199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34331",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270894",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012045",
+ "processed": "2026-10-06T19:18:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-240-002",
+ "address": "49364 Meadowview Way",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243820",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 866
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243820",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 32.718552,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __22",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 24.000214,
+   "raw": "WATER LEVEL___2)__(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243820",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50873937400007,
+ "lon": -116.79495981499997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243820",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

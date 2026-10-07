@@ -1,0 +1,84 @@
+{
+ "permit": "WP0030386",
+ "processed": "2026-10-06T19:51:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-720-019",
+ "address": "Exa Ely ",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270811",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1220
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270811",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270811",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1010.0,
+   "conf": "high",
+   "ocrConf": 92.386909,
+   "raw": "Total Depth of Completed Well 1010",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Estimated Yield* +~\u00ab1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 96.769005,
+   "raw": "Water Level 150 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-01-26",
+   "conf": "medium",
+   "ocrConf": 74.993347,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.5196,
+   "lon": -116.9465,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270811",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.5196,
+ "lon": -116.946498,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310680",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270811",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

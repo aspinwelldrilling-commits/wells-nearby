@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010147",
+ "processed": "2026-10-06T19:09:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-190-028",
+ "address": "39921 Calle Portillo",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240321",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 947
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240321",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 85.48745,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-02-14",
+   "conf": "high",
+   "ocrConf": 96.005417,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240321",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.545116464000046,
+ "lon": -116.94843530999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214851",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240321",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

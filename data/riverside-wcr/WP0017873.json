@@ -1,0 +1,64 @@
+{
+ "permit": "WP0017873",
+ "processed": "2026-10-06T19:43:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-130-025",
+ "address": "50863 Bradford Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245766",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 407
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245766",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 13.198059,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 45.91959,
+   "raw": "ESTIMATED YIELD * 30 ___ (gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 87.0,
+   "conf": "low",
+   "ocrConf": 3.391617,
+   "raw": "WATER LEVEL - 87 __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245766",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.49673668400004,
+ "lon": -116.77426085199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208526",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245766",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

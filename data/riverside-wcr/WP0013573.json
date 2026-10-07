@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013573",
+ "processed": "2026-10-06T19:26:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-480-014",
+ "address": "53675 Glendora Ct",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242638",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 762
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242638",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.796501,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-01-20",
+   "conf": "medium",
+   "ocrConf": 77.652916,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242638",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.47459876800008,
+ "lon": -116.72698837399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212757",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242638",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

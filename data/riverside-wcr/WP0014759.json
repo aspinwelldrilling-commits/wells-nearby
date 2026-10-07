@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014759",
+ "processed": "2026-10-06T19:32:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-240-053",
+ "address": "39821 Broken Axle Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243189",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 864
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243189",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 19.563606,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 189.0,
+   "conf": "low",
+   "ocrConf": 40.340519,
+   "raw": "WATER LeveL 189 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-04-14",
+   "conf": "high",
+   "ocrConf": 92.254723,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243189",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54364125200004,
+ "lon": -116.71984297599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210269",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243189",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

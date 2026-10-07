@@ -1,0 +1,63 @@
+{
+ "permit": "WP0012129",
+ "processed": "2026-10-06T19:19:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-140-007",
+ "address": "49855 Aztec Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243879",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 754
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243879",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 290.0,
+   "conf": "medium",
+   "ocrConf": 54.415886,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL290",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 53.961342,
+   "raw": "ESTIMATED YIELD * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-03-06",
+   "conf": "medium",
+   "ocrConf": 63.86792,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243879",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51759154100006,
+ "lon": -116.78966679099995,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243879",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

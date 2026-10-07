@@ -1,0 +1,78 @@
+{
+ "permit": "WP0025051",
+ "processed": "2026-10-06T19:53:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-080-039",
+ "address": "39990 Faure Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248090",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 520
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248090",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1217.0,
+   "conf": "medium",
+   "ocrConf": 79.8992,
+   "raw": "Total Depth of Completed Well 1217",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.314812,
+   "raw": "Estimated Yield * 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "medium",
+   "ocrConf": 62.860695,
+   "raw": "Drilling Method Air Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-03-05",
+   "conf": "low",
+   "ocrConf": 12.441589,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.54588,
+   "lon": -116.89794,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248090",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.545616143000075,
+ "lon": -116.89639523699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200037",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248090",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

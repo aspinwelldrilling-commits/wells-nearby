@@ -1,0 +1,74 @@
+{
+ "permit": "WP0028865",
+ "processed": "2026-10-06T19:52:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-310-011",
+ "address": "0 Chris Allen Way ",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248794",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 66
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248794",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248794",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248794",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 460.0,
+   "conf": "high",
+   "ocrConf": 93.158386,
+   "raw": "Total Depth of Completed Well 460",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 80.149445,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.4617,
+   "lon": -116.826061,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248794",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.461700000000064,
+ "lon": -116.82606099999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34227",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248794",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

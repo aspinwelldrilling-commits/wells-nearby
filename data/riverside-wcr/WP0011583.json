@@ -1,0 +1,56 @@
+{
+ "permit": "WP0011583",
+ "processed": "2026-10-06T19:16:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-280-012",
+ "address": "Condor Court",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241835",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 807
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241835",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 29.0,
+   "conf": "low",
+   "ocrConf": 21.941132,
+   "raw": "ESTIMATED YIELD * 29 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ___4)f) _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241835",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48616831000004,
+ "lon": -116.84692726499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212001",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241835",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

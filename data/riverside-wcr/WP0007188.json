@@ -1,0 +1,63 @@
+{
+ "permit": "WP0007188",
+ "processed": "2026-10-06T18:59:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-360-027",
+ "address": "44473 Leprechaun Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238872",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 773
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238872",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 625.0,
+   "conf": "high",
+   "ocrConf": 95.515907,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 625",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.5,
+   "conf": "low",
+   "ocrConf": 42.697861,
+   "raw": "ESTIMATED YiELD * 3.5 __ (Gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-11-06",
+   "conf": "low",
+   "ocrConf": 16.865463,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238872",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.47786888100006,
+ "lon": -116.79278843399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216042",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238872",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

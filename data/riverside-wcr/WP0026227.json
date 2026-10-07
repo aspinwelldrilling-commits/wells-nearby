@@ -1,0 +1,92 @@
+{
+ "permit": "WP0026227",
+ "processed": "2026-10-06T19:48:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "927-180-007",
+ "address": "45240 Los Caballos Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248299",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1146
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248299",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248299",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 580.0,
+   "conf": "high",
+   "ocrConf": 96.604294,
+   "raw": "Total Depth of Completed Well 580",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 96.024055,
+   "raw": "Estimated Yield * 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 93.659645,
+   "raw": "Water Level 4 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 92.713341,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "high",
+   "ocrConf": 92.931129,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-06-24",
+   "conf": "high",
+   "ocrConf": 96.047043,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248299",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.47041821700003,
+ "lon": -117.04163066399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199329",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248299",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

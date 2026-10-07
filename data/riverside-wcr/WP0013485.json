@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013485",
+ "processed": "2026-10-06T19:28:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-370-039",
+ "address": "42520 Grama Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242550",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 702
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242550",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 28.634384,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 50.561504,
+   "raw": "WATER LEVEL 4 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-10-07",
+   "conf": "low",
+   "ocrConf": 4.454346,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242550",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52790333200005,
+ "lon": -116.91746356399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212614",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242550",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

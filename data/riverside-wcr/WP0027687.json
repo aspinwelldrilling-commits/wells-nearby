@@ -1,0 +1,79 @@
+{
+ "permit": "WP0027687",
+ "processed": "2026-10-06T19:47:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-410-004",
+ "address": "",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249601",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 59
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249601",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 960.0,
+   "conf": "medium",
+   "ocrConf": 96.353111,
+   "raw": "Total Depth of Boring 960",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 90.392555,
+   "raw": "Estimated Yield * 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 88.810165,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 80.963638,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-04-26",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249601",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.529094875000055,
+ "lon": -116.82903190499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198950",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249601",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

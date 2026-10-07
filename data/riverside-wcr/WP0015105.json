@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015105",
+ "processed": "2026-10-06T19:33:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-100-056",
+ "address": "48699 Valley Dr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244350",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 761
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244350",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 420.0,
+   "conf": "medium",
+   "ocrConf": 56.460709,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL420",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-01-04",
+   "conf": "high",
+   "ocrConf": 84.221931,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244350",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.484999059000074,
+ "lon": -116.81162271099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210568",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244350",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

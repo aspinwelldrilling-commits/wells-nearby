@@ -1,0 +1,71 @@
+{
+ "permit": "WP0017802",
+ "processed": "2026-10-06T19:40:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-040-041",
+ "address": "Nw Sycamore Sp & Blackbush Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245741",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 813
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245741",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 93.911591,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 96.859116,
+   "raw": "Estimated Yield * 150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 43.28286,
+   "raw": "Water Level 300 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-06-15",
+   "conf": "high",
+   "ocrConf": 93.056946,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245741",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.45246485100006,
+ "lon": -116.77312495299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210189",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245741",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

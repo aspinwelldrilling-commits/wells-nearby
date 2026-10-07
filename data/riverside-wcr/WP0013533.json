@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013533",
+ "processed": "2026-10-06T19:26:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-370-027",
+ "address": "ARCOLA & SUMMERS",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242588",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 819
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242588",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 430.0,
+   "conf": "low",
+   "ocrConf": 2.643402,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 430",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-01-17",
+   "conf": "medium",
+   "ocrConf": 64.068832,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 90.0,
+   "conf": "high",
+   "ocrConf": 81.075882,
+   "raw": "ESTIMATED YiELD *_90 (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242588",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52385841500006,
+ "lon": -116.92761384399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212690",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242588",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

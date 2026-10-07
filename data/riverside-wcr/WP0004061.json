@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004061",
+ "processed": "2026-10-06T18:53:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-520-021",
+ "address": "39140 Gray Squirrel Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236763",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 788
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236763",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 10.221977,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 125.0,
+   "conf": "high",
+   "ocrConf": 95.683685,
+   "raw": "WATER LEVEL 125 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236763",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.544438048000075,
+ "lon": -116.97788852099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219317",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236763",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

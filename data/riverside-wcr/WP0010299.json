@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010299",
+ "processed": "2026-10-06T19:11:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-110-039",
+ "address": "43355 Cowboy Country Trl",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240529",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 698
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240529",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 18.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YiELD * 18 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 180.0,
+   "conf": "low",
+   "ocrConf": 23.848381,
+   "raw": "WATER LeveL 180 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-09-24",
+   "conf": "low",
+   "ocrConf": 30.26403,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240529",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.49381860500006,
+ "lon": -116.78922808299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213064",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240529",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,62 @@
+{
+ "permit": "WP0012085",
+ "processed": "2026-10-06T19:19:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-100-021",
+ "address": "46860 Lower Ranch Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243852",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1572
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243852",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243852",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 42.0,
+   "conf": "low",
+   "ocrConf": 48.976822,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 42",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 33.010986,
+   "raw": "ESTIMATED YIELD * 24 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243852",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.468567508000035,
+ "lon": -116.84155652499999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243852",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

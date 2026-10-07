@@ -1,0 +1,71 @@
+{
+ "permit": "WP0010981",
+ "processed": "2026-10-06T19:12:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-330-001",
+ "address": "39300 Howard Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241187",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 718
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241187",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 405.0,
+   "conf": "low",
+   "ocrConf": 17.716896,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL405",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 46.0,
+   "conf": "medium",
+   "ocrConf": 55.025024,
+   "raw": "ESTIMATED YieLD * 46 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 109.0,
+   "conf": "medium",
+   "ocrConf": 76.198311,
+   "raw": "WATER LeveL _109 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-08-05",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241187",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.549194912000075,
+ "lon": -116.71744717499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213587",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241187",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

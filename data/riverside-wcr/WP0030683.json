@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030683",
+ "processed": "2026-10-06T19:51:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-520-019",
+ "address": "39100 Air Park Dr ",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306528",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 13
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306528",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306528",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1200.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        1200",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                600 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Downhole Rotary          Drilling Fluid    Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2023-02-03",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.54681,
+   "lon": -116.9774,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*              6 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306528",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54681,
+ "lon": -116.9774,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/309585",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306528",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

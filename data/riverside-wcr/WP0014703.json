@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014703",
+ "processed": "2026-10-06T19:31:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-290-015",
+ "address": "48642 Lake Canyon Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243154",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 322
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243154",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 73.253601,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 17.0,
+   "conf": "high",
+   "ocrConf": 96.366776,
+   "raw": "Estimated Yield *, 17 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-11-04",
+   "conf": "high",
+   "ocrConf": 93.376877,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243154",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.529222306000065,
+ "lon": -116.81492763099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211513",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243154",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

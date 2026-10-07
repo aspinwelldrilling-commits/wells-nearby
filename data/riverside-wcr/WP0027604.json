@@ -1,0 +1,78 @@
+{
+ "permit": "WP0027604",
+ "processed": "2026-10-06T19:50:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-370-033",
+ "address": "Summers Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249577",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 64
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249577",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "high",
+   "ocrConf": 88.98262,
+   "raw": "Total Depth of Completed Well 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.35144,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling Diilling",
+   "conf": "medium",
+   "ocrConf": 57.375977,
+   "raw": "Drilling Method Air Drilling Diilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 7.10553,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-02-28",
+   "conf": "medium",
+   "ocrConf": 68.455032,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249577",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52449886900007,
+ "lon": -116.92141691899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198915",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249577",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

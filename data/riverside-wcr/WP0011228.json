@@ -1,0 +1,55 @@
+{
+ "permit": "WP0011228",
+ "processed": "2026-10-06T19:13:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-550-059",
+ "address": "39110 Loren Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241353",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 710
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241353",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 405.0,
+   "conf": "low",
+   "ocrConf": 46.857243,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL405",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-09-17",
+   "conf": "low",
+   "ocrConf": 15.928986,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241353",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.542522708000035,
+ "lon": -116.98026648999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213775",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241353",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

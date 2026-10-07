@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022453",
+ "processed": "2026-10-06T19:44:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-020-080",
+ "address": "42525 Wildwood Ln",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249236",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 323
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249236",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 122.0,
+   "conf": "low",
+   "ocrConf": 44.657295,
+   "raw": "WATER LeveL 122 ___ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-04-30",
+   "conf": "medium",
+   "ocrConf": 73.14946,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249236",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50505194200008,
+ "lon": -116.81745590999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18812",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249236",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

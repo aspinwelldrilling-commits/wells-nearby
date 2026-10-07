@@ -1,0 +1,85 @@
+{
+ "permit": "WP0029367",
+ "processed": "2026-10-06T19:52:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-200-021",
+ "address": "41714 Rolling Hills Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248830",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 483
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248830",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248830",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 560.0,
+   "conf": "low",
+   "ocrConf": 52.525185,
+   "raw": "Total Depth of Boring 560",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 91.005035,
+   "raw": "Estimated Yield\" 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 86.9571,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "medium",
+   "ocrConf": 79.843452,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-12-24",
+   "conf": "high",
+   "ocrConf": 85.682693,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248830",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.514093,
+ "lon": -116.81089,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310507",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248830",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

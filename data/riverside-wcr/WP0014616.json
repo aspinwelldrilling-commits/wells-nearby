@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014616",
+ "processed": "2026-10-06T19:30:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-320-011",
+ "address": "43101 Laurie Ann Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243127",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 752
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243127",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 36.139507,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _22",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 16.529709,
+   "raw": "ESTIMATED YIELD * 2. __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243127",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.46501731600006,
+ "lon": -116.907081044,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211447",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243127",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

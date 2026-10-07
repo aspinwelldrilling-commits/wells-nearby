@@ -1,0 +1,71 @@
+{
+ "permit": "WP0027785",
+ "processed": "2026-10-06T19:47:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-450-016",
+ "address": "44050 Julip Ct",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249630",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 73
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249630",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1010.0,
+   "conf": "medium",
+   "ocrConf": 96.387878,
+   "raw": "Total Depth of Boring 1010",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.644836,
+   "raw": "Estimated Yield* 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-07-26",
+   "conf": "low",
+   "ocrConf": 17.781433,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.4838,
+   "lon": -116.7437,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249630",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.483627940000076,
+ "lon": -116.74485101999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198994",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249630",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

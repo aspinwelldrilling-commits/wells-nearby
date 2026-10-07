@@ -1,0 +1,57 @@
+{
+ "permit": "WP0006512",
+ "processed": "2026-10-06T18:56:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-110-015",
+ "address": "41110 Lake Riverside Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238461",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 991
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238461",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 224.0,
+   "conf": "low",
+   "ocrConf": 6.424522,
+   "raw": "TOTAL DEPTH OF BORING 224",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 6.0,
+   "conf": "low",
+   "ocrConf": 27.177856,
+   "raw": "WATER LEVEL 6 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238461",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52491317600004,
+ "lon": -116.78964841599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217754",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238461",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

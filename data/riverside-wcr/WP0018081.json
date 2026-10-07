@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018081",
+ "processed": "2026-10-06T19:41:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-240-022",
+ "address": "49937 Comanche Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245817",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 803
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245817",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 85.881096,
+   "raw": "Estimated Yield * 55 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 84.748795,
+   "raw": "Water Level _150 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-06",
+   "conf": "medium",
+   "ocrConf": 79.76458,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245817",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50991898600006,
+ "lon": -116.78999902599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208729",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245817",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

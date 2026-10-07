@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010200",
+ "processed": "2026-10-06T19:10:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-120-015",
+ "address": "49500 Sky Harbor Rd",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240377",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 716
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240377",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 190.0,
+   "conf": "high",
+   "ocrConf": 96.832985,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 190",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-02-24",
+   "conf": "medium",
+   "ocrConf": 51.88636,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 29.0,
+   "conf": "medium",
+   "ocrConf": 62.978371,
+   "raw": "ESTIMATED YIELD *_29 (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240377",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52089863000003,
+ "lon": -116.79596174499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214905",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240377",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

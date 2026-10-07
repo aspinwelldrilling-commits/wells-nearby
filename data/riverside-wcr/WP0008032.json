@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008032",
+ "processed": "2026-10-06T19:03:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-420-013",
+ "address": "ELDER CREEK & TRAIL MASTER",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239961",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 703
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239961",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 95.251099,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-08-22",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239961",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48670926200003,
+ "lon": -116.75248535699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215027",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239961",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002339",
+ "processed": "2026-10-06T18:48:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-130-052",
+ "address": "43930 White Mountain Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235261",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 814
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235261",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 348.0,
+   "conf": "medium",
+   "ocrConf": 83.311623,
+   "raw": "TOTAL DEPTH OF BORING 348",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.423843,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235261",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.453036362000034,
+ "lon": -116.89373442899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222227",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235261",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

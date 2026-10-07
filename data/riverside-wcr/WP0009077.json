@@ -1,0 +1,56 @@
+{
+ "permit": "WP0009077",
+ "processed": "2026-10-06T19:06:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-300-021",
+ "address": "48685 Sunnybrook Cir",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240018",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1040
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240018",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 433.0,
+   "conf": "medium",
+   "ocrConf": 59.551891,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL . 433",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "medium",
+   "ocrConf": 64.08783,
+   "raw": "ESTIMATED YIELD * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240018",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52664628500003,
+ "lon": -116.81034532999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214047",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240018",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

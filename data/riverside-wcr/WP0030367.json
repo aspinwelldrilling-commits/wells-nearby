@@ -1,0 +1,91 @@
+{
+ "permit": "WP0030367",
+ "processed": "2026-10-06T19:53:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-030-022",
+ "address": "0 Lakeshore Dr ",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264833",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 625
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264833",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264833",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 540.0,
+   "conf": "medium",
+   "ocrConf": 58.492966,
+   "raw": "Total Depth of Completed Well 540",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 96.127144,
+   "raw": "Estimated Yield* 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 91.780998,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "high",
+   "ocrConf": 94.741882,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-02-02",
+   "conf": "medium",
+   "ocrConf": 76.164612,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.537643,
+   "lon": -116.804851,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264833",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.537643,
+ "lon": -116.804851,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310673",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264833",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

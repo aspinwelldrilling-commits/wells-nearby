@@ -1,0 +1,77 @@
+{
+ "permit": "WP0027720",
+ "processed": "2026-10-06T19:47:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-200-068",
+ "address": "47555 Aguanga Ranchos Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249623",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 386
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249623",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249623",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "low",
+   "ocrConf": 35.598434,
+   "raw": "Total Depth of Completed Well 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 24.0,
+   "conf": "high",
+   "ocrConf": 96.160881,
+   "raw": "Estimated Yield\u201d 24 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 95.176247,
+   "raw": "Water Level 75 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-23",
+   "conf": "medium",
+   "ocrConf": 62.720364,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249623",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.43185352300003,
+ "lon": -116.83585451799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198977",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249623",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

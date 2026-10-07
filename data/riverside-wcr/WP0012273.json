@@ -1,0 +1,64 @@
+{
+ "permit": "WP0012273",
+ "processed": "2026-10-06T19:19:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-290-026",
+ "address": "LAKE RIVERSIDE ESTATES",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241351",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 735
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241351",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "high",
+   "ocrConf": 96.745483,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 71.370369,
+   "raw": "ESTIMATED YIELD * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 130.0,
+   "conf": "low",
+   "ocrConf": 38.474876,
+   "raw": "WATER LeveL 130 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241351",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.501832336000064,
+ "lon": -116.80726961499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212440",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241351",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

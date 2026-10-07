@@ -1,0 +1,71 @@
+{
+ "permit": "WP0016781",
+ "processed": "2026-10-06T19:40:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-200-013",
+ "address": "40630 Sage Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245301",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1453
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245301",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245301",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1015.0,
+   "conf": "low",
+   "ocrConf": 58.997913,
+   "raw": "TOTAL DEPTH OF BORING _1015",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 53.629333,
+   "raw": "ESTIMATED YIELD * 4 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 44.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ____44.____ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245301",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.529539716000045,
+ "lon": -116.90424845999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209383",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245301",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

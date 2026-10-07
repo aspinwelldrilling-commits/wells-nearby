@@ -1,0 +1,79 @@
+{
+ "permit": "WP0018817",
+ "processed": "2026-10-06T19:41:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-210-024",
+ "address": "42235 Leo Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246102",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 887
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246102",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 69.315323,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 96.632164,
+   "raw": "Estimated Yield* 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 87.196754,
+   "raw": "Water Level _150 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 93.88134,
+   "raw": "Drilling Method Air Drilling Drilling Fluid _ .\nling",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-07-01",
+   "conf": "low",
+   "ocrConf": 9.523506,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246102",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50911744300004,
+ "lon": -116.86883968899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207714",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246102",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

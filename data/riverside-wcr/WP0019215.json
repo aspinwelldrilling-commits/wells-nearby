@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019215",
+ "processed": "2026-10-06T19:44:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-140-008",
+ "address": "Lake Riverside Drive - Lot 277",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246180",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 714
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246180",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 17.931664,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 21.0,
+   "conf": "medium",
+   "ocrConf": 57.875957,
+   "raw": "WATER LEVEL 21 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-10-08",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246180",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51878400100003,
+ "lon": -116.78919954699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208008",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246180",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

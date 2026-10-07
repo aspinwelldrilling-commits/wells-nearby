@@ -1,0 +1,48 @@
+{
+ "permit": "WP0009070",
+ "processed": "2026-10-06T19:06:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-310-007",
+ "address": "47022 Chris Allen Way",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240015",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 990
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240015",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 355.0,
+   "conf": "medium",
+   "ocrConf": 77.5998,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 355",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240015",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.462793943000065,
+ "lon": -116.83865677199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214041",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240015",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

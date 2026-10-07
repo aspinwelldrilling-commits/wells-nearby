@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014771",
+ "processed": "2026-10-06T19:31:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-240-016",
+ "address": "42237 Rambling Ln",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243200",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 727
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243200",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 205.0,
+   "conf": "low",
+   "ocrConf": 34.329865,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 205",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 27.438995,
+   "raw": "ESTIMATED YIELD * 22 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-08-03",
+   "conf": "high",
+   "ocrConf": 92.430069,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243200",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.508080344000064,
+ "lon": -116.79270238599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210280",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243200",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

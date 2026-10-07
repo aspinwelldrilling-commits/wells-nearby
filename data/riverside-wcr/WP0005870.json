@@ -1,0 +1,56 @@
+{
+ "permit": "WP0005870",
+ "processed": "2026-10-06T18:55:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-070-023",
+ "address": "49344 Black Mountain Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237326",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 852
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237326",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "high",
+   "ocrConf": 87.765915,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 220",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 49.807175,
+   "raw": "WATER Level ___ 60 __(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237326",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53063543700006,
+ "lon": -116.798869879,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215856",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237326",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

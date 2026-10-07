@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003938",
+ "processed": "2026-10-06T18:51:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-510-007",
+ "address": "44705 Gold Creek Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236047",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 847
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236047",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "medium",
+   "ocrConf": 79.923813,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __265",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 90.858208,
+   "raw": "DRILLING\nMETHOD __ Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236047",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.473388869000075,
+ "lon": -116.81121929699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219006",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236047",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

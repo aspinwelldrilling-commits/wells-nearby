@@ -1,0 +1,57 @@
+{
+ "permit": "WP0013407",
+ "processed": "2026-10-06T19:25:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-630-001",
+ "address": "40560 Calle Cordova",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242464",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 759
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242464",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1989.0,
+   "conf": "low",
+   "ocrConf": 30.915306,
+   "raw": "TOTAL DEPTH OF BORING 1989",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 45.400986,
+   "raw": "ESTIMATED YIELD * 1 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242464",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.535050960000035,
+ "lon": -116.96301159099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212509",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242464",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

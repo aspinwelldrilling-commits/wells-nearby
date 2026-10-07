@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002686",
+ "processed": "2026-10-06T18:49:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "927-330-029",
+ "address": "35825 Meadow Ridge Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235070",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 791
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235070",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 685.0,
+   "conf": "low",
+   "ocrConf": 25.442535,
+   "raw": "TOTAL DEPTH OF BORING 685",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD *3Q@_ \u2014 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235070",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52299595300008,
+ "lon": -117.032446688,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220108",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235070",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

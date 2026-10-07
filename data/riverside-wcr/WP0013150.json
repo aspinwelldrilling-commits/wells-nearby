@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013150",
+ "processed": "2026-10-06T19:24:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-050-027",
+ "address": "49554 Paiute Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242305",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 869
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242305",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 86.903786,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-10-13",
+   "conf": "high",
+   "ocrConf": 95.810623,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242305",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53430150200006,
+ "lon": -116.79386920899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212132",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242305",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

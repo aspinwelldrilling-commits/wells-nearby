@@ -1,0 +1,64 @@
+{
+ "permit": "WP0028011",
+ "processed": "2026-10-06T19:51:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-220-016",
+ "address": "42375 Chatfield Way ",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248694",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 54
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248694",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 96.024445,
+   "raw": "Total Depth of Boring 500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 80.49012,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-10-16",
+   "conf": "high",
+   "ocrConf": 93.12191,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248694",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50602486900004,
+ "lon": -116.87407191099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270760",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248694",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

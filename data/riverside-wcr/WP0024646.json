@@ -1,0 +1,79 @@
+{
+ "permit": "WP0024646",
+ "processed": "2026-10-06T19:45:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-370-020",
+ "address": "44401 Barbara Trl",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248183",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 398
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248183",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 93.852745,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.438461,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 167.0,
+   "conf": "high",
+   "ocrConf": 81.667252,
+   "raw": "Water Level _167 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 93.226768,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-10-29",
+   "conf": "high",
+   "ocrConf": 94.458855,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248183",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.47780127900006,
+ "lon": -116.80779402699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201550",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248183",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

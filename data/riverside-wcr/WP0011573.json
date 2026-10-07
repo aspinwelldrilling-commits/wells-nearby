@@ -1,0 +1,48 @@
+{
+ "permit": "WP0011573",
+ "processed": "2026-10-06T19:17:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-080-049",
+ "address": "42960 Wildwood Ln",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241822",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 987
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241822",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 83.266495,
+   "raw": "ESTIMATED YIELD,* 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241822",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.49874764200007,
+ "lon": -116.81466041999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211983",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241822",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

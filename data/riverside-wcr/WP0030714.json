@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030714",
+ "processed": "2026-10-06T19:50:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-030-010",
+ "address": "40060 Delmar Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274991",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 49
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274991",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274991",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 725.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        725",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 148.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                148 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Downhole Hammer           Drilling Fluid   Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-08-09",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.539952,
+   "lon": -116.802587,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             75 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274991",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.539952,
+ "lon": -116.802587,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310788",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274991",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

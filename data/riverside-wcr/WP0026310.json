@@ -1,0 +1,63 @@
+{
+ "permit": "WP0026310",
+ "processed": "2026-10-06T19:46:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-240-026",
+ "address": "42481 Wilson Valley Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248379",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248379",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 94.512459,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 96.680214,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-10-12",
+   "conf": "medium",
+   "ocrConf": 70.979614,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248379",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50664974000006,
+ "lon": -116.86115281499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199387",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248379",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

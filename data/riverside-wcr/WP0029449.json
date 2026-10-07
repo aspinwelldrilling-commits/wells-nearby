@@ -1,0 +1,91 @@
+{
+ "permit": "WP0029449",
+ "processed": "2026-10-06T19:50:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-150-021",
+ "address": "49708 Meadowview Way",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264853",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 535
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264853",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264853",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 90.193848,
+   "raw": "Total Depth of Completed Well 120",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 95.812241,
+   "raw": "Estimated Yield* 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 74.468224,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "high",
+   "ocrConf": 94.927414,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-11-04",
+   "conf": "medium",
+   "ocrConf": 68.234818,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.51307,
+   "lon": -116.79157,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264853",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51307,
+ "lon": -116.79157,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264852",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264853",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

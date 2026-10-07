@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000509",
+ "processed": "2026-10-06T19:52:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "DE PORTOLA Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233784",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2101
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233784",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 339.0,
+   "conf": "low",
+   "ocrConf": 77.586662,
+   "raw": "TOTAL DEPTH OF BORING _339",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "medium",
+   "ocrConf": 70.564293,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233784",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.49036042100005,
+ "lon": -117.04795730599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220192",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233784",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

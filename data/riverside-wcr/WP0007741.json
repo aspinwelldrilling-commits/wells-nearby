@@ -1,0 +1,48 @@
+{
+ "permit": "WP0007741",
+ "processed": "2026-10-06T19:02:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-500-043",
+ "address": "45945 Sycamore Springs Dr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239244",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1609
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239244",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 340.0,
+   "conf": "high",
+   "ocrConf": 85.392967,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 340",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239244",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.45683163900003,
+ "lon": -116.77327804499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214952",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239244",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

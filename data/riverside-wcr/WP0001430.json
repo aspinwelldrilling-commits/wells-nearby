@@ -1,0 +1,54 @@
+{
+ "permit": "WP0001430",
+ "processed": "2026-10-06T18:46:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-270-021",
+ "address": "48389 Rock Canyon Way",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234391",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1692
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234391",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234391",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 24.0,
+   "conf": "medium",
+   "ocrConf": 60.215557,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 24",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234391",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52639320500003,
+ "lon": -116.81659926099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219401",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234391",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

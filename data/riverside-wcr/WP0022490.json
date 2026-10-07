@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022490",
+ "processed": "2026-10-06T19:46:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-060-006",
+ "address": "54475 Bautista Canyon Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249250",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 329
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249250",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 13.323853,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 65.730026,
+   "raw": "ESTIMATED YiELD * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-05-30",
+   "conf": "high",
+   "ocrConf": 90.972969,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249250",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50410574500006,
+ "lon": -116.70971606699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18864",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249250",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

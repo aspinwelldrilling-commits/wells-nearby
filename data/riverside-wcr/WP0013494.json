@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013494",
+ "processed": "2026-10-06T19:26:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-540-009",
+ "address": "45125 Spanish Spur Tr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242562",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 705
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242562",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 470.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 470",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-11-11",
+   "conf": "low",
+   "ocrConf": 0.429626,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242562",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.466873228000054,
+ "lon": -116.76169048499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212633",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242562",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

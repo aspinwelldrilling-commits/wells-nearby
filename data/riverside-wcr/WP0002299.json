@@ -1,0 +1,64 @@
+{
+ "permit": "WP0002299",
+ "processed": "2026-10-06T18:49:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-350-019",
+ "address": "44855 Tule Peak Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235292",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 843
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235292",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 309.0,
+   "conf": "medium",
+   "ocrConf": 81.421211,
+   "raw": "TOTAL DEPTH OF BORING _309",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.113388,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.419899,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235292",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.47222289200005,
+ "lon": -116.76300129799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222151",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235292",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

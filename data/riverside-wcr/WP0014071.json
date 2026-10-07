@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014071",
+ "processed": "2026-10-06T19:28:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-150-005",
+ "address": "43134 Rycon Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242557",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 800
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242557",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 1.9,
+   "conf": "low",
+   "ocrConf": 35.643677,
+   "raw": "ESTIMATED YIELD * 1.9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 26.0,
+   "conf": "low",
+   "ocrConf": 40.641632,
+   "raw": "WATER LEVEL 26\u00b0) _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242557",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.496552543000064,
+ "lon": -116.76570391199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211065",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242557",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

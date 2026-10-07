@@ -1,0 +1,84 @@
+{
+ "permit": "WP0027365",
+ "processed": "2026-10-06T19:50:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-280-012",
+ "address": "42665 Lakeshore Blvd",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249531",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 279
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249531",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249531",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 225.0,
+   "conf": "high",
+   "ocrConf": 87.917465,
+   "raw": "Total Depth of Completed Well 225",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 135.0,
+   "conf": "high",
+   "ocrConf": 94.217567,
+   "raw": "Estimated Yield* 135 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 64.0,
+   "conf": "high",
+   "ocrConf": 96.165939,
+   "raw": "Water Level 64 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 50.266842,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-01-13",
+   "conf": "medium",
+   "ocrConf": 79.249268,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249531",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.504476873000044,
+ "lon": -116.79855289699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198858",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249531",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

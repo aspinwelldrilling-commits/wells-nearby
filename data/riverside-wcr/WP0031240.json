@@ -1,0 +1,99 @@
+{
+ "permit": "WP0031240",
+ "processed": "2026-10-06T19:50:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-050-008",
+ "address": "49515 Ironwood Way",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/328730",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 19
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/328730",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/328730",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well          200",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 36.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                    36 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Downhole Hammer             Drilling Fluid    Foam",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2023-10-30",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.537246,
+   "lon": -116.796953,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*               60 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/328730",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.537246,
+ "lon": -116.796953,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/328730",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Expired",
+ "bestDocPage": 1,
+ "status": "readable"
+}

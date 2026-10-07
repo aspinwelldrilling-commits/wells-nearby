@@ -1,0 +1,73 @@
+{
+ "permit": "WP0022713",
+ "processed": "2026-10-06T19:45:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-500-008",
+ "address": "40055 Los Altos Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249272",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 349
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249272",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "low",
+   "ocrConf": 36.648487,
+   "raw": "Total Depth of Boring 350",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 94.472168,
+   "raw": "Estimated Yield\u2019 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 72.991447,
+   "raw": "Water Level 400 (Feet",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-09-13",
+   "conf": "high",
+   "ocrConf": 92.616676,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249272",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54208465000005,
+ "lon": -116.93516458299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19076",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249272",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

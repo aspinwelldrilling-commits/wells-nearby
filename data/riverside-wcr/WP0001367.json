@@ -1,0 +1,48 @@
+{
+ "permit": "WP0001367",
+ "processed": "2026-10-06T18:46:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "917-140-008",
+ "address": "Woodchuck Area",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234331",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 837
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234331",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 36.729691,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 100",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234331",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.46221622000007,
+ "lon": -116.99897887299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220029",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234331",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

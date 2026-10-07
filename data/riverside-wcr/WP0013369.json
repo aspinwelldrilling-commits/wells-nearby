@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013369",
+ "processed": "2026-10-06T19:25:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-320-005",
+ "address": "SUMMERS & ARCOLA",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243976",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 785
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243976",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "low",
+   "ocrConf": 34.405319,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-02-04",
+   "conf": "medium",
+   "ocrConf": 76.412018,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243976",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.524095285000044,
+ "lon": -116.92950317399999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243976",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

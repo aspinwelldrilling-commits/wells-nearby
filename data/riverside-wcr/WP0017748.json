@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017748",
+ "processed": "2026-10-06T19:40:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-130-040",
+ "address": "42455 Kenyon Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245730",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245730",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 3.119202,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-03-29",
+   "conf": "low",
+   "ocrConf": 14.480652,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245730",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54353538200007,
+ "lon": -116.92103545099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208419",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245730",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

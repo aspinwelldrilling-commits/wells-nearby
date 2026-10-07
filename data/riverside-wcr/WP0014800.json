@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014800",
+ "processed": "2026-10-06T19:32:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-290-012",
+ "address": "48620 Lake Canyon Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243222",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 736
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243222",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 650.0,
+   "conf": "low",
+   "ocrConf": 25.356369,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL650",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "medium",
+   "ocrConf": 55.741379,
+   "raw": "ESTIMATED YieLD * 6 \u2014 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243222",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52984371600007,
+ "lon": -116.81421826199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210304",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243222",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

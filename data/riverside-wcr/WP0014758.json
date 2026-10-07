@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014758",
+ "processed": "2026-10-06T19:31:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-360-035",
+ "address": "49765 Windsong Way",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243187",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 716
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243187",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 5.0,
+   "conf": "medium",
+   "ocrConf": 59.655693,
+   "raw": "ESTIMATED YIELD * 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 147.0,
+   "conf": "medium",
+   "ocrConf": 54.862877,
+   "raw": "WATER LEVEL 147 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-02-19",
+   "conf": "high",
+   "ocrConf": 86.128746,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243187",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48446457800003,
+ "lon": -116.79298324699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210271",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243187",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

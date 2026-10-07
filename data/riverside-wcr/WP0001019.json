@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001019",
+ "processed": "2026-10-06T18:45:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-140-015",
+ "address": "44735 Highway 79",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234112",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 913
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234112",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "low",
+   "ocrConf": 21.301056,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 240",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 55.179527,
+   "raw": "ESTIMATED YIELD -250 /? (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234112",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.43604046100006,
+ "lon": -116.88102892699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221324",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234112",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

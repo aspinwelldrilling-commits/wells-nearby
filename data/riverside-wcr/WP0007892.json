@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007892",
+ "processed": "2026-10-06T19:03:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-190-049",
+ "address": "39605 Spanish Oaks Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239344",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 976
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239344",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 77.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __77",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-06-04",
+   "conf": "high",
+   "ocrConf": 95.053673,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239344",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.5473,
+ "lon": -116.9569,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218586",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239344",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

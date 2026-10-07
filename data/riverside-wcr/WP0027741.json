@@ -1,0 +1,74 @@
+{
+ "permit": "WP0027741",
+ "processed": "2026-10-06T19:48:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-290-002",
+ "address": "49171 Sweepstakes Ln",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249625",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 71
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249625",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249625",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249625",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 89.328041,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-31",
+   "conf": "high",
+   "ocrConf": 84.737206,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.501006,
+   "lon": -116.801082,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249625",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50101087300004,
+ "lon": -116.80109389699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198981",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249625",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

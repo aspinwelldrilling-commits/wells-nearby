@@ -1,0 +1,62 @@
+{
+ "permit": "WP0012962",
+ "processed": "2026-10-06T19:23:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-130-009",
+ "address": "42254 Campini Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242171",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1677
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242171",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242171",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 243.0,
+   "conf": "low",
+   "ocrConf": 49.522591,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 243",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 46.8866,
+   "raw": "ESTIMATED YIELD * 1) __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242171",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54682194900005,
+ "lon": -116.92333146099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211873",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242171",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

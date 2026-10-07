@@ -1,0 +1,56 @@
+{
+ "permit": "WP0011336",
+ "processed": "2026-10-06T19:14:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-710-024",
+ "address": "40321 Denise Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241526",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1253
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241526",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 43.0,
+   "conf": "low",
+   "ocrConf": 49.236256,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 43",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "low",
+   "ocrConf": 42.395344,
+   "raw": "ESTIMATED YIELD * 15 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241526",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52422082800007,
+ "lon": -116.95928953299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213862",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241526",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

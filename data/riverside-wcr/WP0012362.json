@@ -1,0 +1,97 @@
+{
+ "permit": "WP0012362",
+ "processed": "2026-10-06T19:21:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-280-018",
+ "address": "45195 El Reposo Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241473",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1372
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241473",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241473",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241473",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 91.056458,
+   "raw": "Total Depth of Completed Well 50",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 24.0,
+   "conf": "high",
+   "ocrConf": 96.004387,
+   "raw": "Water Level 24 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 77.897995,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 70.209534,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.887144,
+   "lon": -117.63401,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-11-20",
+   "conf": "high",
+   "ocrConf": 82.875267,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241473",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.46687938500003,
+ "lon": -116.86900688599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212615",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241473",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

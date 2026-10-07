@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009076",
+ "processed": "2026-10-06T19:07:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-020-025",
+ "address": "49501 Ironwood Way",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240019",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 966
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240019",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 60.65358,
+   "raw": "ESTIMATED YIELD 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-03-29",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240019",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.537713488000065,
+ "lon": -116.79684206399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214050",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240019",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

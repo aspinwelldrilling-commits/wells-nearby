@@ -1,0 +1,56 @@
+{
+ "permit": "WP0023279",
+ "processed": "2026-10-06T19:44:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-280-001",
+ "address": "40285 Crazy Horse Canyon Rd",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247650",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 354
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247650",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 745.0,
+   "conf": "high",
+   "ocrConf": 95.324081,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 745",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 231.0,
+   "conf": "medium",
+   "ocrConf": 56.503227,
+   "raw": "WATER LeveL 231 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247650",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.532968166000046,
+ "lon": -116.81644152199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202113",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247650",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

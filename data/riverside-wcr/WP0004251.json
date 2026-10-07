@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004251",
+ "processed": "2026-10-06T18:52:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-111-006",
+ "address": "47650 Highlands Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236229",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 911
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236229",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 54.337772,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 20",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1997-06-17",
+   "conf": "high",
+   "ocrConf": 95.663651,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236229",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.44343190400008,
+ "lon": -116.83161855799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219934",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236229",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

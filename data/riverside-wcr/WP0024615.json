@@ -1,0 +1,80 @@
+{
+ "permit": "WP0024615",
+ "processed": "2026-10-06T19:46:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-030-013",
+ "address": "40135 N Caliente",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248162",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 398
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248162",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 96.841553,
+   "raw": "Total Depth of Boring 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 42.0,
+   "conf": "high",
+   "ocrConf": 86.225128,
+   "raw": "Estimated Yield* 42 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 47.0,
+   "conf": "high",
+   "ocrConf": 80.738548,
+   "raw": "Water Level 47 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 90.72393,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-10-30",
+   "conf": "low",
+   "ocrConf": 19.846382,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248162",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.539800557000035,
+ "lon": -116.79896825899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201525",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248162",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

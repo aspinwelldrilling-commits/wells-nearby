@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012198",
+ "processed": "2026-10-06T19:21:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-300-012",
+ "address": "48795 Belmont Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243916",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 688
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243916",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 30.297287,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 29.0,
+   "conf": "medium",
+   "ocrConf": 70.087341,
+   "raw": "ESTIMATED YIELD * 29 __ (Gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243916",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50577782000005,
+ "lon": -116.80836720399998,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243916",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

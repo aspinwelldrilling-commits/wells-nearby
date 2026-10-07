@@ -1,0 +1,92 @@
+{
+ "permit": "WP0027621",
+ "processed": "2026-10-06T19:47:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-270-019",
+ "address": "39450 Spanish Bayonet",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249583",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 63
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249583",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249583",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 69.42334,
+   "raw": "Total Depth of Boring 400",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.75,
+   "conf": "high",
+   "ocrConf": 95.525826,
+   "raw": "Estimated Yield* 1.75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 94.502235,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "high",
+   "ocrConf": 89.486305,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-08-23",
+   "conf": "high",
+   "ocrConf": 84.190392,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.548736,
+   "lon": -116.730424,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249583",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54874088200006,
+ "lon": -116.73043588799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198926",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249583",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

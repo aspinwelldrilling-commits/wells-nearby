@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006193",
+ "processed": "2026-10-06T18:56:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-390-009",
+ "address": "47574 Indian Trls Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238246",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 973
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238246",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 505.0,
+   "conf": "low",
+   "ocrConf": 54.048653,
+   "raw": "TOTAL DEPTH OF BORING 505",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-08-03",
+   "conf": "medium",
+   "ocrConf": 59.842522,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238246",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.43772841500004,
+ "lon": -116.82029866499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216733",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238246",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

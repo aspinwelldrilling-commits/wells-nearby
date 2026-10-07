@@ -1,0 +1,71 @@
+{
+ "permit": "WP0012176",
+ "processed": "2026-10-06T19:21:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-100-013",
+ "address": "254 Kiowa Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243906",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 723
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243906",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 270.0,
+   "conf": "low",
+   "ocrConf": 25.215378,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL270",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "medium",
+   "ocrConf": 65.063004,
+   "raw": "ESTIMATED YIELD * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 85.0,
+   "conf": "medium",
+   "ocrConf": 76.857407,
+   "raw": "WATER LeveL 85 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-04-20",
+   "conf": "low",
+   "ocrConf": 45.300369,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243906",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52505020600006,
+ "lon": -116.79901798599997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243906",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

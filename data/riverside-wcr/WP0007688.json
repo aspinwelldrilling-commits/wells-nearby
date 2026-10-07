@@ -1,0 +1,71 @@
+{
+ "permit": "WP0007688",
+ "processed": "2026-10-06T19:02:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-190-046",
+ "address": "39525 Spanish Oaks Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243644",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 987
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243644",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "low",
+   "ocrConf": 11.875183,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 38.0,
+   "conf": "low",
+   "ocrConf": 30.873077,
+   "raw": "WATER LEVEL 38} __(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-12-16",
+   "conf": "low",
+   "ocrConf": 26.63588,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 64.0,
+   "conf": "low",
+   "ocrConf": 41.377262,
+   "raw": "ESTIMATED YIELD * __ 64 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243644",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54862139000005,
+ "lon": -116.95994591799996,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243644",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

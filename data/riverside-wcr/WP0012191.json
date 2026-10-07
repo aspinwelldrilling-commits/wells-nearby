@@ -1,0 +1,71 @@
+{
+ "permit": "WP0012191",
+ "processed": "2026-10-06T19:19:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-460-021",
+ "address": "44280 Honeyhart Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243915",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 701
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243915",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "low",
+   "ocrConf": 47.341496,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 76.112823,
+   "raw": "ESTIMATED YIELD + 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 121.0,
+   "conf": "medium",
+   "ocrConf": 62.037239,
+   "raw": "WATER LEVEL 121 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-04-23",
+   "conf": "high",
+   "ocrConf": 92.87471,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243915",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.47852067000008,
+ "lon": -116.73023114999995,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243915",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

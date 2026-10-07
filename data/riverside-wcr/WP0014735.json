@@ -1,0 +1,71 @@
+{
+ "permit": "WP0014735",
+ "processed": "2026-10-06T19:32:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-250-025",
+ "address": "BLOSSOM COURT",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243169",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 733
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243169",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 39.57655,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 29.0,
+   "conf": "high",
+   "ocrConf": 88.349152,
+   "raw": "ESTIMATED YIELD * 29 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 43.0,
+   "conf": "high",
+   "ocrConf": 89.544518,
+   "raw": "WATER LEVEL 43 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-04-26",
+   "conf": "high",
+   "ocrConf": 84.932472,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243169",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.504297242000064,
+ "lon": -116.79601943699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210249",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243169",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

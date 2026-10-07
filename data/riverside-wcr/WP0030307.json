@@ -1,0 +1,92 @@
+{
+ "permit": "WP0030307",
+ "processed": "2026-10-06T19:51:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-260-001",
+ "address": "Crazy Horse Canyon Rd ",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293555",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 746
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293555",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293555",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 90.211052,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.437416,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 264.0,
+   "conf": "high",
+   "ocrConf": 96.773148,
+   "raw": "Water Level 264 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 70.500595,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-08-26",
+   "conf": "medium",
+   "ocrConf": 79.315445,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.52315,
+   "lon": -116.82228,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293555",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52315,
+ "lon": -116.82228,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/334041",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293555",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

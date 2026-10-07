@@ -1,0 +1,56 @@
+{
+ "permit": "WP0013111",
+ "processed": "2026-10-06T19:23:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-200-009",
+ "address": "41577 Rolling Hills Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242280",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 840
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242280",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 47.149891,
+   "raw": "ESTIMATED YIELD * 4\u2018 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 77.646751,
+   "raw": "WATER LEVEL 30H (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242280",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51543588800007,
+ "lon": -116.81295010999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212070",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242280",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

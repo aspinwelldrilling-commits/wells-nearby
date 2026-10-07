@@ -1,0 +1,89 @@
+{
+ "permit": "WP0029881",
+ "processed": "2026-10-06T19:50:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "917-040-024",
+ "address": "0 ",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256092",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256092",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256092",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256092",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 88.239059,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 93.617523,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "high",
+   "ocrConf": 90.135696,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-07-23",
+   "conf": "medium",
+   "ocrConf": 79.476097,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.506012,
+   "lon": -116.936212,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256092",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.506012,
+ "lon": -116.936212,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/329690",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256092",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0008031",
+ "processed": "2026-10-06T19:03:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-370-010",
+ "address": "44075 Williamson Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239959",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 733
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239959",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 470.0,
+   "conf": "medium",
+   "ocrConf": 56.492062,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 470",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 81.573448,
+   "raw": "ESTIMATED YieLD * 60+ (gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-09-25",
+   "conf": "medium",
+   "ocrConf": 61.728416,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239959",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48245448000006,
+ "lon": -116.80912751599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215024",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239959",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

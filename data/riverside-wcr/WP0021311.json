@@ -1,0 +1,63 @@
+{
+ "permit": "WP0021311",
+ "processed": "2026-10-06T19:44:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "927-180-012",
+ "address": "35600 Monte Verde Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246921",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 333
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246921",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 93.435539,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 221.0,
+   "conf": "medium",
+   "ocrConf": 73.228836,
+   "raw": "WATER LEVEL 221 (ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-01-05",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246921",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.47553357700008,
+ "lon": -117.03666335599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203439",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246921",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

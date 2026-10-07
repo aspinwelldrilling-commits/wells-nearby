@@ -1,0 +1,63 @@
+{
+ "permit": "WP0012112",
+ "processed": "2026-10-06T19:18:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-460-030",
+ "address": "44430 Bonny Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243865",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 775
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243865",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "high",
+   "ocrConf": 96.700356,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 350",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 92.068558,
+   "raw": "ESTIMATED YIELD * 20 (Gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-02-18",
+   "conf": "high",
+   "ocrConf": 81.171692,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243865",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.478592126000024,
+ "lon": -116.72302454799996,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243865",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

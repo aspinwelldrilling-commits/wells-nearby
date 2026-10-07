@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007033",
+ "processed": "2026-10-06T18:58:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-120-038",
+ "address": "43607 Lago Grande",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239417",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1172
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239417",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 125.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL125",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-03-20",
+   "conf": "low",
+   "ocrConf": 3.923676,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239417",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48568000100005,
+ "lon": -116.79792156499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215529",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239417",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

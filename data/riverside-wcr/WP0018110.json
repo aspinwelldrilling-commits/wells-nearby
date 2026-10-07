@@ -1,0 +1,71 @@
+{
+ "permit": "WP0018110",
+ "processed": "2026-10-06T19:41:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-210-005",
+ "address": "48960 Shetland Ln",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245847",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 850
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245847",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 96.158501,
+   "raw": "Estimated Yield* 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 88.678604,
+   "raw": "Water Level _150 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 66.645729,
+   "raw": "Drilling Method Air Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-10-27",
+   "conf": "medium",
+   "ocrConf": 65.0327,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245847",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51107037400004,
+ "lon": -116.80505095899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208762",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245847",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

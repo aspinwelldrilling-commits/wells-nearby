@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012111",
+ "processed": "2026-10-06T19:19:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-060-017",
+ "address": "49873 Ochobee Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243864",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 719
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243864",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 235.0,
+   "conf": "low",
+   "ocrConf": 40.16835,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL235",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-03-10",
+   "conf": "medium",
+   "ocrConf": 51.459671,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243864",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.531522824000035,
+ "lon": -116.78869903399999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243864",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

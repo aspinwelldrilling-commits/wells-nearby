@@ -1,0 +1,71 @@
+{
+ "permit": "WP0025310",
+ "processed": "2026-10-06T19:48:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-320-036",
+ "address": "Los Altos Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248289",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 64
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248289",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 89.853134,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 89.904785,
+   "raw": "Estimated Yield,\" 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 36.656605,
+   "raw": "Water Level 100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-01-13",
+   "conf": "high",
+   "ocrConf": 90.009499,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248289",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52515260100006,
+ "lon": -116.93400167599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200292",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248289",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

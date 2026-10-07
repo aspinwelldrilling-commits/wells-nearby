@@ -1,0 +1,90 @@
+{
+ "permit": "WP0027237",
+ "processed": "2026-10-06T19:47:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-080-023",
+ "address": "40983 S Caliente Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249478",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 867
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249478",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249478",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249478",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 61.822113,
+   "raw": "Total Depth of Completed Well _300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.293533,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-15",
+   "conf": "medium",
+   "ocrConf": 77.885735,
+   "page": 2,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary Drilting",
+   "conf": "high",
+   "ocrConf": 85.288818,
+   "raw": "Drilling Method Direct Rotary Drilting Fluid Bentonite",
+   "page": 2,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 82.223511,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249478",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52693690700005,
+ "lon": -116.79856671499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198780",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249478",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 2,
+ "status": "readable"
+}

@@ -1,0 +1,64 @@
+{
+ "permit": "WP0025322",
+ "processed": "2026-10-06T19:46:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-260-041",
+ "address": "Exa Ely",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248303",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 396
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248303",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 95.83181,
+   "raw": "Total Depth of Boring 1000",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 93.463394,
+   "raw": "Estimated Yield *) 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-25",
+   "conf": "medium",
+   "ocrConf": 70.335495,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248303",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53906780600005,
+ "lon": -116.94712963199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200306",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248303",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

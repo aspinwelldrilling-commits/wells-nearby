@@ -1,0 +1,61 @@
+{
+ "permit": "WP0029112",
+ "processed": "2026-10-06T19:48:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-110-006",
+ "address": "41027 S Preakness Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248809",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248809",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248809",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 79.589325,
+   "raw": "Estimated Yield\u2019 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-03-20",
+   "conf": "low",
+   "ocrConf": 16.428566,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248809",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.526490000000024,
+ "lon": -116.79412999999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205829",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248809",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

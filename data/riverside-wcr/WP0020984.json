@@ -1,0 +1,72 @@
+{
+ "permit": "WP0020984",
+ "processed": "2026-10-06T19:43:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-140-045",
+ "address": "43720 Tule Valley",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246412",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 430
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246412",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "medium",
+   "ocrConf": 96.596077,
+   "raw": "Total Depth of Boring 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.398186,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.932785,
+   "raw": "Drilling Method Air Drilling Drilling Fluid\nili",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-08-06",
+   "conf": "high",
+   "ocrConf": 94.005203,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246412",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.49014574300003,
+ "lon": -116.77778810199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205202",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246412",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,78 @@
+{
+ "permit": "WP0024527",
+ "processed": "2026-10-06T19:48:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "927-600-008",
+ "address": "34880 Monte Verde Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248064",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 271
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248064",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 93.185791,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 95.58371,
+   "raw": "Estimated Yield* 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 360.0,
+   "conf": "low",
+   "ocrConf": 47.035263,
+   "raw": "Water Level 360 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-07-14",
+   "conf": "high",
+   "ocrConf": 90.180153,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.4804,
+   "lon": -117.049,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248064",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48161401700003,
+ "lon": -117.04842747899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201439",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248064",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

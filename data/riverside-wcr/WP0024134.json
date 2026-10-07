@@ -1,0 +1,72 @@
+{
+ "permit": "WP0024134",
+ "processed": "2026-10-06T19:45:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-380-001",
+ "address": "48150 Secret Falls Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247848",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 440
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247848",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 850.0,
+   "conf": "medium",
+   "ocrConf": 95.628532,
+   "raw": "Total Depth of Boring 850",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "high",
+   "ocrConf": 96.75087,
+   "raw": "Estimated Yield* 7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 301.0,
+   "conf": "medium",
+   "ocrConf": 70.250702,
+   "raw": "Water Level 301 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-03-27",
+   "conf": "medium",
+   "ocrConf": 79.154739,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247848",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.44206190500006,
+ "lon": -116.82125810599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201059",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247848",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

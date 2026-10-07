@@ -1,0 +1,79 @@
+{
+ "permit": "WP0026309",
+ "processed": "2026-10-06T19:46:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-390-017",
+ "address": "47415 Silent Valley Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248378",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 66
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248378",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 710.0,
+   "conf": "medium",
+   "ocrConf": 96.641823,
+   "raw": "Total Depth of Boring 710",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 96.615433,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 95.830193,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid _Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 77.308891,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-07-31",
+   "conf": "high",
+   "ocrConf": 86.896004,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248378",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.43568320400004,
+ "lon": -116.81649199399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199385",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248378",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

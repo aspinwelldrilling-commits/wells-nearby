@@ -1,0 +1,63 @@
+{
+ "permit": "WP0006996",
+ "processed": "2026-10-06T18:58:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-080-024",
+ "address": "40982 S Caliente Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238772",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 680
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238772",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.731163,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 92.537125,
+   "raw": "ESTIMATED YieLD * 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-02-12",
+   "conf": "low",
+   "ocrConf": 44.104252,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238772",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52663683900005,
+ "lon": -116.79783548399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215488",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238772",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

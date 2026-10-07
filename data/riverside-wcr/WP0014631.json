@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014631",
+ "processed": "2026-10-06T19:32:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-440-024",
+ "address": "43986 Linda Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243134",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 765
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243134",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 420.0,
+   "conf": "medium",
+   "ocrConf": 53.384155,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 420",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-04-27",
+   "conf": "medium",
+   "ocrConf": 68.594604,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243134",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48287105300005,
+ "lon": -116.73526824699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210221",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243134",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

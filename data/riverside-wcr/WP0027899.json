@@ -1,0 +1,71 @@
+{
+ "permit": "WP0027899",
+ "processed": "2026-10-06T19:48:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-270-002",
+ "address": "48383 Deer Haven Way",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249670",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 78
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249670",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 910.0,
+   "conf": "medium",
+   "ocrConf": 55.551338,
+   "raw": "Total Depth of Completed Well 910",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.718079,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling Diilfing",
+   "conf": "low",
+   "ocrConf": 36.91275,
+   "raw": "Drilling Method Air Drilling Diilfing Fluid . ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-08-03",
+   "conf": "high",
+   "ocrConf": 88.732872,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249670",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52938487500006,
+ "lon": -116.81645190199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19312",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249670",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Pending Sampling",
+ "bestDocPage": 1,
+ "status": "readable"
+}

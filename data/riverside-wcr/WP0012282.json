@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012282",
+ "processed": "2026-10-06T19:20:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-100-005",
+ "address": "49077 Hillrise Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241365",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 784
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241365",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 158.0,
+   "conf": "low",
+   "ocrConf": 43.287109,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __158",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 42.093662,
+   "raw": "ESTIMATED YIELD * 24 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241365",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52606435800004,
+ "lon": -116.80260728599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212461",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241365",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

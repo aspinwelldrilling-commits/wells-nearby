@@ -1,0 +1,61 @@
+{
+ "permit": "WP0005710",
+ "processed": "2026-10-06T19:54:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "927-150-022",
+ "address": "37450 Pauba Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237231",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1600
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237231",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237231",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 39.624985,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _300",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-04-26",
+   "conf": "high",
+   "ocrConf": 96.298843,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237231",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50419411800004,
+ "lon": -117.01649820799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215502",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237231",
+ "serviceType": "Destruction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012258",
+ "processed": "2026-10-06T19:20:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-520-007",
+ "address": "45002 Cow Puncher Ct",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243946",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 709
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243946",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 23.087906,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-07-03",
+   "conf": "medium",
+   "ocrConf": 63.686279,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243946",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.467738679000036,
+ "lon": -116.807424605,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243946",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

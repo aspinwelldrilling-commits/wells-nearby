@@ -1,0 +1,56 @@
+{
+ "permit": "WP0010229",
+ "processed": "2026-10-06T19:11:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-270-017",
+ "address": "49620 Coachman Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240422",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 704
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240422",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 305.0,
+   "conf": "low",
+   "ocrConf": 44.963783,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 305",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 69.0,
+   "conf": "low",
+   "ocrConf": 39.97995,
+   "raw": "WATER LeveL 69 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240422",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50232332300004,
+ "lon": -116.79549731499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213018",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240422",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

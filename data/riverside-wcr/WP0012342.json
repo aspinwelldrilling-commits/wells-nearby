@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012342",
+ "processed": "2026-10-06T19:23:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-100-007",
+ "address": "41060 Lakeshore Blvd",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241455",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 760
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241455",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "medium",
+   "ocrConf": 60.089794,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 180",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-10-29",
+   "conf": "high",
+   "ocrConf": 86.450584,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241455",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52540419300004,
+ "lon": -116.80386854599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212582",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241455",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

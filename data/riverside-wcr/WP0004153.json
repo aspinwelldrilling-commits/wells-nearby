@@ -1,0 +1,71 @@
+{
+ "permit": "WP0004153",
+ "processed": "2026-10-06T18:52:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-190-014",
+ "address": "49055 Arabian Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243580",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 772
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243580",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "high",
+   "ocrConf": 95.885323,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 375",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 79.285057,
+   "raw": "ESTIMATED YIELD * 30 _ (Gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 220.0,
+   "conf": "high",
+   "ocrConf": 94.830994,
+   "raw": "WATER LEVEL 220 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-06-02",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243580",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51301463800007,
+ "lon": -116.80377117799998,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243580",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

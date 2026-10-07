@@ -1,0 +1,55 @@
+{
+ "permit": "WP0026966",
+ "processed": "2026-10-06T19:46:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "927-340-024",
+ "address": "41178 Camino Norte",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248687",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1348
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248687",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 142.0,
+   "conf": "low",
+   "ocrConf": 22.157021,
+   "raw": "Water Level 142s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-06-14",
+   "conf": "high",
+   "ocrConf": 96.156509,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248687",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52821095300004,
+ "lon": -117.03922482999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199982",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248687",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

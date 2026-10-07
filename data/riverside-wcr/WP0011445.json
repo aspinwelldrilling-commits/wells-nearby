@@ -1,0 +1,64 @@
+{
+ "permit": "WP0011445",
+ "processed": "2026-10-06T19:14:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-140-029",
+ "address": "43865 Tompkins Cir",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241669",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 388
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241669",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 96.43959,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "medium",
+   "ocrConf": 74.359879,
+   "raw": "ESTIMATED YIELD * 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 125.0,
+   "conf": "medium",
+   "ocrConf": 71.38932,
+   "raw": "WATER LEVEL 125 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241669",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48589163200006,
+ "lon": -116.78552664299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213957",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241669",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,61 @@
+{
+ "permit": "WP0012325",
+ "processed": "2026-10-06T19:21:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-270-016",
+ "address": "43101 Wilson Valley Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241429",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1533
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241429",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241429",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 42.0,
+   "conf": "low",
+   "ocrConf": 30.035339,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _42",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-08-18",
+   "conf": "high",
+   "ocrConf": 93.836777,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241429",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.497012304000066,
+ "lon": -116.84853992899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212546",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241429",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "partial"
+}

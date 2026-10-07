@@ -1,0 +1,76 @@
+{
+ "permit": "WP0029419",
+ "processed": "2026-10-06T19:52:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-150-022",
+ "address": "49684 Meadowview Way",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256082",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 296
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256082",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256082",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 174.0,
+   "conf": "high",
+   "ocrConf": 81.785355,
+   "raw": "Total Depth of Completed Well 174",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 85.027184,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 80.654251,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-10-29",
+   "conf": "medium",
+   "ocrConf": 70.523811,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256082",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.512461,
+ "lon": -116.792358,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256081",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256082",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

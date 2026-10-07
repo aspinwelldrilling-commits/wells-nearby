@@ -1,0 +1,82 @@
+{
+ "permit": "WP0000934",
+ "processed": "2026-10-06T18:45:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-710-009",
+ "address": "Calle El Nino",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243469",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3394
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243469",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243469",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243469",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243469",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "1992-07-07",
+   "conf": "high",
+   "ocrConf": 91.61335,
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 597.0,
+   "conf": "high",
+   "ocrConf": 91.162041,
+   "raw": "WATER LEVEL 597 (Ft",
+   "page": 2,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 998.0,
+   "conf": "low",
+   "ocrConf": 44.711502,
+   "raw": "TOTAL DEPTH OF BORING _998",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243469",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52418022000006,
+ "lon": -116.95337449999994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243469",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "partial"
+}

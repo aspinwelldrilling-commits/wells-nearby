@@ -1,0 +1,91 @@
+{
+ "permit": "WP0027956",
+ "processed": "2026-10-06T19:48:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-210-003",
+ "address": "Selinger Trl",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249458",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 365
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249458",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249458",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 380.0,
+   "conf": "high",
+   "ocrConf": 90.855026,
+   "raw": "Total Depth of Completed Well 380",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 56.0,
+   "conf": "high",
+   "ocrConf": 96.073738,
+   "raw": "Estimated Yield* 56 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 94.887611,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "medium",
+   "ocrConf": 67.665009,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-09-21",
+   "conf": "medium",
+   "ocrConf": 78.247421,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.51248,
+   "lon": -116.873227,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249458",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.512432870000055,
+ "lon": -116.87323891099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19384",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249458",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

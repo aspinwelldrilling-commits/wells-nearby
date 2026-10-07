@@ -1,0 +1,97 @@
+{
+ "permit": "WP0028477",
+ "processed": "2026-10-06T19:52:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-200-034",
+ "address": "44096 Boulder Vista Dr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248741",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 68
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248741",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248741",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248741",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 88.180931,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.5,
+   "conf": "high",
+   "ocrConf": 95.214401,
+   "raw": "Estimated Yield* 7.5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "low",
+   "ocrConf": 40.823975,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "medium",
+   "ocrConf": 52.778393,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-05-20",
+   "conf": "medium",
+   "ocrConf": 76.46489,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.48267,
+   "lon": -116.83992,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248741",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48267486900005,
+ "lon": -116.83993190199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270563",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248741",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

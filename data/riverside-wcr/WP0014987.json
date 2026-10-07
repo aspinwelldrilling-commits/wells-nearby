@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014987",
+ "processed": "2026-10-06T19:33:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-260-003",
+ "address": "49931 Shoshone Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243321",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 670
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243321",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 285.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 285",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 127.0,
+   "conf": "medium",
+   "ocrConf": 77.662651,
+   "raw": "WATER LeveL 127 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-03",
+   "conf": "low",
+   "ocrConf": 27.352722,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243321",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50221557800006,
+ "lon": -116.78809771099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210463",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243321",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0012168",
+ "processed": "2026-10-06T19:19:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-440-034",
+ "address": "53870 Bowers Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243902",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 686
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243902",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 12.738388,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 63.772045,
+   "raw": "ESTIMATED YieLD * 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 210.0,
+   "conf": "medium",
+   "ocrConf": 75.907089,
+   "raw": "WATER LeveL 210 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-04-27",
+   "conf": "medium",
+   "ocrConf": 65.675484,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243902",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48558921700004,
+ "lon": -116.72292783399996,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243902",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

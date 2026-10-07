@@ -1,0 +1,63 @@
+{
+ "permit": "WP0001192",
+ "processed": "2026-10-06T18:46:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-220-012",
+ "address": "45315 Witten Dr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234199",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 900
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234199",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 475.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 475",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-06-30",
+   "conf": "medium",
+   "ocrConf": 64.843216,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 77.046524,
+   "raw": "ESTIMATED YIELD*___25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234199",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50802853000005,
+ "lon": -116.87292863999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221637",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234199",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

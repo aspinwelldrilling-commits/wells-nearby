@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002466",
+ "processed": "2026-10-06T18:48:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "927-100-042",
+ "address": "36733 Pauba Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235188",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 873
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235188",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 247.0,
+   "conf": "low",
+   "ocrConf": 18.991249,
+   "raw": "TOTAL DEPTH OF BORING __247",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "medium",
+   "ocrConf": 60.162464,
+   "raw": "ESTIMATED YIELD + 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235188",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50712574100004,
+ "lon": -117.02595982699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219172",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235188",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008666",
+ "processed": "2026-10-06T19:05:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-190-055",
+ "address": "39805 Avenida Sarita",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239771",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 981
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239771",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1300.0,
+   "conf": "high",
+   "ocrConf": 95.953751,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 1300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-11-09",
+   "conf": "medium",
+   "ocrConf": 57.200886,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239771",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54402546000006,
+ "lon": -116.95141679599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216501",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239771",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

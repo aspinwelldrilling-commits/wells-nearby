@@ -122,33 +122,85 @@ def riv_permits_ids(ids):
     return out
 
 
-def enrich_yield(fields, text, source, words):
-    """SD parse_fields misses 'Estimated Yield*   25 (GPM)' when spaces > 8; patch RivCo DWR 188."""
-    if 'gpm' in fields:
-        return fields
+def enrich_riv_fields(fields, text, source, words):
+    """Fill gaps left by SD parse_fields for modern RivCo DWR 188 spacing and older drillers reports."""
     N = r'([0-9O][0-9O,]*(?:\.[0-9]+)?)'
-    m = re.search(r'estimated\s+yield[\s*_:.\-]{0,40}' + N + r'\s*\(?\s*gpm', text, re.I)
-    if not m:
-        return fields
-    v = sd.clean_num(m.group(1))
-    if v is None:
-        return fields
-    lo, hi = sd.BOUNDS['gpm']
-    if not (lo <= v <= hi):
-        return fields
-    if source == 'text':
-        lvl, c = 'high', None
-    else:
-        c = sd.span_conf(words, m.start(1), m.end(1))
-        lvl = 'high' if c is not None and c >= 80 else 'medium' if c is not None and c >= 50 else 'low'
-    fields['gpm'] = {'value': v, 'conf': lvl, 'ocrConf': c, 'raw': m.group(0)[:80]}
+
+    def conf_for(m, g=1):
+        if source == 'text':
+            return 'high', None
+        c = sd.span_conf(words, m.start(g), m.end(g))
+        return ('high' if c is not None and c >= 80 else 'medium' if c is not None and c >= 50 else 'low'), c
+
+    def set_num(name, patterns, prefer_first=True):
+        if name in fields:
+            return
+        for p in patterns:
+            m = re.search(p, text, re.I)
+            if not m:
+                continue
+            v = sd.clean_num(m.group(1))
+            if v is None:
+                continue
+            lo, hi = sd.BOUNDS[name]
+            if not (lo <= v <= hi):
+                continue
+            lvl, c = conf_for(m)
+            fields[name] = {'value': v, 'conf': lvl, 'ocrConf': c, 'raw': m.group(0)[:80]}
+            return
+
+    # Modern RivCo text PDFs: "Estimated Yield*             25 (GPM)"
+    set_num('gpm', [r'estimated\s+yield[\s*_:.\-]{0,40}' + N + r'\s*\(?\s*gpm'])
+    # Older DWR 188 (REV. 12-86): Completed depth / Total depth on WELL LOG line
+    if 'depthFt' not in fields:
+        m = re.search(r'completed\s+depth\s*' + N + r'\s*(?:ft|feet)?', text, re.I)
+        if m:
+            v = sd.clean_num(m.group(1))
+            if v and sd.BOUNDS['depthFt'][0] <= v <= sd.BOUNDS['depthFt'][1]:
+                lvl, c = conf_for(m)
+                fields['depthFt'] = {'value': v, 'conf': lvl, 'ocrConf': c, 'raw': m.group(0)[:80]}
+        if 'depthFt' not in fields:
+            m = re.search(r'(?:\(12\)\s*)?well\s+log[:\s]*total\s+depth\s*' + N + r'|total\s+depth\s*(?:of\s+well)?\s*' + N + r'\s*(?:ft|feet)', text, re.I)
+            if m:
+                g = 1 if m.group(1) else 2
+                v = sd.clean_num(m.group(g))
+                if v and sd.BOUNDS['depthFt'][0] <= v <= sd.BOUNDS['depthFt'][1]:
+                    lvl, c = conf_for(m, g)
+                    fields['depthFt'] = {'value': v, 'conf': {'high': 'medium', 'medium': 'low'}.get(lvl, 'low'),
+                                         'ocrConf': c, 'raw': m.group(0)[:80],
+                                         'note': 'total depth (completed depth not read)'}
+    # Standing level after well completion (old form SWL)
+    set_num('swlFt', [
+        r'standing\s+level\s+after\s+well\s+completion[\s_]*' + N + r'\s*(?:ft|feet)?',
+        r'standing\s+level[\s_]*' + N + r'\s*(?:ft|feet)',
+    ])
+    # Discharge 200 gal/min (old pump test) — allow OCR underscores/spaces
+    set_num('gpm', [
+        r'discharge[\s_.:\-]*' + N + r'\s*gal(?:lons)?\s*/?\s*min',
+        r'discharge[\s_.:\-]*' + N + r'\s*g\.?p\.?m',
+    ])
+    # Work completed date on old form ("Completed 9-19-90" / "Completed___9=1@_90")
+    if 'dateEnded' not in fields:
+        m = re.search(r'completed[\s_:=.\-]*([0-9O]{1,2})\s*[/=.\-]\s*([0-9O]{1,2})\s*[/=.\-]\s*([0-9O]{2,4})', text, re.I)
+        if m:
+            try:
+                mo, d, y = int(sd.clean_num(m.group(1))), int(sd.clean_num(m.group(2))), int(sd.clean_num(m.group(3)))
+                if y < 100:
+                    y += 1900 if y > 30 else 2000
+                date = dt.date(y, mo, d)
+                if 1950 <= y <= dt.date.today().year:
+                    lvl, c = conf_for(m, 3)
+                    fields['dateEnded'] = {'value': date.isoformat(), 'conf': lvl if lvl != 'low' else 'medium', 'ocrConf': c, 'raw': m.group(0)[:80]}
+            except Exception:
+                pass
     return fields
 
 
 def read_pdf_riv(path, tmp):
     pages = sd.read_pdf(path, tmp)
     for pg in pages:
-        pg['fields'] = enrich_yield(pg['fields'], pg.get('text') or '', pg['source'], pg.get('words') or [])
+        words = pg.get('words') or []
+        pg['fields'] = enrich_riv_fields(pg['fields'], pg.get('text') or '', pg['source'], words)
     return pages
 
 
@@ -375,7 +427,7 @@ def worker_loop(feats, delay, area, force, stats, lock, counter):
 
 def main():
     ap = argparse.ArgumentParser(description='Riverside County WCR extractor (OpenDoc PDFs)')
-    ap.add_argument('--bbox', help='west,south,east,north')
+    ap.add_argument('--bbox', help='west,south,east,north (use --bbox=-117.05,33.35,-116.70,33.55 — leading minus needs =)')
     ap.add_argument('--lat', type=float)
     ap.add_argument('--lon', type=float)
     ap.add_argument('--radius', type=float, default=0)
@@ -387,6 +439,7 @@ def main():
     ap.add_argument('--force', action='store_true')
     ap.add_argument('--all-permits', action='store_true', help='include permits without WCR_Path')
     ap.add_argument('--rebuild-index', action='store_true')
+    ap.add_argument('--reparse', action='store_true', help='re-run field parse on cached page text (no network)')
     ap.add_argument('--list-only', action='store_true')
     args = ap.parse_args()
 
@@ -396,6 +449,26 @@ def main():
     if args.rebuild_index:
         n = rebuild_index()
         log(f'rebuilt riverside index: {n} permits')
+        return
+
+    if args.reparse:
+        n = 0
+        for f in sorted(glob.glob(os.path.join(OUT, 'WP*.json'))):
+            rec = json.load(open(f))
+            cp = os.path.join(PAGE_CACHE, rec['permit'] + '.json')
+            if not os.path.exists(cp):
+                continue
+            pages = json.load(open(cp))
+            for pg in pages:
+                words = [tuple(w) for w in (pg.get('words') or [])]
+                pg['fields'] = sd.parse_fields(pg.get('text') or '', words, pg.get('source') or 'ocr')
+                pg['fields'] = enrich_riv_fields(pg['fields'], pg.get('text') or '', pg.get('source') or 'ocr', words)
+            rec['wcrPages'] = [{'url': pg.get('url'), 'page': pg['page'], 'source': pg['source'],
+                                'nFields': len([k for k in pg['fields'] if k in sd.KEY_FIELDS])} for pg in pages]
+            sd.finalize(rec, pages)
+            json.dump(rec, open(f, 'w'), indent=1)
+            n += 1
+        log(f'reparsed {n} permits; index has {rebuild_index()}')
         return
 
     preflight()

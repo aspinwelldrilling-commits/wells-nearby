@@ -1,0 +1,56 @@
+{
+ "permit": "WP0013229",
+ "processed": "2026-10-06T19:25:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-060-003",
+ "address": "40520 Lake Riverside Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242358",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 832
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242358",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 259.0,
+   "conf": "medium",
+   "ocrConf": 58.024002,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _259",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 52.559361,
+   "raw": "WATER LEVEL 20 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242358",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53366910200003,
+ "lon": -116.79116349699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212213",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242358",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

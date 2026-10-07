@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017944",
+ "processed": "2026-10-06T19:41:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-290-008",
+ "address": "47596 Lake Canyon Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245830",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 397
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245830",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "low",
+   "ocrConf": 11.344193,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1,000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-19",
+   "conf": "medium",
+   "ocrConf": 75.423592,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245830",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53129151500008,
+ "lon": -116.813822502,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208597",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245830",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

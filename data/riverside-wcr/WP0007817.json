@@ -1,0 +1,71 @@
+{
+ "permit": "WP0007817",
+ "processed": "2026-10-06T19:03:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-370-026",
+ "address": "44139 Sorensen Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239297",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 685
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239297",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "medium",
+   "ocrConf": 50.093201,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 45.841633,
+   "raw": "ESTIMATED YIELD * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 11.735695,
+   "raw": "WATER LeveL 100 __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-09-15",
+   "conf": "medium",
+   "ocrConf": 77.150146,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239297",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48237291000004,
+ "lon": -116.81512731699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214971",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239297",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

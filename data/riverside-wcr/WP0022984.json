@@ -1,0 +1,79 @@
+{
+ "permit": "WP0022984",
+ "processed": "2026-10-06T19:45:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-120-081",
+ "address": "44455 Highway 79",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249366",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 400
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249366",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 301.0,
+   "conf": "medium",
+   "ocrConf": 96.961296,
+   "raw": "Total Depth of Boring 301",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 95.964935,
+   "raw": "Estimated Yield * 300 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.185326,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 70.705338,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-03-05",
+   "conf": "low",
+   "ocrConf": 45.458714,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249366",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.44308857200008,
+ "lon": -116.88104808599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203145",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249366",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

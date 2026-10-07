@@ -1,0 +1,71 @@
+{
+ "permit": "WP0011515",
+ "processed": "2026-10-06T19:16:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-250-032",
+ "address": "46182 Jojoba Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241763",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 771
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241763",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 30.36039,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 84.315277,
+   "raw": "ESTIMATED yieLD * 45 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 27.0,
+   "conf": "high",
+   "ocrConf": 96.351128,
+   "raw": "WATER LEVEL 27 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-10-30",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241763",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.449435289000064,
+ "lon": -116.85342079999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211887",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241763",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

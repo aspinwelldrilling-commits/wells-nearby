@@ -1,0 +1,84 @@
+{
+ "permit": "WP0027575",
+ "processed": "2026-10-06T19:47:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-220-008",
+ "address": "43800 Wilson Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249569",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 100
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249569",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249569",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "medium",
+   "ocrConf": 64.5382,
+   "raw": "Total Depth of Completed Well 350",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "medium",
+   "ocrConf": 56.271862,
+   "raw": "Yield\u201d 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 162.0,
+   "conf": "high",
+   "ocrConf": 96.673157,
+   "raw": "Water Level 162 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 59.831013,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-02-16",
+   "conf": "high",
+   "ocrConf": 80.643349,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249569",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.530961271000024,
+ "lon": -116.89769081599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198907",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249569",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

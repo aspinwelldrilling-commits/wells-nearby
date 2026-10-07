@@ -1,0 +1,91 @@
+{
+ "permit": "WP0027324",
+ "processed": "2026-10-06T19:47:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-300-009",
+ "address": "48310 Forest Springs Rd",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249516",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 663
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249516",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249516",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249516",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 440.0,
+   "conf": "medium",
+   "ocrConf": 80.746666,
+   "raw": "Total Depth of Boring 440",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 94.686211,
+   "raw": "Estimated Yield\u201d 120 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 82.52771,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-11-08",
+   "conf": "medium",
+   "ocrConf": 63.457264,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.5331,
+   "lon": -116.81062,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249516",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53330587600004,
+ "lon": -116.81063190099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198828",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249516",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

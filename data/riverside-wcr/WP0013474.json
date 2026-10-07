@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013474",
+ "processed": "2026-10-06T19:27:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-030-038",
+ "address": "54325 Haupert Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242534",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 752
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242534",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "low",
+   "ocrConf": 29.227562,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL375",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 27.0,
+   "conf": "medium",
+   "ocrConf": 54.675617,
+   "raw": "ESTIMATED YIELD * 27 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-11-30",
+   "conf": "high",
+   "ocrConf": 81.280045,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242534",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54332726500007,
+ "lon": -116.71253276799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212601",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242534",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

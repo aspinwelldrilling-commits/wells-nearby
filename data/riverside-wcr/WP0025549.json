@@ -1,0 +1,71 @@
+{
+ "permit": "WP0025549",
+ "processed": "2026-10-06T19:45:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-590-012",
+ "address": "41540 Jojoba Hills Cir",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248416",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 412
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248416",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1100.0,
+   "conf": "low",
+   "ocrConf": 29.686867,
+   "raw": "Total Depth of Completed Well 1100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 96.942978,
+   "raw": "Estimated Yield * 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 350.0,
+   "conf": "medium",
+   "ocrConf": 72.989876,
+   "raw": "Water Level 350 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-08-28",
+   "conf": "high",
+   "ocrConf": 93.95948,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248416",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52052124800008,
+ "lon": -116.89471004399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200498",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248416",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

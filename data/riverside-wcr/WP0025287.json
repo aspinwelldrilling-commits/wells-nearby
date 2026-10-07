@@ -1,0 +1,71 @@
+{
+ "permit": "WP0025287",
+ "processed": "2026-10-06T19:45:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-140-034",
+ "address": "43690 Cowboy Country Trl",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248226",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 473
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248226",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 78.91996,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 75.117371,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 129.0,
+   "conf": "medium",
+   "ocrConf": 50.271645,
+   "raw": "Water Level 129  __\u2014__\u2014(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-07-02",
+   "conf": "low",
+   "ocrConf": 27.515343,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248226",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.488763952000056,
+ "lon": -116.78780293399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200271",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248226",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

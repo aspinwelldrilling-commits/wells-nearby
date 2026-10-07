@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003718",
+ "processed": "2026-10-06T18:51:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-630-011",
+ "address": "46925 Marmot Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235907",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 929
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235907",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 594.0,
+   "conf": "medium",
+   "ocrConf": 68.592438,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __594",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 56.179932,
+   "raw": "ESTIMATED YIELD +150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235907",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52890600400008,
+ "lon": -116.84198645599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218322",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235907",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0007607",
+ "processed": "2026-10-06T19:01:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-260-024",
+ "address": "46150 Falmouth Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239152",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 876
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239152",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 280",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 69.0,
+   "conf": "low",
+   "ocrConf": 15.686028,
+   "raw": "ESTIMATED YIELD + 69+ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-11-03",
+   "conf": "low",
+   "ocrConf": 42.871368,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239152",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.45334553300006,
+ "lon": -116.88861839799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217758",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239152",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

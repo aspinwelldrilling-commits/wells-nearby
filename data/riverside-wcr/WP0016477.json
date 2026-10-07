@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016477",
+ "processed": "2026-10-06T19:39:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-340-030",
+ "address": "52475 Tule Peak Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245189",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 796
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245189",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 760.0,
+   "conf": "low",
+   "ocrConf": 17.237282,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 760",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-04-14",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245189",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.46849938200006,
+ "lon": -116.74689026699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210696",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245189",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

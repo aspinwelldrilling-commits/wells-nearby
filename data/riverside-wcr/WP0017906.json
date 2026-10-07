@@ -1,0 +1,71 @@
+{
+ "permit": "WP0017906",
+ "processed": "2026-10-06T19:40:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "917-250-005",
+ "address": "41500 Highway 371",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245785",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2971
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245785",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 94.25013,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.679031,
+   "raw": "Estimated Yield* 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 82.788841,
+   "raw": "Water Level _50 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-07",
+   "conf": "low",
+   "ocrConf": 39.144821,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245785",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.44475970600007,
+ "lon": -116.94160882199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208559",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245785",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

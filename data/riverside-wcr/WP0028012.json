@@ -1,0 +1,55 @@
+{
+ "permit": "WP0028012",
+ "processed": "2026-10-06T19:49:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-360-002",
+ "address": "40501 Sage Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248695",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 328
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248695",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 96.957199,
+   "raw": "Estimated Yield* 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-10-09",
+   "conf": "high",
+   "ocrConf": 92.32827,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248695",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53473487100007,
+ "lon": -116.91198191799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19452",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248695",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

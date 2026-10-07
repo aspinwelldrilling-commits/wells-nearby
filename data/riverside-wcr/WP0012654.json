@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012654",
+ "processed": "2026-10-06T19:22:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-110-009",
+ "address": "49480 Kiowa Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241792",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 774
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241792",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "2004-06-28",
+   "conf": "medium",
+   "ocrConf": 66.252426,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.4,
+   "conf": "low",
+   "ocrConf": 10.38147,
+   "raw": "ESTIMATED YIELD *_2.4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241792",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52497026300006,
+ "lon": -116.79620987199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211580",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241792",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

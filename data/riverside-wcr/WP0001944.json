@@ -1,0 +1,48 @@
+{
+ "permit": "WP0001944",
+ "processed": "2026-10-06T18:48:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-130-044",
+ "address": "46121 Rainbow Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234758",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 825
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234758",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 86.995377,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 400",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234758",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.45486910300008,
+ "lon": -116.89469463899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221006",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234758",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0012124",
+ "processed": "2026-10-06T19:19:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-160-017",
+ "address": "39880 Springbrook Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243873",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 858
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243873",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 14.502151,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 19.0,
+   "conf": "medium",
+   "ocrConf": 60.084873,
+   "raw": "WATER LEVEL 19 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-03-22",
+   "conf": "high",
+   "ocrConf": 82.172073,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243873",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54266668500003,
+ "lon": -116.76515380699999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243873",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008059",
+ "processed": "2026-10-06T19:03:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-210-017",
+ "address": "39595 Crams Corner Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239448",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 759
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239448",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 355.0,
+   "conf": "medium",
+   "ocrConf": 79.915985,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 355",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-10-19",
+   "conf": "high",
+   "ocrConf": 80.096962,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239448",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54622162100003,
+ "lon": -116.73217490799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215058",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239448",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

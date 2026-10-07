@@ -1,0 +1,48 @@
+{
+ "permit": "WP0007114",
+ "processed": "2026-10-06T18:59:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-350-012",
+ "address": "51270 Tule Peak Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238813",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1130
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238813",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "high",
+   "ocrConf": 85.874382,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 350",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238813",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.47854114200004,
+ "lon": -116.76424317899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215775",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238813",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

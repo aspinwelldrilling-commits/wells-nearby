@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013556",
+ "processed": "2026-10-06T19:28:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-550-012",
+ "address": "51845 Kearsarge Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242616",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 749
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242616",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "high",
+   "ocrConf": 90.402809,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 220",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-12-17",
+   "conf": "medium",
+   "ocrConf": 78.085899,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242616",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.460944969000025,
+ "lon": -116.75491195899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212724",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242616",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

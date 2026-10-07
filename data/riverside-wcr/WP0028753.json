@@ -1,0 +1,86 @@
+{
+ "permit": "WP0028753",
+ "processed": "2026-10-06T19:48:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-140-009",
+ "address": "40195 San Ignacio",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248775",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 90
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248775",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248775",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 525.0,
+   "conf": "medium",
+   "ocrConf": 82.790375,
+   "raw": "Total Depth of Boring 525",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 96.051865,
+   "raw": "Estimated Yield* 80 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 96.26712,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 79.259018,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-10-01",
+   "conf": "high",
+   "ocrConf": 85.930931,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248775",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.540552871000045,
+ "lon": -116.92299992099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34219",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248775",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

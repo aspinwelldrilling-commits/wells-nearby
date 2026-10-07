@@ -1,0 +1,91 @@
+{
+ "permit": "WP0028311",
+ "processed": "2026-10-06T19:49:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-430-021",
+ "address": "53164 Jean Esther Way",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248729",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 364
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248729",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248729",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "high",
+   "ocrConf": 88.984657,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.063049,
+   "raw": "Estimated Yield* 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 91.125351,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 44.198475,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-04-23",
+   "conf": "high",
+   "ocrConf": 85.500465,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.49122,
+   "lon": -116.73634,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248729",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.49122487500006,
+ "lon": -116.73635188499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34283",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248729",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

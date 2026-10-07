@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001306",
+ "processed": "2026-10-06T18:47:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-720-016",
+ "address": "Dunedin Court",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234291",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 963
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234291",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 63.260159,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.649017,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234291",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52064005100004,
+ "lon": -116.94947940399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221982",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234291",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

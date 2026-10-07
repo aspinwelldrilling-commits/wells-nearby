@@ -1,0 +1,56 @@
+{
+ "permit": "WP0010925",
+ "processed": "2026-10-06T19:12:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-500-033",
+ "address": "40410 Exa Ely Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241145",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 823
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241145",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 79.72937,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 18.0,
+   "conf": "low",
+   "ocrConf": 46.141457,
+   "raw": "WATER LEVEL 18; (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241145",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.537408679000066,
+ "lon": -116.945746397,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213544",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241145",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

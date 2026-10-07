@@ -1,0 +1,71 @@
+{
+ "permit": "WP0019399",
+ "processed": "2026-10-06T19:45:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-030-017",
+ "address": "Shuler Lane",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246224",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1074
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246224",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 24.435234,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 222.0,
+   "conf": "high",
+   "ocrConf": 88.878143,
+   "raw": "WATER LEVEL 222 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-11-10",
+   "conf": "low",
+   "ocrConf": 24.496216,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 17.0,
+   "conf": "low",
+   "ocrConf": 37.471909,
+   "raw": "ESTIMATED YIELD *_17 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246224",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.503796641000065,
+ "lon": -116.91653771199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208140",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246224",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}
