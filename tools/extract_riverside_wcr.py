@@ -106,12 +106,19 @@ def riv_permits_radius(lat, lon, radius, where_extra="WCR_Path IS NOT NULL AND W
 
 
 def riv_permits_ids(ids):
+    """Rows for WellPCIDs; RIV-WCR-<OpenDoc id> fallback keys are looked up by WCR_Path instead."""
     out = []
+    docs = [re.sub(r'\D', '', p[len('RIV-WCR-'):]) for p in ids if p.upper().startswith('RIV-WCR-')]
+    ids = [p for p in ids if not p.upper().startswith('RIV-WCR-')]
+    wheres = []
     for i in range(0, len(ids), 50):
-        chunk = ids[i:i + 50]
-        ids_sql = ','.join("'" + p.replace("'", '') + "'" for p in chunk)
+        ids_sql = ','.join("'" + p.replace("'", '') + "'" for p in ids[i:i + 50])
+        wheres.append(f'WellPCID IN ({ids_sql})')
+    for i in range(0, len(docs), 25):
+        wheres.append(' OR '.join(f"WCR_Path LIKE '%/OpenDoc/{d}'" for d in docs[i:i + 25] if d) or '1=0')
+    for where in wheres:
         q = urllib.parse.urlencode({
-            'where': f'WellPCID IN ({ids_sql})',
+            'where': where,
             'outFields': '*', 'returnGeometry': 'true', 'outSR': 4326, 'f': 'json',
         })
         j = http_json(COUNTY_LAYER + '?' + q)
@@ -215,6 +222,37 @@ def opendoc_id(url):
     return m.group(1) if m else None
 
 
+# RivCo FeatureServer quirk: WellPCID can be SQL NULL, '' or the literal string '<Null>' (Hilda Ln, Homeland,
+# OBJECTID 61729) rather than blank. Treat all of these as missing. Rows without a usable WellPCID but with a WCR_Path
+# OpenDoc id get a stable fallback key RIV-WCR-<OpenDoc id> (filename-safe); with no OpenDoc id they are skipped.
+MISSING_IDS = {'', '<NULL>', 'NULL', 'NONE', '<NONE>', 'N/A', 'NA', '-'}
+FALLBACK_PREFIX = 'RIV-WCR-'
+SAFE_KEY = re.compile(r'^[A-Z0-9][A-Z0-9_.-]{0,63}$')
+
+
+def clean_pcid(v):
+    """Normalized WellPCID (strip/upper), or '' when missing / a NULL placeholder / not filename-safe."""
+    p = re.sub(r'\s+', '', str(v if v is not None else '')).upper()
+    if p in MISSING_IDS or not SAFE_KEY.match(p) or p.startswith(FALLBACK_PREFIX):
+        return ''
+    return p
+
+
+def rec_key(feat):
+    """Key for data/riverside-wcr/<key>.json, tiles and manifest: WellPCID, else RIV-WCR-<OpenDoc id>, else ''."""
+    p = clean_pcid(feat.get('WellPCID'))
+    if p:
+        return p
+    doc = opendoc_id((feat.get('WCR_Path') or '').strip())
+    return FALLBACK_PREFIX + doc if doc else ''
+
+
+def rec_files():
+    """Per-permit record files (WP*.json and RIV-WCR-*.json), not manifest/index."""
+    return sorted(f for f in glob.glob(os.path.join(OUT, '*.json'))
+                  if os.path.basename(f) not in ('manifest.json', 'index.json') and SAFE_KEY.match(os.path.basename(f)[:-5]))
+
+
 def download_wcr(url, delay, last_end):
     """Download OpenDoc PDF. Returns (bytes|None, error|None, new_last_end)."""
     sd._wait_county_gap(last_end, delay)
@@ -282,7 +320,7 @@ def tile_bounds(key):
 
 def rebuild_index():
     recs = {}
-    for f in sorted(glob.glob(os.path.join(OUT, 'WP*.json'))):
+    for f in rec_files():
         r = json.load(open(f))
         recs[r['permit']] = r
     tiles, unplaced = {}, []
@@ -316,7 +354,7 @@ def rebuild_index():
 
 
 def process_one(feat, delay, last_end, tmp, area, force=False):
-    permit = (feat.get('WellPCID') or '').strip().upper()
+    permit = rec_key(feat)
     if not permit:
         return None, last_end, 'skip-no-id'
     existing = load_rec(permit)
@@ -346,6 +384,11 @@ def process_one(feat, delay, last_end, tmp, area, force=False):
         'wellType': feat.get('Type_of_Well'),
         'statusCounty': feat.get('Application_Status'),
     }
+    if permit.startswith(FALLBACK_PREFIX):
+        # No usable county WellPCID: key by the WCR OpenDoc id; show "No permit #" (never '<NULL>').
+        rec['permitFallback'] = True
+        rec['permitDisplay'] = 'No permit #'
+        rec['legacyPermit'] = feat.get('Legacy_Permit')
 
     if not wcr_url:
         rec['status'] = 'no_docs'
@@ -456,7 +499,7 @@ def main():
 
     if args.reparse:
         n = 0
-        for f in sorted(glob.glob(os.path.join(OUT, 'WP*.json'))):
+        for f in rec_files():
             rec = json.load(open(f))
             cp = os.path.join(PAGE_CACHE, rec['permit'] + '.json')
             if not os.path.exists(cp):
@@ -505,15 +548,23 @@ def main():
             print(f.get('WellPCID'), f.get('APN'), f.get('Well_Address'), f.get('WCR_Path'))
         return
 
-    # Skip already-good unless --force
-    todo = []
+    # Skip already-good unless --force; skip rows with no usable key; one item per key (fallback rows can share an OpenDoc id)
+    todo, seen, nokey = [], set(), 0
     for f in feats:
-        p = (f.get('WellPCID') or '').strip().upper()
+        p = rec_key(f)
+        if not p:
+            nokey += 1
+            continue
+        if p in seen:
+            continue
+        seen.add(p)
         ex = load_rec(p)
         if ex and not args.force and ex.get('version') == SCRIPT_VERSION and ex.get('status') != 'error':
             continue
         todo.append(f)
-    log(f'{len(todo)} need work ({len(feats) - len(todo)} already cached)')
+    nfb = sum(1 for f in todo if rec_key(f).startswith(FALLBACK_PREFIX))
+    log(f'{len(todo)} need work ({len(feats) - len(todo) - nokey} already cached/duplicate; {nokey} skipped no id + no OpenDoc id; '
+        f'{nfb} keyed {FALLBACK_PREFIX}<OpenDoc id> for missing/NULL WellPCID)')
 
     workers = max(1, min(int(args.workers), WORKERS_CAP))
     if workers > 1 and args.delay < 2.5:

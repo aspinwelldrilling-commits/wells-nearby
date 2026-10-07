@@ -172,6 +172,11 @@
           // Keep OpenDoc WCR link even when a matched state WCR later overwrites pdfUrl.
           if (w.pdfUrl) w.countyWcrUrl = w.pdfUrl;
           if (w.permitPdf) w.countyPermitUrl = w.permitPdf;
+          // WellPCID can be NULL/'<Null>': key like tools/extract_riverside_wcr.py (RIV-WCR-<WCR OpenDoc id>) so cached WCRs join.
+          if (/^(<?null>?|none)?$/i.test(String(w.permit ?? '').trim())) {
+            const m = /\/OpenDoc\/(\d+)|docid=(\d+)/i.exec(w.pdfUrl || '');
+            w.permit = m ? 'RIV-WCR-' + (m[1] || m[2]) : null;
+          }
           w.countyKey = 'riverside';
         },
       },
