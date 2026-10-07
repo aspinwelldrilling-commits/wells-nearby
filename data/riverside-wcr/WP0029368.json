@@ -1,0 +1,77 @@
+{
+ "permit": "WP0029368",
+ "processed": "2026-10-06T23:33:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-320-044",
+ "address": "0 Rimrock Canyon Rd ",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248831",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 555
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248831",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248831",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "high",
+   "ocrConf": 86.484215,
+   "raw": "Total Depth of Completed Well 320",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 96.066063,
+   "raw": "Estimated Yield* 55 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 96.063538,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.44602,
+   "lon": -116.63245,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248831",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.44602,
+ "lon": -116.63245,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34640",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248831",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0009446",
+ "processed": "2026-10-06T22:58:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-140-027",
+ "address": "56798 Mount Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240367",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 719
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240367",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 460.0,
+   "conf": "low",
+   "ocrConf": 13.464516,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL460",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 22.0,
+   "conf": "medium",
+   "ocrConf": 77.780602,
+   "raw": "ESTIMATED YIELD * 22 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-08-07",
+   "conf": "high",
+   "ocrConf": 89.898529,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240367",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.57644469600007,
+ "lon": -116.66641986899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214329",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240367",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

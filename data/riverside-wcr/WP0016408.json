@@ -1,0 +1,49 @@
+{
+ "permit": "WP0016408",
+ "processed": "2026-10-06T23:19:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-252-008",
+ "address": "68-252 Matterhorn View",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245162",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2025
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245162",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "medium",
+   "ocrConf": 85.020081,
+   "raw": "(12) WELL LOG: Total depth 310",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245162",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.60500335300003,
+ "lon": -116.47343252699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222806",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245162",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

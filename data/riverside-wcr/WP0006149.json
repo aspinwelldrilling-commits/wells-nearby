@@ -1,0 +1,63 @@
+{
+ "permit": "WP0006149",
+ "processed": "2026-10-06T22:50:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-490-008",
+ "address": "OLD WAGON TRAIL",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238222",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 779
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238222",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 145.0,
+   "conf": "medium",
+   "ocrConf": 78.95327,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _145",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 36.0,
+   "conf": "low",
+   "ocrConf": 8.089386,
+   "raw": "WATER LEVEL _ 36. (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-08-17",
+   "conf": "high",
+   "ocrConf": 85.501816,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238222",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.48152985000007,
+ "lon": -116.59847467599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216614",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238222",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

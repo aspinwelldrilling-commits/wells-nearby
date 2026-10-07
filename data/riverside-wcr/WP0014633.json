@@ -1,0 +1,71 @@
+{
+ "permit": "WP0014633",
+ "processed": "2026-10-06T23:08:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-213-015",
+ "address": "60255 Palm Canyon Dr",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243137",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 681
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243137",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "low",
+   "ocrConf": 10.002243,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL900",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 64.900414,
+   "raw": "ESTIMATED YIELD * 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 433.0,
+   "conf": "high",
+   "ocrConf": 90.969955,
+   "raw": "WATER LEVEL 433 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-02-16",
+   "conf": "medium",
+   "ocrConf": 72.545891,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243137",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.60932410700008,
+ "lon": -116.47290263499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210228",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243137",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007792",
+ "processed": "2026-10-06T22:56:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-183-025",
+ "address": "63700 Santa Rosa Dr",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239278",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 688
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239278",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 71.733719,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-08-02",
+   "conf": "medium",
+   "ocrConf": 56.093521,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239278",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.58967916300003,
+ "lon": -116.44979706199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214969",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239278",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

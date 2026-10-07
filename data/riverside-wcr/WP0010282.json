@@ -1,0 +1,48 @@
+{
+ "permit": "WP0010282",
+ "processed": "2026-10-06T22:59:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-490-016",
+ "address": "44269 Broken Wheel Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240507",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 917
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240507",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 205.0,
+   "conf": "medium",
+   "ocrConf": 73.861023,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _205",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240507",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.482955512000046,
+ "lon": -116.59229731999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213047",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240507",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

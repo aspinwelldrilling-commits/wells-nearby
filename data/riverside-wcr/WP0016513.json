@@ -1,0 +1,71 @@
+{
+ "permit": "WP0016513",
+ "processed": "2026-10-06T23:21:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-180-054",
+ "address": "57600 Running Springs Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245201",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 806
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245201",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "medium",
+   "ocrConf": 75.064491,
+   "raw": "Total Depth of Completed Well 160",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 96.736397,
+   "raw": "Estimated Yield * 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 92.54599,
+   "raw": "Water Level 35 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-05-22",
+   "conf": "medium",
+   "ocrConf": 51.910381,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245201",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.472482865000075,
+ "lon": -116.65746421899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210720",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245201",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

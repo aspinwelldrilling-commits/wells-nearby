@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016491",
+ "processed": "2026-10-06T23:19:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-170-006",
+ "address": "60551 Tematea St",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245194",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 768
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245194",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "medium",
+   "ocrConf": 59.184006,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 325",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-03-06",
+   "conf": "high",
+   "ocrConf": 88.127213,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245194",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50972090400006,
+ "lon": -116.61125619099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210712",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245194",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

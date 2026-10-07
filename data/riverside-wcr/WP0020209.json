@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020209",
+ "processed": "2026-10-06T23:25:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-480-011",
+ "address": "42505 Wild Horse Tr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246663",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 401
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246663",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.904633,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-09-11",
+   "conf": "high",
+   "ocrConf": 86.130264,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246663",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50742453600003,
+ "lon": -116.56484764599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204455",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246663",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

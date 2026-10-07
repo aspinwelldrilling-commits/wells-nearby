@@ -1,0 +1,63 @@
+{
+ "permit": "WP0017882",
+ "processed": "2026-10-06T23:25:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-321-005",
+ "address": "Ave Encino & Ave La Cumbre",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245777",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 803
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245777",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 87.829445,
+   "raw": "Water Level _200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 85.037323,
+   "raw": "Drilling Method Air Drilling Fluid as",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-08-23",
+   "conf": "high",
+   "ocrConf": 82.620056,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245777",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.61380075000005,
+ "lon": -116.42366360899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208536",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245777",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0011791",
+ "processed": "2026-10-06T23:01:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-200-011",
+ "address": "42300 Mangalar Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242071",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 725
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242071",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 41.101189,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 248.0,
+   "conf": "high",
+   "ocrConf": 83.576828,
+   "raw": "WATER LeveL 248 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-02-11",
+   "conf": "high",
+   "ocrConf": 90.420097,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242071",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.506698166000035,
+ "lon": -116.60295032099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212351",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242071",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

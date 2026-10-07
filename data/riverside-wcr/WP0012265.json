@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012265",
+ "processed": "2026-10-06T23:06:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-220-003",
+ "address": "59455 Patrick Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243949",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 769
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243949",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "high",
+   "ocrConf": 96.834717,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-25",
+   "conf": "low",
+   "ocrConf": 49.593323,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243949",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.553634111000065,
+ "lon": -116.62136460999994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243949",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

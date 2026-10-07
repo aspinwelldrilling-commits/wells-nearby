@@ -1,0 +1,63 @@
+{
+ "permit": "WP0006979",
+ "processed": "2026-10-06T22:52:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-235-012",
+ "address": "68890 Materhorn View",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238754",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1435
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238754",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 89.940857,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YiELD +2 (gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-01-24",
+   "conf": "high",
+   "ocrConf": 81.53653,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238754",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.609900054000036,
+ "lon": -116.46142008599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215451",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238754",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

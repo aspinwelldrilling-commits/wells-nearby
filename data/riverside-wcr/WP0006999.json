@@ -1,0 +1,69 @@
+{
+ "permit": "WP0006999",
+ "processed": "2026-10-06T22:52:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-140-025",
+ "address": "69655 Dolomite Ln",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238771",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1386
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238771",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238771",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "low",
+   "ocrConf": 19.107475,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 350",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "medium",
+   "ocrConf": 63.167717,
+   "raw": "ESTIMATED YiELD * 45 ss (Gpm",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-02-01",
+   "conf": "low",
+   "ocrConf": 2.914566,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238771",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.59441993200005,
+ "lon": -116.45534974899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215497",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238771",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "partial"
+}

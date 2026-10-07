@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010283",
+ "processed": "2026-10-06T23:00:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-490-006",
+ "address": "61474 Covered Wagon Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240512",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 64
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240512",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL. 265",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-05-26",
+   "conf": "high",
+   "ocrConf": 84.548828,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240512",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.48331280200006,
+ "lon": -116.59417689899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213048",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240512",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

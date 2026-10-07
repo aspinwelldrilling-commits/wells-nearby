@@ -1,0 +1,93 @@
+{
+ "permit": "WP0021617",
+ "processed": "2026-10-06T23:38:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-340-008",
+ "address": "61500 Tower Ln",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247066",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 690
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247066",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247066",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1412.0,
+   "conf": "medium",
+   "ocrConf": 96.734856,
+   "raw": "Total Depth of Boring 1412",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 96.703568,
+   "raw": "Estimated Yield* 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 685.0,
+   "conf": "medium",
+   "ocrConf": 75.248001,
+   "raw": "Water Level 685 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-05-05",
+   "conf": "high",
+   "ocrConf": 95.630646,
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 92.941849,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Air",
+   "page": 2,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 55.038788,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247066",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.61209151500003,
+ "lon": -116.43913982199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203742",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247066",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027298",
+ "processed": "2026-10-06T23:36:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-060-012",
+ "address": "38230 Bunny Ln",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249504",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 812
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249504",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 480.0,
+   "conf": "high",
+   "ocrConf": 95.500465,
+   "raw": "Total Depth of Completed Well 480",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.25679,
+   "raw": "Estimated Yield * 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-10-31",
+   "conf": "low",
+   "ocrConf": 17.416412,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249504",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.56881989200008,
+ "lon": -116.58817586499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310188",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249504",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

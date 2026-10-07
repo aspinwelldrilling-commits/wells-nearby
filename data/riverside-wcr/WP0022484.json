@@ -1,0 +1,56 @@
+{
+ "permit": "WP0022484",
+ "processed": "2026-10-06T23:29:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-490-013",
+ "address": "La Colina Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249246",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 305
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249246",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 210.0,
+   "conf": "high",
+   "ocrConf": 94.662186,
+   "raw": "WATER LeveL 210 _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249246",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.471115188000056,
+ "lon": -116.64653025899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18854",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249246",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

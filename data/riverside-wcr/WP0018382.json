@@ -1,0 +1,86 @@
+{
+ "permit": "WP0018382",
+ "processed": "2026-10-06T23:36:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-020-015",
+ "address": "61600 Devils Ladder Rd",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245962",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 381
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245962",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 342.0,
+   "conf": "high",
+   "ocrConf": 96.656792,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 342",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 28.0,
+   "conf": "high",
+   "ocrConf": 96.542892,
+   "raw": "ESTIMATED YIELD 28 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 96.341309,
+   "raw": "WATER LEVEL 130 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Rotary",
+   "conf": "high",
+   "ocrConf": 84.206688,
+   "raw": "DRILLING METHOD Reverse Rotary FLUID Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.825493,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-05-13",
+   "conf": "low",
+   "ocrConf": 37.670502,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245962",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.59668050500005,
+ "lon": -116.59516471799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208940",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245962",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

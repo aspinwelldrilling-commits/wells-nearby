@@ -1,0 +1,72 @@
+{
+ "permit": "WP0020173",
+ "processed": "2026-10-06T23:24:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-380-043",
+ "address": "",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246638",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 450
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246638",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 91.270012,
+   "raw": "Total Depth of Boring 600",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.956093,
+   "raw": "Estimated Yield* 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 87.287392,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-07-30",
+   "conf": "low",
+   "ocrConf": 16.407326,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246638",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.53550654400004,
+ "lon": -116.60139139599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204421",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246638",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

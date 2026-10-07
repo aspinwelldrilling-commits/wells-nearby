@@ -1,0 +1,63 @@
+{
+ "permit": "WP0026231",
+ "processed": "2026-10-06T23:30:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-240-004",
+ "address": "Cary Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248302",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 327
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248302",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 96.634445,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 95.849937,
+   "raw": "Estimated Yield* 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-06-17",
+   "conf": "high",
+   "ocrConf": 96.628685,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248302",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.46056975000005,
+ "lon": -116.67861374499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199332",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248302",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

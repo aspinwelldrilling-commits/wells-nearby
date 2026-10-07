@@ -1,0 +1,57 @@
+{
+ "permit": "WP0000486",
+ "processed": "2026-10-06T22:40:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-140-031",
+ "address": "AppleLane & Harma Place",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233764",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 857
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233764",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 364.0,
+   "conf": "low",
+   "ocrConf": 19.734688,
+   "raw": "TOTAL DEPTH OF BORING 364",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 37.0,
+   "conf": "low",
+   "ocrConf": 10.264938,
+   "raw": "WATER LEVEL ____37___(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233764",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.493877042000065,
+ "lon": -116.62430487899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220106",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233764",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

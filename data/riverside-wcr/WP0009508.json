@@ -1,0 +1,63 @@
+{
+ "permit": "WP0009508",
+ "processed": "2026-10-06T22:58:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-170-012",
+ "address": "39760 Rambling Hills Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240472",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 716
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240472",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "low",
+   "ocrConf": 25.002068,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 280",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 64.0,
+   "conf": "high",
+   "ocrConf": 88.877281,
+   "raw": "ESTIMATED YieLD * 64 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-08-29",
+   "conf": "high",
+   "ocrConf": 85.512306,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240472",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54166631600003,
+ "lon": -116.64301047799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214382",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240472",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

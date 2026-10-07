@@ -1,0 +1,56 @@
+{
+ "permit": "WP0010349",
+ "processed": "2026-10-06T23:01:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-212-012",
+ "address": "64465 Casino Rd",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240601",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 425
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240601",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 557.0,
+   "conf": "medium",
+   "ocrConf": 60.305462,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 557",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "medium",
+   "ocrConf": 58.602875,
+   "raw": "ESTIMATED YIELD * 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240601",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.609006203000035,
+ "lon": -116.47516718899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213101",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240601",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

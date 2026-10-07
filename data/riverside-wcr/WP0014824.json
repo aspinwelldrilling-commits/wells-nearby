@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014824",
+ "processed": "2026-10-06T23:10:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-245-003",
+ "address": "CHILTON HEIGHTS & MATTERHORNE",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243232",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 821
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243232",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 33.342552,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-12-23",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243232",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.60684774600003,
+ "lon": -116.46339294499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210332",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243232",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

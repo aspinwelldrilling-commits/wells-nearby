@@ -1,0 +1,64 @@
+{
+ "permit": "WP0016510",
+ "processed": "2026-10-06T23:20:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-030-049",
+ "address": "57480 Horton Hills Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244180",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 740
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244180",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 635.0,
+   "conf": "low",
+   "ocrConf": 39.821262,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL635",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 23.249489,
+   "raw": "ESTIMATED yieLD *-20 __ (gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 468.0,
+   "conf": "medium",
+   "ocrConf": 55.241737,
+   "raw": "WATER LEVEL 468\u00b0 ___\u2014 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244180",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.57913159800006,
+ "lon": -116.65695270799995,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244180",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

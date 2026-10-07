@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006995",
+ "processed": "2026-10-06T22:53:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-273-009",
+ "address": "GARNICA HEIGHTS - LOT #439",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238770",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 661
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238770",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.760468,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-01-29",
+   "conf": "low",
+   "ocrConf": 41.87059,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238770",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.60491185500007,
+ "lon": -116.46537910199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215483",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238770",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

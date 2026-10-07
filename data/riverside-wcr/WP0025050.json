@@ -1,0 +1,57 @@
+{
+ "permit": "WP0025050",
+ "processed": "2026-10-06T23:28:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-170-026",
+ "address": "39710 Kirby Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248088",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 493
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248088",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 26.849243,
+   "raw": "TOTAL DEPTH OF BORING 22",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 10.520447,
+   "raw": "WATER LEVEL ___.2  _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248088",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54447099600003,
+ "lon": -116.64671351299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200036",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248088",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015041",
+ "processed": "2026-10-06T23:11:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-220-015",
+ "address": "59767 Last Chance Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244316",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 721
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244316",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 16.420662,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-12-02",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244316",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.55254185500007,
+ "lon": -116.61841251599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210515",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244316",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

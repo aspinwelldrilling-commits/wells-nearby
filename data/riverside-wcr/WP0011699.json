@@ -1,0 +1,71 @@
+{
+ "permit": "WP0011699",
+ "processed": "2026-10-06T23:03:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-110-002",
+ "address": "57598 Ramsey Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242013",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 702
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242013",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "low",
+   "ocrConf": 25.606834,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL280",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 80.655502,
+   "raw": "ESTIMATED YiELD * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 89.0,
+   "conf": "medium",
+   "ocrConf": 79.902496,
+   "raw": "WATER LeveL _89 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-01-07",
+   "conf": "high",
+   "ocrConf": 91.499306,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242013",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.48801182700004,
+ "lon": -116.65849674599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212272",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242013",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

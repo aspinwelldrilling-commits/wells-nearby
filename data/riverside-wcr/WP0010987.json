@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010987",
+ "processed": "2026-10-06T23:01:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-200-038",
+ "address": "59190 Roger Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241192",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 713
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241192",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 305.0,
+   "conf": "low",
+   "ocrConf": 5.232582,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL305",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-07-29",
+   "conf": "medium",
+   "ocrConf": 58.685066,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241192",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.52036418,
+ "lon": -116.62730949,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213591",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241192",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

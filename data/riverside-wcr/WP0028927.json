@@ -1,0 +1,56 @@
+{
+ "permit": "WP0028927",
+ "processed": "2026-10-06T23:37:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-080-004",
+ "address": "56245 Highway 371",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248804",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1119
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248804",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 369.0,
+   "conf": "low",
+   "ocrConf": 22.23497,
+   "raw": "Completed depth 369 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 85.916405,
+   "raw": "Standing level after well completion _50 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248804",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.554383,
+ "lon": -116.679656,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222665",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248804",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

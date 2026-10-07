@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007109",
+ "processed": "2026-10-06T22:53:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-164-017",
+ "address": "69950 Juniper Rd",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238812",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 753
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238812",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 44.326817,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-08-10",
+   "conf": "low",
+   "ocrConf": 40.361935,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238812",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.59314856200007,
+ "lon": -116.44955096299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215754",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238812",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

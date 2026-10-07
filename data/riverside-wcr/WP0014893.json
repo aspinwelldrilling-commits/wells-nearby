@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014893",
+ "processed": "2026-10-06T23:08:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-450-010",
+ "address": "59892 Lucille Lae",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243266",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 770
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243266",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 224.0,
+   "conf": "low",
+   "ocrConf": 45.47892,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL224",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-10-26",
+   "conf": "low",
+   "ocrConf": 8.915489,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243266",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50621834800006,
+ "lon": -116.61805743199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210388",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243266",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

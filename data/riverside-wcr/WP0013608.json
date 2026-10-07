@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013608",
+ "processed": "2026-10-06T23:06:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-110-013",
+ "address": "60800 Burnt Valley Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243979",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 932
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243979",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 305.0,
+   "conf": "low",
+   "ocrConf": 33.672134,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 305",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 105.0,
+   "conf": "medium",
+   "ocrConf": 77.404549,
+   "raw": "WATER LeveL 105 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-03-22",
+   "conf": "high",
+   "ocrConf": 90.021667,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243979",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.55530668700004,
+ "lon": -116.60815994599994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243979",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

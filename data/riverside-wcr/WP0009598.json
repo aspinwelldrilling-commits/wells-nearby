@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009598",
+ "processed": "2026-10-06T22:59:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-420-043",
+ "address": "61322 Tamatea Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240595",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1617
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240595",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 340.0,
+   "conf": "medium",
+   "ocrConf": 76.3647,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 340",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-09-20",
+   "conf": "low",
+   "ocrConf": 34.998703,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240595",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50992140900007,
+ "lon": -116.59669053899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214456",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240595",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

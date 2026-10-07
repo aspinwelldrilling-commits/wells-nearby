@@ -1,0 +1,71 @@
+{
+ "permit": "WP0020694",
+ "processed": "2026-10-06T23:36:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-110-008",
+ "address": "56990 Wellman Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246489",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1022
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246489",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 430.0,
+   "conf": "high",
+   "ocrConf": 94.115334,
+   "raw": "Total Depth of Completed Well 430",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 650.0,
+   "conf": "high",
+   "ocrConf": 96.536522,
+   "raw": "Estimated Yield* 650 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "medium",
+   "ocrConf": 68.622391,
+   "raw": "Water Level _60 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-04-08",
+   "conf": "high",
+   "ocrConf": 95.414078,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246489",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.541731225000035,
+ "lon": -116.667219107,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204922",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246489",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,49 @@
+{
+ "permit": "WP0015808",
+ "processed": "2026-10-06T23:15:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "59500 Grandon Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244777",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1651
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244777",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 85.389618,
+   "raw": "(12) WELL LOG: Total depth 200",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244777",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50531488300004,
+ "lon": -116.62420186599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/224737",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244777",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

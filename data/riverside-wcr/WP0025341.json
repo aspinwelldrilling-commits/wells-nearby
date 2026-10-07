@@ -1,0 +1,79 @@
+{
+ "permit": "WP0025341",
+ "processed": "2026-10-06T23:31:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-490-007",
+ "address": "Covered Wagon Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248325",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 437
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248325",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 91.257484,
+   "raw": "Total Depth of Completed Well 30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.707733,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 42.0,
+   "conf": "low",
+   "ocrConf": 95.104935,
+   "raw": "Water Level 42 (Feet",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-26",
+   "conf": "high",
+   "ocrConf": 96.357338,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.482912,
+   "lon": -116.597026,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248325",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.484654283000054,
+ "lon": -116.59703581399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200324",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248325",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

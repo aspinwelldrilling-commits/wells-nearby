@@ -1,0 +1,79 @@
+{
+ "permit": "WP0020688",
+ "processed": "2026-10-06T23:28:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-042-004",
+ "address": "64950 Wilderswill Rd",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246545",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 415
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246545",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 305.0,
+   "conf": "medium",
+   "ocrConf": 96.603661,
+   "raw": "Total Depth of Boring 305",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 94.632973,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Down-Hole Hammer",
+   "conf": "high",
+   "ocrConf": 90.520676,
+   "raw": "Drilling Method Down-Hole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 78.967834,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-03-22",
+   "conf": "medium",
+   "ocrConf": 64.072441,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246545",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.58100795000007,
+ "lon": -116.47966577599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204914",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246545",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

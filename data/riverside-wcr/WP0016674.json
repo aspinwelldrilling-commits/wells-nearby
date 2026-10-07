@@ -1,0 +1,63 @@
+{
+ "permit": "WP0016674",
+ "processed": "2026-10-06T23:20:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "630-171-003",
+ "address": "Palm Canyon",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245263",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1004
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245263",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Total Depth of Completed Well 265",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 80.407021,
+   "raw": "Estimated Yield* 20 ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-08-16",
+   "conf": "high",
+   "ocrConf": 92.977898,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245263",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.59000287600003,
+ "lon": -116.46430246399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209286",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245263",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

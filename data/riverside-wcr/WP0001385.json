@@ -1,0 +1,49 @@
+{
+ "permit": "WP0001385",
+ "processed": "2026-10-06T22:43:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-240-007",
+ "address": "41625 Mount Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234350",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 812
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234350",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 322.0,
+   "conf": "low",
+   "ocrConf": 15.699692,
+   "raw": "TOTAL DEPTH OF BORING 322",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234350",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.51763613500003,
+ "lon": -116.62469984599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219273",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234350",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

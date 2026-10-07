@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020220",
+ "processed": "2026-10-06T23:27:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-400-010",
+ "address": "61250 Highway 74",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246666",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246666",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 610.0,
+   "conf": "medium",
+   "ocrConf": 50.092224,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL610",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-08-21",
+   "conf": "high",
+   "ocrConf": 88.810234,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246666",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.57740537300003,
+ "lon": -116.59250270599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204470",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246666",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

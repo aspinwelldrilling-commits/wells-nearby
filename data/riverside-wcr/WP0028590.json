@@ -1,0 +1,92 @@
+{
+ "permit": "WP0028590",
+ "processed": "2026-10-06T23:32:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-490-006",
+ "address": "58325 Johnston Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248748",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 57
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248748",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248748",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 76.481682,
+   "raw": "Total Depth of Boring 400",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 96.592369,
+   "raw": "Estimated Yield* 120 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 92.278831,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-10-01",
+   "conf": "high",
+   "ocrConf": 82.740944,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.472113,
+   "lon": -116.647037,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248748",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.47211787800006,
+ "lon": -116.64704886699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270612",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248748",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

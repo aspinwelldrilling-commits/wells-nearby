@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010082",
+ "processed": "2026-10-06T22:59:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-340-005",
+ "address": "38028 Bohlen Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240240",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 753
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240240",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 41.727859,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-02-03",
+   "conf": "high",
+   "ocrConf": 87.886108,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240240",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.56916722300008,
+ "lon": -116.65578043,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214791",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240240",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

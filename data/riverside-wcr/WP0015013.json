@@ -1,0 +1,71 @@
+{
+ "permit": "WP0015013",
+ "processed": "2026-10-06T23:08:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-060-013",
+ "address": "55177 Highway 371 ",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244294",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 692
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244294",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 490.0,
+   "conf": "low",
+   "ocrConf": 10.001068,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL490",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 22.0,
+   "conf": "medium",
+   "ocrConf": 78.569748,
+   "raw": "ESTIMATED YIELD * 22 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 97.0,
+   "conf": "medium",
+   "ocrConf": 79.974701,
+   "raw": "WATER LEVEL 97 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-29",
+   "conf": "high",
+   "ocrConf": 87.209427,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244294",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.552153485000076,
+ "lon": -116.69843970099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210489",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244294",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

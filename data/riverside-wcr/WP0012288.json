@@ -1,0 +1,71 @@
+{
+ "permit": "WP0012288",
+ "processed": "2026-10-06T23:03:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-030-057",
+ "address": "37492 Hill St",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241382",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 767
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241382",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 525.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL525",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 14.0,
+   "conf": "medium",
+   "ocrConf": 59.285667,
+   "raw": "ESTIMATED YIELD * 14 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 59.241905,
+   "raw": "WATER LEVEL 4 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-21",
+   "conf": "medium",
+   "ocrConf": 73.691101,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241382",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.57737651900004,
+ "lon": -116.66284107599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212477",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241382",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

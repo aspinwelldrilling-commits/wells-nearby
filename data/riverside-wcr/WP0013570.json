@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013570",
+ "processed": "2026-10-06T23:07:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-270-039",
+ "address": "58275 Larson Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242637",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 696
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242637",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "low",
+   "ocrConf": 10.635765,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "low",
+   "ocrConf": 47.860489,
+   "raw": "ESTIMATED YieLD * 18 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-01-19",
+   "conf": "low",
+   "ocrConf": 0.36998,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242637",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.46283031300004,
+ "lon": -116.64700125999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212751",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242637",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

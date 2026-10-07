@@ -1,0 +1,63 @@
+{
+ "permit": "WP0012327",
+ "processed": "2026-10-06T23:05:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-160-005",
+ "address": "TERWILLIGER & KUWEA",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241432",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 755
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241432",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 48.0,
+   "conf": "low",
+   "ocrConf": 45.834694,
+   "raw": "WATER LEVEL 48 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-20",
+   "conf": "medium",
+   "ocrConf": 66.790802,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241432",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54973716300003,
+ "lon": -116.63333327299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212550",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241432",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

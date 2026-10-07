@@ -1,0 +1,71 @@
+{
+ "permit": "WP0007356",
+ "processed": "2026-10-06T22:56:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-240-020",
+ "address": "59350 Rocky Ravine Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238995",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 707
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238995",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "high",
+   "ocrConf": 93.136292,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 265",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "low",
+   "ocrConf": 33.942154,
+   "raw": "ESTIMATED YieLD * 12s (Gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 115.0,
+   "conf": "high",
+   "ocrConf": 92.147278,
+   "raw": "WATER LEVEL 115 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-08-18",
+   "conf": "low",
+   "ocrConf": 20.814377,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238995",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54724058800008,
+ "lon": -116.62578405999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216707",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238995",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,64 @@
+{
+ "permit": "WP0017395",
+ "processed": "2026-10-06T23:23:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-282-005",
+ "address": "61832 Locarno Heights",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245556",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1644
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245556",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 485.0,
+   "conf": "high",
+   "ocrConf": 81.724327,
+   "raw": "Total Depth of Completed Well 485",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 80.728882,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 93.494469,
+   "raw": "Water Level 45 (Feet",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245556",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.59950057300006,
+ "lon": -116.46796959499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209926",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245556",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

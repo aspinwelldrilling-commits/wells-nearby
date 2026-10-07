@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015009",
+ "processed": "2026-10-06T23:11:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-253-002",
+ "address": "61340 Chalet Dr",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244290",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 812
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244290",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "low",
+   "ocrConf": 36.609806,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL240",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-10-05",
+   "conf": "high",
+   "ocrConf": 86.545685,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244290",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.602801046000025,
+ "lon": -116.47514144199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210488",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244290",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

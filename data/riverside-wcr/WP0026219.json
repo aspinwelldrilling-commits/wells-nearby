@@ -1,0 +1,55 @@
+{
+ "permit": "WP0026219",
+ "processed": "2026-10-06T23:28:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-230-006",
+ "address": "Cooper Cieneqa Truck",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248288",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 55
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248288",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 72.415649,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-06-15",
+   "conf": "medium",
+   "ocrConf": 62.146393,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248288",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.465895756000066,
+ "lon": -116.68050606699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199321",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248288",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

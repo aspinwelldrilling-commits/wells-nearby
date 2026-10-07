@@ -1,0 +1,91 @@
+{
+ "permit": "WP0028428",
+ "processed": "2026-10-06T23:33:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-175-001",
+ "address": "63980 Palm Canyon Dr",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270897",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 63
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270897",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270897",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 80.791245,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.5,
+   "conf": "high",
+   "ocrConf": 96.098373,
+   "raw": "Estimated Yield* 5.5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 93.092003,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 96.109047,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-05-06",
+   "conf": "high",
+   "ocrConf": 82.976929,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.586712,
+   "lon": -116.465278,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270897",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.586716901000045,
+ "lon": -116.46528984499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270521",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270897",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

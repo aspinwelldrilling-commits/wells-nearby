@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013506",
+ "processed": "2026-10-06T23:05:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-200-028",
+ "address": "41491 Gassner Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242573",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 709
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242573",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 525.0,
+   "conf": "low",
+   "ocrConf": 22.617546,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL525",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 162.0,
+   "conf": "medium",
+   "ocrConf": 58.282272,
+   "raw": "WATER LeveL 162 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-04-05",
+   "conf": "medium",
+   "ocrConf": 76.542587,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242573",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.51958278700005,
+ "lon": -116.62652636199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212656",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242573",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

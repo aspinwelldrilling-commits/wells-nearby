@@ -1,0 +1,63 @@
+{
+ "permit": "WP0015117",
+ "processed": "2026-10-06T23:11:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-260-011",
+ "address": "59559 Everett Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244357",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 695
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244357",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 6.286591,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 143.0,
+   "conf": "high",
+   "ocrConf": 81.472549,
+   "raw": "WATER LeveL 143 _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-07-14",
+   "conf": "medium",
+   "ocrConf": 53.312721,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244357",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54159486100008,
+ "lon": -116.61981463699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210581",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244357",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015011",
+ "processed": "2026-10-06T23:10:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-440-025",
+ "address": "59083 Coyote Canyon Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244291",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 783
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244291",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 297.0,
+   "conf": "low",
+   "ocrConf": 24.038345,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL297",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-10-13",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244291",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50080107500003,
+ "lon": -116.63051209599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210485",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244291",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

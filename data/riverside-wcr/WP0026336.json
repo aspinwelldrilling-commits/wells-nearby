@@ -1,0 +1,78 @@
+{
+ "permit": "WP0026336",
+ "processed": "2026-10-06T23:32:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-230-013",
+ "address": "60235 Burnt Valley Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248417",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 709
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248417",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 560.0,
+   "conf": "high",
+   "ocrConf": 96.95668,
+   "raw": "Total Depth of Completed Well 560",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 264.0,
+   "conf": "high",
+   "ocrConf": 96.434273,
+   "raw": "Water Level 264 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 95.193039,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-01-18",
+   "conf": "high",
+   "ocrConf": 96.414597,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.552672,
+   "lon": -116.612661,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248417",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.55181103900003,
+ "lon": -116.61312498799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/319667",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248417",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

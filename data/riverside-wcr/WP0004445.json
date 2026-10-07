@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004445",
+ "processed": "2026-10-06T22:48:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-190-009",
+ "address": "WELLMAN & TERWILLIGER",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236366",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 649
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236366",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.486313,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 46.507256,
+   "raw": "ESTIMATED YIELD * 7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236366",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54203744800003,
+ "lon": -116.63336170599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210212",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236366",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

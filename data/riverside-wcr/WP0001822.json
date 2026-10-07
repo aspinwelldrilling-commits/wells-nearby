@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001822",
+ "processed": "2026-10-06T22:43:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-140-033",
+ "address": "56635 Dickson Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234676",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 879
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234676",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 475.0,
+   "conf": "medium",
+   "ocrConf": 70.413651,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 475",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 39.131905,
+   "raw": "ESTIMATED YIELD +30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234676",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.574428598000054,
+ "lon": -116.67097949899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220645",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234676",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

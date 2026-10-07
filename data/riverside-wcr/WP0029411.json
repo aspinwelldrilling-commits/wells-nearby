@@ -1,0 +1,56 @@
+{
+ "permit": "WP0029411",
+ "processed": "2026-10-06T23:34:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-080-004",
+ "address": "Cahuilla Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248839",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1139
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248839",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 45.879181,
+   "raw": "Completed depth 200 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 79.0,
+   "conf": "medium",
+   "ocrConf": 74.600189,
+   "raw": "Standing level after well completion 79 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248839",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.554395904000046,
+ "lon": -116.68276761799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222436",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248839",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

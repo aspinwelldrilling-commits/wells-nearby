@@ -1,0 +1,71 @@
+{
+ "permit": "WP0015120",
+ "processed": "2026-10-06T23:12:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-030-047",
+ "address": "37275 Bohlen Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244359",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 754
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244359",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 680.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL680",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 19.0,
+   "conf": "low",
+   "ocrConf": 46.970196,
+   "raw": "ESTIMATED YiELD * 19 (gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 402.0,
+   "conf": "medium",
+   "ocrConf": 76.65023,
+   "raw": "WATER LEVEL 402 _ __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-02-07",
+   "conf": "high",
+   "ocrConf": 87.01593,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244359",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.580237400000044,
+ "lon": -116.65711686199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210585",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244359",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

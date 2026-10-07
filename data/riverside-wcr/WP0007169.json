@@ -1,0 +1,63 @@
+{
+ "permit": "WP0007169",
+ "processed": "2026-10-06T22:55:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-021-005",
+ "address": "64200 Eden Rd",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238854",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 676
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238854",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 62.235558,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 40.311222,
+   "raw": "ESTIMATED YIELD * \u20141 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-10-17",
+   "conf": "medium",
+   "ocrConf": 72.933937,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238854",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.58491208100003,
+ "lon": -116.48098098299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215975",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238854",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

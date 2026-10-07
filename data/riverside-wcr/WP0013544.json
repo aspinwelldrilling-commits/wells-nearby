@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013544",
+ "processed": "2026-10-06T23:06:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-230-018",
+ "address": "40565 Mountainside Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242601",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 696
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242601",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 31.718826,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 66.492462,
+   "raw": "ESTIMATED YieLD * 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-03-01",
+   "conf": "medium",
+   "ocrConf": 62.21508,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242601",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.53277249300004,
+ "lon": -116.618843288,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212702",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242601",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

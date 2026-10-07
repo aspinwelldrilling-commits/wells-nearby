@@ -1,0 +1,57 @@
+{
+ "permit": "WP0003353",
+ "processed": "2026-10-06T22:46:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-210-032",
+ "address": "38186 Anza Crest Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235684",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 778
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235684",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 235.0,
+   "conf": "low",
+   "ocrConf": 62.420879,
+   "raw": "TOTAL DEPTH OF BORING 235",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 24.068748,
+   "raw": "WATER LEVEL 5 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235684",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.56679213800004,
+ "lon": -116.67143288799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222186",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235684",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

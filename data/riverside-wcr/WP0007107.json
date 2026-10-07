@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007107",
+ "processed": "2026-10-06T22:53:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-260-025",
+ "address": "59815 Anzanita Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238809",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 729
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238809",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.846031,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-08-29",
+   "conf": "low",
+   "ocrConf": 48.958664,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238809",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54278070200007,
+ "lon": -116.61616122899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215750",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238809",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

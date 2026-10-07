@@ -1,0 +1,92 @@
+{
+ "permit": "WP0028329",
+ "processed": "2026-10-06T23:32:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-230-001",
+ "address": "59746 Burnt Valley Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248730",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 110
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248730",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248730",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well          600",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 289.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                289 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method       Downhole Hammer            Drilling Fluid   Other",
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2019-03-30",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.554772,
+   "lon": -116.617807,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*              7 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248730",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.55477688900004,
+ "lon": -116.61781256799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256078",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248730",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

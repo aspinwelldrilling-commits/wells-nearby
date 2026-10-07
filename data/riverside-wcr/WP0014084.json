@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014084",
+ "processed": "2026-10-06T23:06:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-380-015",
+ "address": "40910 Table Mountain Truck Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242578",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 788
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242578",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 52.0,
+   "conf": "low",
+   "ocrConf": 4.822571,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _52",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 57.237759,
+   "raw": "ESTIMATED YIELD *_10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242578",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.529862286000025,
+ "lon": -116.59028629499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211074",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242578",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

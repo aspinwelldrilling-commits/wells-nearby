@@ -1,0 +1,57 @@
+{
+ "permit": "WP0012368",
+ "processed": "2026-10-06T23:07:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-350-022",
+ "address": "on CHARLIE ANN LANE",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241487",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 799
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241487",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 41.43322,
+   "raw": "TOTAL DEPTH OF BORING _35",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "medium",
+   "ocrConf": 55.379391,
+   "raw": "ESTIMATED YIELD * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241487",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.48147078000005,
+ "lon": -116.63822689299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212629",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241487",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

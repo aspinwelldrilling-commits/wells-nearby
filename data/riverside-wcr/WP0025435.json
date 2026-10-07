@@ -1,0 +1,85 @@
+{
+ "permit": "WP0025435",
+ "processed": "2026-10-06T23:31:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-040-012",
+ "address": "55012 Rdrunner Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248411",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 344
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248411",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "high",
+   "ocrConf": 96.831261,
+   "raw": "Total Depth of Completed Well 280",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.819122,
+   "raw": "Water Level 100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary Hammer",
+   "conf": "high",
+   "ocrConf": 96.56041,
+   "raw": "Drilling Method Downhole Rotary Hammer Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 87.683685,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-11-18",
+   "conf": "high",
+   "ocrConf": 93.25219,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.3511,
+   "lon": -116.4159,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248411",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.586396697000055,
+ "lon": -116.69972963699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200418",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248411",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

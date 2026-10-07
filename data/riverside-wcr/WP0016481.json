@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016481",
+ "processed": "2026-10-06T23:20:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-281-024",
+ "address": "Ribbonwood & Toro Vista",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245191",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 880
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245191",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 460.0,
+   "conf": "low",
+   "ocrConf": 32.09964,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 460",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-04-20",
+   "conf": "low",
+   "ocrConf": 33.628342,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245191",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.57018431800003,
+ "lon": -116.48696602399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210702",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245191",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

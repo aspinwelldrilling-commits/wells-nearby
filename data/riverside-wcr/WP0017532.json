@@ -1,0 +1,77 @@
+{
+ "permit": "WP0017532",
+ "processed": "2026-10-06T23:22:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-281-025",
+ "address": "67420 Toro Vista Dr",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245614",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1412
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245614",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245614",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "medium",
+   "ocrConf": 55.653717,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-04-16",
+   "conf": "high",
+   "ocrConf": 80.939224,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "low",
+   "ocrConf": 22.922211,
+   "raw": "ESTIMATED YIELD *_9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 236.0,
+   "conf": "medium",
+   "ocrConf": 59.54752,
+   "raw": "WATER LEVEL 236 (Ft",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245614",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.570052512000075,
+ "lon": -116.48734643299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210064",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245614",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0017046",
+ "processed": "2026-10-06T23:22:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-235-011",
+ "address": "60175 Jeraboa Rd",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245341",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 862
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245341",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 480.0,
+   "conf": "low",
+   "ocrConf": 23.3899,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL480",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "medium",
+   "ocrConf": 51.396442,
+   "raw": "ESTIMATED YIELD * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-12-15",
+   "conf": "low",
+   "ocrConf": 36.645409,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245341",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.61047358800005,
+ "lon": -116.46142041599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209640",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245341",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

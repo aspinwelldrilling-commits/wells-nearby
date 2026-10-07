@@ -1,0 +1,63 @@
+{
+ "permit": "WP0011608",
+ "processed": "2026-10-06T23:03:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-410-046",
+ "address": "61264 Spanish Dagger Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241863",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 397
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241863",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "low",
+   "ocrConf": 7.352158,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL375",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 127.0,
+   "conf": "high",
+   "ocrConf": 96.770462,
+   "raw": "WATER LEVEL 127 \u2014 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-12-04",
+   "conf": "low",
+   "ocrConf": 12.464287,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241863",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50167446300003,
+ "lon": -116.59950090199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212041",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241863",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

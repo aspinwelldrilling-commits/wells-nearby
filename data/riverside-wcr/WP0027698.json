@@ -1,0 +1,99 @@
+{
+ "permit": "WP0027698",
+ "processed": "2026-10-06T23:33:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-191-004",
+ "address": "70310 State Highway 74",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249605",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 106
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249605",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249605",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 560.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well            560",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  120 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Other - Air Drilling",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method       Other - Air Drilling         Drilling Fluid    Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2018-05-17",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.58593,
+   "lon": -116.4439,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*               4 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249605",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.585934902000076,
+ "lon": -116.44391184099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19274",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249605",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

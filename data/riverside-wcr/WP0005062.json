@@ -1,0 +1,49 @@
+{
+ "permit": "WP0005062",
+ "processed": "2026-10-06T22:48:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "55810 Mitchell Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236773",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 91
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236773",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "medium",
+   "ocrConf": 89.395309,
+   "raw": "Total depth 265 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236773",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.57026596400004,
+ "lon": -116.68603170899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/265131",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236773",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018177",
+ "processed": "2026-10-06T23:26:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-500-011",
+ "address": "58576 80Th St",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245887",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245887",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 5.135536,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 132.0,
+   "conf": "low",
+   "ocrConf": 20.882652,
+   "raw": "WATER LEVEL_132 ___ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-10-17",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245887",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.470410498000035,
+ "lon": -116.64149020699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208805",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245887",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

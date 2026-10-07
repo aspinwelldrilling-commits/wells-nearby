@@ -1,0 +1,84 @@
+{
+ "permit": "WP0029869",
+ "processed": "2026-10-06T23:33:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-060-021",
+ "address": "55201 Highway 371 ",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248906",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 108
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248906",
+   "page": 1,
+   "source": "text",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248906",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well          500",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 62.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  62 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-05-06",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.550166,
+   "lon": -116.697022,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 11.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             11 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248906",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.550166,
+ "lon": -116.697022,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/300960",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248906",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

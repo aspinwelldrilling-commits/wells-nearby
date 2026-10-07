@@ -1,0 +1,75 @@
+{
+ "permit": "WP0028809",
+ "processed": "2026-10-06T23:34:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-160-008",
+ "address": "58884 Kaweela Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248788",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 84
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248788",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248788",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248788",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 440.0,
+   "conf": "medium",
+   "ocrConf": 54.143276,
+   "raw": "Total Depth of Completed Well 440",
+   "page": 3,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 33.0,
+   "conf": "high",
+   "ocrConf": 92.351158,
+   "raw": "Estimated Yield\u2019 33 (GPM",
+   "page": 3,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 48.27401,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248788",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54996188800004,
+ "lon": -116.63284787199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34223",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248788",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 3,
+ "status": "readable"
+}

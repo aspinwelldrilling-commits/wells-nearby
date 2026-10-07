@@ -1,0 +1,82 @@
+{
+ "permit": "WP0027955",
+ "processed": "2026-10-06T23:32:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-470-008",
+ "address": "43215 Eagle Nest Ct",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249456",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 77
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249456",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249456",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249456",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 84.270813,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 95.195297,
+   "raw": "Estimated Yield* 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-09-17",
+   "conf": "medium",
+   "ocrConf": 77.676064,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.496431,
+   "lon": -116.570814,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249456",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.49643588500004,
+ "lon": -116.57082585599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19382",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249456",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

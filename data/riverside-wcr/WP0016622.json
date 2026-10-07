@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016622",
+ "processed": "2026-10-06T23:20:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-130-015",
+ "address": "37931 Regal Blue Tr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245232",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 705
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245232",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 25.045303,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-08-03",
+   "conf": "high",
+   "ocrConf": 88.678062,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245232",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.57154109700008,
+ "lon": -116.67516212899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210841",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245232",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

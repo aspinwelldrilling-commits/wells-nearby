@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016527",
+ "processed": "2026-10-06T23:21:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-230-010",
+ "address": "Dry Wash Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245208",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 742
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245208",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 460.0,
+   "conf": "low",
+   "ocrConf": 40.578026,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL460",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-06-08",
+   "conf": "medium",
+   "ocrConf": 73.991776,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245208",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.533074698000064,
+ "lon": -116.61414524499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210837",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245208",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

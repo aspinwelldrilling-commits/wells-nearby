@@ -1,0 +1,65 @@
+{
+ "permit": "WP0000825",
+ "processed": "2026-10-06T22:42:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-190-013",
+ "address": "38245 Bahrman Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234002",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 812
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234002",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 33.0,
+   "conf": "low",
+   "ocrConf": 43.554535,
+   "raw": "TOTAL DEPTH OF BORING 33",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD* 2) (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 17.460342,
+   "raw": "WATER LEVEL 4.) (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234002",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.56655095700006,
+ "lon": -116.68404219099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221039",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234002",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

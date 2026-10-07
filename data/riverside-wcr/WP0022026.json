@@ -1,0 +1,71 @@
+{
+ "permit": "WP0022026",
+ "processed": "2026-10-06T23:27:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-320-060",
+ "address": "59940 Rimrock Canyon Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249372",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 384
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249372",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 78.299568,
+   "raw": "Estimated Yield* 250 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 52.201241,
+   "raw": "Water Level 50 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 93.203537,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-12-01",
+   "conf": "high",
+   "ocrConf": 95.323044,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249372",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.44718726600007,
+ "lon": -116.61786431999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18410",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249372",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

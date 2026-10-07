@@ -1,0 +1,72 @@
+{
+ "permit": "WP0025003",
+ "processed": "2026-10-06T23:30:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-470-005",
+ "address": "Table Mountain Truck Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247966",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 360
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247966",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 34.0,
+   "conf": "low",
+   "ocrConf": 76.350899,
+   "raw": "Total Depth of Boring 34",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.804436,
+   "raw": "Estimated Yield *, 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling Bend",
+   "conf": "low",
+   "ocrConf": 44.150444,
+   "raw": "Drilling Method Air Drilling bend Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-02-04",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247966",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.49789884100005,
+ "lon": -116.57660248299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200920",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247966",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

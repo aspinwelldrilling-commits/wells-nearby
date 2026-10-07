@@ -1,0 +1,71 @@
+{
+ "permit": "WP0024521",
+ "processed": "2026-10-06T23:27:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-070-039",
+ "address": "57999 Bailey Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248052",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 391
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248052",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 30.267082,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 96.140488,
+   "raw": "Estimated Yield * 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 110.0,
+   "conf": "low",
+   "ocrConf": 35.742943,
+   "raw": "Water Level 110 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-07-28",
+   "conf": "medium",
+   "ocrConf": 70.014488,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248052",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.49654614000008,
+ "lon": -116.65235191099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201435",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248052",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

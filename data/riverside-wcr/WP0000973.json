@@ -1,0 +1,63 @@
+{
+ "permit": "WP0000973",
+ "processed": "2026-10-06T22:43:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-050-049",
+ "address": "37828 Hill St",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234058",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 810
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234058",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 480.0,
+   "conf": "low",
+   "ocrConf": 39.286812,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 480",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 96.517334,
+   "raw": "DRILLING\nMETHOD Rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.402802,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234058",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.57142546800003,
+ "lon": -116.66446246799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221207",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234058",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

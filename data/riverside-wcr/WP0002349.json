@@ -1,0 +1,55 @@
+{
+ "permit": "WP0002349",
+ "processed": "2026-10-06T22:45:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-260-012",
+ "address": "41675 El Campo Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235254",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 830
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235254",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 291.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 291",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-02-07",
+   "conf": "medium",
+   "ocrConf": 78.700706,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235254",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.516817959000036,
+ "lon": -116.61369899399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222234",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235254",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

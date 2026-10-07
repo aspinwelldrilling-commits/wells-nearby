@@ -1,0 +1,72 @@
+{
+ "permit": "WP0024297",
+ "processed": "2026-10-06T23:30:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-490-027",
+ "address": "61060 Covered Wagon Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247924",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 637
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247924",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 495.0,
+   "conf": "medium",
+   "ocrConf": 96.800247,
+   "raw": "Total Depth of Boring 495",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.790672,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.486191,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-05-16",
+   "conf": "high",
+   "ocrConf": 92.188385,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247924",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.472934880000025,
+ "lon": -116.60275879999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201221",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247924",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

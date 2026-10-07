@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010124",
+ "processed": "2026-10-06T22:59:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-310-033",
+ "address": "38185 Sherman Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240281",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 776
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240281",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 32.358536,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YieLD * 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-01-16",
+   "conf": "low",
+   "ocrConf": 36.131496,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240281",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.56720812000003,
+ "lon": -116.64176604199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214826",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240281",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

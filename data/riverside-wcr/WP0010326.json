@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010326",
+ "processed": "2026-10-06T23:36:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-274-016",
+ "address": "61483 Jeroboa Rd",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240564",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 789
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240564",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1100.0,
+   "conf": "high",
+   "ocrConf": 96.326286,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-02-05",
+   "conf": "medium",
+   "ocrConf": 61.033539,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240564",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.60136307300007,
+ "lon": -116.46284050299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213082",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240564",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

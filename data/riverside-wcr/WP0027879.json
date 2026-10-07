@@ -1,0 +1,83 @@
+{
+ "permit": "WP0027879",
+ "processed": "2026-10-06T23:32:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-164-013",
+ "address": "69900 Juniper Rd",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249663",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 56
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249663",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249663",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 74.961403,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "medium",
+   "ocrConf": 79.102158,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "medium",
+   "ocrConf": 70.043716,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-08-15",
+   "conf": "high",
+   "ocrConf": 85.77317,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.5436,
+   "lon": -116.4524,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249663",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.59356490300007,
+ "lon": -116.45236184299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310209",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249663",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

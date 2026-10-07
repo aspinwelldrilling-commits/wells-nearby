@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020843",
+ "processed": "2026-10-06T23:27:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-250-019",
+ "address": "59940 Reynolds Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246474",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 354
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246474",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 19.0,
+   "conf": "medium",
+   "ocrConf": 54.612637,
+   "raw": "ESTIMATED YIELD + 19 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-03",
+   "conf": "medium",
+   "ocrConf": 65.754341,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246474",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54627764800006,
+ "lon": -116.61414097799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205061",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246474",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

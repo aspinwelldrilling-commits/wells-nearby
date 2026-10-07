@@ -1,0 +1,61 @@
+{
+ "permit": "WP0007256",
+ "processed": "2026-10-06T22:55:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-070-032",
+ "address": "43205 Chapman Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238931",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1374
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238931",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238931",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 275.0,
+   "conf": "medium",
+   "ocrConf": 56.223068,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 275",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-03-11",
+   "conf": "medium",
+   "ocrConf": 79.153641,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238931",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.49532334000003,
+ "lon": -116.65312903099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216320",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238931",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

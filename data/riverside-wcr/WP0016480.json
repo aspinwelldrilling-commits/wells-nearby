@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016480",
+ "processed": "2026-10-06T23:20:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-272-012",
+ "address": "60819 Lucerne Dr",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245190",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 851
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245190",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 0.362328,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-04-27",
+   "conf": "high",
+   "ocrConf": 91.320473,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245190",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.60484109200007,
+ "lon": -116.46743693099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210701",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245190",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

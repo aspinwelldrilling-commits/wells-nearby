@@ -1,0 +1,54 @@
+{
+ "permit": "WP0010318",
+ "processed": "2026-10-06T23:01:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-410-008",
+ "address": "42670 Sweet Bush Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240556",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2022
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240556",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240556",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 645.0,
+   "conf": "medium",
+   "ocrConf": 77.303543,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _645",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240556",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50702863400005,
+ "lon": -116.59058776599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213078",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240556",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

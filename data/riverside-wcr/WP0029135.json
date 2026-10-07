@@ -1,0 +1,90 @@
+{
+ "permit": "WP0029135",
+ "processed": "2026-10-06T23:38:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-130-015",
+ "address": null,
+ "city": null,
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248811",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 348
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248811",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248811",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248811",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 590.0,
+   "conf": "medium",
+   "ocrConf": 59.960957,
+   "raw": "Total Depth of Completed Well 590",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 32.22,
+   "conf": "high",
+   "ocrConf": 96.798416,
+   "raw": "Water Level 32.22 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 63.691547,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 92.597488,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.5406667,
+   "lon": -116.6657222,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248811",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54066670000003,
+ "lon": -116.66572219999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/261336",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248811",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018628",
+ "processed": "2026-10-06T23:26:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-133-006",
+ "address": "62590 Rockwood Rd",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246025",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1407
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246025",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 48.960423,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-04-25",
+   "conf": "high",
+   "ocrConf": 87.067474,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246025",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.59470396000006,
+ "lon": -116.45998409699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207605",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246025",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

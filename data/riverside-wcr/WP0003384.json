@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003384",
+ "processed": "2026-10-06T22:46:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-490-003",
+ "address": "16071 Coyote Canyon Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235704",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 923
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235704",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 21.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 21",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1995-09-01",
+   "conf": "low",
+   "ocrConf": 36.291336,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235704",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.483238752000034,
+ "lon": -116.58605587699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216580",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235704",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,91 @@
+{
+ "permit": "WP0027902",
+ "processed": "2026-10-06T23:33:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-270-011",
+ "address": "60455 Rimrock Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249672",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 260
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249672",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249672",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 84.172516,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 121.0,
+   "conf": "high",
+   "ocrConf": 93.30687,
+   "raw": "Water Level 121 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "medium",
+   "ocrConf": 69.762512,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 67.841286,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-07-30",
+   "conf": "high",
+   "ocrConf": 84.114868,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.437428,
+   "lon": -116.612742,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249672",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.43743287500007,
+ "lon": -116.61275385899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19318",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249672",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

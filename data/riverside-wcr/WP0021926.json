@@ -1,0 +1,63 @@
+{
+ "permit": "WP0021926",
+ "processed": "2026-10-06T23:26:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-330-009",
+ "address": "38305 McDonald Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247188",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 397
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247188",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 17.102142,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 29.0,
+   "conf": "high",
+   "ocrConf": 88.181381,
+   "raw": "ESTIMATED YIELD * 29 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-09-16",
+   "conf": "medium",
+   "ocrConf": 59.075203,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247188",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.56544610200007,
+ "lon": -116.662563665,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204040",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247188",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0011381",
+ "processed": "2026-10-06T23:01:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-240-004",
+ "address": "59270 Granite Gulley Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241574",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 388
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241574",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 235.0,
+   "conf": "high",
+   "ocrConf": 96.049423,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 235",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 190.0,
+   "conf": "low",
+   "ocrConf": 34.293289,
+   "raw": "WATER LeveL 190 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241574",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.544303237000065,
+ "lon": -116.62589318899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213900",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241574",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

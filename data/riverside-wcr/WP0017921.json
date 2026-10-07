@@ -1,0 +1,63 @@
+{
+ "permit": "WP0017921",
+ "processed": "2026-10-06T23:23:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-243-006",
+ "address": "60815 Geneva Heights",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245801",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 811
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245801",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 95.858032,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 28.413574,
+   "raw": "Water Level 700 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-08-17",
+   "conf": "medium",
+   "ocrConf": 64.649353,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245801",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.605772011000056,
+ "lon": -116.46587432299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208573",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245801",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

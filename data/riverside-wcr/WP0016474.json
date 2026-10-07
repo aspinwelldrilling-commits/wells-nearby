@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016474",
+ "processed": "2026-10-06T23:20:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-140-023",
+ "address": "69505 Dolomite Ln",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244172",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 816
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244172",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "low",
+   "ocrConf": 43.876465,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-02-10",
+   "conf": "low",
+   "ocrConf": 23.931015,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244172",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.59439510900006,
+ "lon": -116.45680833699998,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244172",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

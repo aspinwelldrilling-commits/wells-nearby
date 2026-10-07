@@ -1,0 +1,78 @@
+{
+ "permit": "WP0027618",
+ "processed": "2026-10-06T23:29:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-210-039",
+ "address": "56581 Knollwood Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249581",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 62
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249581",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 86.188866,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 84.073013,
+   "raw": "Estimated Yield* 40 ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 84.254486,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 37.703667,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-03-21",
+   "conf": "medium",
+   "ocrConf": 78.824028,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249581",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.56587888700005,
+ "lon": -116.67448787999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198921",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249581",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

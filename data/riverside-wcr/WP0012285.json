@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012285",
+ "processed": "2026-10-06T23:04:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-323-003",
+ "address": "59800 Avenida La Cumbre",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241369",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 794
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241369",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 5.514458,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-08-17",
+   "conf": "medium",
+   "ocrConf": 55.620659,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241369",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.614531502000034,
+ "lon": -116.42148487399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212471",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241369",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

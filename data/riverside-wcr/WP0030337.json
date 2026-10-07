@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030337",
+ "processed": "2026-10-06T23:35:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-232-009",
+ "address": "Zurich Ave ",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270807",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 570
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270807",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270807",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 750.0,
+   "conf": "high",
+   "ocrConf": 91.756622,
+   "raw": "Total Depth of Completed Well 750",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.5,
+   "conf": "high",
+   "ocrConf": 96.487595,
+   "raw": "Estimated Yield* 1.50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 210.0,
+   "conf": "high",
+   "ocrConf": 96.856621,
+   "raw": "Water Level 210 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 93.238876,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 58.113331,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-02-17",
+   "conf": "medium",
+   "ocrConf": 74.022995,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.610517,
+   "lon": -116.467567,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270807",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.61057,
+ "lon": -116.467567,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270176",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270807",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

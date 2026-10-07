@@ -1,0 +1,48 @@
+{
+ "permit": "WP0006071",
+ "processed": "2026-10-06T22:50:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-360-015",
+ "address": "44300 Anderson Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238180",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 792
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238180",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 302.0,
+   "conf": "medium",
+   "ocrConf": 50.385777,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 302",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238180",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.47955422900003,
+ "lon": -116.63660637599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216330",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238180",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

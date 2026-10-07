@@ -1,0 +1,72 @@
+{
+ "permit": "WP0022410",
+ "processed": "2026-10-06T23:28:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-110-006",
+ "address": "56765 Johnson Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249210",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 421
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249210",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 248.0,
+   "conf": "medium",
+   "ocrConf": 96.888084,
+   "raw": "Total Depth of Boring 248",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 12.005981,
+   "raw": "Estimated Yield* 700s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 47.0,
+   "conf": "high",
+   "ocrConf": 85.488106,
+   "raw": "Water Level 47 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-04-25",
+   "conf": "medium",
+   "ocrConf": 63.072464,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249210",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54674457500005,
+ "lon": -116.66933485699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18742",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249210",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013583",
+ "processed": "2026-10-06T23:07:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-230-020",
+ "address": "40695 Apple Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242657",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 744
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242657",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "low",
+   "ocrConf": 21.086182,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL310",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-01-28",
+   "conf": "medium",
+   "ocrConf": 65.009354,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242657",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.532042888000035,
+ "lon": -116.61859363099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212764",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242657",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

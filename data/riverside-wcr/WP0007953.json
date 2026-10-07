@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007953",
+ "processed": "2026-10-06T22:57:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-120-024",
+ "address": "Off Hamilton Drive",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239372",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 840
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239372",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 130.0,
+   "conf": "medium",
+   "ocrConf": 57.049599,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 130",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.95652,
+   "raw": "ESTIMATED YIELD 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239372",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.55093057100004,
+ "lon": -116.65496900399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218802",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239372",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

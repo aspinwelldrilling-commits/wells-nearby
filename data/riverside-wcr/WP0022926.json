@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022926",
+ "processed": "2026-10-06T23:28:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-220-007",
+ "address": "38460 Bailiff Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249356",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 320
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249356",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "high",
+   "ocrConf": 82.399826,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 350",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-03-22",
+   "conf": "medium",
+   "ocrConf": 66.76033,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249356",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.563605736000056,
+ "lon": -116.67841607799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203110",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249356",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

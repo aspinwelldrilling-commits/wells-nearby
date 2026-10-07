@@ -1,0 +1,63 @@
+{
+ "permit": "WP0017064",
+ "processed": "2026-10-06T23:23:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-210-041",
+ "address": "59547 Janice Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245361",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 787
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245361",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 44.981003,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 89.0,
+   "conf": "medium",
+   "ocrConf": 65.602905,
+   "raw": "WATER Level 89 ___ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-12-15",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245361",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.480544132000034,
+ "lon": -116.62278872599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209654",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245361",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

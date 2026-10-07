@@ -1,0 +1,71 @@
+{
+ "permit": "WP0011900",
+ "processed": "2026-10-06T23:02:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-160-015",
+ "address": "60891 Indian Paint Brush Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243742",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 746
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243742",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 650.0,
+   "conf": "low",
+   "ocrConf": 13.691452,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL650",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "low",
+   "ocrConf": 45.258984,
+   "raw": "ESTIMATED YIELD * 9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 132.0,
+   "conf": "medium",
+   "ocrConf": 67.370453,
+   "raw": "WATER LeveL 132 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-02-28",
+   "conf": "medium",
+   "ocrConf": 75.599869,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243742",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.51167863500007,
+ "lon": -116.60509465199999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243742",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

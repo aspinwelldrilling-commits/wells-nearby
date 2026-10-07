@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015061",
+ "processed": "2026-10-06T23:11:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-260-030",
+ "address": "57050 Knollwood Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244328",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 781
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244328",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "low",
+   "ocrConf": 38.832359,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 320",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-12-05",
+   "conf": "low",
+   "ocrConf": 27.284332,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244328",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.56258225500005,
+ "lon": -116.669332183,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210535",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244328",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

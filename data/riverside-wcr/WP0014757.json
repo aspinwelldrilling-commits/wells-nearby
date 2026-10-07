@@ -1,0 +1,71 @@
+{
+ "permit": "WP0014757",
+ "processed": "2026-10-06T23:09:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-163-003",
+ "address": "63365 Pinyon Dr",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243185",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 806
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243185",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 97.015312,
+   "raw": "ESTIMATED YIELD * 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 190.0,
+   "conf": "low",
+   "ocrConf": 29.680008,
+   "raw": "STATIC\nwater LeveL_190 Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-29",
+   "conf": "low",
+   "ocrConf": 47.405224,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243185",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.590681321000034,
+ "lon": -116.45566190899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210270",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243185",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

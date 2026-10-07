@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014993",
+ "processed": "2026-10-06T23:10:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-100-034",
+ "address": "37600 Lanik Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243323",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 686
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243323",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 225.0,
+   "conf": "low",
+   "ocrConf": 42.331638,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL225",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 89.0,
+   "conf": "high",
+   "ocrConf": 82.818512,
+   "raw": "WATER LeveL _89 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-11-12",
+   "conf": "low",
+   "ocrConf": 12.741119,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243323",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.57242899500005,
+ "lon": -116.68279096999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210469",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243323",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

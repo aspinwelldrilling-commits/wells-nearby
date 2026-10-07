@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020210",
+ "processed": "2026-10-06T23:26:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-480-009",
+ "address": "42729 Wild Horse Tr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246664",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 401
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246664",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 640.0,
+   "conf": "high",
+   "ocrConf": 93.857193,
+   "raw": "Total Depth of Completed Well 640",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-09-04",
+   "conf": "high",
+   "ocrConf": 93.492172,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246664",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50213239500005,
+ "lon": -116.56353804599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204456",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246664",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

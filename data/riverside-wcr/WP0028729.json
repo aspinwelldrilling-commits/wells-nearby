@@ -1,0 +1,92 @@
+{
+ "permit": "WP0028729",
+ "processed": "2026-10-06T23:32:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-490-014-3",
+ "address": "44405 Broken Wheel Tr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248772",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 98
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248772",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248772",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 77.127724,
+   "raw": "Total Depth of Completed Well 250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 94.555031,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 128.0,
+   "conf": "high",
+   "ocrConf": 96.368057,
+   "raw": "Water Level 128 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 92.497482,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-08-23",
+   "conf": "high",
+   "ocrConf": 82.599342,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.4784,
+   "lon": -116.5953,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248772",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.47840000000008,
+ "lon": -116.59529999999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310408",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248772",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

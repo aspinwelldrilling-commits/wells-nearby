@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014999",
+ "processed": "2026-10-06T23:08:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-120-020",
+ "address": "56471 Lubo Tr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243324",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 636
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243324",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 41.94445,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 92.661766,
+   "raw": "ESTIMATED YiELD + 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-14",
+   "conf": "medium",
+   "ocrConf": 54.92926,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243324",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.57563398700006,
+ "lon": -116.674326813,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210475",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243324",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

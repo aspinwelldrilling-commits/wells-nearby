@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013654",
+ "processed": "2026-10-06T23:06:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-270-520",
+ "address": "RIM ROCK & TERWILLIGER",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244013",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 782
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244013",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 530.0,
+   "conf": "high",
+   "ocrConf": 96.944351,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 530",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-03-29",
+   "conf": "low",
+   "ocrConf": 22.31324,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244013",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.43460487500005,
+ "lon": -116.61057185799996,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244013",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

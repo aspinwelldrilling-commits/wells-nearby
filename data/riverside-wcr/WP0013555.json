@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013555",
+ "processed": "2026-10-06T23:07:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-160-002",
+ "address": "58791 Yaw Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242614",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 874
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242614",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 225.0,
+   "conf": "low",
+   "ocrConf": 38.384689,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 225",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-12-09",
+   "conf": "high",
+   "ocrConf": 82.062714,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 82.00737,
+   "raw": "ESTIMATED YiELD *_15 (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242614",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.550557182000034,
+ "lon": -116.63432718899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274985",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242614",
+ "serviceType": "Evaluation",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

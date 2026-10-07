@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013503",
+ "processed": "2026-10-06T23:06:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-230-035",
+ "address": "56205 Elder Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242569",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 764
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242569",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "low",
+   "ocrConf": 33.906708,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 39.0,
+   "conf": "medium",
+   "ocrConf": 70.701492,
+   "raw": "ESTIMATED YIELD * 39 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-12-27",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242569",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.56140665400005,
+ "lon": -116.68031859099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212653",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242569",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

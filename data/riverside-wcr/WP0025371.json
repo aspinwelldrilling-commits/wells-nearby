@@ -1,0 +1,72 @@
+{
+ "permit": "WP0025371",
+ "processed": "2026-10-06T23:28:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-210-040",
+ "address": "44485 Mac Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248355",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 518
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248355",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 96.961037,
+   "raw": "Total Depth of Boring 250",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.563095,
+   "raw": "Estimated Yield * 300 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 92.642944,
+   "raw": "Water Level 20 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-11-17",
+   "conf": "high",
+   "ocrConf": 92.902847,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248355",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.478262260000065,
+ "lon": -116.62723310399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200354",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248355",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

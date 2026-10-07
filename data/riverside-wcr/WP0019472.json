@@ -1,0 +1,64 @@
+{
+ "permit": "WP0019472",
+ "processed": "2026-10-06T23:38:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-140-032",
+ "address": "59660 Harma Pl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246244",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1085
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246244",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 230.0,
+   "conf": "medium",
+   "ocrConf": 60.946987,
+   "raw": "Completed depth 230 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 64.182281,
+   "raw": "Standing level after well completion 50 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 39.0,
+   "conf": "low",
+   "ocrConf": 34.601089,
+   "raw": "Discharge __39 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246244",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.492638570000054,
+ "lon": -116.62169025199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222651",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246244",
+ "serviceType": "Evaluation",
+ "wellType": null,
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

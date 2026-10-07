@@ -1,0 +1,56 @@
+{
+ "permit": "WP0005808",
+ "processed": "2026-10-06T23:35:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-250-023",
+ "address": "58955 Contreras Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237286",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 819
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237286",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "medium",
+   "ocrConf": 64.25563,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 280",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 8.0,
+   "conf": "low",
+   "ocrConf": 25.931305,
+   "raw": "WATER LEVEL ___ 8) __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237286",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.556295626000065,
+ "lon": -116.67504129899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215704",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237286",
+ "serviceType": null,
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

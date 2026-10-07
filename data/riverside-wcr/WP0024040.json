@@ -1,0 +1,64 @@
+{
+ "permit": "WP0024040",
+ "processed": "2026-10-06T23:30:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-260-064",
+ "address": "58715 Mica Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247769",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 399
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247769",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 275.0,
+   "conf": "medium",
+   "ocrConf": 96.358742,
+   "raw": "Total Depth of Boring 275",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 96.694504,
+   "raw": "Estimated Yield\u201c 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-02-24",
+   "conf": "medium",
+   "ocrConf": 76.536728,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247769",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.46564594700004,
+ "lon": -116.63928402599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200972",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247769",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

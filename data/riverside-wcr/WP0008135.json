@@ -1,0 +1,63 @@
+{
+ "permit": "WP0008135",
+ "processed": "2026-10-06T22:58:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-150-037",
+ "address": "58731 Burnt Valley Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239495",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 832
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239495",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 235.0,
+   "conf": "high",
+   "ocrConf": 91.678436,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 235",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 79.472092,
+   "raw": "ESTIMATED YIELD -10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-04-27",
+   "conf": "medium",
+   "ocrConf": 78.893646,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239495",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.554559478000044,
+ "lon": -116.63556294199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215166",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239495",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

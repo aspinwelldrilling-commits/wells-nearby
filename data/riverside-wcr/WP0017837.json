@@ -1,0 +1,65 @@
+{
+ "permit": "WP0017837",
+ "processed": "2026-10-06T23:24:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-140-044",
+ "address": "62700 Pinyon Dr",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245752",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1400
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245752",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 52.751244,
+   "raw": "TOTAL DEPTH OF BORING 600",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 95.808487,
+   "raw": "ESTIMATED YIELD 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 34.0,
+   "conf": "high",
+   "ocrConf": 87.646088,
+   "raw": "WATER LEVEL 34 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245752",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.594550982000044,
+ "lon": -116.45747094599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210191",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245752",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

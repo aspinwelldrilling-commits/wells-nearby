@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012360",
+ "processed": "2026-10-06T23:06:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-230-010",
+ "address": "BROWNS ROCKY RD & WOODVIEW",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241467",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 809
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241467",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "medium",
+   "ocrConf": 64.923309,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 180",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-10-01",
+   "conf": "medium",
+   "ocrConf": 60.318806,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241467",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.53306875200008,
+ "lon": -116.61371472599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212618",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241467",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

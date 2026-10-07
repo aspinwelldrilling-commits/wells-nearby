@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014943",
+ "processed": "2026-10-06T23:10:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-240-034",
+ "address": "39609 Valerie Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243301",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 703
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243301",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 11.109146,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 17.0,
+   "conf": "medium",
+   "ocrConf": 58.316093,
+   "raw": "ESTIMATED YiELD * 17 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-08-10",
+   "conf": "medium",
+   "ocrConf": 71.069107,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243301",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54517314200007,
+ "lon": -116.62888888999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210427",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243301",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

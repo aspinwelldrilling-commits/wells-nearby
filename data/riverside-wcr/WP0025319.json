@@ -1,0 +1,70 @@
+{
+ "permit": "WP0025319",
+ "processed": "2026-10-06T23:30:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-260-004",
+ "address": "41625 Jay Dee Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248300",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 444
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248300",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 570.0,
+   "conf": "medium",
+   "ocrConf": 69.58313,
+   "raw": "Total Depth of Completed Well 570",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 88.922394,
+   "raw": "Estimated Yield* 45 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-24",
+   "conf": "high",
+   "ocrConf": 96.638512,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.517813,
+   "lon": -116.617507,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248300",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.51799570500003,
+ "lon": -116.61796879599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200303",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248300",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

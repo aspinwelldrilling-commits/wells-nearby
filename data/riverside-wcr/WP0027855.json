@@ -1,0 +1,84 @@
+{
+ "permit": "WP0027855",
+ "processed": "2026-10-06T23:30:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-380-013",
+ "address": "56850 Ramsey Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249653",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249653",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249653",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 610.0,
+   "conf": "high",
+   "ocrConf": 80.743248,
+   "raw": "Total Depth of Completed Well 610",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.090561,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 178.0,
+   "conf": "high",
+   "ocrConf": 95.547058,
+   "raw": "Water Level 178 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-06-14",
+   "conf": "medium",
+   "ocrConf": 77.577301,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.487619,
+   "lon": -116.672951,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249653",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.48762387800008,
+ "lon": -116.67296287299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199069",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249653",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

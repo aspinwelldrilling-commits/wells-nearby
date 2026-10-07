@@ -1,0 +1,49 @@
+{
+ "permit": "WP0012153",
+ "processed": "2026-10-06T23:02:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-200-026",
+ "address": "59252 Patrick Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243892",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 845
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243892",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 332.0,
+   "conf": "low",
+   "ocrConf": 59.179016,
+   "raw": "TOTAL DEPTH OF BORING 332",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243892",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.55295153900005,
+ "lon": -116.62260557999997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243892",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

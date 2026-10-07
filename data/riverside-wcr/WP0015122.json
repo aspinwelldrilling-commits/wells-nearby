@@ -1,0 +1,54 @@
+{
+ "permit": "WP0015122",
+ "processed": "2026-10-06T23:11:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-220-004",
+ "address": "RESERVATION ROAD",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244360",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 120
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244360",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244360",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 39.4,
+   "conf": "medium",
+   "ocrConf": 67.964203,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL. 39.4",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244360",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.527178193000054,
+ "lon": -116.62926228299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210584",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244360",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

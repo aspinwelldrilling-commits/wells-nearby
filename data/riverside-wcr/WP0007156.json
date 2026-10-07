@@ -1,0 +1,63 @@
+{
+ "permit": "WP0007156",
+ "processed": "2026-10-06T22:54:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-180-035",
+ "address": "39650 Rolling Hills Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238845",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 725
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238845",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 355.0,
+   "conf": "low",
+   "ocrConf": 33.287758,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 355",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 90.822906,
+   "raw": "ESTIMATED YIELD * 45 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-10-10",
+   "conf": "medium",
+   "ocrConf": 69.073135,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238845",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.545352697000055,
+ "lon": -116.63797223199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215931",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238845",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

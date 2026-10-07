@@ -1,0 +1,63 @@
+{
+ "permit": "WP0008004",
+ "processed": "2026-10-06T22:57:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-210-006",
+ "address": "39490 Terwilliger Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239946",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 354
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239946",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "high",
+   "ocrConf": 96.618729,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 180",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 50.270439,
+   "raw": "ESTIMATED YieLD * 30 (gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-09-30",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239946",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54792008800007,
+ "lon": -116.63026520099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214999",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239946",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

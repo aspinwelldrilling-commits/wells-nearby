@@ -1,0 +1,63 @@
+{
+ "permit": "WP0003393",
+ "processed": "2026-10-06T22:46:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-320-072",
+ "address": "59980 Rim Rock Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235711",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 887
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235711",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 294.0,
+   "conf": "low",
+   "ocrConf": 29.148895,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 294",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 210.0,
+   "conf": "low",
+   "ocrConf": 36.996071,
+   "raw": "WATER LEVEL _210 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1995-10-07",
+   "conf": "high",
+   "ocrConf": 96.136803,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235711",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.442846616000054,
+ "lon": -116.61791236099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216644",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235711",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

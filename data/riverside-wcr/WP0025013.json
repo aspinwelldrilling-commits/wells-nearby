@@ -1,0 +1,72 @@
+{
+ "permit": "WP0025013",
+ "processed": "2026-10-06T23:27:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-260-058",
+ "address": "45415 Tule Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247991",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 480
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247991",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 96.974739,
+   "raw": "Total Depth of Boring 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 65.0,
+   "conf": "high",
+   "ocrConf": 96.992081,
+   "raw": "Estimated Yield * 65 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 93.859756,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-02-13",
+   "conf": "low",
+   "ocrConf": 12.26165,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247991",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.46440252800005,
+ "lon": -116.63481768499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200928",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247991",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}
