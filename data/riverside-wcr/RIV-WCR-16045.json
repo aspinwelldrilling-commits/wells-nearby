@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-16045",
+ "processed": "2026-10-07T09:26:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "28979 San Timoteo Canyon Rd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16045",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 884
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16045",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 395.0,
+   "conf": "medium",
+   "ocrConf": 66.352722,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __395",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16045",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.991655802000025,
+ "lon": -117.15643376899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410305",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16045",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17732",
+ "bestDocPage": 1,
+ "status": "partial"
+}

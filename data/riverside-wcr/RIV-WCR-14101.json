@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14101",
+ "processed": "2026-10-07T09:27:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-030-020",
+ "address": "20900 Fox Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14101",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1083
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14101",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "low",
+   "ocrConf": 43.058743,
+   "raw": "Completed depth 280 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14101",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.812643868000066,
+ "lon": -117.29804129499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15685",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14101",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16276",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

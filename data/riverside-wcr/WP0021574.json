@@ -1,0 +1,64 @@
+{
+ "permit": "WP0021574",
+ "processed": "2026-10-07T09:54:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-220-015",
+ "address": "22781 Francine Ct",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247041",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 424
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247041",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "medium",
+   "ocrConf": 96.019653,
+   "raw": "Total Depth of Boring 120",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 94.751526,
+   "raw": "Estimated Yield* 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-04-01",
+   "conf": "high",
+   "ocrConf": 89.284332,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247041",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80706013300005,
+ "lon": -117.26503389099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203699",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247041",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

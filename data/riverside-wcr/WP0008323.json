@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008323",
+ "processed": "2026-10-07T09:35:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "343-100-001",
+ "address": "Terrace Avenue",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239579",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 953
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239579",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 54.0,
+   "conf": "high",
+   "ocrConf": 96.357903,
+   "raw": "WATER LEVEL 54 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-06-26",
+   "conf": "high",
+   "ocrConf": 93.174545,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239579",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.766909207000026,
+ "lon": -117.291874958,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215538",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239579",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

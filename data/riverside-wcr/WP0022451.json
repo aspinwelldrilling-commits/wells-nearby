@@ -1,0 +1,64 @@
+{
+ "permit": "WP0022451",
+ "processed": "2026-10-07T09:55:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "473-100-002",
+ "address": "10950 Reche Canyon Rd",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249233",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 418
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249233",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 96.578667,
+   "raw": "Total Depth of Boring 600",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 32.714073,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-05-12",
+   "conf": "low",
+   "ocrConf": 18.973221,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249233",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.961572115000024,
+ "lon": -117.18506885,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18808",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249233",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

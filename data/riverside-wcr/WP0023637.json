@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023637",
+ "processed": "2026-10-07T09:58:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "429-260-052",
+ "address": "23682 Darr Rd",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248027",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 396
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248027",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.860138,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Re",
+   "conf": "low",
+   "ocrConf": 25.603348,
+   "raw": "Drilling Method Air re Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-09-17",
+   "conf": "high",
+   "ocrConf": 94.352829,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248027",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.77732856000006,
+ "lon": -117.07833881599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202429",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248027",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

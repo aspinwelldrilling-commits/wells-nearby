@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-31626",
+ "processed": "2026-10-07T09:07:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "110 Mountain Ave",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31626",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1711
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31626",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 92.459488,
+   "raw": "Standing level after well completion 130 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31626",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.766126686000064,
+ "lon": -117.23009991899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/21397",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31626",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "08343",
+ "bestDocPage": 1,
+ "status": "partial"
+}

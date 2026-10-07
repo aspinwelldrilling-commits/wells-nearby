@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-25769",
+ "processed": "2026-10-07T09:31:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "314-060-048",
+ "address": "22415 Akers Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25769",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 938
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25769",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 76.966789,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 250",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25769",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.84923315900005,
+ "lon": -117.27181069499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409715",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25769",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "25435",
+ "bestDocPage": 1,
+ "status": "partial"
+}

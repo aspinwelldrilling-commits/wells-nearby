@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14527",
+ "processed": "2026-10-07T09:23:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "471-210-026",
+ "address": "9173 Reche Canyon Rd",
+ "city": "Colton",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14527",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1059
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14527",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 58.260544,
+   "raw": "Completed depth 500 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14527",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.98705217000003,
+ "lon": -117.22097461999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16540",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14527",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16707",
+ "bestDocPage": 1,
+ "status": "partial"
+}

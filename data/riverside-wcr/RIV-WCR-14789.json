@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14789",
+ "processed": "2026-10-07T09:27:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "325-070-030",
+ "address": "21790 Fisher St",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14789",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1070
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14789",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 145.0,
+   "conf": "high",
+   "ocrConf": 86.673882,
+   "raw": "Completed depth 145 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 65.0,
+   "conf": "medium",
+   "ocrConf": 76.730804,
+   "raw": "Standing level after well completion 65 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14789",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.775815,
+ "lon": -117.281032,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16923",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14789",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16904",
+ "bestDocPage": 1,
+ "status": "readable"
+}

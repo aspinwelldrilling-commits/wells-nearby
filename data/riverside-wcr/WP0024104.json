@@ -1,0 +1,71 @@
+{
+ "permit": "WP0024104",
+ "processed": "2026-10-07T11:05:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "307-220-010",
+ "address": "Nuevo Rd",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247840",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 417
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247840",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "low",
+   "ocrConf": 41.41188,
+   "raw": "Total Depth of Completed Well 350",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.445,
+   "conf": "high",
+   "ocrConf": 80.927048,
+   "raw": "Estimated Yield * 2.445 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 79.0,
+   "conf": "low",
+   "ocrConf": 23.239487,
+   "raw": "Water Level 79 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-09-13",
+   "conf": "medium",
+   "ocrConf": 79.106514,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247840",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80269689800008,
+ "lon": -117.15949906299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201033",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247840",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

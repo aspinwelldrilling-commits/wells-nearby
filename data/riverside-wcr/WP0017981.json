@@ -1,0 +1,78 @@
+{
+ "permit": "WP0017981",
+ "processed": "2026-10-07T09:52:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-210-012",
+ "address": "21310 Yucca Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245864",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 758
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245864",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 404.0,
+   "conf": "high",
+   "ocrConf": 96.588631,
+   "raw": "Total Depth of Completed Well 404",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.817551,
+   "raw": "Estimated Yield * 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling Driting",
+   "conf": "medium",
+   "ocrConf": 50.578484,
+   "raw": "Drilling Method Air Drilling Driting Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 65.849213,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-07",
+   "conf": "high",
+   "ocrConf": 95.16214,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245864",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.81027387000006,
+ "lon": -117.26585734699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208638",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245864",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

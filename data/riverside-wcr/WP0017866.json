@@ -1,0 +1,78 @@
+{
+ "permit": "WP0017866",
+ "processed": "2026-10-07T10:46:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "486-320-003",
+ "address": "2700' S Of Dephinium At End Of Nason",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245754",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1656
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245754",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245754",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 615.0,
+   "conf": "medium",
+   "ocrConf": 96.441498,
+   "raw": "Total Depth of Boring 615",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 740.0,
+   "conf": "high",
+   "ocrConf": 89.905479,
+   "raw": "Estimated Yield * 740 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 122.0,
+   "conf": "high",
+   "ocrConf": 84.060814,
+   "raw": "Water Level _122 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-10-01",
+   "conf": "high",
+   "ocrConf": 85.487686,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245754",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.90009581100003,
+ "lon": -117.19643936999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208519",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245754",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

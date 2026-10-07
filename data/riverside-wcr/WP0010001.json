@@ -1,0 +1,49 @@
+{
+ "permit": "WP0010001",
+ "processed": "2026-10-07T10:30:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "318-061-026",
+ "address": "21020 Cajalco Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240160",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1120
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240160",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 36.212368,
+   "raw": "TOTAL DEPTH OF BORING 32",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240160",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83758977000008,
+ "lon": -117.29605401799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214729",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240160",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

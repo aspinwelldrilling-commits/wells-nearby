@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017929",
+ "processed": "2026-10-07T09:54:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "429-140-038",
+ "address": "22950 Arrow Rd",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245808",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 676
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245808",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 39.615116,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-08-25",
+   "conf": "medium",
+   "ocrConf": 79.150085,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245808",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78847663000005,
+ "lon": -117.09227357599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208584",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245808",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

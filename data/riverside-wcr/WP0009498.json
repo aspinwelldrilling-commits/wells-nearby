@@ -1,0 +1,48 @@
+{
+ "permit": "WP0009498",
+ "processed": "2026-10-07T10:17:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "308-233-002",
+ "address": "35593 Bradley Rd",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240456",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 923
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240456",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 330.0,
+   "conf": "high",
+   "ocrConf": 85.367683,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___ 330",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240456",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83893696200005,
+ "lon": -117.18821470299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214374",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240456",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

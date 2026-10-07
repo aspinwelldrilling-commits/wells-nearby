@@ -1,0 +1,62 @@
+{
+ "permit": "WP0027683",
+ "processed": "2026-10-07T11:06:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "316-200-036",
+ "address": "24560 Nandina Ave",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249598",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 50
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249598",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249598",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 493.0,
+   "conf": "high",
+   "ocrConf": 93.843864,
+   "raw": "Total Depth of Completed Well 493",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-03-30",
+   "conf": "medium",
+   "ocrConf": 75.339218,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249598",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.86825702200008,
+ "lon": -117.23411675999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198945",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249598",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

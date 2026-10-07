@@ -1,0 +1,55 @@
+{
+ "permit": "WP0011731",
+ "processed": "2026-10-07T10:34:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "292-170-012",
+ "address": "12301 Heacock St",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243699",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 768
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243699",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "medium",
+   "ocrConf": 53.008759,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL120",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-01-26",
+   "conf": "low",
+   "ocrConf": 40.317307,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243699",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.94173650000005,
+ "lon": -117.24401119999999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243699",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

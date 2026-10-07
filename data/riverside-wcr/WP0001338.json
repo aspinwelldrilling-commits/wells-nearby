@@ -1,0 +1,48 @@
+{
+ "permit": "WP0001338",
+ "processed": "2026-10-07T10:06:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "423-260-002",
+ "address": "S of Alessandro Blvd/E of Virginia St",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234314",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 875
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234314",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 278.0,
+   "conf": "low",
+   "ocrConf": 22.87719,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 278",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234314",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.917109079000056,
+ "lon": -117.11888707299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222048",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234314",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

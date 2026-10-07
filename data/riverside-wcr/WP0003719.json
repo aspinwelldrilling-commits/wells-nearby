@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003719",
+ "processed": "2026-10-07T08:59:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "422-070-032",
+ "address": "13200 Theodore St",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235908",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 897
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235908",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 42.146385,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 96.288948,
+   "raw": "DRILLING\nMETHOD ROTARY FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235908",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.931331675000024,
+ "lon": -117.13791498799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218328",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235908",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

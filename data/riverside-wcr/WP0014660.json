@@ -1,0 +1,57 @@
+{
+ "permit": "WP0014660",
+ "processed": "2026-10-07T09:46:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-150-001",
+ "address": "Old Elsinore Road",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243147",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 751
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243147",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 229.0,
+   "conf": "low",
+   "ocrConf": 61.626266,
+   "raw": "TOTAL DEPTH OF BORING 229",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 93.318314,
+   "raw": "WATER LEVEL 2 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243147",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.81467487200007,
+ "lon": -117.27348427199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211477",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243147",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

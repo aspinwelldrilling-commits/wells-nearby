@@ -1,0 +1,56 @@
+{
+ "permit": "WP0017994",
+ "processed": "2026-10-07T10:42:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "297-200-003",
+ "address": "Riverside Dr",
+ "city": "March Air Reserve Base",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245882",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3415
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245882",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 84.0,
+   "conf": "low",
+   "ocrConf": 12.118515,
+   "raw": "TOTAL DEPTH OF BORING 84",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-08-10",
+   "conf": "high",
+   "ocrConf": 96.7304,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245882",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.905632867000065,
+ "lon": -117.25289508099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208649",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245882",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

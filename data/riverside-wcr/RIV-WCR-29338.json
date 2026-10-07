@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-29338",
+ "processed": "2026-10-07T10:02:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "490 E San Jacinto Ave",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29338",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 756
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29338",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 71.0,
+   "conf": "low",
+   "ocrConf": 13.331299,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 71",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-03-31",
+   "conf": "high",
+   "ocrConf": 86.816605,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29338",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.787847,
+ "lon": -117.215942,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408792",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29338",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31651",
+ "bestDocPage": 1,
+ "status": "partial"
+}

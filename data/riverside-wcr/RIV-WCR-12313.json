@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-12313",
+ "processed": "2026-10-07T09:18:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "21694 Webster Ave",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12313",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 980
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12313",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "low",
+   "ocrConf": 69.676834,
+   "raw": "(12) WELL LOG: Total depth 500",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12313",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80566475100005,
+ "lon": -117.24254344299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11680",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12313",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14157",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,48 @@
+{
+ "permit": "WP0000213",
+ "processed": "2026-10-07T08:50:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "478-050-001",
+ "address": "28300 Alessandro Blvd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233528",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1125
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233528",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 875.0,
+   "conf": "medium",
+   "ocrConf": 62.966366,
+   "raw": "Completed depth 875 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233528",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.91836489100007,
+ "lon": -117.16921823299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222400",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233528",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

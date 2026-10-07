@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018609",
+ "processed": "2026-10-07T10:48:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "481-111-001",
+ "address": "24250 Postal Ave",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246011",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 531
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246011",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 93.102989,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-04-17",
+   "conf": "high",
+   "ocrConf": 94.256119,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246011",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.940786,
+ "lon": -117.243502,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209122",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246011",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

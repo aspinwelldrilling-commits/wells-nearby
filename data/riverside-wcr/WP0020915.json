@@ -1,0 +1,48 @@
+{
+ "permit": "WP0020915",
+ "processed": "2026-10-07T10:54:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "413-450-085",
+ "address": "San Timoteo Rd",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246427",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 441
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246427",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 290.0,
+   "conf": "high",
+   "ocrConf": 89.879318,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 290",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246427",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.958571103000054,
+ "lon": -117.06261461499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205134",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246427",
+ "serviceType": "Destruction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,64 @@
+{
+ "permit": "WP0024542",
+ "processed": "2026-10-07T09:57:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "427-100-035",
+ "address": "21931 Corso Alto Ave",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248082",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1112
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248082",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 825.0,
+   "conf": "medium",
+   "ocrConf": 96.863258,
+   "raw": "Total Depth of Boring 825",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 93.879112,
+   "raw": "Estimated Yield * 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-08-19",
+   "conf": "high",
+   "ocrConf": 95.053841,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248082",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80426227100003,
+ "lon": -117.11886591599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201456",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248082",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

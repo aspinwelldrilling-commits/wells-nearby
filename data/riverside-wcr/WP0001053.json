@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001053",
+ "processed": "2026-10-07T10:05:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "22255 Eucalyptus Ave",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234131",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 896
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234131",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 135.0,
+   "conf": "low",
+   "ocrConf": 11.251793,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 135",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-08-24",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234131",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.931461125000055,
+ "lon": -117.27615010299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221408",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234131",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

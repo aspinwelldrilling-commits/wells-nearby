@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-16081",
+ "processed": "2026-10-07T09:29:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "426-210-011",
+ "address": "31046 Brown Ave",
+ "city": "Lakeview",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16081",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1039
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16081",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 87.761124,
+   "raw": "(12) WELL LOG: Total depth 600",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 330.0,
+   "conf": "high",
+   "ocrConf": 93.157104,
+   "raw": "Standing level after well completion 330 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16081",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.818144,
+ "lon": -117.119397,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410317",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16081",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17755",
+ "bestDocPage": 1,
+ "status": "readable"
+}

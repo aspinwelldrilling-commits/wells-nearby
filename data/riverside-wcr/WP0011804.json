@@ -1,0 +1,72 @@
+{
+ "permit": "WP0011804",
+ "processed": "2026-10-07T10:34:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-050-007",
+ "address": "NW Corner of Pico Ave & San Jacinto",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242090",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 768
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242090",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 370.0,
+   "conf": "high",
+   "ocrConf": 83.01403,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 370",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 911.0,
+   "conf": "low",
+   "ocrConf": 43.242832,
+   "raw": "WATER LEVEL _911.0 (Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-05-22",
+   "conf": "high",
+   "ocrConf": 96.602562,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2020.0,
+   "conf": "medium",
+   "ocrConf": 62.786785,
+   "raw": "ESTIMATED YIELD __ 2020 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242090",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78757709200005,
+ "lon": -117.16460647399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212373",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242090",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

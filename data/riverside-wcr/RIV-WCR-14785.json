@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14785",
+ "processed": "2026-10-07T09:24:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "315-082-017",
+ "address": "20880 THOMAS LN",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14785",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1089
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14785",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "medium",
+   "ocrConf": 79.591019,
+   "raw": "Completed depth 265 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14785",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.84975398200004,
+ "lon": -117.29867914699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16920",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14785",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16902",
+ "bestDocPage": 1,
+ "status": "partial"
+}

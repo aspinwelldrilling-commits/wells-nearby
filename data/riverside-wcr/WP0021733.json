@@ -1,0 +1,56 @@
+{
+ "permit": "WP0021733",
+ "processed": "2026-10-07T09:57:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-170-048",
+ "address": "29180 Blanik Ave",
+ "city": "Romoland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247108",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 108
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247108",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 40.24654,
+   "raw": "TOTAL DEPTH OF BORING 22",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-06-09",
+   "conf": "low",
+   "ocrConf": 42.9216,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247108",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78356125700003,
+ "lon": -117.15317239999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203845",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247108",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

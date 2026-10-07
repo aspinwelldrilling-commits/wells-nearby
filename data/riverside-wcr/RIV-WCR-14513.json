@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14513",
+ "processed": "2026-10-07T09:26:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "429-260-037",
+ "address": "23600 Darr Rd",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14513",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1023
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14513",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 92.510292,
+   "raw": "Completed depth 300 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 62.054115,
+   "raw": "Standing level after well completion 4",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14513",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.77816786500006,
+ "lon": -117.07807945399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16514",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14513",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16694",
+ "bestDocPage": 1,
+ "status": "readable"
+}

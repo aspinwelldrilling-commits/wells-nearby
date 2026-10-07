@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022452",
+ "processed": "2026-10-07T09:57:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "427-390-018",
+ "address": "Rowley Ln",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249235",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 345
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249235",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "medium",
+   "ocrConf": 61.484863,
+   "raw": "ESTIMATED YieLD * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-09-02",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249235",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.802478603000054,
+ "lon": -117.109852693,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18810",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249235",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

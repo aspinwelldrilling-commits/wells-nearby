@@ -1,0 +1,64 @@
+{
+ "permit": "WP0003487",
+ "processed": "2026-10-07T08:59:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "295-280-007",
+ "address": "21750 Jefferson St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235776",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 844
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235776",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "medium",
+   "ocrConf": 69.435349,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 280",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 37.0,
+   "conf": "high",
+   "ocrConf": 96.74054,
+   "raw": "WATER LEVEL 37 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.988541,
+   "raw": "DRILLING\nMETHOD AIR FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235776",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.86463609900005,
+ "lon": -117.28371386799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/263610",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235776",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

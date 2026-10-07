@@ -1,0 +1,68 @@
+{
+ "permit": "RIV-WCR-29320",
+ "processed": "2026-10-07T09:28:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "471-250-015-9",
+ "address": "HIGH COUNTRY DRIVE",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29320",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 737
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29320",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 61.265625,
+   "raw": "TOTAL DEPTH OF BORING 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 79.726799,
+   "raw": "WATER LEVEL 2A (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 21.748207,
+   "raw": "ESTIMATED YIELD * __7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29320",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.9872,
+ "lon": -117.207133,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408772",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29320",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31631",
+ "bestDocPage": 1,
+ "status": "partial"
+}

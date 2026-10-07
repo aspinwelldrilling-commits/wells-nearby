@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15365",
+ "processed": "2026-10-07T09:27:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "323-160-005",
+ "address": "22790 Old Elsinore Rd",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15365",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1035
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15365",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 45.505859,
+   "raw": "Completed depth 32",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15365",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.789328444000034,
+ "lon": -117.27339806399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410012",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15365",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17283",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

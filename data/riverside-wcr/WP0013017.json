@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013017",
+ "processed": "2026-10-07T10:35:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "260-460-012",
+ "address": "23573 Sunnymead Ranch Pkwy",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242211",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1447
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242211",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 59.0,
+   "conf": "low",
+   "ocrConf": 28.675873,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___59",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-03",
+   "conf": "high",
+   "ocrConf": 96.08329,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242211",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.96937180000003,
+ "lon": -117.25345919999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211939",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242211",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

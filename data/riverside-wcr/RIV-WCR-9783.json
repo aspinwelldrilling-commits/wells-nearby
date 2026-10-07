@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-9783",
+ "processed": "2026-10-07T09:10:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "23650 Old Rd",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9783",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 953
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9783",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 109.0,
+   "conf": "low",
+   "ocrConf": 79.172241,
+   "raw": "(12) WELL LOG: Total depth 109",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9783",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.77688415000006,
+ "lon": -117.29111357999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7744",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9783",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12183",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

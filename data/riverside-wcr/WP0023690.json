@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023690",
+ "processed": "2026-10-07T11:00:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "481-180-018",
+ "address": "24991 Sunnymead Blvd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248080",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 395
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248080",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 140.0,
+   "conf": "medium",
+   "ocrConf": 72.175964,
+   "raw": "Total Depth of Completed Well _140",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-10-10",
+   "conf": "low",
+   "ocrConf": 41.22543,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248080",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.938959400000044,
+ "lon": -117.22675239999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202468",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248080",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

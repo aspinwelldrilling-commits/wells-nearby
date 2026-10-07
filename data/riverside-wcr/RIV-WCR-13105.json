@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13105",
+ "processed": "2026-10-07T09:24:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "29951 13Th St",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13105",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1021
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13105",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 165.0,
+   "conf": "low",
+   "ocrConf": 47.255547,
+   "raw": "completed depth 165 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13105",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80403700900007,
+ "lon": -117.13926911299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13422",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13105",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15034",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

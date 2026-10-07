@@ -1,0 +1,64 @@
+{
+ "permit": "WP0001957",
+ "processed": "2026-10-07T08:57:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "426-160-048",
+ "address": "19990 Schroder Rd",
+ "city": "Lakeview",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234769",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 834
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234769",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 354.0,
+   "conf": "medium",
+   "ocrConf": 83.136429,
+   "raw": "TOTAL DEPTH OF BORING _354",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 280.0,
+   "conf": "medium",
+   "ocrConf": 55.914055,
+   "raw": "WATER LeveL ___280 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.600677,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234769",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83171262400003,
+ "lon": -117.11263576699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221035",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234769",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

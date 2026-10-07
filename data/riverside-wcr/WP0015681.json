@@ -1,0 +1,57 @@
+{
+ "permit": "WP0015681",
+ "processed": "2026-10-07T09:47:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244690",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 975
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244690",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "(12) WELL LOG: Total depth22O",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 26.786049,
+   "raw": "Standing level after well completion__ 3 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244690",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.92560490400007,
+ "lon": -117.13019198699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/224610",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244690",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

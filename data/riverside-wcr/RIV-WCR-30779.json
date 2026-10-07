@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-30779",
+ "processed": "2026-10-07T09:07:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "SAN TIMETEO RD, REDLANDS BLVD",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30779",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 178
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30779",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30779",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 299.0,
+   "conf": "low",
+   "ocrConf": 56.495571,
+   "raw": "(12) WELL LOG: Total depth 299",
+   "note": "total depth (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30779",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.97861009600007,
+ "lon": -117.12243720499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19602",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30779",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "07021",
+ "bestDocPage": 2,
+ "status": "unreadable"
+}

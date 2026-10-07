@@ -1,0 +1,72 @@
+{
+ "permit": "WP0004307",
+ "processed": "2026-10-07T09:01:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "306-090-029",
+ "address": "26701 Placentia Ave",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236268",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 847
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236268",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 205.0,
+   "conf": "medium",
+   "ocrConf": 66.688126,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _205",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 22.0,
+   "conf": "medium",
+   "ocrConf": 75.354858,
+   "raw": "ESTIMATED YIELD - 22 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 36.488499,
+   "raw": "WATER LEVEL 32\" (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.529755,
+   "raw": "DRILLING\nMETHOD AIR FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236268",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.822415755000065,
+ "lon": -117.19703007599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220065",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236268",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,49 @@
+{
+ "permit": "WP0013234",
+ "processed": "2026-10-07T10:37:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "313-102-001",
+ "address": "403 S D St",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242361",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1279
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242361",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 80.0,
+   "conf": "low",
+   "ocrConf": 5.928726,
+   "raw": "TOTAL DEPTH OF BORING 80",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242361",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.782195700000045,
+ "lon": -117.22821229999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212221",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242361",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

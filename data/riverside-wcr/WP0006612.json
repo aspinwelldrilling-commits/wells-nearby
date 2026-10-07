@@ -1,0 +1,85 @@
+{
+ "permit": "WP0006612",
+ "processed": "2026-10-07T10:17:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "481-260-007",
+ "address": "24195 Fir Ave",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238526",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1731
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238526",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238526",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 96.5,
+   "conf": "high",
+   "ocrConf": 94.575356,
+   "raw": "WATER LEVEL 96.5 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-03-24",
+   "conf": "high",
+   "ocrConf": 96.59729,
+   "page": 1,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 320.0,
+   "conf": "high",
+   "ocrConf": 81.860382,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __320",
+   "page": 2,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 96.729996,
+   "raw": "DRILLING\nMETHOD Rotary FLUID\n",
+   "page": 2,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 420.0,
+   "conf": "medium",
+   "ocrConf": 67.28347,
+   "raw": "ESTIMATED YIELD*_420 (GPM",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238526",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.93493213900007,
+ "lon": -117.24042894699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218152",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238526",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "readable"
+}

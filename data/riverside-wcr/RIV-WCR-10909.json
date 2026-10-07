@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-10909",
+ "processed": "2026-10-07T09:16:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": null,
+ "city": "Lakeview",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10909",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 971
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10909",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 309.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "(12) WELL LOG: Total depth309",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10909",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.819632942000055,
+ "lon": -117.12519230299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9392",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10909",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13011",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

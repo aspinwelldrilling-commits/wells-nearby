@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-16349",
+ "processed": "2026-10-07T09:59:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "297-100-002",
+ "address": "FREEWAY 215",
+ "city": "Arnold Heights",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16349",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 861
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16349",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 85.0,
+   "conf": "medium",
+   "ocrConf": 55.044693,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 85",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-04-09",
+   "conf": "high",
+   "ocrConf": 93.17556,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16349",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.90945489400008,
+ "lon": -117.28774201299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410424",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16349",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17936",
+ "bestDocPage": 1,
+ "status": "readable"
+}

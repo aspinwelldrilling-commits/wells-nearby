@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019036",
+ "processed": "2026-10-07T10:50:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "305-180-014",
+ "address": "21694 Webster Ave",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246168",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2253
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246168",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 170.0,
+   "conf": "low",
+   "ocrConf": 35.36599,
+   "raw": "Total Depth of Completed Well 170",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.156029,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-09-09",
+   "conf": "high",
+   "ocrConf": 85.918518,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246168",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80660002800005,
+ "lon": -117.24139931299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207953",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246168",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

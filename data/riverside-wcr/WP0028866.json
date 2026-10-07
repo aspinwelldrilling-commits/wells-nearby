@@ -1,0 +1,104 @@
+{
+ "permit": "WP0028866",
+ "processed": "2026-10-07T09:58:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "426-160-018",
+ "address": "31456 Yucca Ave",
+ "city": "Lakeview",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248795",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 97
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248795",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248795",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248795",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248795",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 420.0,
+   "conf": "high",
+   "ocrConf": 84.488678,
+   "raw": "Total Depth of Completed Well 420",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 27.0,
+   "conf": "high",
+   "ocrConf": 96.260223,
+   "raw": "Estimated Yield* 27 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 220.0,
+   "conf": "high",
+   "ocrConf": 96.619171,
+   "raw": "Water Level 220 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 84.709389,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 3,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 93.577347,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.83111,
+   "lon": -117.10952,
+   "conf": "high",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248795",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83111489500004,
+ "lon": -117.10953197599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/54190",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248795",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

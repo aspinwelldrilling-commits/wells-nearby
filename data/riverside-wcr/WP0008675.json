@@ -1,0 +1,48 @@
+{
+ "permit": "WP0008675",
+ "processed": "2026-10-07T09:36:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "307-240-002",
+ "address": "27200 Lemon Ave",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239778",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 915
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239778",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 41.220913,
+   "raw": "ESTIMATED YIELD * {2 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239778",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.813246442000036,
+ "lon": -117.18802132199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216523",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239778",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

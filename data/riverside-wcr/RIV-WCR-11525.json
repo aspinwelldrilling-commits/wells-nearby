@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-11525",
+ "processed": "2026-10-07T09:15:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "32052 San Jacinto Ave",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11525",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 989
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11525",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 304.0,
+   "conf": "medium",
+   "ocrConf": 91.64315,
+   "raw": "(12) WELL LOG: Total depth 304",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11525",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80468757600005,
+ "lon": -117.10348252799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10396",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11525",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13514",
+ "bestDocPage": 1,
+ "status": "partial"
+}

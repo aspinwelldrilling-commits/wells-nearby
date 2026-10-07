@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-12119",
+ "processed": "2026-10-07T09:17:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "EUCALYPTUS",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12119",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 982
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12119",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 39.105263,
+   "raw": "Discharge___1 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12119",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.77457,
+ "lon": -117.286241,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11346",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12119",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13990",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

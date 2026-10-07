@@ -1,0 +1,70 @@
+{
+ "permit": "WP0017936",
+ "processed": "2026-10-07T10:45:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "302-130-038",
+ "address": "4039 N Perris Blvd",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245818",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3102
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245818",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245818",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 99.0,
+   "conf": "medium",
+   "ocrConf": 96.555099,
+   "raw": "Total Depth of Boring 99",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 95.757706,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid\nili",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-17",
+   "conf": "low",
+   "ocrConf": 45.012619,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245818",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.845448400000066,
+ "lon": -117.22511989999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208590",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245818",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

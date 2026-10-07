@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13125",
+ "processed": "2026-10-07T10:01:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "390-170-055",
+ "address": "29375 Nuevo Valley Dr",
+ "city": "Romoland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13125",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1079
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13125",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 444.0,
+   "conf": "medium",
+   "ocrConf": 54.070099,
+   "raw": "Completed depth 444 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13125",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.780278140000064,
+ "lon": -117.15015285299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13450",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13125",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15049",
+ "bestDocPage": 1,
+ "status": "partial"
+}

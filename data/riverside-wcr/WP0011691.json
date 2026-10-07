@@ -1,0 +1,56 @@
+{
+ "permit": "WP0011691",
+ "processed": "2026-10-07T10:30:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "311-180-056",
+ "address": "700 Corte San Julian",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241999",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 796
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241999",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 70.0,
+   "conf": "low",
+   "ocrConf": 21.749664,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 70",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "medium",
+   "ocrConf": 58.255306,
+   "raw": "ESTIMATED YIELD 7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241999",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.79377599600008,
+ "lon": -117.21964863,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212255",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241999",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

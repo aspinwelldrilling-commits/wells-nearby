@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022799",
+ "processed": "2026-10-07T09:57:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "317-190-009",
+ "address": "20810 Decker Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249318",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 665
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249318",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 94.152504,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 82.910301,
+   "raw": "Water Level _100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-10-11",
+   "conf": "medium",
+   "ocrConf": 78.745628,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249318",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.818255994000026,
+ "lon": -117.26913594299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19222",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249318",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

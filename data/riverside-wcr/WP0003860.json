@@ -1,0 +1,57 @@
+{
+ "permit": "WP0003860",
+ "processed": "2026-10-07T10:12:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "301-140-033",
+ "address": "MORENO BCH E/O VISTA",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236001",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 832
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236001",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING _32",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.874527,
+   "raw": "WATER LEVEL 20 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236001",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.893200971000056,
+ "lon": -117.17643749799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218892",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236001",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

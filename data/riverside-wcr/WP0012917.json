@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012917",
+ "processed": "2026-10-07T09:44:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "457-280-014",
+ "address": "31440 Ruth Ln",
+ "city": "Homeland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242115",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 810
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242115",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 79.211884,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 150",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 45.829895,
+   "raw": "ESTIMATED YIELD * \"7 ___ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242115",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.76941753800003,
+ "lon": -117.11101301599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211814",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242115",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

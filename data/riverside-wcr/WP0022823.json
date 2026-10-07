@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022823",
+ "processed": "2026-10-07T09:55:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-270-016",
+ "address": "22640 Ramona Ave",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249321",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 329
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249321",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 35O",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-01-11",
+   "conf": "high",
+   "ocrConf": 90.852554,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249321",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.79190565300007,
+ "lon": -117.14661603399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203040",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249321",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

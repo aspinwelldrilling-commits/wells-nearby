@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018183",
+ "processed": "2026-10-07T10:47:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "482-141-031",
+ "address": "13261 Perris Blvd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244212",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3004
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244212",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 61.0,
+   "conf": "high",
+   "ocrConf": 90.504448,
+   "raw": "Total Depth of Completed Well 61",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 95.764488,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-11-07",
+   "conf": "medium",
+   "ocrConf": 70.733307,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244212",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.92799720000005,
+ "lon": -117.22699359999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306813",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244212",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

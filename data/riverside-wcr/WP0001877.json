@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001877",
+ "processed": "2026-10-07T08:55:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-200-016",
+ "address": "23600 Ray Ct",
+ "city": "Romoland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234712",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 866
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234712",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 18.4916,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 220",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-06-29",
+   "conf": "medium",
+   "ocrConf": 66.474579,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234712",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.778078676000064,
+ "lon": -117.15323193999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220832",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234712",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,48 @@
+{
+ "permit": "WP0006105",
+ "processed": "2026-10-07T09:02:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-280-037",
+ "address": "28590 Santa Rosa Rd",
+ "city": "Romoland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238197",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 883
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238197",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 969.0,
+   "conf": "medium",
+   "ocrConf": 53.955875,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 969",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238197",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.779717066000046,
+ "lon": -117.16314767099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216436",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238197",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

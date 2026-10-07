@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022013",
+ "processed": "2026-10-07T09:55:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "425-100-017",
+ "address": "4040 W Ramona Expy",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249371",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 346
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249371",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 560.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL560",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-10-30",
+   "conf": "high",
+   "ocrConf": 85.895142,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249371",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83160046800003,
+ "lon": -117.05005061599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18407",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249371",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

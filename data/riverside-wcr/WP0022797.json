@@ -1,0 +1,56 @@
+{
+ "permit": "WP0022797",
+ "processed": "2026-10-07T10:57:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "316-170-007",
+ "address": "24208 San Michele Rd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249314",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 410
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249314",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 143.0,
+   "conf": "low",
+   "ocrConf": 55.821655,
+   "raw": "TOTAL DEPTH OF BORING ___ 143",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-09-28",
+   "conf": "high",
+   "ocrConf": 96.808342,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249314",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.871378529000026,
+ "lon": -117.23703737199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19219",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249314",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

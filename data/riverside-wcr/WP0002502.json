@@ -1,0 +1,65 @@
+{
+ "permit": "WP0002502",
+ "processed": "2026-10-07T08:57:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "318-210-036",
+ "address": "21411 River Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235169",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 786
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235169",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 125.0,
+   "conf": "low",
+   "ocrConf": 48.98811,
+   "raw": "TOTAL DEPTH OF BORING 125",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LeveL ____3@ _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 95.140411,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235169",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.82952329400007,
+ "lon": -117.28923599699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219319",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235169",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

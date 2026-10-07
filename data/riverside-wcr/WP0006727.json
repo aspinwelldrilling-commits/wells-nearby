@@ -1,0 +1,61 @@
+{
+ "permit": "WP0006727",
+ "processed": "2026-10-07T09:32:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-050-023",
+ "address": "28730 Ashby Ln",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238595",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 932
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238595",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238595",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "2000-04-10",
+   "conf": "high",
+   "ocrConf": 96.125595,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 96.595512,
+   "raw": "Estimated yield -- 150 GPM",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238595",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.79259127700004,
+ "lon": -117.16107878199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218660",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238595",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

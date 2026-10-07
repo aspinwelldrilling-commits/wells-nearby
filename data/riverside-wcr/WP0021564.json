@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021564",
+ "processed": "2026-10-07T10:58:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "291-191-013",
+ "address": "22144 Alessandro Blvd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247035",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 372
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247035",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 65.0,
+   "conf": "low",
+   "ocrConf": 12.516525,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL65",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-03-11",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247035",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.917364260000056,
+ "lon": -117.27634839999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203689",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247035",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,62 @@
+{
+ "permit": "WP0002619",
+ "processed": "2026-10-07T08:57:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "306-470-032",
+ "address": "26380 Water Ave",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235105",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 855
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235105",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 96.665939,
+   "raw": "DRILLING\nMETHOD Rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.716499,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-12-07",
+   "conf": "high",
+   "ocrConf": 96.670914,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235105",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.81981692200003,
+ "lon": -117.20178454499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219882",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235105",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

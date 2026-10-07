@@ -1,0 +1,99 @@
+{
+ "permit": "WP0029277",
+ "processed": "2026-10-07T09:59:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "318-120-041",
+ "address": "21651 Elmwood St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248822",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 109
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248822",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248822",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        200",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  15 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Downhole Hammer          Drilling Fluid   Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2020-06-26",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.83516,
+   "lon": -117.28542,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             40 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248822",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83516000000003,
+ "lon": -117.28487999999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34531",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248822",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

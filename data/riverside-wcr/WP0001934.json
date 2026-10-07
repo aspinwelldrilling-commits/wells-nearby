@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001934",
+ "processed": "2026-10-07T08:56:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "457-290-004",
+ "address": "24475 Gradera St",
+ "city": "Homeland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234753",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 942
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234753",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 10.388908,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___ 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 14.0,
+   "conf": "low",
+   "ocrConf": 0.37027,
+   "raw": "ESTIMATED YIELD -14 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234753",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.765104887000064,
+ "lon": -117.11064197099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220966",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234753",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

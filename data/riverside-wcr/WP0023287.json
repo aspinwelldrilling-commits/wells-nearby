@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023287",
+ "processed": "2026-10-07T09:58:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "300-020-016",
+ "address": "20350 Evans Rd",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247662",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 414
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247662",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 53.812809,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 95.523018,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-06-27",
+   "conf": "high",
+   "ocrConf": 94.433289,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247662",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.824979159000065,
+ "lon": -117.19882819099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202122",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247662",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

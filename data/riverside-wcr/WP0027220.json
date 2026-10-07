@@ -1,0 +1,91 @@
+{
+ "permit": "WP0027220",
+ "processed": "2026-10-07T09:58:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "325-200-027-7",
+ "address": "Ellis Ave",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249470",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 824
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249470",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249470",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1300.0,
+   "conf": "high",
+   "ocrConf": 94.622787,
+   "raw": "Total Depth of Completed Well 1300",
+   "page": 2,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 95.519043,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drillin",
+   "conf": "high",
+   "ocrConf": 81.943161,
+   "raw": "Drilling Method Air Drillin Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 83.578369,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-08-17",
+   "conf": "high",
+   "ocrConf": 96.228287,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.77224,
+   "lon": -117.26866,
+   "conf": "low",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249470",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.77224487900003,
+ "lon": -117.26867199899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198771",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249470",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

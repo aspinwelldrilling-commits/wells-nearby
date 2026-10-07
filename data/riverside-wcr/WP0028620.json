@@ -1,0 +1,91 @@
+{
+ "permit": "WP0028620",
+ "processed": "2026-10-07T09:59:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "323-270-014",
+ "address": "20840 Scheesley St",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248752",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 56
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248752",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248752",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 460.0,
+   "conf": "high",
+   "ocrConf": 88.608627,
+   "raw": "Total Depth of Completed Well 460",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 94.037949,
+   "raw": "Estimated Yield* 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 63.0,
+   "conf": "high",
+   "ocrConf": 95.821198,
+   "raw": "Water Level 63 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 64.725845,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-07-18",
+   "conf": "high",
+   "ocrConf": 80.589142,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.78432,
+   "lon": -117.29812,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248752",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78432487900005,
+ "lon": -117.29813200499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270630",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248752",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

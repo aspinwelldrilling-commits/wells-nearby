@@ -1,0 +1,71 @@
+{
+ "permit": "WP0020027",
+ "processed": "2026-10-07T09:54:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "323-210-001",
+ "address": "22425 Hayes St",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246579",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 445
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246579",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 78.710487,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 80.765022,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 95.456947,
+   "raw": "Water Level 30 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-05-21",
+   "conf": "medium",
+   "ocrConf": 61.964031,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246579",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78925980100007,
+ "lon": -117.26917337099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204283",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246579",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

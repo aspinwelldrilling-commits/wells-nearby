@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-15629",
+ "processed": "2026-10-07T09:26:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "317-050-002",
+ "address": "22565 Alviso Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15629",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1048
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15629",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 370.0,
+   "conf": "medium",
+   "ocrConf": 87.578522,
+   "raw": "(12) WELL LOG: Total depth 370",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15629",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.84082902800003,
+ "lon": -117.26927617199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410119",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15629",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17447",
+ "bestDocPage": 1,
+ "status": "partial"
+}

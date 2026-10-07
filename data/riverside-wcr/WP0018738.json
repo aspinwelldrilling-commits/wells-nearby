@@ -1,0 +1,64 @@
+{
+ "permit": "WP0018738",
+ "processed": "2026-10-07T10:49:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "486-320-003",
+ "address": "Nason Street/Filaree Avenue",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246061",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 869
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246061",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 96.574806,
+   "raw": "Total Depth of Boring 100",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "medium",
+   "ocrConf": 79.35334,
+   "raw": "Water Level 75 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-09-21",
+   "conf": "low",
+   "ocrConf": 26.345093,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246061",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.90009581100003,
+ "lon": -117.19643936999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207635",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246061",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

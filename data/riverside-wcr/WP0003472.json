@@ -1,0 +1,55 @@
+{
+ "permit": "WP0003472",
+ "processed": "2026-10-07T08:59:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "425-150-009",
+ "address": "32190 Ramona Expy",
+ "city": "Lakeview",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235764",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 937
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235764",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 95.505157,
+   "raw": "DRILLING\nMETHOD Rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.422508,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235764",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.842639303000055,
+ "lon": -117.09703280299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217197",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235764",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

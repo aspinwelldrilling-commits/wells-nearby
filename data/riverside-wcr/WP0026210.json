@@ -1,0 +1,63 @@
+{
+ "permit": "WP0026210",
+ "processed": "2026-10-07T11:05:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "426-150--02",
+ "address": "19600 6th St",
+ "city": "Lakeview",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248272",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 666
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248272",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 380.0,
+   "conf": "high",
+   "ocrConf": 96.876877,
+   "raw": "Total Depth of Completed Well 380",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-06-01",
+   "conf": "high",
+   "ocrConf": 92.877342,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.8324702,
+   "lon": -117.1070492,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248272",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.832479990000024,
+ "lon": -117.10707315299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199315",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248272",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

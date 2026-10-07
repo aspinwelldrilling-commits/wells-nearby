@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003834",
+ "processed": "2026-10-07T09:00:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "473-080-005",
+ "address": "30001 San Timoteo Canyon Rd",
+ "city": "San Timeteo Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235983",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 957
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235983",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 480.0,
+   "conf": "medium",
+   "ocrConf": 51.978767,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 480",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 110.0,
+   "conf": "low",
+   "ocrConf": 26.406616,
+   "raw": "STATIC\nWATER LeveL 110 Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235983",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.97911566000005,
+ "lon": -117.14045127299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218772",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235983",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

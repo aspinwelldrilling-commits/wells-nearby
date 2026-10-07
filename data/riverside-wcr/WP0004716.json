@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004716",
+ "processed": "2026-10-07T10:13:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "313-093-005",
+ "address": "225 D St",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236566",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2582
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236566",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 96.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ___96 __(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1998-05-06",
+   "conf": "medium",
+   "ocrConf": 51.403393,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236566",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78365770000005,
+ "lon": -117.22803519999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216814",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236566",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

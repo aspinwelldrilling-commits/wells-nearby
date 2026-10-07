@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-14987",
+ "processed": "2026-10-07T09:26:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-050-027",
+ "address": "22555 Palomar Rd",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14987",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1114
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14987",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 230.0,
+   "conf": "low",
+   "ocrConf": 73.87249,
+   "raw": "(12) WELL LOG: Total depth 230",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14987",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.7932126,
+ "lon": -117.16105848,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409952",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14987",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17029",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

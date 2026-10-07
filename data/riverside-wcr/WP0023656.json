@@ -1,0 +1,71 @@
+{
+ "permit": "WP0023656",
+ "processed": "2026-10-07T09:56:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-230-013",
+ "address": "24720 Quail Run Rd",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248053",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 113
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248053",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 96.462448,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 96.931717,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drillin",
+   "conf": "high",
+   "ocrConf": 90.484261,
+   "raw": "Drilling Method Air Drillin Drilling Fluid Ai",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-10-03",
+   "conf": "medium",
+   "ocrConf": 50.621819,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248053",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.76138780800005,
+ "lon": -117.07974308499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202448",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248053",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

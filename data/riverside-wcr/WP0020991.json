@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020991",
+ "processed": "2026-10-07T10:55:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "294-060-004",
+ "address": "Eschscholtizia Ave",
+ "city": "March Air Reserve Base",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246409",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 350
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246409",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 23.0,
+   "conf": "low",
+   "ocrConf": 6.024628,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 23",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-07-26",
+   "conf": "high",
+   "ocrConf": 96.188034,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246409",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.89900946300003,
+ "lon": -117.26825112099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205208",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246409",
+ "serviceType": "Destruction",
+ "wellType": "Extraction",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

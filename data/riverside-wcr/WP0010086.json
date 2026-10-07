@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010086",
+ "processed": "2026-10-07T09:39:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "327-140-005",
+ "address": "24368 Malone Ave",
+ "city": "Romoland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240247",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 983
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240247",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 77.23761,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2023-01-10",
+   "conf": "medium",
+   "ocrConf": 62.0172,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240247",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.766797146000044,
+ "lon": -117.13948302699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214798",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240247",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

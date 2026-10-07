@@ -1,0 +1,63 @@
+{
+ "permit": "WP0021167",
+ "processed": "2026-10-07T09:54:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "307-240-018",
+ "address": "27210 Citrus Ave",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246860",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 328
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246860",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 295.0,
+   "conf": "low",
+   "ocrConf": 34.63665,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL295",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 27.871826,
+   "raw": "ESTIMATED YIELD * 25 _ (gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-11-10",
+   "conf": "low",
+   "ocrConf": 15.072334,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246860",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80938161800003,
+ "lon": -117.18627126699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203301",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246860",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

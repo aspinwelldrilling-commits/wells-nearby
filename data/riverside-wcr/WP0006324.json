@@ -1,0 +1,49 @@
+{
+ "permit": "WP0006324",
+ "processed": "2026-10-07T09:02:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "342-080-006",
+ "address": "1050 David Jones Rd",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238344",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 785
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238344",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 47.186493,
+   "raw": "TOTAL DEPTH OF BORING 30",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238344",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.76930341000008,
+ "lon": -117.24637891499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217199",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238344",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

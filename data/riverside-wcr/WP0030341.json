@@ -1,0 +1,83 @@
+{
+ "permit": "WP0030341",
+ "processed": "2026-10-07T11:07:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "317-160-048",
+ "address": "Webster Ave ",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264885",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 17
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264885",
+   "page": 1,
+   "source": "text",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264885",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well            100",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method         Auger                      Drilling Fluid   None",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "None",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-11-02",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.835207,
+   "lon": -117.244542,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264885",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.835207,
+ "lon": -117.244542,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262452",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264885",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0027609",
+ "processed": "2026-10-07T09:59:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "325-020-004",
+ "address": "Mountain And San Jacinto",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249579",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249579",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 335.0,
+   "conf": "medium",
+   "ocrConf": 95.762329,
+   "raw": "Total Depth of Boring 335",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 72.35025,
+   "raw": "Estimated Yield 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249579",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78450487900005,
+ "lon": -117.29021200399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198918",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249579",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

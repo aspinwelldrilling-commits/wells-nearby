@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-29617",
+ "processed": "2026-10-07T09:31:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "422-220-005-9",
+ "address": "14050 Jack Rabbit Trl",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29617",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 765
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29617",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 675.0,
+   "conf": "low",
+   "ocrConf": 7.212128,
+   "raw": "TOTAL DEPTH OF BORING 675",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29617",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.91480294000007,
+ "lon": -117.05342036999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408717",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29617",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "32263",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

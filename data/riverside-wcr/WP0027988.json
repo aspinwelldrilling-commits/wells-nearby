@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027988",
+ "processed": "2026-10-07T09:58:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "318-120-040",
+ "address": "21735 Elmwood St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249463",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 57
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249463",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.600418,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 93.705917,
+   "raw": "Estimated Yield * 12 {GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-09-18",
+   "conf": "high",
+   "ocrConf": 95.251381,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249463",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83515477200007,
+ "lon": -117.28431269499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19420",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249463",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

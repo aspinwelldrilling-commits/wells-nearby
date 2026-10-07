@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004436",
+ "processed": "2026-10-07T09:01:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-230-004",
+ "address": "21860 Yucca St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236357",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 848
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236357",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 14.0,
+   "conf": "high",
+   "ocrConf": 95.829231,
+   "raw": "WATER LEVEL 14 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 97.00489,
+   "raw": "DRILLING\nMETHOD AIR FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236357",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80301225300008,
+ "lon": -117.26898159099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220457",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236357",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

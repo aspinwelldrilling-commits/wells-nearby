@@ -1,0 +1,57 @@
+{
+ "permit": "WP0000451",
+ "processed": "2026-10-07T08:54:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "342-012-010",
+ "address": "22475 Mountain Ave",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233730",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 901
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233730",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 2407.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 2407",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 33.079391,
+   "raw": "WATER LEVEL 7 \u00a9 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233730",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.76375784900006,
+ "lon": -117.26757177199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222734",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233730",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

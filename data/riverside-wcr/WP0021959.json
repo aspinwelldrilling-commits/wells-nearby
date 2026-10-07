@@ -1,0 +1,63 @@
+{
+ "permit": "WP0021959",
+ "processed": "2026-10-07T09:55:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "295-180-002",
+ "address": "20805 Nandina Ave",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247209",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 386
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247209",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "low",
+   "ocrConf": 35.412277,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL150",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 37.0,
+   "conf": "high",
+   "ocrConf": 89.631302,
+   "raw": "WATER LEVEL 37 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-09-19",
+   "conf": "medium",
+   "ocrConf": 55.559151,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247209",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.865394828000035,
+ "lon": -117.29984949199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204072",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247209",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

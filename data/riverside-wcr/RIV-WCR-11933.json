@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-11933",
+ "processed": "2026-10-07T09:13:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "471-100-006",
+ "address": "8911 Spring Rd",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11933",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1829
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11933",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 74.096405,
+   "raw": "Standing level after well completion 100 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11933",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.99016,
+ "lon": -117.230374,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11028",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11933",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13831",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,68 @@
+{
+ "permit": "WP0029731",
+ "processed": "2026-10-07T11:03:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "308-050-005",
+ "address": "17801 Lake Perris Dr ",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248867",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 106
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248867",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248867",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.425385,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-02-17",
+   "conf": "medium",
+   "ocrConf": 79.697426,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.86732,
+   "lon": -117.181331,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248867",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.86732,
+ "lon": -117.181331,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262626",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248867",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

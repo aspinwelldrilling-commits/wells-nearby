@@ -1,0 +1,71 @@
+{
+ "permit": "WP0017978",
+ "processed": "2026-10-07T09:54:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "257-220-053",
+ "address": "9292 Gawn Trl",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245859",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1669
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245859",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 88.013947,
+   "raw": "Estimated Yield + 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 80.806641,
+   "raw": "Water Level 30 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 64.879288,
+   "raw": "Drilling Method _ Air Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-08-11",
+   "conf": "medium",
+   "ocrConf": 77.64344,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245859",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.984935429000075,
+ "lon": -117.28210785699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208631",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245859",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

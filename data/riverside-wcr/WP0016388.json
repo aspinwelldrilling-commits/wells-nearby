@@ -1,0 +1,49 @@
+{
+ "permit": "WP0016388",
+ "processed": "2026-10-07T10:39:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "312-330-007",
+ "address": "491 S 7th St",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245145",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 987
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245145",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 33.179665,
+   "raw": "(12) WELL LOG: Total depth 30",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245145",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.865019543000074,
+ "lon": -117.21175613699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222787",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245145",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

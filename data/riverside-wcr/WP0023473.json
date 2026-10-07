@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023473",
+ "processed": "2026-10-07T09:55:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "315-250-026",
+ "address": "18651 Clark St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247822",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 337
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247822",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.50634,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 84.269562,
+   "raw": "ESTIMATED YIELD * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-09-03",
+   "conf": "high",
+   "ocrConf": 85.580269,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247822",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.84937765600006,
+ "lon": -117.28907678899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202268",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247822",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

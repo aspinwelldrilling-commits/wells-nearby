@@ -1,0 +1,48 @@
+{
+ "permit": "WP0011255",
+ "processed": "2026-10-07T09:42:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "431-290-016",
+ "address": "23525 California Ave",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241400",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 756
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241400",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 57.197891,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241400",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.77969972900007,
+ "lon": -117.053035078,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213796",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241400",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

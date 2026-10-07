@@ -1,0 +1,71 @@
+{
+ "permit": "WP0023060",
+ "processed": "2026-10-07T09:55:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "471-270-022",
+ "address": "9405 Smiley Blvd",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247535",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 402
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247535",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 90.404091,
+   "raw": "Estimated Yield* 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 93.150101,
+   "raw": "Water Level 75 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "medium",
+   "ocrConf": 77.609596,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-03-28",
+   "conf": "high",
+   "ocrConf": 95.94194,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247535",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.98465534300004,
+ "lon": -117.19043575299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201930",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247535",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

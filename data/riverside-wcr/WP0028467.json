@@ -1,0 +1,55 @@
+{
+ "permit": "WP0028467",
+ "processed": "2026-10-07T11:03:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "413-290-047",
+ "address": "1038 Roberts Rd",
+ "city": "Calimesa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270892",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 710
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270892",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 111.0,
+   "conf": "medium",
+   "ocrConf": 51.887131,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 111",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-02-25",
+   "conf": "high",
+   "ocrConf": 95.93985,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270892",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.97298491400005,
+ "lon": -117.05245097699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270550",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270892",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019576",
+ "processed": "2026-10-07T09:53:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-070-023",
+ "address": "24530 Freeport Dr",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246278",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 673
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246278",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 35.388344,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-01-26",
+   "conf": "low",
+   "ocrConf": 4.422577,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 19.0,
+   "conf": "high",
+   "ocrConf": 96.007957,
+   "raw": "ESTIMATED YiELD *_ 19 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246278",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80432447900006,
+ "lon": -117.29842227699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208289",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246278",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

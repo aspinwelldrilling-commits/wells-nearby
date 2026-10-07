@@ -1,0 +1,55 @@
+{
+ "permit": "WP0000498",
+ "processed": "2026-10-07T10:03:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "MORENO BEACH RD, ALESSANDRO",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233777",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 831
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233777",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 460.0,
+   "conf": "low",
+   "ocrConf": 0.665787,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 460",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-04-17",
+   "conf": "low",
+   "ocrConf": 12.16806,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233777",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.91496233300006,
+ "lon": -117.17420817499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220153",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233777",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-12813",
+ "processed": "2026-10-07T09:16:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "427-210-045",
+ "address": "34200 Sugar Loaf Tr",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12813",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1881
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12813",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 41.779617,
+   "raw": "Completed depth 25 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12813",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80271728900004,
+ "lon": -117.06385468599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12814",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12813",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14728",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

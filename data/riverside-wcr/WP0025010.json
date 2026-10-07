@@ -1,0 +1,63 @@
+{
+ "permit": "WP0025010",
+ "processed": "2026-10-07T09:56:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-220-005",
+ "address": "Garza Rd",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247987",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 537
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247987",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 95.430725,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 88.701736,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-01-20",
+   "conf": "medium",
+   "ocrConf": 77.856674,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247987",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.806862926000065,
+ "lon": -117.26269089699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200926",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247987",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

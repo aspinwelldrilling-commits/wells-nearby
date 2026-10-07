@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-11561",
+ "processed": "2026-10-07T09:14:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "315-201-014",
+ "address": "21744 Mary St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11561",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1066
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11561",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Completed depth 100\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11561",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.85092487600008,
+ "lon": -117.28353999899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10456",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11561",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13544",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

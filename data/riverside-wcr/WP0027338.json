@@ -1,0 +1,79 @@
+{
+ "permit": "WP0027338",
+ "processed": "2026-10-07T09:58:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "471-260-036",
+ "address": "Hollie Dr",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249521",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 775
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249521",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 275.0,
+   "conf": "medium",
+   "ocrConf": 96.334854,
+   "raw": "Total Depth of Boring 275",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.140869,
+   "raw": "Estimated Yield *, 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.510048,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 62.778172,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-10-10",
+   "conf": "low",
+   "ocrConf": 39.822098,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249521",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.978814906000025,
+ "lon": -117.19899200399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198833",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249521",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

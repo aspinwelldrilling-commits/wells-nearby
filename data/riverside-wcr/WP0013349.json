@@ -1,0 +1,56 @@
+{
+ "permit": "WP0013349",
+ "processed": "2026-10-07T09:46:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "431-290-018",
+ "address": "23701 California Ave",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242420",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 777
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242420",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 16.506157,
+   "raw": "ESTIMATED YIELD * 32 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL 2 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242420",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.77609459400003,
+ "lon": -117.05427374499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212414",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242420",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

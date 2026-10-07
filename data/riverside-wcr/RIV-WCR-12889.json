@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-12889",
+ "processed": "2026-10-07T09:19:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "473-050-009",
+ "address": "SAN TIMOTEO CANYON Rd",
+ "city": "Redlands",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12889",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1784
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12889",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 24.410408,
+   "raw": "Completed depth 200 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 95.871399,
+   "raw": "Discharge 20 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12889",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.99124907300006,
+ "lon": -117.15195519699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12986",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12889",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14814",
+ "bestDocPage": 1,
+ "status": "partial"
+}

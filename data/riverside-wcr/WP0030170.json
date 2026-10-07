@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030170",
+ "processed": "2026-10-07T10:01:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "473-070-035",
+ "address": "29991 San Timoteo Canyon Rd ",
+ "city": "San Timeteo Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248978",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 106
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248978",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248978",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        500",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  75 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Other - Mud Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method       Other - Mud Rotary        Drilling Fluid    Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-09-15",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.98386,
+   "lon": -117.138452,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             75 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248978",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.98386,
+ "lon": -117.138458,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310628",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248978",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

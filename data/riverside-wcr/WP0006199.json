@@ -1,0 +1,48 @@
+{
+ "permit": "WP0006199",
+ "processed": "2026-10-07T10:13:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "326-233-006",
+ "address": "650 Indian Circle Dr",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238248",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 876
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238248",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 87.974144,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 30",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238248",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.77996716200005,
+ "lon": -117.24477599,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216754",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238248",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

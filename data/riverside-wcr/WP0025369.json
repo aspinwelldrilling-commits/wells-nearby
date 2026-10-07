@@ -1,0 +1,56 @@
+{
+ "permit": "WP0025369",
+ "processed": "2026-10-07T09:58:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "319-230-012",
+ "address": "20733 Brown St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248351",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 438
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248351",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 96.126083,
+   "raw": "Total Depth of Boring 400",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-01",
+   "conf": "medium",
+   "ocrConf": 79.36393,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248351",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.81854146300003,
+ "lon": -117.29680604799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200349",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248351",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

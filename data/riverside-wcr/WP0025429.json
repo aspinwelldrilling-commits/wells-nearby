@@ -1,0 +1,64 @@
+{
+ "permit": "WP0025429",
+ "processed": "2026-10-07T09:57:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "473-220-080",
+ "address": "11841 Orange Grove Cir",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248396",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 61
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248396",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 710.0,
+   "conf": "medium",
+   "ocrConf": 96.724442,
+   "raw": "Total Depth of Boring 710",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 89.990112,
+   "raw": "Estimated Yield* 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-07-31",
+   "conf": "medium",
+   "ocrConf": 55.959846,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248396",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.949135246000026,
+ "lon": -117.14618467199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200413",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248396",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

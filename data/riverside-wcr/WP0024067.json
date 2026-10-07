@@ -1,0 +1,55 @@
+{
+ "permit": "WP0024067",
+ "processed": "2026-10-07T11:02:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "316-210-086",
+ "address": "17791 Perris Blvd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247782",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 374
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247782",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "medium",
+   "ocrConf": 53.519073,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-02-19",
+   "conf": "medium",
+   "ocrConf": 73.318375,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247782",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.86222353800002,
+ "lon": -117.23110702299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200999",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247782",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

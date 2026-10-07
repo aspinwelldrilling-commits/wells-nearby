@@ -1,0 +1,56 @@
+{
+ "permit": "WP0022073",
+ "processed": "2026-10-07T10:55:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "313-081-001",
+ "address": "2 S D St",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249381",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 362
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249381",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 55.0,
+   "conf": "low",
+   "ocrConf": 44.12413,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___55",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-10-31",
+   "conf": "high",
+   "ocrConf": 93.446808,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249381",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78623470000008,
+ "lon": -117.22848489999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18434",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249381",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

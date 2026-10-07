@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001775",
+ "processed": "2026-10-07T08:56:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "306-470-021",
+ "address": "26425 Toliver Rd",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234644",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 769
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234644",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 79.81321,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 74.330017,
+   "raw": "WATER LEVEL 30 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234644",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.820625206000045,
+ "lon": -117.20178351699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220454",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234644",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

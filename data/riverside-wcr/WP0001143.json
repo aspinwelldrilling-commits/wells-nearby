@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001143",
+ "processed": "2026-10-07T08:54:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "423-180-002",
+ "address": "15980 Gilman Springs Rd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234156",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 897
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234156",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 33.0,
+   "conf": "medium",
+   "ocrConf": 52.205048,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _33",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary Mud",
+   "conf": "high",
+   "ocrConf": 94.310165,
+   "raw": "DRILLING\nMETHOD ROTARY MUD FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234156",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.890695434000065,
+ "lon": -117.07188337399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221503",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234156",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

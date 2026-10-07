@@ -1,0 +1,55 @@
+{
+ "permit": "WP0025431",
+ "processed": "2026-10-07T09:59:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "323-080-070",
+ "address": "22356 Rocky Hills Rd",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248402",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 434
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248402",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 95.642601,
+   "raw": "Water Level 30 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-05",
+   "conf": "high",
+   "ocrConf": 92.602234,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248402",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.79642808700004,
+ "lon": -117.27069254099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200414",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248402",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

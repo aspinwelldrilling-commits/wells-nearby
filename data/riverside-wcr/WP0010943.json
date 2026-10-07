@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010943",
+ "processed": "2026-10-07T10:34:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "308-310-037",
+ "address": "3709 St Austell Way",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241162",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1615
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241162",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 108.0,
+   "conf": "medium",
+   "ocrConf": 63.761135,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 108",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-07-02",
+   "conf": "low",
+   "ocrConf": 30.912613,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241162",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83556202600005,
+ "lon": -117.18723548699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213557",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241162",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

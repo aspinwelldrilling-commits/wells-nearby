@@ -1,0 +1,84 @@
+{
+ "permit": "WP0027241",
+ "processed": "2026-10-07T09:57:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "471-290-016",
+ "address": "24900 Valley Ranch Rd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249483",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 56
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249483",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249483",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "low",
+   "ocrConf": 29.629227,
+   "raw": "Total Depth of Completed Well 180",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 94.518738,
+   "raw": "Estimated Yield\u2019 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 87.374641,
+   "raw": "Water Level 130 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-18",
+   "conf": "medium",
+   "ocrConf": 78.785355,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.9786,
+   "lon": -117.2286,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249483",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.97906165400008,
+ "lon": -117.22781023899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198786",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249483",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

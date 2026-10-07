@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-30435",
+ "processed": "2026-10-07T09:23:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "429-030-037",
+ "address": "31701 Jacinto St",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30435",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 295
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30435",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 224.0,
+   "conf": "medium",
+   "ocrConf": 64.692535,
+   "raw": "Completed depth 224 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30435",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.79946545900003,
+ "lon": -117.11032622999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15944",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30435",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16408",
+ "bestDocPage": 1,
+ "status": "partial"
+}

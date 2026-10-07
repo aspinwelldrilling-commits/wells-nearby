@@ -1,0 +1,64 @@
+{
+ "permit": "WP0018964",
+ "processed": "2026-10-07T10:50:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "260-460-012",
+ "address": "23573 Sunnymead Ranch Pkwy",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246136",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1338
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246136",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 52.0,
+   "conf": "medium",
+   "ocrConf": 96.9245,
+   "raw": "Total Depth of Boring 52",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 96.202217,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-08-20",
+   "conf": "low",
+   "ocrConf": 48.335796,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246136",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.96947620000003,
+ "lon": -117.25357219999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207856",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246136",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

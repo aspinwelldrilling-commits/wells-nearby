@@ -1,0 +1,56 @@
+{
+ "permit": "WP0024654",
+ "processed": "2026-10-07T11:05:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "485-020-001",
+ "address": "24051 John F Kennedy Dr",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248187",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 347
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248187",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 37.0,
+   "conf": "medium",
+   "ocrConf": 95.615784,
+   "raw": "Total Depth of Boring 37",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-09-26",
+   "conf": "low",
+   "ocrConf": 25.377838,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248187",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.902351656000064,
+ "lon": -117.24303672699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201557",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248187",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

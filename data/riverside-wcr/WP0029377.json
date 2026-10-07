@@ -1,0 +1,85 @@
+{
+ "permit": "WP0029377",
+ "processed": "2026-10-07T09:58:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "488-160-007",
+ "address": "27640 Cottonwood ",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248835",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 112
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248835",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248835",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1130.0,
+   "conf": "medium",
+   "ocrConf": 69.375488,
+   "raw": "Total Depth of Completed Well 1130",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 95.899818,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 94.30117,
+   "raw": "Water Level 120 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "medium",
+   "ocrConf": 70.756058,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-08-28",
+   "conf": "medium",
+   "ocrConf": 75.345757,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248835",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.926,
+ "lon": -117.1806,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34641",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248835",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

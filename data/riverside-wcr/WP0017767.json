@@ -1,0 +1,86 @@
+{
+ "permit": "WP0017767",
+ "processed": "2026-10-07T09:52:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-120-005",
+ "address": "21780 Michal Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245734",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1116
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245734",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.631981,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.640739,
+   "raw": "Estimated Yield * 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 33.0,
+   "conf": "low",
+   "ocrConf": 11.472443,
+   "raw": "Water Level 33s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.408524,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 73.981232,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-06-12",
+   "conf": "high",
+   "ocrConf": 96.562424,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245734",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.81147057600003,
+ "lon": -117.282763967,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208438",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245734",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

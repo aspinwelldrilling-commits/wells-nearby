@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013416",
+ "processed": "2026-10-07T09:46:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "29-140-032",
+ "address": "32740 Rex Rd",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242468",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 737
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242468",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 12.402306,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "medium",
+   "ocrConf": 72.491188,
+   "raw": "ESTIMATED YieLD * 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-02-09",
+   "conf": "high",
+   "ocrConf": 89.019478,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242468",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78884164400006,
+ "lon": -117.08905319299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212512",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242468",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

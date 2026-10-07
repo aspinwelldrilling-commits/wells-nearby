@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013005",
+ "processed": "2026-10-07T10:36:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "263-100-015",
+ "address": "2624 E Alessandro Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242202",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1069
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242202",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.98822,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 40",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-15",
+   "conf": "low",
+   "ocrConf": 26.498787,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242202",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.91772068900008,
+ "lon": -117.28559262599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211924",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242202",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

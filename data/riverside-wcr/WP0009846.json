@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009846",
+ "processed": "2026-10-07T09:39:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "343-151-017",
+ "address": "24407 Palm St",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240878",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 710
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240878",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 25.649643,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-10-15",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240878",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.765638651000074,
+ "lon": -117.28237601799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214608",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240878",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

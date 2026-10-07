@@ -1,0 +1,55 @@
+{
+ "permit": "WP0024220",
+ "processed": "2026-10-07T09:58:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "429-130-002",
+ "address": "22951 Juniper Flats Rd",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247891",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 378
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247891",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 74.599876,
+   "raw": "Water Level 400 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-06-02",
+   "conf": "high",
+   "ocrConf": 96.412491,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247891",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78757715100005,
+ "lon": -117.08562447799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201143",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247891",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

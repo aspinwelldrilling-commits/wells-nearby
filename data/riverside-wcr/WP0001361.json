@@ -1,0 +1,57 @@
+{
+ "permit": "WP0001361",
+ "processed": "2026-10-07T08:55:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "314-020-007",
+ "address": "22150 Oleander Ave",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234328",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 826
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234328",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "low",
+   "ocrConf": 59.531673,
+   "raw": "TOTAL DEPTH OF BORING _ 180",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.39576,
+   "raw": "DRILLING\nMETHOD AIR FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234328",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.85786004800008,
+ "lon": -117.27718834699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222102",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234328",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,111 @@
+{
+ "permit": "WP0030862",
+ "processed": "2026-10-07T09:59:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "311-090-011",
+ "address": "1098 W San Jacinto Ave ",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306521",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 24
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306521",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306521",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306521",
+   "page": 3,
+   "source": "text",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306521",
+   "page": 4,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1300.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well            1300",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                   300 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method       Downhole Rotary               Drilling Fluid    Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-10-25",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.78678,
+   "lon": -117.24003,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*                 5 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306521",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78678,
+ "lon": -117.24003,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310888",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306521",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

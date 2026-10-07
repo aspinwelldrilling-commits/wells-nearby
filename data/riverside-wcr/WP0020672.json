@@ -1,0 +1,48 @@
+{
+ "permit": "WP0020672",
+ "processed": "2026-10-07T10:52:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "292-250-023",
+ "address": "23050 Sunnymead Blvd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246501",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 339
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246501",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 85.0,
+   "conf": "low",
+   "ocrConf": 42.320675,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___85",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246501",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.940076900000065,
+ "lon": -117.25993959999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204901",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246501",
+ "serviceType": "Destruction",
+ "wellType": "Air Sparge",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

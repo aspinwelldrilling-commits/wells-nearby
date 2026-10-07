@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014054",
+ "processed": "2026-10-07T10:38:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "481-111-001",
+ "address": "12428 Heacock St",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242531",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1038
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242531",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 122.0,
+   "conf": "low",
+   "ocrConf": 39.192776,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _122",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-03-29",
+   "conf": "high",
+   "ocrConf": 96.587914,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242531",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.940146,
+ "lon": -117.243515,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211049",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242531",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,70 @@
+{
+ "permit": "WP0027672",
+ "processed": "2026-10-07T09:57:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "318-120-046",
+ "address": "21624 Oakwood St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249595",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 59
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249595",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 4.914337,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 82.890045,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 85.149368,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-03-16",
+   "conf": "high",
+   "ocrConf": 85.45459,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249595",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.833744885000044,
+ "lon": -117.28600200699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198933",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249595",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002046",
+ "processed": "2026-10-07T08:57:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "497-220-007",
+ "address": "26285 Cottonwood Ave",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235413",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 927
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235413",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 569.0,
+   "conf": "low",
+   "ocrConf": 46.087601,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ____569",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.106201,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235413",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.924580081000045,
+ "lon": -117.20780980699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221302",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235413",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

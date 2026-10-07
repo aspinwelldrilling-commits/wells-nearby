@@ -1,0 +1,70 @@
+{
+ "permit": "WP0011803",
+ "processed": "2026-10-07T10:35:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "327-020-007",
+ "address": "SW Corner of Ellis & Bradley",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242088",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 794
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242088",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "high",
+   "ocrConf": 96.759918,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.694542,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-05-20",
+   "conf": "high",
+   "ocrConf": 96.465187,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1000.0,
+   "conf": "low",
+   "ocrConf": 31.580505,
+   "raw": "ESTIMATED YIELD _ 1000 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242088",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.77169257700007,
+ "lon": -117.18914023699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212367",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242088",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

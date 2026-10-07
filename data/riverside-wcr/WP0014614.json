@@ -1,0 +1,57 @@
+{
+ "permit": "WP0014614",
+ "processed": "2026-10-07T10:43:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "426-160-050",
+ "address": "19922 6th St",
+ "city": "Lakeview",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243123",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 817
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243123",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 247.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 247",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL __-2- \u00ab+ _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243123",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83403302500005,
+ "lon": -117.11226987299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211445",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243123",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

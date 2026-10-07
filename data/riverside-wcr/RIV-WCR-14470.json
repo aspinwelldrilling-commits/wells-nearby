@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14470",
+ "processed": "2026-10-07T10:04:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "325-030-024",
+ "address": "21164 Versaie Rd",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14470",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1754
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14470",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 230.0,
+   "conf": "medium",
+   "ocrConf": 64.408653,
+   "raw": "Completed depth 230 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14470",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.782494,
+ "lon": -117.29304,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16450",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14470",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16662",
+ "bestDocPage": 1,
+ "status": "partial"
+}

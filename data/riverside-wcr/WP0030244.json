@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030244",
+ "processed": "2026-10-07T09:59:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "318-171-029",
+ "address": "21198 Pinewood St ",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256079",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 13
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256079",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256079",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well            100",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 28.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  28 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method         Downhole Hammer            Drilling Fluid    Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2020-01-24",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.83244,
+   "lon": -117.29324,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             40 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256079",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83255,
+ "lon": -117.29335,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264895",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256079",
+ "serviceType": "Evaluation",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

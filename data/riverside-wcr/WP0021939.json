@@ -1,0 +1,64 @@
+{
+ "permit": "WP0021939",
+ "processed": "2026-10-07T10:55:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "316-200-012",
+ "address": "24870 Nandina Ave",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247200",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 395
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247200",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 90.0,
+   "conf": "medium",
+   "ocrConf": 85.504364,
+   "raw": "Total Depth of Boring 90",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "medium",
+   "ocrConf": 76.063072,
+   "raw": "Water Level 35 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-09-07",
+   "conf": "high",
+   "ocrConf": 91.488029,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247200",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.86721324200005,
+ "lon": -117.22919288999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204052",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247200",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

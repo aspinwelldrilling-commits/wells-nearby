@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007567",
+ "processed": "2026-10-07T09:35:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "302-050-010",
+ "address": "4244 Indian Ave",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239132",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1101
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239132",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 509.0,
+   "conf": "low",
+   "ocrConf": 23.409576,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 509",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 48.970982,
+   "raw": "ESTIMATED YIELD * 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239132",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.848722628000075,
+ "lon": -117.23502831999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217592",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239132",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

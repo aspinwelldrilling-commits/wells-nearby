@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14751",
+ "processed": "2026-10-07T09:26:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "31200 Nuevo Rd",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14751",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1045
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14751",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 420.0,
+   "conf": "medium",
+   "ocrConf": 54.402882,
+   "raw": "Completed depth 420 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "medium",
+   "ocrConf": 61.193031,
+   "raw": "Standing level after well completion 3",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14751",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.799780130000045,
+ "lon": -117.11807538999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16884",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14751",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16884",
+ "bestDocPage": 1,
+ "status": "readable"
+}

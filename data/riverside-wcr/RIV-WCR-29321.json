@@ -1,0 +1,83 @@
+{
+ "permit": "RIV-WCR-29321",
+ "processed": "2026-10-07T10:02:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "292-170-012-0",
+ "address": "12301 Heacock St",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29321",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3491
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29321",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29321",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29321",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29321",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29321",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 106.0,
+   "conf": "low",
+   "ocrConf": 12.774216,
+   "raw": "TOTAL DEPTH OF BORING 106",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-04-25",
+   "conf": "high",
+   "ocrConf": 90.417778,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29321",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.94193860000007,
+ "lon": -117.24398629999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408773",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29321",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31632",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020849",
+ "processed": "2026-10-07T10:53:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "310-041-014",
+ "address": "268 E 4th St",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246487",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 372
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246487",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 96.641693,
+   "raw": "Total Depth of Completed Well 70",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-04",
+   "conf": "high",
+   "ocrConf": 95.544273,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246487",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78266200000007,
+ "lon": -117.22411699999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205067",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246487",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

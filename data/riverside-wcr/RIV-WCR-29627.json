@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-29627",
+ "processed": "2026-10-07T09:29:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "343-130-022-8",
+ "address": "21480 Cypress Ave",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29627",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 751
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29627",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29627",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.76834366000003,
+ "lon": -117.28290914999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408718",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29627",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "32304",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

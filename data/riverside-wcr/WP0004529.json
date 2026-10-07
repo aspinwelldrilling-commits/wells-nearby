@@ -1,0 +1,64 @@
+{
+ "permit": "WP0004529",
+ "processed": "2026-10-07T09:01:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "303-070-001",
+ "address": "3700 Indian Ave",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236430",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 835
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236430",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 525.0,
+   "conf": "low",
+   "ocrConf": 23.552505,
+   "raw": "TOTAL DEPTH OF BORING 525",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 14.7612,
+   "raw": "WATER LEVEL 25 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1997-11-20",
+   "conf": "high",
+   "ocrConf": 86.747757,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236430",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83921466500004,
+ "lon": -117.23047276299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215956",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236430",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

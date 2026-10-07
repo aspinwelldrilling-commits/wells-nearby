@@ -1,0 +1,64 @@
+{
+ "permit": "WP0000349",
+ "processed": "2026-10-07T08:52:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "427-210-046",
+ "address": "34425 Scales Dr",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233647",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1003
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233647",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 235.0,
+   "conf": "medium",
+   "ocrConf": 62.418465,
+   "raw": "Completed depth 235 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 32.0,
+   "conf": "high",
+   "ocrConf": 94.687599,
+   "raw": "Standing level after well completion 32 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 21.3,
+   "conf": "low",
+   "ocrConf": 43.689655,
+   "raw": "Discharge 21.3 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233647",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80396351200005,
+ "lon": -117.06221583999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222622",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233647",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

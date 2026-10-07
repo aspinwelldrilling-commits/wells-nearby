@@ -1,0 +1,63 @@
+{
+ "permit": "WP0003757",
+ "processed": "2026-10-07T09:00:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "319-182-008",
+ "address": "20881 Souder St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235924",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 859
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235924",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 42.714596,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 24",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ___3@ __(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1996-06-24",
+   "conf": "high",
+   "ocrConf": 95.697205,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235924",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.835720845000026,
+ "lon": -117.29854004899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218509",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235924",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

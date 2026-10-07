@@ -1,0 +1,49 @@
+{
+ "permit": "WP0010181",
+ "processed": "2026-10-07T09:40:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "427-390-007",
+ "address": "31313 Rowley Ln",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240360",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 843
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240360",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.322,
+   "conf": "low",
+   "ocrConf": 46.401783,
+   "raw": "TOTAL DEPTH OF BORING 22.322",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240360",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80114864900003,
+ "lon": -117.11418765299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214892",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240360",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

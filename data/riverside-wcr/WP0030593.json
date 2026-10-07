@@ -1,0 +1,68 @@
+{
+ "permit": "WP0030593",
+ "processed": "2026-10-07T11:07:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "317-160-048",
+ "address": "Webster Webster Ave ",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270840",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 15
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270840",
+   "page": 1,
+   "source": "text",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270840",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-04-05",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.834777,
+   "lon": -117.244088,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270840",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.834777,
+ "lon": -117.244088,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270217",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270840",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

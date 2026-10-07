@@ -1,0 +1,68 @@
+{
+ "permit": "RIV-WCR-13449",
+ "processed": "2026-10-07T09:20:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-050-045",
+ "address": "22655 Westport Ln",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13449",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1856
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13449",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 13.033867,
+   "raw": "(12) WELL LOG: Total depth 250",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.783371,
+   "raw": "Discharge 5 gal/min",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-06-26",
+   "conf": "medium",
+   "ocrConf": 44.455093,
+   "raw": "Completed__6/26/ 19",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13449",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.7914674,
+ "lon": -117.16343144,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14221",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13449",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15483",
+ "bestDocPage": 1,
+ "status": "partial"
+}

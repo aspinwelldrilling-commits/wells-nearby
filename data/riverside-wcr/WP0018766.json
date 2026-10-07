@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018766",
+ "processed": "2026-10-07T09:55:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-100-005",
+ "address": "21255 Orange Ave",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246087",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 834
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246087",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 96.918823,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-06-11",
+   "conf": "high",
+   "ocrConf": 94.546509,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246087",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.811886694000066,
+ "lon": -117.29534411999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207661",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246087",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

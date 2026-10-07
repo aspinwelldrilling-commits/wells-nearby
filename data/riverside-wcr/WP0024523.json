@@ -1,0 +1,63 @@
+{
+ "permit": "WP0024523",
+ "processed": "2026-10-07T09:59:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "323-270-015",
+ "address": "20920 Scheesley St",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248058",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 468
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248058",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.679138,
+   "raw": "Estimated Yield * 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 167.0,
+   "conf": "medium",
+   "ocrConf": 77.759018,
+   "raw": "Water Level 167 __\u2014s(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-08-26",
+   "conf": "high",
+   "ocrConf": 95.334854,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248058",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.783233308000035,
+ "lon": -117.29707226399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201442",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248058",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,64 @@
+{
+ "permit": "WP0017057",
+ "processed": "2026-10-07T09:51:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "317-050-029",
+ "address": "22840 Cajalco Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245351",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 724
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245351",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 30.410202,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "medium",
+   "ocrConf": 58.654007,
+   "raw": "ESTIMATED YIELD * 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 27.0,
+   "conf": "low",
+   "ocrConf": 32.246132,
+   "raw": "WATER LEVEL - 27 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245351",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.84029674300007,
+ "lon": -117.26406302399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209647",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245351",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

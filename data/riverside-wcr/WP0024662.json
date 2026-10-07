@@ -1,0 +1,64 @@
+{
+ "permit": "WP0024662",
+ "processed": "2026-10-07T11:05:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "485-020-001",
+ "address": "24051 John F Kennedy Dr",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248192",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 352
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248192",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 37.0,
+   "conf": "medium",
+   "ocrConf": 96.791893,
+   "raw": "Total Depth of Boring 37",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Vacuum Rig",
+   "conf": "high",
+   "ocrConf": 84.505363,
+   "raw": "Drilling Method Air Vacuum Rig Drilling Fluid ae",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-09-25",
+   "conf": "high",
+   "ocrConf": 91.553062,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248192",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.902351656000064,
+ "lon": -117.24303672699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201566",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248192",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0018385",
+ "processed": "2026-10-07T09:55:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-220-005",
+ "address": "23950 Pico Ave",
+ "city": "Romoland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245968",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 859
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245968",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 77.977341,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "low",
+   "ocrConf": 25.905792,
+   "raw": "Estimated Yield * 10s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 160.0,
+   "conf": "medium",
+   "ocrConf": 77.076988,
+   "raw": "Water Level _160 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-02-12",
+   "conf": "medium",
+   "ocrConf": 76.762527,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245968",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.77430703600004,
+ "lon": -117.16208092199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208941",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245968",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

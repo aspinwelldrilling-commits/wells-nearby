@@ -1,0 +1,77 @@
+{
+ "permit": "WP0029451",
+ "processed": "2026-10-07T10:01:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "488-160-007",
+ "address": "27640 Cottonwood Ave ",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248842",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 110
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248842",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248842",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1100.0,
+   "conf": "high",
+   "ocrConf": 87.220062,
+   "raw": "Total Depth of Completed Well 1100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 94.539124,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 93.123672,
+   "raw": "Water Level 120 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.9254,
+   "lon": -117.1821,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248842",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.925400000000025,
+ "lon": -117.18209999999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34648",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248842",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

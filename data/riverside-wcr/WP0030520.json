@@ -1,0 +1,68 @@
+{
+ "permit": "WP0030520",
+ "processed": "2026-10-07T11:07:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "308-150-007",
+ "address": "Line 1027 MP566 Rd ",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270832",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1190
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270832",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270832",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.861191,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-03-17",
+   "conf": "medium",
+   "ocrConf": 67.182892,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.8363,
+   "lon": -117.144,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270832",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.8363,
+ "lon": -117.144,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270186",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270832",
+ "serviceType": "Destruction",
+ "wellType": "Cathodic",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

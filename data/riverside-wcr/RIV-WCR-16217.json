@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-16217",
+ "processed": "2026-10-07T09:27:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-140-033",
+ "address": "29945 Central Ave",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16217",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1140
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16217",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "low",
+   "ocrConf": 19.939201,
+   "raw": "(12) WELL LOG: Total depth 550",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "low",
+   "ocrConf": 28.77829,
+   "raw": "Standing level after well completion\n80",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16217",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.79275177,
+ "lon": -117.13931203,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410380",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16217",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17853",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

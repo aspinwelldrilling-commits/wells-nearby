@@ -1,0 +1,56 @@
+{
+ "permit": "WP0011578",
+ "processed": "2026-10-07T09:44:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "427-380-019",
+ "address": "31677 Contour Rd",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241832",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 852
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241832",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 54.448315,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 25.148857,
+   "raw": "ESTIMATED YIELD * 2 \u00a9? (Gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241832",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80578101200007,
+ "lon": -117.10823492799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211995",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241832",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

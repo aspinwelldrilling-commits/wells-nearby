@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13853",
+ "processed": "2026-10-07T09:23:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "295-280-028",
+ "address": "21775 HAWTHORNE AVE",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13853",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1036
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13853",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "high",
+   "ocrConf": 96.493019,
+   "raw": "Completed depth 260 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13853",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.86388000100004,
+ "lon": -117.28213313399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15014",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13853",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15933",
+ "bestDocPage": 1,
+ "status": "partial"
+}

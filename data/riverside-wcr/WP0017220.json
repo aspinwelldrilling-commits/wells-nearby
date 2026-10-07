@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017220",
+ "processed": "2026-10-07T10:44:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "323-080-058",
+ "address": "22170 Rocky Hills Rd",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245478",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 979
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245478",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 49.784103,
+   "raw": "Water Level 30 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-01-17",
+   "conf": "medium",
+   "ocrConf": 69.528183,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245478",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.79879069000003,
+ "lon": -117.27007896799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209754",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245478",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

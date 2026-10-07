@@ -1,0 +1,64 @@
+{
+ "permit": "WP0020852",
+ "processed": "2026-10-07T10:53:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "310-041-014",
+ "address": "268 E 4th St",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246475",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 368
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246475",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 70.0,
+   "conf": "medium",
+   "ocrConf": 96.374031,
+   "raw": "Total Depth of Boring 70",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "low",
+   "ocrConf": 31.645866,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-04",
+   "conf": "high",
+   "ocrConf": 96.547852,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246475",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78274000000005,
+ "lon": -117.22438899999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205069",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246475",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

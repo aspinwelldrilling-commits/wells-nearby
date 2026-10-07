@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-10369",
+ "processed": "2026-10-07T09:12:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "427-390-008",
+ "address": "31401 Rowley Ln",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10369",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 965
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10369",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 17.610092,
+   "raw": "(12) WELL LOG: Total depth 2OO",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10369",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.801776586000074,
+ "lon": -117.11391524499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8608",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10369",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12618",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0021122",
+ "processed": "2026-10-07T10:51:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "479-220-018",
+ "address": "25020 Alessandro Blvd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246839",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 824
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246839",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 21.080345,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___40",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-09-21",
+   "conf": "high",
+   "ocrConf": 91.972755,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246839",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.917669000000046,
+ "lon": -117.22569759999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203256",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246839",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

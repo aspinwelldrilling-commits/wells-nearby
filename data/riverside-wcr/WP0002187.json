@@ -1,0 +1,64 @@
+{
+ "permit": "WP0002187",
+ "processed": "2026-10-07T08:56:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-220-009",
+ "address": "21760 Yucca Rd",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235349",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 824
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235349",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 79.562836,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 21.0,
+   "conf": "high",
+   "ocrConf": 96.314743,
+   "raw": "WATER LEVEL 21 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.66188,
+   "raw": "DRILLING\nMETHOD AIR FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235349",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80491845300003,
+ "lon": -117.26618204099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221814",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235349",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,75 @@
+{
+ "permit": "WP0002660",
+ "processed": "2026-10-07T08:58:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "327-110-109",
+ "address": "24410 Charlette Ln",
+ "city": "Romoland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235089",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1914
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235089",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235089",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235089",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 80.56546,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 96.193138,
+   "raw": "WATER LEVEL 4 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1995-01-12",
+   "conf": "low",
+   "ocrConf": 30.140213,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235089",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.76615101700003,
+ "lon": -117.15150291199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220015",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235089",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

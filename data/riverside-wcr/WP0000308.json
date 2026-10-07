@@ -1,0 +1,49 @@
+{
+ "permit": "WP0000308",
+ "processed": "2026-10-07T10:02:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "294-170-001",
+ "address": "Site 5, MAFB, EX-5",
+ "city": "March Air Reserve Base",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233612",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2170
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233612",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 70.0,
+   "conf": "medium",
+   "ocrConf": 90.506836,
+   "raw": "WELL LOG: Total depth 70",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233612",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.87722258000008,
+ "lon": -117.25251786499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222545",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233612",
+ "serviceType": "Destruction",
+ "wellType": "Extraction",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

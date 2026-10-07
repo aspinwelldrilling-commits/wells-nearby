@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14205",
+ "processed": "2026-10-07T09:24:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "429-030-025",
+ "address": "22450 Polley Rd",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14205",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2081
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14205",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 394.0,
+   "conf": "high",
+   "ocrConf": 81.994507,
+   "raw": "Completed depth 394 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14205",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80009548000004,
+ "lon": -117.10814861999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15884",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14205",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16376",
+ "bestDocPage": 1,
+ "status": "partial"
+}

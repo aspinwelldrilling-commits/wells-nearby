@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14629",
+ "processed": "2026-10-07T09:26:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "PATTI LN",
+ "city": "Romoland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14629",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1033
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14629",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 61.7463,
+   "raw": "Completed depth 300 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14629",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.770780323000054,
+ "lon": -117.16282799699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16739",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14629",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16811",
+ "bestDocPage": 1,
+ "status": "partial"
+}

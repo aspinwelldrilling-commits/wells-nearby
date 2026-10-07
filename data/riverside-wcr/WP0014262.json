@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014262",
+ "processed": "2026-10-07T09:46:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-005-7",
+ "address": "21255 Orange Ave",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242829",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 760
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242829",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 2000.0,
+   "conf": "low",
+   "ocrConf": 71.110031,
+   "raw": "TOTAL DEPTH OF BORING 2000",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-06-03",
+   "conf": "high",
+   "ocrConf": 84.732071,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242829",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.81438997200007,
+ "lon": -117.29297037899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211207",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242829",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

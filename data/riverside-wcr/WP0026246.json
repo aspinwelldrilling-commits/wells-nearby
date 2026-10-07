@@ -1,0 +1,56 @@
+{
+ "permit": "WP0026246",
+ "processed": "2026-10-07T09:57:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-190-013",
+ "address": "23576 Gunther Rd",
+ "city": "Romoland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248326",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248326",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 860.0,
+   "conf": "medium",
+   "ocrConf": 94.447044,
+   "raw": "Total Depth of Boring 860",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-08-26",
+   "conf": "high",
+   "ocrConf": 94.276115,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248326",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.772675658000026,
+ "lon": -117.14248603499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199347",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248326",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

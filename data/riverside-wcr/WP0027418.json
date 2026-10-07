@@ -1,0 +1,92 @@
+{
+ "permit": "WP0027418",
+ "processed": "2026-10-07T09:57:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "323-050-026-9",
+ "address": "22558 Post Rd",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249561",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 620
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249561",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249561",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 85.709305,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.669174,
+   "raw": "Estimated Yield* 40 {GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 94.917519,
+   "raw": "Water Level 18 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 91.403465,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-01-29",
+   "conf": "high",
+   "ocrConf": 83.08036,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.792592,
+   "lon": -117.293936,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249561",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.792766880000045,
+ "lon": -117.29523800499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198882",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249561",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

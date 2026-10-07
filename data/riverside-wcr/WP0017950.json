@@ -1,0 +1,86 @@
+{
+ "permit": "WP0017950",
+ "processed": "2026-10-07T09:52:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-230-017",
+ "address": "Garza Lane",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245838",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 763
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245838",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 75.772972,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.877876,
+   "raw": "Estimated Yield * 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 91.47332,
+   "raw": "Water Level 20 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling Dring",
+   "conf": "low",
+   "ocrConf": 49.495667,
+   "raw": "Drilling Method Air Drilling Dring Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 75.649223,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-08-07",
+   "conf": "high",
+   "ocrConf": 95.381905,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245838",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80139066600003,
+ "lon": -117.26636772699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208610",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245838",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

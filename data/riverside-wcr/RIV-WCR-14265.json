@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14265",
+ "processed": "2026-10-07T09:29:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "427-400-014",
+ "address": "33705 Jacinto St",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14265",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 680
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14265",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "high",
+   "ocrConf": 86.556801,
+   "raw": "Completed depth 260 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 454.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Standing level after well completion 454 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14265",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.803246315000024,
+ "lon": -117.10521629799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15966",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14265",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16419",
+ "bestDocPage": 1,
+ "status": "partial"
+}

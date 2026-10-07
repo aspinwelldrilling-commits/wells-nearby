@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14878",
+ "processed": "2026-10-07T09:21:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "471-180-026",
+ "address": "9202 Arroyo Dr",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14878",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1786
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14878",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 39.815018,
+   "raw": "Completed depth 300 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14878",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.987911223000026,
+ "lon": -117.22618093199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/17024",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14878",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16957",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

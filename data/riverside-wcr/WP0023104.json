@@ -1,0 +1,64 @@
+{
+ "permit": "WP0023104",
+ "processed": "2026-10-07T11:02:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "482-141-031",
+ "address": "13261 Perris Blvd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247570",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 403
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247570",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 45.0,
+   "conf": "medium",
+   "ocrConf": 74.035576,
+   "raw": "Total Depth of Completed Well 45",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger Rig",
+   "conf": "high",
+   "ocrConf": 93.657211,
+   "raw": "Drilling Method Auger Rig Drilling Fluid Lilre",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-05-29",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247570",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.92790682900005,
+ "lon": -117.22681907399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201967",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247570",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

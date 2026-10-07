@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002526",
+ "processed": "2026-10-07T08:57:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "310-180-044",
+ "address": "1125 Dunlap Dr",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235152",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 860
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235152",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 25.103516,
+   "raw": "TOTAL DEPTH OF BORING 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.264519,
+   "raw": "WATER LEVEL 20 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235152",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.79681156600003,
+ "lon": -117.19222538899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219432",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235152",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

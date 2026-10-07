@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023315",
+ "processed": "2026-10-07T10:59:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "316-020-016",
+ "address": "16110 Cosmos St",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247688",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 357
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247688",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 60.343285,
+   "raw": "Depth to Static 4\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-06-28",
+   "conf": "high",
+   "ocrConf": 94.650948,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247688",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.882003421000036,
+ "lon": -117.23872322899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202147",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247688",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

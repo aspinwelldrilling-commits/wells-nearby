@@ -1,0 +1,71 @@
+{
+ "permit": "WP0013755",
+ "processed": "2026-10-07T09:45:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "471-100-058",
+ "address": "8840 Reche Canyon Rd",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242815",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 862
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242815",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 220",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 19.0,
+   "conf": "medium",
+   "ocrConf": 60.530167,
+   "raw": "ESTIMATED YIELD * 19 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 93.0,
+   "conf": "high",
+   "ocrConf": 85.240616,
+   "raw": "WATER LeveL 93 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-04-01",
+   "conf": "low",
+   "ocrConf": 18.958138,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242815",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.99279667500008,
+ "lon": -117.22966097699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212938",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242815",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

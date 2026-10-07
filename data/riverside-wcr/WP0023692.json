@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023692",
+ "processed": "2026-10-07T11:04:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "481-180-018",
+ "address": "24991 Sunnymead Blvd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248087",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 411
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248087",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 96.075546,
+   "raw": "Total Depth of Completed Well 130",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger Rig",
+   "conf": "high",
+   "ocrConf": 96.427048,
+   "raw": "Drilling Method Auger Rig Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-10-09",
+   "conf": "high",
+   "ocrConf": 81.704712,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248087",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.938230600000054,
+ "lon": -117.22724679999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202466",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248087",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

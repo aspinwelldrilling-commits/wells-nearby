@@ -1,0 +1,63 @@
+{
+ "permit": "WP0009067",
+ "processed": "2026-10-07T09:36:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "423-060-010",
+ "address": "Davis Rd",
+ "city": "Lakeview",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240013",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1858
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240013",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 825.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 825",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "low",
+   "ocrConf": 21.702103,
+   "raw": "ESTIMATED YIELD * 10) _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-04-25",
+   "conf": "high",
+   "ocrConf": 95.164276,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240013",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.86757595000006,
+ "lon": -117.12098652099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214037",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240013",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

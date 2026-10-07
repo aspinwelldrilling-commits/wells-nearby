@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020512",
+ "processed": "2026-10-07T10:48:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "291-600-010",
+ "address": "6287 Day St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246777",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 348
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246777",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 28.224403,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL60",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-01-14",
+   "conf": "high",
+   "ocrConf": 92.219208,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246777",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.93778720000006,
+ "lon": -117.27963169999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204742",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246777",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,78 @@
+{
+ "permit": "WP0027841",
+ "processed": "2026-10-07T09:59:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "427-390-017",
+ "address": "31449 Rowley Ln",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249651",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 57
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249651",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 66.918839,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 95.478088,
+   "raw": "Estimated Yield* 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Dritting Driving",
+   "conf": "low",
+   "ocrConf": 18.771088,
+   "raw": "Drilling Method Air Dritting Driving Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 85.786476,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-06-22",
+   "conf": "high",
+   "ocrConf": 92.137917,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249651",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80215489100004,
+ "lon": -117.11134197399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/269514",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249651",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

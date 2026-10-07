@@ -1,0 +1,49 @@
+{
+ "permit": "WP0009847",
+ "processed": "2026-10-07T09:41:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "318-270-073",
+ "address": "20750 Clark St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240880",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 826
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240880",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 29.742699,
+   "raw": "TOTAL DEPTH OF BORING 25",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240880",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.81882961200006,
+ "lon": -117.28735015399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214612",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240880",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

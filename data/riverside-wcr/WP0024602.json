@@ -1,0 +1,72 @@
+{
+ "permit": "WP0024602",
+ "processed": "2026-10-07T09:57:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "327-330-026",
+ "address": "28481 Mahogany Ln",
+ "city": "Romoland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248143",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 562
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248143",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 95.257362,
+   "raw": "Total Depth of Boring 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.74305,
+   "raw": "Estimated Yield* 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 68.0,
+   "conf": "high",
+   "ocrConf": 92.75563,
+   "raw": "Water Level 68 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-09-22",
+   "conf": "high",
+   "ocrConf": 93.888069,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248143",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.762604284000076,
+ "lon": -117.16349895999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201514",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248143",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

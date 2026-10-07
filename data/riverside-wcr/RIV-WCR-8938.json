@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-8938",
+ "processed": "2026-10-07T09:10:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "31031 Montgomery",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8938",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 939
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8938",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.380989,
+   "raw": "Standing level after well completion 30 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Discharge__12 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8938",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80500999,
+ "lon": -117.11889359,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/6484",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8938",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "11553",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,78 @@
+{
+ "permit": "WP0011424",
+ "processed": "2026-10-07T10:34:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "327-040-005",
+ "address": "ELLIS AVE & SHERMAN RD(ACOE-TW2)",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241644",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 891
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241644",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 380.0,
+   "conf": "high",
+   "ocrConf": 94.976013,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 380",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 67.07,
+   "conf": "medium",
+   "ocrConf": 60.492966,
+   "raw": "WATER LEVEL__67.07 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.202156,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-03-10",
+   "conf": "high",
+   "ocrConf": 96.888695,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 58.711174,
+   "raw": "ESTIMATED YIELD __ 1000 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241644",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.771927213000026,
+ "lon": -117.18033672799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213936",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241644",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

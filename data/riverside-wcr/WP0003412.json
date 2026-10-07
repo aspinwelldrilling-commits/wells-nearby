@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003412",
+ "processed": "2026-10-07T08:58:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "315-120-016",
+ "address": "18332 Haines St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235730",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 828
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235730",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 70.716202,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _50",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 54.704266,
+   "raw": "ESTIMATED YIELD - 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235730",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.85382076700006,
+ "lon": -117.29152938899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216776",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235730",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15541",
+ "processed": "2026-10-07T09:26:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "2364 Indian Ave",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15541",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1099
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15541",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "high",
+   "ocrConf": 91.20208,
+   "raw": "Completed depth 450 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15541",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.813839151000025,
+ "lon": -117.236726509,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410084",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15541",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17395",
+ "bestDocPage": 1,
+ "status": "partial"
+}

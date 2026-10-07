@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021054",
+ "processed": "2026-10-07T10:55:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "308-050-005",
+ "address": "Lake Perris Marina",
+ "city": "Lake Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246805",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 408
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246805",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 86.049393,
+   "raw": "Total Depth of Completed Well 55",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-10-28",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246805",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.86730200000005,
+ "lon": -117.18160999999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203196",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246805",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

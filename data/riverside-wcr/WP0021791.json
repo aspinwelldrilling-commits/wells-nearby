@@ -1,0 +1,56 @@
+{
+ "permit": "WP0021791",
+ "processed": "2026-10-07T09:55:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "426-150-021",
+ "address": "19600 6th St",
+ "city": "Lakeview",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247138",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 362
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247138",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 51.32748,
+   "raw": "Total Depth of Boring 260",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-07-15",
+   "conf": "high",
+   "ocrConf": 86.718414,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247138",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83380081200005,
+ "lon": -117.11024999899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203902",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247138",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

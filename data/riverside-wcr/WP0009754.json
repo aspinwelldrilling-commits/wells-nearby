@@ -1,0 +1,61 @@
+{
+ "permit": "WP0009754",
+ "processed": "2026-10-07T10:29:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "308-233-001",
+ "address": "Bradley Rd",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243655",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1514
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243655",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243655",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 315.0,
+   "conf": "low",
+   "ocrConf": 24.544861,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 315",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-10-02",
+   "conf": "high",
+   "ocrConf": 93.499298,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243655",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.839453846000026,
+ "lon": -117.18889978399994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243655",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

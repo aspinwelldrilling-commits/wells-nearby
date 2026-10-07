@@ -1,0 +1,55 @@
+{
+ "permit": "WP0026236",
+ "processed": "2026-10-07T11:06:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "488-330-032",
+ "address": "28040 Eucalyptus Ave",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248314",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 602
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248314",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 608.5,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Total Depth of Completed Well 608.5",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-07-15",
+   "conf": "high",
+   "ocrConf": 88.860847,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248314",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.93891380800005,
+ "lon": -117.17030098999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199337",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248314",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

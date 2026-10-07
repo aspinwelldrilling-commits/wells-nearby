@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008896",
+ "processed": "2026-10-07T10:16:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "303-370-003",
+ "address": "Avalon Pkwy; E/O Alhambra Ln",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239895",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 977
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239895",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 34.0,
+   "conf": "low",
+   "ocrConf": 2.914413,
+   "raw": "WATER LeveL__34,% (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-05-14",
+   "conf": "high",
+   "ocrConf": 80.196182,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239895",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83917299800004,
+ "lon": -117.19180269999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217362",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239895",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-29436",
+ "processed": "2026-10-07T10:00:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "13261 Perris Blvd",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29436",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1041
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29436",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 80.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 80",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-06-01",
+   "conf": "medium",
+   "ocrConf": 69.736603,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29436",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.92805655800004,
+ "lon": -117.22655472799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408999",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29436",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31864",
+ "bestDocPage": 1,
+ "status": "partial"
+}

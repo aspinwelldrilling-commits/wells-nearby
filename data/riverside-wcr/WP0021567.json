@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021567",
+ "processed": "2026-10-07T09:54:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "300-010-010",
+ "address": "26675 McClure Ct",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247038",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 456
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247038",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "low",
+   "ocrConf": 41.930141,
+   "raw": "Total Depth of Completed Well 160",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.771355,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.423088,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-03-18",
+   "conf": "medium",
+   "ocrConf": 62.284046,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247038",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.82757007500004,
+ "lon": -117.19679250499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203692",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247038",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

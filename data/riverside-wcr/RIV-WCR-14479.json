@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14479",
+ "processed": "2026-10-07T09:25:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "342-092-016",
+ "address": "23165 Gertrude Ave",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14479",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1046
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14479",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 109.0,
+   "conf": "medium",
+   "ocrConf": 52.359943,
+   "raw": "Completed depth 109  ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14479",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.765924849000044,
+ "lon": -117.25537020399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16460",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14479",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16667",
+ "bestDocPage": 1,
+ "status": "partial"
+}

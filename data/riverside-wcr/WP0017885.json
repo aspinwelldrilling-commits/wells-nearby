@@ -1,0 +1,65 @@
+{
+ "permit": "WP0017885",
+ "processed": "2026-10-07T09:52:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "425-110-009",
+ "address": "34450 Ramona Expressway",
+ "city": "Lakeview",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245779",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1180
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245779",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 52.0,
+   "conf": "low",
+   "ocrConf": 63.955925,
+   "raw": "Total Depth of Boring 52",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 280.0,
+   "conf": "low",
+   "ocrConf": 53.956432,
+   "raw": "Water Level 280 (Feet",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-06-20",
+   "conf": "high",
+   "ocrConf": 96.321274,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245779",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.84269376200007,
+ "lon": -117.06457136599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208537",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245779",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

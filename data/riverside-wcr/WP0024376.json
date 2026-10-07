@@ -1,0 +1,55 @@
+{
+ "permit": "WP0024376",
+ "processed": "2026-10-07T09:56:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-020-013",
+ "address": "24455 Macfie Rd",
+ "city": "Homeland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247952",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 390
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247952",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 85.454224,
+   "raw": "Estimated Yield * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-06-13",
+   "conf": "low",
+   "ocrConf": 44.108604,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247952",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.76618185800004,
+ "lon": -117.09740376899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201297",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247952",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

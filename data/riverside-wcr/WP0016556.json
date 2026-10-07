@@ -1,0 +1,56 @@
+{
+ "permit": "WP0016556",
+ "processed": "2026-10-07T10:44:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "303-110-001",
+ "address": "3691 Perris Blvd",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245218",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 668
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245218",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 215.0,
+   "conf": "medium",
+   "ocrConf": 55.797001,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 215",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-06-16",
+   "conf": "high",
+   "ocrConf": 96.581673,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245218",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83935487900004,
+ "lon": -117.21777067599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210749",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245218",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

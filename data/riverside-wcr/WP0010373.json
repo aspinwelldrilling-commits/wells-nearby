@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010373",
+ "processed": "2026-10-07T10:32:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "308-323-058",
+ "address": "McCanna Ranch Road-Avalon Parkway",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240640",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1192
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240640",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 340.0,
+   "conf": "high",
+   "ocrConf": 96.576141,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 340",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-04-14",
+   "conf": "high",
+   "ocrConf": 96.444389,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 41.545364,
+   "raw": "ESTIMATED YIELD __ 800 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240640",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.83747436400006,
+ "lon": -117.18905841999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213121",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240640",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

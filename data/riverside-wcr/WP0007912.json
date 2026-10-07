@@ -1,0 +1,63 @@
+{
+ "permit": "WP0007912",
+ "processed": "2026-10-07T09:34:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "473-020-031",
+ "address": "28225 Live Oak Canyon Rd",
+ "city": "San Timeteo Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239358",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1011
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239358",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 13.927338,
+   "raw": "ESTIMATED YIELD * 3. (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-06-30",
+   "conf": "high",
+   "ocrConf": 94.599419,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239358",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.99372304000008,
+ "lon": -117.17021957999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218666",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239358",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

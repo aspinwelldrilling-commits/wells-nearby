@@ -1,0 +1,78 @@
+{
+ "permit": "WP0027951",
+ "processed": "2026-10-07T09:58:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "427-380-018",
+ "address": "32082 Jacinto Ave",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249682",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 388
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249682",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 650.0,
+   "conf": "high",
+   "ocrConf": 96.465988,
+   "raw": "Total Depth of Completed Well 650",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 94.601723,
+   "raw": "Estimated Yield\u201d 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.378021,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 40.959301,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-08-24",
+   "conf": "high",
+   "ocrConf": 95.85379,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249682",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80561489200005,
+ "lon": -117.10198197299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19374",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249682",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

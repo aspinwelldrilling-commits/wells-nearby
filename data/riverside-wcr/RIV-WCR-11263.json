@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-11263",
+ "processed": "2026-10-07T09:59:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "24550 Angella Way",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11263",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 994
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11263",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 45.800148,
+   "raw": "Discharge__4 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11263",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.879554,
+ "lon": -117.233587,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9951",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11263",
+ "serviceType": "New Construction",
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13291",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

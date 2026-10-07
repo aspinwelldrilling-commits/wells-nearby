@@ -1,0 +1,49 @@
+{
+ "permit": "WP0002374",
+ "processed": "2026-10-07T10:07:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "330-110-008",
+ "address": "2081 Goetz Rd",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235235",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 871
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235235",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1100.0,
+   "conf": "low",
+   "ocrConf": 60.980202,
+   "raw": "TOTAL DEPTH OF BORING 1100",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235235",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.761235697000075,
+ "lon": -117.21713150299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219151",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235235",
+ "serviceType": null,
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

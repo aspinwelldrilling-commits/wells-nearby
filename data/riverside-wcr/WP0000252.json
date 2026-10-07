@@ -1,0 +1,57 @@
+{
+ "permit": "WP0000252",
+ "processed": "2026-10-07T08:51:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "319-190-048",
+ "address": "20830 Kelly Ln",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233561",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1047
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233561",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 76.356583,
+   "raw": "(12) WELL LOG: Total depth 400",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 36.0,
+   "conf": "medium",
+   "ocrConf": 58.559002,
+   "raw": "Standing level after well completion 36 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233561",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.82708373400004,
+ "lon": -117.299401048,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222435",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233561",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

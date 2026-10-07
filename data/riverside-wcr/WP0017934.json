@@ -1,0 +1,70 @@
+{
+ "permit": "WP0017934",
+ "processed": "2026-10-07T10:42:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "302-130-038",
+ "address": "4039 N Perris Blvd",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245813",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 4038
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245813",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245813",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 99.0,
+   "conf": "medium",
+   "ocrConf": 96.785645,
+   "raw": "Total Depth of Boring 99",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 85.0,
+   "conf": "high",
+   "ocrConf": 87.480362,
+   "raw": "Water Level 85 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-17",
+   "conf": "medium",
+   "ocrConf": 70.248138,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245813",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.845410800000025,
+ "lon": -117.22529849999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208586",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245813",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

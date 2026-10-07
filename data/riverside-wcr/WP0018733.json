@@ -1,0 +1,56 @@
+{
+ "permit": "WP0018733",
+ "processed": "2026-10-07T10:48:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "485-020-001",
+ "address": "24051 John F Kennedy Dr",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246056",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2095
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246056",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 37.0,
+   "conf": "medium",
+   "ocrConf": 55.089302,
+   "raw": "Total Depth of Completed Well 37",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 96.256752,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246056",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.902351656000064,
+ "lon": -117.24303672699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207630",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246056",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

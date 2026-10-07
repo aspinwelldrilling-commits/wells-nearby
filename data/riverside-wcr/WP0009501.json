@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009501",
+ "processed": "2026-10-07T09:37:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "318-110-010",
+ "address": "19193 Robinson St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240464",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 918
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240464",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 150",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-09-09",
+   "conf": "high",
+   "ocrConf": 80.433929,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240464",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.84166580600004,
+ "lon": -117.28215196999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214375",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240464",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

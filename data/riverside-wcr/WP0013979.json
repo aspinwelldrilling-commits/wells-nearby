@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013979",
+ "processed": "2026-10-07T10:36:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "297-130-042",
+ "address": "22470 Cactus Ave",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243073",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 780
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243073",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 58.0,
+   "conf": "low",
+   "ocrConf": 3.071785,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 58",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-01-27",
+   "conf": "low",
+   "ocrConf": 22.273544,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243073",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.91053623300007,
+ "lon": -117.27065446199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211009",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243073",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

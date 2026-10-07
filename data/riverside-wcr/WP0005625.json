@@ -1,0 +1,56 @@
+{
+ "permit": "WP0005625",
+ "processed": "2026-10-07T09:03:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "426-350-011",
+ "address": "322 Meadow Blossom Rd",
+ "city": "Lakeview",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237181",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 943
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237181",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL __4_< ad (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 1.00679,
+   "raw": "ESTIMATED YIELD *__4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237181",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.81961605200007,
+ "lon": -117.10227710599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219621",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237181",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

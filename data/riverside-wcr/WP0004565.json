@@ -1,0 +1,50 @@
+{
+ "permit": "WP0004565",
+ "processed": "2026-10-07T10:13:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "295-292-043",
+ "address": "21760 Oleander Ave",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236458",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 802
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236458",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 36.227764,
+   "raw": "TOTAL DEPTH OF BORING _ 25",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236458",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.85919019800008,
+ "lon": -117.28276457799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216103",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236458",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

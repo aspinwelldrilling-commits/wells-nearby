@@ -1,0 +1,72 @@
+{
+ "permit": "WP0020072",
+ "processed": "2026-10-07T09:54:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "473-290-018",
+ "address": "28541 Kalmia Ave",
+ "city": "Moreno Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246606",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 403
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246606",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 96.886177,
+   "raw": "Total Depth of Boring 400",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.68528,
+   "raw": "Estimated Yield* 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 212.0,
+   "conf": "high",
+   "ocrConf": 95.983978,
+   "raw": "Water Level 212 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-07-06",
+   "conf": "low",
+   "ocrConf": 46.59428,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246606",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.95320968500005,
+ "lon": -117.16506114499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204322",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246606",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

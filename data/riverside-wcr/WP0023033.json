@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023033",
+ "processed": "2026-10-07T09:55:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-110-007",
+ "address": "21245 Johns St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247526",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 441
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247526",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.284439,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-03-08",
+   "conf": "high",
+   "ocrConf": 85.69664,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247526",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.811939292000034,
+ "lon": -117.28701622499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201906",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247526",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

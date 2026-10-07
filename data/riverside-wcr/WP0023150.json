@@ -1,0 +1,71 @@
+{
+ "permit": "WP0023150",
+ "processed": "2026-10-07T09:56:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "325-250-006",
+ "address": "22635 San Jacinto Ave",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247605",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 323
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247605",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 27.549744,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 18.825447,
+   "raw": "ESTIMATED YIELD * 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 49.0,
+   "conf": "high",
+   "ocrConf": 86.929169,
+   "raw": "WATER LEVEL 49 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-05-10",
+   "conf": "low",
+   "ocrConf": 27.480843,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247605",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.78614065000005,
+ "lon": -117.26745676999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202000",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247605",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

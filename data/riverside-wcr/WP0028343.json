@@ -1,0 +1,77 @@
+{
+ "permit": "WP0028343",
+ "processed": "2026-10-07T09:59:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "473-070-032",
+ "address": "0 San Timoteo Canyon",
+ "city": "San Timeteo Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248732",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 89
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248732",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248732",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 560.0,
+   "conf": "medium",
+   "ocrConf": 68.05928,
+   "raw": "Total Depth of Completed Well 560",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 93.162369,
+   "raw": "Estimated Yield* 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 58.0,
+   "conf": "medium",
+   "ocrConf": 72.904663,
+   "raw": "Water Level 58 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-03-29",
+   "conf": "medium",
+   "ocrConf": 79.732986,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248732",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.984336910000025,
+ "lon": -117.14242699399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34301",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248732",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

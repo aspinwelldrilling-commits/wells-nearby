@@ -1,0 +1,79 @@
+{
+ "permit": "WP0016845",
+ "processed": "2026-10-07T09:51:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "323-100-005",
+ "address": "22544 Callaway St",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245352",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 837
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245352",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "medium",
+   "ocrConf": 96.820267,
+   "raw": "Total Depth of Boring 260",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 91.956375,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 30.112083,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-12-17",
+   "conf": "medium",
+   "ocrConf": 62.084259,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 405.0,
+   "conf": "medium",
+   "ocrConf": 54.979935,
+   "raw": "Estimated Yield*_4o5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245352",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.79528865200007,
+ "lon": -117.26982636199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209436",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245352",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

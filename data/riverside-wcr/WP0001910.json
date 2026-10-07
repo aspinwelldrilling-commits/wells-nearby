@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001910",
+ "processed": "2026-10-07T08:56:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "309-040-025",
+ "address": "28945 Zena Pl",
+ "city": "Nuevo",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234739",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 880
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234739",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "low",
+   "ocrConf": 38.701317,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 34.491508,
+   "raw": "ESTIMATED YIELD - 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234739",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.797222618000035,
+ "lon": -117.15768854199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220906",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234739",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

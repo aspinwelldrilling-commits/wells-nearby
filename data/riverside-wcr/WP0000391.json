@@ -1,0 +1,57 @@
+{
+ "permit": "WP0000391",
+ "processed": "2026-10-07T08:53:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "427-340-028",
+ "address": "33070 Meyer Rd",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233678",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 976
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233678",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "low",
+   "ocrConf": 22.090576,
+   "raw": "(12) WELL LOG: Total depth 360",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "low",
+   "ocrConf": 43.420086,
+   "raw": "Standing level after well completion 70 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233678",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.803996803000075,
+ "lon": -117.08464380999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222674",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233678",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

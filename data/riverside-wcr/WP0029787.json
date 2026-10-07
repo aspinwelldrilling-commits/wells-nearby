@@ -1,0 +1,90 @@
+{
+ "permit": "WP0029787",
+ "processed": "2026-10-07T09:58:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-190-023",
+ "address": "21625 Yucca Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256086",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 136
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256086",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256086",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256086",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 835.0,
+   "conf": "low",
+   "ocrConf": 47.347092,
+   "raw": "Total Depth of Completed Well 835",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 94.72699,
+   "raw": "Estimated Yield* 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.858704,
+   "raw": "Water Level 300 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-02-28",
+   "conf": "medium",
+   "ocrConf": 73.731277,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.80682,
+   "lon": -117.27097,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256086",
+ "errors": [],
+ "area": "perris-moreno-valley",
+ "lat": 33.80682,
+ "lon": -117.27097,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/329714",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256086",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}
