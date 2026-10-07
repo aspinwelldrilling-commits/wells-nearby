@@ -156,7 +156,7 @@ def cmd_pull(args):
                     a['_laOverride'] = (f"OSWCR CountyName is '{a.get('CountyName')}', but the coordinates are in Los Angeles "
                                         f"County; included by WCR number ({o.get('reason', '')})").strip()
                 extra += got
-                o.update({'status': 'included' if got else 'not_found', 'includedIn': args.chunk,
+                o.update({'status': 'included' if got else 'not_found', 'resolved': bool(got), 'includedIn': args.chunk,
                           'includedAt': datetime.datetime.now().astimezone().isoformat(timespec='seconds')})
                 print(f"  override {o['wcr']}: {len(got)} record(s)")
     finally:
