@@ -415,6 +415,12 @@
         : 'See the document list below.'}</div>`;
     }
     if (w.wcrFlag === 'pending') {
+      // RivCo row with no WCR_Path: the extractor never processes it, so don't say "not yet processed". countyWcrUrl is the
+      // raw WCR_Path (set in post(); pdfUrl can be replaced by a matched state WCR). San Diego rows are unaffected.
+      const rc = w.group === 'county' ? w : (w.county || (w.match && w.match.county));
+      if (st === 'not_processed' && rc && rc.countyKey === 'riverside' && !String(rc.countyWcrUrl || '').trim()) {
+        return '<div class="wcrinfo pending">No county WCR on file.</div>';
+      }
       return `<div class="wcrinfo pending">County WCR: ${esc(text)}. ${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">Open document ↗</a>` : 'Documents are listed below.'}</div>`;
     }
     if (st === 'not_processed') return '';
