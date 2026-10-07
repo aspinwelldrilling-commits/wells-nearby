@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014797",
+ "processed": "2026-10-07T01:44:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "687-030-077",
+ "address": "67790 E Palm Canyon Dr",
+ "city": "Cathedral City",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243217",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 640
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243217",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 185.0,
+   "conf": "low",
+   "ocrConf": 30.771957,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 185",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-20",
+   "conf": "medium",
+   "ocrConf": 51.887169,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243217",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.78620345500008,
+ "lon": -116.47813494799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210306",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243217",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

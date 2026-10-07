@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016931",
+ "processed": "2026-10-07T01:44:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "505-020-025",
+ "address": "1 Tramway Rd",
+ "city": "Palm Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245442",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1171
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245442",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.782082,
+   "raw": "WATER LEVEL 25 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-02-27",
+   "conf": "high",
+   "ocrConf": 96.262466,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245442",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.83949505100003,
+ "lon": -116.61323166199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209522",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245442",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0011081",
+ "processed": "2026-10-07T01:43:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "564-203-006",
+ "address": "Fern Valley Rd and Dogwood Rd",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241254",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1692
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241254",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "low",
+   "ocrConf": 26.747559,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 325",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 29.0,
+   "conf": "medium",
+   "ocrConf": 55.819057,
+   "raw": "WATER LEVEL 29 ___ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-08-14",
+   "conf": "medium",
+   "ocrConf": 56.998714,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241254",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.75898880500006,
+ "lon": -116.69866730299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213666",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241254",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

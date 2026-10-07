@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018332",
+ "processed": "2026-10-07T01:47:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "680-293-001",
+ "address": "68855 Ramon Rd",
+ "city": "Cathedral City",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245936",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 6591
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245936",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 93.855591,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-02-27",
+   "conf": "low",
+   "ocrConf": 21.703369,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245936",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.81552160000007,
+ "lon": -116.46033881299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208893",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245936",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

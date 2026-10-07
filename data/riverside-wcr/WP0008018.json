@@ -1,0 +1,63 @@
+{
+ "permit": "WP0008018",
+ "processed": "2026-10-07T01:38:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "567-050-036",
+ "address": "55450 Forrest Haven",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239954",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 660
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239954",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "high",
+   "ocrConf": 96.525826,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 73.976303,
+   "raw": "WATER LeveL 20 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-08-12",
+   "conf": "low",
+   "ocrConf": 22.447815,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239954",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.76493015900007,
+ "lon": -116.69519564799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215011",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239954",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

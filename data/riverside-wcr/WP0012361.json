@@ -1,0 +1,97 @@
+{
+ "permit": "WP0012361",
+ "processed": "2026-10-07T01:44:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "677-270-022",
+ "address": "210 N El Cielo Rd",
+ "city": "Palm Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270918",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1453
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270918",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270918",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270918",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 63.2,
+   "conf": "high",
+   "ocrConf": 84.899124,
+   "raw": "Total Depth of Completed Well 63.2",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 23.0,
+   "conf": "high",
+   "ocrConf": 92.696144,
+   "raw": "Water Level 23 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 50.930237,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 64.460251,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.88722,
+   "lon": -117.63842,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-11-20",
+   "conf": "low",
+   "ocrConf": 44.795914,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270918",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.82549312800006,
+ "lon": -116.50998537199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212616",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270918",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0008125",
+ "processed": "2026-10-07T01:42:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "502-065-005",
+ "address": "166 N Sunrise Way",
+ "city": "Palm Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239487",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1303
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239487",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 230.0,
+   "conf": "low",
+   "ocrConf": 40.939899,
+   "raw": "TOTAL DEPTH OF BORING __ 230",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-03-07",
+   "conf": "high",
+   "ocrConf": 94.913673,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239487",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.82381727000006,
+ "lon": -116.52747029999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215151",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239487",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

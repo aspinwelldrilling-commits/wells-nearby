@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005468",
+ "processed": "2026-10-07T01:37:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "680-020-053",
+ "address": "4375 E Mesquite Ave",
+ "city": "Palm Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237062",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1607
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237062",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 215.0,
+   "conf": "medium",
+   "ocrConf": 66.012665,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __215",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-01-08",
+   "conf": "high",
+   "ocrConf": 96.157944,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237062",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.80721690000007,
+ "lon": -116.50435758699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219097",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237062",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

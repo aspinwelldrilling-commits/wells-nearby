@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015077",
+ "processed": "2026-10-07T01:46:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "568-070-025",
+ "address": "56500 Apple Canyon Rd",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244335",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 742
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244335",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 13.709641,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-01-06",
+   "conf": "medium",
+   "ocrConf": 53.180351,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244335",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.67776628000007,
+ "lon": -116.67198534099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210547",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244335",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

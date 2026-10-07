@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022959",
+ "processed": "2026-10-07T01:39:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "680-180-047",
+ "address": "1603 Crossley Rd",
+ "city": "Palm Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249361",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 178
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249361",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2500.0,
+   "conf": "medium",
+   "ocrConf": 79.780304,
+   "raw": "Estimated Yield * 2,500 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 197.0,
+   "conf": "low",
+   "ocrConf": 3.902237,
+   "raw": "Water Level 197 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-04-09",
+   "conf": "high",
+   "ocrConf": 96.580086,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249361",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.80369488000008,
+ "lon": -116.48547001799994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249361",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

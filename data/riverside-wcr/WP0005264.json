@@ -1,0 +1,62 @@
+{
+ "permit": "WP0005264",
+ "processed": "2026-10-07T01:36:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "688-040-001",
+ "address": "71777 Frank Sinatra Dr",
+ "city": "Rancho Mirage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236884",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1671
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236884",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236884",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 790.0,
+   "conf": "medium",
+   "ocrConf": 74.222855,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___790",
+   "page": 2,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2500.0,
+   "conf": "high",
+   "ocrConf": 96.728928,
+   "raw": "ESTIMATED YIELD . 2500 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236884",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.77165508600007,
+ "lon": -116.41258545899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218489",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236884",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

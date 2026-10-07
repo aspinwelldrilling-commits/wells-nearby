@@ -1,0 +1,56 @@
+{
+ "permit": "WP0016822",
+ "processed": "2026-10-07T01:45:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "680-293-001",
+ "address": "68855 Ramon Rd",
+ "city": "Cathedral City",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245333",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 7020
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245333",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "medium",
+   "ocrConf": 96.974991,
+   "raw": "Total Depth of Boring 260",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-01-12",
+   "conf": "low",
+   "ocrConf": 31.146729,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245333",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.81574930000005,
+ "lon": -116.46021248199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209413",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245333",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

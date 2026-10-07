@@ -1,0 +1,71 @@
+{
+ "permit": "WP0012307",
+ "processed": "2026-10-07T01:38:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "690-120-003",
+ "address": "70612 Highway 111",
+ "city": "Rancho Mirage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241401",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 724
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241401",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 710.0,
+   "conf": "high",
+   "ocrConf": 96.814621,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 710",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 186.03,
+   "conf": "high",
+   "ocrConf": 95.601875,
+   "raw": "WATER LEVEL _ 186.03 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-10-16",
+   "conf": "high",
+   "ocrConf": 96.95475,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3000.0,
+   "conf": "low",
+   "ocrConf": 41.200127,
+   "raw": "ESTIMATED YIELD _ 3,000 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241401",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.755180248000045,
+ "lon": -116.43094341199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212513",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241401",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

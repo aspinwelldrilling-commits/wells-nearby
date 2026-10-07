@@ -1,0 +1,55 @@
+{
+ "permit": "WP0002791",
+ "processed": "2026-10-07T01:40:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "687-030-077",
+ "address": "67800 Highway 111",
+ "city": "Cathedral City",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234989",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 804
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234989",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 185.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 185",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1995-10-09",
+   "conf": "high",
+   "ocrConf": 95.72084,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234989",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.786296374000074,
+ "lon": -116.47802223199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220618",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234989",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

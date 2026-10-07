@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001518",
+ "processed": "2026-10-07T01:39:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "689-040-002",
+ "address": "69957 Frank Sinatra Dr",
+ "city": "Rancho Mirage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234450",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 809
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234450",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 79.55748,
+   "raw": "TOTAL DEPTH OF BORING ___ 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-07-13",
+   "conf": "high",
+   "ocrConf": 95.773041,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234450",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.77223213600007,
+ "lon": -116.44408442799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219627",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234450",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

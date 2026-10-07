@@ -1,0 +1,69 @@
+{
+ "permit": "WP0012178",
+ "processed": "2026-10-07T01:45:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "675-040-032",
+ "address": "29965 Ruby Way",
+ "city": "Cathedral City",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243907",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2327
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243907",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243907",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 175.66,
+   "conf": "high",
+   "ocrConf": 85.864197,
+   "raw": "ESTIMATED YIELD 175.66 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 219.23,
+   "conf": "high",
+   "ocrConf": 96.131447,
+   "raw": "WATER LEVEL __ 219.23 (Ft",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-10-01",
+   "conf": "high",
+   "ocrConf": 96.777687,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243907",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.830738876000055,
+ "lon": -116.49289812899997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243907",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

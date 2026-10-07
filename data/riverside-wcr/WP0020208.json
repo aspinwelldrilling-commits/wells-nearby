@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020208",
+ "processed": "2026-10-07T01:39:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "567-180-011",
+ "address": "29101 Bonita Vista Rd",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246661",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 315
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246661",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 95.666145,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 92.0,
+   "conf": "high",
+   "ocrConf": 91.770309,
+   "raw": "STATIC\nWATER LeveL 92 Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-08-11",
+   "conf": "medium",
+   "ocrConf": 64.984955,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246661",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.697586123000065,
+ "lon": -116.66294486799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204454",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246661",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

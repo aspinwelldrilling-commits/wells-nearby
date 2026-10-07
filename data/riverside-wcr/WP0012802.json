@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012802",
+ "processed": "2026-10-07T01:45:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "502-100-026",
+ "address": "325 Civic Dr (In Easement)",
+ "city": "Palm Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241995",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 754
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241995",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 288.0,
+   "conf": "medium",
+   "ocrConf": 56.302513,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 288",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-08-04",
+   "conf": "low",
+   "ocrConf": 41.415939,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241995",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.828899499000045,
+ "lon": -116.51633485299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211705",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241995",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

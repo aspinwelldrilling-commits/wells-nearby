@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002573",
+ "processed": "2026-10-07T01:39:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "504-240-005",
+ "address": "Fern Valley Road & McGrath",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235131",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2859
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235131",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "medium",
+   "ocrConf": 66.346664,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 105.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD 105 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235131",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.76598491000004,
+ "lon": -116.694341899,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219637",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235131",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,68 @@
+{
+ "permit": "WP0000155",
+ "processed": "2026-10-07T01:36:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "673-320-004",
+ "address": "25 Vista Encantada",
+ "city": "Rancho Mirage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233472",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2421
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233472",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233472",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233472",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1475.0,
+   "conf": "low",
+   "ocrConf": 4.028862,
+   "raw": "Completed depth 1475\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 209.0,
+   "conf": "high",
+   "ocrConf": 80.25634,
+   "raw": "Standing level after well completion 209 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233472",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.81271977200004,
+ "lon": -116.43366911999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222341",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233472",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

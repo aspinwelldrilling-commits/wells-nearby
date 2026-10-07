@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020400",
+ "processed": "2026-10-07T01:48:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "508-132-045",
+ "address": "682 S Palm Canyon Dr",
+ "city": "Palm Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246725",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 607
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246725",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.832222,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-04-14",
+   "conf": "high",
+   "ocrConf": 94.686371,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246725",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.812756414000035,
+ "lon": -116.54435154599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204630",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246725",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

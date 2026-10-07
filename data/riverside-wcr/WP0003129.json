@@ -1,0 +1,72 @@
+{
+ "permit": "WP0003129",
+ "processed": "2026-10-07T01:36:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "674-193-008",
+ "address": "37115 Carolyn Ct",
+ "city": "Rancho Mirage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235510",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 951
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235510",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 805.0,
+   "conf": "low",
+   "ocrConf": 40.994278,
+   "raw": "TOTAL DEPTH OF BORING 805",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 125.0,
+   "conf": "low",
+   "ocrConf": 32.040077,
+   "raw": "ESTIMATED YIELD - 125 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "low",
+   "ocrConf": 36.483261,
+   "raw": "DRILLING\nMETHOD __ Rotary FLUID Mud",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Mud",
+   "conf": "high",
+   "ocrConf": 96.083801,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235510",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.778958825000075,
+ "lon": -116.43324597499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221626",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235510",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

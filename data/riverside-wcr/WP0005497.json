@@ -1,0 +1,69 @@
+{
+ "permit": "WP0005497",
+ "processed": "2026-10-07T01:37:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "677-410-006",
+ "address": "McCallum Way & Whitewater River Rd",
+ "city": "Cathedral City",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237087",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1683
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237087",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237087",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 930.0,
+   "conf": "medium",
+   "ocrConf": 64.091362,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 930",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 203.0,
+   "conf": "medium",
+   "ocrConf": 65.596703,
+   "raw": "WATER LEVEL __203 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-05-14",
+   "conf": "high",
+   "ocrConf": 96.467628,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237087",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.82693239100007,
+ "lon": -116.48394447099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219159",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237087",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

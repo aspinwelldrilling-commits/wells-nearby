@@ -1,0 +1,57 @@
+{
+ "permit": "WP0001513",
+ "processed": "2026-10-07T01:36:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "687-050-062",
+ "address": "34400 Cathedral Canyon Dr",
+ "city": "Cathedral City",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234451",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 843
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234451",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 910.0,
+   "conf": "low",
+   "ocrConf": 20.514992,
+   "raw": "TOTAL DEPTH OF BoRING 910",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 185.0,
+   "conf": "high",
+   "ocrConf": 96.775536,
+   "raw": "WATER LEVEL 185 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234451",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.800832727000056,
+ "lon": -116.46158850999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219620",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234451",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}
