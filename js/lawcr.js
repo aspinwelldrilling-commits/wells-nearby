@@ -37,7 +37,10 @@
       const j = await r.json();
       const recs = (j.records || []).map((raw) => {
         const w = D.normalize(raw, C.sources.arcgis.fieldMap, null, 'arcgis');
-        w.laTile = key; return w;
+        w.laTile = key;
+        const cc = manifest && manifest.coordCountyCheck && manifest.coordCountyCheck.byObjectId[raw.OBJECTID];
+        if (cc) w.coordCounty = cc.county.replace(/ COUNTY$/, '').toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase()) + ' County';
+        return w;
       });
       tiles.set(key, recs);
       return recs;
@@ -61,6 +64,7 @@
       ${row('Type', esc(w.recordType || ''))}
       ${row('Driller', esc(w.driller || ''))}
       ${w.raw && w.raw._laOverride ? row('Note', esc(w.raw._laOverride)) : ''}
+      ${w.coordCounty ? row('Note', `DWR lists this WCR in Los Angeles County, but its coordinates fall in ${esc(w.coordCounty)}`) : ''}
       ${row('Lat/lon', `${w.lat.toFixed(5)}, ${w.lon.toFixed(5)}${w.llAccuracy ? ' · ' + esc(w.llAccuracy) : ''}`)}
       </table>${w.pdfUrl ? `<a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">📄 Open WCR (DWR Box viewer)</a>` : '<span class="muted">No WCR link on the state record</span>'}</div>`;
   }

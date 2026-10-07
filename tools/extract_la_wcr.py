@@ -14,6 +14,7 @@ keeps a single LA extract running at a time.
   python3 tools/extract_la_wcr.py pull --chunk pomona --name "Pomona Valley / ..." --bbox=-117.85,33.98,-117.65,34.18
   python3 tools/extract_la_wcr.py pull --chunk fringe --bbox=W,S,E,N --bbox=W,S,E,N   # several boxes = one chunk
   python3 tools/extract_la_wcr.py count --bbox=-118.05,33.95,-117.85,34.20      # returnCountOnly (planning)
+  python3 tools/extract_la_wcr.py check-county   # flag cached records whose coordinates are outside LA County (1 request)
   python3 tools/extract_la_wcr.py override --wcr WCR2026-001855 --reason "..."  # include-by-WCR-number (wrong CountyName)
 
 Overrides: manifest "overrides" lists WCRs whose OSWCR CountyName is not 'Los Angeles' but whose coordinates are in
@@ -25,6 +26,8 @@ import argparse, datetime, hashlib, json, math, os, sys, time, urllib.parse, url
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'la-wcr')
 LOCK = os.path.join('/tmp', 'wells-la-wcr-extract.lock')
+LA_COUNTY_BOUNDS = ('https://public.gis.lacounty.gov/public/rest/services/LACounty_Dynamic/Political_Boundaries/MapServer/18/query'
+                    '?where=1%3D1&outFields=NAME,TYPE&returnGeometry=true&outSR=4326&maxAllowableOffset=0.0002&f=json')
 LA_PARCELS = 'https://public.gis.lacounty.gov/public/rest/services/LACounty_Cache/LACounty_Parcel/MapServer/0/query'
 QUERY = ('https://utility.arcgis.com/usrsvcs/servers/c074ca40fd684e41babd776eebefd009/rest/services/'
          'Environment/i07_WellCompletionReports/MapServer/0/query')
@@ -201,6 +204,53 @@ def cmd_count(args):
         print(b, count([float(x) for x in b.split(',')]))
 
 
+def _pip(x, y, rings):
+    ins = False
+    for r in rings:
+        for i in range(len(r) - 1):
+            (x1, y1), (x2, y2) = r[i], r[i + 1]
+            if (y1 > y) != (y2 > y) and x < x1 + (y - y1) * (x2 - x1) / (y2 - y1):
+                ins = not ins
+    return ins
+
+
+def cmd_check_county(args):
+    """OSWCR CountyName='Los Angeles' records whose coordinates fall in another county (LA County GIS county boundaries,
+    one request, point-in-polygon locally). Records stay in the cache as DWR has them; the manifest lists them so the
+    popup can say so and a cross-county checker can dedupe."""
+    with urllib.request.urlopen(urllib.request.Request(LA_COUNTY_BOUNDS, headers={'User-Agent': 'wells-nearby-la-wcr/1'}), timeout=90) as r:
+        polys = [(f['attributes']['NAME'], f['geometry']['rings']) for f in json.load(r)['features']]
+    def county(lat, lon):
+        if any(n == 'LOS ANGELES COUNTY' and _pip(lon, lat, g) for n, g in polys):
+            return 'LOS ANGELES COUNTY'
+        return next((n for n, g in polys if n != 'LOS ANGELES COUNTY' and _pip(lon, lat, g)), 'OUTSIDE MAPPED COUNTIES')
+    man = load_json(os.path.join(OUT, 'manifest.json'), {})
+    by_obj, per_chunk = {}, {}
+    for key in man.get('tiles', {}):
+        for a in load_json(os.path.join(OUT, 'tiles', key + '.json'), {}).get('records', []):
+            n = county(a['DecimalLatitude'], a['DecimalLongitude'])
+            if n != 'LOS ANGELES COUNTY':
+                by_obj[str(a['OBJECTID'])] = {'wcr': a.get('WCRNumber'), 'county': n, 'oswcrCountyName': a.get('CountyName')}
+    for ch in man.get('chunks', []):
+        boxes = ch.get('bboxes') or [ch['bbox']]
+        cnt = {}
+        for key in ch['tiles']:
+            for a in load_json(os.path.join(OUT, 'tiles', key + '.json'), {}).get('records', []):
+                if any(inside(a['DecimalLatitude'], a['DecimalLongitude'], b) for b in boxes):
+                    n = by_obj.get(str(a['OBJECTID']), {}).get('county', 'LOS ANGELES COUNTY')
+                    cnt[n] = cnt.get(n, 0) + 1
+        per_chunk[ch['id']] = cnt
+    for o in man.get('overrides', []):
+        if o.get('lat') is not None:
+            o['countyByCoordinates'] = county(o['lat'], o['lon'])
+    man['coordCountyCheck'] = {'source': 'LA County GIS Political_Boundaries/MapServer/18 (county boundaries), point-in-polygon',
+                               'checkedAt': datetime.datetime.now().astimezone().isoformat(timespec='seconds'),
+                               'note': "OSWCR says CountyName='Los Angeles' but the coordinates fall in another county; kept as DWR has them",
+                               'perChunk': per_chunk, 'byObjectId': dict(sorted(by_obj.items()))}
+    write_json(os.path.join(OUT, 'manifest.json'), man)
+    print(json.dumps(per_chunk, indent=1), len(by_obj), 'outside')
+
+
 def cmd_override(args):
     """Record an include-by-WCR-number override (one OSWCR query + one LA parcel point check). Pulled later by the chunk
     whose bbox contains it."""
@@ -240,5 +290,6 @@ if __name__ == '__main__':
     c = sub.add_parser('count'); c.add_argument('--bbox', required=True, action='append'); c.set_defaults(fn=cmd_count)
     o = sub.add_parser('override'); o.add_argument('--wcr', required=True); o.add_argument('--reason', default='')
     o.add_argument('--save-raw'); o.set_defaults(fn=cmd_override)
+    k = sub.add_parser('check-county'); k.set_defaults(fn=cmd_check_county)
     a = ap.parse_args()
     a.fn(a)
