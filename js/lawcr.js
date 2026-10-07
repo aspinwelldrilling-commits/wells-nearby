@@ -60,6 +60,7 @@
       ${row('Use', esc(w.plannedUse || w.b118Use || ''))}
       ${row('Type', esc(w.recordType || ''))}
       ${row('Driller', esc(w.driller || ''))}
+      ${w.raw && w.raw._laOverride ? row('Note', esc(w.raw._laOverride)) : ''}
       ${row('Lat/lon', `${w.lat.toFixed(5)}, ${w.lon.toFixed(5)}${w.llAccuracy ? ' · ' + esc(w.llAccuracy) : ''}`)}
       </table>${w.pdfUrl ? `<a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">📄 Open WCR (DWR Box viewer)</a>` : '<span class="muted">No WCR link on the state record</span>'}</div>`;
   }

@@ -12,13 +12,20 @@ Polite: one request at a time, >= 1.6 s between requests, pages of 1000 by resul
 keeps a single LA extract running at a time.
 
   python3 tools/extract_la_wcr.py pull --chunk pomona --name "Pomona Valley / ..." --bbox=-117.85,33.98,-117.65,34.18
+  python3 tools/extract_la_wcr.py pull --chunk fringe --bbox=W,S,E,N --bbox=W,S,E,N   # several boxes = one chunk
   python3 tools/extract_la_wcr.py count --bbox=-118.05,33.95,-117.85,34.20      # returnCountOnly (planning)
+  python3 tools/extract_la_wcr.py override --wcr WCR2026-001855 --reason "..."  # include-by-WCR-number (wrong CountyName)
+
+Overrides: manifest "overrides" lists WCRs whose OSWCR CountyName is not 'Los Angeles' but whose coordinates are in
+LA County. They stay "pending" until a pulled chunk's bbox contains their coordinates; that pull fetches them by
+WCRNumber (one query each) and adds them to the tiles with an "_laOverride" note (their CountyName is left as DWR has it).
 """
 import argparse, datetime, hashlib, json, math, os, sys, time, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'la-wcr')
 LOCK = os.path.join('/tmp', 'wells-la-wcr-extract.lock')
+LA_PARCELS = 'https://public.gis.lacounty.gov/public/rest/services/LACounty_Cache/LACounty_Parcel/MapServer/0/query'
 QUERY = ('https://utility.arcgis.com/usrsvcs/servers/c074ca40fd684e41babd776eebefd009/rest/services/'
          'Environment/i07_WellCompletionReports/MapServer/0/query')
 WHERE = "CountyName='Los Angeles'"
@@ -36,11 +43,11 @@ FIELDS = ['OBJECTID', 'WCRNumber', 'LegacyLogNumber', 'CountyName', 'DecimalLati
 _last = [0.0]
 
 
-def get(params):
+def get(params, url_base=QUERY):
     wait = _last[0] + GAP_S - time.time()
     if wait > 0:
         time.sleep(wait)
-    url = QUERY + '?' + urllib.parse.urlencode(params)
+    url = url_base + '?' + urllib.parse.urlencode(params)
     for attempt in range(4):
         try:
             req = urllib.request.Request(url, headers={'User-Agent': 'wells-nearby-la-wcr/1 (aspinwelldrilling-commits)'})
@@ -115,20 +122,47 @@ def write_json(p, obj):
     os.replace(tmp, p)
 
 
+def inside(lat, lon, b):
+    w, s_, e, n = b
+    return lat is not None and lon is not None and w <= lon <= e and s_ <= lat <= n
+
+
+def by_wcr(wcr):
+    j = get({'where': f"WCRNumber='{wcr}'", 'outFields': ','.join(FIELDS), 'returnGeometry': 'true', 'outSR': '4326', 'f': 'json'})
+    return [f['attributes'] for f in j.get('features') or []]
+
+
 def cmd_pull(args):
-    bbox = [float(x) for x in args.bbox.split(',')]
+    boxes = [[float(x) for x in b.split(',')] for b in args.bbox]
     if os.path.exists(LOCK):
         sys.exit(f'another LA extract holds {LOCK}; only one LA extract at a time')
     open(LOCK, 'w').write(str(os.getpid()))
+    man = load_json(os.path.join(OUT, 'manifest.json'), {})
+    extra = []
     try:
-        n_server = count(bbox)
-        print(f'chunk {args.chunk}: server count {n_server}')
-        recs = pull(bbox)
+        n_server, recs = 0, []
+        for b in boxes:
+            c = count(b)
+            n_server += c
+            print(f'chunk {args.chunk} box {b}: server count {c}')
+            recs += pull(b)
+        for o in man.get('overrides', []):
+            if o.get('status') == 'pending' and any(inside(o.get('lat'), o.get('lon'), b) for b in boxes):
+                got = [clean(a) for a in by_wcr(o['wcr'])]
+                for a in got:
+                    a['_laOverride'] = (f"OSWCR CountyName is '{a.get('CountyName')}', but the coordinates are in Los Angeles "
+                                        f"County; included by WCR number ({o.get('reason', '')})").strip()
+                extra += got
+                o.update({'status': 'included' if got else 'not_found', 'includedIn': args.chunk,
+                          'includedAt': datetime.datetime.now().astimezone().isoformat(timespec='seconds')})
+                print(f"  override {o['wcr']}: {len(got)} record(s)")
     finally:
         os.remove(LOCK)
+    seen = set()
+    recs = [a for a in recs if not (a['OBJECTID'] in seen or seen.add(a['OBJECTID']))]
     recs = [clean(a) for a in recs if (a.get('CountyName') or '').strip() == 'Los Angeles']
+    recs += [a for a in extra if a['OBJECTID'] not in seen]
     os.makedirs(os.path.join(OUT, 'tiles'), exist_ok=True)
-    man = load_json(os.path.join(OUT, 'manifest.json'), {})
     by_tile = {}
     for a in recs:
         if a.get('DecimalLatitude') is None or a.get('DecimalLongitude') is None:
@@ -146,11 +180,12 @@ def cmd_pull(args):
         h = hashlib.sha1(open(p, 'rb').read()).hexdigest()[:10]
         tiles[key] = {'b': tile_bounds(key), 'n': len(merged), 'h': h}
     has = lambda k: sum(1 for a in recs if a.get(k))
-    chunk = {'id': args.chunk, 'name': args.name or args.chunk, 'bbox': bbox, 'bboxOrder': 'west,south,east,north',
+    chunk = {'id': args.chunk, 'name': args.name or args.chunk, **({'bbox': boxes[0]} if len(boxes) == 1 else {'bboxes': boxes}),
+             'bboxOrder': 'west,south,east,north',
              'pulled': datetime.datetime.now().astimezone().isoformat(timespec='seconds'), 'serverCount': n_server,
              'count': len(recs), 'withCoords': sum(1 for a in recs if a.get('DecimalLatitude') is not None),
              'withWcrLinks': has('WCRLinks'), 'withAddress': has('WellLocation'), 'withApn': has('APN'),
-             'withPermit': has('PermitNumber'), 'tiles': sorted(by_tile)}
+             'withPermit': has('PermitNumber'), 'overridesIncluded': [a['WCRNumber'] for a in extra], 'tiles': sorted(by_tile)}
     chunks = [c for c in man.get('chunks', []) if c['id'] != args.chunk] + [chunk]
     man.update({'version': 1, 'county': 'los-angeles', 'source': 'CA DWR OSWCR (state well completion reports)',
                 'queryUrl': QUERY, 'where': WHERE, 'tileDeg': TILE, 'boundsOrder': 'south,west,north,east',
@@ -162,15 +197,48 @@ def cmd_pull(args):
 
 
 def cmd_count(args):
-    bbox = [float(x) for x in args.bbox.split(',')]
-    print(args.bbox, count(bbox))
+    for b in args.bbox:
+        print(b, count([float(x) for x in b.split(',')]))
+
+
+def cmd_override(args):
+    """Record an include-by-WCR-number override (one OSWCR query + one LA parcel point check). Pulled later by the chunk
+    whose bbox contains it."""
+    got = by_wcr(args.wcr)
+    if args.save_raw:
+        with open(args.save_raw, 'w') as f:
+            json.dump(got, f, indent=1)
+    if len(got) != 1:
+        sys.exit(f'{args.wcr}: expected 1 OSWCR record, got {len(got)}')
+    a = clean(got[0])
+    lat, lon = a.get('DecimalLatitude'), a.get('DecimalLongitude')
+    parcel = None
+    if lat is not None:
+        j = get({'geometry': f'{lon},{lat}', 'geometryType': 'esriGeometryPoint', 'inSR': '4326', 'spatialRel': 'esriSpatialRelIntersects',
+                 'outFields': 'AIN,SitusCity', 'returnGeometry': 'false', 'f': 'json'}, LA_PARCELS)
+        feats = j.get('features') or []
+        parcel = feats[0]['attributes'] if feats else None
+    man = load_json(os.path.join(OUT, 'manifest.json'), {})
+    entry = {'wcr': args.wcr, 'objectId': a.get('OBJECTID'), 'oswcrCountyName': a.get('CountyName'), 'lat': lat, 'lon': lon,
+             'llAccuracy': a.get('LLAccuracy'), 'llMethod': a.get('MethodofDeterminationLL'), 'wellLocation': a.get('WellLocation'),
+             'city': a.get('City'), 'wcrLinks': a.get('WCRLinks'),
+             'laCountyCheck': ({'inLaCountyParcel': True, 'source': 'LA County public parcels MapServer (point-in-parcel)', **parcel}
+                               if parcel else {'inLaCountyParcel': False, 'source': 'LA County public parcels MapServer (no parcel at point)'}),
+             'reason': args.reason, 'status': 'pending', 'includeWhen': 'a pulled LA chunk bbox contains lat/lon',
+             'addedAt': datetime.datetime.now().astimezone().isoformat(timespec='seconds')}
+    man['overrides'] = [o for o in man.get('overrides', []) if o['wcr'] != args.wcr] + [entry]
+    write_json(os.path.join(OUT, 'manifest.json'), man)
+    print(json.dumps(entry, indent=1))
 
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest='cmd', required=True)
-    p = sub.add_parser('pull'); p.add_argument('--chunk', required=True); p.add_argument('--name'); p.add_argument('--bbox', required=True)
+    p = sub.add_parser('pull'); p.add_argument('--chunk', required=True); p.add_argument('--name')
+    p.add_argument('--bbox', required=True, action='append', help='W,S,E,N (repeat for a multi-box chunk)')
     p.set_defaults(fn=cmd_pull)
-    c = sub.add_parser('count'); c.add_argument('--bbox', required=True); c.set_defaults(fn=cmd_count)
+    c = sub.add_parser('count'); c.add_argument('--bbox', required=True, action='append'); c.set_defaults(fn=cmd_count)
+    o = sub.add_parser('override'); o.add_argument('--wcr', required=True); o.add_argument('--reason', default='')
+    o.add_argument('--save-raw'); o.set_defaults(fn=cmd_override)
     a = ap.parse_args()
     a.fn(a)
