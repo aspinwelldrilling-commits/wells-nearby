@@ -113,8 +113,22 @@ with tempfile.TemporaryDirectory() as tmp, sync_playwright() as p:
             t = pg.inner_text('.leaflet-popup .mj-popup')
             links = pg.evaluate("() => [...document.querySelectorAll('.leaflet-popup .mj-popup a')].map(a => a.href)")
             check('permit' in t and any('LUEG_View' in h for h in links), f'popup shows matched permit + County document link ({len(links)} links)')
-            if a.shots: pg.screenshot(path=os.path.join(a.shots, 'myjobs-match-popup.png'))
-            pg.evaluate('WellsApp.map.closePopup()')
+            pg.evaluate("document.getElementById('map').scrollIntoView({block:'start'})"); pg.wait_for_timeout(600)
+            L = pg.evaluate("""() => { const pop = document.querySelector('.leaflet-popup.mj-leaflet-popup'), mp = document.getElementById('map');
+              if (!pop) return null; const r = pop.getBoundingClientRect(), m = mp.getBoundingClientRect(), wr = pop.querySelector('.leaflet-popup-content-wrapper');
+              const c = pop.querySelector('.leaflet-popup-content'), hit = document.elementFromPoint(r.left + r.width / 2, r.top + Math.min(40, r.height / 2));
+              const shown = [...mp.querySelectorAll('.leaflet-top, .addr-search')].filter(e => getComputedStyle(e).visibility !== 'hidden').length;
+              return { op: getComputedStyle(pop).opacity, bg: getComputedStyle(wr).backgroundColor, inMap: r.left >= m.left - 1 && r.right <= m.right + 1 && r.top >= m.top - 1 && r.bottom <= m.bottom + 1,
+                w: Math.round(r.width), mw: Math.round(m.width), h: Math.round(r.height), mh: Math.round(m.height), onTop: !!(hit && pop.contains(hit)), shown,
+                scroll: c.scrollHeight > c.clientHeight + 1 ? getComputedStyle(c).overflowY : 'fits' }; }""")
+            print('popup layout:', L)
+            check(L and L['op'] == '1' and L['bg'] == 'rgb(255, 255, 255)', 'job popup is a solid, fully opaque card')
+            check(L and L['inMap'] and L['w'] <= L['mw'] - 20, f'job popup fits inside the phone map ({L and L["w"]}x{L and L["h"]} in {L and L["mw"]}x{L and L["mh"]})')
+            check(L and L['onTop'] and L['shown'] == 0, 'map controls / address bar hidden while the job popup is open; nothing draws over it')
+            check(L and L['scroll'] in ('fits', 'auto', 'scroll'), f'long popup scrolls inside itself ({L and L["scroll"]})')
+            if a.shots: pg.screenshot(path=os.path.join(a.shots, 'myjobs-popup.png'))
+            pg.evaluate('WellsApp.map.closePopup()'); pg.wait_for_timeout(300)
+            check(pg.evaluate("() => [...document.querySelectorAll('#map .leaflet-top, #map .addr-search')].every(e => getComputedStyle(e).visibility !== 'hidden')"), 'map controls come back when the popup closes')
     # APN search still works
     pg.evaluate("() => { WellsApp.state.lat = 0; WellsApp.state.lon = 0; }")
     inp = pg.locator('.as-input'); inp.fill('285-030-06-00'); inp.press('Enter')

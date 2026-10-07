@@ -289,12 +289,27 @@
   }
   function addJobMarker(j) {
     const m = L.marker([j.well.lat, j.well.lon], { icon: jobIcon(j), title: j.name, zIndexOffset: 1800 })
-      .bindPopup(() => popup(j), { maxWidth: 310, maxHeight: Math.max(260, (document.getElementById('map').clientHeight || 400) - 90) })
+      .bindPopup(() => popup(j), popupOpts())
       .on('popupopen', () => { openKey = j.key; }).on('popupclose', () => { setTimeout(() => { if (!map._popup || !map.hasLayer(map._popup)) openKey = null; }, 0); });
     m._mjKey = j.key;
     m.addTo(jobsLayer);
   }
   let openKey = null;
+  // Phone-safe popup: solid card, no fade-in (no see-through frame), never wider than the map, scrolls inside when long,
+  // and auto-pan keeps it clear of the map edges / bottom attribution. The top map controls (zoom, address bar, Lines,
+  // Sewer, My jobs, layers) are hidden at once while it is open (see .mj-popup-open below), so nothing draws over it.
+  const PAD_TL = [8, 8], PAD_BR = [8, 34];
+  function popupOpts() {
+    const el = map.getContainer(), w = el.clientWidth || 360, h = el.clientHeight || 500;
+    const maxW = Math.max(200, Math.min(310, w - 40));
+    return { className: 'mj-leaflet-popup', maxWidth: maxW, minWidth: Math.min(260, maxW),
+      maxHeight: Math.max(180, h - PAD_TL[1] - PAD_BR[1] - 48),   // 48 = popup tip + pin offset + content margins
+      autoPan: true, autoPanPaddingTopLeft: L.point(PAD_TL), autoPanPaddingBottomRight: L.point(PAD_BR), keepInView: true };
+  }
+  const isMjPopup = (p) => !!(p && p.options && p.options.className === 'mj-leaflet-popup');
+  map.on('popupopen', (e) => { if (isMjPopup(e.popup)) map.getContainer().classList.add('mj-popup-open'); });
+  map.on('popupclose', (e) => { if (isMjPopup(e.popup)) setTimeout(() => { if (!isMjPopup(map._popup) || !map.hasLayer(map._popup)) map.getContainer().classList.remove('mj-popup-open'); }, 0); });
+  map.on('resize', () => { const p = map._popup; if (isMjPopup(p) && map.hasLayer(p)) { Object.assign(p.options, popupOpts()); p.update(); } });
   const fmtDate = (s) => (s ? String(s).slice(0, 10) : '');
   function matchHtml(j) {
     if (!data.hasMatches) return '<div class="muted small">Permit / WCR matches appear here after importing the matched <b>my-jobs.json</b>.</div>';
@@ -370,7 +385,18 @@
 .mj-tag{display:inline-block;font-size:11px;font-weight:600;padding:1px 6px;border-radius:4px;background:#dbeafe;color:#1e40af;margin-bottom:4px}
 .mj-popup .small{font-size:12px;margin:2px 0}.mj-popup .mj-conf{border-left:4px solid;padding:2px 6px;margin:6px 0 2px;background:#f8fafc}
 .mj-popup .mj-why{font-size:12px;color:#334155;margin-bottom:2px}.mj-popup details{font-size:12px;margin:4px 0}.mj-popup details ul{padding-left:16px;margin:2px 0}
-.mj-tip{font-size:12px}`;
+.mj-tip{font-size:12px}
+.mj-leaflet-popup{opacity:1!important;transition:none!important}
+.mj-leaflet-popup .leaflet-popup-content-wrapper{background:#fff;opacity:1;border-radius:10px;box-shadow:0 3px 16px rgba(0,0,0,.55)}
+.mj-leaflet-popup .leaflet-popup-tip{background:#fff}
+.mj-leaflet-popup .leaflet-popup-content{margin:10px 12px;max-width:calc(100vw - 64px);overflow-wrap:anywhere;color:#0f172a;font-size:13px;line-height:1.35}
+.mj-leaflet-popup .leaflet-popup-scrolled{overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;border:0}
+.mj-leaflet-popup .mj-popup table{width:100%;border-collapse:collapse}.mj-leaflet-popup .mj-popup td{vertical-align:top;padding:2px 4px 2px 0}
+.mj-leaflet-popup .mj-popup td:first-child{white-space:nowrap;color:#475569;width:1%}
+.mj-leaflet-popup .site-actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.mj-leaflet-popup a.leaflet-popup-close-button{width:32px;height:32px;font:22px/30px Tahoma,Verdana,sans-serif;color:#334155;z-index:2}
+.mj-leaflet-popup .mj-popup h3{margin:2px 28px 2px 0}
+.map.mj-popup-open .leaflet-top,.map.mj-popup-open .addr-search,.map.mj-popup-open .map-note{visibility:hidden!important;pointer-events:none!important;transition:none!important}`;
   document.head.appendChild(st);
   const Ctl = L.Control.extend({
     options: { position: 'topleft' },
