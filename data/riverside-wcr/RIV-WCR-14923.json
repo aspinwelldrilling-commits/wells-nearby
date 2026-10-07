@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-14923",
+ "processed": "2026-10-07T14:56:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-060-002",
+ "address": "25601 Waldon Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14923",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1074
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14923",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 992.0,
+   "conf": "low",
+   "ocrConf": 58.072224,
+   "raw": "(12) WELL LOG: Total depth 992",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14923",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64485488300005,
+ "lon": -117.21333414299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/17070",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14923",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16980",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13247",
+ "processed": "2026-10-07T15:26:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "78371 Highway 111",
+ "city": "La Quinta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13247",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1049
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13247",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "medium",
+   "ocrConf": 58.285301,
+   "raw": "Completed depth 550 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13247",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.71550433500005,
+ "lon": -116.29612266899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13726",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13247",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15213",
+ "bestDocPage": 1,
+ "status": "partial"
+}

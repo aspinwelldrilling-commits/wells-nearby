@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-11789",
+ "processed": "2026-10-07T14:00:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "53250 Vista Way",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11789",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1932
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11789",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 558.0,
+   "conf": "medium",
+   "ocrConf": 61.357365,
+   "raw": "Completed depth 558 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11789",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.70827808000007,
+ "lon": -116.73242138999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10792",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11789",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13713",
+ "bestDocPage": 1,
+ "status": "partial"
+}

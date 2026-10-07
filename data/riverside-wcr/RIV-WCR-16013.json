@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-16013",
+ "processed": "2026-10-07T14:58:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-310-017",
+ "address": "31509 Holland Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16013",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1140
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16013",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 290.0,
+   "conf": "medium",
+   "ocrConf": 67.018059,
+   "raw": "completed depth 290 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16013",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.66947971900004,
+ "lon": -117.10923350799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410295",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16013",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17712",
+ "bestDocPage": 1,
+ "status": "partial"
+}

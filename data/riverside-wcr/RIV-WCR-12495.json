@@ -1,0 +1,75 @@
+{
+ "permit": "RIV-WCR-12495",
+ "processed": "2026-10-07T14:43:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "30885 Perrine",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12495",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1899
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12495",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "low",
+   "ocrConf": 34.430092,
+   "raw": "Completed depth 120 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 88.003578,
+   "raw": "Standing level after well completion 30 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 36.0,
+   "conf": "low",
+   "ocrConf": 19.608292,
+   "raw": "Discharge 36 gal/min",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-08-25",
+   "conf": "medium",
+   "ocrConf": 1.329613,
+   "raw": "Completed__8/25/ 19",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12495",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63943358900008,
+ "lon": -117.12087027899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11998",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12495",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14317",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-15483",
+ "processed": "2026-10-07T15:15:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "387-260-005",
+ "address": "N MAIN DIVIDE",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15483",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1101
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15483",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 523.0,
+   "conf": "low",
+   "ocrConf": 32.613266,
+   "raw": "Completed depth 523 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Standing level after well completion _35",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15483",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.658965651000074,
+ "lon": -117.41090309199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410060",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15483",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17355",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

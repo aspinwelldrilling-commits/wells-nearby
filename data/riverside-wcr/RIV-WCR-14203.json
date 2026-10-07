@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14203",
+ "processed": "2026-10-07T14:57:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-130-033-3",
+ "address": "29950 Woodbine Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14203",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1975
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14203",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 224.0,
+   "conf": "medium",
+   "ocrConf": 67.917694,
+   "raw": "Completed depth 224 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14203",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.638485080000066,
+ "lon": -117.13862823999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15882",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14203",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16375",
+ "bestDocPage": 1,
+ "status": "partial"
+}

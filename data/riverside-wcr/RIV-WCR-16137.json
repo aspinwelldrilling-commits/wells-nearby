@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-16137",
+ "processed": "2026-10-07T15:03:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-050-008",
+ "address": "31820 Keller Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16137",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 766
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16137",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 485.0,
+   "conf": "high",
+   "ocrConf": 84.884415,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _485",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 85.158798,
+   "raw": "WATER LEVEL___ 130 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16137",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.630978,
+ "lon": -117.103854,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410345",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16137",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17793",
+ "bestDocPage": 1,
+ "status": "readable"
+}

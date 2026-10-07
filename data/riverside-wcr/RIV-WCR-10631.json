@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-10631",
+ "processed": "2026-10-07T14:38:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "36400 Los Alamos Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10631",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1988
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10631",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10631",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 304.0,
+   "conf": "low",
+   "ocrConf": 76.531479,
+   "raw": "(12) WELL LOG: Total depth 304",
+   "note": "total depth (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10631",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.59217950300007,
+ "lon": -117.15713369699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8968",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10631",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12798",
+ "bestDocPage": 2,
+ "status": "unreadable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13741",
+ "processed": "2026-10-07T15:02:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-020-049",
+ "address": "33230 Helem Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13741",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1004
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13741",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "low",
+   "ocrConf": 29.887894,
+   "raw": "Completed depth 265 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13741",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.637964,
+ "lon": -117.203609,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14768",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13741",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15804",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

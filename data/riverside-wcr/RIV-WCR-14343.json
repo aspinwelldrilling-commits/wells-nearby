@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14343",
+ "processed": "2026-10-07T14:22:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-420-006",
+ "address": "Overview Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14343",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1093
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14343",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 204.0,
+   "conf": "high",
+   "ocrConf": 95.674706,
+   "raw": "Completed depth 204 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14343",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.605538,
+ "lon": -116.998585,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16238",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14343",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16556",
+ "bestDocPage": 1,
+ "status": "partial"
+}

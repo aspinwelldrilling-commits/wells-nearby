@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-29407",
+ "processed": "2026-10-07T15:03:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "365-170-009-1",
+ "address": "32868 Olive St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29407",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 743
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29407",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 28.570885,
+   "raw": "ESTIMATED YIELD * 3S /(GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29407",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.643677436000075,
+ "lon": -117.28241329099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408940",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29407",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31804",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

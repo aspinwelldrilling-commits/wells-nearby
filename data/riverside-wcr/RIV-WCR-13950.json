@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13950",
+ "processed": "2026-10-07T14:20:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-020-019",
+ "address": "43600 Cactus Valley Rd",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13950",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1879
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13950",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 309.0,
+   "conf": "medium",
+   "ocrConf": 50.640392,
+   "raw": "Completed depth 309 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 89.0,
+   "conf": "high",
+   "ocrConf": 92.439224,
+   "raw": "Standing level after well completion 89 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13950",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67096699600006,
+ "lon": -116.90878161499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15333",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13950",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16097",
+ "bestDocPage": 1,
+ "status": "readable"
+}

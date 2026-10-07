@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15443",
+ "processed": "2026-10-07T14:20:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "561-080-037",
+ "address": "53692 Idyllbrook Dr",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15443",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1046
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15443",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 51.472847,
+   "raw": "Completed depth 500 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15443",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.738379630000054,
+ "lon": -116.72534110999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410039",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15443",
+ "serviceType": "New Construction",
+ "wellType": "Municipal",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17327",
+ "bestDocPage": 1,
+ "status": "partial"
+}

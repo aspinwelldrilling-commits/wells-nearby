@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-12965",
+ "processed": "2026-10-07T14:50:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "GLORY LN",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12965",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1962
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12965",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 225.0,
+   "conf": "high",
+   "ocrConf": 96.730278,
+   "raw": "Completed depth 225 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.547241,
+   "raw": "Standing level after well completion 50 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12965",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.615683571000034,
+ "lon": -117.26828741499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13126",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12965",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14884",
+ "bestDocPage": 1,
+ "status": "readable"
+}

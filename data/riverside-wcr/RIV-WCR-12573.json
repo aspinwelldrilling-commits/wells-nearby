@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-12573",
+ "processed": "2026-10-07T14:02:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-050-018",
+ "address": "40555 Benji Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12573",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1839
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12573",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 55.673988,
+   "raw": "Completed depth 250\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12573",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.64951488200006,
+ "lon": -116.95359193499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12184",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12573",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14410",
+ "bestDocPage": 1,
+ "status": "partial"
+}

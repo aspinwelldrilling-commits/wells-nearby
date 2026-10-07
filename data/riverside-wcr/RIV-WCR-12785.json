@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-12785",
+ "processed": "2026-10-07T15:04:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-120-053",
+ "address": "33810 Sunset Ave",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12785",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1859
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12785",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 390.0,
+   "conf": "high",
+   "ocrConf": 87.284309,
+   "raw": "Completed depth 390 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 39.310844,
+   "raw": "Discharge __5 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12785",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63008641500005,
+ "lon": -117.22286815899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12760",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12785",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14701",
+ "bestDocPage": 1,
+ "status": "partial"
+}

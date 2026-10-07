@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13971",
+ "processed": "2026-10-07T15:04:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-270-022",
+ "address": "26228 Richland Ln",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13971",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1101
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13971",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 58.031769,
+   "raw": "Completed depth 150",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13971",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.74055596000005,
+ "lon": -117.26838136499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15428",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13971",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16145",
+ "bestDocPage": 1,
+ "status": "partial"
+}

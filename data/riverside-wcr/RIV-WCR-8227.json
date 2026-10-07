@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-8227",
+ "processed": "2026-10-07T14:32:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "HWY 15, UNION ST",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8227",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1686
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8227",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "(12) WELL LOG: Total depth 100",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 95.502647,
+   "raw": "Standing level after well completion 10 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8227",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.61406427,
+ "lon": -117.29793692,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5258",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8227",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10768",
+ "bestDocPage": 1,
+ "status": "partial"
+}

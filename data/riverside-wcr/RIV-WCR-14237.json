@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14237",
+ "processed": "2026-10-07T14:15:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-440-033",
+ "address": "39260 Grassy Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14237",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1241
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14237",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 453.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Completed depth 453",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14237",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.598013,
+ "lon": -116.978841,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15925",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14237",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16398",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

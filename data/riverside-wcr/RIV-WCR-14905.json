@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14905",
+ "processed": "2026-10-07T14:56:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-130-011",
+ "address": "34440 Briggs Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14905",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1124
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14905",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 614.0,
+   "conf": "low",
+   "ocrConf": 5.033913,
+   "raw": "Completed depth 614 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 49.0,
+   "conf": "low",
+   "ocrConf": 32.203033,
+   "raw": "Standing level after well completion 49 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14905",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.622165,
+ "lon": -117.133298,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/17052",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14905",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16971",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

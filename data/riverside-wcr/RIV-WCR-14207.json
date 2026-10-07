@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14207",
+ "processed": "2026-10-07T14:07:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-360-021-7",
+ "address": "STAGE Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14207",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1175
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14207",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 490.0,
+   "conf": "medium",
+   "ocrConf": 53.499329,
+   "raw": "Completed depth 490 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14207",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62012045900008,
+ "lon": -116.96694086999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15886",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14207",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16377",
+ "bestDocPage": 1,
+ "status": "partial"
+}

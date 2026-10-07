@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-16595",
+ "processed": "2026-10-07T15:16:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-050-002",
+ "address": "37961 Calle De Lobo",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16595",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 823
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16595",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 620.0,
+   "conf": "high",
+   "ocrConf": 85.927475,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 620",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16595",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.58013856,
+ "lon": -117.31919532,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409886",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16595",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "18084",
+ "bestDocPage": 1,
+ "status": "partial"
+}

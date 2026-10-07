@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14539",
+ "processed": "2026-10-07T15:27:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "61101 Highway 111",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14539",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1089
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14539",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "medium",
+   "ocrConf": 68.873802,
+   "raw": "Completed depth 22",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14539",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.605604593000066,
+ "lon": -116.110630217,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16576",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14539",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16725",
+ "bestDocPage": 1,
+ "status": "partial"
+}

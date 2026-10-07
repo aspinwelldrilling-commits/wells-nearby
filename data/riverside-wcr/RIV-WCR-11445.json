@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-11445",
+ "processed": "2026-10-07T15:13:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "28310 Haygood Way",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11445",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1079
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11445",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 64.212181,
+   "raw": "Total depth 220 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11445",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.708931257000074,
+ "lon": -117.33069791099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10290",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11445",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13461",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

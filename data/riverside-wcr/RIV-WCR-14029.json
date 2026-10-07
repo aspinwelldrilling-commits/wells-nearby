@@ -1,0 +1,68 @@
+{
+ "permit": "RIV-WCR-14029",
+ "processed": "2026-10-07T14:13:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-390-013",
+ "address": "38333 Songbird Dr",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14029",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 650
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14029",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 505.0,
+   "conf": "low",
+   "ocrConf": 24.052666,
+   "raw": "(12) WELL LOG: Total depth 505",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "low",
+   "ocrConf": 17.764214,
+   "raw": "Discharge _ 6 gal/min",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1988-04-23",
+   "conf": "medium",
+   "ocrConf": 8.611908,
+   "raw": "Completed__ 4-23-88",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14029",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.582149195000056,
+ "lon": -116.99242788499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15554",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14029",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16209",
+ "bestDocPage": 1,
+ "status": "partial"
+}

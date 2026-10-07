@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15593",
+ "processed": "2026-10-07T14:11:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "553-240-016-8",
+ "address": "47551 Doe Canyon Rd",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15593",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1114
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15593",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 750.0,
+   "conf": "medium",
+   "ocrConf": 63.61578,
+   "raw": "Completed depth 750 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15593",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.72974678000003,
+ "lon": -116.83191654999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410101",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15593",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17425",
+ "bestDocPage": 1,
+ "status": "partial"
+}

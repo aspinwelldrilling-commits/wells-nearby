@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14023",
+ "processed": "2026-10-07T14:11:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-020-011",
+ "address": "54045 Owings Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14023",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1004
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14023",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "medium",
+   "ocrConf": 73.557564,
+   "raw": "Completed depth 160 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14023",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.596720865000066,
+ "lon": -116.71647199699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15548",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14023",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16206",
+ "bestDocPage": 1,
+ "status": "partial"
+}

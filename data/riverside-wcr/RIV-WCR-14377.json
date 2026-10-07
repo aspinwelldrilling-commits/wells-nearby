@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14377",
+ "processed": "2026-10-07T14:11:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-080-025",
+ "address": "OAK DRIVE",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14377",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1062
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14377",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 234.0,
+   "conf": "high",
+   "ocrConf": 96.204079,
+   "raw": "Completed depth 234 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14377",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.63939361000007,
+ "lon": -116.90770794999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16294",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14377",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16584",
+ "bestDocPage": 1,
+ "status": "partial"
+}

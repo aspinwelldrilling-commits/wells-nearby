@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-12643",
+ "processed": "2026-10-07T14:03:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "36700 Howard Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12643",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 682
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12643",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 2.070198,
+   "raw": "Completed depth 20",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 96.0,
+   "conf": "high",
+   "ocrConf": 93.144836,
+   "raw": "Standing level after well completion 96 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12643",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58915967000007,
+ "lon": -116.71712193999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12314",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12643",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14476",
+ "bestDocPage": 1,
+ "status": "partial"
+}

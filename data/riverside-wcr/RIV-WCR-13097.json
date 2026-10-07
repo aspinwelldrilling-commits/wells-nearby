@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13097",
+ "processed": "2026-10-07T15:04:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "914-050-015",
+ "address": "28323 Mary Pl",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13097",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1020
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13097",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 354.0,
+   "conf": "high",
+   "ocrConf": 96.588608,
+   "raw": "Completed depth 354 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "low",
+   "ocrConf": 36.481155,
+   "raw": "Discharge ___15 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13097",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.58024369100008,
+ "lon": -117.16547085799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13395",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13097",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15019",
+ "bestDocPage": 1,
+ "status": "partial"
+}

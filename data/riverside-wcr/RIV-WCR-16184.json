@@ -1,0 +1,75 @@
+{
+ "permit": "RIV-WCR-16184",
+ "processed": "2026-10-07T14:13:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "39495 Cactus Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16184",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 827
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16184",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 592.0,
+   "conf": "medium",
+   "ocrConf": 51.550995,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _592",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 57.086517,
+   "raw": "ESTIMATED YIELD* 150 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 20.917404,
+   "raw": "WATER LeveL 200 __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 85.482521,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16184",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67062630100003,
+ "lon": -116.97262442999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410372",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16184",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17831",
+ "bestDocPage": 1,
+ "status": "readable"
+}

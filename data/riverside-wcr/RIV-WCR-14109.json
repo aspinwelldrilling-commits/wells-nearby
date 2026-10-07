@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14109",
+ "processed": "2026-10-07T15:26:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "39485 Dillon Rd",
+ "city": "Indio",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14109",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1141
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14109",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 138.0,
+   "conf": "high",
+   "ocrConf": 94.319725,
+   "raw": "Standing level after well completion 138 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2500.0,
+   "conf": "low",
+   "ocrConf": 47.575325,
+   "raw": "Discharge 2500 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14109",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.765584938000075,
+ "lon": -116.17266180699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15716",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14109",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16291",
+ "bestDocPage": 1,
+ "status": "partial"
+}

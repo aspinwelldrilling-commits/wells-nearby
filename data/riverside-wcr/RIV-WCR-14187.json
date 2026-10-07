@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14187",
+ "processed": "2026-10-07T15:27:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "630-190-026",
+ "address": "47600 Marlboro Dr",
+ "city": "Palm Desert",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14187",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1859
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14187",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 570.0,
+   "conf": "high",
+   "ocrConf": 96.051483,
+   "raw": "Completed depth 570 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14187",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.70216327400004,
+ "lon": -116.38646452599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15844",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14187",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16356",
+ "bestDocPage": 1,
+ "status": "partial"
+}

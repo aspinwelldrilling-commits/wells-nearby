@@ -1,0 +1,74 @@
+{
+ "permit": "RIV-WCR-16451",
+ "processed": "2026-10-07T14:13:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "35525 Pony Trl",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16451",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 794
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16451",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "high",
+   "ocrConf": 85.028847,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "medium",
+   "ocrConf": 50.818916,
+   "raw": "WATER LEVEL __3Q __(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 91.054367,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.561203,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16451",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.769701816000065,
+ "lon": -117.03963733999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409838",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16451",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "18001",
+ "bestDocPage": 1,
+ "status": "readable"
+}

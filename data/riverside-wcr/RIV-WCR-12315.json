@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-12315",
+ "processed": "2026-10-07T14:02:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "4110 Calle Capri",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12315",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1922
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12315",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 825.0,
+   "conf": "medium",
+   "ocrConf": 50.930313,
+   "raw": "Completed depth 825 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12315",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.554966,
+ "lon": -116.94526,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11682",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12315",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14158",
+ "bestDocPage": 1,
+ "status": "partial"
+}

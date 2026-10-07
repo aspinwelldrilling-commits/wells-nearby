@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13799",
+ "processed": "2026-10-07T14:04:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "<Null>",
+ "address": "52400 Saddleback Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13799",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1087
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13799",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 215.0,
+   "conf": "low",
+   "ocrConf": 46.45351,
+   "raw": "Completed depth 215 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13799",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58984585500008,
+ "lon": -116.74606693999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14880",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13799",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15864",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

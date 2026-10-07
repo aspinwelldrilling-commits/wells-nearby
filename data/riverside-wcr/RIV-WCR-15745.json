@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15745",
+ "processed": "2026-10-07T14:15:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-030-066",
+ "address": "47350 De Portola Rd",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15745",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1013
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15745",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 68.022758,
+   "raw": "Completed depth 400 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15745",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.648421926000026,
+ "lon": -116.97507529799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410181",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15745",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17530",
+ "bestDocPage": 1,
+ "status": "partial"
+}

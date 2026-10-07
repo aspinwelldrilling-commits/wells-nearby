@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14430",
+ "processed": "2026-10-07T14:11:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-230-006",
+ "address": "42455 Melton Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14430",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1835
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14430",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "medium",
+   "ocrConf": 51.107513,
+   "raw": "Completed depth 360 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14430",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.609113870000044,
+ "lon": -116.92072861999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16368",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14430",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16621",
+ "bestDocPage": 1,
+ "status": "partial"
+}

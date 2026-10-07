@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14586",
+ "processed": "2026-10-07T14:17:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-410-017",
+ "address": "37400 Sage Blossom Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14586",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1073
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14586",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 785.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Completed depth 785",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 444.0,
+   "conf": "medium",
+   "ocrConf": 60.168953,
+   "raw": "Standing level after well completion 444 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14586",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58362829200007,
+ "lon": -116.989112,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16689",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14586",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16782",
+ "bestDocPage": 1,
+ "status": "partial"
+}

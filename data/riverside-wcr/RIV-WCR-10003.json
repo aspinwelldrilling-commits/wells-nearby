@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-10003",
+ "processed": "2026-10-07T14:36:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "32646 Galleano Ave",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10003",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 979
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10003",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 65.773972,
+   "raw": "Discharge 2 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10003",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.59795587900004,
+ "lon": -117.08961323699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8034",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10003",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12330",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-9645",
+ "processed": "2026-10-07T14:36:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "30880 Keller Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9645",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 890
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9645",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 225.0,
+   "conf": "low",
+   "ocrConf": 74.295692,
+   "raw": "(12) WELL LOG: Total depth225",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9645",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.6281,
+ "lon": -117.121879,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7538",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9645",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12079",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

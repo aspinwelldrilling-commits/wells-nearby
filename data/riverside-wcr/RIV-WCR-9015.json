@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-9015",
+ "processed": "2026-10-07T15:18:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "10711 Fabian Ln",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9015",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 972
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9015",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 258.0,
+   "conf": "medium",
+   "ocrConf": 54.907074,
+   "raw": "Standing level after well completion 258 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9015",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.96670370700008,
+ "lon": -117.01196781299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/6610",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9015",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "11616",
+ "bestDocPage": 1,
+ "status": "partial"
+}

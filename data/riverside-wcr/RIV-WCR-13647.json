@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13647",
+ "processed": "2026-10-07T14:52:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "32080 Lindenbuger Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13647",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1063
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13647",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 264.0,
+   "conf": "high",
+   "ocrConf": 96.26609,
+   "raw": "Completed depth 264 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "medium",
+   "ocrConf": 60.625889,
+   "raw": "Discharge 9 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13647",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.652485409000064,
+ "lon": -117.14486514199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14610",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13647",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15719",
+ "bestDocPage": 1,
+ "status": "readable"
+}

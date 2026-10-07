@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-31937",
+ "processed": "2026-10-07T15:17:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "CALIFORNIA AVENUE",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31937",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1483
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31937",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 270.0,
+   "conf": "low",
+   "ocrConf": 12.616661,
+   "raw": "(12) WELL LOG: Total depth 270,",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31937",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.919334667000044,
+ "lon": -116.98618814699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/22487",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31937",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "08940",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14019",
+ "processed": "2026-10-07T15:00:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-290-015",
+ "address": "33375 Wright Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14019",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1974
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14019",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 87.143059,
+   "raw": "Standing level after well completion 45 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14019",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.636252626000044,
+ "lon": -117.21805794899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15542",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14019",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16203",
+ "bestDocPage": 1,
+ "status": "partial"
+}

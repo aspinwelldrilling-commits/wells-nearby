@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14471",
+ "processed": "2026-10-07T15:20:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "BEAUMONT AVE, ORCHARD",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14471",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2158
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14471",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "low",
+   "ocrConf": 40.833817,
+   "raw": "Completed depth 1000,\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 661.0,
+   "conf": "high",
+   "ocrConf": 83.68499,
+   "raw": "Standing level after well completion 661 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14471",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.978167333000044,
+ "lon": -116.97165101499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16452",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14471",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16663",
+ "bestDocPage": 1,
+ "status": "partial"
+}

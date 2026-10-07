@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14111",
+ "processed": "2026-10-07T14:08:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "29500 Highway 243",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14111",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1051
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14111",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 39.508728,
+   "raw": "Completed depth 400",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14111",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.70508003000003,
+ "lon": -116.72046065999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15718",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14111",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16292",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

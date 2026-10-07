@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-9767",
+ "processed": "2026-10-07T14:37:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "25551 Bundy Canyon",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9767",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 967
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9767",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 256.0,
+   "conf": "low",
+   "ocrConf": 27.137611,
+   "raw": "(12) WELL LOG: Total depth 256",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 94.492493,
+   "raw": "Discharge. 2 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9767",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.641829002000065,
+ "lon": -117.21426606499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7724",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9767",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12173",
+ "bestDocPage": 1,
+ "status": "partial"
+}

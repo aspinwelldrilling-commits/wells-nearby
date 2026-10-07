@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-13997",
+ "processed": "2026-10-07T15:20:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "SINGLETON RD, CALIMESA BLVD",
+ "city": "Calimesa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13997",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2368
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13997",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1230.0,
+   "conf": "medium",
+   "ocrConf": 84.003288,
+   "raw": "(12) WELL LOG: Total depth 1230",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13997",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.979974741000035,
+ "lon": -117.04619559799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15486",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13997",
+ "serviceType": "New Construction",
+ "wellType": "Municipal",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16174",
+ "bestDocPage": 1,
+ "status": "partial"
+}

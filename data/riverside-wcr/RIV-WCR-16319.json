@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-16319",
+ "processed": "2026-10-07T15:13:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "347-160-034",
+ "address": "28391 Red Gum Dr",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16319",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1100
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16319",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 427.0,
+   "conf": "low",
+   "ocrConf": 77.267715,
+   "raw": "(12) WELL LOG: Total depth 427",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16319",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.70701021,
+ "lon": -117.33948177,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410412",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16319",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17919",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

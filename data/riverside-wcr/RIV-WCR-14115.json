@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14115",
+ "processed": "2026-10-07T14:06:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-030-063",
+ "address": "32425 De Portola Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14115",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1941
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14115",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 694.0,
+   "conf": "high",
+   "ocrConf": 85.969452,
+   "raw": "Completed depth 694 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14115",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.64567119600002,
+ "lon": -116.97135410699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15722",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14115",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16294",
+ "bestDocPage": 1,
+ "status": "partial"
+}

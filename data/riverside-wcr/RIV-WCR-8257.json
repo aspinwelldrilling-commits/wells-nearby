@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-8257",
+ "processed": "2026-10-07T14:31:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "33205 Los Olivos",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8257",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1717
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8257",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 90.584122,
+   "raw": "Standing level after well completion 18 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8257",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60530169,
+ "lon": -117.29526496,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5308",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8257",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10793",
+ "bestDocPage": 1,
+ "status": "partial"
+}

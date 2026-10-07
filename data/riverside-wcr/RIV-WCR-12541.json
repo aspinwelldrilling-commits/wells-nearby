@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-12541",
+ "processed": "2026-10-07T15:12:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "377-100-008",
+ "address": "29491 Thomas Way",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12541",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1111
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12541",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Completed depth 24 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12541",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.69311981100003,
+ "lon": -117.32811514399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12124",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12541",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14380",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

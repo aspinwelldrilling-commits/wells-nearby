@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14918",
+ "processed": "2026-10-07T14:56:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-340-014-5",
+ "address": "30280 Curzulla",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14918",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1951
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14918",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 222.0,
+   "conf": "low",
+   "ocrConf": 35.766472,
+   "raw": "Completed depth 222 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 83.473312,
+   "raw": "Standing level after well completion 80 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14918",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63652451200005,
+ "lon": -117.13050186999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/17064",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14918",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16977",
+ "bestDocPage": 1,
+ "status": "partial"
+}

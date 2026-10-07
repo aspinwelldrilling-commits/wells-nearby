@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-16519",
+ "processed": "2026-10-07T14:15:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-340-010",
+ "address": "24230 Maze Stone Ct",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16519",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 868
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16519",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 10.020676,
+   "raw": "WATER LEVEL _.__3/ __(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Ll R Rotary",
+   "conf": "medium",
+   "ocrConf": 50.276596,
+   "raw": "DRILLING\nMETHOD Ll R ROTARY FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16519",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.769963,
+ "lon": -117.035641,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409868",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16519",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "18043",
+ "bestDocPage": 1,
+ "status": "partial"
+}

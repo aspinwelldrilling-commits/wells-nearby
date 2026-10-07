@@ -1,0 +1,66 @@
+{
+ "permit": "RIV-WCR-28611",
+ "processed": "2026-10-07T15:01:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-380-001-7",
+ "address": "33440 Hixon Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28611",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 677
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28611",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 48.386688,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 88.029823,
+   "raw": "ESTIMATED YIELD * 4 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-03-17",
+   "conf": "high",
+   "ocrConf": 89.268097,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28611",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.602063900000076,
+ "lon": -117.29594608999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409028",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28611",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "30309",
+ "bestDocPage": 1,
+ "status": "partial"
+}

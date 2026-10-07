@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-3485",
+ "processed": "2026-10-07T15:23:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "FILLMORE St",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/3485",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 87
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/3485",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 819.0,
+   "conf": "medium",
+   "ocrConf": 96.668991,
+   "raw": "Total depth 819 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/3485",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.67652187600004,
+ "lon": -116.11502082899995,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/3485",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "04183",
+ "bestDocPage": 1,
+ "status": "partial"
+}

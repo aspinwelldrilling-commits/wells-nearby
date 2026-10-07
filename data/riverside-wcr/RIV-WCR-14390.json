@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14390",
+ "processed": "2026-10-07T14:55:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-030-048",
+ "address": "SCOTT RD",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14390",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1108
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14390",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 174.0,
+   "conf": "high",
+   "ocrConf": 95.506859,
+   "raw": "Completed depth 174 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14390",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63382095400004,
+ "lon": -117.12057806699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16313",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14390",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16594",
+ "bestDocPage": 1,
+ "status": "partial"
+}

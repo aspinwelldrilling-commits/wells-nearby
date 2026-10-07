@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-15402",
+ "processed": "2026-10-07T14:19:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "53365 Sherman Dr",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15402",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1002
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15402",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 420.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "(12) WELL LOG: Total depth 420",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15402",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.756851,
+ "lon": -116.731558,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410022",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15402",
+ "serviceType": "Destruction",
+ "wellType": "Community",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17301",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

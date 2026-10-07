@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14587",
+ "processed": "2026-10-07T15:17:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-360-001",
+ "address": "34997 Enderlein St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14587",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1037
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14587",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 44.0,
+   "conf": "low",
+   "ocrConf": 26.537407,
+   "raw": "Completed depth 44",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 29.845818,
+   "raw": "Discharge 4 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14587",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.597902,
+ "lon": -117.30196,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16692",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14587",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16784",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

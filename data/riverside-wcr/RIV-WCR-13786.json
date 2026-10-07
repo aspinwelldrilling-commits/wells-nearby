@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13786",
+ "processed": "2026-10-07T15:14:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "347-110-054",
+ "address": "19675 Neil Rd",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13786",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1023
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13786",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 2290.0,
+   "conf": "medium",
+   "ocrConf": 54.424194,
+   "raw": "Completed depth 2290 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13786",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.706958102000044,
+ "lon": -117.31672502099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14844",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13786",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15845",
+ "bestDocPage": 1,
+ "status": "partial"
+}

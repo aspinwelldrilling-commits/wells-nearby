@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13825",
+ "processed": "2026-10-07T14:15:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-040-003",
+ "address": "32255 Sage Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13825",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1038
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13825",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "low",
+   "ocrConf": 45.36853,
+   "raw": "Completed depth 320 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 73.031296,
+   "raw": "Standing level after well completion 20 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13825",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.655883,
+ "lon": -116.952497,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14962",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13825",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15906",
+ "bestDocPage": 1,
+ "status": "partial"
+}

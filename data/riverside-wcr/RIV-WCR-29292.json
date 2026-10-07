@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-29292",
+ "processed": "2026-10-07T14:25:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "674-500-006",
+ "address": "69010 Highway 111",
+ "city": "Cathedral City",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29292",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3504
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29292",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 21.0,
+   "conf": "low",
+   "ocrConf": 24.196754,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 21",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29292",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.778183100000035,
+ "lon": -116.45762429999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408734",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29292",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31577",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

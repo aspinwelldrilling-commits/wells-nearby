@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-8753",
+ "processed": "2026-10-07T14:33:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "33203 Hixon St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8753",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1069
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8753",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 95.472862,
+   "raw": "Standing level after well completion 18 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8753",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60483675000006,
+ "lon": -117.29436931099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/6142",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8753",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "11308",
+ "bestDocPage": 1,
+ "status": "partial"
+}

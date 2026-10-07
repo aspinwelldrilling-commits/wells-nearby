@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15029",
+ "processed": "2026-10-07T14:58:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "914-340-022",
+ "address": "28895 Ernest Way",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15029",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1175
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15029",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 285.0,
+   "conf": "medium",
+   "ocrConf": 68.357269,
+   "raw": "Completed depth 285 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15029",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.583720834000076,
+ "lon": -117.15668561399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409976",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15029",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17060",
+ "bestDocPage": 1,
+ "status": "partial"
+}

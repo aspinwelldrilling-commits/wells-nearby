@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14415",
+ "processed": "2026-10-07T14:12:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-270-018",
+ "address": "54105 Glenda Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14415",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1131
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14415",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "low",
+   "ocrConf": 23.881187,
+   "raw": "Completed depth 500 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1990-06-22",
+   "conf": "medium",
+   "ocrConf": 55.74707,
+   "raw": "Completed__6/22/90",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14415",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56983398700004,
+ "lon": -116.71680126899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16346",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14415",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16610",
+ "bestDocPage": 1,
+ "status": "partial"
+}

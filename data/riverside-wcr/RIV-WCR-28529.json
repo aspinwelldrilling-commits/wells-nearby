@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-28529",
+ "processed": "2026-10-07T14:13:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-100-029",
+ "address": "SPRING & INDIAN",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28529",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 743
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28529",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 290.0,
+   "conf": "low",
+   "ocrConf": 49.478676,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL290",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-06-24",
+   "conf": "high",
+   "ocrConf": 80.254379,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28529",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55795653000007,
+ "lon": -116.75666832099995,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28529",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "30157",
+ "bestDocPage": 1,
+ "status": "partial"
+}

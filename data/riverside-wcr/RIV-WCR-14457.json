@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14457",
+ "processed": "2026-10-07T15:09:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-280-034",
+ "address": "24456 Oak Circle Dr",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14457",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1020
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14457",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 405.0,
+   "conf": "high",
+   "ocrConf": 86.485023,
+   "raw": "Completed depth 405 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 165.0,
+   "conf": "high",
+   "ocrConf": 90.514435,
+   "raw": "Standing level after well completion 165 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14457",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.620516,
+ "lon": -117.246309,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16430",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14457",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16652",
+ "bestDocPage": 1,
+ "status": "readable"
+}

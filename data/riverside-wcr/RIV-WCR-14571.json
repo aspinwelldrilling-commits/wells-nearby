@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14571",
+ "processed": "2026-10-07T15:20:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "529-140-009",
+ "address": "49180 Boarder Rd",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14571",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1815
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14571",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 29.67955,
+   "raw": "Completed depth 400 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14571",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.873059,
+ "lon": -116.802177,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16660",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14571",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16768",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

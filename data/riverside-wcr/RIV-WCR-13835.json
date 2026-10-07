@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-13835",
+ "processed": "2026-10-07T15:20:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "1036 Roberts Rd",
+ "city": "Calimesa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13835",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1023
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13835",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 290.0,
+   "conf": "low",
+   "ocrConf": 76.011429,
+   "raw": "(12) WELL LOG: Total depth 290",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2200.0,
+   "conf": "medium",
+   "ocrConf": 71.595764,
+   "raw": "Discharge 2200 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13835",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.97396972200005,
+ "lon": -117.04583173799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14976",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13835",
+ "serviceType": "New Construction",
+ "wellType": "Unknown",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15914",
+ "bestDocPage": 1,
+ "status": "partial"
+}

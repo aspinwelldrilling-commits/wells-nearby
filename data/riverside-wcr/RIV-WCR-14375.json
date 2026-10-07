@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14375",
+ "processed": "2026-10-07T15:05:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-290-002",
+ "address": "26613 Ethanac Rd",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14375",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1131
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14375",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.721077,
+   "raw": "Completed depth 300 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14375",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.742118,
+ "lon": -117.265548,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16292",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14375",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16583",
+ "bestDocPage": 1,
+ "status": "partial"
+}

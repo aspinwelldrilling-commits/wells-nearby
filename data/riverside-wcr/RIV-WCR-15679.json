@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-15679",
+ "processed": "2026-10-07T15:01:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "331-330-012",
+ "address": "27480 Airstream Way",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15679",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1043
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15679",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 365.0,
+   "conf": "high",
+   "ocrConf": 96.053108,
+   "raw": "Completed depth 365 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 1172.0,
+   "conf": "medium",
+   "ocrConf": 76.795029,
+   "raw": "Standing level after well completion 1172 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15679",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.733422,
+ "lon": -117.180734,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410139",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15679",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17480",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-7883",
+ "processed": "2026-10-07T15:11:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "34700 Ortega Highway",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7883",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 961
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7883",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 185.0,
+   "conf": "medium",
+   "ocrConf": 96.804153,
+   "raw": "(12) WELL LOG: Total depth 185",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.861847,
+   "raw": "Standing level after well completion_ 10 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7883",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.613852327000075,
+ "lon": -117.42034539699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/4212",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7883",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10241",
+ "bestDocPage": 1,
+ "status": "readable"
+}

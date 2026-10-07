@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14578",
+ "processed": "2026-10-07T14:06:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-060-011",
+ "address": "41905 Hyde Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14578",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1072
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14578",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 734.0,
+   "conf": "medium",
+   "ocrConf": 63.550537,
+   "raw": "Completed depth 734 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14578",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.65286354500006,
+ "lon": -116.92848302399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16672",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14578",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16774",
+ "bestDocPage": 1,
+ "status": "partial"
+}

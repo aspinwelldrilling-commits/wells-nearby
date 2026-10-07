@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-12525",
+ "processed": "2026-10-07T14:46:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-500-023",
+ "address": "29630 Garland Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12525",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1921
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12525",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 26.250732,
+   "raw": "Completed depth200 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12525",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65104838100007,
+ "lon": -117.14272064799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12093",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12525",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14365",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

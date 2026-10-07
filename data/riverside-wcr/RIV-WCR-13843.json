@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13843",
+ "processed": "2026-10-07T14:10:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-260-058",
+ "address": "38850 Thomas Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13843",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1884
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13843",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 834.0,
+   "conf": "high",
+   "ocrConf": 85.085182,
+   "raw": "Completed depth 834 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13843",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55728873000004,
+ "lon": -116.85043433999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14993",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13843",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15923",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13745",
+ "processed": "2026-10-07T15:19:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "CHERRY VALLEY BLVD, BEAUMONT AVE",
+ "city": "Cherry Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13745",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2190
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13745",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1030.0,
+   "conf": "low",
+   "ocrConf": 5.740936,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1030",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13745",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.96853239200004,
+ "lon": -116.97409585799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14772",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13745",
+ "serviceType": "New Construction",
+ "wellType": "Test Well",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15807",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

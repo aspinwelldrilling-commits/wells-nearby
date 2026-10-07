@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-14307",
+ "processed": "2026-10-07T15:19:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "9895 Mais Canyon Rd",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14307",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1041
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14307",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 87.439583,
+   "raw": "(12) WELL LOG: Total depth 300",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14307",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.979386831000056,
+ "lon": -116.88724371099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16106",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14307",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16490",
+ "bestDocPage": 1,
+ "status": "partial"
+}

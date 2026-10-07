@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13061",
+ "processed": "2026-10-07T14:53:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "28400 Patterson St",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13061",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2031
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13061",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 27.0,
+   "conf": "low",
+   "ocrConf": 32.492378,
+   "raw": "Completed depth 27",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13061",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.7100453,
+ "lon": -117.0760875,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13338",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13061",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14990",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

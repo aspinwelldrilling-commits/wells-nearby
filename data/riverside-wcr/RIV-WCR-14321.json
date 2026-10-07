@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14321",
+ "processed": "2026-10-07T14:58:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-170-050",
+ "address": "29985 Lowrey Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14321",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1083
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14321",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 224.0,
+   "conf": "medium",
+   "ocrConf": 69.15033,
+   "raw": "Completed depth 224 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14321",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.657458105000046,
+ "lon": -117.13862155699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16160",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14321",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16517",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-24829",
+ "processed": "2026-10-07T15:17:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "381-242-019",
+ "address": "17671 Grand Ave",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/24829",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 839
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/24829",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 45.0,
+   "conf": "medium",
+   "ocrConf": 50.121147,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _45",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/24829",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.638410271000055,
+ "lon": -117.34397987699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409818",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/24829",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "23797",
+ "bestDocPage": 1,
+ "status": "partial"
+}

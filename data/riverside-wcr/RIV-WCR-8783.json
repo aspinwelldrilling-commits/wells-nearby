@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-8783",
+ "processed": "2026-10-07T14:35:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "32655 Mayes Ln",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8783",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 972
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8783",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 96.630188,
+   "raw": "Discharge. 12 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8783",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.61227748,
+ "lon": -117.28986502,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/6232",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8783",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "11353",
+ "bestDocPage": 1,
+ "status": "partial"
+}

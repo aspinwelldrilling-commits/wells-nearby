@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14075",
+ "processed": "2026-10-07T14:05:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-090-056",
+ "address": "HORNING Rd",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14075",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2075
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14075",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 149.0,
+   "conf": "high",
+   "ocrConf": 96.103386,
+   "raw": "Completed depth 149 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 29.0,
+   "conf": "medium",
+   "ocrConf": 73.151878,
+   "raw": "Standing level after well completion\n29 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14075",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.666312610000034,
+ "lon": -116.98669297999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15644",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14075",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16255",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-7959",
+ "processed": "2026-10-07T15:16:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "32920 Blackwell Blvd",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7959",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 988
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7959",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 452.0,
+   "conf": "medium",
+   "ocrConf": 96.344948,
+   "raw": "(12) WELL LOG: Total depth 452",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 22.0,
+   "conf": "high",
+   "ocrConf": 96.778458,
+   "raw": "Standing level after well completion 22 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7959",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.641043,
+ "lon": -117.344646,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/4412",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7959",
+ "serviceType": "New Construction",
+ "wellType": "Municipal",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10342",
+ "bestDocPage": 1,
+ "status": "readable"
+}

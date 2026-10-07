@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14095",
+ "processed": "2026-10-07T14:04:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "HORNING Rd",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14095",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1098
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14095",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 354.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Completed depth 354 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.3,
+   "conf": "medium",
+   "ocrConf": 62.627045,
+   "raw": "Discharge 20.3 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14095",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66297441800003,
+ "lon": -116.98484467899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15675",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14095",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16271",
+ "bestDocPage": 1,
+ "status": "partial"
+}

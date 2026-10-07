@@ -1,0 +1,72 @@
+{
+ "permit": "RIV-WCR-24121",
+ "processed": "2026-10-07T15:00:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "358-240-047",
+ "address": "25570 Garbani Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/24121",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1994
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/24121",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/24121",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "1999-04-13",
+   "conf": "high",
+   "ocrConf": 89.73156,
+   "page": 1,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 813.0,
+   "conf": "high",
+   "ocrConf": 85.228439,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___ 813",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 3.178802,
+   "raw": "WATER LeveL___3Q _(Ft",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/24121",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65664516000004,
+ "lon": -117.21205511999995,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/24121",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "22987",
+ "bestDocPage": 2,
+ "status": "readable"
+}

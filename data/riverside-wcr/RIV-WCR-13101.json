@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13101",
+ "processed": "2026-10-07T15:13:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "347-280-059",
+ "address": "CRESTLINE DRIVE",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13101",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1673
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13101",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "high",
+   "ocrConf": 96.649879,
+   "raw": "Completed depth 180 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13101",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.72063094900005,
+ "lon": -117.33805037599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13416",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13101",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15029",
+ "bestDocPage": 1,
+ "status": "partial"
+}

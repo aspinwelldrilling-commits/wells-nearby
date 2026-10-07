@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14334",
+ "processed": "2026-10-07T14:13:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "36620 Murry Hills Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14334",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1855
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14334",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "high",
+   "ocrConf": 92.139748,
+   "raw": "Completed depth 220 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14334",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58870983500003,
+ "lon": -116.74879273599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16202",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14334",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16538",
+ "bestDocPage": 1,
+ "status": "partial"
+}

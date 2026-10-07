@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14227",
+ "processed": "2026-10-07T14:57:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-230-068",
+ "address": "32565 Davis Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14227",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1903
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14227",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "medium",
+   "ocrConf": 65.113441,
+   "raw": "Completed depth 260 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14227",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64770174600005,
+ "lon": -117.11302931099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15915",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14227",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16393",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15324",
+ "processed": "2026-10-07T14:54:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "462-060-005",
+ "address": "31775 Simpson Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15324",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1031
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15324",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 53.103516,
+   "raw": "Completed depth 200 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15324",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.7053958980001,
+ "lon": -117.104969391,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409997",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15324",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17252",
+ "bestDocPage": 1,
+ "status": "partial"
+}

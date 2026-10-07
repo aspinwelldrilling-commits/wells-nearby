@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-15571",
+ "processed": "2026-10-07T15:05:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-300-009",
+ "address": "33466 Howard Way",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15571",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1011
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15571",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 52.0,
+   "conf": "low",
+   "ocrConf": 47.843575,
+   "raw": "Completed depth 52 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 13.0,
+   "conf": "low",
+   "ocrConf": 25.647293,
+   "raw": "Standing level after well completion 13",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15571",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.634906,
+ "lon": -117.179555,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410091",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15571",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17411",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

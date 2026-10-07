@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14537",
+ "processed": "2026-10-07T14:56:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-130-027-8",
+ "address": "30260 Pat Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14537",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1049
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14537",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 694.0,
+   "conf": "high",
+   "ocrConf": 81.331696,
+   "raw": "Completed depth 694 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14537",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.620751410000025,
+ "lon": -117.13166035999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16570",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14537",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16722",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-15481",
+ "processed": "2026-10-07T15:14:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-050-022",
+ "address": "33446 Follman Ln",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15481",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1134
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15481",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 96.110329,
+   "raw": "Completed depth 500 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 55.673634,
+   "raw": "Standing level after well completion 150",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15481",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.630296749000024,
+ "lon": -117.34338438499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410059",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15481",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17354",
+ "bestDocPage": 1,
+ "status": "readable"
+}

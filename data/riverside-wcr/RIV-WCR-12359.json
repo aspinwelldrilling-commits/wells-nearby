@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-12359",
+ "processed": "2026-10-07T15:26:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "82291 61St Ave",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12359",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 931
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12359",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 79.00975,
+   "raw": "WELL LOG: Total depth 400",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12359",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.60552965100004,
+ "lon": -116.22837268099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11774",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12359",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14204",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-9121",
+ "processed": "2026-10-07T15:26:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "AVE 50, MADISON, AVE 51",
+ "city": "Indio",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9121",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1010
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9121",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 13.0,
+   "conf": "low",
+   "ocrConf": 28.556633,
+   "raw": "Standing level after well completion 13 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9121",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.68092918700006,
+ "lon": -116.24695052799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/6772",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9121",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "11697",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

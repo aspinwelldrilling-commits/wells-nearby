@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14167",
+ "processed": "2026-10-07T15:06:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "369-330-002",
+ "address": "Baxter Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14167",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1848
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14167",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 228.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Completed depth 228\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 93.50779,
+   "raw": "Standing level after well completion 45 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14167",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.611982,
+ "lon": -117.251736,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15796",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14167",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16332",
+ "bestDocPage": 1,
+ "status": "partial"
+}

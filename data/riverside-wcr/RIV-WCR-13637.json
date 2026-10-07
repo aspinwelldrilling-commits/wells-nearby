@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13637",
+ "processed": "2026-10-07T15:14:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "12500 St Paul Cir",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13637",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1671
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13637",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 37.112823,
+   "raw": "Completed depth 100 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 63.248238,
+   "raw": "Standing level after well completion __25 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13637",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.73196786400007,
+ "lon": -117.44839831599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14598",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13637",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15713",
+ "bestDocPage": 1,
+ "status": "partial"
+}

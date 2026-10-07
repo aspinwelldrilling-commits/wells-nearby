@@ -1,0 +1,57 @@
+{
+ "permit": "RIV-WCR-9651",
+ "processed": "2026-10-07T14:00:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "COLT RD",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9651",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2031
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9651",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9651",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.89463,
+   "raw": "Discharge 5 gal/min",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9651",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.622049,
+ "lon": -116.969755,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7546",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9651",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12083",
+ "bestDocPage": 1,
+ "status": "partial"
+}

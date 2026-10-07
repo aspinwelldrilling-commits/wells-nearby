@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-31808",
+ "processed": "2026-10-07T15:24:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "AVE 55, SHADY LN",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31808",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 896
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31808",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 96.0,
+   "conf": "medium",
+   "ocrConf": 81.22052,
+   "raw": "(12) WELL LOG: Total depth 96",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31808",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.64763868500006,
+ "lon": -116.16785103399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/22003",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31808",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "08699",
+ "bestDocPage": 1,
+ "status": "partial"
+}

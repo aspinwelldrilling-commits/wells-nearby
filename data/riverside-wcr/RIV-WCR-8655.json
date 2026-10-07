@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-8655",
+ "processed": "2026-10-07T14:30:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357300008",
+ "address": "26290 Hayden Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8655",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 978
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8655",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 73.529831,
+   "raw": "Standing level after well completion _20 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8655",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64610737,
+ "lon": -117.20095425,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5958",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8655",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "11218",
+ "bestDocPage": 1,
+ "status": "partial"
+}

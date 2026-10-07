@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14077",
+ "processed": "2026-10-07T14:11:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-300-016",
+ "address": "35625 Bronaugh Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14077",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1065
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14077",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 355.0,
+   "conf": "low",
+   "ocrConf": 28.084915,
+   "raw": "Completed depth 355 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14077",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.606766279000055,
+ "lon": -116.89464602499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15646",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14077",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16256",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

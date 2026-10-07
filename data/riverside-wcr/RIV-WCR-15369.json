@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15369",
+ "processed": "2026-10-07T14:17:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "565-101-019",
+ "address": "54420 S Circle Dr",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15369",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1060
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15369",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 460.0,
+   "conf": "low",
+   "ocrConf": 39.952122,
+   "raw": "Completed depth 460 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15369",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.742155672000024,
+ "lon": -116.71251448799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410014",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15369",
+ "serviceType": "New Construction",
+ "wellType": "Municipal",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17285",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

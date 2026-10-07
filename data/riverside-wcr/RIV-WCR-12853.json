@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-12853",
+ "processed": "2026-10-07T14:04:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "37887 Vista Lago Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12853",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 946
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12853",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 70.0,
+   "conf": "medium",
+   "ocrConf": 92.264069,
+   "raw": "(12) WELL LOG: Total depth 70",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 28.225861,
+   "raw": "Discharge__24 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12853",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57122265800007,
+ "lon": -117.04622459899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12908",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12853",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14775",
+ "bestDocPage": 1,
+ "status": "partial"
+}

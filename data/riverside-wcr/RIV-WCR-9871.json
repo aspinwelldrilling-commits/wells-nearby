@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-9871",
+ "processed": "2026-10-07T14:36:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "33420 Gafford Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9871",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 949
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9871",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 83.049942,
+   "raw": "Discharge. 5 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9871",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63530369100005,
+ "lon": -117.26315374099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7856",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9871",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12240",
+ "bestDocPage": 1,
+ "status": "partial"
+}

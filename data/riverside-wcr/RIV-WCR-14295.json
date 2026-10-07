@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-14295",
+ "processed": "2026-10-07T15:09:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "372-090-033",
+ "address": "31585 Briggs Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14295",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1891
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14295",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 905.0,
+   "conf": "medium",
+   "ocrConf": 95.486778,
+   "raw": "WELL LOG: Total depth 905",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Discharge 35 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14295",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.662735,
+ "lon": -117.139706,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16014",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14295",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16444",
+ "bestDocPage": 1,
+ "status": "partial"
+}

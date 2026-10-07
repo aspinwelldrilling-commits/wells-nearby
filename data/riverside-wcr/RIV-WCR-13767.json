@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13767",
+ "processed": "2026-10-07T14:15:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "HARVEY Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13767",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1078
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13767",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 230.0,
+   "conf": "low",
+   "ocrConf": 30.497177,
+   "raw": "Completed depth 230",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 2.978905,
+   "raw": "Standing level after well completion 1OO",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13767",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57272845800003,
+ "lon": -116.70139910099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14814",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13767",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15830",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13975",
+ "processed": "2026-10-07T14:18:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-410-016",
+ "address": "37525 Sage Blossom Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13975",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1903
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13975",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 420.0,
+   "conf": "high",
+   "ocrConf": 88.454857,
+   "raw": "Completed depth 420 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13975",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58397781200006,
+ "lon": -116.98820255199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15438",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13975",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16150",
+ "bestDocPage": 1,
+ "status": "partial"
+}

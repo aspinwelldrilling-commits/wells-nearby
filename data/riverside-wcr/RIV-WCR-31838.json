@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-31838",
+ "processed": "2026-10-07T15:11:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "34700 Ortega Highway",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31838",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1501
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31838",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 42.0,
+   "conf": "low",
+   "ocrConf": 40.981709,
+   "raw": "Discharge 42 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31838",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.613852327000075,
+ "lon": -117.42034539699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/22129",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31838",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "08761",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

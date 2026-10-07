@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13987",
+ "processed": "2026-10-07T15:03:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-310-019",
+ "address": "33155 Christine Ln",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13987",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1083
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13987",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 354.0,
+   "conf": "medium",
+   "ocrConf": 71.893173,
+   "raw": "Completed depth 354 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13987",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63965193900003,
+ "lon": -117.11237764299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15462",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13987",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16162",
+ "bestDocPage": 1,
+ "status": "partial"
+}

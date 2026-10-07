@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15741",
+ "processed": "2026-10-07T15:15:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "346-050-007",
+ "address": "19205 Santa Rosa Rd",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15741",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1054
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15741",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 603.0,
+   "conf": "medium",
+   "ocrConf": 78.006897,
+   "raw": "Completed depth 603 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15741",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.752035,
+ "lon": -117.321671,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410179",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15741",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17528",
+ "bestDocPage": 1,
+ "status": "partial"
+}

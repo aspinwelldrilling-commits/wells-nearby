@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-2951",
+ "processed": "2026-10-07T15:27:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": null,
+ "city": null,
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2951",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 83
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2951",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 518.0,
+   "conf": "low",
+   "ocrConf": 77.124649,
+   "raw": "Total depth 518 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2951",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.692666,
+ "lon": -116.260001,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2951",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "03765",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

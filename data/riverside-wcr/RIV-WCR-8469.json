@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-8469",
+ "processed": "2026-10-07T14:32:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "KELLER, POURROY",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8469",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 981
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8469",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 79.751686,
+   "raw": "(12) WELL LOG: Total depth 200",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8469",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.622889764000035,
+ "lon": -117.10319051099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5662",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8469",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "11074",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

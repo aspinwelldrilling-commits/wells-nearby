@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14903",
+ "processed": "2026-10-07T14:04:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "465-020-010-8",
+ "address": "35409 Highway 74",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14903",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 732
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14903",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.796906,
+   "raw": "Completed depth 200 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 38.0,
+   "conf": "high",
+   "ocrConf": 96.633301,
+   "raw": "Standing level after well completion 38 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14903",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.739969090000045,
+ "lon": -117.04335883999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/17050",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14903",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16970",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14478",
+ "processed": "2026-10-07T14:56:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "330-190-020",
+ "address": "26420 Wheat St",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14478",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1093
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14478",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "high",
+   "ocrConf": 90.988571,
+   "raw": "Completed depth 325 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14478",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.73714579800003,
+ "lon": -117.21821311999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16458",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14478",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16666",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13943",
+ "processed": "2026-10-07T15:19:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "529-150-026",
+ "address": "17496 Summer Breeze St",
+ "city": "Banning",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13943",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1830
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13943",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 409.0,
+   "conf": "low",
+   "ocrConf": 47.354679,
+   "raw": "Completed depth 409 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13943",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.86298527200006,
+ "lon": -116.82334282399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15328",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13943",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16094",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

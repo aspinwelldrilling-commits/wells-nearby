@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-15409",
+ "processed": "2026-10-07T15:21:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "Beaumont #1",
+ "city": "Beaumont",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15409",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 953
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15409",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 65.0,
+   "conf": "low",
+   "ocrConf": 31.051025,
+   "raw": "Total depth 65 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 45.413879,
+   "raw": "Standing level after well completion 7 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15409",
+ "errors": [],
+ "area": "beaumont-banning",
+ "lat": 33.867672,
+ "lon": -116.934872,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410029",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15409",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17309",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

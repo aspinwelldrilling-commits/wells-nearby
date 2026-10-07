@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15069",
+ "processed": "2026-10-07T14:15:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-110-011",
+ "address": "Lee Trl",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15069",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1047
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15069",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 205.0,
+   "conf": "medium",
+   "ocrConf": 76.720406,
+   "raw": "Completed depth 205 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15069",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.553912,
+ "lon": -116.823766,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409989",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15069",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17082",
+ "bestDocPage": 1,
+ "status": "partial"
+}

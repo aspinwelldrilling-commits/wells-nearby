@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-9559",
+ "processed": "2026-10-07T14:37:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "26070 Lake Side Dr",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9559",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 884
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9559",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 84.445518,
+   "raw": "(12) WELL LOG: Total depth 100",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9559",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62802317,
+ "lon": -117.20551689,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7410",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9559",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12016",
+ "bestDocPage": 1,
+ "status": "partial"
+}

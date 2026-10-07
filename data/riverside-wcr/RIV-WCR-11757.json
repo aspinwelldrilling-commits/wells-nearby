@@ -1,0 +1,68 @@
+{
+ "permit": "RIV-WCR-11757",
+ "processed": "2026-10-07T14:24:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "69411 Ramon Rd",
+ "city": "Cathedral City",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11757",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 999
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11757",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 635.0,
+   "conf": "low",
+   "ocrConf": 76.773125,
+   "raw": "(12) WELL LOG: Total depth 635",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 915.0,
+   "conf": "high",
+   "ocrConf": 84.670227,
+   "raw": "Standing level after well completion 915 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1500.0,
+   "conf": "medium",
+   "ocrConf": 51.719208,
+   "raw": "Discharge__1500 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11757",
+ "errors": [],
+ "area": "idyllwild",
+ "lat": 33.81594130800005,
+ "lon": -116.45813466999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10750",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11757",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13691",
+ "bestDocPage": 1,
+ "status": "partial"
+}

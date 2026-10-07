@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-8683",
+ "processed": "2026-10-07T14:31:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "BRIGGS Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8683",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1102
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8683",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 51.481133,
+   "raw": "(12) WELL LOG: Total depth 200",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8683",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62297098,
+ "lon": -117.13549267,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5996",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8683",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "11235",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

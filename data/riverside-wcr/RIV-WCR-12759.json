@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-12759",
+ "processed": "2026-10-07T14:01:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "52625 Doubleview Dr",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12759",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1138
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12759",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 425.0,
+   "conf": "medium",
+   "ocrConf": 62.108978,
+   "raw": "Completed depth 425 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12759",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.726238479000074,
+ "lon": -116.74296606099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12700",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12759",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14671",
+ "bestDocPage": 1,
+ "status": "partial"
+}

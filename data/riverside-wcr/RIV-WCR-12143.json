@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-12143",
+ "processed": "2026-10-07T14:49:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-070-016",
+ "address": "33755 Washington",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12143",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1857
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12143",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 204.0,
+   "conf": "high",
+   "ocrConf": 96.732437,
+   "raw": "Completed depth 204 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 56.0,
+   "conf": "low",
+   "ocrConf": 12.060135,
+   "raw": "Discharge _ 56 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12143",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63061375800004,
+ "lon": -117.08415928199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11374",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12143",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14004",
+ "bestDocPage": 1,
+ "status": "partial"
+}

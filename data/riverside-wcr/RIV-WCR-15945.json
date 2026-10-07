@@ -1,0 +1,70 @@
+{
+ "permit": "RIV-WCR-15945",
+ "processed": "2026-10-07T15:14:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "371-060-006",
+ "address": "CEREAL ST",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15945",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2549
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15945",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15945",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15945",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 29.225304,
+   "raw": "ESTIMATED YiELD*> 220 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1991-09-13",
+   "conf": "low",
+   "ocrConf": 36.894684,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15945",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.64564376100003,
+ "lon": -117.31881759699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410257",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15945",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17664",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

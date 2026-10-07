@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-10669",
+ "processed": "2026-10-07T15:12:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "386-100-023",
+ "address": "31984 Ortega Hwy",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10669",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 985
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10669",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 16.0,
+   "conf": "high",
+   "ocrConf": 93.965759,
+   "raw": "Standing level after well completion 16 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10669",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.65153218000006,
+ "lon": -117.39628010899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9021",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10669",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12824",
+ "bestDocPage": 1,
+ "status": "partial"
+}

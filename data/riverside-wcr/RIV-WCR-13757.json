@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13757",
+ "processed": "2026-10-07T14:03:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "42281 Minto Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13757",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1051
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13757",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 294.0,
+   "conf": "high",
+   "ocrConf": 96.528786,
+   "raw": "Completed depth 294 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13757",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.63909664000005,
+ "lon": -116.92328755999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14796",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13757",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15820",
+ "bestDocPage": 1,
+ "status": "partial"
+}

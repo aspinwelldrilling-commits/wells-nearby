@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13847",
+ "processed": "2026-10-07T14:07:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-180-045",
+ "address": "34363 Terry Mountain Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13847",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1875
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13847",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 354.0,
+   "conf": "high",
+   "ocrConf": 93.478317,
+   "raw": "Completed depth 354 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13847",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.623390080000036,
+ "lon": -116.94760870999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14998",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13847",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15925",
+ "bestDocPage": 1,
+ "status": "partial"
+}

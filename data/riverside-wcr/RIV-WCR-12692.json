@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-12692",
+ "processed": "2026-10-07T14:45:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-300-004",
+ "address": "SCOTT RD, LEON RD",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12692",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1000
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12692",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 165.0,
+   "conf": "medium",
+   "ocrConf": 61.224236,
+   "raw": "Completed depth 165 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12692",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.638542897000036,
+ "lon": -117.11742286999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12385",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12692",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14512",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-16619",
+ "processed": "2026-10-07T14:15:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "38815 E Benton Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16619",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 812
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16619",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 519.0,
+   "conf": "medium",
+   "ocrConf": 86.386406,
+   "raw": "TOTAL DEPTH OF BORING __ 519",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 19.576935,
+   "raw": "WATER LEVEL 20 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16619",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57538892500003,
+ "lon": -116.98380931999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409902",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16619",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "18098",
+ "bestDocPage": 1,
+ "status": "partial"
+}

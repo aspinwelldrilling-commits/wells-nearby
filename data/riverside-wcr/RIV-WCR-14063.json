@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14063",
+ "processed": "2026-10-07T14:13:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-300-015",
+ "address": "54922 Harvey Hills Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14063",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1020
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14063",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "low",
+   "ocrConf": 42.350521,
+   "raw": "Completed depth 320 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14063",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.572806703000026,
+ "lon": -116.70275880999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15626",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14063",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16246",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

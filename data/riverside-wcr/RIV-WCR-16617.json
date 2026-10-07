@@ -1,0 +1,67 @@
+{
+ "permit": "RIV-WCR-16617",
+ "processed": "2026-10-07T15:00:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "36705 Briggs Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16617",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 780
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16617",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "medium",
+   "ocrConf": 59.413414,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __240",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 96.764702,
+   "raw": "WATER LEVEL 2 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 95.643356,
+   "raw": "DRILLING\nMETHOD Rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16617",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.58542000800003,
+ "lon": -117.12963102299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409901",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16617",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "18097",
+ "bestDocPage": 1,
+ "status": "readable"
+}

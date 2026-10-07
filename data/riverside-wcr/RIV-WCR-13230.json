@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13230",
+ "processed": "2026-10-07T14:53:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-380-013",
+ "address": "20651 Okuma Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13230",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1055
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13230",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 96.67511,
+   "raw": "Completed depth 120 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.406723,
+   "raw": "Standing level after well completion 30 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13230",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64993715400004,
+ "lon": -117.20433479799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13690",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13230",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15187",
+ "bestDocPage": 1,
+ "status": "readable"
+}

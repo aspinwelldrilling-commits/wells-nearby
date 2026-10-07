@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13003",
+ "processed": "2026-10-07T14:03:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "23746 California Ave",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13003",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1022
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13003",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 62.802242,
+   "raw": "Completed depth 200 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13003",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.77683992500005,
+ "lon": -117.04945508899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13194",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13003",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14918",
+ "bestDocPage": 1,
+ "status": "partial"
+}

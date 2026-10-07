@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14033",
+ "processed": "2026-10-07T14:09:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-260-028",
+ "address": "35725 Chenopod Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14033",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1891
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14033",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 294.0,
+   "conf": "medium",
+   "ocrConf": 70.779312,
+   "raw": "Completed depth 294 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14033",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.606067393000046,
+ "lon": -116.91971980199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15558",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14033",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16211",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-10167",
+ "processed": "2026-10-07T15:26:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "61610 Highway 86",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10167",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 992
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10167",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "low",
+   "ocrConf": 52.051006,
+   "raw": "(12) WELL LOG: Total depth 265",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10167",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.60172924700004,
+ "lon": -116.180752112,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8280",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10167",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12454",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

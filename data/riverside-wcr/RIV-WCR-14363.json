@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14363",
+ "processed": "2026-10-07T14:58:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-030-033",
+ "address": "33901 Daily Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14363",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1048
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14363",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 130.0,
+   "conf": "low",
+   "ocrConf": 16.259468,
+   "raw": "Completed depth 130 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 96.795837,
+   "raw": "Discharge 2 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14363",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62861934700004,
+ "lon": -117.20304075799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16274",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14363",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16574",
+ "bestDocPage": 1,
+ "status": "partial"
+}

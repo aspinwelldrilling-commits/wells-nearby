@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-10681",
+ "processed": "2026-10-07T14:37:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "33320 Merritt Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10681",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1074
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10681",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 9.388954,
+   "raw": "(12) WELL LOG: total depth 260",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10681",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63752044300003,
+ "lon": -117.12510139799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9036",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10681",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12832",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

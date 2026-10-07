@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14143",
+ "processed": "2026-10-07T14:06:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-070-041-9",
+ "address": "32695 Weber Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14143",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1092
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14143",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 534.0,
+   "conf": "medium",
+   "ocrConf": 79.765152,
+   "raw": "Completed depth 534 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14143",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.64698879900004,
+ "lon": -116.93306169999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15762",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14143",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16314",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-25764",
+ "processed": "2026-10-07T14:14:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-300-024",
+ "address": "39518 Colt Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25764",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 946
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25764",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 403.0,
+   "conf": "medium",
+   "ocrConf": 94.007729,
+   "raw": "TOTAL DEPTH OF BORING __ 403",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25764",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.607742460000054,
+ "lon": -116.97485737099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409705",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25764",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "25424",
+ "bestDocPage": 1,
+ "status": "partial"
+}

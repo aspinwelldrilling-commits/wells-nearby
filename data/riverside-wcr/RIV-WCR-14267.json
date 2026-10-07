@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14267",
+ "processed": "2026-10-07T14:56:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-060-011",
+ "address": "OLD SCOTT RD",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14267",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1100
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14267",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "low",
+   "ocrConf": 37.26543,
+   "raw": "Completed depth 280 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14267",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63905246500008,
+ "lon": -117.10103869699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15970",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14267",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16421",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

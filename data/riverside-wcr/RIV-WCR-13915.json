@@ -1,0 +1,57 @@
+{
+ "permit": "RIV-WCR-13915",
+ "processed": "2026-10-07T15:28:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "607-040-031",
+ "address": "40510 Yucca Ln",
+ "city": "Bermuda Dunes",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13915",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3678
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13915",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13915",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 107.0,
+   "conf": "high",
+   "ocrConf": 80.378357,
+   "raw": "Completed depth 107 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13915",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.75447022900005,
+ "lon": -116.29921267299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15170",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13915",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16013",
+ "bestDocPage": 1,
+ "status": "partial"
+}

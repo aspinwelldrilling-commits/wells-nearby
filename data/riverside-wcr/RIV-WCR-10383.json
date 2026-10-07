@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-10383",
+ "processed": "2026-10-07T14:00:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "44351 Oak Glen Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10383",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 987
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10383",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 44.980232,
+   "raw": "Discharge__3 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10383",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.622389,
+ "lon": -116.88813,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8627",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10383",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12627",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

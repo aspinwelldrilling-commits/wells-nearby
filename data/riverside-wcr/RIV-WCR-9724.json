@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-9724",
+ "processed": "2026-10-07T14:35:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "28940 Scott Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9724",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 861
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9724",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 54.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Discharge_54 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9724",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.643483342000025,
+ "lon": -117.15487204199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7652",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9724",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12137",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

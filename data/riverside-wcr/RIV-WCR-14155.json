@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14155",
+ "processed": "2026-10-07T14:07:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-280-038-6",
+ "address": "35350 Tack Rd",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14155",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1930
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14155",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 204.0,
+   "conf": "medium",
+   "ocrConf": 75.023354,
+   "raw": "Completed depth 204 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 67.446426,
+   "raw": "Standing level after well completion _30",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14155",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.60952918000004,
+ "lon": -116.98909594999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15784",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14155",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16326",
+ "bestDocPage": 1,
+ "status": "readable"
+}

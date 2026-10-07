@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14279",
+ "processed": "2026-10-07T14:58:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-280-007",
+ "address": "33050 Thompson Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14279",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1956
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14279",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 399.0,
+   "conf": "medium",
+   "ocrConf": 69.333771,
+   "raw": "Completed depth 399 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14279",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.599132730000065,
+ "lon": -117.08247155999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15998",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14279",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16436",
+ "bestDocPage": 1,
+ "status": "partial"
+}

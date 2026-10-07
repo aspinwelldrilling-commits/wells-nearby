@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-8153",
+ "processed": "2026-10-07T14:31:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "CATT RD, IODINE SP RD",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8153",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1082
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8153",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 96.459175,
+   "raw": "(12) WELL LOG: Total depth 300",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8153",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60498486100005,
+ "lon": -117.23213197999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5094",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8153",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10686",
+ "bestDocPage": 1,
+ "status": "partial"
+}

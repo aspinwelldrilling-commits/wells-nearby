@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14291",
+ "processed": "2026-10-07T15:04:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "365-220-021",
+ "address": "32380 Crooked Arrow",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14291",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1888
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14291",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "medium",
+   "ocrConf": 52.560112,
+   "raw": "Completed depth 180 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 93.621582,
+   "raw": "Standing level after well completion 30 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14291",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.650825,
+ "lon": -117.253793,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16010",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14291",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16442",
+ "bestDocPage": 1,
+ "status": "readable"
+}

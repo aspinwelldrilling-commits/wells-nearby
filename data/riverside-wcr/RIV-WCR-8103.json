@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-8103",
+ "processed": "2026-10-07T14:32:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "BUNDY CANYON RD, WRIGHT RD",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8103",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1742
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8103",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 6.0,
+   "conf": "medium",
+   "ocrConf": 61.733074,
+   "raw": "Discharge 6 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8103",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.637287455000035,
+ "lon": -117.21509803199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/4978",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8103",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10628",
+ "bestDocPage": 1,
+ "status": "partial"
+}

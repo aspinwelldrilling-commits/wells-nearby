@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13363",
+ "processed": "2026-10-07T14:50:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "330-240-048",
+ "address": "25598 Troy Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13363",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1821
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13363",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "high",
+   "ocrConf": 96.834564,
+   "raw": "Completed depth 280 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "low",
+   "ocrConf": 19.035576,
+   "raw": "Discharge 45 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13363",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.73245725600003,
+ "lon": -117.21402307199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14058",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13363",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15395",
+ "bestDocPage": 1,
+ "status": "partial"
+}
