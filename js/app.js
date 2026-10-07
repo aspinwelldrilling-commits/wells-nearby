@@ -301,6 +301,14 @@
     map.fitBounds(L.latLng(ll).toBounds(Math.max(state.radius, 0.2) * 1609.344 * 2.1));
   }
 
+  // RivCo county row with no WCR_Path (countyWcrUrl is the raw WCR_Path, set in post(); pdfUrl can be replaced by a matched
+  // state WCR): the extractor never processes it, so it is not "pending". Always false for San Diego and other rows.
+  function rivNoWcr(w) {
+    const rc = w.group === 'county' ? w : (w.county || (w.match && w.match.county));
+    return !!(rc && rc.countyKey === 'riverside' && !String(rc.countyWcrUrl || '').trim());
+  }
+  const isPending = (w) => w.wcrFlag === 'pending' && !rivNoWcr(w);
+
   function pinIcon(ws) {
     const counts = {}; ws.forEach((w) => (counts[w.methodKey] = (counts[w.methodKey] || 0) + 1));
     const top = Object.entries(counts).sort((a, b) => b[1] - a[1])[0][0];
@@ -308,7 +316,7 @@
     const size = ws.length > 1 ? Math.min(34, 20 + Math.log2(ws.length) * 3) : 16;
     const g = ws[0].group; // state | county | both
     const label = ws.length > 1 ? ws.length : '';
-    const nRed = ws.filter((w) => w.wcrFlag === 'read').length, nPend = ws.filter((w) => w.wcrFlag === 'pending').length;
+    const nRed = ws.filter((w) => w.wcrFlag === 'read').length, nPend = ws.filter(isPending).length;
     // Fluorescent red = at least one report here must be read by hand (all red if every record needs it).
     const cls = nRed === ws.length ? ' pin-red' : nRed ? ' pin-somered' : nPend === ws.length ? ' pin-pending' : '';
     const bg = nRed === ws.length ? C.countyWcr.needsReadColor : color;
@@ -415,10 +423,8 @@
         : 'See the document list below.'}</div>`;
     }
     if (w.wcrFlag === 'pending') {
-      // RivCo row with no WCR_Path: the extractor never processes it, so don't say "not yet processed". countyWcrUrl is the
-      // raw WCR_Path (set in post(); pdfUrl can be replaced by a matched state WCR). San Diego rows are unaffected.
-      const rc = w.group === 'county' ? w : (w.county || (w.match && w.match.county));
-      if (st === 'not_processed' && rc && rc.countyKey === 'riverside' && !String(rc.countyWcrUrl || '').trim()) {
+      // RivCo row with no WCR_Path: the extractor never processes it, so don't say "not yet processed".
+      if (st === 'not_processed' && rivNoWcr(w)) {
         return '<div class="wcrinfo pending">No county WCR on file.</div>';
       }
       return `<div class="wcrinfo pending">County WCR: ${esc(text)}. ${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">Open document ↗</a>` : 'Documents are listed below.'}</div>`;
@@ -515,7 +521,7 @@
     const methods = s.methods.filter((m) => m.count);
     const noteStacked = s.uniqueLocations < s.total ? `${s.total} records at ${s.uniqueLocations} distinct map points. ` : '';
     const nRed = state.shown.filter((w) => w.wcrFlag === 'read').length;
-    const nPend = state.shown.filter((w) => w.wcrFlag === 'pending').length;
+    const nPend = state.shown.filter(isPending).length;
     const nOcr = state.shown.filter((w) => w.fieldSrc && Object.values(w.fieldSrc).some((f) => f.src === 'ocr')).length;
     const wcrNote = (nOcr || nRed || nPend) ? `<div class="wcrsum">${nOcr ? `<span class="ocrTag">${nOcr} with values from county WCR (OCR)</span> ` : ''}${nRed ? `<span class="redTag">${nRed} to read yourself</span> ` : ''}${nPend ? `<span class="pendTag">${nPend} not yet processed</span>` : ''}</div>` : '';
     let nearest = '';
@@ -563,7 +569,7 @@
     });
     const t = $('wellTable');
     t.innerHTML = `<thead><tr>${cols.map((c) => `<th data-k="${c.key}" class="${c.num ? 'num' : ''}">${c.label}${c.key === key ? (dir > 0 ? ' ▲' : ' ▼') : ''}</th>`).join('')}</tr></thead>
-      <tbody>${rows.map((w, i) => `<tr data-i="${i}" class="row-${w.group}${w.wcrFlag === 'read' ? ' row-red' : w.wcrFlag === 'pending' ? ' row-pending' : ''}">${cols.map((c) => `<td class="${c.num ? 'num' : ''} col-${c.key}">${esc(c.fmt ? c.fmt(w[c.key]) : (w[c.key] || '—'))}${ocrMark(w, c.key)}</td>`).join('')}</tr>`).join('')}</tbody>`;
+      <tbody>${rows.map((w, i) => `<tr data-i="${i}" class="row-${w.group}${w.wcrFlag === 'read' ? ' row-red' : isPending(w) ? ' row-pending' : ''}">${cols.map((c) => `<td class="${c.num ? 'num' : ''} col-${c.key}">${esc(c.fmt ? c.fmt(w[c.key]) : (w[c.key] || '—'))}${ocrMark(w, c.key)}</td>`).join('')}</tr>`).join('')}</tbody>`;
     t.querySelectorAll('th').forEach((th) => (th.onclick = () => {
       const k = th.dataset.k; state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 }; renderTable();
     }));
