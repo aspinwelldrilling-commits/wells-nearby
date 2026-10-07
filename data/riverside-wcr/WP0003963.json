@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003963",
+ "processed": "2026-10-07T00:00:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-020-020",
+ "address": "43700 Cactus Valley Rd",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236064",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 865
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236064",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 206.0,
+   "conf": "medium",
+   "ocrConf": 58.592678,
+   "raw": "WATER LEVEL _ 206. (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.791145,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236064",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66995385700005,
+ "lon": -116.90133541499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219060",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236064",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

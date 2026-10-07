@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009414",
+ "processed": "2026-10-07T00:20:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-120-025-9",
+ "address": "31115 Lemm Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240324",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1005
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240324",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 76.4841,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-09-13",
+   "conf": "high",
+   "ocrConf": 96.097717,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240324",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66794557000003,
+ "lon": -116.94243036499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214309",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240324",
+ "serviceType": "Reconstruction Deepening",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

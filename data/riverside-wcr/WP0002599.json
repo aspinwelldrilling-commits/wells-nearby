@@ -1,0 +1,61 @@
+{
+ "permit": "WP0002599",
+ "processed": "2026-10-06T23:57:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "555-220-015",
+ "address": "44381 Bautista Canyon Rd",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235128",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3559
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235128",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235128",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "medium",
+   "ocrConf": 63.555885,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 320",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-11-09",
+   "conf": "high",
+   "ocrConf": 95.954163,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235128",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.71323218800006,
+ "lon": -116.87843454799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219782",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235128",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

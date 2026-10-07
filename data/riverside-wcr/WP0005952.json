@@ -1,0 +1,49 @@
+{
+ "permit": "WP0005952",
+ "processed": "2026-10-07T00:05:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "25010 Tahquitz Rd",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237380",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 90
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237380",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 90.937309,
+   "raw": "Total depth 300 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237380",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.75761219100008,
+ "lon": -116.70190331999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/265348",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237380",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

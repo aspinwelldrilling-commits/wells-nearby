@@ -1,0 +1,48 @@
+{
+ "permit": "WP0009604",
+ "processed": "2026-10-07T00:23:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-060-035",
+ "address": "30250 Amber Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240605",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 928
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240605",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 150.0,
+   "conf": "low",
+   "ocrConf": 43.778,
+   "raw": "ESTIMATED YIELD * 150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240605",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.68201246500007,
+ "lon": -116.97454263099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214464",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240605",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

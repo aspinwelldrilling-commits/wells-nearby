@@ -1,0 +1,62 @@
+{
+ "permit": "WP0004244",
+ "processed": "2026-10-07T01:10:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "464-071-034",
+ "address": "SE corner of Stetson Ave/Seven Hills Dr",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236224",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1619
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236224",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236224",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 825.0,
+   "conf": "medium",
+   "ocrConf": 65.621681,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 825",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 253.0,
+   "conf": "medium",
+   "ocrConf": 56.648605,
+   "raw": "WATER LEVEL __253 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236224",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.72912744900003,
+ "lon": -116.99727680199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211539",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236224",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

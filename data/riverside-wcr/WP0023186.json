@@ -1,0 +1,86 @@
+{
+ "permit": "WP0023186",
+ "processed": "2026-10-07T01:21:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "549-080-045",
+ "address": "25347 Fairview Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247619",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 753
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247619",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247619",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 603.0,
+   "conf": "high",
+   "ocrConf": 96.744522,
+   "raw": "Estimated Yield * 603 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 260.0,
+   "conf": "high",
+   "ocrConf": 87.40834,
+   "raw": "Water Level 260 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Circulation Rotary",
+   "conf": "high",
+   "ocrConf": 96.319672,
+   "raw": "Drilling Method Reverse Circulation Rotary Drilling Fluid Fresh",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-07-20",
+   "conf": "high",
+   "ocrConf": 95.874733,
+   "page": 1,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 96.309204,
+   "raw": "Total Depth of Boring 1,000",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247619",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.753725003000056,
+ "lon": -116.89386804799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202031",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247619",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

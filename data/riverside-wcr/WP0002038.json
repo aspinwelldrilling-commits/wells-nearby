@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002038",
+ "processed": "2026-10-06T23:54:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-130-048",
+ "address": "43135 Sunset Ridge",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235356",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 872
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235356",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 463.0,
+   "conf": "low",
+   "ocrConf": 10.857704,
+   "raw": "TOTAL DEPTH OF BORING _463",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.10585,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235356",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62103752100006,
+ "lon": -116.90860095499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221282",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235356",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,73 @@
+{
+ "permit": "WP0006397",
+ "processed": "2026-10-07T00:06:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "560-131-032",
+ "address": "25110 Highway 243",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238394",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 814
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238394",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING _35",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 31.000504,
+   "raw": "WATER LEVEL 300 (Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 94.688347,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.6231,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238394",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.75389552000007,
+ "lon": -116.72480391299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217414",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238394",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

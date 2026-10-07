@@ -1,0 +1,72 @@
+{
+ "permit": "WP0002452",
+ "processed": "2026-10-07T01:07:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "556-310-006",
+ "address": "23551 Highway 243",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235199",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 811
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235199",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 77.0,
+   "conf": "low",
+   "ocrConf": 15.640266,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __77",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 8.0,
+   "conf": "low",
+   "ocrConf": 42.176365,
+   "raw": "WATER LEVEL ___ 8 __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.867432,
+   "raw": "DRILLING\nMETHOD AIR FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 6.528183,
+   "raw": "ESTIMATED YIELD *__2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235199",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.775620708000076,
+ "lon": -116.74168742799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219119",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235199",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

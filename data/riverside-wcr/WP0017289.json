@@ -1,0 +1,71 @@
+{
+ "permit": "WP0017289",
+ "processed": "2026-10-07T00:50:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "431-270-027",
+ "address": "23592 Beech St",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245516",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 717
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245516",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 29.382568,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD * 3s (Gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 41.0,
+   "conf": "medium",
+   "ocrConf": 78.213974,
+   "raw": "WATER LeveL 41 _____ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-01-25",
+   "conf": "low",
+   "ocrConf": 2.861053,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245516",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.77815300700007,
+ "lon": -117.04894546599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209825",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245516",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

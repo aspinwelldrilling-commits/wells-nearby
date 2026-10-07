@@ -1,0 +1,85 @@
+{
+ "permit": "WP0027806",
+ "processed": "2026-10-07T01:06:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-100-044",
+ "address": "Springs Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249635",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 283
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249635",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249635",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 79.051865,
+   "raw": "Total Depth of Completed Well 250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 95.919434,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 57.0,
+   "conf": "high",
+   "ocrConf": 95.854713,
+   "raw": "Water Level 57 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "medium",
+   "ocrConf": 74.075401,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Ai",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-29",
+   "conf": "medium",
+   "ocrConf": 75.463295,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249635",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55690288200003,
+ "lon": -116.75810389399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199036",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249635",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,49 @@
+{
+ "permit": "WP0001199",
+ "processed": "2026-10-06T23:50:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-120-064",
+ "address": "25190 Hyatt Ave",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234203",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 837
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234203",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 66.294952,
+   "raw": "TOTAL DEPTH OF BORING _200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234203",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.75571942900007,
+ "lon": -117.040477668,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221661",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234203",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

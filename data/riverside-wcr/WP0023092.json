@@ -1,0 +1,64 @@
+{
+ "permit": "WP0023092",
+ "processed": "2026-10-07T00:59:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "552-070-016",
+ "address": "26400 Hemet St",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247545",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 429
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247545",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Total Depth of Boring _ 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 800.0,
+   "conf": "medium",
+   "ocrConf": 75.434311,
+   "raw": "Estimated Yield * 800 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-07-26",
+   "conf": "high",
+   "ocrConf": 88.065231,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247545",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.73876762900005,
+ "lon": -116.92366689499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201952",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247545",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

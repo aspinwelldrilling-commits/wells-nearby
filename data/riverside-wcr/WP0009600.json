@@ -1,0 +1,49 @@
+{
+ "permit": "WP0009600",
+ "processed": "2026-10-07T00:21:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-620-005",
+ "address": "40655 Ronald Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240602",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1488
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240602",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 288.0,
+   "conf": "low",
+   "ocrConf": 44.340725,
+   "raw": "TOTAL DEPTH OF BORING 288",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240602",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.560558772000036,
+ "lon": -116.95223689,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214460",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240602",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

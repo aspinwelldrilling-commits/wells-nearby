@@ -1,0 +1,84 @@
+{
+ "permit": "WP0030465",
+ "processed": "2026-10-07T01:05:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-020-011",
+ "address": "54045 Owings Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270820",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 50
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270820",
+   "page": 1,
+   "source": "text",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270820",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 420.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well          420",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 57.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  57 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-06-02",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.596512,
+   "lon": -116.716476,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 65.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             65 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270820",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.596512,
+ "lon": -116.716476,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310569",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270820",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0014566",
+ "processed": "2026-10-07T01:17:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "443-182-023",
+ "address": "636 W Florida Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243097",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 995
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243097",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 54.196701,
+   "raw": "TOTAL DEPTH OF BORING 20",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-10-11",
+   "conf": "high",
+   "ocrConf": 89.903313,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243097",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.74789305300004,
+ "lon": -116.97797433199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211405",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243097",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

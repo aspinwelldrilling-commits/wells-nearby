@@ -1,0 +1,71 @@
+{
+ "permit": "WP0025178",
+ "processed": "2026-10-07T00:58:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-150-016",
+ "address": "38190 Howard Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248202",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 444
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248202",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "medium",
+   "ocrConf": 96.472946,
+   "raw": "Total Depth of Boring 700",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 29.0,
+   "conf": "high",
+   "ocrConf": 96.142754,
+   "raw": "Estimated Yield * 29 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-05-16",
+   "conf": "high",
+   "ocrConf": 94.856522,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.567172,
+   "lon": -116.713981,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248202",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56717773200006,
+ "lon": -116.71399707199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200159",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248202",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,84 @@
+{
+ "permit": "WP0030119",
+ "processed": "2026-10-07T01:05:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "964-070-010",
+ "address": "37965 Warren Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248981",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 140
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248981",
+   "page": 1,
+   "source": "text",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248981",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well          600",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 58.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  58 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-07-14",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.570546,
+   "lon": -117.03408,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             12 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248981",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.570546,
+ "lon": -117.03408,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/334001",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248981",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023999",
+ "processed": "2026-10-07T00:57:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-190-051",
+ "address": "38775 Curtis Rd",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248415",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 436
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248415",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "high",
+   "ocrConf": 95.835854,
+   "raw": "Total Depth of Completed Well 550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 44.0,
+   "conf": "high",
+   "ocrConf": 91.352623,
+   "raw": "Estimated Yield* 44 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-02-04",
+   "conf": "high",
+   "ocrConf": 92.07238,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248415",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66973856300007,
+ "lon": -116.98349488099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202689",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248415",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

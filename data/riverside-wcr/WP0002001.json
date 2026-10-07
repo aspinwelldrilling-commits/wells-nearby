@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002001",
+ "processed": "2026-10-06T23:54:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-080-003",
+ "address": "30275 Santa Fe St",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235434",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 819
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235434",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 345.0,
+   "conf": "low",
+   "ocrConf": 34.17643,
+   "raw": "TOTAL DEPTH OF BORING __345",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 47.565342,
+   "raw": "ESTIMATED YIELD*3Q _ (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235434",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.68178502500007,
+ "lon": -116.96362040899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221180",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235434",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

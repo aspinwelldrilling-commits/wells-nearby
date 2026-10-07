@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006355",
+ "processed": "2026-10-07T00:06:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-160-002",
+ "address": "31110 Sage Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238361",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 797
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238361",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 123.0,
+   "conf": "low",
+   "ocrConf": 43.881348,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 123",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "medium",
+   "ocrConf": 59.976143,
+   "raw": "DRILLING\nMETHOD ___ Rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238361",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66939271700005,
+ "lon": -116.95921585299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217273",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238361",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012571",
+ "processed": "2026-10-07T00:34:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-180-043",
+ "address": "34860 Sycamore Springs Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241738",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 824
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241738",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 90.264099,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 29.0,
+   "conf": "low",
+   "ocrConf": 5.06881,
+   "raw": "WATER LEVEL ___ 29 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241738",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.61672095900008,
+ "lon": -116.951517922,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212976",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241738",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

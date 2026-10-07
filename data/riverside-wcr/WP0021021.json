@@ -1,0 +1,80 @@
+{
+ "permit": "WP0021021",
+ "processed": "2026-10-07T00:54:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-440-005",
+ "address": "41485 Waldo Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246797",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 433
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246797",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "medium",
+   "ocrConf": 94.885757,
+   "raw": "Total Depth of Boring 900",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 94.897964,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 89.587364,
+   "raw": "Water Level _150 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 91.323082,
+   "raw": "Drilling Method Air Drilling Drilling Fluid is",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-08-19",
+   "conf": "high",
+   "ocrConf": 94.815147,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246797",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.636199341000065,
+ "lon": -116.93725003099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203163",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246797",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

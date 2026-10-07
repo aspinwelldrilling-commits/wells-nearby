@@ -1,0 +1,64 @@
+{
+ "permit": "WP0027246",
+ "processed": "2026-10-07T01:05:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-400-011",
+ "address": "44641 Ridgewood Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249484",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 825
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249484",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "medium",
+   "ocrConf": 96.796654,
+   "raw": "Total Depth of Boring 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 87.824615,
+   "raw": "Estimated Yield* 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-08-29",
+   "conf": "high",
+   "ocrConf": 95.501991,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249484",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.60254189300008,
+ "lon": -116.88811049999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198787",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249484",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

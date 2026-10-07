@@ -1,0 +1,92 @@
+{
+ "permit": "WP0027620",
+ "processed": "2026-10-07T01:06:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-030-031",
+ "address": "54350 Bautista Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249584",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 550
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249584",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249584",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "high",
+   "ocrConf": 90.314484,
+   "raw": "Total Depth of Completed Well 310",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 96.355057,
+   "raw": "Estimated Yield* 35 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 119.0,
+   "conf": "high",
+   "ocrConf": 96.06559,
+   "raw": "Water Level 119 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 93.735092,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-03-15",
+   "conf": "medium",
+   "ocrConf": 72.068199,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.584658,
+   "lon": -116.711086,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249584",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.584662887000036,
+ "lon": -116.711097887,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198925",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249584",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

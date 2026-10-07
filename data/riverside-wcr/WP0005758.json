@@ -1,0 +1,64 @@
+{
+ "permit": "WP0005758",
+ "processed": "2026-10-07T00:05:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "441-070-004",
+ "address": "1921 W Esplanade Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237258",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 816
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237258",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 387.0,
+   "conf": "low",
+   "ocrConf": 17.992241,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _387",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "medium",
+   "ocrConf": 76.988159,
+   "raw": "ESTIMATED YIELD - 45 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 52.018929,
+   "raw": "WATER LEVEL _ 200 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237258",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.772576823000065,
+ "lon": -116.99170698899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215611",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237258",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

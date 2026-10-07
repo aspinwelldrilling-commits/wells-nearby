@@ -1,0 +1,68 @@
+{
+ "permit": "WP0006101",
+ "processed": "2026-10-07T00:06:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-350-032",
+ "address": "39420 Exa Ely Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238196",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1696
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238196",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238196",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 475.0,
+   "conf": "medium",
+   "ocrConf": 52.814819,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 475",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-07-30",
+   "conf": "low",
+   "ocrConf": 34.003235,
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.516479,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238196",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55189388100007,
+ "lon": -116.945308566,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216421",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238196",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004316",
+ "processed": "2026-10-07T00:01:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-340-002",
+ "address": "43221 Falcon Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236276",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 836
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236276",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.297195,
+   "raw": "DRILLING\nMETHOD Air FLUID ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1997-03-01",
+   "conf": "medium",
+   "ocrConf": 58.176262,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236276",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.627509072000066,
+ "lon": -116.90754105499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220090",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236276",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,78 @@
+{
+ "permit": "WP0025163",
+ "processed": "2026-10-07T01:03:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-130-010",
+ "address": "Old Ranch Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248200",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 466
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248200",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 384.0,
+   "conf": "medium",
+   "ocrConf": 53.440212,
+   "raw": "Total Depth of Completed Well 384",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 92.35228,
+   "raw": "Estimated Yield * 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 59.0,
+   "conf": "medium",
+   "ocrConf": 72.492729,
+   "raw": "Water Level 59 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-04-05",
+   "conf": "high",
+   "ocrConf": 95.465363,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.566943,
+   "lon": -116.7226,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248200",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56694873200007,
+ "lon": -116.72261607299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200147",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248200",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001119",
+ "processed": "2026-10-06T23:50:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-340-006",
+ "address": "38433 Bautista",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234146",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 842
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234146",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 340.0,
+   "conf": "low",
+   "ocrConf": 38.053585,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __340",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.984627,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234146",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56091288500005,
+ "lon": -116.70215290399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221446",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234146",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

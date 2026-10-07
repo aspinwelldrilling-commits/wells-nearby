@@ -1,0 +1,79 @@
+{
+ "permit": "WP0017470",
+ "processed": "2026-10-07T00:53:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "552-170-007",
+ "address": "43370 Stetson Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244204",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 945
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244204",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 698.0,
+   "conf": "high",
+   "ocrConf": 91.9795,
+   "raw": "Total Depth of Completed Well 698",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 450.0,
+   "conf": "high",
+   "ocrConf": 82.36351,
+   "raw": "Estimated Yield* 450 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 69.88517,
+   "raw": "Water Level .300 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 85.44825,
+   "raw": "Drilling Method Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-03-08",
+   "conf": "low",
+   "ocrConf": 31.648804,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244204",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.73125568700004,
+ "lon": -116.90156677199997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244204",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,84 @@
+{
+ "permit": "WP0030570",
+ "processed": "2026-10-07T01:27:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "436-450-016",
+ "address": "1340 S Kirby St ",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293542",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 418
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293542",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293542",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "high",
+   "ocrConf": 90.033241,
+   "raw": "Total Depth of Completed Well 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 239.0,
+   "conf": "high",
+   "ocrConf": 96.769432,
+   "raw": "Water Level 239 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.825615,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-03-23",
+   "conf": "high",
+   "ocrConf": 81.006149,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.774232,
+   "lon": -116.998207,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293542",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.774232,
+ "lon": -116.998207,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310728",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293542",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0025337",
+ "processed": "2026-10-07T00:58:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "924-110-024",
+ "address": "39025 E Benton Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248324",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 429
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248324",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "high",
+   "ocrConf": 95.503456,
+   "raw": "Total Depth of Completed Well 900",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 96.611145,
+   "raw": "Estimated Yield* 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 94.963661,
+   "raw": "Water Level 40 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-08-12",
+   "conf": "low",
+   "ocrConf": 41.72168,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248324",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57367356100008,
+ "lon": -116.97990484699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200322",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248324",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

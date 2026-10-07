@@ -1,0 +1,78 @@
+{
+ "permit": "WP0025353",
+ "processed": "2026-10-07T00:59:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-360-030",
+ "address": "34207 Stage Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248344",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 466
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248344",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 635.0,
+   "conf": "high",
+   "ocrConf": 96.93898,
+   "raw": "Total Depth of Completed Well 635",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 96.10994,
+   "raw": "Estimated Yield * 120 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 85.374496,
+   "raw": "Drilling Method Air Rotary Drilling Fluid . ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-07-13",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.26393,
+   "lon": -117.10883,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248344",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.625191388000076,
+ "lon": -116.96599427499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200334",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248344",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

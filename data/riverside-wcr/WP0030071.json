@@ -1,0 +1,90 @@
+{
+ "permit": "WP0030071",
+ "processed": "2026-10-07T01:05:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "964-130-007",
+ "address": "37858 Halifax Ln",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264838",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 545
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264838",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264838",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264838",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 55.998955,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "high",
+   "ocrConf": 93.695068,
+   "raw": "Estimated Yield* 9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 87.59803,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "high",
+   "ocrConf": 86.875069,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.57258,
+   "lon": -117.04241,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264838",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57258,
+ "lon": -117.04241,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264837",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264838",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,64 @@
+{
+ "permit": "WP0027711",
+ "processed": "2026-10-07T01:06:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-240-027",
+ "address": "40750 Spring Creek Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249616",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 61
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249616",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "medium",
+   "ocrConf": 95.815567,
+   "raw": "Total Depth of Boring 325",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 64.300728,
+   "raw": "Estimated Yield* 30 Ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-17",
+   "conf": "high",
+   "ocrConf": 88.125793,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249616",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.60291487600006,
+ "lon": -116.95016193099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199005",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249616",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0016381",
+ "processed": "2026-10-07T00:48:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-340-001",
+ "address": "35525 Esplanade Ave",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245139",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1036
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245139",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 595.0,
+   "conf": "high",
+   "ocrConf": 80.464783,
+   "raw": "Completed depth 595 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.643578,
+   "raw": "Standing level after well completion\n40 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245139",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.77222367200005,
+ "lon": -117.04071674899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222780",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245139",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

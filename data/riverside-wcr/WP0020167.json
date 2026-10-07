@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020167",
+ "processed": "2026-10-07T00:57:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-540-002",
+ "address": "39375 San Ignacio Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246634",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 443
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246634",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 9.0,
+   "conf": "high",
+   "ocrConf": 90.627502,
+   "raw": "Estimated Yield* 9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-08-11",
+   "conf": "high",
+   "ocrConf": 93.177071,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246634",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55060472200006,
+ "lon": -116.92891679299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204415",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246634",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

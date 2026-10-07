@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019544",
+ "processed": "2026-10-07T00:56:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-291-005",
+ "address": "24480 Three Springs Rd",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246263",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 815
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246263",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 50.869972,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.769669,
+   "raw": "Estimated Yield * 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-01-26",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246263",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.765662691000045,
+ "lon": -117.04296106999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208256",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246263",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

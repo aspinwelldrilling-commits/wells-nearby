@@ -1,0 +1,78 @@
+{
+ "permit": "WP0025078",
+ "processed": "2026-10-07T00:58:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-190-005",
+ "address": "41330 Ryan Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248156",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 405
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248156",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 95.039764,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "high",
+   "ocrConf": 96.90744,
+   "raw": "Estimated Yield * 7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 86.413895,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-03-09",
+   "conf": "high",
+   "ocrConf": 96.226669,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.621081,
+   "lon": -116.940064,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248156",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62087162900008,
+ "lon": -116.93962074999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200065",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248156",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,96 @@
+{
+ "permit": "WP0028154",
+ "processed": "2026-10-07T01:21:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "433-160-037",
+ "address": "689 Donna Way",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248720",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 118
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248720",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248720",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248720",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248720",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248720",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1180.0,
+   "conf": "medium",
+   "ocrConf": 80.253616,
+   "raw": "Total Depth of Boring 1180",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2000.0,
+   "conf": "high",
+   "ocrConf": 96.506523,
+   "raw": "Estimated Yield* 2000 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 481.6,
+   "conf": "high",
+   "ocrConf": 95.255615,
+   "raw": "Water Level 481.60 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-08-15",
+   "conf": "high",
+   "ocrConf": 83.441208,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248720",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.78090577000006,
+ "lon": -116.93745285199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34441",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248720",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

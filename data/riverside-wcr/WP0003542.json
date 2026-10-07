@@ -1,0 +1,63 @@
+{
+ "permit": "WP0003542",
+ "processed": "2026-10-06T23:58:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-570-009",
+ "address": "37250 Quarter Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235809",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1354
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235809",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "low",
+   "ocrConf": 29.054497,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 63.0,
+   "conf": "high",
+   "ocrConf": 96.660339,
+   "raw": "WATER LEVEL 63 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1995-12-26",
+   "conf": "high",
+   "ocrConf": 96.007698,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235809",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58181057400003,
+ "lon": -116.95555160899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217637",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235809",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

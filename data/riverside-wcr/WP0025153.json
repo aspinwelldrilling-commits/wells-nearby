@@ -1,0 +1,72 @@
+{
+ "permit": "WP0025153",
+ "processed": "2026-10-07T00:58:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "555-410-014",
+ "address": "27330 Tierra Verde Dr",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248188",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 446
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248188",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 720.0,
+   "conf": "medium",
+   "ocrConf": 95.412964,
+   "raw": "Total Depth of Boring 720",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 94.231392,
+   "raw": "Estimated Yield * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 92.436836,
+   "raw": "Water Level 300 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-09",
+   "conf": "high",
+   "ocrConf": 94.087318,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248188",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.73000568300006,
+ "lon": -116.92556606099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200137",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248188",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0001802",
+ "processed": "2026-10-06T23:52:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-070-001",
+ "address": "39075 Batz Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234661",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 854
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234661",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ___40)____(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary Mud",
+   "conf": "medium",
+   "ocrConf": 77.666504,
+   "raw": "DRILLING\nMETHOD __ ROTARY MUD FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.16156,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234661",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67662857000005,
+ "lon": -116.97884436599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220566",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234661",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

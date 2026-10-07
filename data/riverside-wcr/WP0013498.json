@@ -1,0 +1,71 @@
+{
+ "permit": "WP0013498",
+ "processed": "2026-10-07T00:37:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-330-024",
+ "address": "53300 Frantz Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242567",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 686
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242567",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 77.578461,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 91.801674,
+   "raw": "ESTIMATED YieLD * 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 132.0,
+   "conf": "medium",
+   "ocrConf": 79.820656,
+   "raw": "WATER LEVEL 132 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-11-20",
+   "conf": "high",
+   "ocrConf": 86.837288,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242567",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.585740128000054,
+ "lon": -116.73061545599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212642",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242567",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

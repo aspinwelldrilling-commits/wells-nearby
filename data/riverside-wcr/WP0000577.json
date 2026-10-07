@@ -1,0 +1,57 @@
+{
+ "permit": "WP0000577",
+ "processed": "2026-10-06T23:50:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-190-003",
+ "address": "34485 Benton Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233849",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 823
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233849",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 21.793404,
+   "raw": "TOTAL DEPTH OF BORING 250",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "medium",
+   "ocrConf": 72.036308,
+   "raw": "ESTIMATED YIELD _ 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233849",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62261512300006,
+ "lon": -116.86914006799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220426",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233849",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

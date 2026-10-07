@@ -1,0 +1,57 @@
+{
+ "permit": "WP0011798",
+ "processed": "2026-10-07T00:30:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-260-078",
+ "address": "42290 Sabina Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242079",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 810
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242079",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 225.0,
+   "conf": "low",
+   "ocrConf": 70.43647,
+   "raw": "TOTAL DEPTH OF BORING __225",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 42.166412,
+   "raw": "ESTIMATED YIELD * 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242079",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.602297243000066,
+ "lon": -116.91894110499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212359",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242079",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0007216",
+ "processed": "2026-10-07T00:09:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-150-011",
+ "address": "39035 Indian Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238898",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 672
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238898",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 52.441383,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "low",
+   "ocrConf": 26.776245,
+   "raw": "ESTIMATED YIELD * 9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 140.0,
+   "conf": "high",
+   "ocrConf": 94.758514,
+   "raw": "WATER LEVEL 140 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-12-19",
+   "conf": "high",
+   "ocrConf": 81.389648,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238898",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.550283431000025,
+ "lon": -116.75514039199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216181",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238898",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

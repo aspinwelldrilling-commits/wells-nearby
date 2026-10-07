@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004822",
+ "processed": "2026-10-07T01:15:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "557-130-001",
+ "address": "52500 Temecula Rd",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236642",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 770
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236642",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "medium",
+   "ocrConf": 77.56546,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 17.111542,
+   "raw": "WATER LEVEL ____2Q _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236642",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.73484194300005,
+ "lon": -116.74210867499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217243",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236642",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

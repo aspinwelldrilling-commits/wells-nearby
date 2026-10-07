@@ -1,0 +1,57 @@
+{
+ "permit": "WP0001881",
+ "processed": "2026-10-06T23:53:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-080-038",
+ "address": "52110 Wheeler Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234713",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 746
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234713",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "low",
+   "ocrConf": 3.955696,
+   "raw": "TOTAL DEPTH OF BORING ___ 120",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 28.516418,
+   "raw": "WATER LEVEL ___20) _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234713",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57098439400005,
+ "lon": -116.75132844299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220848",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234713",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,68 @@
+{
+ "permit": "WP0029886",
+ "processed": "2026-10-07T01:05:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-060-015",
+ "address": "41700 Hyde Rd ",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248911",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 105
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248911",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248911",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 49.337086,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-02-12",
+   "conf": "medium",
+   "ocrConf": 72.036652,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.769835,
+   "lon": -116.935817,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248911",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.65474,
+ "lon": -116.93309,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270230",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248911",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

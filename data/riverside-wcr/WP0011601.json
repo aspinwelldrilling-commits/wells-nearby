@@ -1,0 +1,55 @@
+{
+ "permit": "WP0011601",
+ "processed": "2026-10-07T00:30:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-120-049",
+ "address": "31873 Sage Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241854",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 849
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241854",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 244.0,
+   "conf": "low",
+   "ocrConf": 42.493168,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _244",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-12-30",
+   "conf": "medium",
+   "ocrConf": 55.534828,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241854",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.65864403200004,
+ "lon": -116.952681413,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274986",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241854",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

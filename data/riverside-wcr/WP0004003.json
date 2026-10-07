@@ -1,0 +1,64 @@
+{
+ "permit": "WP0004003",
+ "processed": "2026-10-07T00:00:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-400-027",
+ "address": "37635 Remuda Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236737",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 861
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236737",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 80.413971,
+   "raw": "ESTIMATED YIELD * - 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 43.0,
+   "conf": "low",
+   "ocrConf": 4.058395,
+   "raw": "WATER LEVEL _ 43 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.532654,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236737",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57958354200008,
+ "lon": -116.99448932699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219155",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236737",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0023021",
+ "processed": "2026-10-07T00:55:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-330-006",
+ "address": "38525 Glasgow Circle Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247513",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 335
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247513",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 82.945213,
+   "raw": "ESTIMATED YieLD + 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 97.0,
+   "conf": "high",
+   "ocrConf": 82.302933,
+   "raw": "WATER LEVEL 97 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-04-22",
+   "conf": "medium",
+   "ocrConf": 62.09071,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247513",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56194894500004,
+ "lon": -116.70542334499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201894",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247513",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

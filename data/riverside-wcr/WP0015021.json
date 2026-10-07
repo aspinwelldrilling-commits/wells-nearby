@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015021",
+ "processed": "2026-10-07T00:41:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-430-013",
+ "address": "38980 Lorenzo Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244299",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 398
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244299",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 720.0,
+   "conf": "low",
+   "ocrConf": 30.260742,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL720",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-10-17",
+   "conf": "medium",
+   "ocrConf": 76.725845,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244299",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.555685657000026,
+ "lon": -116.84923442999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210496",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244299",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

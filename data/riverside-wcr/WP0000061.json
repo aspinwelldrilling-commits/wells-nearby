@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000061",
+ "processed": "2026-10-06T23:46:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-230-015",
+ "address": "35640 Ballinger Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233392",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1870
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233392",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 399.0,
+   "conf": "low",
+   "ocrConf": 25.333595,
+   "raw": "Completed depth399",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.100204,
+   "raw": "Standing level after well completion\n50 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233392",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.60655987900003,
+ "lon": -116.920997436,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222573",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233392",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

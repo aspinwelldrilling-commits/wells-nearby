@@ -1,0 +1,56 @@
+{
+ "permit": "WP0008535",
+ "processed": "2026-10-07T00:18:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-190-026",
+ "address": "41110 Ryan Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239709",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 968
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239709",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 750.0,
+   "conf": "medium",
+   "ocrConf": 88.948395,
+   "raw": "TOTAL DEPTH OF BORING\n750",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-10-10",
+   "conf": "medium",
+   "ocrConf": 65.773422,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239709",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.621250556000064,
+ "lon": -116.94513582099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216080",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239709",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

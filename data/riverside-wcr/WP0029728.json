@@ -1,0 +1,68 @@
+{
+ "permit": "WP0029728",
+ "processed": "2026-10-07T01:23:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "563-250-028",
+ "address": "25840 Idyllwild Rd ",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248864",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 105
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248864",
+   "page": 1,
+   "source": "text",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248864",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-05-13",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.749165,
+   "lon": -116.713225,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248864",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.749165,
+ "lon": -116.713225,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/231240",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248864",
+ "serviceType": "Destruction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

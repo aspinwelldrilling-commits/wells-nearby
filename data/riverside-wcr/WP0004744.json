@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004744",
+ "processed": "2026-10-07T00:04:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-120-043",
+ "address": "3115 Lemm Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236580",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 916
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236580",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.96933,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.735687,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236580",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66912874500008,
+ "lon": -116.94209774499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216917",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236580",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

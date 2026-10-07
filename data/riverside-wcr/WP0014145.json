@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014145",
+ "processed": "2026-10-07T00:39:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "568-120-014-0",
+ "address": "31725 Red Mountain Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242646",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 768
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242646",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 525.0,
+   "conf": "high",
+   "ocrConf": 96.574821,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 525",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 5.0,
+   "conf": "medium",
+   "ocrConf": 50.799629,
+   "raw": "WATER LEVEL___5Q (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-04-20",
+   "conf": "high",
+   "ocrConf": 80.640976,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242646",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.627320276000034,
+ "lon": -116.89712132399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211116",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242646",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

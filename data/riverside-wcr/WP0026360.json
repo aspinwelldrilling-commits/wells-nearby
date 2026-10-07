@@ -1,0 +1,71 @@
+{
+ "permit": "WP0026360",
+ "processed": "2026-10-07T01:00:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-440-041",
+ "address": "36120 Patricia Dell",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248427",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248427",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1085.0,
+   "conf": "low",
+   "ocrConf": 5.263145,
+   "raw": "Total Depth of Completed Well 1085",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 96.887062,
+   "raw": "Estimated Yield* 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary Drilling",
+   "conf": "low",
+   "ocrConf": 20.294357,
+   "raw": "Drilling Method Air Rotary Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-08-04",
+   "conf": "high",
+   "ocrConf": 95.032257,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248427",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.597904895000056,
+ "lon": -116.97435217399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199433",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248427",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

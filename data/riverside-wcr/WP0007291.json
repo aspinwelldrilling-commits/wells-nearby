@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007291",
+ "processed": "2026-10-07T00:12:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-590-016",
+ "address": "38575 Calle Segovia",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238962",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 990
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238962",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 514.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 514",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-06-15",
+   "conf": "medium",
+   "ocrConf": 78.463287,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238962",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.564370162000046,
+ "lon": -116.95890523899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216484",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238962",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

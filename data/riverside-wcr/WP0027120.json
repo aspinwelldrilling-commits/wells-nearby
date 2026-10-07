@@ -1,0 +1,78 @@
+{
+ "permit": "WP0027120",
+ "processed": "2026-10-07T01:00:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-100-022",
+ "address": "38789 Western Hills",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249434",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1011
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249434",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "high",
+   "ocrConf": 96.822113,
+   "raw": "Total Depth of Completed Well 320",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.892715,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "low",
+   "ocrConf": 43.787342,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 55.214638,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-07-19",
+   "conf": "high",
+   "ocrConf": 96.220963,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249434",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55843408100003,
+ "lon": -116.76957855499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198669",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249434",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

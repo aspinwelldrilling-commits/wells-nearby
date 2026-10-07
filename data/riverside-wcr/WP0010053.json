@@ -1,0 +1,48 @@
+{
+ "permit": "WP0010053",
+ "processed": "2026-10-07T00:24:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-060-015",
+ "address": "30170 Amber Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240208",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 402
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240208",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 214.0,
+   "conf": "high",
+   "ocrConf": 83.763184,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 214",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240208",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.68338344500006,
+ "lon": -116.97397561099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214768",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240208",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

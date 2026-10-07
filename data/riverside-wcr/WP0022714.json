@@ -1,0 +1,71 @@
+{
+ "permit": "WP0022714",
+ "processed": "2026-10-07T00:55:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-160-002",
+ "address": "31220 Sage Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249274",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 346
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249274",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1339.0,
+   "conf": "low",
+   "ocrConf": 4.897873,
+   "raw": "Total Depth of Completed Well 1339",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 96.215813,
+   "raw": "Estimated Yield * 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 86.200394,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-09-28",
+   "conf": "high",
+   "ocrConf": 89.459595,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249274",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66939271700005,
+ "lon": -116.95921585299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19078",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249274",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

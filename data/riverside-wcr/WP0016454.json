@@ -1,0 +1,56 @@
+{
+ "permit": "WP0016454",
+ "processed": "2026-10-07T00:49:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-050-048",
+ "address": "WHEAT RD",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244165",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 703
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244165",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 3.276031,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 44.0,
+   "conf": "medium",
+   "ocrConf": 59.371658,
+   "raw": "WATER LEVEL 44/ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244165",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.59815312100005,
+ "lon": -116.72356588699995,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244165",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

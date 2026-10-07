@@ -1,0 +1,78 @@
+{
+ "permit": "WP0028920",
+ "processed": "2026-10-07T01:22:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-080-011",
+ "address": "33275 Valerio Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248802",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 45
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248802",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248802",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 76.817902,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 96.016342,
+   "raw": "Water Level 300 (Feet",
+   "note": "SWL >= depth (misread)",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-11-26",
+   "conf": "medium",
+   "ocrConf": 67.682343,
+   "page": 2,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.64116,
+   "lon": -116.90739,
+   "conf": "high",
+   "page": 2,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248802",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.641164883000044,
+ "lon": -116.90740192599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34173",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248802",
+ "serviceType": "Destruction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 2,
+ "status": "destruction_wcr"
+}

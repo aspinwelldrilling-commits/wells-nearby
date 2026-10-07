@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006825",
+ "processed": "2026-10-07T00:08:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-170-008",
+ "address": "30175 Delise Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238657",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 749
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238657",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "medium",
+   "ocrConf": 66.763657,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 120",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 37.835693,
+   "raw": "ESTIMATED YIELD * _30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238657",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.683566435000046,
+ "lon": -116.96799625999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218893",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238657",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

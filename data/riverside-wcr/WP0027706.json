@@ -1,0 +1,77 @@
+{
+ "permit": "WP0027706",
+ "processed": "2026-10-07T01:02:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-320-007",
+ "address": "Boulder Hill Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249614",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 62
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249614",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249614",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 92.00219,
+   "raw": "Total Depth of Completed Well. 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.5,
+   "conf": "high",
+   "ocrConf": 94.736458,
+   "raw": "Estimated Yield* 8.50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 54.0,
+   "conf": "high",
+   "ocrConf": 95.876343,
+   "raw": "Water Level 54 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-04-17",
+   "conf": "high",
+   "ocrConf": 83.291634,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249614",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55565511300006,
+ "lon": -116.72562412799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199002",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249614",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

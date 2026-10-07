@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015087",
+ "processed": "2026-10-07T00:42:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-060-028",
+ "address": "37012 Aurora Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244344",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 446
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244344",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 31.276558,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-12-26",
+   "conf": "low",
+   "ocrConf": 27.785049,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244344",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58266483700004,
+ "lon": -116.71337405699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210556",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244344",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

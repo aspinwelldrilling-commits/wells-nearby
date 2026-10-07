@@ -1,0 +1,84 @@
+{
+ "permit": "WP0028539",
+ "processed": "2026-10-07T01:07:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-340-005",
+ "address": "38555 San Ignacio Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248744",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 356
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248744",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248744",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 610.0,
+   "conf": "medium",
+   "ocrConf": 62.148754,
+   "raw": "Total Depth of Completed Well 610",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 89.140144,
+   "raw": "Estimated Yield\" 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 95.091118,
+   "raw": "Water Level 50 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 65.179749,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-06-14",
+   "conf": "high",
+   "ocrConf": 83.838936,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248744",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56190487300006,
+ "lon": -116.93283192399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310364",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248744",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

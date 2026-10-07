@@ -1,0 +1,78 @@
+{
+ "permit": "WP0027211",
+ "processed": "2026-10-07T01:01:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-430-014",
+ "address": "Thomas Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249466",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 956
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249466",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 910.0,
+   "conf": "high",
+   "ocrConf": 92.443886,
+   "raw": "Total Depth of Completed Well 910",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 94.423943,
+   "raw": "Estimated Yield * 80 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 90.718246,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 70.273331,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-08-11",
+   "conf": "high",
+   "ocrConf": 88.775543,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249466",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56390487800007,
+ "lon": -116.84326190899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198761",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249466",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

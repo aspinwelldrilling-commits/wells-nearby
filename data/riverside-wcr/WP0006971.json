@@ -1,0 +1,63 @@
+{
+ "permit": "WP0006971",
+ "processed": "2026-10-07T00:08:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-090-052",
+ "address": "51739 Deer Mountain Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238748",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 696
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238748",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "high",
+   "ocrConf": 96.408371,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 220",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 52.652313,
+   "raw": "ESTIMATED YiELD * 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-01-22",
+   "conf": "low",
+   "ocrConf": 38.014622,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238748",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56390180200003,
+ "lon": -116.76513927599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215429",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238748",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

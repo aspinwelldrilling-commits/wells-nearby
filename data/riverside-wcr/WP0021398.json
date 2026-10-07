@@ -1,0 +1,87 @@
+{
+ "permit": "WP0021398",
+ "processed": "2026-10-07T00:54:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "924-110-013",
+ "address": "39010 Benton Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246982",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 390
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246982",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 575.0,
+   "conf": "medium",
+   "ocrConf": 96.479012,
+   "raw": "Total Depth of Boring 575",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 95.643776,
+   "raw": "Estimated Yield* 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 180.0,
+   "conf": "high",
+   "ocrConf": 90.831345,
+   "raw": "Water Level _180 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 95.673218,
+   "raw": "Drilling Method Rotary Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "medium",
+   "ocrConf": 64.832985,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-02-05",
+   "conf": "high",
+   "ocrConf": 93.733788,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246982",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.575593312000024,
+ "lon": -116.98065813399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203525",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246982",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

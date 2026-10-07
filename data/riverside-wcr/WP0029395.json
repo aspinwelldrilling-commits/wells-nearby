@@ -1,0 +1,99 @@
+{
+ "permit": "WP0029395",
+ "processed": "2026-10-07T01:05:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-150-034",
+ "address": "38197 Alessandro Dr ",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248836",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 698
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248836",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248836",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 80.998245,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 94.011612,
+   "raw": "Estimated Yield* 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 187.0,
+   "conf": "high",
+   "ocrConf": 96.506882,
+   "raw": "Water Level 187 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 86.191345,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 75.497177,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-08-21",
+   "conf": "medium",
+   "ocrConf": 67.018494,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.564125,
+   "lon": -116.708792,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248836",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56412500000005,
+ "lon": -116.70879199999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/333953",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248836",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

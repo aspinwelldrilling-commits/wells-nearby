@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027267",
+ "processed": "2026-10-07T01:06:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-420-074",
+ "address": "35755 Singing Falls Dr",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249489",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 416
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249489",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 850.0,
+   "conf": "high",
+   "ocrConf": 93.994522,
+   "raw": "Total Depth of Completed Well 850",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 94.0158,
+   "raw": "Estimated Yield* 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-20",
+   "conf": "high",
+   "ocrConf": 96.236374,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249489",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.60402487300007,
+ "lon": -117.01046194099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198804",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249489",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013582",
+ "processed": "2026-10-07T00:37:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-300-026",
+ "address": "53648 Pony Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242655",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 775
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242655",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "medium",
+   "ocrConf": 59.876076,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-01-26",
+   "conf": "low",
+   "ocrConf": 45.189964,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242655",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55899489500007,
+ "lon": -116.72299629999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212765",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242655",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001717",
+ "processed": "2026-10-07T01:12:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "431-200-008",
+ "address": "Near Corner Warren Rd/Esplande",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234605",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1719
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234605",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 50.159264,
+   "raw": "TOTAL DEPTH OF BORING _6o",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-03-01",
+   "conf": "high",
+   "ocrConf": 86.388596,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234605",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.77367889200008,
+ "lon": -117.03292195799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220206",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234605",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

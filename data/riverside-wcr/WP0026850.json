@@ -1,0 +1,63 @@
+{
+ "permit": "WP0026850",
+ "processed": "2026-10-07T01:05:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-150-008",
+ "address": "32010 Red Mountain Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248681",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 879
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248681",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 850.0,
+   "conf": "medium",
+   "ocrConf": 66.561462,
+   "raw": "Total Depth of Completed Well 850",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 93.683266,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-05-25",
+   "conf": "high",
+   "ocrConf": 93.269882,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248681",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62940960100008,
+ "lon": -116.897523923,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199737",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248681",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

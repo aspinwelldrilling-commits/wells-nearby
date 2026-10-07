@@ -1,0 +1,71 @@
+{
+ "permit": "WP0019476",
+ "processed": "2026-10-07T00:52:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-020-008",
+ "address": "42655 Cactus Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246245",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 827
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246245",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "high",
+   "ocrConf": 96.753319,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 47.0,
+   "conf": "high",
+   "ocrConf": 92.401001,
+   "raw": "Estimated Yield * 47 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 81.431778,
+   "raw": "Water Level _200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-12-11",
+   "conf": "medium",
+   "ocrConf": 76.427055,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246245",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66890238000008,
+ "lon": -116.92492195999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208202",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246245",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

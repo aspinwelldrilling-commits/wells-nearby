@@ -1,0 +1,71 @@
+{
+ "permit": "WP0026338",
+ "processed": "2026-10-07T01:04:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-130-028",
+ "address": "36255 Rawson Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248418",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 409
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248418",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "high",
+   "ocrConf": 81.702736,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.220818,
+   "raw": "Estimated Yield * 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 75.333809,
+   "raw": "Water Level 200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-10-13",
+   "conf": "medium",
+   "ocrConf": 74.453781,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248418",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62955976600006,
+ "lon": -117.02323105599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199411",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248418",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

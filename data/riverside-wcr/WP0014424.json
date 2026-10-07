@@ -1,0 +1,49 @@
+{
+ "permit": "WP0014424",
+ "processed": "2026-10-07T01:17:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "460-150-018",
+ "address": "Sanderson Ave-So of Stetson Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242938",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 803
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242938",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 55.0,
+   "conf": "low",
+   "ocrConf": 39.704185,
+   "raw": "TOTAL DEPTH OF BORING ___55",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242938",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.72092302400006,
+ "lon": -117.00513348099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211272",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242938",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

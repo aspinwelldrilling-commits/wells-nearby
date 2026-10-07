@@ -1,0 +1,86 @@
+{
+ "permit": "WP0026369",
+ "processed": "2026-10-07T01:00:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "557-070-019",
+ "address": "28215 McCall Park Rd",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248433",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 56
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248433",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 49.467354,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 55.199234,
+   "raw": "Estimated Yield*, 25 - (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 480.0,
+   "conf": "high",
+   "ocrConf": 91.398987,
+   "raw": "Water Level 480 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Dritiing Diilling",
+   "conf": "medium",
+   "ocrConf": 53.682751,
+   "raw": "Drilling Method Air Dritiing Diilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 42.935005,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-09-30",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248433",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.712214747000075,
+ "lon": -116.73087843999997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248433",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

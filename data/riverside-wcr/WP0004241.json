@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004241",
+ "processed": "2026-10-07T00:01:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-440-002",
+ "address": "41400 Wade Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236218",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 834
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236218",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 70.27755,
+   "raw": "ESTIMATED YIELD 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 290.0,
+   "conf": "low",
+   "ocrConf": 18.151817,
+   "raw": "WATER LEVEL 290 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236218",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.64170584200008,
+ "lon": -116.93739557199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219914",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236218",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

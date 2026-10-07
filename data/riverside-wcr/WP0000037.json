@@ -1,0 +1,57 @@
+{
+ "permit": "WP0000037",
+ "processed": "2026-10-07T01:11:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "561-050-007",
+ "address": "26345 Delano Rd",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233380",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1122
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233380",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 680.0,
+   "conf": "low",
+   "ocrConf": 62.131084,
+   "raw": "(12) WELL LOG: Total depth 680",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.836609,
+   "raw": "Standing level after well completion 20 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233380",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.73787585500003,
+ "lon": -116.72943860299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222528",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233380",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

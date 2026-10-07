@@ -1,0 +1,63 @@
+{
+ "permit": "WP0011427",
+ "processed": "2026-10-07T00:30:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-290-017",
+ "address": "38550 Crams Corner Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241650",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 398
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241650",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 210.0,
+   "conf": "high",
+   "ocrConf": 96.475945,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 210",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 160.0,
+   "conf": "medium",
+   "ocrConf": 52.701195,
+   "raw": "WATER LeveL 160 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-10-30",
+   "conf": "low",
+   "ocrConf": 14.096519,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241650",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.561930464000056,
+ "lon": -116.73101719899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213937",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241650",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

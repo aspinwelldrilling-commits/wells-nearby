@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009909",
+ "processed": "2026-10-07T00:24:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-350-010",
+ "address": "54691 Moraza Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240937",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 768
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240937",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 305.0,
+   "conf": "low",
+   "ocrConf": 47.469479,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 305",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-11-04",
+   "conf": "high",
+   "ocrConf": 90.13649,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240937",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55037714900004,
+ "lon": -116.70709509899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214657",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240937",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

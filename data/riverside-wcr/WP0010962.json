@@ -1,0 +1,64 @@
+{
+ "permit": "WP0010962",
+ "processed": "2026-10-07T00:28:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-060-048",
+ "address": "32395 Weber Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241172",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 790
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241172",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 440.0,
+   "conf": "high",
+   "ocrConf": 89.438736,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _440",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 36.239334,
+   "raw": "ESTIMATED YIELD * 30) _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 32.746208,
+   "raw": "WATER LEVEL __25 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241172",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.65046190600003,
+ "lon": -116.93349782999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213568",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241172",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

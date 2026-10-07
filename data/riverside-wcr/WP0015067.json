@@ -1,0 +1,71 @@
+{
+ "permit": "WP0015067",
+ "processed": "2026-10-07T00:46:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-290-003",
+ "address": "59630 Rincon Ridge Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244334",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 708
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244334",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 41.810829,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 80.383743,
+   "raw": "ESTIMATED YIELD * 20 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 127.0,
+   "conf": "medium",
+   "ocrConf": 72.373497,
+   "raw": "WATER LeveL 127 _ _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-11-22",
+   "conf": "low",
+   "ocrConf": 0.933228,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244334",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56213245400005,
+ "lon": -116.73445568999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210537",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244334",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

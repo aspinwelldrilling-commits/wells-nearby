@@ -1,0 +1,63 @@
+{
+ "permit": "WP0025080",
+ "processed": "2026-10-07T01:02:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-080-071",
+ "address": "37990 Tripp Flat Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248163",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 534
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248163",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 85.091888,
+   "raw": "Estimated Yield * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 90.294144,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-02-13",
+   "conf": "low",
+   "ocrConf": 35.074402,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248163",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.570986324000046,
+ "lon": -116.73751638099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200067",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248163",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

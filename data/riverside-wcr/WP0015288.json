@@ -1,0 +1,57 @@
+{
+ "permit": "WP0015288",
+ "processed": "2026-10-07T00:43:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-410-012",
+ "address": "37373 Sage Blossom Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244415",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 943
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244415",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 24",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 350.0,
+   "conf": "low",
+   "ocrConf": 29.682434,
+   "raw": "ESTIMATED YIELD * _350 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244415",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58252853100004,
+ "lon": -116.98666358899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210641",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244415",
+ "serviceType": "Reconstruction Deepening",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

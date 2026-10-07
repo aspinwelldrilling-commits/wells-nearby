@@ -1,0 +1,64 @@
+{
+ "permit": "WP0013584",
+ "processed": "2026-10-07T00:38:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-270-014",
+ "address": "54245 Glenda Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242659",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 710
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242659",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1750.0,
+   "conf": "low",
+   "ocrConf": 45.63414,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1750",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 11.0,
+   "conf": "low",
+   "ocrConf": 17.03492,
+   "raw": "ESTIMATED YieLD +11 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 189.0,
+   "conf": "low",
+   "ocrConf": 24.848167,
+   "raw": "WATER LEVEL 189 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242659",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57085607400006,
+ "lon": -116.71346793099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212769",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242659",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

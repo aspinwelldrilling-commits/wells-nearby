@@ -1,0 +1,111 @@
+{
+ "permit": "WP0029064",
+ "processed": "2026-10-07T01:23:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "438-040-008",
+ "address": "1601 Villines Ave",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248960",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 113
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248960",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248960",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248960",
+   "page": 3,
+   "source": "text",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248960",
+   "page": 4,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 910.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well         910",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 539.6,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level              539.6 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Reverse Circulation",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method       Reverse Circulation       Drilling Fluid   Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2020-07-13",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.769812,
+   "lon": -116.932616,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 2.5,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             2.5 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248960",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.76981200000006,
+ "lon": -116.93261599999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34917",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248960",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

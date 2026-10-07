@@ -1,0 +1,70 @@
+{
+ "permit": "WP0025052",
+ "processed": "2026-10-07T00:58:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-230-016",
+ "address": "40830 Reseda Springs Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248092",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 403
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248092",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 715.0,
+   "conf": "high",
+   "ocrConf": 96.402504,
+   "raw": "Total Depth of Completed Well 715",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 95.509445,
+   "raw": "Estimated Yield * 120 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-03-10",
+   "conf": "low",
+   "ocrConf": 30.920502,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.6106,
+   "lon": -116.94851,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248092",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.60976590800004,
+ "lon": -116.94815222099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200038",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248092",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

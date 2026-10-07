@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004449",
+ "processed": "2026-10-07T00:02:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-660-009",
+ "address": "39675 Via Segovia",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236368",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 847
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236368",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 2.007675,
+   "raw": "WATER LEVEL ___4\u00a2____ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.549309,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236368",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.552774,
+ "lon": -116.95624,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220498",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236368",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

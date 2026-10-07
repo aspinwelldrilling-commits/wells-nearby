@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027265",
+ "processed": "2026-10-07T01:02:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-570-018",
+ "address": "37219 Quarter Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249490",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 142
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249490",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 720.0,
+   "conf": "high",
+   "ocrConf": 96.326019,
+   "raw": "Total Depth of Completed Well 720",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "high",
+   "ocrConf": 86.090034,
+   "raw": "Estimated Yield* 7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-21",
+   "conf": "low",
+   "ocrConf": 10.246445,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249490",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.586296393000055,
+ "lon": -116.95992202599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198799",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249490",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

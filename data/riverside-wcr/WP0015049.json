@@ -1,0 +1,63 @@
+{
+ "permit": "WP0015049",
+ "processed": "2026-10-07T00:42:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-130-021",
+ "address": "53480 Benton Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244321",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 803
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244321",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 49.795509,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-11-16",
+   "conf": "high",
+   "ocrConf": 86.477898,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "medium",
+   "ocrConf": 71.470299,
+   "raw": "ESTIMATED YIELD *_9 (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244321",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.562805970000056,
+ "lon": -116.72631059199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210523",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244321",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

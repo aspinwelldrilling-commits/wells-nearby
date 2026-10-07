@@ -1,0 +1,71 @@
+{
+ "permit": "WP0018175",
+ "processed": "2026-10-07T00:52:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-060-039",
+ "address": "S of Selgado Cyn Rd-End of Hemet Rancho",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244210",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 819
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244210",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.29631,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 85.507713,
+   "raw": "Water Level _200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 74.474129,
+   "raw": "Drilling Method Air Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-12-11",
+   "conf": "low",
+   "ocrConf": 8.547913,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244210",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.65560269400004,
+ "lon": -116.93937538599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306804",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244210",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

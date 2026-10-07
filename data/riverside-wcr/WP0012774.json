@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012774",
+ "processed": "2026-10-07T00:37:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-070-052",
+ "address": "39225 Diamond Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241947",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 807
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241947",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 27.421043,
+   "raw": "ESTIMATED YIELD * 32. (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 99.0,
+   "conf": "high",
+   "ocrConf": 92.210876,
+   "raw": "WATER LEVEL 99 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241947",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67380713700004,
+ "lon": -116.97578458399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211682",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241947",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

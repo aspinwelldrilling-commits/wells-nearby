@@ -1,0 +1,55 @@
+{
+ "permit": "WP0011872",
+ "processed": "2026-10-07T01:14:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "454-020-020",
+ "address": "1730 Fisher St",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243728",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2937
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243728",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 384.0,
+   "conf": "medium",
+   "ocrConf": 70.916061,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 384",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-12",
+   "conf": "high",
+   "ocrConf": 86.123245,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243728",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.71504825300008,
+ "lon": -117.02232840699997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243728",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

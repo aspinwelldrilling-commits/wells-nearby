@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012834",
+ "processed": "2026-10-07T00:34:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-4460-036-2",
+ "address": "NE corner of Voyager/Breslin",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242037",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 755
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242037",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD * 7S (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 12.961273,
+   "raw": "WATER LEVEL__3O0 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242037",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.590700593000065,
+ "lon": -116.96511219999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211733",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242037",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

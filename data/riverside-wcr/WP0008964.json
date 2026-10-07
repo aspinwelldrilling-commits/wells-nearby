@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008964",
+ "processed": "2026-10-07T00:20:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-100-049",
+ "address": "51800 Quail Mountain Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239928",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 960
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239928",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 253.0,
+   "conf": "high",
+   "ocrConf": 92.602905,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ____ 253,",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-02-13",
+   "conf": "high",
+   "ocrConf": 96.397621,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239928",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56202673200005,
+ "lon": -116.75674565599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217693",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239928",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002166",
+ "processed": "2026-10-06T23:54:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "431-130-026",
+ "address": "22440 Warren Rd",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235364",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 889
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235364",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 428.0,
+   "conf": "low",
+   "ocrConf": 77.225815,
+   "raw": "TOTAL DEPTH OF BORING _ 428",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 184.5,
+   "conf": "high",
+   "ocrConf": 92.754242,
+   "raw": "WATER LEVEL 184.5 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235364",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.79458489500007,
+ "lon": -117.02476195899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221742",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235364",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

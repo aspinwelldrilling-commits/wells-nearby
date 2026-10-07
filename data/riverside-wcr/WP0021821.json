@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021821",
+ "processed": "2026-10-07T00:58:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "552-210-003",
+ "address": "26601 Lake St",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247146",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 438
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247146",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 36.665924,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 324.0,
+   "conf": "low",
+   "ocrConf": 24.789169,
+   "raw": "Water Level 324 _ (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 95.919746,
+   "raw": "Drilling Method ROTARY Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-08-24",
+   "conf": "high",
+   "ocrConf": 94.012314,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247146",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.735535964000064,
+ "lon": -116.91617203499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/319676",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247146",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

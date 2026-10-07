@@ -1,0 +1,99 @@
+{
+ "permit": "WP0029148",
+ "processed": "2026-10-07T01:08:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-360-017",
+ "address": "34168 Stage Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248817",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 470
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248817",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248817",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "medium",
+   "ocrConf": 73.160095,
+   "raw": "Total Depth of Completed Well 325",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 93.704674,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 95.200264,
+   "raw": "Water Level 100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "medium",
+   "ocrConf": 60.95343,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 58.573875,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-12-30",
+   "conf": "medium",
+   "ocrConf": 74.72673,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.62749,
+   "lon": -116.96639,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248817",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62749000000008,
+ "lon": -116.96638999999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205830",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248817",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

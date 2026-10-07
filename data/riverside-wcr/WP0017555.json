@@ -1,0 +1,75 @@
+{
+ "permit": "WP0017555",
+ "processed": "2026-10-07T01:19:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "547-130-058",
+ "address": "West levee of San Jacinto River",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244206",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3283
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244206",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244206",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244206",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 1524.0,
+   "conf": "high",
+   "ocrConf": 92.095291,
+   "raw": "Estimated Yield* 1,524 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 440.0,
+   "conf": "high",
+   "ocrConf": 85.386749,
+   "raw": "Water Level 440 (Feet",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-10-17",
+   "conf": "high",
+   "ocrConf": 82.874878,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244206",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.768574913000066,
+ "lon": -116.92141353099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210075",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244206",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

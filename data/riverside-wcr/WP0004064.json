@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004064",
+ "processed": "2026-10-07T00:01:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "557-100-003",
+ "address": "53750 Highway 243",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236764",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 720
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236764",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 530.0,
+   "conf": "low",
+   "ocrConf": 33.942787,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 530",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-09-13",
+   "conf": "low",
+   "ocrConf": 37.213863,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236764",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.70745657000003,
+ "lon": -116.72461217399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213009",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236764",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0005855",
+ "processed": "2026-10-07T00:05:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "555-270-009",
+ "address": "OFF GIBBEL RD",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237314",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 843
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237314",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 444.0,
+   "conf": "low",
+   "ocrConf": 37.494808,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 444",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 86.094788,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237314",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.694411167000055,
+ "lon": -116.92674078999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215831",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237314",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

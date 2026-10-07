@@ -1,0 +1,62 @@
+{
+ "permit": "WP0027223",
+ "processed": "2026-10-07T01:25:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "432-260-023",
+ "address": "W Esplanade Ave & Alabaster Ave",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249473",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3102
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249473",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249473",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 199.0,
+   "conf": "medium",
+   "ocrConf": 96.779137,
+   "raw": "Total Depth of Boring 199",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-25",
+   "conf": "medium",
+   "ocrConf": 77.1745,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249473",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.77297389200004,
+ "lon": -117.02921995799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/269258",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249473",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "readable"
+}

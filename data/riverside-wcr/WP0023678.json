@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023678",
+ "processed": "2026-10-07T00:56:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-070-015",
+ "address": "39880 Cactus Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248067",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 406
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248067",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 95.232063,
+   "raw": "Estimated Yield * 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Mud Rotary",
+   "conf": "high",
+   "ocrConf": 94.695747,
+   "raw": "Drilling Method MUD ROTARY Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-10-08",
+   "conf": "high",
+   "ocrConf": 92.272705,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248067",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.671893614000055,
+ "lon": -116.96486959899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202453",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248067",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

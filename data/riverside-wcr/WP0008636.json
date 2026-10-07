@@ -1,0 +1,64 @@
+{
+ "permit": "WP0008636",
+ "processed": "2026-10-07T00:19:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-330-034",
+ "address": "46520 De Portola Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239765",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 768
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239765",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 690.0,
+   "conf": "low",
+   "ocrConf": 22.005867,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 690",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 53.889236,
+   "raw": "ESTIMATED YIELD * 20 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 15.0,
+   "conf": "low",
+   "ocrConf": 27.542404,
+   "raw": "WATER LeveL___15 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239765",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.63515870800006,
+ "lon": -116.98953512999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216398",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239765",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

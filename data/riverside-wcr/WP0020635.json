@@ -1,0 +1,71 @@
+{
+ "permit": "WP0020635",
+ "processed": "2026-10-07T00:53:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-050-020",
+ "address": "39220 Batz Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246524",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 402
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246524",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 140.0,
+   "conf": "high",
+   "ocrConf": 84.31514,
+   "raw": "Total Depth of Completed Well_140",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 93.35025,
+   "raw": "Estimated Yield * 150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 49.659992,
+   "raw": "Water Level 40 ______s(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-04-19",
+   "conf": "high",
+   "ocrConf": 90.443199,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246524",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.678643274000024,
+ "lon": -116.97627536099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204865",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246524",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

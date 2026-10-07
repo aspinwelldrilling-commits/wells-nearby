@@ -1,0 +1,63 @@
+{
+ "permit": "WP0011190",
+ "processed": "2026-10-07T00:28:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-180-024",
+ "address": "40410 Marmaduke Tr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241317",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 792
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241317",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1050.0,
+   "conf": "medium",
+   "ocrConf": 64.011826,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1050",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-19",
+   "conf": "low",
+   "ocrConf": 35.452568,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 57.96167,
+   "raw": "ESTIMATED YIELD * __30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241317",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.624227302000065,
+ "lon": -116.95459184099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213744",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241317",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

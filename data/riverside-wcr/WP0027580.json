@@ -1,0 +1,71 @@
+{
+ "permit": "WP0027580",
+ "processed": "2026-10-07T01:02:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-110-014",
+ "address": "52315 Wheeler Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249572",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 421
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249572",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 230.0,
+   "conf": "high",
+   "ocrConf": 96.321518,
+   "raw": "Total Depth of Completed Well 230",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 74.146149,
+   "raw": "Estimated Yield * 150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.913239,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 36.448273,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249572",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56808922000005,
+ "lon": -116.74748098399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198912",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249572",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

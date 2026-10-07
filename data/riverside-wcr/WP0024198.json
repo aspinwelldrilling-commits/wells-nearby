@@ -1,0 +1,71 @@
+{
+ "permit": "WP0024198",
+ "processed": "2026-10-07T00:57:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-430-002",
+ "address": "Santa Maria Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247868",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 391
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247868",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 56.012573,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 92.090126,
+   "raw": "Water Level 50 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.355652,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-03-20",
+   "conf": "high",
+   "ocrConf": 90.444214,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247868",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56802715200007,
+ "lon": -116.84524529199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201124",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247868",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

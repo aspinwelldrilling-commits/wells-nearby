@@ -1,0 +1,87 @@
+{
+ "permit": "WP0023093",
+ "processed": "2026-10-07T00:55:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-450-011",
+ "address": "35185 Lake Summit Dr",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247546",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 403
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247546",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "low",
+   "ocrConf": 24.431259,
+   "raw": "Total Depth of Boring 50O",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 96.878365,
+   "raw": "Estimated Yield *, 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "low",
+   "ocrConf": 28.943878,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 88.483673,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 88.686043,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-04-13",
+   "conf": "high",
+   "ocrConf": 95.893478,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247546",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.60990590100005,
+ "lon": -117.00281628699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201958",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247546",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

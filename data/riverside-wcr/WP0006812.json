@@ -1,0 +1,57 @@
+{
+ "permit": "WP0006812",
+ "processed": "2026-10-07T00:10:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-280-025",
+ "address": "38340 Reed Valley Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238646",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1030
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238646",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 247.0,
+   "conf": "low",
+   "ocrConf": 24.378296,
+   "raw": "TOTAL DEPTH OF BORING 247",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "low",
+   "ocrConf": 17.108345,
+   "raw": "ESTIMATED YieLD * 9 \u00a9\u2019 _ (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238646",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56450030900004,
+ "lon": -116.82652641599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218860",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238646",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

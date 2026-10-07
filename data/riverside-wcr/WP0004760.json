@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004760",
+ "processed": "2026-10-07T00:03:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-080-058",
+ "address": "37664 Dreamweaver Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236599",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 829
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236599",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 248.0,
+   "conf": "medium",
+   "ocrConf": 77.273018,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 248",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 138.0,
+   "conf": "low",
+   "ocrConf": 9.169525,
+   "raw": "STATIC\nWATER LeveL ___138 Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236599",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.574358904000064,
+ "lon": -116.74855747299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217032",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236599",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

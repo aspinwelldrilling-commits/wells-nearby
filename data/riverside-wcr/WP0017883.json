@@ -1,0 +1,77 @@
+{
+ "permit": "WP0017883",
+ "processed": "2026-10-07T00:51:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "450-160-043",
+ "address": "27621 Cornell St",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245778",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1607
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245778",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245778",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 96.0896,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 93.904305,
+   "raw": "Estimated Yield* 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 84.915245,
+   "raw": "Water Level _100 (Feet",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-06",
+   "conf": "low",
+   "ocrConf": 44.455345,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245778",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.720593277000035,
+ "lon": -116.94209011499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208535",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245778",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

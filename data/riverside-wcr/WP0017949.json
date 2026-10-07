@@ -1,0 +1,79 @@
+{
+ "permit": "WP0017949",
+ "processed": "2026-10-07T00:54:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-380-037",
+ "address": "33810 Stage Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245836",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 815
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245836",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 91.60025,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.181313,
+   "raw": "Estimated Yield * 50 + (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 89.980324,
+   "raw": "Water Level _200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 71.097351,
+   "raw": "Drilling Method _Air Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-25",
+   "conf": "low",
+   "ocrConf": 29.107491,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245836",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62386682300007,
+ "lon": -116.97735524799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208602",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245836",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

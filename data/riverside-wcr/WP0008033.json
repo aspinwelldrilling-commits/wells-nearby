@@ -1,0 +1,63 @@
+{
+ "permit": "WP0008033",
+ "processed": "2026-10-07T00:15:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-280-032",
+ "address": "38155 Reed Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239963",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 689
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239963",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "low",
+   "ocrConf": 17.767487,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-10-01",
+   "conf": "low",
+   "ocrConf": 10.405487,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 78.930115,
+   "raw": "ESTIMATED YIELD *_4 (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239963",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56728331800008,
+ "lon": -116.83762235799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215026",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239963",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

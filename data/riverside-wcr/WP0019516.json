@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019516",
+ "processed": "2026-10-07T00:53:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-120-036",
+ "address": "25248 Los Rancherias",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246256",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 855
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246256",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 94.779778,
+   "raw": "Estimated Yield* 150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-01-05",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246256",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.75481824000008,
+ "lon": -117.04391829699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208230",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246256",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0025291",
+ "processed": "2026-10-07T00:58:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "432-160-011",
+ "address": "23200 Beech St",
+ "city": "Juniper Flats",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248234",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 63
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248234",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 95.060799,
+   "raw": "Estimated Yield,* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "low",
+   "ocrConf": 46.769333,
+   "raw": "Water Level .75 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "low",
+   "ocrConf": 35.559555,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Alt",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-04-29",
+   "conf": "high",
+   "ocrConf": 89.226074,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248234",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.78525448200003,
+ "lon": -117.04726220099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200275",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248234",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,76 @@
+{
+ "permit": "WP0020917",
+ "processed": "2026-10-07T01:24:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-050-005",
+ "address": "Stanley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246431",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 413
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246431",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246431",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1025.0,
+   "conf": "low",
+   "ocrConf": 44.304352,
+   "raw": "Total Depth of Completed Well 1025",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 90.931396,
+   "raw": "Drilling Method Air Drilling Drilling Fluid _Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 84.17408,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-08-18",
+   "conf": "medium",
+   "ocrConf": 61.002087,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246431",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57900654500003,
+ "lon": -116.88507081199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205133",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246431",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

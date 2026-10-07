@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003475",
+ "processed": "2026-10-06T23:57:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "465-120-001",
+ "address": "California Avenue - Well Site #1",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235769",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 864
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235769",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 96.125328,
+   "raw": "DRILLING\nMETHOD Rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 65.446503,
+   "raw": "ESTIMATED YIELD -_ 150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235769",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.714292976000024,
+ "lon": -117.04808096999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215897",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235769",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

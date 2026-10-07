@@ -1,0 +1,56 @@
+{
+ "permit": "WP0011188",
+ "processed": "2026-10-07T00:30:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-180-019",
+ "address": "34361 Cameron Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241314",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 792
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241314",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 24.0,
+   "conf": "medium",
+   "ocrConf": 71.843948,
+   "raw": "ESTIMATED YIELD * 24 _-_ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ____4 i) __(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241314",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62302078500005,
+ "lon": -116.95880082599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213742",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241314",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

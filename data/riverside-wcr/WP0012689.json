@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012689",
+ "processed": "2026-10-07T01:15:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "431-180-018",
+ "address": "NW of Esplanade & Pine Avenue",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241838",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2408
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241838",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 420.0,
+   "conf": "low",
+   "ocrConf": 0.393181,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 420",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-12-01",
+   "conf": "high",
+   "ocrConf": 89.362999,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241838",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.77734211000006,
+ "lon": -116.98637016299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211606",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241838",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

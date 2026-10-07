@@ -1,0 +1,78 @@
+{
+ "permit": "WP0018345",
+ "processed": "2026-10-07T01:20:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "437-130-032",
+ "address": "254 Camino Los Banos",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245946",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1863
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245946",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245946",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1020.0,
+   "conf": "medium",
+   "ocrConf": 96.63147,
+   "raw": "Total Depth of Boring 1020",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2000.0,
+   "conf": "high",
+   "ocrConf": 84.389046,
+   "raw": "Estimated Yield* 2,000 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 344.0,
+   "conf": "high",
+   "ocrConf": 90.246849,
+   "raw": "Water Level 344 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-03-01",
+   "conf": "high",
+   "ocrConf": 96.364746,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245946",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.786298980000026,
+ "lon": -116.94699550699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208903",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245946",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

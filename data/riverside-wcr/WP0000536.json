@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000536",
+ "processed": "2026-10-06T23:49:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "41490 Bell Bluff Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233810",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 840
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233810",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 610.0,
+   "conf": "medium",
+   "ocrConf": 56.584435,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 610",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 290.0,
+   "conf": "low",
+   "ocrConf": 28.955414,
+   "raw": "WATER LEVEL 290 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233810",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.551900782000075,
+ "lon": -116.93770239899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220298",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233810",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,72 @@
+{
+ "permit": "WP0020469",
+ "processed": "2026-10-07T00:57:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-050-020",
+ "address": "39220 Batz Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246757",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 492
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246757",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 105.0,
+   "conf": "medium",
+   "ocrConf": 96.764351,
+   "raw": "Total Depth of Boring 105",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 96.954033,
+   "raw": "Estimated Yield* 70 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 95.691154,
+   "raw": "Drilling Method ROTARY Drilling Fluid -\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-01-04",
+   "conf": "low",
+   "ocrConf": 44.484406,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246757",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.678643274000024,
+ "lon": -116.97627536099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204702",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246757",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

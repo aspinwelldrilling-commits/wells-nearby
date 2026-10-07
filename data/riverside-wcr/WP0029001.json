@@ -1,0 +1,68 @@
+{
+ "permit": "WP0029001",
+ "processed": "2026-10-07T01:22:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "438-040-007",
+ "address": "1601 Villines Ave",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248951",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 103
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248951",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248951",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 90.640915,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-03-23",
+   "conf": "medium",
+   "ocrConf": 71.885101,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.769737,
+   "lon": -116.93453,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248951",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.76973700000008,
+ "lon": -116.93452999999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274781",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248951",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

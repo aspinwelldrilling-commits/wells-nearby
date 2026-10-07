@@ -1,0 +1,71 @@
+{
+ "permit": "WP0023282",
+ "processed": "2026-10-07T00:55:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "465-330-020",
+ "address": "26981 Lawrence Ct",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247653",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 429
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247653",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 13.311928,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 95.217361,
+   "raw": "Estimated Yield * 35 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 93.030754,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-06-18",
+   "conf": "high",
+   "ocrConf": 95.345886,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247653",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.72964179600007,
+ "lon": -117.04855686699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202116",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247653",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

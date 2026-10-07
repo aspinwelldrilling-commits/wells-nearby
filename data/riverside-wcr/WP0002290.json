@@ -1,0 +1,48 @@
+{
+ "permit": "WP0002290",
+ "processed": "2026-10-06T23:55:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-170-021",
+ "address": "30234 Stein Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235301",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 792
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235301",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 32.712845,
+   "raw": "ESTIMATED YIELD * ~24 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235301",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.682989676000034,
+ "lon": -116.96483009999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222139",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235301",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,79 @@
+{
+ "permit": "WP0026183",
+ "processed": "2026-10-07T01:04:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-470-023",
+ "address": "41117 Intrepid Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248244",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 321
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248244",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 96.685432,
+   "raw": "Total Depth of Boring 400",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 96.432381,
+   "raw": "Estimated Yield * 70 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Orilling Dailling",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Drilling Method Air Orilling Dailling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 95.892502,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-07-15",
+   "conf": "high",
+   "ocrConf": 95.246483,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248244",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.595765709000034,
+ "lon": -116.94445604299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199288",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248244",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

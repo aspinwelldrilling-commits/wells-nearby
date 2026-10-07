@@ -1,0 +1,63 @@
+{
+ "permit": "WP0008042",
+ "processed": "2026-10-07T00:17:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-330-005",
+ "address": "53875 Old Comanche Tr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239435",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 693
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239435",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 232.0,
+   "conf": "medium",
+   "ocrConf": 63.279457,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 232",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 93.727318,
+   "raw": "ESTIMATED YiELD * 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-09-16",
+   "conf": "high",
+   "ocrConf": 84.34285,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239435",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58657182700006,
+ "lon": -116.72175589899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215036",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239435",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

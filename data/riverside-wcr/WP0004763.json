@@ -1,0 +1,60 @@
+{
+ "permit": "WP0004763",
+ "processed": "2026-10-07T01:10:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "434-300-003",
+ "address": "Artesian Street",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236598",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2664
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236598",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236598",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236598",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1020.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1020",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236598",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.78962784500004,
+ "lon": -116.94924037399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217057",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236598",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 3,
+ "status": "unreadable"
+}

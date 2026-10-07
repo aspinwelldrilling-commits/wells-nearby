@@ -1,0 +1,56 @@
+{
+ "permit": "WP0011260",
+ "processed": "2026-10-07T00:29:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-050-025",
+ "address": "30120 Kiowa Cir",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241407",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 892
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241407",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "medium",
+   "ocrConf": 56.405064,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 120",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.623352,
+   "raw": "WATER LEVEL 50 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241407",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.68413026200005,
+ "lon": -116.96836384799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213803",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241407",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

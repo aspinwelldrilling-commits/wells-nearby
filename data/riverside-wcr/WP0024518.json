@@ -1,0 +1,64 @@
+{
+ "permit": "WP0024518",
+ "processed": "2026-10-07T00:57:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-280-005",
+ "address": "30760 Red Mountain Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248045",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 400
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248045",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 20.775375,
+   "raw": "Total Depth of Boring 450",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 86.229721,
+   "raw": "Estimated Yield * 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-07-10",
+   "conf": "low",
+   "ocrConf": 15.382698,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248045",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.61575970000007,
+ "lon": -116.90571411399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201432",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248045",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

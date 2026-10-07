@@ -1,0 +1,63 @@
+{
+ "permit": "WP0012334",
+ "processed": "2026-10-07T00:33:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-100-045",
+ "address": "51490 Forest Boundary Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241435",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 706
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241435",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL310",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 87.481049,
+   "raw": "ESTIMATED YieLD * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-18",
+   "conf": "high",
+   "ocrConf": 85.730324,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241435",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55549588100007,
+ "lon": -116.76285986399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212565",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241435",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

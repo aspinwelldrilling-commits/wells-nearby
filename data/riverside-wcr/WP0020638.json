@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020638",
+ "processed": "2026-10-07T00:54:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-100-004",
+ "address": "35154 Tres Cerritos",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246526",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 397
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246526",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 96.834297,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.313278,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-03-19",
+   "conf": "low",
+   "ocrConf": 5.256264,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246526",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.75886279900004,
+ "lon": -117.04705082999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204868",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246526",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

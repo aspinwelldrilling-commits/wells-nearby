@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014272",
+ "processed": "2026-10-07T00:40:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "460-150-016",
+ "address": "Sand Mine Trail",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242845",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 783
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242845",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 660.0,
+   "conf": "high",
+   "ocrConf": 90.475288,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 660",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 77.735786,
+   "raw": "ESTIMATED YIELD * 100* (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242845",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.728072922000024,
+ "lon": -117.00427554699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211217",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242845",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019577",
+ "processed": "2026-10-07T00:53:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-110-012",
+ "address": "29751 Red Mountain Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246279",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 426
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246279",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.999191,
+   "raw": "Estimated Yield* 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-02-05",
+   "conf": "high",
+   "ocrConf": 95.928719,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246279",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62266208800003,
+ "lon": -116.92018258799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208286",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246279",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

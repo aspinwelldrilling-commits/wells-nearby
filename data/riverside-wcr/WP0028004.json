@@ -1,0 +1,86 @@
+{
+ "permit": "WP0028004",
+ "processed": "2026-10-07T01:03:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-210-041",
+ "address": "41455 Mark Trl",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248692",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248692",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 510.0,
+   "conf": "medium",
+   "ocrConf": 70.197578,
+   "raw": "Total Depth of Completed Well 510",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.045563,
+   "raw": "Estimated Yield * 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 243.0,
+   "conf": "medium",
+   "ocrConf": 75.628288,
+   "raw": "Water Level 243 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "medium",
+   "ocrConf": 79.391617,
+   "raw": "Drilling Method _Air Rotary Drilling Fluid as",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-09-10",
+   "conf": "high",
+   "ocrConf": 89.685295,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.60698,
+   "lon": -116.9378,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248692",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.60698487800005,
+ "lon": -116.93781192899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19438",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248692",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

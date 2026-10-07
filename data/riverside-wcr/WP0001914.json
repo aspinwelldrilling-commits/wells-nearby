@@ -1,0 +1,57 @@
+{
+ "permit": "WP0001914",
+ "processed": "2026-10-06T23:52:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-070-057",
+ "address": "42665 Minto Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234741",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 834
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234741",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 36.0,
+   "conf": "low",
+   "ocrConf": 39.729748,
+   "raw": "TOTAL DEPTH OF BORING 36",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 25.939743,
+   "raw": "WATER LEVEL ___4Q __(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234741",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.63666529200003,
+ "lon": -116.91690897699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220914",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234741",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0019453",
+ "processed": "2026-10-07T00:56:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-020-008",
+ "address": "42655 Cactus Valley Rd",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246241",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 828
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246241",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 44.932251,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 94.858971,
+   "raw": "Estimated Yield * 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 79.250595,
+   "raw": "Water Level _100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-11-22",
+   "conf": "high",
+   "ocrConf": 80.963669,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246241",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.670580725000036,
+ "lon": -116.91551582299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208189",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246241",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

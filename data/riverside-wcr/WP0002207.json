@@ -1,0 +1,49 @@
+{
+ "permit": "WP0002207",
+ "processed": "2026-10-07T01:13:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "454-160-008",
+ "address": "Palm Avenue and Newport Road",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235338",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 828
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235338",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 49.0,
+   "conf": "low",
+   "ocrConf": 29.618637,
+   "raw": "TOTAL DEPTH OF BORING __49",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235338",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.68757070300006,
+ "lon": -116.97884706199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221884",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235338",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

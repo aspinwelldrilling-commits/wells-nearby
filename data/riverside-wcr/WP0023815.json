@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023815",
+ "processed": "2026-10-07T01:00:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-150-063",
+ "address": "38085 Willis Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248203",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 345
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248203",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 525.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 525",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-11-26",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248203",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.568095106000044,
+ "lon": -116.70569262599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202577",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248203",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

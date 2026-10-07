@@ -1,0 +1,92 @@
+{
+ "permit": "WP0028872",
+ "processed": "2026-10-07T01:04:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-090-058",
+ "address": "38397 Manzanita Mountain Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248798",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 551
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248798",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248798",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "high",
+   "ocrConf": 92.799126,
+   "raw": "Total Depth of Completed Well 350",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 92.457802,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 127.0,
+   "conf": "high",
+   "ocrConf": 96.495842,
+   "raw": "Water Level 127 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 93.101364,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 47.075672,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.565151,
+   "lon": -116.7625,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248798",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.565155882000056,
+ "lon": -116.76251189499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270707",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248798",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

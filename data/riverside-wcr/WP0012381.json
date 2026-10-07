@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012381",
+ "processed": "2026-10-07T01:19:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "454-020-020",
+ "address": "4890 Blue Copper Way",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241502",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2171
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241502",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 103.0,
+   "conf": "medium",
+   "ocrConf": 53.631989,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 103",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-04-07",
+   "conf": "high",
+   "ocrConf": 81.418335,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241502",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.71750360800007,
+ "lon": -117.02278980599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212649",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241502",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

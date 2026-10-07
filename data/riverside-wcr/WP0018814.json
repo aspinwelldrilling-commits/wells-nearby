@@ -1,0 +1,64 @@
+{
+ "permit": "WP0018814",
+ "processed": "2026-10-07T00:55:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-100-025",
+ "address": "51440 Spring Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246103",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 723
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246103",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 19.569618,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 90.0,
+   "conf": "low",
+   "ocrConf": 37.76041,
+   "raw": "ESTIMATED YieLD * 9O (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 123.0,
+   "conf": "high",
+   "ocrConf": 85.13652,
+   "raw": "WATER LeveL 123 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246103",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55796546900007,
+ "lon": -116.76573201299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207709",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246103",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

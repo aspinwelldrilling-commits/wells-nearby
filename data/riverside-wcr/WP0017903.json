@@ -1,0 +1,71 @@
+{
+ "permit": "WP0017903",
+ "processed": "2026-10-07T00:54:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "454-060-031",
+ "address": "State Street-1/4 mile S of Chambers St",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245783",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 786
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245783",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 67.520432,
+   "raw": "Total Depth of Completed Well 1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.991882,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Water Level 200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-20",
+   "conf": "high",
+   "ocrConf": 88.837761,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245783",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.714084263000075,
+ "lon": -116.96832822099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208555",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245783",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

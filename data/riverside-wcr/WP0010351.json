@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010351",
+ "processed": "2026-10-07T00:24:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-060-010",
+ "address": "54175 Barneston Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240599",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 706
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240599",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 255.0,
+   "conf": "low",
+   "ocrConf": 45.158253,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL255",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 39.0,
+   "conf": "medium",
+   "ocrConf": 57.990875,
+   "raw": "ESTIMATED YIELD * 39 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-08-08",
+   "conf": "medium",
+   "ocrConf": 74.23674,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240599",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58000581400006,
+ "lon": -116.71504684599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213102",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240599",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

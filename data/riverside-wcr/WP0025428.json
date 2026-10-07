@@ -1,0 +1,63 @@
+{
+ "permit": "WP0025428",
+ "processed": "2026-10-07T00:59:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-320-024",
+ "address": "54483 Cave Rock Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248392",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 347
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248392",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "medium",
+   "ocrConf": 54.240131,
+   "raw": "Total Depth of Completed well_700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 95.136551,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-15",
+   "conf": "high",
+   "ocrConf": 92.212814,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248392",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55350534400003,
+ "lon": -116.71001031499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200411",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248392",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

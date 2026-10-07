@@ -1,0 +1,63 @@
+{
+ "permit": "WP0024294",
+ "processed": "2026-10-07T00:57:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-190-032",
+ "address": "38840 Mojo Way",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247922",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 388
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247922",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 89.906303,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.300331,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-05-19",
+   "conf": "high",
+   "ocrConf": 83.222542,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247922",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.666679473000045,
+ "lon": -116.98144343199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201215",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247922",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

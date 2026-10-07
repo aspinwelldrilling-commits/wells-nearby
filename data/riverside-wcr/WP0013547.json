@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013547",
+ "processed": "2026-10-07T00:40:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-080-057",
+ "address": "52325 Jaybird Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242604",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 715
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242604",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "low",
+   "ocrConf": 40.20039,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 280",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 27.0,
+   "conf": "medium",
+   "ocrConf": 52.364143,
+   "raw": "ESTIMATED YIELD * 27 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-02-09",
+   "conf": "medium",
+   "ocrConf": 77.460373,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242604",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.575104976000034,
+ "lon": -116.74902285199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212709",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242604",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

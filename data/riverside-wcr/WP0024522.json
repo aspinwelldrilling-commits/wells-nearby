@@ -1,0 +1,87 @@
+{
+ "permit": "WP0024522",
+ "processed": "2026-10-07T01:01:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-190-027",
+ "address": "31245 Horning Rd",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248055",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 388
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248055",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 582.0,
+   "conf": "medium",
+   "ocrConf": 96.566093,
+   "raw": "Total Depth of Boring 582",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.780685,
+   "raw": "Estimated Yield* 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 84.0,
+   "conf": "high",
+   "ocrConf": 88.916489,
+   "raw": "Water Level 84 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 90.048195,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 96.105392,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-07-23",
+   "conf": "medium",
+   "ocrConf": 61.884342,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248055",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66770569100004,
+ "lon": -116.98441604499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201436",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248055",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

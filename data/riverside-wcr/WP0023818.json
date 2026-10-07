@@ -1,0 +1,64 @@
+{
+ "permit": "WP0023818",
+ "processed": "2026-10-07T00:56:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "964-130-010",
+ "address": "37795 Ashfield Ln",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248206",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 407
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248206",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 47.957428,
+   "raw": "Total Depth of Boring 45O",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 96.47583,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-11-15",
+   "conf": "medium",
+   "ocrConf": 60.012814,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248206",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57254878100008,
+ "lon": -117.04169754499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202574",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248206",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

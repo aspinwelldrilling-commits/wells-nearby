@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007108",
+ "processed": "2026-10-07T00:08:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-350-003",
+ "address": "36500 Checkmate Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238811",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 741
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238811",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "low",
+   "ocrConf": 48.832394,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 180",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 98.0,
+   "conf": "low",
+   "ocrConf": 48.15237,
+   "raw": "WATER LeveL 98 __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238811",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.59075436200004,
+ "lon": -116.85181818799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215753",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238811",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

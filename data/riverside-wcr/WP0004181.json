@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004181",
+ "processed": "2026-10-07T00:00:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "442-227-015",
+ "address": "1401 Teakwood Pl",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236184",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 877
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236184",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 459.0,
+   "conf": "low",
+   "ocrConf": 48.782532,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___ 459",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 28.0,
+   "conf": "medium",
+   "ocrConf": 65.768661,
+   "raw": "WATER LEVEL ___ 28.0 _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236184",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.738140626000074,
+ "lon": -116.98547317199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219747",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236184",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

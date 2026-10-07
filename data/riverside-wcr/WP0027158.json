@@ -1,0 +1,86 @@
+{
+ "permit": "WP0027158",
+ "processed": "2026-10-07T01:05:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-150-009",
+ "address": "38210 Howard Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249445",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 935
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249445",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "high",
+   "ocrConf": 96.730133,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.000221,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 276.0,
+   "conf": "high",
+   "ocrConf": 96.861259,
+   "raw": "Water Level 276 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 96.18795,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-18",
+   "conf": "high",
+   "ocrConf": 96.335228,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.567383,
+   "lon": -116.713214,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249445",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56738788500007,
+ "lon": -116.71322588699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198705",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249445",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

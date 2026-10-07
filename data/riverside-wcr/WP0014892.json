@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014892",
+ "processed": "2026-10-07T00:41:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-090-032",
+ "address": "51900 Old Mine Tr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243267",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 687
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243267",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 185.0,
+   "conf": "low",
+   "ocrConf": 49.542843,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 185",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-07-26",
+   "conf": "low",
+   "ocrConf": 49.331055,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243267",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.568176176000065,
+ "lon": -116.75511449699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210387",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243267",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

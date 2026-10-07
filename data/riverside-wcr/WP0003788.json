@@ -1,0 +1,63 @@
+{
+ "permit": "WP0003788",
+ "processed": "2026-10-06T23:59:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-130-015",
+ "address": "35520 W Florida Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235948",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 804
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235948",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 3.0,
+   "conf": "medium",
+   "ocrConf": 62.11417,
+   "raw": "WATER LEVEL ____ 3 _____ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 95.647835,
+   "raw": "DRILLING\nMETHOD Rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.404907,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235948",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.748005628000044,
+ "lon": -117.03985655799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218607",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235948",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

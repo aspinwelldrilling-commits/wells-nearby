@@ -1,0 +1,56 @@
+{
+ "permit": "WP0019398",
+ "processed": "2026-10-07T00:52:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-230-009",
+ "address": "30907 Charlene Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246222",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 840
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246222",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 70.711594,
+   "raw": "Total Depth of Boring 100",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-10-17",
+   "conf": "high",
+   "ocrConf": 82.662064,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246222",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67218679000007,
+ "lon": -116.95710732499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208136",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246222",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000402",
+ "processed": "2026-10-06T23:48:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-320-014",
+ "address": "37988 Debby Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233687",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 869
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233687",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 264.0,
+   "conf": "medium",
+   "ocrConf": 68.557564,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __264",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "low",
+   "ocrConf": 35.825317,
+   "raw": "WATER LEVEL 70) _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233687",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58056600100008,
+ "lon": -116.86991491399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222684",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233687",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0009560",
+ "processed": "2026-10-07T00:23:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-282-003",
+ "address": "40240 Arave Cir",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240541",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1675
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240541",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 28.0,
+   "conf": "low",
+   "ocrConf": 31.060822,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 28",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 48.304543,
+   "raw": "ESTIMATED YieLD + 2S\u201d (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240541",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67707591100003,
+ "lon": -116.96005068199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214419",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240541",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

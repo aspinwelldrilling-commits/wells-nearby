@@ -1,0 +1,80 @@
+{
+ "permit": "WP0021329",
+ "processed": "2026-10-07T00:58:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-180-016",
+ "address": "39789 Vista Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246929",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 428
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246929",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "medium",
+   "ocrConf": 96.036072,
+   "raw": "Total Depth of Boring 160",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 65.0,
+   "conf": "high",
+   "ocrConf": 96.995323,
+   "raw": "Estimated Yield* 65 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 90.235123,
+   "raw": "Water Level 70 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 95.566345,
+   "raw": "Drilling Method ROTARY Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-12-30",
+   "conf": "high",
+   "ocrConf": 85.485748,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246929",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.678224174000036,
+ "lon": -116.96569321899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203457",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246929",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

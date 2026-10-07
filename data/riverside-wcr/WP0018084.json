@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018084",
+ "processed": "2026-10-07T00:51:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-330-013",
+ "address": "43495 Cardinal Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245824",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 907
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245824",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 47.67458,
+   "raw": "Estimated Yield,* 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 86.443237,
+   "raw": "Water Level _200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-10-19",
+   "conf": "low",
+   "ocrConf": 30.666183,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245824",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62931076900003,
+ "lon": -116.90422421599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208735",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245824",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0011835",
+ "processed": "2026-10-07T00:33:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-290-020",
+ "address": "53258 Denny Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242130",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 737
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242130",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 275.0,
+   "conf": "low",
+   "ocrConf": 40.908089,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL275",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 119.0,
+   "conf": "low",
+   "ocrConf": 48.5574,
+   "raw": "WATER LeveL 119 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-01-29",
+   "conf": "high",
+   "ocrConf": 88.939804,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242130",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56070439200005,
+ "lon": -116.73062939999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212415",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242130",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

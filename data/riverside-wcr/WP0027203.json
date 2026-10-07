@@ -1,0 +1,71 @@
+{
+ "permit": "WP0027203",
+ "processed": "2026-10-07T01:05:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-160-015",
+ "address": "44675 Oak Glen Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249440",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 986
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249440",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 96.322296,
+   "raw": "Total Depth of Boring 1,000",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 90.193459,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 66.636673,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-07-31",
+   "conf": "high",
+   "ocrConf": 83.693588,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249440",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.620864882000035,
+ "lon": -116.88284192099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198750",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249440",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

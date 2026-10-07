@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018119",
+ "processed": "2026-10-07T00:55:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-510-008",
+ "address": "38751 Sage Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245855",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 823
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245855",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 92.045723,
+   "raw": "Estimated Yield * 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "medium",
+   "ocrConf": 78.646629,
+   "raw": "Water Level 40 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-13",
+   "conf": "high",
+   "ocrConf": 84.234077,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245855",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56212951600003,
+ "lon": -116.91650941099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208770",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245855",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

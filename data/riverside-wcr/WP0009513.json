@@ -1,0 +1,49 @@
+{
+ "permit": "WP0009513",
+ "processed": "2026-10-07T00:23:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-040-011",
+ "address": "36401 Tripp Flats Rd ",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240481",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 119
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240481",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 96.405273,
+   "raw": "Total depth 300 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240481",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.596216292000065,
+ "lon": -116.75318546899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/258694",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240481",
+ "serviceType": "Evaluation",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

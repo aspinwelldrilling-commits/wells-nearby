@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008877",
+ "processed": "2026-10-07T00:18:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-420-013",
+ "address": "38880 Green Meadows Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239889",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 979
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239889",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 603.0,
+   "conf": "medium",
+   "ocrConf": 55.20591,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 603",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-02-27",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239889",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58598759900008,
+ "lon": -116.98378687999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217288",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239889",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

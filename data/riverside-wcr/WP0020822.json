@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020822",
+ "processed": "2026-10-07T00:53:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-210-031",
+ "address": "31490 Cora Lee St",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246465",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 431
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246465",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 91.138718,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.703674,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-04",
+   "conf": "medium",
+   "ocrConf": 72.052971,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246465",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66427089200005,
+ "lon": -116.97374027899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205041",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246465",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0009924",
+ "processed": "2026-10-07T00:24:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-080-021",
+ "address": "36535 Saddletree Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240962",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 833
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240962",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 28.78698,
+   "raw": "TOTAL DEPTH OF BORING 220",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 21.901398,
+   "raw": "ESTIMATED YIELD * 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240962",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.593001937000054,
+ "lon": -116.98792616299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214670",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240962",
+ "serviceType": "Evaluation",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

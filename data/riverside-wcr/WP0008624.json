@@ -1,0 +1,56 @@
+{
+ "permit": "WP0008624",
+ "processed": "2026-10-07T01:17:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "556-310-006",
+ "address": "23551 Highway 243",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239763",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1014
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239763",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 403.0,
+   "conf": "low",
+   "ocrConf": 20.32962,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___403",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 25.961235,
+   "raw": "WATER LEvEL___1&Q _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239763",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.77562561600007,
+ "lon": -116.74169933599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216354",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239763",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

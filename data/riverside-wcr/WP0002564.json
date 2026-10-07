@@ -1,0 +1,62 @@
+{
+ "permit": "WP0002564",
+ "processed": "2026-10-06T23:56:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-680-009",
+ "address": "39369 Calle Segovia",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235139",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1592
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235139",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235139",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 77.826736,
+   "raw": "TOTAL DEPTH OF BORING _ 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-10-25",
+   "conf": "low",
+   "ocrConf": 10.113327,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235139",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.553093,
+ "lon": -116.953189,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219593",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235139",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

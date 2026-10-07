@@ -1,0 +1,57 @@
+{
+ "permit": "WP0001996",
+ "processed": "2026-10-06T23:53:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-180-018",
+ "address": "39866 Vista Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234793",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 843
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234793",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 134.0,
+   "conf": "low",
+   "ocrConf": 28.270088,
+   "raw": "TOTAL DEPTH OF BORING _134",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 42.182205,
+   "raw": "ESTIMATED YIELD - 200+ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234793",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.678867525000044,
+ "lon": -116.96458175899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221160",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234793",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0017408",
+ "processed": "2026-10-07T00:50:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-070-016",
+ "address": "37340 Woodview Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245560",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 701
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245560",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 150",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 47.0,
+   "conf": "low",
+   "ocrConf": 35.57814,
+   "raw": "WATER LEVEL 47 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-03-13",
+   "conf": "high",
+   "ocrConf": 90.973648,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245560",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.580244984000046,
+ "lon": -116.74339508399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209941",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245560",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

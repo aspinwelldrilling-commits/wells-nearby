@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002255",
+ "processed": "2026-10-06T23:55:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-260-054",
+ "address": "38540 Christ Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235454",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 275
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235454",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 39.0,
+   "conf": "low",
+   "ocrConf": 4.142822,
+   "raw": "TOTAL DEPTH OF BORING -39",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.512161,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235454",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.561225507000074,
+ "lon": -116.85309082099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222049",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235454",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

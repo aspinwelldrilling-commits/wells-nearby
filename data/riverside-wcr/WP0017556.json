@@ -1,0 +1,83 @@
+{
+ "permit": "WP0017556",
+ "processed": "2026-10-07T01:19:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "547-130-065",
+ "address": "West levee of San Jacinto River",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245625",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3254
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245625",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245625",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245625",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 1380.0,
+   "conf": "high",
+   "ocrConf": 84.964058,
+   "raw": "Estimated Yield * 1,380 (GPM",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 435.0,
+   "conf": "high",
+   "ocrConf": 94.390854,
+   "raw": "Water Level 435 (Feet",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-11-21",
+   "conf": "high",
+   "ocrConf": 81.284561,
+   "page": 2,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Circulation Rotai",
+   "conf": "high",
+   "ocrConf": 91.280212,
+   "raw": "Drilling Method Reverse Circulation Rotai Drilling Fluid ",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245625",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.772319751000055,
+ "lon": -116.92622326999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210077",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245625",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "partial"
+}

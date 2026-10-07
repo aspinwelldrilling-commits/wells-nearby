@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022795",
+ "processed": "2026-10-07T00:55:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-440-034",
+ "address": "36055 Patricia Dell St",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249313",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 124
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249313",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Water Level 300 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-09-21",
+   "conf": "high",
+   "ocrConf": 95.791183,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249313",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.59745664500008,
+ "lon": -116.97605997499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19213",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249313",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,86 @@
+{
+ "permit": "WP0026577",
+ "processed": "2026-10-07T01:01:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-310-004",
+ "address": "53409 Pony Tr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248632",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1299
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248632",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "high",
+   "ocrConf": 96.871964,
+   "raw": "Total Depth of Completed Well 550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 95.140694,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 138.0,
+   "conf": "high",
+   "ocrConf": 95.751793,
+   "raw": "Water Level 138 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 96.34333,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-08",
+   "conf": "high",
+   "ocrConf": 94.277885,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.55729,
+   "lon": -116.72916,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248632",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55729976600003,
+ "lon": -116.72918377699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264873",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248632",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

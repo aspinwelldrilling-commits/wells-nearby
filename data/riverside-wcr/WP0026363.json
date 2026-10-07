@@ -1,0 +1,63 @@
+{
+ "permit": "WP0026363",
+ "processed": "2026-10-07T01:04:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-030-053",
+ "address": "39980 Saddle Ridge Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248431",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 56
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248431",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 91.702835,
+   "raw": "Estimated Yield * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling Dolling",
+   "conf": "low",
+   "ocrConf": 26.012451,
+   "raw": "Drilling Method Air Drilling Dolling Fluid _Alr",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-10-06",
+   "conf": "high",
+   "ocrConf": 91.193695,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248431",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.654639764000024,
+ "lon": -116.96460387499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199435",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248431",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0010667",
+ "processed": "2026-10-07T00:26:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-180-034",
+ "address": "E cor Sycamore Sprngs Rd/Shadowfax Tr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240895",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1005
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240895",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 725.0,
+   "conf": "low",
+   "ocrConf": 24.970406,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___725",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 29.0,
+   "conf": "medium",
+   "ocrConf": 60.706524,
+   "raw": "ESTIMATED YIELD * 29 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240895",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.615419977000045,
+ "lon": -116.95286019599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213349",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240895",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

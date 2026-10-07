@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021924",
+ "processed": "2026-10-07T00:55:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-470-002",
+ "address": "41250 Intrepid Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247187",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 414
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247187",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 95.998505,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "medium",
+   "ocrConf": 78.25071,
+   "raw": "Estimated Yield* 60 Ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.030945,
+   "raw": "Drilling Method Air Drilling Drilling Fluid si",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-08-24",
+   "conf": "high",
+   "ocrConf": 95.03286,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247187",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.59574957600006,
+ "lon": -116.94147648799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204036",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247187",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006291",
+ "processed": "2026-10-07T00:06:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "557-110-016",
+ "address": "53795 Highway 74",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238316",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 828
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238316",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 449.0,
+   "conf": "medium",
+   "ocrConf": 78.415283,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __449",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.724281,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238316",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.70101945400006,
+ "lon": -116.72232235699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217087",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238316",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

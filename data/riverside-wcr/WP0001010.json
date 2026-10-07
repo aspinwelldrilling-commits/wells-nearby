@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001010",
+ "processed": "2026-10-06T23:50:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-610-007",
+ "address": "38580 Stratton Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234807",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 996
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234807",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 440.0,
+   "conf": "low",
+   "ocrConf": 10.773552,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 440",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-08-03",
+   "conf": "medium",
+   "ocrConf": 57.871685,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234807",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.562876602000074,
+ "lon": -116.95165325799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221299",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234807",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

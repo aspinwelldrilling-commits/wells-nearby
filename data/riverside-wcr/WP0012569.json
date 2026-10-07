@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012569",
+ "processed": "2026-10-07T00:36:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-580-006",
+ "address": "Rounder Rd & Hobby Horse Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241734",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 809
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241734",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 37.322769,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 15.111633,
+   "raw": "WATER LEVEL ___1)() _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241734",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.577689012000064,
+ "lon": -116.95335803799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212973",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241734",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

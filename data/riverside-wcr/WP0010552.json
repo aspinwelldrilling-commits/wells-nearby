@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010552",
+ "processed": "2026-10-07T00:25:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-070-043",
+ "address": "Remuda Drive",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240782",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 719
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240782",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 505.0,
+   "conf": "low",
+   "ocrConf": 20.310394,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL505",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-04-09",
+   "conf": "medium",
+   "ocrConf": 78.509827,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240782",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.59638770300006,
+ "lon": -116.98817926699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213261",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240782",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

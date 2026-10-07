@@ -1,0 +1,64 @@
+{
+ "permit": "WP0027383",
+ "processed": "2026-10-07T01:06:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-270-051",
+ "address": "39115 Dusty Trl",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249546",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 384
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249546",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "medium",
+   "ocrConf": 96.568672,
+   "raw": "Total Depth of Boring 550",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 89.609985,
+   "raw": "Estimated Yield,\" 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-11-10",
+   "conf": "high",
+   "ocrConf": 86.895554,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249546",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55171487500007,
+ "lon": -116.86573191199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198864",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249546",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

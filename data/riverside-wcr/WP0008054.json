@@ -1,0 +1,63 @@
+{
+ "permit": "WP0008054",
+ "processed": "2026-10-07T00:17:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-320-025",
+ "address": "39242 El Ray Circle Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239445",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 680
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239445",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 335.0,
+   "conf": "medium",
+   "ocrConf": 79.510521,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 335",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "medium",
+   "ocrConf": 69.53949,
+   "raw": "ESTIMATED YIELD * 9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-10-03",
+   "conf": "medium",
+   "ocrConf": 65.082619,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239445",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.552412444000026,
+ "lon": -116.710671505,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215055",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239445",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

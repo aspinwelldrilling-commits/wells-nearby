@@ -1,0 +1,97 @@
+{
+ "permit": "WP0028341",
+ "processed": "2026-10-07T01:04:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-320-015",
+ "address": "26530 Thistle Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248731",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 592
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248731",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248731",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248731",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1150.0,
+   "conf": "high",
+   "ocrConf": 81.843376,
+   "raw": "Total Depth of Completed Well 1150",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 94.528946,
+   "raw": "Water Level 100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "medium",
+   "ocrConf": 75.044891,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 46.809601,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-04-22",
+   "conf": "medium",
+   "ocrConf": 78.385513,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.56165,
+   "lon": -116.8654,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248731",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.581645121000065,
+ "lon": -116.86538808599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34299",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248731",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

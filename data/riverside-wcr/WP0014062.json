@@ -1,0 +1,57 @@
+{
+ "permit": "WP0014062",
+ "processed": "2026-10-07T00:39:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-090-054",
+ "address": "38450 Manzanita Mountain Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242547",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 814
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242547",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 57.520004,
+   "raw": "TOTAL DEPTH OF BORING 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "medium",
+   "ocrConf": 53.444942,
+   "raw": "ESTIMATED YIELD * 1 QQ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242547",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56309492300005,
+ "lon": -116.76150946499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211057",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242547",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

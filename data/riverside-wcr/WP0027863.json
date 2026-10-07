@@ -1,0 +1,78 @@
+{
+ "permit": "WP0027863",
+ "processed": "2026-10-07T01:03:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-450-029",
+ "address": "43095 E Benton Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249655",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 54
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249655",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 92.154572,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 96.615753,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling Driting",
+   "conf": "medium",
+   "ocrConf": 70.531815,
+   "raw": "Drilling Method Air Drilling Driting Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 78.504158,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-06-25",
+   "conf": "high",
+   "ocrConf": 89.995323,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249655",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58516975300006,
+ "lon": -116.91083384399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199074",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249655",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

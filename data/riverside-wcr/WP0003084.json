@@ -1,0 +1,57 @@
+{
+ "permit": "WP0003084",
+ "processed": "2026-10-06T23:57:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-280-031",
+ "address": "38125 Imler Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235473",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 762
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235473",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 2203.0,
+   "conf": "low",
+   "ocrConf": 59.231987,
+   "raw": "TOTAL DEPTH OF BORING 2203",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "medium",
+   "ocrConf": 78.090111,
+   "raw": "STATIC\nWATER LEVEL 4O\n(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235473",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56731528900008,
+ "lon": -116.83335399199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221516",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235473",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

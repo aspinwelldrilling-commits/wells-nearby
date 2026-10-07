@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001816",
+ "processed": "2026-10-06T23:52:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-530-009",
+ "address": "38705 Via Cantata",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234669",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 876
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234669",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 75.998405,
+   "raw": "DRILLING\nMETHOD AIR FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-03-21",
+   "conf": "low",
+   "ocrConf": 2.303329,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234669",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56475298100003,
+ "lon": -116.97475171199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220625",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234669",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

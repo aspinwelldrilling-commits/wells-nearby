@@ -1,0 +1,84 @@
+{
+ "permit": "WP0027325",
+ "processed": "2026-10-07T01:06:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-300-019",
+ "address": "43498 Hobbiton Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249517",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 560
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249517",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249517",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 835.0,
+   "conf": "low",
+   "ocrConf": 40.196861,
+   "raw": "Total Depth of Completed Well 835",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 95.794243,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 285.0,
+   "conf": "high",
+   "ocrConf": 95.797958,
+   "raw": "Water Level 285 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-10-10",
+   "conf": "medium",
+   "ocrConf": 73.071754,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.6062,
+   "lon": -116.903,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249517",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.606204880000064,
+ "lon": -116.90301192299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198827",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249517",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

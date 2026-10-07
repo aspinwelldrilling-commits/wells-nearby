@@ -1,0 +1,49 @@
+{
+ "permit": "WP0002478",
+ "processed": "2026-10-07T01:13:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "438-220-020",
+ "address": "25955 Cornell St",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235181",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 833
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235181",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 224.0,
+   "conf": "low",
+   "ocrConf": 41.989685,
+   "raw": "TOTAL DEPTH OF BORING 224",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235181",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.74458496400007,
+ "lon": -116.94160902999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219215",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235181",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,103 @@
+{
+ "permit": "WP0028384",
+ "processed": "2026-10-07T01:03:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "551-200-057",
+ "address": "43075 Cedar Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248736",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 408
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248736",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248736",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248736",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248736",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1290.0,
+   "conf": "high",
+   "ocrConf": 88.264633,
+   "raw": "Total Depth of Completed Well 1290",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1500.0,
+   "conf": "high",
+   "ocrConf": 96.293747,
+   "raw": "Estimated Yield* 1500 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Circulation",
+   "conf": "high",
+   "ocrConf": 92.802071,
+   "raw": "Drilling Method Reverse Circulation Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 74.618393,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-06-04",
+   "conf": "medium",
+   "ocrConf": 78.357666,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.7605,
+   "lon": -116.9102,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248736",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.76020789700004,
+ "lon": -116.90994893599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34313",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248736",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

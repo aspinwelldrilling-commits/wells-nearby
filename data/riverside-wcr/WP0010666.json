@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010666",
+ "processed": "2026-10-07T00:25:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-180-026",
+ "address": "34481 Sycamore Springs Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240893",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 959
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240893",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD * 2\u00b0 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-04-19",
+   "conf": "high",
+   "ocrConf": 87.447281,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240893",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62043486600004,
+ "lon": -116.95711011799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213345",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240893",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

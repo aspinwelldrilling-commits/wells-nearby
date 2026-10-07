@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023997",
+ "processed": "2026-10-07T01:01:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-120-001",
+ "address": "25210 California Ave",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248409",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 404
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248409",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 24.0,
+   "conf": "high",
+   "ocrConf": 96.886238,
+   "raw": "Estimated Yield * 24 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-01-31",
+   "conf": "high",
+   "ocrConf": 84.511482,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248409",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.75737079900006,
+ "lon": -117.04909611999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202687",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248409",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

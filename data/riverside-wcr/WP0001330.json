@@ -1,0 +1,48 @@
+{
+ "permit": "WP0001330",
+ "processed": "2026-10-07T01:11:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "441-120-013",
+ "address": "2100 W Menlo Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234305",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 872
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234305",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 840.0,
+   "conf": "medium",
+   "ocrConf": 50.034149,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___840",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234305",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.759242923000045,
+ "lon": -116.99333914999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222029",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234305",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

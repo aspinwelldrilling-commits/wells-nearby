@@ -1,0 +1,89 @@
+{
+ "permit": "WP0027647",
+ "processed": "2026-10-07T01:02:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "553-170-013",
+ "address": "26093 Marshall Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249592",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 352
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249592",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249592",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249592",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 915.0,
+   "conf": "low",
+   "ocrConf": 43.40094,
+   "raw": "Total Depth of Completed Well 915",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Circulation",
+   "conf": "high",
+   "ocrConf": 85.354355,
+   "raw": "Drilling Method Reverse Circulation Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 51.977066,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-07-10",
+   "conf": "high",
+   "ocrConf": 84.667068,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.7432,
+   "lon": -116.8629,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249592",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.74196489800005,
+ "lon": -116.86504192599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198972",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249592",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

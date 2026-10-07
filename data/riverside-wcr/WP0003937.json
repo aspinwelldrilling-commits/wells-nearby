@@ -1,0 +1,63 @@
+{
+ "permit": "WP0003937",
+ "processed": "2026-10-07T00:01:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-270-009",
+ "address": "30555 Palm Ave",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236046",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 851
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236046",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 145.0,
+   "conf": "low",
+   "ocrConf": 36.799461,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 145",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 27.0,
+   "conf": "medium",
+   "ocrConf": 55.625229,
+   "raw": "WATER LEVEL ___27 _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1996-10-22",
+   "conf": "medium",
+   "ocrConf": 60.495876,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236046",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67705482400004,
+ "lon": -116.98106228099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219004",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236046",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

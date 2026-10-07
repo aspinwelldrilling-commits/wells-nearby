@@ -1,0 +1,117 @@
+{
+ "permit": "WP0028155",
+ "processed": "2026-10-07T01:26:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "433-200-053",
+ "address": "1141 E Evans St",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248721",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 429
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248721",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248721",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248721",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248721",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248721",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1140.0,
+   "conf": "low",
+   "ocrConf": 43.329128,
+   "raw": "Total Depth of Completed Well 1140",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2400.0,
+   "conf": "high",
+   "ocrConf": 95.479935,
+   "raw": "Estimated Yield* 2400 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 505.39,
+   "conf": "high",
+   "ocrConf": 95.741364,
+   "raw": "Water Level 505.39 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Circulation",
+   "conf": "high",
+   "ocrConf": 80.667961,
+   "raw": "Drilling Method Reverse Circulation Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 66.046738,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-10-01",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.7764009,
+   "lon": -116.9415682,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248721",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.776265039000066,
+ "lon": -116.94161481099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270340",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248721",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

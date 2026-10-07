@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012341",
+ "processed": "2026-10-07T00:35:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-110-017",
+ "address": "47612 Lee Tr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241451",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 792
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241451",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 62.186123,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-10-25",
+   "conf": "low",
+   "ocrConf": 27.117165,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241451",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.553886807000026,
+ "lon": -116.82982042699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212579",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241451",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

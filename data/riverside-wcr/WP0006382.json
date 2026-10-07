@@ -1,0 +1,64 @@
+{
+ "permit": "WP0006382",
+ "processed": "2026-10-07T00:08:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "441-048-001",
+ "address": "3600 W Florida Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238383",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 859
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238383",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 297.0,
+   "conf": "low",
+   "ocrConf": 37.279037,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 297",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 270.0,
+   "conf": "low",
+   "ocrConf": 48.924904,
+   "raw": "WATER LeveL____ 270 ___ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 95.973763,
+   "raw": "DRILLING\nMETHOD Rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238383",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.75027662900004,
+ "lon": -117.01165873199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217347",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238383",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

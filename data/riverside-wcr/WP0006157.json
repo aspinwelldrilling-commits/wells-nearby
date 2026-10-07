@@ -1,0 +1,48 @@
+{
+ "permit": "WP0006157",
+ "processed": "2026-10-07T00:05:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "441-048-001",
+ "address": "3600 W Florida Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238226",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 919
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238226",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 170.0,
+   "conf": "low",
+   "ocrConf": 44.873688,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _170",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238226",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.75027662900004,
+ "lon": -117.01165873199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216640",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238226",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

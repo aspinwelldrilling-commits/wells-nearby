@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013492",
+ "processed": "2026-10-07T00:37:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-110-012",
+ "address": "52055 Wheeler Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242558",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 792
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242558",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 175.0,
+   "conf": "medium",
+   "ocrConf": 50.943737,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 175",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-10-07",
+   "conf": "low",
+   "ocrConf": 48.336456,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242558",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56882376000004,
+ "lon": -116.75195214899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212627",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242558",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

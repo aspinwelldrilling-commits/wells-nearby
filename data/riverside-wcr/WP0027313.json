@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027313",
+ "processed": "2026-10-07T01:02:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-310-005",
+ "address": "42577 Benton Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249513",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 673
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249513",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.183899,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.615227,
+   "raw": "Estimated Yield * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-11-17",
+   "conf": "high",
+   "ocrConf": 92.278984,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249513",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58970087700004,
+ "lon": -116.91412092299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198823",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249513",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

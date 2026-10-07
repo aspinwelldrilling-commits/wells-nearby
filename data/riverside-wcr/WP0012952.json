@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012952",
+ "processed": "2026-10-07T00:38:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-400-010",
+ "address": "39793 Hemet Ranch Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242149",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 855
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242149",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1344.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 1344",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-02",
+   "conf": "medium",
+   "ocrConf": 72.237984,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242149",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.64077595600003,
+ "lon": -116.96828135699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211858",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242149",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

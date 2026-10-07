@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015047",
+ "processed": "2026-10-07T00:46:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-130-019",
+ "address": "53495 Old Ranch Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244319",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 784
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244319",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 285.0,
+   "conf": "high",
+   "ocrConf": 86.798523,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 285",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-11-07",
+   "conf": "low",
+   "ocrConf": 28.434662,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244319",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56384616300005,
+ "lon": -116.72779747299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210521",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244319",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

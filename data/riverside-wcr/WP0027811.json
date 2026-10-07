@@ -1,0 +1,71 @@
+{
+ "permit": "WP0027811",
+ "processed": "2026-10-07T01:03:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-320-016",
+ "address": "Lewis Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249634",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 61
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249634",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1300.0,
+   "conf": "low",
+   "ocrConf": 31.00843,
+   "raw": "Total Depth of Completed Well _1,300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 95.940674,
+   "raw": "Estimated Yield * 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 86.063614,
+   "raw": "Water Level 800 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-06-12",
+   "conf": "high",
+   "ocrConf": 91.512794,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249634",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58028487900003,
+ "lon": -116.86390191399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199038",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249634",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

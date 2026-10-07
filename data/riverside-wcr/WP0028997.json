@@ -1,0 +1,83 @@
+{
+ "permit": "WP0028997",
+ "processed": "2026-10-07T01:23:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "438-030-012",
+ "address": "1601 Villines Ave",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248948",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 103
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248948",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248948",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 87.626709,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": 91.721375,
+   "raw": "Drilling Method Auger Drilling Fluid Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 86.557983,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-02-24",
+   "conf": "medium",
+   "ocrConf": 77.168129,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.772224,
+   "lon": -116.935728,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248948",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.77222400000005,
+ "lon": -116.93572799999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274783",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248948",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001024",
+ "processed": "2026-10-06T23:49:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-120-018",
+ "address": "39800 E Benton Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234116",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 993
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234116",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 815.0,
+   "conf": "medium",
+   "ocrConf": 53.363667,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 815",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 91.0,
+   "conf": "high",
+   "ocrConf": 81.210197,
+   "raw": "WATER LEVEL 91 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234116",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57627680300004,
+ "lon": -116.96735262799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221336",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234116",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

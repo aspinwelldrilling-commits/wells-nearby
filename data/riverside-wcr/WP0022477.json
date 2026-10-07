@@ -1,0 +1,64 @@
+{
+ "permit": "WP0022477",
+ "processed": "2026-10-07T00:55:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-340-001",
+ "address": "54725 Cave Rock Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249243",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 575
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249243",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 850.0,
+   "conf": "medium",
+   "ocrConf": 95.949432,
+   "raw": "Total Depth of Boring 850",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 84.690689,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-06-04",
+   "conf": "high",
+   "ocrConf": 95.444557,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249243",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.554763894000075,
+ "lon": -116.70513715399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18840",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249243",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

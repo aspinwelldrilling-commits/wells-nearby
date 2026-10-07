@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008381",
+ "processed": "2026-10-07T00:18:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-281-001",
+ "address": "30665 Santa Fe",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239615",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 976
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239615",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 123.0,
+   "conf": "low",
+   "ocrConf": 41.37022,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _123",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-07-29",
+   "conf": "high",
+   "ocrConf": 94.767746,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239615",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67722478400003,
+ "lon": -116.96363138899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215681",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239615",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

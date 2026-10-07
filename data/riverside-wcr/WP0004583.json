@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004583",
+ "processed": "2026-10-07T00:03:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "555-270-034",
+ "address": "42180 Avery Canyon Rd",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236468",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 909
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236468",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.663345,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.343575,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236468",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.70006757900006,
+ "lon": -116.92640412399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216238",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236468",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

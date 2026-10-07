@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009854",
+ "processed": "2026-10-07T00:22:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-210-012",
+ "address": "35280 Lynch Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240890",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 915
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240890",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 64.107803,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-10-24",
+   "conf": "low",
+   "ocrConf": 44.226051,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240890",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.60982257000006,
+ "lon": -116.94254891399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214616",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240890",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

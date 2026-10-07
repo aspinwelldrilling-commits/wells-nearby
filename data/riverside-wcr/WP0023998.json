@@ -1,0 +1,79 @@
+{
+ "permit": "WP0023998",
+ "processed": "2026-10-07T00:56:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-130-009",
+ "address": "53538 Old Ranch Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248413",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 400
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248413",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 95.253014,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.451683,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 102.0,
+   "conf": "medium",
+   "ocrConf": 68.127792,
+   "raw": "Water Level 102 ___\u2014s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 86.361031,
+   "raw": "Drilling Method _air Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-02-26",
+   "conf": "medium",
+   "ocrConf": 57.975956,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248413",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56751761400005,
+ "lon": -116.72396618499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202688",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248413",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

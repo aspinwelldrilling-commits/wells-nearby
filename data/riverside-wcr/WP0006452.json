@@ -1,0 +1,57 @@
+{
+ "permit": "WP0006452",
+ "processed": "2026-10-07T00:07:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-450-006",
+ "address": "39930 Intrepid Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238433",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 933
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238433",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 434.0,
+   "conf": "low",
+   "ocrConf": 34.661018,
+   "raw": "TOTAL DEPTH OF BORING _ 434",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 12.0,
+   "conf": "low",
+   "ocrConf": 0.585892,
+   "raw": "WATER LEVEL _12Q _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238433",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.59656962500003,
+ "lon": -116.97090231399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217568",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238433",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

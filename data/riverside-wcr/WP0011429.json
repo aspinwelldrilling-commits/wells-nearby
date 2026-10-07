@@ -1,0 +1,64 @@
+{
+ "permit": "WP0011429",
+ "processed": "2026-10-07T00:32:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-350-036",
+ "address": "39223 Serriano Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241651",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 711
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241651",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "high",
+   "ocrConf": 96.867302,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "medium",
+   "ocrConf": 68.505966,
+   "raw": "ESTIMATED YIELD * 3 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 15.050827,
+   "raw": "WATER LeveL 40. ___ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241651",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55407239200008,
+ "lon": -116.93799782499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213942",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241651",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

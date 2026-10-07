@@ -1,0 +1,71 @@
+{
+ "permit": "WP0024767",
+ "processed": "2026-10-07T01:21:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "563-330-005",
+ "address": "54162 Maranatha Dr",
+ "city": "Idyllwild",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248201",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 141
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248201",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 95.302376,
+   "raw": "Estimated Yield* 45 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 67.0,
+   "conf": "high",
+   "ocrConf": 89.130379,
+   "raw": "Water Level 67 Ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 80.681915,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 90.385567,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248201",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.74822344000006,
+ "lon": -116.71736194199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201668",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248201",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

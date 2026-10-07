@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012080",
+ "processed": "2026-10-07T00:34:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-180-047",
+ "address": "34483 Terry Mountain Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243847",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 805
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243847",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 314.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _314",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.9,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL__2.9) _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243847",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62151470900005,
+ "lon": -116.94766722199995,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243847",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

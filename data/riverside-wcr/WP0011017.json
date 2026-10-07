@@ -1,0 +1,63 @@
+{
+ "permit": "WP0011017",
+ "processed": "2026-10-07T00:29:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-420-016",
+ "address": "38970 Yuma Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241210",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1943
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241210",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241210",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 70.0,
+   "conf": "medium",
+   "ocrConf": 94.713531,
+   "raw": "TOTAL DEPTH OF BORING 70",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 43.0,
+   "conf": "low",
+   "ocrConf": 1.132744,
+   "raw": "WATER LeVeL__ 43K \u00a5J _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241210",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.586591558000066,
+ "lon": -116.98139082799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213612",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241210",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

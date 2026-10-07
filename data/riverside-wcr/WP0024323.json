@@ -1,0 +1,72 @@
+{
+ "permit": "WP0024323",
+ "processed": "2026-10-07T00:57:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-080-055",
+ "address": "37595 Georgewell Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247949",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 396
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247949",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "medium",
+   "ocrConf": 96.913208,
+   "raw": "Total Depth of Boring 450",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 95.792999,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 68.0,
+   "conf": "high",
+   "ocrConf": 94.878616,
+   "raw": "Water Level 68 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-06-17",
+   "conf": "high",
+   "ocrConf": 93.827454,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247949",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57586487800006,
+ "lon": -116.74168432199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201245",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247949",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

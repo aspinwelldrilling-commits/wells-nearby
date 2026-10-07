@@ -1,0 +1,48 @@
+{
+ "permit": "WP0023094",
+ "processed": "2026-10-07T01:25:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "454-220-019",
+ "address": "42585 Gibbel Rd",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247548",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 342
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247548",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 16.218338,
+   "raw": "ESTIMATED YIELD * <2\" _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247548",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.73110567800006,
+ "lon": -116.97501605299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201955",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247548",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

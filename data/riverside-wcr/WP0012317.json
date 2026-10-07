@@ -1,0 +1,77 @@
+{
+ "permit": "WP0012317",
+ "processed": "2026-10-07T00:33:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-320-027",
+ "address": "39230 El Ray Circle",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241416",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1336
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241416",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241416",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "low",
+   "ocrConf": 34.361725,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "medium",
+   "ocrConf": 50.583729,
+   "raw": "ESTIMATED YIELD * 9 (GPM",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 147.0,
+   "conf": "medium",
+   "ocrConf": 72.39801,
+   "raw": "WATER LeveL 147 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-08-03",
+   "conf": "medium",
+   "ocrConf": 72.549255,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241416",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55145842400003,
+ "lon": -116.71101470499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212527",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241416",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

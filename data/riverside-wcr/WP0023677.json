@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023677",
+ "processed": "2026-10-07T01:00:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-070-015",
+ "address": "39880 Cactus Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248065",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 405
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248065",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 62.0,
+   "conf": "low",
+   "ocrConf": 25.685341,
+   "raw": "Estimated Yield* 62s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-10-04",
+   "conf": "medium",
+   "ocrConf": 67.173248,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248065",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.671893614000055,
+ "lon": -116.96486959899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202454",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248065",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

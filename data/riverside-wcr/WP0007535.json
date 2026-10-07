@@ -1,0 +1,64 @@
+{
+ "permit": "WP0007535",
+ "processed": "2026-10-07T00:12:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-180-008",
+ "address": "30373 Delise Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239109",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 928
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239109",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 146.0,
+   "conf": "low",
+   "ocrConf": 55.415863,
+   "raw": "TOTAL DEPTH OF BORING 146",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 365.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD * 365 \u2014\u2014 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-10-04",
+   "conf": "medium",
+   "ocrConf": 73.134087,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239109",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67993470400006,
+ "lon": -116.96810115999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217421",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239109",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

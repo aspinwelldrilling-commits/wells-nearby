@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000347",
+ "processed": "2026-10-06T23:48:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-100-012",
+ "address": "33085 Chameleon Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233642",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 848
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233642",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 614.0,
+   "conf": "low",
+   "ocrConf": 46.956348,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 614",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 96.740013,
+   "raw": "WATER LEVEL 120 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233642",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.64196209100004,
+ "lon": -116.95034530599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222616",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233642",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

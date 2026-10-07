@@ -1,0 +1,63 @@
+{
+ "permit": "WP0017605",
+ "processed": "2026-10-07T00:50:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-120-035",
+ "address": "25186 Los Rancherias",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245663",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 811
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245663",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "high",
+   "ocrConf": 96.562469,
+   "raw": "Total Depth of Completed Well_ 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 85.23143,
+   "raw": "Water Level _100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-05-03",
+   "conf": "low",
+   "ocrConf": 10.766769,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245663",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.756335867000075,
+ "lon": -117.04386686799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210096",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245663",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

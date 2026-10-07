@@ -1,0 +1,64 @@
+{
+ "permit": "WP0026232",
+ "processed": "2026-10-07T00:59:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-210-014",
+ "address": "41490 Sycamore Spring Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248307",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 318
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248307",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 850.0,
+   "conf": "low",
+   "ocrConf": 77.855759,
+   "raw": "Total Depth of Boring 850",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.563843,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-07-22",
+   "conf": "low",
+   "ocrConf": 32.997437,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248307",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.61250711900004,
+ "lon": -116.93553632999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199333",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248307",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

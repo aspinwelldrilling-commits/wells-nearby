@@ -1,0 +1,64 @@
+{
+ "permit": "WP0018176",
+ "processed": "2026-10-07T00:55:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-050-020",
+ "address": "40785 Benji Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244211",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 808
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244211",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 84.515205,
+   "raw": "Total Depth of Boring 1000",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 94.164635,
+   "raw": "Estimated Yield * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-11-29",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244211",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.64317301600005,
+ "lon": -116.94823991999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306805",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244211",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

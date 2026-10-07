@@ -1,0 +1,71 @@
+{
+ "permit": "WP0026112",
+ "processed": "2026-10-07T00:59:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-070-045",
+ "address": "Quartz Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248225",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 83
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248225",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 290.0,
+   "conf": "high",
+   "ocrConf": 95.785385,
+   "raw": "Total Depth of Completed Well 290",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 86.365372,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary Driding",
+   "conf": "medium",
+   "ocrConf": 50.473694,
+   "raw": "Drilling Method Direct Rotary Driding Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 76.82972,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248225",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58302271000008,
+ "lon": -116.73737460499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199230",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248225",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

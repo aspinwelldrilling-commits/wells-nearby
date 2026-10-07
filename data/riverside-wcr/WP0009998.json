@@ -1,0 +1,67 @@
+{
+ "permit": "WP0009998",
+ "processed": "2026-10-07T01:18:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "433-180-037",
+ "address": "1140 E 7th St",
+ "city": "San Jacinto",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241066",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2619
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241066",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241066",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241066",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1270.0,
+   "conf": "low",
+   "ocrConf": 46.529766,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1270",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-04-28",
+   "conf": "high",
+   "ocrConf": 96.740074,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241066",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.77966421800005,
+ "lon": -116.94317513399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214726",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241066",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0022885",
+ "processed": "2026-10-07T00:59:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-420-018",
+ "address": "38565 Green Meadow Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249341",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 464
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249341",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 810.0,
+   "conf": "medium",
+   "ocrConf": 96.583626,
+   "raw": "Total Depth of Boring 810",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 54.0,
+   "conf": "high",
+   "ocrConf": 94.481155,
+   "raw": "Water Level 54 (Feet",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249341",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.581678572000044,
+ "lon": -116.98441835499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203074",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249341",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

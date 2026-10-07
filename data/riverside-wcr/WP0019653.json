@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019653",
+ "processed": "2026-10-07T00:53:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-130-028",
+ "address": "36255 Rawson Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246298",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 386
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246298",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 120.0,
+   "conf": "low",
+   "ocrConf": 21.597809,
+   "raw": "Estimated Yield* 120s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-02-25",
+   "conf": "low",
+   "ocrConf": 2.836998,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246298",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62955976600006,
+ "lon": -117.02323105599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205253",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246298",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

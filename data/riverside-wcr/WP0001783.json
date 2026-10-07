@@ -1,0 +1,63 @@
+{
+ "permit": "WP0001783",
+ "processed": "2026-10-06T23:51:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-070-001",
+ "address": "39075 Batz Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234651",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 831
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234651",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 74.147469,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _150",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 48.617588,
+   "raw": "WATER LEVEL ___ 4 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-04-25",
+   "conf": "low",
+   "ocrConf": 10.739044,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234651",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67662857000005,
+ "lon": -116.97884436599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220478",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234651",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

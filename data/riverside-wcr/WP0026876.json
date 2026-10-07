@@ -1,0 +1,71 @@
+{
+ "permit": "WP0026876",
+ "processed": "2026-10-07T01:01:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-070-039",
+ "address": "Quartz Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248582",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 587
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248582",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 95.567795,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 95.992355,
+   "raw": "Estimated Yield * 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "medium",
+   "ocrConf": 76.043289,
+   "raw": "Water Level _70 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-05-12",
+   "conf": "low",
+   "ocrConf": 37.503479,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248582",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58212567100003,
+ "lon": -116.73731007399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199897",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248582",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

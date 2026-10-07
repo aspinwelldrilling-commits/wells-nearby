@@ -1,0 +1,82 @@
+{
+ "permit": "WP0028422",
+ "processed": "2026-10-07T01:04:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-230-005",
+ "address": "42429 Melton Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248738",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 597
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248738",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248738",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248738",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 575.0,
+   "conf": "medium",
+   "ocrConf": 50.638527,
+   "raw": "Total Depth of Completed Well 575",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 96.705246,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-05-10",
+   "conf": "high",
+   "ocrConf": 82.241592,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.60883,
+   "lon": -116.92137,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248738",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.60883487900003,
+ "lon": -116.92138192599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/319666",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248738",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,79 @@
+{
+ "permit": "WP1000193",
+ "processed": "2026-10-07T01:10:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "557-070-016",
+ "address": "28099 McCall Park Rd",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/383033",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1219
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/383033",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1085.0,
+   "conf": "high",
+   "ocrConf": 91.264145,
+   "raw": "Total Depth of Completed Well: 1085",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 90.888069,
+   "raw": "Estimated Yield*: 4(GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 425.0,
+   "conf": "high",
+   "ocrConf": 96.068489,
+   "raw": "Water Level: 425 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 95.220215,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2025-04-16",
+   "conf": "high",
+   "ocrConf": 96.441513,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/383033",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.714324,
+ "lon": -116.729306,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/404769",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/383033",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

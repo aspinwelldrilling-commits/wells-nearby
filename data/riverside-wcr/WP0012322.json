@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012322",
+ "processed": "2026-10-07T00:35:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-570-004",
+ "address": "44650 N Lewis Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241424",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 720
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241424",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.725906,
+   "raw": "WATER LEVEL 5 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241424",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56884168900007,
+ "lon": -116.88271027599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212541",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241424",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

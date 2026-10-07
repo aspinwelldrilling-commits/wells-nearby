@@ -1,0 +1,106 @@
+{
+ "permit": "WP0028345",
+ "processed": "2026-10-07T01:07:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-270-019",
+ "address": "54075 Glenda Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248733",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 69
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248733",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248733",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248733",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 480.0,
+   "conf": "high",
+   "ocrConf": 90.038406,
+   "raw": "Total Depth of Completed Well 480",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 93.846832,
+   "raw": "Estimated Yield* 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 480.0,
+   "conf": "low",
+   "ocrConf": 96.534607,
+   "raw": "Water Level 480 (Feet",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 89.190651,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 95.007652,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-04-18",
+   "conf": "medium",
+   "ocrConf": 79.130402,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.57024,
+   "lon": -116.71808,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248733",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57024000000007,
+ "lon": -116.71807999999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34302",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248733",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

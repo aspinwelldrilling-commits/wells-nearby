@@ -1,0 +1,55 @@
+{
+ "permit": "WP0002401",
+ "processed": "2026-10-06T23:55:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-390-013",
+ "address": "38333 Songbird Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235227",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1185
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235227",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235227",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 457.0,
+   "conf": "low",
+   "ocrConf": 4.916397,
+   "raw": "TOTAL DEPTH OF BORING 457",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235227",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.582246277000024,
+ "lon": -116.99427815399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218958",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235227",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

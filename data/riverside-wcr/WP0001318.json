@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001318",
+ "processed": "2026-10-07T01:07:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "454-040-001",
+ "address": "Southwest Park",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234299",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 854
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234299",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 50.616306,
+   "raw": "TOTAL DEPTH OF BORING _ 600",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-02-24",
+   "conf": "high",
+   "ocrConf": 92.102142,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234299",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.721924888000046,
+ "lon": -117.00653194999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222003",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234299",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

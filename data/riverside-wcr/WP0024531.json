@@ -1,0 +1,63 @@
+{
+ "permit": "WP0024531",
+ "processed": "2026-10-07T00:57:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "444-240-002",
+ "address": "1480 N Kirby Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248071",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 371
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248071",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 89.512131,
+   "raw": "Estimated Yield * 120 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 250.0,
+   "conf": "high",
+   "ocrConf": 82.551537,
+   "raw": "Water Level _250 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-07-28",
+   "conf": "high",
+   "ocrConf": 81.281609,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248071",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.77194670400007,
+ "lon": -116.99672568199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201445",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248071",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

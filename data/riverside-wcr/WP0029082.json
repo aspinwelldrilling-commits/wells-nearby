@@ -1,0 +1,105 @@
+{
+ "permit": "WP0029082",
+ "processed": "2026-10-07T01:05:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-330-004",
+ "address": "54624 Glasgow Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248962",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 759
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248962",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248962",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248962",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248962",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 680.0,
+   "conf": "low",
+   "ocrConf": 74.592239,
+   "raw": "Total Depth of Boring 680",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1009.0,
+   "conf": "low",
+   "ocrConf": 18.20575,
+   "raw": "Estimated Yield\" 1009(GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 223.0,
+   "conf": "high",
+   "ocrConf": 95.369911,
+   "raw": "Water Level 223 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud",
+   "conf": "high",
+   "ocrConf": 83.118362,
+   "raw": "Drilling Method Other - MUD Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-03-06",
+   "conf": "medium",
+   "ocrConf": 79.571968,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.56084,
+   "lon": -116.70816,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248962",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56084000000004,
+ "lon": -116.70815999999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34930",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248962",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

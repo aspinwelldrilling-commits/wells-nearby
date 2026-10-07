@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021746",
+ "processed": "2026-10-07T00:54:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-330-017",
+ "address": "33210 Crown Valley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247114",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 451
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247114",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "high",
+   "ocrConf": 96.968582,
+   "raw": "Total Depth of Completed Well 450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "medium",
+   "ocrConf": 77.049026,
+   "raw": "Estimated Yield~ 60 Ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "medium",
+   "ocrConf": 75.265732,
+   "raw": "Water Level 120 _\u2014_\u2014 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-06-03",
+   "conf": "medium",
+   "ocrConf": 63.944244,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247114",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.64023999900007,
+ "lon": -116.99070034999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203860",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247114",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

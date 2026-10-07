@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015036",
+ "processed": "2026-10-07T00:42:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-280-017",
+ "address": "54020 Byron Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244312",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 428
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244312",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "medium",
+   "ocrConf": 61.903572,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-10-24",
+   "conf": "medium",
+   "ocrConf": 72.284973,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244312",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.57376506600008,
+ "lon": -116.71783013799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210510",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244312",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

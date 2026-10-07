@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020389",
+ "processed": "2026-10-07T00:53:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-320-015",
+ "address": "54130 Ayers Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246719",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 546
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246719",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 53.086288,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-10-26",
+   "conf": "high",
+   "ocrConf": 88.834816,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246719",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.551691634000065,
+ "lon": -116.71585578599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204618",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246719",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

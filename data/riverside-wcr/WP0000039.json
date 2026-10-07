@@ -1,0 +1,57 @@
+{
+ "permit": "WP0000039",
+ "processed": "2026-10-06T23:45:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-030-010",
+ "address": "36540 Fischer Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233378",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1095
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233378",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 230.0,
+   "conf": "low",
+   "ocrConf": 43.149582,
+   "raw": "(12) WELL LOG: Total depth 230",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 86.933891,
+   "raw": "Standing level after well completion 120 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233378",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.59076349800006,
+ "lon": -116.70906875699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222532",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233378",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

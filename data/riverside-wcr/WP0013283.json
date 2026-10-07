@@ -1,0 +1,64 @@
+{
+ "permit": "WP0013283",
+ "processed": "2026-10-07T00:36:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-480-001",
+ "address": "42235 Alexander Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242389",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 737
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242389",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 3OO",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 320.0,
+   "conf": "low",
+   "ocrConf": 44.945202,
+   "raw": "WATER LEVEL 320 (Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-08-01",
+   "conf": "high",
+   "ocrConf": 89.739243,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242389",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.559810826000046,
+ "lon": -116.924425913,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212296",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242389",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012339",
+ "processed": "2026-10-07T00:33:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "572-310-003",
+ "address": "38915 Windy Hl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241446",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 791
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241446",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 460.0,
+   "conf": "low",
+   "ocrConf": 40.725975,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 460",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-27",
+   "conf": "medium",
+   "ocrConf": 71.7929,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241446",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.55774506800003,
+ "lon": -116.73021278399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212576",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241446",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

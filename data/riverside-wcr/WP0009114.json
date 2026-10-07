@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009114",
+ "processed": "2026-10-07T00:21:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-450-005",
+ "address": "39750 Intrepid Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240043",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 966
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240043",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 401.0,
+   "conf": "high",
+   "ocrConf": 87.946709,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 401",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-04-19",
+   "conf": "low",
+   "ocrConf": 37.437862,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240043",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.597374745000025,
+ "lon": -116.96870690799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214079",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240043",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

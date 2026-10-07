@@ -1,0 +1,72 @@
+{
+ "permit": "WP0019452",
+ "processed": "2026-10-07T00:53:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-230-009",
+ "address": "30907 Charlene Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246242",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 808
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246242",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 21.0,
+   "conf": "medium",
+   "ocrConf": 66.190468,
+   "raw": "Total Depth of Completed Well 21",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.407722,
+   "raw": "Estimated Yield * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 125.0,
+   "conf": "low",
+   "ocrConf": 71.31588,
+   "raw": "Water Level 125 \u2014\u2014\u2014_\u2014s (Feet",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-11-29",
+   "conf": "low",
+   "ocrConf": 28.071854,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246242",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67150672900004,
+ "lon": -116.95808634399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208193",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246242",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

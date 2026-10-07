@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022768",
+ "processed": "2026-10-07T00:59:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-260-033",
+ "address": "46330 Engesser Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249288",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 325
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249288",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 37.921379,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL3OO",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-09-28",
+   "conf": "low",
+   "ocrConf": 23.931381,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249288",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56481131700008,
+ "lon": -116.85332542099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19160",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249288",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

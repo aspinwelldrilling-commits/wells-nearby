@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007847",
+ "processed": "2026-10-07T00:13:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "569-060-042",
+ "address": "42475 Minto Way",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239315",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1025
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239315",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 91.598984,
+   "raw": "ESTIMATED YIELD * 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 46.100189,
+   "raw": "WATER LEVEL___4 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239315",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.639119153000024,
+ "lon": -116.92009012799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218473",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239315",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

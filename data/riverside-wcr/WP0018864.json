@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018864",
+ "processed": "2026-10-07T00:52:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "557-090-021",
+ "address": "28600 McCall Park Rd",
+ "city": "Mountain Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246118",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246118",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 900",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-02-28",
+   "conf": "medium",
+   "ocrConf": 66.748962,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246118",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.70638691100004,
+ "lon": -116.73064982099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207758",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246118",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

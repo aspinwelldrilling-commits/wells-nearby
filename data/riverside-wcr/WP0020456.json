@@ -1,0 +1,71 @@
+{
+ "permit": "WP0020456",
+ "processed": "2026-10-07T00:53:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-120-033",
+ "address": "25062 Los Rancherias Rd",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246751",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 428
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246751",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 94.918488,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.762138,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 63.764271,
+   "raw": "Water Level 100 _\u2014(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-12-23",
+   "conf": "low",
+   "ocrConf": 43.252071,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246751",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.75782729000008,
+ "lon": -117.04472037899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204686",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246751",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

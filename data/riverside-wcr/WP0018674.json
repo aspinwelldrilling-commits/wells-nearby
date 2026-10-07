@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018674",
+ "processed": "2026-10-07T00:55:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-070-030",
+ "address": "44155 De Portola Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246030",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 827
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246030",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 15.0,
+   "conf": "medium",
+   "ocrConf": 53.46405,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-05-15",
+   "conf": "high",
+   "ocrConf": 87.778091,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246030",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.59514877700008,
+ "lon": -116.98247284399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209177",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246030",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

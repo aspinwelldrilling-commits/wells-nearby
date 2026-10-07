@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010608",
+ "processed": "2026-10-07T01:14:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-120-0464-8",
+ "address": "40730 Old Sw Brand Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240849",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 983
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240849",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 809.0,
+   "conf": "medium",
+   "ocrConf": 76.948845,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___ 809",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 53.187935,
+   "raw": "WATER LeveL__ 200 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-04-15",
+   "conf": "medium",
+   "ocrConf": 52.402081,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240849",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66342381900006,
+ "lon": -116.94876644599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213300",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240849",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

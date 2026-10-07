@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003711",
+ "processed": "2026-10-06T23:58:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-120-026",
+ "address": "61120 Kelstar Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235903",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 936
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235903",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 18.153534,
+   "raw": "WATER LeveL _____5Q_(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.179245,
+   "raw": "DRILLING\nMETHOD Air FLUID ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235903",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.666750585000045,
+ "lon": -116.94393725399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218288",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235903",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,62 @@
+{
+ "permit": "WP0027142",
+ "processed": "2026-10-07T01:01:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-190-033",
+ "address": "31271 Palm Ave",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249446",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 814
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249446",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.80513,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 86.08651,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-08-09",
+   "conf": "high",
+   "ocrConf": 95.979355,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249446",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.66668867300007,
+ "lon": -116.98041859099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198689",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249446",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

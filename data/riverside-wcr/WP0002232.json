@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002232",
+ "processed": "2026-10-06T23:55:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "469-270-026",
+ "address": "38780 Curtis Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235317",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 932
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235317",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 230.0,
+   "conf": "low",
+   "ocrConf": 42.183155,
+   "raw": "TOTAL DEPTH OF BORING __230",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 48.032803,
+   "raw": "ESTIMATED YIELD *__ 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235317",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.67203011300006,
+ "lon": -116.98342028199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221964",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235317",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

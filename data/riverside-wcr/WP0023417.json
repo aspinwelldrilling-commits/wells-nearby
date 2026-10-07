@@ -1,0 +1,72 @@
+{
+ "permit": "WP0023417",
+ "processed": "2026-10-07T00:56:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-110-044",
+ "address": "37440 Palomar View Cir",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247802",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 429
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247802",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 34.0,
+   "conf": "medium",
+   "ocrConf": 52.955711,
+   "raw": "Total Depth of Completed Well 34",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "high",
+   "ocrConf": 95.951187,
+   "raw": "Estimated Yield* 9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "low",
+   "ocrConf": 85.315308,
+   "raw": "Water Level _70 (Feet",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-08-01",
+   "conf": "medium",
+   "ocrConf": 79.724518,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247802",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.58113942500006,
+ "lon": -116.97304367499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202246",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247802",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

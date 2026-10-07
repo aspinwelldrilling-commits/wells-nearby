@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006592",
+ "processed": "2026-10-07T00:08:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-610-001",
+ "address": "38511 Stratton Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238511",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 957
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238511",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 604.0,
+   "conf": "medium",
+   "ocrConf": 69.788368,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __604",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "medium",
+   "ocrConf": 52.284691,
+   "raw": "ESTIMATED YIELD *__9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238511",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.56477242200003,
+ "lon": -116.95417256899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218064",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238511",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

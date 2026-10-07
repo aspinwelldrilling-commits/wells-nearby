@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027166",
+ "processed": "2026-10-07T01:01:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-660-002",
+ "address": "45275 Stanley Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249448",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 845
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249448",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1250.0,
+   "conf": "low",
+   "ocrConf": 7.631836,
+   "raw": "Total Depth of Completed Well 1250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 97.006493,
+   "raw": "Estimated Yield * 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-07",
+   "conf": "high",
+   "ocrConf": 80.571793,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249448",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.586884879000024,
+ "lon": -116.86824191499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198713",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249448",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

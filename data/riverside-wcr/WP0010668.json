@@ -1,0 +1,57 @@
+{
+ "permit": "WP0010668",
+ "processed": "2026-10-07T00:27:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "470-210-025",
+ "address": "41355 Mark Tr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240896",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 937
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240896",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "low",
+   "ocrConf": 50.527821,
+   "raw": "TOTAL DEPTH OF BORING _550",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 1.59,
+   "conf": "low",
+   "ocrConf": 28.776009,
+   "raw": "WATER LEVEL__ 1.59 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240896",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.60646096900007,
+ "lon": -116.93936915899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213346",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240896",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}
