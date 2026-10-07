@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-8139",
+ "processed": "2026-10-07T12:23:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "EL TORO Rd (TABLE MOUNTAIN, LOT 25)",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8139",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 982
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8139",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 82.434425,
+   "raw": "Standing level after well completion 80 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8139",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54258438800008,
+ "lon": -116.61419941199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5058",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8139",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10668",
+ "bestDocPage": 1,
+ "status": "partial"
+}

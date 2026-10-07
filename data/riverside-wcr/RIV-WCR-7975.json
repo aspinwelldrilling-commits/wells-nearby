@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-7975",
+ "processed": "2026-10-07T11:43:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "49290 Dalewood Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7975",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1810
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7975",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 17.978561,
+   "raw": "Discharge_ 25 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7975",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53253682500008,
+ "lon": -116.80037908499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/4496",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7975",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10386",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

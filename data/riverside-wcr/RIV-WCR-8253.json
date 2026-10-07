@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-8253",
+ "processed": "2026-10-07T11:43:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "49050 Lake Canyon Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8253",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 982
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8253",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 95.741058,
+   "raw": "Standing level after well completion 30 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.471611,
+   "raw": "Discharge. 15 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8253",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52582976700006,
+ "lon": -116.80919757599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5305",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8253",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10791",
+ "bestDocPage": 1,
+ "status": "partial"
+}

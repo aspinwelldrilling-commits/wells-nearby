@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-31960",
+ "processed": "2026-10-07T12:08:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "23645 Washington",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31960",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 699
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31960",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "medium",
+   "ocrConf": 96.646454,
+   "raw": "WELL LOG: Total depth 260",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31960",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.575932075000026,
+ "lon": -117.23842386599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/22601",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/31960",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "08997",
+ "bestDocPage": 1,
+ "status": "partial"
+}

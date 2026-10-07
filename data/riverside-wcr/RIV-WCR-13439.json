@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13439",
+ "processed": "2026-10-07T11:57:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "40275 Curry Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13439",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 703
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13439",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 235.0,
+   "conf": "medium",
+   "ocrConf": 78.792862,
+   "raw": "Completed depth 235 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 10.624939,
+   "raw": "Discharge 4 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13439",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53736891700004,
+ "lon": -116.80231879099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14200",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13439",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15473",
+ "bestDocPage": 1,
+ "status": "partial"
+}

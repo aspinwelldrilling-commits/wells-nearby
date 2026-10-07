@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14044",
+ "processed": "2026-10-07T12:33:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-420-001",
+ "address": "YUCCA VAL, TAMATEA",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14044",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1060
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14044",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 229.0,
+   "conf": "medium",
+   "ocrConf": 61.060032,
+   "raw": "Completed depth 229 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14044",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50857509700006,
+ "lon": -116.59907745099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15582",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14044",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16223",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13814",
+ "processed": "2026-10-07T12:17:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-026-013",
+ "address": "42840 Hawthorn St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13814",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1066
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13814",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 270.0,
+   "conf": "low",
+   "ocrConf": 47.819714,
+   "raw": "Completed depth 270 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13814",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.536441,
+ "lon": -117.216428,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14940",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13814",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15895",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

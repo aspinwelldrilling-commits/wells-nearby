@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-9695",
+ "processed": "2026-10-07T12:26:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "59589 La Cima Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9695",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 944
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9695",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 10.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Discharge10 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9695",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.51235734000005,
+ "lon": -116.62173724899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7614",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9695",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12117",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

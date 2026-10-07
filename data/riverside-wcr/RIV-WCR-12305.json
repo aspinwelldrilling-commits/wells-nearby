@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-12305",
+ "processed": "2026-10-07T11:50:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-230-002",
+ "address": "40690 Jojoba Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12305",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 973
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12305",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 226.0,
+   "conf": "medium",
+   "ocrConf": 95.85009,
+   "raw": "(12) WELL LOG: Total depth 226",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12305",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.44844556700008,
+ "lon": -116.85516550699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11668",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12305",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14151",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14569",
+ "processed": "2026-10-07T12:15:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-222-005",
+ "address": "24981 5th Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14569",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1742
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14569",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "low",
+   "ocrConf": 2.535484,
+   "raw": "Completed depth 280 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 88.04055,
+   "raw": "Standing level after well completion 120 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14569",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.5472,
+ "lon": -117.217483,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16658",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14569",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16766",
+ "bestDocPage": 1,
+ "status": "partial"
+}

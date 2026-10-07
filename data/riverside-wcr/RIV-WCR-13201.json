@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13201",
+ "processed": "2026-10-07T12:29:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-236-001",
+ "address": "60040 Jeraboa Rd",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13201",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 845
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13201",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 37.493408,
+   "raw": "Completed depth 22.0 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13201",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.61233086300007,
+ "lon": -116.46106716099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13644",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13201",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15154",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

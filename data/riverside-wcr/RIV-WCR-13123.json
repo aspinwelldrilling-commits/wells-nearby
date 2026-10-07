@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13123",
+ "processed": "2026-10-07T11:58:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-100-017",
+ "address": "48748 Valley Dr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13123",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1039
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13123",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "high",
+   "ocrConf": 96.758667,
+   "raw": "Completed depth 280 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13123",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.48640249400006,
+ "lon": -116.81034604099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13447",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13123",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15048",
+ "bestDocPage": 1,
+ "status": "partial"
+}

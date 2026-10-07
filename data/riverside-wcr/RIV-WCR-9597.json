@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-9597",
+ "processed": "2026-10-07T11:45:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "45080 Carrot Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9597",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1035
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9597",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 80.0,
+   "conf": "low",
+   "ocrConf": 34.427223,
+   "raw": "Standing level after well completion 80",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9597",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.45839999100008,
+ "lon": -116.759000002,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7462",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9597",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12041",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

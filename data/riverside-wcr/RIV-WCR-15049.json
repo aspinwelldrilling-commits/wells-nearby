@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-15049",
+ "processed": "2026-10-07T12:36:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-060-002",
+ "address": "58170 Mitchell Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15049",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1144
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15049",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 605.0,
+   "conf": "high",
+   "ocrConf": 95.312988,
+   "raw": "Completed depth 605 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 284.0,
+   "conf": "high",
+   "ocrConf": 96.224915,
+   "raw": "Standing level after well completion 284 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15049",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.571698,
+ "lon": -116.640157,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409987",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15049",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17071",
+ "bestDocPage": 1,
+ "status": "readable"
+}

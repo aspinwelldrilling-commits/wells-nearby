@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-13371",
+ "processed": "2026-10-07T11:53:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-390-010",
+ "address": "48320 Indian Trls Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13371",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1992
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13371",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 605.0,
+   "conf": "low",
+   "ocrConf": 78.263695,
+   "raw": "(12) WELL LOG: Total depth 605",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13371",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.434904363000044,
+ "lon": -116.81967960099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14080",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13371",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15406",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

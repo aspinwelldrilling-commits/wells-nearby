@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13321",
+ "processed": "2026-10-07T11:59:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "41755 Lakeshore Blvd",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13321",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1850
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13321",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 205.0,
+   "conf": "medium",
+   "ocrConf": 50.003159,
+   "raw": "Completed depth205",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13321",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51554019900004,
+ "lon": -116.80222741999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13946",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13321",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15335",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13400",
+ "processed": "2026-10-07T12:30:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-210-027",
+ "address": "56925 Derry Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13400",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1802
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13400",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 21.241692,
+   "raw": "Completed depth 260\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13400",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.56574638500007,
+ "lon": -116.66667981199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14139",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13400",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15437",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

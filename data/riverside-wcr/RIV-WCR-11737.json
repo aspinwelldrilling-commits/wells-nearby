@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-11737",
+ "processed": "2026-10-07T12:27:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-413-001",
+ "address": "69705 Indio Ave",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11737",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 990
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11737",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 205.0,
+   "conf": "low",
+   "ocrConf": 77.832047,
+   "raw": "(12) WELL LOG: Total depth 205",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11737",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.58681891200007,
+ "lon": -116.45476670099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10712",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11737",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13672",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

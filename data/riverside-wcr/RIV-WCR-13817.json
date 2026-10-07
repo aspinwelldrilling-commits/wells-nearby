@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13817",
+ "processed": "2026-10-07T12:05:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-020-072",
+ "address": "42101 Irons Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13817",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 736
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13817",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 60.686306,
+   "raw": "Completed depth 200 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13817",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.511578,
+ "lon": -116.819242,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14952",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13817",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15901",
+ "bestDocPage": 1,
+ "status": "partial"
+}

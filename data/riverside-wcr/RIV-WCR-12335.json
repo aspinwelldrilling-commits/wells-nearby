@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-12335",
+ "processed": "2026-10-07T11:52:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "42055 Irons Rd",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12335",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 822
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12335",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "low",
+   "ocrConf": 64.659828,
+   "raw": "(12) WELL LOG: Total depth 240",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12335",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51127460300006,
+ "lon": -116.81743515199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11740",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12335",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14187",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

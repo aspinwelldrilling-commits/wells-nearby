@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14141",
+ "processed": "2026-10-07T12:16:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-100-048",
+ "address": "42015 Papaya St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14141",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 899
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14141",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 45.0,
+   "conf": "medium",
+   "ocrConf": 57.133423,
+   "raw": "Standing level after well completion 45",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14141",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.53929,
+ "lon": -117.199489,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15760",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14141",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16313",
+ "bestDocPage": 1,
+ "status": "partial"
+}

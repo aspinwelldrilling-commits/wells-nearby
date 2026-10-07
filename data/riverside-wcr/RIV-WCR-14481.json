@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14481",
+ "processed": "2026-10-07T12:15:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "914-370-022-4",
+ "address": "37610 Green Knolls Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14481",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1088
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14481",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.273186,
+   "raw": "Standing level after well completion 30 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14481",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.573802270000044,
+ "lon": -117.09338657999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16468",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14481",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16671",
+ "bestDocPage": 1,
+ "status": "partial"
+}

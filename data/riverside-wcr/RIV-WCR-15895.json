@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-15895",
+ "processed": "2026-10-07T12:06:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-240-070",
+ "address": "40585 Gregg Way",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15895",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1057
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15895",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 460.0,
+   "conf": "medium",
+   "ocrConf": 51.653019,
+   "raw": "Completed depth 460 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 76.0,
+   "conf": "high",
+   "ocrConf": 90.865753,
+   "raw": "Standing level after well completion 76 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15895",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.534625,
+ "lon": -116.981866,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410238",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15895",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17633",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14140",
+ "processed": "2026-10-07T12:32:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-034-003",
+ "address": "64600 Park Rd",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14140",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1033
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14140",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "high",
+   "ocrConf": 95.365501,
+   "raw": "Completed depth 320 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 160.0,
+   "conf": "low",
+   "ocrConf": 39.962486,
+   "raw": "Standing level after well completion 160 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14140",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.583436461000076,
+ "lon": -116.47173428399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15754",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14140",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16310",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-10835",
+ "processed": "2026-10-07T12:10:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "24451 Adams Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10835",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 998
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10835",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 37.018761,
+   "raw": "(12) WELL LOG: Total depth 300",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10835",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.56274566700006,
+ "lon": -117.21877915599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9276",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10835",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12953",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

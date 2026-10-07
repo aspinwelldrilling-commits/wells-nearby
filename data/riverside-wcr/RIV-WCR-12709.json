@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-12709",
+ "processed": "2026-10-07T12:13:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "26255 Lincoln",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12709",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1790
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12709",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 26.0,
+   "conf": "medium",
+   "ocrConf": 60.70932,
+   "raw": "Completed depth 26",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12709",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.5432894,
+ "lon": -117.1723147,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12414",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12709",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14526",
+ "bestDocPage": 1,
+ "status": "partial"
+}

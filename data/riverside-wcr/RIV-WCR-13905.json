@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13905",
+ "processed": "2026-10-07T12:00:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "40990 Preakness Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13905",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1100
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13905",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "low",
+   "ocrConf": 20.686523,
+   "raw": "Completed depth 160 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 54.0,
+   "conf": "low",
+   "ocrConf": 15.078644,
+   "raw": "Standing level after well completion 54 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13905",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.52693558100003,
+ "lon": -116.79203821599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15144",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13905",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16000",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

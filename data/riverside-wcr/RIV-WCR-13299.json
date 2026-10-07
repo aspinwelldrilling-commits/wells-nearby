@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13299",
+ "processed": "2026-10-07T11:57:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-210-012",
+ "address": "47230 Wrangler Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13299",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1903
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13299",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 244.0,
+   "conf": "low",
+   "ocrConf": 49.828735,
+   "raw": "Completed depth 244 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13299",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.43799405000004,
+ "lon": -116.85173294899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13822",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13299",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15267",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

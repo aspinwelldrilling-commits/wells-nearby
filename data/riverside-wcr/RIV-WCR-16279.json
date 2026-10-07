@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-16279",
+ "processed": "2026-10-07T12:01:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-310-008",
+ "address": "47350 Chris Allen Way",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16279",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1006
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16279",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 430.0,
+   "conf": "medium",
+   "ocrConf": 50.544319,
+   "raw": "Completed depth 430 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16279",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.46237205800003,
+ "lon": -116.83535481299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410401",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16279",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17894",
+ "bestDocPage": 1,
+ "status": "partial"
+}

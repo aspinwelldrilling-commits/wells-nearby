@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13909",
+ "processed": "2026-10-07T12:31:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "576-250-001",
+ "address": "41750 Terwilliger Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13909",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1088
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13909",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 88.983795,
+   "raw": "Completed depth 200 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13909",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.51468605900004,
+ "lon": -116.62890180199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15162",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13909",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16009",
+ "bestDocPage": 1,
+ "status": "partial"
+}

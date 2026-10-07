@@ -1,0 +1,73 @@
+{
+ "permit": "RIV-WCR-16141",
+ "processed": "2026-10-07T12:18:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "914-390-022",
+ "address": "37475 Apple Gate Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16141",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2095
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16141",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16141",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 355.0,
+   "conf": "medium",
+   "ocrConf": 57.840343,
+   "raw": "Completed depth 355 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 53.0,
+   "conf": "medium",
+   "ocrConf": 68.770782,
+   "raw": "Standing level after well completion 53",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 6.933708,
+   "raw": "Discharge 2 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16141",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.578416,
+ "lon": -117.11542,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410346",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16141",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17795",
+ "bestDocPage": 1,
+ "status": "readable"
+}

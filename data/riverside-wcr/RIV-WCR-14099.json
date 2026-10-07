@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14099",
+ "processed": "2026-10-07T11:57:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-210-004",
+ "address": "42120 Selinger Tr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14099",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1066
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14099",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 370.0,
+   "conf": "medium",
+   "ocrConf": 59.228546,
+   "raw": "Completed depth 370 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14099",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51298300000008,
+ "lon": -116.87123673199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15680",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14099",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16273",
+ "bestDocPage": 1,
+ "status": "partial"
+}

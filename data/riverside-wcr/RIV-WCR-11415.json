@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-11415",
+ "processed": "2026-10-07T11:50:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "49525 Cherokee Rd",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11415",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 733
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11415",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "medium",
+   "ocrConf": 57.758125,
+   "raw": "Completed depth 220",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11415",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.531516303000046,
+ "lon": -116.79428329899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10256",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11415",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13444",
+ "bestDocPage": 1,
+ "status": "partial"
+}

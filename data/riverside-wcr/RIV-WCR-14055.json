@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14055",
+ "processed": "2026-10-07T12:02:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-110-065",
+ "address": "VISINE RD",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14055",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1828
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14055",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "high",
+   "ocrConf": 96.051849,
+   "raw": "Completed depth 280 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14055",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.485042,
+ "lon": -116.822199,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15619",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14055",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16242",
+ "bestDocPage": 1,
+ "status": "partial"
+}

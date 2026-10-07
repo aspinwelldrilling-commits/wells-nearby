@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-7904",
+ "processed": "2026-10-07T12:09:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "25600 Hayes Ave",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7904",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 782
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7904",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.559067,
+   "raw": "Discharge 200 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7904",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.531384854000066,
+ "lon": -117.21527197099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/4274",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7904",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10272",
+ "bestDocPage": 1,
+ "status": "partial"
+}

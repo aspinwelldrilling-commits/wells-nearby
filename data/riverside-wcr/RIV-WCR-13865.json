@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13865",
+ "processed": "2026-10-07T12:36:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-460-010",
+ "address": "40420 Tweedle Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13865",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1036
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13865",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 19.959602,
+   "raw": "Completed depth 25 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13865",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.539439738000056,
+ "lon": -116.606094,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15036",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13865",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15944",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

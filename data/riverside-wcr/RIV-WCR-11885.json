@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-11885",
+ "processed": "2026-10-07T11:50:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "39315 Pauba",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11885",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1955
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11885",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 18.832336,
+   "raw": "Completed depthO20 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11885",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.47669455500005,
+ "lon": -117.02646837399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10928",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11885",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13781",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13493",
+ "processed": "2026-10-07T11:51:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "581-050-022",
+ "address": "42745 Inland Rd",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13493",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1092
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13493",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 355.0,
+   "conf": "medium",
+   "ocrConf": 61.163109,
+   "raw": "Completed depth 355 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13493",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50369237700005,
+ "lon": -116.90716045799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14292",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13493",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15525",
+ "bestDocPage": 1,
+ "status": "partial"
+}

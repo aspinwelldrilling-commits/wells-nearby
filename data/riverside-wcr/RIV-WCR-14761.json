@@ -1,0 +1,65 @@
+{
+ "permit": "RIV-WCR-14761",
+ "processed": "2026-10-07T12:03:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "941-160-004",
+ "address": "Meng Asbury Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14761",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2179
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14761",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14761",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 387.0,
+   "conf": "high",
+   "ocrConf": 96.079285,
+   "raw": "Completed depth 387 ft",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 190.0,
+   "conf": "high",
+   "ocrConf": 95.334412,
+   "raw": "Standing level after well completion 190 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14761",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.544929,
+ "lon": -117.011429,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16896",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14761",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16890",
+ "bestDocPage": 1,
+ "status": "readable"
+}

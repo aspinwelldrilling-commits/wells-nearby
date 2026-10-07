@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-11791",
+ "processed": "2026-10-07T12:27:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "39860 El Toro Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11791",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1724
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11791",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 209.0,
+   "conf": "low",
+   "ocrConf": 12.481537,
+   "raw": "Standing level after well completion__209 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "low",
+   "ocrConf": 47.597946,
+   "raw": "Discharge__18 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11791",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.54240034000003,
+ "lon": -116.61283054999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10795",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11791",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13714",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

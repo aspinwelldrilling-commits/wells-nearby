@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14031",
+ "processed": "2026-10-07T12:31:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "59480 Roger Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14031",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1110
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14031",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 425.0,
+   "conf": "medium",
+   "ocrConf": 76.997055,
+   "raw": "Completed depth 425 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14031",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.52038345700004,
+ "lon": -116.62221683599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15555",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14031",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16210",
+ "bestDocPage": 1,
+ "status": "partial"
+}

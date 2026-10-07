@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-12261",
+ "processed": "2026-10-07T11:49:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "40300 Brook Trails Way",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12261",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2130
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12261",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 25.455704,
+   "raw": "Completed depth 200\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "medium",
+   "ocrConf": 59.206818,
+   "raw": "Standing level after well completion 75 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12261",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53683409800004,
+ "lon": -116.79915624799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11596",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12261",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14115",
+ "bestDocPage": 1,
+ "status": "partial"
+}

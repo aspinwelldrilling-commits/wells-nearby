@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-12773",
+ "processed": "2026-10-07T12:13:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "927-100-039",
+ "address": "42950 Anza Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12773",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1790
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12773",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 60.426647,
+   "raw": "Completed depth 400 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 280.0,
+   "conf": "low",
+   "ocrConf": 14.686691,
+   "raw": "Discharge 280 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12773",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.49944714000003,
+ "lon": -117.05051711899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12726",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12773",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14684",
+ "bestDocPage": 1,
+ "status": "partial"
+}

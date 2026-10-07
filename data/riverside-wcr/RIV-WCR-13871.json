@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13871",
+ "processed": "2026-10-07T12:32:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "59770 Moonshine Trl",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13871",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1100
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13871",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 196.0,
+   "conf": "medium",
+   "ocrConf": 51.792336,
+   "raw": "Completed depth 196 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13871",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.53994155400005,
+ "lon": -116.61893655899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15054",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13871",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15953",
+ "bestDocPage": 1,
+ "status": "partial"
+}

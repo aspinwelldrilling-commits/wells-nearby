@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14517",
+ "processed": "2026-10-07T12:34:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-285-010",
+ "address": "68750 Pinesmoke Rd",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14517",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 741
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14517",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 44.0,
+   "conf": "low",
+   "ocrConf": 37.822258,
+   "raw": "Completed depth 44\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14517",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.59833110300008,
+ "lon": -116.46498366099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16518",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14517",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16696",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

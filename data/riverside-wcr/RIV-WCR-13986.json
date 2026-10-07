@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-13986",
+ "processed": "2026-10-07T11:58:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-220-019",
+ "address": "49170 Arroyo Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13986",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1017
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13986",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 40.759312,
+   "raw": "(12) WELL LOG: Total depth 32",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13986",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.509275642000034,
+ "lon": -116.80305192699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15460",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13986",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16161",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

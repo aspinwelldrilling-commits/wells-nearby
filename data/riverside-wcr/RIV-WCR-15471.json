@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15471",
+ "processed": "2026-10-07T12:04:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-290-016",
+ "address": "46980 Melody Hills Dr",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15471",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1066
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15471",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 178.0,
+   "conf": "medium",
+   "ocrConf": 58.347725,
+   "raw": "Completed depth 178 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15471",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.441500430000076,
+ "lon": -116.85647366899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410047",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15471",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17341",
+ "bestDocPage": 1,
+ "status": "partial"
+}

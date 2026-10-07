@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13063",
+ "processed": "2026-10-07T12:14:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "20780 Calle Rocio",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13063",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2013
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13063",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "high",
+   "ocrConf": 88.998154,
+   "raw": "Completed depth 220 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 44.283566,
+   "raw": "Standing level after well completion 35 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13063",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.488999,
+ "lon": -117.297147,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13340",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13063",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14991",
+ "bestDocPage": 1,
+ "status": "partial"
+}

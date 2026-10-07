@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14431",
+ "processed": "2026-10-07T12:14:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "914-080-051",
+ "address": "37690 Willie Ln",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14431",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1829
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14431",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 173.0,
+   "conf": "medium",
+   "ocrConf": 73.033463,
+   "raw": "Completed depth 173 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14431",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.57299812200006,
+ "lon": -117.16181690099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16370",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14431",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16622",
+ "bestDocPage": 1,
+ "status": "partial"
+}

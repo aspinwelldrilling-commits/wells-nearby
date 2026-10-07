@@ -1,0 +1,67 @@
+{
+ "permit": "RIV-WCR-13959",
+ "processed": "2026-10-07T12:02:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-020-078",
+ "address": "42375 Wildwood Ln",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13959",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1877
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13959",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "high",
+   "ocrConf": 86.880295,
+   "raw": "Completed depth 320 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 280.0,
+   "conf": "high",
+   "ocrConf": 95.047379,
+   "raw": "Standing level after well completion\n280 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "low",
+   "ocrConf": 36.388374,
+   "raw": "Discharge 15 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13959",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.506824,
+ "lon": -116.816738,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15392",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13959",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16126",
+ "bestDocPage": 1,
+ "status": "readable"
+}

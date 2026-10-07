@@ -1,0 +1,57 @@
+{
+ "permit": "RIV-WCR-13507",
+ "processed": "2026-10-07T12:28:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-215-013",
+ "address": "68401 Alpine Dr",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13507",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1887
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13507",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13507",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 16.13755,
+   "raw": "Completed depth 24",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13507",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.61034329300003,
+ "lon": -116.47023436399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14329",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13507",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15548",
+ "bestDocPage": 2,
+ "status": "unreadable"
+}

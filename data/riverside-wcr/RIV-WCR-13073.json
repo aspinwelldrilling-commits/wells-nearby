@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-13073",
+ "processed": "2026-10-07T12:30:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-120-025",
+ "address": "39350 Hamilton Dr",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13073",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1055
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13073",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 155.0,
+   "conf": "low",
+   "ocrConf": 48.614544,
+   "raw": "(12) WELL LOG: Total depth 155",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 24.310806,
+   "raw": "Standing level after well completion 7 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13073",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.55014414100003,
+ "lon": -116.65519988999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13352",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13073",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14997",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-29418",
+ "processed": "2026-10-07T12:04:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-640-008",
+ "address": "40700 Grady Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29418",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 730
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29418",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 44.0,
+   "conf": "medium",
+   "ocrConf": 50.887978,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 44",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29418",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.532675,
+ "lon": -116.954504,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408957",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29418",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31821",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15686",
+ "processed": "2026-10-07T12:18:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-120-044",
+ "address": "Diaz Rd & Cherry St",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15686",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1100
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15686",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1039.0,
+   "conf": "low",
+   "ocrConf": 48.289734,
+   "raw": "Completed depth 1039\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15686",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.519184,
+ "lon": -117.225639,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410142",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15686",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17483",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

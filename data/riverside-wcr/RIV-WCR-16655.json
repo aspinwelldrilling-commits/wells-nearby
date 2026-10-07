@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-16655",
+ "processed": "2026-10-07T12:17:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-170-013",
+ "address": "38351 Via Majorca",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16655",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 796
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16655",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 9.0,
+   "conf": "medium",
+   "ocrConf": 56.333633,
+   "raw": "ESTIMATED YIELD -__. 9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16655",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.575045,
+ "lon": -117.298443,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409910",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16655",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "18122",
+ "bestDocPage": 1,
+ "status": "partial"
+}

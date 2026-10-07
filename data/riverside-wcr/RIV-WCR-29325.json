@@ -1,0 +1,57 @@
+{
+ "permit": "RIV-WCR-29325",
+ "processed": "2026-10-07T12:04:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-610-001-9",
+ "address": "41971 Jojoba Hills Cir",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29325",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2107
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29325",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29325",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 12.0,
+   "conf": "medium",
+   "ocrConf": 55.547031,
+   "raw": "WATER LEVEL 12 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29325",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51633328100007,
+ "lon": -116.89909381999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408777",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29325",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31637",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-10975",
+ "processed": "2026-10-07T11:48:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "42345 Sage Rd",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10975",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 920
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10975",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 96.715523,
+   "raw": "(12) WELL LOG: Total depth 400",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10975",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.508284779000064,
+ "lon": -116.89765323699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9496",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10975",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13063",
+ "bestDocPage": 1,
+ "status": "partial"
+}

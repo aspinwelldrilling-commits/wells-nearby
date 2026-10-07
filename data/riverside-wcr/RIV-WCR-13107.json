@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-13107",
+ "processed": "2026-10-07T12:29:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-182-013",
+ "address": "SUGARLOAF",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13107",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 796
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13107",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 35.905441,
+   "raw": "(12) WELL LOG: Total depth 25",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13107",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.58699388000008,
+ "lon": -116.45629281999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13424",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13107",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15035",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

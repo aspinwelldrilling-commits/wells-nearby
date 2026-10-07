@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-12459",
+ "processed": "2026-10-07T11:51:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "40471 Tumbleweed Trl",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12459",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 674
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12459",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 23.5,
+   "conf": "low",
+   "ocrConf": 11.665916,
+   "raw": "Completed depth 23.5 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "low",
+   "ocrConf": 18.677841,
+   "raw": "Discharge _45 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12459",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53398642800005,
+ "lon": -116.79508001199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11918",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12459",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14276",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

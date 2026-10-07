@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15623",
+ "processed": "2026-10-07T12:03:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-190-031",
+ "address": "39525 Calle Portillo",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15623",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1164
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15623",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 504.0,
+   "conf": "high",
+   "ocrConf": 82.965347,
+   "raw": "Completed depth 504 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15623",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54993109000003,
+ "lon": -116.94981653999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410116",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15623",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17443",
+ "bestDocPage": 1,
+ "status": "partial"
+}

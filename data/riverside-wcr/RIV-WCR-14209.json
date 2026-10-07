@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14209",
+ "processed": "2026-10-07T11:59:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-360-081-9",
+ "address": "39664 Lariat Ln",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14209",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1112
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14209",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 654.0,
+   "conf": "high",
+   "ocrConf": 94.746521,
+   "raw": "Completed depth 654 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14209",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.54815496500004,
+ "lon": -116.93843947099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15888",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14209",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16378",
+ "bestDocPage": 1,
+ "status": "partial"
+}

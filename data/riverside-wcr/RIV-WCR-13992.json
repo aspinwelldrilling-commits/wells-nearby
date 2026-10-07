@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13992",
+ "processed": "2026-10-07T12:34:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-030-056",
+ "address": "37480 Hill St",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13992",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1942
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13992",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 445.0,
+   "conf": "medium",
+   "ocrConf": 63.005913,
+   "raw": "Completed depth 445\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 145.0,
+   "conf": "low",
+   "ocrConf": 4.343964,
+   "raw": "Standing level after well completion 145 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13992",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.578714855000044,
+ "lon": -116.66209792099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15466",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13992",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16164",
+ "bestDocPage": 1,
+ "status": "partial"
+}

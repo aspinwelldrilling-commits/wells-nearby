@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13293",
+ "processed": "2026-10-07T12:29:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "56575 Dickson Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13293",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1049
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13293",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "medium",
+   "ocrConf": 78.99752,
+   "raw": "Completed depth 550 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.80986,
+   "raw": "Standing level after well completion 50 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13293",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.575163160000045,
+ "lon": -116.67162600999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13813",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13293",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15263",
+ "bestDocPage": 1,
+ "status": "readable"
+}

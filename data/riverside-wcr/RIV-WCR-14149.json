@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14149",
+ "processed": "2026-10-07T12:33:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-400-007",
+ "address": "44015 Cary Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14149",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1931
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14149",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "high",
+   "ocrConf": 96.852936,
+   "raw": "Completed depth 450 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14149",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.48384912000006,
+ "lon": -116.68733988999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15776",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14149",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16322",
+ "bestDocPage": 1,
+ "status": "partial"
+}

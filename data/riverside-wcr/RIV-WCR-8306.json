@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-8306",
+ "processed": "2026-10-07T12:24:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "69320 Buckthorn Dr",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8306",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 983
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8306",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 86.988083,
+   "raw": "Standing level after well completion 30 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8306",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.59121170100008,
+ "lon": -116.46270169799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5416",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8306",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10847",
+ "bestDocPage": 1,
+ "status": "partial"
+}

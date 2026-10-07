@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-29306",
+ "processed": "2026-10-07T12:35:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-090-016",
+ "address": "BONITA VISTA Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29306",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 765
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29306",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "medium",
+   "ocrConf": 54.902016,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 350",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-05-12",
+   "conf": "medium",
+   "ocrConf": 55.720364,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29306",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.57245627000003,
+ "lon": -116.69423958899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408745",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29306",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31597",
+ "bestDocPage": 1,
+ "status": "readable"
+}

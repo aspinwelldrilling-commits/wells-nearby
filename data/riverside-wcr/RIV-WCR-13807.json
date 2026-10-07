@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13807",
+ "processed": "2026-10-07T12:30:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "58987 Reynolds Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13807",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2005
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13807",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 64.075806,
+   "raw": "Completed depth 250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 36.0,
+   "conf": "high",
+   "ocrConf": 92.138847,
+   "raw": "Standing level after well completion 36 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13807",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.55252187000008,
+ "lon": -116.62991271199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14932",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13807",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15891",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14573",
+ "processed": "2026-10-07T12:00:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "LAKESHORE DR, CALIENTE CT",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14573",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 727
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14573",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "high",
+   "ocrConf": 87.508774,
+   "raw": "Completed depth 250 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 19.819191,
+   "raw": "Standing level after well completion _ 30 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14573",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53371487700008,
+ "lon": -116.79671189899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16665",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14573",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16771",
+ "bestDocPage": 1,
+ "status": "partial"
+}

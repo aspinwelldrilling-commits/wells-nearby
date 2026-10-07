@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-25773",
+ "processed": "2026-10-07T12:20:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "961-080-006",
+ "address": "31669 S Highway 79",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25773",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1320
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25773",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 50.0,
+   "conf": "low",
+   "ocrConf": 58.052071,
+   "raw": "TOTAL DEPTH OF BORING _ 50",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25773",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.479017,
+ "lon": -117.103623,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409720",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25773",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "25441",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

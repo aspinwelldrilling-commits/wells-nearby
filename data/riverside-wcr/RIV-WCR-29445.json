@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-29445",
+ "processed": "2026-10-07T12:20:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "942-140-006",
+ "address": "Anza Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29445",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1290
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29445",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 38.0,
+   "conf": "medium",
+   "ocrConf": 57.13438,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___38",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29445",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.5498,
+ "lon": -117.066,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409008",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29445",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31878",
+ "bestDocPage": 1,
+ "status": "partial"
+}

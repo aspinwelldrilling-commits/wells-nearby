@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-32320",
+ "processed": "2026-10-07T12:22:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "635-226-002",
+ "address": "68440 San Carlo St",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32320",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 940
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32320",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 705.0,
+   "conf": "medium",
+   "ocrConf": 95.785858,
+   "raw": "WELL LOG: Total depth 705",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 225.0,
+   "conf": "medium",
+   "ocrConf": 67.834061,
+   "raw": "Standing level after well completion__ 225 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32320",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.608437140000035,
+ "lon": -116.46995657099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/24003",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32320",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "09702",
+ "bestDocPage": 1,
+ "status": "readable"
+}

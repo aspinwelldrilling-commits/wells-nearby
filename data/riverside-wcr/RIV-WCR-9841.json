@@ -1,0 +1,65 @@
+{
+ "permit": "RIV-WCR-9841",
+ "processed": "2026-10-07T11:44:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "ELY RD",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9841",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2810
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9841",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9841",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 67.959534,
+   "raw": "Completed depth 150 ft",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 45.629517,
+   "raw": "Standing level after well completion 60 ft",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9841",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.547844876000056,
+ "lon": -116.84986190999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7822",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9841",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12223",
+ "bestDocPage": 2,
+ "status": "partial"
+}

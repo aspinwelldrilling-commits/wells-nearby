@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13383",
+ "processed": "2026-10-07T12:14:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "918-250-005",
+ "address": "47461 Rainbow Oaks Dr",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13383",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1804
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13383",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 327.0,
+   "conf": "high",
+   "ocrConf": 96.271645,
+   "raw": "Completed depth 327 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13383",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.43583240600003,
+ "lon": -117.09406296199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14096",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13383",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15415",
+ "bestDocPage": 1,
+ "status": "partial"
+}

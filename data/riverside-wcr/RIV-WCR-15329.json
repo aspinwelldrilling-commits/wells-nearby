@@ -1,0 +1,73 @@
+{
+ "permit": "RIV-WCR-15329",
+ "processed": "2026-10-07T12:14:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": null,
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15329",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2366
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15329",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15329",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 97.0,
+   "conf": "medium",
+   "ocrConf": 55.110489,
+   "raw": "Standing level after well completion 97 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 3.022232,
+   "raw": "Completed depth 800",
+   "page": 2,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 803.0,
+   "conf": "high",
+   "ocrConf": 90.244156,
+   "raw": "Discharge _ 803 gal/min",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15329",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.48582398000008,
+ "lon": -117.05877913599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410000",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15329",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17255",
+ "bestDocPage": 2,
+ "status": "partial"
+}

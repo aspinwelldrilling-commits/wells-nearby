@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-12831",
+ "processed": "2026-10-07T11:54:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-260-001",
+ "address": "49945 Saginaw Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12831",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 733
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12831",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 175.0,
+   "conf": "low",
+   "ocrConf": 25.73645,
+   "raw": "(12) WELL LOG: Total depth 175",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12831",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.504091231000075,
+ "lon": -116.78874564299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12868",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12831",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14755",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

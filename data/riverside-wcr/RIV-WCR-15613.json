@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-15613",
+ "processed": "2026-10-07T12:03:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-550-006",
+ "address": "41550 Cherimoya Rd",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15613",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1115
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15613",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 235.0,
+   "conf": "low",
+   "ocrConf": 28.44603,
+   "raw": "Completed depth 235",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 24.0,
+   "conf": "high",
+   "ocrConf": 96.618683,
+   "raw": "Standing level after well completion 24 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15613",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.545805,
+ "lon": -116.935662,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410110",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15613",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17437",
+ "bestDocPage": 1,
+ "status": "partial"
+}

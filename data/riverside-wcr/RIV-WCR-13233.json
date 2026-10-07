@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-13233",
+ "processed": "2026-10-07T11:51:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-240-016",
+ "address": "45285 Highway 371",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13233",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1893
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13233",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 108.0,
+   "conf": "low",
+   "ocrConf": 37.112751,
+   "raw": "Total depth 108 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 95.205956,
+   "raw": "Standing level after well completion 55 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13233",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.45918371800008,
+ "lon": -116.85361614499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13692",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13233",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15188",
+ "bestDocPage": 1,
+ "status": "partial"
+}

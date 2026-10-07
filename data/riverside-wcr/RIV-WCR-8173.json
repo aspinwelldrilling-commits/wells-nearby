@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-8173",
+ "processed": "2026-10-07T12:23:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "59145 Silico Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8173",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1032
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8173",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 790.0,
+   "conf": "medium",
+   "ocrConf": 67.136551,
+   "raw": "Standing level after well completion 790 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 95.386879,
+   "raw": "Discharge. 18 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8173",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.552592161000064,
+ "lon": -116.62793798899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5136",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8173",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10707",
+ "bestDocPage": 1,
+ "status": "partial"
+}

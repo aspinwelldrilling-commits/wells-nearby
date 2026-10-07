@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-10225",
+ "processed": "2026-10-07T12:26:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "69750 Sugarloaf Ave",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10225",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 994
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10225",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 90.0,
+   "conf": "high",
+   "ocrConf": 89.009033,
+   "raw": "Standing level after well completion 90 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10225",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.589146957000025,
+ "lon": -116.45323446099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8376",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10225",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12502",
+ "bestDocPage": 1,
+ "status": "partial"
+}

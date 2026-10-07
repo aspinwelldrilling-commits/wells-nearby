@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-12841",
+ "processed": "2026-10-07T11:52:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-390-002",
+ "address": "47150 Silent Valley",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12841",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1900
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12841",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 84.445007,
+   "raw": "Completed depth 400 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 180.0,
+   "conf": "high",
+   "ocrConf": 93.784767,
+   "raw": "Standing level after well completion 180 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12841",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.438815367000075,
+ "lon": -116.81388253899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12882",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12841",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14762",
+ "bestDocPage": 1,
+ "status": "readable"
+}

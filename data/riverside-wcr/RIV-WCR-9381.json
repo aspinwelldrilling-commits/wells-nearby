@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-9381",
+ "processed": "2026-10-07T12:26:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-107-024",
+ "address": "LISTEN LANE",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9381",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 989
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9381",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 140.0,
+   "conf": "low",
+   "ocrConf": 48.737103,
+   "raw": "(12) WELL LOG: Total depth 140",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9381",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.544639921000055,
+ "lon": -116.64369202899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7146",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9381",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "11884",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

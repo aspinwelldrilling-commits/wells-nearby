@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14293",
+ "processed": "2026-10-07T12:05:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-220-023",
+ "address": "48143 Roan Way",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14293",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1861
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14293",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 32.564323,
+   "raw": "Standing level after well completion __2O",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14293",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.5141442,
+ "lon": -116.8219001,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16012",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14293",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16443",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

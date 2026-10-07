@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-13891",
+ "processed": "2026-10-07T12:03:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "574-120-014",
+ "address": "49486 Sky HArbor Way",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13891",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1056
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13891",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "low",
+   "ocrConf": 72.18026,
+   "raw": "(12) WELL LOG: Total depth 160",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13891",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.520871175000025,
+ "lon": -116.79747498499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15100",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13891",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15977",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

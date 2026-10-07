@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14349",
+ "processed": "2026-10-07T12:37:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-420-044",
+ "address": "42525 Labrinia Ln",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14349",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1894
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14349",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 390.0,
+   "conf": "medium",
+   "ocrConf": 56.50872,
+   "raw": "Completed depth 390 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14349",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50977,
+ "lon": -116.595324,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16245",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14349",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16560",
+ "bestDocPage": 1,
+ "status": "partial"
+}

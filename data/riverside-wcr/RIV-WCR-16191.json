@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-16191",
+ "processed": "2026-10-07T12:17:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-030-008",
+ "address": "24270 Adams Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16191",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1031
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16191",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 245.0,
+   "conf": "medium",
+   "ocrConf": 73.650253,
+   "raw": "Completed depth 245 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 135.0,
+   "conf": "high",
+   "ocrConf": 96.252174,
+   "raw": "Standing level after well completion 135 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16191",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.565842,
+ "lon": -117.21994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410375",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16191",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17835",
+ "bestDocPage": 1,
+ "status": "readable"
+}

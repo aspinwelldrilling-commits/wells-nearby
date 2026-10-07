@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-32315",
+ "processed": "2026-10-07T12:21:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-190-009",
+ "address": "38200 Licon Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32315",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1751
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32315",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 88.708748,
+   "raw": "(12) WELL LOG: Total depth 400",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32315",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.566558506000035,
+ "lon": -116.68719150999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23991",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32315",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "09696",
+ "bestDocPage": 1,
+ "status": "partial"
+}

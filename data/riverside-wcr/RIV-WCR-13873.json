@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13873",
+ "processed": "2026-10-07T12:02:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "40400 Ivel Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13873",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1802
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13873",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "low",
+   "ocrConf": 36.297913,
+   "raw": "Completed depth 310 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1990-01-04",
+   "conf": "medium",
+   "ocrConf": 11.509766,
+   "raw": "Completed__1/4/ 1990",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13873",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.535216,
+ "lon": -116.955867,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15056",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13873",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15954",
+ "bestDocPage": 1,
+ "status": "partial"
+}

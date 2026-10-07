@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-9389",
+ "processed": "2026-10-07T12:26:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "BURNT VALLEY Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9389",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 960
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9389",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 1.0,
+   "conf": "medium",
+   "ocrConf": 53.435131,
+   "raw": "Discharge 1 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9389",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.55084069900005,
+ "lon": -116.62449068299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7156",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9389",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "11889",
+ "bestDocPage": 1,
+ "status": "partial"
+}

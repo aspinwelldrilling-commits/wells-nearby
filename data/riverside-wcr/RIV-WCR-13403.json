@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13403",
+ "processed": "2026-10-07T12:30:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "575-230-019",
+ "address": "60020 Burnt Valley Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13403",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 716
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13403",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 140.0,
+   "conf": "low",
+   "ocrConf": 35.577568,
+   "raw": "Completed depth 140 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 8.947113,
+   "raw": "Discharge _7 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13403",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.549994380000044,
+ "lon": -116.61451606999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14144",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13403",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15440",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

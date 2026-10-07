@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13994",
+ "processed": "2026-10-07T12:32:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "577-190-030",
+ "address": "60550 Coyote Canyon Rd",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13994",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1980
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13994",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 46.42466,
+   "raw": "Completed depth 200 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13994",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.50168972800003,
+ "lon": -116.60998332099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15476",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13994",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16169",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

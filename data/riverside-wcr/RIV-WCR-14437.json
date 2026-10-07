@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14437",
+ "processed": "2026-10-07T12:34:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "579-260-070",
+ "address": "45100 Chapman Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14437",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1072
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14437",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 140.0,
+   "conf": "medium",
+   "ocrConf": 73.495148,
+   "raw": "Completed depth 140 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14437",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.469106,
+ "lon": -116.651103,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16388",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14437",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16631",
+ "bestDocPage": 1,
+ "status": "partial"
+}

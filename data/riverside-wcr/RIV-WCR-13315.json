@@ -1,0 +1,67 @@
+{
+ "permit": "RIV-WCR-13315",
+ "processed": "2026-10-07T12:18:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "47151 Rainbow Oaks Dr",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13315",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1084
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13315",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 393.0,
+   "conf": "low",
+   "ocrConf": 46.746414,
+   "raw": "Completed depth393",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.4,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Discharge 4.4 gal/min",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1989-05-26",
+   "conf": "medium",
+   "ocrConf": 71.834732,
+   "raw": "Completed__ 5/26/89",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13315",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.438950858000055,
+ "lon": -117.09067480699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13938",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13315",
+ "serviceType": "New Construction",
+ "wellType": "Unknown",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15331",
+ "bestDocPage": 1,
+ "status": "partial"
+}

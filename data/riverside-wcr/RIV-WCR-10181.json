@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-10181",
+ "processed": "2026-10-07T12:07:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "35010 Santa Rita Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10181",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 918
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10181",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 462.0,
+   "conf": "low",
+   "ocrConf": 71.384209,
+   "raw": "(12) WELL LOG: Total depth 462",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 80.687004,
+   "raw": "Standing level after well completion 100 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10181",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.476041087000056,
+ "lon": -117.04584155599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8320",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10181",
+ "serviceType": "New Construction",
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12474",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-11301",
+ "processed": "2026-10-07T11:49:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "HIGHWAY 371",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11301",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 836
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11301",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 45.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WELL LOG: Total depth 45",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 37.015312,
+   "raw": "Discharge 4O gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11301",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.523071,
+ "lon": -116.797927,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10014",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11301",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13322",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

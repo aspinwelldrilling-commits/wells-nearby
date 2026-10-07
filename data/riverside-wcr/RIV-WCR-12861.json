@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-12861",
+ "processed": "2026-10-07T11:49:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "915-550-038",
+ "address": "40400 Scanolon Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12861",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1845
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12861",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 50.259514,
+   "raw": "Discharge 2 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12861",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.53781090100006,
+ "lon": -116.97276643199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12928",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12861",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14785",
+ "bestDocPage": 1,
+ "status": "partial"
+}

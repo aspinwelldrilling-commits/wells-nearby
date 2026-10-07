@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-16523",
+ "processed": "2026-10-07T12:16:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-300-004",
+ "address": "21410 Avenida De Arboles",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16523",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1078
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16523",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 170.0,
+   "conf": "medium",
+   "ocrConf": 61.436344,
+   "raw": "Completed depth 170 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16523",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.568253,
+ "lon": -117.291721,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409870",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16523",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "18045",
+ "bestDocPage": 1,
+ "status": "partial"
+}

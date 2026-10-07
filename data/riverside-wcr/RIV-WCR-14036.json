@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14036",
+ "processed": "2026-10-07T12:03:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "40170 N Tanforan Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14036",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1055
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14036",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "low",
+   "ocrConf": 35.479996,
+   "raw": "Completed depth 24O ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14036",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.539186406000056,
+ "lon": -116.79582506999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15560",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14036",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16212",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

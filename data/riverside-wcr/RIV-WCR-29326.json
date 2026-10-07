@@ -1,0 +1,66 @@
+{
+ "permit": "RIV-WCR-29326",
+ "processed": "2026-10-07T12:02:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "571-600-004",
+ "address": "43841 Horn Toad Rd",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29326",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2021
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29326",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29326",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 69.749489,
+   "raw": "TOTAL DEPTH OF BORING 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "high",
+   "ocrConf": 89.939056,
+   "raw": "ESTIMATED YIELD * 7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29326",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.51755797100003,
+ "lon": -116.89779012999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408778",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29326",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31638",
+ "bestDocPage": 1,
+ "status": "partial"
+}

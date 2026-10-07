@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-8345",
+ "processed": "2026-10-07T12:24:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-173-004",
+ "address": "69400 Sugarloaf Ave",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8345",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 984
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8345",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 26.0,
+   "conf": "medium",
+   "ocrConf": 73.837738,
+   "raw": "Standing level after well completion 26 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 93.98497,
+   "raw": "Discharge. 15 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8345",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.58888483000004,
+ "lon": -116.46105012999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5474",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8345",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10876",
+ "bestDocPage": 1,
+ "status": "partial"
+}

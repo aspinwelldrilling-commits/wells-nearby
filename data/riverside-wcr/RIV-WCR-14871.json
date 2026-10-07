@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14871",
+ "processed": "2026-10-07T12:36:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "573-310-035",
+ "address": "38105 Sherman Way",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14871",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 827
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14871",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 40.0,
+   "conf": "medium",
+   "ocrConf": 78.90609,
+   "raw": "Discharge 40 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14871",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.568305,
+ "lon": -116.640342,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/17018",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14871",
+ "serviceType": "Reconstruction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16954",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-30843",
+ "processed": "2026-10-07T12:38:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "43343 Osage Dr",
+ "city": "Sage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30843",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 84
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30843",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 32.018013,
+   "raw": "Discharge___2 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30843",
+ "errors": [],
+ "area": "hemet",
+ "lat": 33.62284004000003,
+ "lon": -116.90510486399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19782",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/30843",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "07112",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

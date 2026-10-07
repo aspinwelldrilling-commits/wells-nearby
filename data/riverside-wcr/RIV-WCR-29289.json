@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-29289",
+ "processed": "2026-10-07T12:02:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "580-260-023",
+ "address": "49650 Wildflower Ct",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29289",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 732
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29289",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "high",
+   "ocrConf": 94.720009,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 240",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-03-28",
+   "conf": "high",
+   "ocrConf": 81.556107,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29289",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.50341542000007,
+ "lon": -116.79180940999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408730",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29289",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31573",
+ "bestDocPage": 1,
+ "status": "readable"
+}

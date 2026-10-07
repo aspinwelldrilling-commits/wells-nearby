@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13295",
+ "processed": "2026-10-07T11:52:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-220-031",
+ "address": "46235 Palomino Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13295",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1077
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13295",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 24.0,
+   "conf": "medium",
+   "ocrConf": 52.468025,
+   "raw": "Completed depth 24",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13295",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.43436641300008,
+ "lon": -116.85403633299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13818",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13295",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15265",
+ "bestDocPage": 1,
+ "status": "partial"
+}

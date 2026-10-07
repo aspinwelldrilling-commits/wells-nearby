@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14803",
+ "processed": "2026-10-07T12:15:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-200-022-2",
+ "address": "42650 Guava St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14803",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1782
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14803",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 460.0,
+   "conf": "medium",
+   "ocrConf": 73.481247,
+   "raw": "Completed depth 460 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 190.0,
+   "conf": "high",
+   "ocrConf": 96.649765,
+   "raw": "Standing level after well completion 190 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14803",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.532533390000026,
+ "lon": -117.20760678999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16940",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14803",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16914",
+ "bestDocPage": 1,
+ "status": "readable"
+}

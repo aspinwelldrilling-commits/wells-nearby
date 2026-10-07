@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-10219",
+ "processed": "2026-10-07T11:46:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "583-190-032",
+ "address": "45479 Sheeps Foot Rd",
+ "city": "Aguanga",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10219",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1043
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10219",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 505.0,
+   "conf": "medium",
+   "ocrConf": 87.603424,
+   "raw": "WELL LOG: Total depth 505",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10219",
+ "errors": [],
+ "area": "aguanga",
+ "lat": 33.42719312400004,
+ "lon": -116.86734818399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8368",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10219",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12498",
+ "bestDocPage": 1,
+ "status": "partial"
+}
