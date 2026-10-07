@@ -1,0 +1,56 @@
+{
+ "permit": "WP0017877",
+ "processed": "2026-10-07T07:15:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "767-421-019",
+ "address": "55021 Calhoun St",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245773",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 542
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245773",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 602.0,
+   "conf": "medium",
+   "ocrConf": 56.626205,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 602",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 222.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD*_ 222 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245773",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.64913878300007,
+ "lon": -116.20800316399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208531",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245773",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

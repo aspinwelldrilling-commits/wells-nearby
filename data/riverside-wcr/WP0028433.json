@@ -1,0 +1,83 @@
+{
+ "permit": "WP0028433",
+ "processed": "2026-10-07T07:15:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "763-250-038",
+ "address": "85201 55th Ave",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270890",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 89
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270890",
+   "page": 1,
+   "source": "text",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270890",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well            500",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Other - Mud Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method        Other - mud rotary          Drilling Fluid   Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2020-09-20",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.64926,
+   "lon": -116.17688,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270890",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.64926492500007,
+ "lon": -116.17689179799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310331",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270890",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

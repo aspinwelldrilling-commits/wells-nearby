@@ -1,0 +1,54 @@
+{
+ "permit": "WP0012279",
+ "processed": "2026-10-07T07:52:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "653-170-040",
+ "address": "73420 Boca Chica Trl",
+ "city": "Thousand Palms",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241361",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2257
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241361",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241361",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "2004-06-30",
+   "conf": "high",
+   "ocrConf": 96.779404,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241361",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.80509578300007,
+ "lon": -116.38369919999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212456",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241361",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,83 @@
+{
+ "permit": "WP0030413",
+ "processed": "2026-10-07T08:05:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "778-041-001",
+ "address": "85509 Grapefruit Blvd ",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/263294",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 18
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/263294",
+   "page": 1,
+   "source": "text",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/263294",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 37.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        37",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Auger                     Drilling Fluid   None",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "None",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-01-07",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.6827226,
+   "lon": -116.1769222,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/263294",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.68287129500004,
+ "lon": -116.17686619799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262410",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/263294",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

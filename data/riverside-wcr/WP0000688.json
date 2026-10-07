@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000688",
+ "processed": "2026-10-07T06:55:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "767-060-036",
+ "address": "51455 Monroe St",
+ "city": "Indio",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233923",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1079
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233923",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 57.118759,
+   "raw": "Completed depth 200\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 89.970123,
+   "raw": "Discharge _600 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233923",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.676413780000075,
+ "lon": -116.23666702399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220761",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233923",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

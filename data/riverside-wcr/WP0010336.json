@@ -1,0 +1,56 @@
+{
+ "permit": "WP0010336",
+ "processed": "2026-10-07T07:50:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "603-220-018",
+ "address": "48055 Grapefruit Blvd (Highway 111)",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240582",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1172
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240582",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 37.0,
+   "conf": "low",
+   "ocrConf": 18.021477,
+   "raw": "TOTAL DEPTH OF BORING 37",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-08-14",
+   "conf": "high",
+   "ocrConf": 96.569466,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240582",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.699662475000025,
+ "lon": -116.19162010699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213092",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240582",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

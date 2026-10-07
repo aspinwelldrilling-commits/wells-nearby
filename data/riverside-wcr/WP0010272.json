@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010272",
+ "processed": "2026-10-07T07:09:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "763-390-005",
+ "address": "89430 Airport Blvd",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240492",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 835
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240492",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 900",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-09-26",
+   "conf": "low",
+   "ocrConf": 6.933586,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240492",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.64821615900007,
+ "lon": -116.10352323399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213037",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240492",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

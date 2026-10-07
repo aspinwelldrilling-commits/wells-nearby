@@ -1,0 +1,49 @@
+{
+ "permit": "WP0000188",
+ "processed": "2026-10-07T06:54:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "769-210-000",
+ "address": "La Quinta Orchards",
+ "city": "La Quinta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233506",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 982
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233506",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 51.709663,
+   "raw": "(12) WELL LOG: Total depth 450",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233506",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.68339874700007,
+ "lon": -116.27723859199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222374",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233506",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

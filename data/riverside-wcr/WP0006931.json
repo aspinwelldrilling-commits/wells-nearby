@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006931",
+ "processed": "2026-10-07T07:05:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "767-340-019",
+ "address": "82890 William Way",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238718",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 749
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238718",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 610.0,
+   "conf": "low",
+   "ocrConf": 36.873856,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 610",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 80.0,
+   "conf": "low",
+   "ocrConf": 40.187088,
+   "raw": "ESTIMATED YIELD * 80 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238718",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.65259935200004,
+ "lon": -116.21972037699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215317",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238718",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

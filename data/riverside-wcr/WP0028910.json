@@ -1,0 +1,61 @@
+{
+ "permit": "WP0028910",
+ "processed": "2026-10-07T08:03:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "768-030-058",
+ "address": "84076 Avenue 50",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248801",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 227
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248801",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248801",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 95.020241,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-12-19",
+   "conf": "high",
+   "ocrConf": 96.251801,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248801",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.68627600000008,
+ "lon": -116.19680499999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310478",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248801",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

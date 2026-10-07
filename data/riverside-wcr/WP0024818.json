@@ -1,0 +1,84 @@
+{
+ "permit": "WP0024818",
+ "processed": "2026-10-07T07:15:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "648-180-010",
+ "address": "28200 Via Las  Palmas",
+ "city": "Thousand Palms",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248204",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 104
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248204",
+   "page": 1,
+   "source": "text",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248204",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 560.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        560",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 213.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  213 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Direct Rotary             Drilling Fluid    Not",
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2014-10-23",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.8382,
+   "lon": -116.37978,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248204",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.84419195700008,
+ "lon": -116.37235717799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201721",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248204",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

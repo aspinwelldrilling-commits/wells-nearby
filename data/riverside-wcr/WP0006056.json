@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006056",
+ "processed": "2026-10-07T07:39:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "747-460-027",
+ "address": "78468 Valley Vista Ave",
+ "city": "Desert Palms",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238165",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 940
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238165",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 349.0,
+   "conf": "medium",
+   "ocrConf": 73.424683,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 349",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-02-02",
+   "conf": "low",
+   "ocrConf": 37.548988,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238165",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.78981563000008,
+ "lon": -116.29160839199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216293",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238165",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

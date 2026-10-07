@@ -1,0 +1,86 @@
+{
+ "permit": "WP0018344",
+ "processed": "2026-10-07T07:59:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "763-320-040",
+ "address": "54895 Filmore St",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245945",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 45
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245945",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 530.0,
+   "conf": "high",
+   "ocrConf": 96.546608,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 530",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 257.0,
+   "conf": "high",
+   "ocrConf": 96.100975,
+   "raw": "ESTIMATED YIELD 257 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 13.0,
+   "conf": "high",
+   "ocrConf": 93.657082,
+   "raw": "WATER LEVEL 13 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Rotary",
+   "conf": "high",
+   "ocrConf": 81.970444,
+   "raw": "DRILLING METHOD Reverse Rotary FLUID Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.797966,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-01-15",
+   "conf": "medium",
+   "ocrConf": 77.954269,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245945",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.65039768100007,
+ "lon": -116.13080998399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208902",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245945",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

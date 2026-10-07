@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000195",
+ "processed": "2026-10-07T07:18:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "603-310-012",
+ "address": "49989 Grapefruit Blvd",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233511",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 822
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233511",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 21.0,
+   "conf": "low",
+   "ocrConf": 23.305771,
+   "raw": "TOTAL DEPTH OF BORING 21",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-05-16",
+   "conf": "medium",
+   "ocrConf": 66.880997,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233511",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.68581792800006,
+ "lon": -116.17949714099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222382",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233511",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

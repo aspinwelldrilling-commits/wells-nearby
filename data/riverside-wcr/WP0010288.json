@@ -1,0 +1,78 @@
+{
+ "permit": "WP0010288",
+ "processed": "2026-10-07T07:10:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "767-160-002",
+ "address": "83175 Avenue 51",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240517",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 781
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240517",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 96.966713,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 64.0,
+   "conf": "high",
+   "ocrConf": 96.999557,
+   "raw": "WATER LEVEL 64 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Mud Rotary",
+   "conf": "low",
+   "ocrConf": 47.424809,
+   "raw": "DRILLING METHOD Mud Rotary FLUID Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 96.018951,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-09-30",
+   "conf": "low",
+   "ocrConf": 45.852829,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240517",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.677992249000056,
+ "lon": -116.21284771999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213053",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240517",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

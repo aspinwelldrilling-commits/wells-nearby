@@ -1,0 +1,63 @@
+{
+ "permit": "WP0008085",
+ "processed": "2026-10-07T07:08:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "618-340-018",
+ "address": "VISTA DUNES",
+ "city": "Rancho Mirage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239465",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 763
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239465",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 510.0,
+   "conf": "medium",
+   "ocrConf": 63.521591,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 510",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 182.0,
+   "conf": "low",
+   "ocrConf": 47.572346,
+   "raw": "WATER LEVEL __182 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-01-03",
+   "conf": "high",
+   "ocrConf": 89.69828,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239465",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.76513492600003,
+ "lon": -116.39965184699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215103",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239465",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

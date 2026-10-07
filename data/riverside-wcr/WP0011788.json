@@ -1,0 +1,70 @@
+{
+ "permit": "WP0011788",
+ "processed": "2026-10-07T07:50:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "653-400-041",
+ "address": "37500 Cook St",
+ "city": "Palm Desert",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242069",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1611
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242069",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 366.0,
+   "conf": "high",
+   "ocrConf": 87.282639,
+   "raw": "Total Depth of Completed Well 366",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 170.0,
+   "conf": "medium",
+   "ocrConf": 61.177582,
+   "raw": "Water Level 170 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 64.787575,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-01-26",
+   "conf": "medium",
+   "ocrConf": 56.757133,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242069",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.77754201000005,
+ "lon": -116.35449507099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212345",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242069",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

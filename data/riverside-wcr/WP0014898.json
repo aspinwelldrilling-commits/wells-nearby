@@ -1,0 +1,69 @@
+{
+ "permit": "WP0014898",
+ "processed": "2026-10-07T07:55:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "612-220-001",
+ "address": "48311 Playa Del Amor",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243271",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1686
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243271",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243271",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1270.0,
+   "conf": "high",
+   "ocrConf": 85.41301,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _1270",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 12.0,
+   "conf": "low",
+   "ocrConf": 45.738377,
+   "raw": "WATER LEVEL 12\u00a2\u00a7 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-15",
+   "conf": "high",
+   "ocrConf": 82.085815,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243271",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.698211481000044,
+ "lon": -116.21613988899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210395",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243271",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

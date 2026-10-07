@@ -1,0 +1,60 @@
+{
+ "permit": "WP0008103",
+ "processed": "2026-10-07T07:45:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "609-380-022",
+ "address": "79751 Viento Dr",
+ "city": "La Quinta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239472",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2838
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239472",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239472",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239472",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 40.475655,
+   "raw": "ESTIMATED YIELD * 24 (GPM",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239472",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.73433546200005,
+ "lon": -116.27213688199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215124",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239472",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 3,
+ "status": "unreadable"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0015813",
+ "processed": "2026-10-07T07:12:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "82150 Avenue 58",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244781",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 929
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244781",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 454.0,
+   "conf": "low",
+   "ocrConf": 71.351746,
+   "raw": "WELL LOG: Total depth454",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 12.0,
+   "conf": "medium",
+   "ocrConf": 69.664116,
+   "raw": "Standing level after well completion 12 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244781",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.62852566200007,
+ "lon": -116.22985054399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/224742",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244781",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

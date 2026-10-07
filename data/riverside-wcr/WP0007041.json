@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007041",
+ "processed": "2026-10-07T07:06:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "765-640-003",
+ "address": "84650 Avenue 54",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239426",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 963
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239426",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 520.0,
+   "conf": "low",
+   "ocrConf": 23.452026,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 520",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-04-20",
+   "conf": "low",
+   "ocrConf": 16.756592,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239426",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.65841202400003,
+ "lon": -116.18775031899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215550",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239426",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0015901",
+ "processed": "2026-10-07T07:12:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244827",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 941
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244827",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 519.0,
+   "conf": "low",
+   "ocrConf": 56.28495,
+   "raw": "(12) WELL LOG: Total depth 519",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 9.0,
+   "conf": "high",
+   "ocrConf": 85.942047,
+   "raw": "Standing level after well completion 9 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244827",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.60560491800004,
+ "lon": -116.18988179899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/224829",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244827",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

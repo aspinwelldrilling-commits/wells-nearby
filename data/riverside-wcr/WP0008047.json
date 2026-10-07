@@ -1,0 +1,69 @@
+{
+ "permit": "WP0008047",
+ "processed": "2026-10-07T07:09:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "764-010-013",
+ "address": "57000 Palms Dr",
+ "city": "La Quinta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239436",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1900
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239436",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239436",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "2002-12-11",
+   "conf": "low",
+   "ocrConf": 14.683136,
+   "page": 1,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 89.0,
+   "conf": "low",
+   "ocrConf": 13.216217,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _89",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 7.260986,
+   "raw": "WATER LeveL___ 7 __(Ft",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239436",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.636073159000034,
+ "lon": -116.24049876999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215040",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239436",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "unreadable"
+}

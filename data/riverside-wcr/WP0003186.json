@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003186",
+ "processed": "2026-10-07T06:59:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "761-320-016",
+ "address": "58210 Park Ln",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235553",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1063
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235553",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 795.0,
+   "conf": "low",
+   "ocrConf": 28.625122,
+   "raw": "Completed depth 795",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 44.0,
+   "conf": "low",
+   "ocrConf": 15.543098,
+   "raw": "Standing level after well completion 44 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235553",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.624734226000044,
+ "lon": -116.23038053199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221740",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235553",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

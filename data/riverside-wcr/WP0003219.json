@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003219",
+ "processed": "2026-10-07T07:00:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "761-190-007",
+ "address": "81773 Avenue 58",
+ "city": "La Quinta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235585",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1179
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235585",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 520.0,
+   "conf": "low",
+   "ocrConf": 26.53466,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 520",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 15.730011,
+   "raw": "WATER LEVEL 4 ___(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235585",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.62470422500007,
+ "lon": -116.23744058499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221829",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235585",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

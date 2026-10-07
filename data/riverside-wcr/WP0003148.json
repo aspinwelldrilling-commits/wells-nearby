@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003148",
+ "processed": "2026-10-07T06:59:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "757-110-031",
+ "address": "56700 Fillmore",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235529",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 860
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235529",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 620.0,
+   "conf": "low",
+   "ocrConf": 0.852982,
+   "raw": "TOTAL DEPTH OF BORING 620",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-09-22",
+   "conf": "low",
+   "ocrConf": 19.581726,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235529",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.63717537500003,
+ "lon": -116.12780931799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221663",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235529",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

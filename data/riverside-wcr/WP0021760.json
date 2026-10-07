@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021760",
+ "processed": "2026-10-07T08:04:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "778-080-007",
+ "address": "51298 Harrison St (Highway 86)",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247117",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 426
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247117",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 11.273911,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL. 30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-06-17",
+   "conf": "low",
+   "ocrConf": 36.434105,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247117",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.67551480000003,
+ "lon": -116.18081779999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203873",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247117",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

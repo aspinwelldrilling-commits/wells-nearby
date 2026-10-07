@@ -1,0 +1,48 @@
+{
+ "permit": "WP0003115",
+ "processed": "2026-10-07T07:26:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "759-060-014",
+ "address": "56850 Tyler St",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235506",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1172
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235506",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 42.0,
+   "conf": "medium",
+   "ocrConf": 56.413403,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _42",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235506",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.63530187400005,
+ "lon": -116.16348363299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221592",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235506",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

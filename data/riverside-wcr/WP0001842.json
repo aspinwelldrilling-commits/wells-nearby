@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001842",
+ "processed": "2026-10-07T07:21:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "765-361-008",
+ "address": "51890 Cesar Chavez St (Highway 86)",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234689",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 802
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234689",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 58.030098,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ____20",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-06-29",
+   "conf": "low",
+   "ocrConf": 22.629578,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234689",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.67109321500004,
+ "lon": -116.18128633199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220708",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234689",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

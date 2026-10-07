@@ -1,0 +1,48 @@
+{
+ "permit": "WP0005199",
+ "processed": "2026-10-07T07:32:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "765-361-008",
+ "address": "51890 Harrison St",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236831",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236831",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 39.331207,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 20",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236831",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.670986748000075,
+ "lon": -116.18119391899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218327",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236831",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,61 @@
+{
+ "permit": "WP0002967",
+ "processed": "2026-10-07T07:25:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "761-240-006",
+ "address": "82225 Airport Blvd",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234843",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1608
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234843",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234843",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 75.998764,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1997-03-26",
+   "conf": "high",
+   "ocrConf": 95.880219,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234843",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.64114148600004,
+ "lon": -116.23012003899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221137",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234843",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

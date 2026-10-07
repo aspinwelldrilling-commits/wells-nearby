@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010274",
+ "processed": "2026-10-07T07:49:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "767-160-025",
+ "address": "51100 Jackson St",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240495",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 725
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240495",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 436.0,
+   "conf": "high",
+   "ocrConf": 96.511993,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 436",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 96.925827,
+   "raw": "WATER LEVEL 45 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-08-29",
+   "conf": "high",
+   "ocrConf": 96.871414,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240495",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.67731618100004,
+ "lon": -116.215080393,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213040",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240495",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,64 @@
+{
+ "permit": "WP0003911",
+ "processed": "2026-10-07T07:01:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "766-060-016",
+ "address": "1 QUARRY LANE",
+ "city": "La Quinta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236030",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 892
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236030",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 860.0,
+   "conf": "low",
+   "ocrConf": 58.56675,
+   "raw": "TOTAL DEPTH OF BORING 860",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 171.0,
+   "conf": "high",
+   "ocrConf": 96.529617,
+   "raw": "WATER LEVEL 171 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-09-30",
+   "conf": "low",
+   "ocrConf": 15.555336,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236030",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.62445847600003,
+ "lon": -116.27151629699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214857",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236030",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

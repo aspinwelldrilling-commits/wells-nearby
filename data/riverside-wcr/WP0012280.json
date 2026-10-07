@@ -1,0 +1,77 @@
+{
+ "permit": "WP0012280",
+ "processed": "2026-10-07T07:11:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "632-282-046",
+ "address": "153 Blue River Dr",
+ "city": "Palm Desert",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241363",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2239
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241363",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241363",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "high",
+   "ocrConf": 96.318695,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 283.42,
+   "conf": "low",
+   "ocrConf": 9.375771,
+   "raw": "WATER LEVEL __ 283.42 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-15",
+   "conf": "high",
+   "ocrConf": 96.534904,
+   "page": 2,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3000.0,
+   "conf": "high",
+   "ocrConf": 96.767105,
+   "raw": "ESTIMATED YIELD_ 3,000 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241363",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.75673818800004,
+ "lon": -116.35312276399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212458",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241363",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0001489",
+ "processed": "2026-10-07T06:56:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "763-370-004",
+ "address": "55870 Fillmore St",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234430",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 875
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234430",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 48.38192,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 96.796761,
+   "raw": "ESTIMATED YIELD * 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-06-13",
+   "conf": "medium",
+   "ocrConf": 53.070724,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234430",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.64354517600003,
+ "lon": -116.12875900999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219560",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234430",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

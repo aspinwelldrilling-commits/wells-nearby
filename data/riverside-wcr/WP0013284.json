@@ -1,0 +1,56 @@
+{
+ "permit": "WP0013284",
+ "processed": "2026-10-07T07:52:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "603-101-015",
+ "address": "46155 Dillon Rd",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242390",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1070
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242390",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 48.273407,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___25",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-11-08",
+   "conf": "high",
+   "ocrConf": 96.589592,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242390",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.71366520000004,
+ "lon": -116.17577899999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212304",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242390",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

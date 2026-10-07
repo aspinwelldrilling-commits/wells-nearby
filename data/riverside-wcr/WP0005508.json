@@ -1,0 +1,57 @@
+{
+ "permit": "WP0005508",
+ "processed": "2026-10-07T07:37:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "610-053-022",
+ "address": "43955 Clinton St",
+ "city": "Indio",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237095",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 849
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237095",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 75.0,
+   "conf": "low",
+   "ocrConf": 64.686974,
+   "raw": "TOTAL DEPTH OF BORING _ 75",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 65.0,
+   "conf": "medium",
+   "ocrConf": 51.200634,
+   "raw": "WATER LeveL 65\" __(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237095",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.72971924900003,
+ "lon": -116.24313830199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219179",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237095",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

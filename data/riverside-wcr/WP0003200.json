@@ -1,0 +1,48 @@
+{
+ "permit": "WP0003200",
+ "processed": "2026-10-07T07:28:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "614-040-004",
+ "address": "46263 Oasis St",
+ "city": "Indio",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235566",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 807
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235566",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 45.0,
+   "conf": "low",
+   "ocrConf": 49.450268,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 45",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235566",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.712691851000045,
+ "lon": -116.22135531699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221776",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235566",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

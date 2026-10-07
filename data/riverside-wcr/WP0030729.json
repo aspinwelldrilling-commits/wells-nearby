@@ -1,0 +1,91 @@
+{
+ "permit": "WP0030729",
+ "processed": "2026-10-07T07:16:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "764-130-009",
+ "address": "57648 Monroe St",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306520",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 72
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306520",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306520",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 530.0,
+   "conf": "medium",
+   "ocrConf": 61.332314,
+   "raw": "Total Depth of Completed Well 530",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 62.0,
+   "conf": "high",
+   "ocrConf": 96.158302,
+   "raw": "Water Level 62 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 81.920609,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 79.124146,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-06-28",
+   "conf": "medium",
+   "ocrConf": 79.949455,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.629399,
+   "lon": -116.2329224,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306520",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.629399,
+ "lon": -116.2329224,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/309582",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306520",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

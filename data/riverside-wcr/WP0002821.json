@@ -1,0 +1,77 @@
+{
+ "permit": "WP0002821",
+ "processed": "2026-10-07T06:57:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "620-190-019",
+ "address": "FRANK SINATRA @ PORTOLA",
+ "city": "Palm Desert",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234974",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1743
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234974",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234974",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2580.0,
+   "conf": "low",
+   "ocrConf": 37.317642,
+   "raw": "ESTIMATED YIELD 2580 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 246.0,
+   "conf": "high",
+   "ocrConf": 96.948593,
+   "raw": "WATER LEVEL 246 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1996-03-28",
+   "conf": "low",
+   "ocrConf": 4.15448,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234974",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.77076266700004,
+ "lon": -116.36424466099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220713",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234974",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

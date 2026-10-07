@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007200",
+ "processed": "2026-10-07T07:07:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "618-440-005",
+ "address": "VISTA DEL SOL",
+ "city": "Rancho Mirage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238882",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 875
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238882",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 45.889896,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 234.0,
+   "conf": "high",
+   "ocrConf": 94.801788,
+   "raw": "WATER LEVEL 234 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238882",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.76837220800007,
+ "lon": -116.39634022499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216104",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238882",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

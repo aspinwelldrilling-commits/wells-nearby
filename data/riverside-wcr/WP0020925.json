@@ -1,0 +1,91 @@
+{
+ "permit": "WP0020925",
+ "processed": "2026-10-07T08:02:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "748-390-012",
+ "address": "38-180 Del Webb Blvd",
+ "city": "Desert Palms",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246572",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 517
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246572",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246572",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246572",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.783,
+   "conf": "high",
+   "ocrConf": 80.602257,
+   "raw": "Estimated Yield* 2.783 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 141.0,
+   "conf": "low",
+   "ocrConf": 39.554314,
+   "raw": "Water Level 141 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-09-21",
+   "conf": "high",
+   "ocrConf": 94.591965,
+   "page": 1,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 900.0,
+   "conf": "medium",
+   "ocrConf": 67.089218,
+   "raw": "Total Depth of Completed Well 900",
+   "page": 3,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Circulation Rotary",
+   "conf": "high",
+   "ocrConf": 90.921371,
+   "raw": "Drilling Method Reverse Circulation Rotary Drilling Fluid Fresh",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246572",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.77179640600008,
+ "lon": -116.29765089699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205141",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246572",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 3,
+ "status": "readable"
+}

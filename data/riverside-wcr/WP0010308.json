@@ -1,0 +1,48 @@
+{
+ "permit": "WP0010308",
+ "processed": "2026-10-07T07:10:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "763-070-012",
+ "address": "AVE 50 & FILMORE",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240545",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 378
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240545",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "low",
+   "ocrConf": 40.820374,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 900",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240545",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.681209341000056,
+ "lon": -116.13151037999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213068",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240545",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007088",
+ "processed": "2026-10-07T07:44:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "763-150-015",
+ "address": "52255 Fillmore St",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238794",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 959
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238794",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 66.037628,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-05-18",
+   "conf": "medium",
+   "ocrConf": 58.496498,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238794",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.66847426900006,
+ "lon": -116.13048954199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215689",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238794",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

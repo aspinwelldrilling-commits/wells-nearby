@@ -1,0 +1,68 @@
+{
+ "permit": "WP0030630",
+ "processed": "2026-10-07T08:05:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "691-070-007",
+ "address": "79558 Avenue 40 ",
+ "city": "Indio",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270862",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 78
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270862",
+   "page": 1,
+   "source": "text",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270862",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-04-14",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.7620167,
+   "lon": -116.2776208,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270862",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.7620167,
+ "lon": -116.2776208,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/268021",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270862",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,83 @@
+{
+ "permit": "WP0030511",
+ "processed": "2026-10-07T08:05:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "651-190-006",
+ "address": "Washington St ",
+ "city": "Thousand Palms",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274999",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 137
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274999",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274999",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 49.0,
+   "conf": "low",
+   "ocrConf": 33.84845,
+   "raw": "Total Depth of Completed Well 49",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": 90.913506,
+   "raw": "Drilling Method Auger Drilling Fluid Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 88.374969,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-02-23",
+   "conf": "medium",
+   "ocrConf": 70.448517,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.8149549,
+   "lon": -116.3238768,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274999",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.8149549,
+ "lon": -116.3238768,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274189",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274999",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

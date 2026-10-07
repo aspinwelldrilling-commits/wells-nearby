@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007140",
+ "processed": "2026-10-07T07:08:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "658-190-003",
+ "address": "49455 Coachella Dr",
+ "city": "La Quinta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238830",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 884
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238830",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 810.0,
+   "conf": "low",
+   "ocrConf": 37.130356,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 810",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-09-26",
+   "conf": "high",
+   "ocrConf": 96.570099,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238830",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.687139122000076,
+ "lon": -116.30682621399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215883",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238830",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

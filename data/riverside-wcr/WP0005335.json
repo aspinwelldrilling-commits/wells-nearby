@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005335",
+ "processed": "2026-10-07T07:02:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "612-280-016",
+ "address": "Ave 50 & Calhoun St",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236939",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 876
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236939",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.192467,
+   "raw": "WATER LEVEL 30 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1998-03-24",
+   "conf": "high",
+   "ocrConf": 96.266991,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236939",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.68847412500003,
+ "lon": -116.20992543599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218691",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236939",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

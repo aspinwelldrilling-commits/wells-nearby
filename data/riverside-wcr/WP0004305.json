@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004305",
+ "processed": "2026-10-07T07:29:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "747-440-038",
+ "address": "38000 Monroe St",
+ "city": "Indio Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236270",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2150
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236270",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 438.0,
+   "conf": "medium",
+   "ocrConf": 53.758781,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 438",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-06-30",
+   "conf": "low",
+   "ocrConf": 38.599854,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236270",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.77455463200005,
+ "lon": -116.24126769999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220057",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236270",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

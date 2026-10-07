@@ -1,0 +1,78 @@
+{
+ "permit": "WP0010269",
+ "processed": "2026-10-07T07:09:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "623-040-012",
+ "address": "46000 E Eldorado Dr",
+ "city": "Indian Wells",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240486",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 744
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240486",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 44.312172,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 96.884521,
+   "raw": "WATER LEVEL 120 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.668411,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-01-29",
+   "conf": "high",
+   "ocrConf": 96.729782,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2307.0,
+   "conf": "low",
+   "ocrConf": 40.488476,
+   "raw": "ESTIMATED YIELD _2307 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240486",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.71069625100006,
+ "lon": -116.34063840999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213034",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240486",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

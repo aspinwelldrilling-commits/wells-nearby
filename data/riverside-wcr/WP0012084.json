@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012084",
+ "processed": "2026-10-07T07:51:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "757-341-008",
+ "address": "61320 Pierce St",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243851",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 762
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243851",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 560.0,
+   "conf": "medium",
+   "ocrConf": 79.318192,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 560",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-01-27",
+   "conf": "low",
+   "ocrConf": 46.109322,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243851",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.60383591300007,
+ "lon": -116.11157702899999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243851",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

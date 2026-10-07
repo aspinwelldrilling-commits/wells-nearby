@@ -1,0 +1,49 @@
+{
+ "permit": "WP0001456",
+ "processed": "2026-10-07T06:56:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "625-100-018",
+ "address": "74700 Highway 111",
+ "city": "Palm Desert",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234407",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 897
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234407",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "low",
+   "ocrConf": 11.417458,
+   "raw": "TOTAL DEPTH OF BORING ___500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234407",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.721889403000034,
+ "lon": -116.36226282699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219469",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234407",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

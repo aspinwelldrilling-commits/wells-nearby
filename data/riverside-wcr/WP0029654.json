@@ -1,0 +1,68 @@
+{
+ "permit": "WP0029654",
+ "processed": "2026-10-07T08:04:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "610-280-008",
+ "address": "43955 Clinton St ",
+ "city": "Indio",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248858",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 101
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248858",
+   "page": 1,
+   "source": "text",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248858",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-03-03",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.729718,
+   "lon": -116.2427048,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248858",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.72976,
+ "lon": -116.2427,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262651",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248858",
+ "serviceType": "Destruction",
+ "wellType": "Cathodic",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,61 @@
+{
+ "permit": "WP0008046",
+ "processed": "2026-10-07T07:08:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "653-420-010",
+ "address": "76000 Frank Sinatra Dr",
+ "city": "Palm Desert",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239437",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1688
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239437",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239437",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 167.0,
+   "conf": "low",
+   "ocrConf": 29.381531,
+   "raw": "WATER LEVEL 167 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-12-05",
+   "conf": "high",
+   "ocrConf": 96.274261,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239437",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.77499888400007,
+ "lon": -116.34125638199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215039",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239437",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

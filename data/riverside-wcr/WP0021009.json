@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021009",
+ "processed": "2026-10-07T08:02:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "603-220-045",
+ "address": "48055 Grapefruit Blvd (Highway 111)",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246795",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 419
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246795",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 96.08432,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid\nName",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-08-10",
+   "conf": "high",
+   "ocrConf": 96.556412,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246795",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.699893676000045,
+ "lon": -116.19166382999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204121",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246795",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

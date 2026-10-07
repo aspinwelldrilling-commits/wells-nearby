@@ -1,0 +1,92 @@
+{
+ "permit": "WP0015107",
+ "processed": "2026-10-07T07:11:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "648-160-015",
+ "address": "73401 Vista Chino",
+ "city": "Thousand Palms",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244106",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 104
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244106",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244106",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 588.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        588",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 408.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  408 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Direct Rotary             Drilling Fluid    Not",
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2005-01-18",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.8382,
+   "lon": -116.37978,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*              45 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244106",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.844164713000055,
+ "lon": -116.38131580399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210573",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244106",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

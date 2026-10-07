@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014916",
+ "processed": "2026-10-07T07:56:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "624-300-004",
+ "address": "74855 Country Club Dr",
+ "city": "Palm Desert",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243281",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 969
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243281",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 230.0,
+   "conf": "high",
+   "ocrConf": 93.842461,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 230",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-07-28",
+   "conf": "high",
+   "ocrConf": 96.516533,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243281",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.75377560000004,
+ "lon": -116.36728021699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210410",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243281",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

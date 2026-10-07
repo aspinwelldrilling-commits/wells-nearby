@@ -1,0 +1,49 @@
+{
+ "permit": "WP0000139",
+ "processed": "2026-10-07T07:15:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "767-190-007",
+ "address": "83876 Avenue 52",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233459",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1074
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233459",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 22.085686,
+   "raw": "(12) WELL LOG: Total depth 60",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233459",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.67132767500004,
+ "lon": -116.20106729499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222325",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233459",
+ "serviceType": "Destruction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

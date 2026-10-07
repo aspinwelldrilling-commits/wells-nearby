@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012151",
+ "processed": "2026-10-07T07:11:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "764-200-006",
+ "address": "AVE 58 & MONROE",
+ "city": "La Quinta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241330",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1031
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241330",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 790.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 790",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1964-03-14",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241330",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.62392792900005,
+ "lon": -116.23989560899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212424",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241330",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

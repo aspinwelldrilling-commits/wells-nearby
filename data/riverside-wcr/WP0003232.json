@@ -1,0 +1,55 @@
+{
+ "permit": "WP0003232",
+ "processed": "2026-10-07T07:26:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "765-240-008",
+ "address": "1577 1st St",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235598",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 901
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235598",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235598",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 26.5,
+   "conf": "medium",
+   "ocrConf": 95.518997,
+   "raw": "TOTAL DEPTH OF BORING: 26.5",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235598",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.68357000000003,
+ "lon": -116.179172,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221868",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235598",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "partial"
+}

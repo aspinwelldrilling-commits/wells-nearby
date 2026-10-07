@@ -1,0 +1,78 @@
+{
+ "permit": "WP0010354",
+ "processed": "2026-10-07T07:11:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "767-280-033",
+ "address": "83285 Avenue 53",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240607",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 770
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240607",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 510.0,
+   "conf": "high",
+   "ocrConf": 96.315178,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 510",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 68.0,
+   "conf": "high",
+   "ocrConf": 96.257462,
+   "raw": "WATER LEVEL 68 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Mud Rotary",
+   "conf": "high",
+   "ocrConf": 96.707825,
+   "raw": "DRILLING METHOD _ Mud Rotary FLUID Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 96.006462,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-12-01",
+   "conf": "high",
+   "ocrConf": 84.993073,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240607",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.66311099600006,
+ "lon": -116.21129196899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213105",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240607",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

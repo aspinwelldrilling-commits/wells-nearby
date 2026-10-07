@@ -1,0 +1,64 @@
+{
+ "permit": "WP0007218",
+ "processed": "2026-10-07T07:07:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "745-370-003",
+ "address": "39905 Dillon Rd",
+ "city": "Indio Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238900",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 840
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238900",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 635.0,
+   "conf": "medium",
+   "ocrConf": 88.487213,
+   "raw": "TOTAL DEPTH OF BORING __635",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 390.0,
+   "conf": "high",
+   "ocrConf": 95.437973,
+   "raw": "WATER LEVEL 390 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-03-08",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238900",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.78374758000007,
+ "lon": -116.18126089599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216187",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238900",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

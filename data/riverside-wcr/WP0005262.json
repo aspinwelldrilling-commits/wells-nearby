@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005262",
+ "processed": "2026-10-07T07:02:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "763-180-002",
+ "address": "53600 Filmore St",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236882",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 782
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236882",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 79.489616,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1997-06-23",
+   "conf": "low",
+   "ocrConf": 28.173187,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236882",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.659724718000064,
+ "lon": -116.12812216099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218486",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236882",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

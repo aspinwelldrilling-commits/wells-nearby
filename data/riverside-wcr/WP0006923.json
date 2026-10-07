@@ -1,0 +1,64 @@
+{
+ "permit": "WP0006923",
+ "processed": "2026-10-07T07:05:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "618-430-019",
+ "address": "2 Beach Dunes Ct",
+ "city": "Rancho Mirage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238711",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 840
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238711",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "low",
+   "ocrConf": 40.870949,
+   "raw": "TOTAL DEPTH OF BORING _310",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 232.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LeveL __232' __(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-09-08",
+   "conf": "low",
+   "ocrConf": 0.937737,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238711",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.76928608400004,
+ "lon": -116.39417709799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215302",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238711",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

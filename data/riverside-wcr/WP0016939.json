@@ -1,0 +1,87 @@
+{
+ "permit": "WP0016939",
+ "processed": "2026-10-07T07:15:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "651-050-012",
+ "address": "30687 Shadow Mountain Ln",
+ "city": "Thousand Palms",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245441",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1930
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245441",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 95.0,
+   "conf": "high",
+   "ocrConf": 90.161575,
+   "raw": "Total Depth of Completed Well 95",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 18.924103,
+   "raw": "Estimated Yield* 60s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 248.0,
+   "conf": "low",
+   "ocrConf": 79.439178,
+   "raw": "Water Level 248 ss (Feet",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.407448,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-12-22",
+   "conf": "low",
+   "ocrConf": 38.070393,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245441",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.82607481700006,
+ "lon": -116.34482107499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209531",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245441",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,74 @@
+{
+ "permit": "WP0005276",
+ "processed": "2026-10-07T07:02:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "620-200-028",
+ "address": "Desert Willow Phase II",
+ "city": "Palm Desert",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236896",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3397
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236896",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236896",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236896",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236896",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1010.0,
+   "conf": "low",
+   "ocrConf": 64.780418,
+   "raw": "TOTAL DEPTH OF BORING 1010",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1987-09-18",
+   "conf": "high",
+   "ocrConf": 95.405235,
+   "page": 4,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236896",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.76532492800004,
+ "lon": -116.36475183999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218540",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236896",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

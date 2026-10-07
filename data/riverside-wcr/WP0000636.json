@@ -1,0 +1,49 @@
+{
+ "permit": "WP0000636",
+ "processed": "2026-10-07T07:17:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "632-421-016",
+ "address": "41960 Hemingway Ct",
+ "city": "Palm Desert",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233886",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1108
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233886",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 29.0,
+   "conf": "medium",
+   "ocrConf": 91.985268,
+   "raw": "(12) WELL LOG: Total depth 29",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233886",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.74421032600003,
+ "lon": -116.34678304599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220607",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233886",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

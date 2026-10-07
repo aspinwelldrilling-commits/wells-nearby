@@ -1,0 +1,56 @@
+{
+ "permit": "WP0020079",
+ "processed": "2026-10-07T08:01:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "766-110-017",
+ "address": "AVENUE 60 & MADISON St",
+ "city": "La Quinta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246611",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 423
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246611",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 255.0,
+   "conf": "high",
+   "ocrConf": 95.891144,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 255",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 192.0,
+   "conf": "high",
+   "ocrConf": 96.308243,
+   "raw": "WATER LEVEL 192 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246611",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.60862251800006,
+ "lon": -116.25579137799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204328",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246611",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

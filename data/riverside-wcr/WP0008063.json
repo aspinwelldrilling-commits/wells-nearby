@@ -1,0 +1,68 @@
+{
+ "permit": "WP0008063",
+ "processed": "2026-10-07T07:44:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "765-460-001",
+ "address": "85810 Grapefruit Blvd",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239451",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2832
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239451",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239451",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239451",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 56.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 56",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "medium",
+   "ocrConf": 51.650921,
+   "raw": "WATER LEVEL__3@ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239451",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.68036381300004,
+ "lon": -116.17054975799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215065",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239451",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,48 @@
+{
+ "permit": "WP0010280",
+ "processed": "2026-10-07T07:09:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "764-270-017",
+ "address": "Trilogy Parkway",
+ "city": "La Quinta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240504",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1675
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240504",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 798.0,
+   "conf": "medium",
+   "ocrConf": 78.458366,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 798",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240504",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.607756893000044,
+ "lon": -116.24569458299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213045",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240504",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

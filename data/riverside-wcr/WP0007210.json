@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007210",
+ "processed": "2026-10-07T07:42:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "763-240-030",
+ "address": "85400 Avenue 55",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238894",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 398
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238894",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 78.886826,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-12-07",
+   "conf": "low",
+   "ocrConf": 37.446053,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238894",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.65060096600007,
+ "lon": -116.17393494599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216150",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238894",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

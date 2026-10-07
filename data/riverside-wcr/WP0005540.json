@@ -1,0 +1,61 @@
+{
+ "permit": "WP0005540",
+ "processed": "2026-10-07T07:04:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "767-340-015",
+ "address": "54560 Oasis St",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237129",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2081
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237129",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237129",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 52.0,
+   "conf": "medium",
+   "ocrConf": 54.417706,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __52",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-06-10",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237129",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.65199380200005,
+ "lon": -116.22325079699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219333",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237129",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

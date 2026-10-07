@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007119",
+ "processed": "2026-10-07T07:06:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "601-210-005",
+ "address": "86600 Fargo Canyon Rd",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238814",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 875
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238814",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 14.578514,
+   "raw": "ESTIMATED YIELD\u2018 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-10-22",
+   "conf": "high",
+   "ocrConf": 96.421387,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238814",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.749512570000036,
+ "lon": -116.14894421999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215806",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238814",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

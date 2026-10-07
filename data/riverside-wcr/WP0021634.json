@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021634",
+ "processed": "2026-10-07T08:02:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "763-350-007",
+ "address": "55651 Highway 111",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247070",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 394
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247070",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 52.0,
+   "conf": "high",
+   "ocrConf": 95.76915,
+   "raw": "Total Depth of Completed Well 52",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-09-23",
+   "conf": "high",
+   "ocrConf": 95.276573,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247070",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.64211770000003,
+ "lon": -116.14114109999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203759",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247070",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

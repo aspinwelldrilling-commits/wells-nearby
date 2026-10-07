@@ -1,0 +1,63 @@
+{
+ "permit": "WP0006949",
+ "processed": "2026-10-07T07:05:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "651-040-018",
+ "address": "75015 30th Ave",
+ "city": "Thousand Palms",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238735",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1258
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238735",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 498.0,
+   "conf": "low",
+   "ocrConf": 37.26577,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 498",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-12-11",
+   "conf": "low",
+   "ocrConf": 38.660179,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 23.529526,
+   "raw": "ESTIMATED YiELD *_30 (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238735",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.83062044500008,
+ "lon": -116.35263108699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215368",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238735",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

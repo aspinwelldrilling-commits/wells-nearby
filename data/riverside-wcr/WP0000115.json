@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000115",
+ "processed": "2026-10-07T07:15:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "763-140-004",
+ "address": "TYLER ST, 54 AVE",
+ "city": "Coachella",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233440",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 767
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233440",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 730.0,
+   "conf": "medium",
+   "ocrConf": 59.338604,
+   "raw": "Completed depth 730 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 650.0,
+   "conf": "high",
+   "ocrConf": 96.675133,
+   "raw": "Discharge. 650 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233440",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.65859000000006,
+ "lon": -116.16105,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222295",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233440",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

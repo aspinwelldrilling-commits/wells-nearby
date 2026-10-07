@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001579",
+ "processed": "2026-10-07T06:57:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "607-040-047",
+ "address": "40955 Yucca Ln",
+ "city": "Bermuda Dunes",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234503",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 817
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234503",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 65.0,
+   "conf": "medium",
+   "ocrConf": 63.201641,
+   "raw": "ESTIMATED YIELD -65 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-11-11",
+   "conf": "high",
+   "ocrConf": 84.89045,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234503",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.75124364000004,
+ "lon": -116.30003696799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219789",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234503",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

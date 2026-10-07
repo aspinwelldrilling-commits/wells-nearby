@@ -1,0 +1,72 @@
+{
+ "permit": "WP0019429",
+ "processed": "2026-10-07T07:15:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "651-072-063",
+ "address": "31453 Chimayo",
+ "city": "Thousand Palms",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246231",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 412
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246231",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 96.775826,
+   "raw": "Total Depth of Boring 500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 95.409729,
+   "raw": "Estimated Yield* 18 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 215.0,
+   "conf": "medium",
+   "ocrConf": 61.034664,
+   "raw": "Water Level 215 ____\u2014 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-11-29",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246231",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.82058263000005,
+ "lon": -116.34776950099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208169",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246231",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

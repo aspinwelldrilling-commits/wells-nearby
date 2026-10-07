@@ -1,0 +1,57 @@
+{
+ "permit": "WP0012092",
+ "processed": "2026-10-07T07:51:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "608-163-006",
+ "address": "81485 Miles Ave",
+ "city": "Indio",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243857",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 944
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243857",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 907.0,
+   "conf": "low",
+   "ocrConf": 33.153015,
+   "raw": "TOTAL DEPTH OF BORING 907",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-01-22",
+   "conf": "low",
+   "ocrConf": 21.245743,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243857",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.72178746000003,
+ "lon": -116.24301084099994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243857",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

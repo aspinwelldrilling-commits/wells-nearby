@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030058",
+ "processed": "2026-10-07T07:15:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "685-220-011",
+ "address": "685-220-011",
+ "city": "Rancho Mirage",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248986",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 108
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248986",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248986",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well         900",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 258.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                258 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Direct Rotary             Drilling Fluid    Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-08-04",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.4641,
+   "lon": -116.2353,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 3000.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*         3000 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248986",
+ "errors": [],
+ "area": "coachella-valley",
+ "lat": 33.77838003900007,
+ "lon": -116.39854999899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/232683",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248986",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}
