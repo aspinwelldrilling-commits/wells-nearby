@@ -129,6 +129,52 @@
           w.destruction = /destr/i.test(w.recordType || '');
         },
       },
+
+      // COUNTY: Riverside County DEH well permits (hosted FeatureServer used by Well Application Lookup).
+      // Live through 2026; many rows carry direct OpenDoc PDF links (Permit_Path / WCR_Path). CORS *.
+      // APN is 9-digit dashed (e.g. 584-190-004). Points are permit coordinates (not always parcel center).
+      countyRiverside: {
+        group: 'county',
+        type: 'arcgis',
+        label: 'Riverside County DEH well permits',
+        queryUrl: 'https://services1.arcgis.com/pWmBUdSlVpXStHU6/arcgis/rest/services/RivCo_Well_Permits/FeatureServer/2/query',
+        pageSize: 2000,
+        maxRecords: 10000,
+        fieldMap: {
+          permit: 'WellPCID',
+          apn: 'APN',
+          lat: 'Latitude',
+          lon: 'Longitude',
+          dateEnded: 'Final_Approval_Date',
+          wellUse: 'Type_of_Well',
+          recordType: 'Service_Type',
+          status: 'Application_Status',
+          address: 'Well_Address',
+          city: 'City',
+          zip: 'Zip_Code',
+          pdfUrl: 'WCR_Path',
+          permitPdf: 'Permit_Path',
+          legacyPermit: 'Legacy_Permit',
+          llAccuracy: 'Accuracy',
+          llMethod: 'Source',
+        },
+        post: (w) => {
+          const use = (w.wellUse || '').trim();
+          w.plannedUse = /individual|domestic/i.test(use) ? 'Water Supply Domestic'
+            : /agricultur/i.test(use) ? 'Water Supply Irrigation'
+            : /community|public/i.test(use) ? 'Water Supply Public'
+            : /monitor/i.test(use) ? 'Monitoring'
+            : (use ? use : 'Water Supply Unknown');
+          w.waterSupply = /individual|agricultur|community|domestic|irrigation|public/i.test(use)
+            || (/^water supply/i.test(w.plannedUse) && !/monitor/i.test(use));
+          w.destruction = /destr/i.test(w.recordType || '');
+          if (!w.llAccuracy) w.llAccuracy = 'County GIS';
+          // Keep OpenDoc WCR link even when a matched state WCR later overwrites pdfUrl.
+          if (w.pdfUrl) w.countyWcrUrl = w.pdfUrl;
+          if (w.permitPdf) w.countyPermitUrl = w.permitPdf;
+          w.countyKey = 'riverside';
+        },
+      },
     },
 
     // San Diego County DEHQ "Environmental Health Document Library" (Documentum behind an AEM page).
@@ -146,6 +192,11 @@
 
     // Values read from county completion reports by tools/extract_county_wcr.py (cached JSON in the repo).
     countyWcr: {
+      // San Diego (legacy paths kept for older caches) + Riverside (separate dir so shards never clash).
+      caches: [
+        { key: 'sandiego', manifestUrl: 'data/county-wcr/manifest.json', indexUrl: 'data/county-wcr/index.json' },
+        { key: 'riverside', manifestUrl: 'data/riverside-wcr/manifest.json', indexUrl: 'data/riverside-wcr/index.json' },
+      ],
       manifestUrl: 'data/county-wcr/manifest.json', // tile manifest (bounds + hash per tile) -> tiles/<key>.json
       indexUrl: 'data/county-wcr/index.json',       // legacy single file, used only if there is no manifest
       maxGpsShiftMiles: 1.0,     // GPS read from a WCR must be within this of the parcel center, else ignored
@@ -226,6 +277,12 @@
       outFields: 'APN,SITUS_ADDRESS,SITUS_FRACTION,SITUS_PRE_DIR,SITUS_STREET,SITUS_SUFFIX,SITUS_POST_DIR,SITUS_SUITE,SITUS_COMMUNITY,SITUS_ZIP,ACREAGE,Shape.STArea(),OWN_NAME1,LEGLDESC',
       timeoutMs: 12000,
     },
+    // Riverside Assessor parcels (9-digit APN, often undashed in GIS). Used by the search box for RivCo APNs.
+    riversideParcels: {
+      url: 'https://gis.countyofriverside.us/arcgis_mapping/rest/services/OpenData/Assessor/MapServer/50/query',
+      outFields: 'APN,SITUS_STREET,SITUS_CITY,STREET_NUMBER,STREET_NAME,STREET_TYPE,STREET_PREDIRECTION,STREET_SUFFIX,CITY,ZIP_CODE,ACREAGE',
+      timeoutMs: 12000,
+    },
     // Address / APN search box on the map (js/search.js). APN -> the parcel layer above. Addresses -> SANDAG's public regional
     // locator (no key; covers San Diego County only; knows ZIP codes but not city names, so a typed community becomes its
     // ZIPs) + the parcel layer's situs address. Esri's World Geocoder is not used: it now needs an access token, and its terms
@@ -233,6 +290,7 @@
     addressSearch: {
       geocoderUrl: 'https://geo.sandag.org/server/rest/services/SANDAG_COMPOSITE_LOCATOR/GeocodeServer/findAddressCandidates',
       zipUrl: 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/ZIPCODE5/GeocodeServer/findAddressCandidates',  // "Ramona" / "92065" alone
+      riversideGeocoderUrl: 'https://gis.countyofriverside.us/arcgis_public/rest/services/GeocodingService/RiversideGeocoder/GeocodeServer/findAddressCandidates',
       timeoutMs: 12000,
       maxCandidates: 12,   // asked from the geocoder
       maxShown: 8,         // shown in the pick list
@@ -240,9 +298,14 @@
       dedupeM: 120,        // geocoder hits this close to another hit are the same place
       sameAddressM: 1500,  // same house number + street this close = same address (street points are interpolated)
       recentMax: 8,
-      countyBounds: [32.52, -117.62, 33.52, -116.07],   // S, W, N, E
+      // Covers San Diego + southern Riverside (Aguanga / Lake Riverside / Sage / Temecula fringe) for in-bounds checks.
+      countyBounds: [32.52, -117.62, 33.75, -116.07],   // S, W, N, E
+      riversideBounds: [33.35, -117.45, 34.15, -116.05],
       communities: {
-        'AGUANGA': ['92536'], 'ALPINE': ['91901', '91903'], 'BONITA': ['91902', '91908'], 'BONSALL': ['92003'], 'BORREGO SPRINGS': ['92004'],
+        'AGUANGA': ['92536'], 'LAKE RIVERSIDE': ['92536'], 'SAGE': ['92544', '92592'], 'ANZA': ['92539'],
+        'TEMECULA': ['92590', '92591', '92592', '92593'], 'MURRIETA': ['92562', '92563', '92564'],
+        'HEMET': ['92543', '92544', '92545', '92546'], 'IDYLLWILD': ['92549'],
+         'ALPINE': ['91901', '91903'], 'BONITA': ['91902', '91908'], 'BONSALL': ['92003'], 'BORREGO SPRINGS': ['92004'],
         'BOULEVARD': ['91905'], 'CAMP PENDLETON': ['92055'], 'CAMPO': ['91906'], 'CARDIFF': ['92007'],
         'CARLSBAD': ['92008', '92009', '92010', '92011', '92013', '92018'], 'CHULA VISTA': ['91909', '91910', '91911', '91912', '91913', '91914', '91915', '91921'],
         'CORONADO': ['92118', '92178'], 'DEL MAR': ['92014'], 'DESCANSO': ['91916'], 'DULZURA': ['91917'], 'EL CAJON': ['92019', '92020', '92021', '92022'],

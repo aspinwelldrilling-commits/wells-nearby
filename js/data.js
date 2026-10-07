@@ -150,11 +150,32 @@
     throw new Error('All data sources failed — ' + errors.join(' | '));
   }
 
-  /** County DEHQ permits (ArcGIS). */
+  /** County well-permit layers (San Diego + Riverside, …). Keys whose group is 'county'. */
+  function countySourceKeys() {
+    return Object.keys(C.sources).filter((k) => (C.sources[k] || {}).group === 'county');
+  }
+
+  /** County DEHQ / RivCo permits (ArcGIS). Queries every county source and merges. */
   async function queryCounty(lat, lon, radiusMi) {
-    const res = await queryArcgis(lat, lon, radiusMi, 'county');
-    res.records.sort((a, b) => (a.distanceMi ?? 1e9) - (b.distanceMi ?? 1e9));
-    return res;
+    const keys = countySourceKeys();
+    const settled = await Promise.allSettled(keys.map((k) => queryArcgis(lat, lon, radiusMi, k)));
+    const records = [], errors = [], labels = [];
+    let truncated = false;
+    settled.forEach((r, i) => {
+      const key = keys[i], label = (C.sources[key] || {}).label || key;
+      if (r.status === 'fulfilled') {
+        records.push(...r.value.records);
+        if (r.value.truncated) truncated = true;
+        labels.push(label);
+      } else {
+        errors.push(`${label}: ${r.reason && r.reason.message || r.reason}`);
+      }
+    });
+    records.sort((a, b) => (a.distanceMi ?? 1e9) - (b.distanceMi ?? 1e9));
+    if (!records.length && errors.length && errors.length === keys.length) {
+      return { records: [], source: labels.join(' + ') || 'County', truncated: false, error: errors.join(' | '), errors };
+    }
+    return { records, source: labels.join(' + ') || 'County', truncated, errors };
   }
 
   /** Query state + county in parallel; each may fail independently. */
@@ -166,5 +187,5 @@
     };
   }
 
-  global.WellsData = { queryAll, queryCounty, parseDate, queryNearby, queryArcgis, queryCkan, normalize, haversineMi, classifyMethod, num, MI_PER_M };
+  global.WellsData = { queryAll, queryCounty, countySourceKeys, parseDate, queryNearby, queryArcgis, queryCkan, normalize, haversineMi, classifyMethod, num, MI_PER_M };
 })(typeof window !== 'undefined' ? window : globalThis);

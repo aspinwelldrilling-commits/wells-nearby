@@ -279,7 +279,11 @@
         state.nearestMode = true;
       }
     }
-    state.shown.forEach((w) => { const q = W.docQueries(w); w.docHint = q.some((x) => !x.secondary) ? '📄' : q.length ? 'APN' : ''; });
+    state.shown.forEach((w) => {
+      const c = w.group === 'county' ? w : w.group === 'both' ? w.county : (w.match && w.match.county);
+      if (c && (c.countyKey === 'riverside' || /^WP\d/i.test(c.permit || '')) && (c.countyWcrUrl || c.countyPermitUrl || c.pdfUrl)) { w.docHint = '📄'; return; }
+      const q = W.docQueries(w); w.docHint = q.some((x) => !x.secondary) ? '📄' : q.length ? 'APN' : '';
+    });
     renderSummary(); renderMarkers(); renderTable();
     if (state.nearestMode) {
       const pts = state.shown.filter((w) => w.lat != null).map((w) => [w.lat, w.lon]).concat([[state.lat, state.lon]]);
@@ -419,7 +423,16 @@
 
   // ---------- County document library (fetched when the popup opens) ----------
   const docReqs = new Map(); let docSeq = 0;
+  function rivcoDocsHtml(c) {
+    const links = [];
+    if (c.countyWcrUrl || c.pdfUrl) links.push(`<li><a href="${esc(c.countyWcrUrl || c.pdfUrl)}" target="_blank" rel="noopener">📋 Well Completion Report (OpenDoc)</a></li>`);
+    if (c.countyPermitUrl) links.push(`<li><a href="${esc(c.countyPermitUrl)}" target="_blank" rel="noopener">📄 Well permit PDF (OpenDoc)</a></li>`);
+    if (!links.length) return '';
+    return `<div class="docs"><div class="sub">Riverside County documents</div><div class="docs-body"><ul class="doclist">${links.join('')}</ul></div></div>`;
+  }
   function docsBlock(w) {
+    const c = w.group === 'county' ? w : w.group === 'both' ? w.county : (w.match && w.match.county);
+    if (c && (c.countyKey === 'riverside' || /^WP\d/i.test(c.permit || ''))) return rivcoDocsHtml(c);
     const qs = W.docQueries(w);
     if (!qs.length) return '';
     const id = 'docs' + (++docSeq);

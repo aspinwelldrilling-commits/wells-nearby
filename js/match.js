@@ -13,7 +13,8 @@
   const C = global.WELLS_CONFIG, D = global.WellsData;
   const DAY = 86400000;
 
-  // APN -> "BBBPPPNN" (book-page-parcel). Handles "284-245-19-00", "281-424-0200", "28424519", lists.
+  // APN -> comparable key. SD 10-digit "284-245-19-00" / 8-digit -> 8-char book-page-parcel.
+  // Riverside 9-digit "584-190-004" / "584190004" -> same 8-char form (book+page+last 2 of parcel).
   function apnKey(v) {
     if (!v) return null;
     const first = String(v).split(/[,;&]| and /i)[0].trim();
@@ -21,19 +22,23 @@
     let k;
     if (parts.length >= 3 && /^\d+$/.test(parts[0])) {
       const par = parts[2].replace(/\D/g, '');
+      // RivCo 3-digit parcel (e.g. 004) and SD 2-digit (+ optional check) both collapse to 2 digits.
       k = parts[0].padStart(3, '0') + parts[1].replace(/\D/g, '').padStart(3, '0') + (par.length === 3 ? par.slice(1) : par.slice(0, 2)).padStart(2, '0');
     } else {
       const d = first.replace(/\D/g, '');
-      k = d.length >= 8 ? d.slice(0, 8) : null;
+      if (d.length === 9) k = d.slice(0, 6) + d.slice(7, 9); // 584190004 -> 58419004
+      else k = d.length >= 8 ? d.slice(0, 8) : null;
     }
     return k && /^\d{8}$/.test(k) && !/^0+$/.test(k) ? k : null;
   }
 
-  // County Record_ID "DEH2002-LWELL-15082" -> "15082"; state PermitNumber "LWEL 15082" / "LWELL-000577" / "DEH2015-000945" -> number.
+  // County Record_ID "DEH2002-LWELL-15082" -> "15082"; RivCo "WP0030620" -> "WP0030620";
+  // state PermitNumber "LWEL 15082" / "LWELL-000577" / "WP0030620" / "DEH2015-000945" -> key.
   function permitKey(v, isCounty) {
     if (!v) return null;
     const s = String(v).toUpperCase().trim();
-    let m;
+    let m = s.match(/^(WP\d+)$/);
+    if (m) return m[1];
     if (isCounty) m = s.match(/LWELL-0*(\d+)$/);
     else m = s.match(/(?:LWEL+|DEH\d{0,4})[-\s]*(?:LWELL[-\s]*)?0*(\d+)\s*$/) || s.match(/^0*(\d{3,6})$/);
     return m ? m[1] : null;
@@ -95,7 +100,7 @@
       c.matchLabel = best ? (best.conf === 'likely' ? 'Likely' : 'Possible') + (c.matches.length > 1 ? ` ×${c.matches.length}` : '') : '';
       const s = best && best.state;
       c.wcr = s ? c.matches.map((m) => m.state.wcr).join(', ') : null;
-      c.pdfUrl = s ? s.pdfUrl : null;
+      c.pdfUrl = s ? s.pdfUrl : (c.countyWcrUrl || c.pdfUrl || null);
       for (const f of ['depthFt', 'gpm', 'swlFt', 'yieldZero', 'method', 'fluid', 'casingDiameter', 'perfTop', 'perfBottom', 'driller']) c[f] = s ? s[f] : (f === 'yieldZero' ? false : null);
       if (s) { c.methodKey = s.methodKey; c.methodLabel = s.methodLabel; c.methodColor = s.methodColor; c.methodDetail = s.methodDetail + ' (from WCR)'; }
       else { const n = C.methodCategories.find((x) => x.key === 'nolog'); c.methodKey = n.key; c.methodLabel = n.label; c.methodColor = n.color; c.methodDetail = 'no matched WCR'; }

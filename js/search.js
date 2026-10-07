@@ -16,16 +16,22 @@
   const KEY = 'wellsNearby.recentSearches';
 
   // ---------------------------------------------------------------- input parsing
-  /** APN-looking input -> { apn: 'XXX-XXX-XX-XX' } (10 digits) or { apn8: 'XXX-XXX-XX' } (8 digits), else null. */
+  /** APN-looking input -> SD 10/8-digit or Riverside 9-digit (dashed/undashed), else null. */
   function parseApn(raw) {
     const s = String(raw || '').trim().replace(/^apn\s*[:#]?\s*/i, '');
     if (!/^[\d\s.\-/]+$/.test(s)) return null;
     const d = s.replace(/\D/g, '');
-    if (d.length === 10) return { digits: d, apn: `${d.slice(0, 3)}-${d.slice(3, 6)}-${d.slice(6, 8)}-${d.slice(8)}` };
-    if (d.length === 8) return { digits: d, apn8: `${d.slice(0, 3)}-${d.slice(3, 6)}-${d.slice(6, 8)}` };
-    return /^apn/i.test(String(raw).trim()) || d.length === 9 || d.length === 11 || d.length === 12 ? { bad: d.length } : null;
+    if (d.length === 10) return { digits: d, apn: `${d.slice(0, 3)}-${d.slice(3, 6)}-${d.slice(6, 8)}-${d.slice(8)}`, county: 'sd' };
+    if (d.length === 9) return { digits: d, apn9: `${d.slice(0, 3)}-${d.slice(3, 6)}-${d.slice(6, 9)}`, county: 'riverside' };
+    if (d.length === 8) return { digits: d, apn8: `${d.slice(0, 3)}-${d.slice(3, 6)}-${d.slice(6, 8)}`, county: 'sd' };
+    return /^apn/i.test(String(raw).trim()) || d.length === 11 || d.length === 12 ? { bad: d.length } : null;
   }
-  const fmtApn = (a) => { const d = String(a || '').replace(/\D/g, ''); return d.length === 10 ? `${d.slice(0, 3)}-${d.slice(3, 6)}-${d.slice(6, 8)}-${d.slice(8)}` : String(a || ''); };
+  const fmtApn = (a) => {
+    const d = String(a || '').replace(/\D/g, '');
+    if (d.length === 10) return `${d.slice(0, 3)}-${d.slice(3, 6)}-${d.slice(6, 8)}-${d.slice(8)}`;
+    if (d.length === 9) return `${d.slice(0, 3)}-${d.slice(3, 6)}-${d.slice(6, 9)}`;
+    return String(a || '');
+  };
 
   // Postal communities / places of San Diego County -> ZIP codes (config). Aliases map other spellings to a name.
   const COMM = G.communities, ALIAS = G.communityAliases || {};
@@ -94,9 +100,37 @@
     });
   }
   async function findApn(p) {
+    if (p.apn9 || p.county === 'riverside') {
+      const RP = C.riversideParcels;
+      if (!RP) return [];
+      const j = await getJson(RP.url, { where: `APN='${p.digits}'`, outFields: RP.outFields, returnGeometry: 'true', outSR: '4326', geometryPrecision: '6', f: 'json' });
+      return rivParcelCands(j.features, 'apn').sort((a, b) => a.apn.localeCompare(b.apn));
+    }
     const where = p.apn ? `APN='${p.digits}'` : `APN_8='${p.digits}'`;
     const j = await getJson(C.parcels.url, { where, outFields: PARCEL_FIELDS, returnGeometry: 'true', outSR: '4326', geometryPrecision: '6', f: 'json' });
     return parcelCands(j.features, 'apn').sort((a, b) => a.apn.localeCompare(b.apn));
+  }
+  /** Riverside Assessor parcel features -> candidates (APN is 9 undashed digits in GIS). */
+  function rivParcelCands(features, src) {
+    const by = new Map();
+    for (const f of features || []) {
+      const a = f.attributes || {}; const apn = fmtApn(a.APN);
+      const rings = f.geometry && f.geometry.rings ? f.geometry.rings.map((r) => r.map(([x, y]) => [y, x])) : [];
+      if (!by.has(apn)) by.set(apn, { kind: 'parcel', src, apn, attrs: a, rings: [] });
+      by.get(apn).rings.push(...rings);
+    }
+    return [...by.values()].filter((c) => c.rings.length).map((c) => {
+      const [lat, lon] = A.insidePoint(c.rings, c.rings[0][0][0], c.rings[0][0][1]);
+      const num = c.attrs.STREET_NUMBER != null ? String(c.attrs.STREET_NUMBER) : '';
+      const st = [num, c.attrs.STREET_PREDIRECTION, c.attrs.STREET_NAME, c.attrs.STREET_TYPE, c.attrs.STREET_SUFFIX].filter((x) => x && String(x).trim()).join(' ');
+      const city = (c.attrs.CITY || '').trim() || (c.attrs.SITUS_CITY || '').split(/\s{2,}/)[0].trim();
+      const zip = String(c.attrs.ZIP_CODE || '').slice(0, 5);
+      const addr = [st || (c.attrs.SITUS_STREET || '').trim(), [city, zip].filter(Boolean).join(' ')].filter(Boolean).join(', ');
+      return { kind: 'parcel', src: c.src, apn: c.apn, lat, lon, rings: c.rings, acreage: c.attrs.ACREAGE || null, address: addr,
+        community: city, label: src === 'apn' ? `APN ${c.apn}` : (addr || `APN ${c.apn}`),
+        sub: src === 'apn' ? [addr || 'no street address yet', c.attrs.ACREAGE ? c.attrs.ACREAGE + ' ac' : '', 'Riverside County'].filter(Boolean).join(' · ')
+          : `Riverside parcel APN ${c.apn}${c.attrs.ACREAGE ? ' · ' + c.attrs.ACREAGE + ' ac' : ''}` };
+    });
   }
   /** County parcel layer by situs address (exact parcel). Only when the input starts with a house number. */
   async function findSitus(a) {
@@ -136,6 +170,23 @@
     if (cs.length) return cs;
     cs = await one(a.street);
     if (a.zips.length) { const inZ = cs.filter((c) => a.zips.includes(c.zip)); if (inZ.length) cs = inZ; else cs.forEach((c) => (c.elsewhere = true)); }
+    // Southern Riverside (Aguanga / Sage / Temecula): SANDAG is SD-only — try the RivCo geocoder when needed.
+    const rivZips = new Set(['92536', '92539', '92543', '92544', '92545', '92546', '92549', '92562', '92563', '92564', '92590', '92591', '92592', '92593']);
+    const wantRiv = (a.zips || []).some((z) => rivZips.has(z)) || /AGUANGA|SAGE|ANZA|TEMECULA|MURRIETA|HEMET|IDYLLWILD|LAKE RIVERSIDE/.test(a.community || '');
+    if ((!cs.length || cs.every((c) => c.elsewhere)) && G.riversideGeocoderUrl && (wantRiv || !cs.length)) {
+      try {
+        const q = a.zips.length === 1 ? `${a.street} ${a.zips[0]}` : (a.community ? `${a.street}, ${a.community}` : a.street);
+        const j = await getJson(G.riversideGeocoderUrl, { SingleLine: q, outSR: '4326', maxLocations: String(G.maxCandidates), f: 'json' });
+        const RB = G.riversideBounds || [33.35, -117.45, 34.15, -116.05];
+        const inRiv = (lat, lon) => lat >= RB[0] && lat <= RB[2] && lon >= RB[1] && lon <= RB[3];
+        const riv = (j.candidates || []).filter((c) => c.location && c.score >= G.minScore && inRiv(c.location.y, c.location.x)).map((c) => ({
+          kind: 'geocode', lat: +c.location.y.toFixed(6), lon: +c.location.x.toFixed(6), score: c.score, type: 'PointAddress',
+          zip: String((c.address.match(/\b(9\d{4})\b/) || [])[1] || ''),
+          label: placeLabel(c.address), sub: 'Riverside County geocoder',
+        }));
+        if (riv.length) return riv;
+      } catch (e) { /* RivCo geocoder optional */ }
+    }
     return cs;
   }
   // ZIP -> postal community name, for labels ("1521 E MAIN ST, 92021" -> "1521 E MAIN ST, EL CAJON 92021")
@@ -151,11 +202,11 @@
 
   async function lookup(raw) {
     const p = parseApn(raw);
-    if (p && p.bad) return { msg: `An APN has 10 digits (XXX-XXX-XX-XX) or 8 (XXX-XXX-XX); that one has ${p.bad}.` };
+    if (p && p.bad) return { msg: `An APN has 10 digits (SD: XXX-XXX-XX-XX), 9 (Riverside: XXX-XXX-XXX), or 8 (SD: XXX-XXX-XX); that one has ${p.bad}.` };
     if (p) {
       const cs = await findApn(p);
-      const shown = p.apn || p.apn8;
-      if (!cs.length) return { msg: `APN ${esc(shown)} was not found in the County parcel layer. Check the number (new parcel splits can take a while to appear).` };
+      const shown = p.apn || p.apn9 || p.apn8;
+      if (!cs.length) return { msg: `APN ${esc(shown)} was not found in the ${p.county === 'riverside' ? 'Riverside' : 'San Diego'} County parcel layer. Check the number (new parcel splits can take a while to appear).` };
       return { cands: cs, kind: 'apn' };
     }
     const a = parseAddress(raw);
@@ -172,7 +223,7 @@
         || (streetKey(o.label) && streetKey(o.label) === streetKey(c.label) && distM(o, c) < G.sameAddressM))) continue;
       out.push(c);
     }
-    if (!out.length) return { msg: `No match for “${esc(raw)}” in San Diego County. Check the spelling, add the ZIP code, or try the APN.` };
+    if (!out.length) return { msg: `No match for “${esc(raw)}” in San Diego / southern Riverside. Check the spelling, add the ZIP code, or try the APN.` };
     const cands = out.slice(0, G.maxShown);
     const vague = /^\d/.test(a.street) && !cands.some((c) => c.kind === 'parcel' || ['PointAddress', 'StreetAddress', 'StreetInt'].includes(c.type));
     const note = cands.every((c) => c.elsewhere) ? `Nothing found in ${esc(a.community || 'ZIP ' + a.zip)}; matches elsewhere in the county:`
@@ -222,7 +273,7 @@
   const box = L.DomUtil.create('div', 'addr-search', map.getContainer());
   box.innerHTML = `<form class="as-bar" role="search" autocomplete="off">
       <input type="search" class="as-input" enterkeyhint="search" autocapitalize="characters" autocorrect="off" spellcheck="false"
-        placeholder="Address or APN" aria-label="Search an address or APN in San Diego County">
+        placeholder="Address or APN" aria-label="Search an address or APN (San Diego or Riverside County)">
       <button type="button" class="as-clear" aria-label="Clear" hidden>✕</button>
       <button type="submit" class="as-go" aria-label="Search">🔍</button>
     </form>

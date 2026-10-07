@@ -17,44 +17,65 @@
   // bounds + content hash; only tiles intersecting the search circle are fetched (tiles/<key>.json?v=<hash>, so a changed
   // tile gets a new URL). The service worker keeps fetched tiles for offline use. Falls back to the old single index.json
   // if there is no manifest.
-  let INDEX = null, MANIFEST = null, manifestP = null;
-  const loaded = new Map(); // tile key -> hash merged into INDEX
-  const baseUrl = () => C.countyWcr.manifestUrl.replace(/[^/]*$/, '');
+  let INDEX = null, manifestP = null;
+  // One entry per cache: { key, base, manifest, loaded: Map(tileKey -> hash) }
+  const CACHES = [];
+  const cacheList = () => {
+    const list = (C.countyWcr && C.countyWcr.caches) || null;
+    if (list && list.length) return list;
+    return [{ key: 'sandiego', manifestUrl: C.countyWcr.manifestUrl, indexUrl: C.countyWcr.indexUrl }];
+  };
 
   async function load() {
     if (manifestP) return manifestP;
     manifestP = (async () => {
       INDEX = INDEX || {};
-      try {
-        const r = await fetch(C.countyWcr.manifestUrl, { cache: 'no-cache' });
-        if (r.ok) { const m = await r.json(); if (m && m.tiles) MANIFEST = m; }
-      } catch (e) { /* offline and not cached */ }
-      if (!MANIFEST) { // legacy single index
-        try { const r = await fetch(C.countyWcr.indexUrl, { cache: 'no-cache' }); if (r.ok) Object.assign(INDEX, (await r.json()).permits || {}); } catch (e) { /* none */ }
-        MANIFEST = { legacy: true, tiles: {} };
+      CACHES.length = 0;
+      for (const cfg of cacheList()) {
+        const entry = { key: cfg.key || cfg.manifestUrl, base: cfg.manifestUrl.replace(/[^/]*$/, ''), manifest: null, loaded: new Map() };
+        try {
+          const r = await fetch(cfg.manifestUrl, { cache: 'no-cache' });
+          if (r.ok) { const m = await r.json(); if (m && m.tiles) entry.manifest = m; }
+        } catch (e) { /* offline / not published yet */ }
+        if (!entry.manifest && cfg.indexUrl) {
+          try {
+            const r = await fetch(cfg.indexUrl, { cache: 'no-cache' });
+            if (r.ok) Object.assign(INDEX, (await r.json()).permits || {});
+          } catch (e) { /* none */ }
+          entry.manifest = { legacy: true, tiles: {} };
+        }
+        if (entry.manifest) CACHES.push(entry);
       }
       return INDEX;
     })();
     return manifestP;
   }
 
-  /** Tiles of the manifest intersecting the circle (lat, lon, radiusMi). */
+  /** Tiles across every cache intersecting the circle (lat, lon, radiusMi). */
   function tilesFor(lat, lon, radiusMi) {
-    if (!MANIFEST || !MANIFEST.tiles) return [];
     const dLat = radiusMi / 69.05 + 0.001, dLon = radiusMi / (69.17 * Math.cos(lat * Math.PI / 180)) + 0.001;
-    return Object.entries(MANIFEST.tiles).filter(([, t]) => t.b[0] <= lat + dLat && t.b[2] >= lat - dLat && t.b[1] <= lon + dLon && t.b[3] >= lon - dLon);
+    const out = [];
+    for (const c of CACHES) {
+      if (!c.manifest || !c.manifest.tiles) continue;
+      for (const [k, t] of Object.entries(c.manifest.tiles)) {
+        if (t.b[0] <= lat + dLat && t.b[2] >= lat - dLat && t.b[1] <= lon + dLon && t.b[3] >= lon - dLon) {
+          out.push({ cache: c, key: k, tile: t });
+        }
+      }
+    }
+    return out;
   }
 
   /** Make sure the WCR results for every county permit within radiusMi of (lat, lon) are loaded. */
   async function ensure(lat, lon, radiusMi) {
     await load();
-    const need = tilesFor(lat, lon, radiusMi).filter(([k, t]) => loaded.get(k) !== t.h);
-    await Promise.all(need.map(async ([k, t]) => {
+    const need = tilesFor(lat, lon, radiusMi).filter(({ cache, key, tile }) => cache.loaded.get(key) !== tile.h);
+    await Promise.all(need.map(async ({ cache, key, tile }) => {
       try {
-        const r = await fetch(`${baseUrl()}tiles/${k}.json?v=${t.h}`);
+        const r = await fetch(`${cache.base}tiles/${key}.json?v=${tile.h}`);
         if (!r.ok) return;
         const j = await r.json();
-        Object.assign(INDEX, j.permits || {}); loaded.set(k, t.h);
+        Object.assign(INDEX, j.permits || {}); cache.loaded.set(key, tile.h);
       } catch (e) { /* offline and not cached: those permits show as not processed */ }
     }));
     return INDEX;
@@ -145,7 +166,7 @@
     for (const c of countyRecs) {
       const entry = idx[c.permit] || null;
       c.wcrEntry = entry; c.wcrStatus = entry ? entry.status : 'not_processed';
-      c.wcrDocUrl = entry && entry.bestDocUrl || null;
+      c.wcrDocUrl = (entry && entry.bestDocUrl) || c.countyWcrUrl || c.pdfUrl || null;
       const v = ocrValues(entry);
       c.ocrValues = v;
       fill(c, v, entry);
@@ -190,5 +211,5 @@
     not_processed: 'Not yet processed (this area has not been run through the extractor)',
   };
 
-  global.WellsCountyWcr = { load, ensure, libRecord, libraryRecords, tilesFor, apply, ocrValues, hints, STATUS_TEXT, get index() { return INDEX; }, get manifest() { return MANIFEST; }, get loadedTiles() { return [...loaded.keys()]; } };
+  global.WellsCountyWcr = { load, ensure, libRecord, libraryRecords, tilesFor, apply, ocrValues, hints, STATUS_TEXT, get index() { return INDEX; }, get manifest() { return (CACHES[0] || {}).manifest || null; }, get caches() { return CACHES; }, get loadedTiles() { return CACHES.flatMap((c) => [...c.loaded.keys()]); } };
 })(typeof window !== 'undefined' ? window : globalThis);
