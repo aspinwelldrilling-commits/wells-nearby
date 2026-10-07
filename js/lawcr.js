@@ -39,7 +39,8 @@
         const w = D.normalize(raw, C.sources.arcgis.fieldMap, null, 'arcgis');
         w.laTile = key;
         const cc = manifest && manifest.coordCountyCheck && manifest.coordCountyCheck.byObjectId[raw.OBJECTID];
-        if (cc) w.coordCounty = cc.county.replace(/ COUNTY$/, '').toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase()) + ' County';
+        if (cc) w.coordCounty = /^OUTSIDE/.test(cc.county) ? 'no mapped county (harbor / offshore — outside the county land boundaries)'
+          : cc.county.replace(/ COUNTY$/, '').toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase()) + ' County';
         return w;
       });
       tiles.set(key, recs);
