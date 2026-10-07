@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002522",
+ "processed": "2026-10-07T02:51:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "369-580-006",
+ "address": "23365 Catt Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235157",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 811
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235157",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 110.0,
+   "conf": "low",
+   "ocrConf": 11.421371,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 110",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 55.971531,
+   "raw": "WATER LEVEL ___ 2 \u2014__ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235157",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.59729381500006,
+ "lon": -117.25225137299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219410",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235157",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

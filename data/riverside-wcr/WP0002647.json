@@ -1,0 +1,73 @@
+{
+ "permit": "WP0002647",
+ "processed": "2026-10-07T03:59:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-100-041",
+ "address": "North of Cornstalk Road",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235094",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2892
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235094",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235094",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235094",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235094",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "1995-01-06",
+   "conf": "low",
+   "ocrConf": 49.511681,
+   "page": 1,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 6.617981,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 600",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235094",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.636280086000056,
+ "lon": -117.22969848799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219985",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235094",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

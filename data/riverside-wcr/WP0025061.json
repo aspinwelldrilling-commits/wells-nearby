@@ -1,0 +1,86 @@
+{
+ "permit": "WP0025061",
+ "processed": "2026-10-07T03:49:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "465-320-012",
+ "address": "33875 Milan Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248109",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 396
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248109",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.398674,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.920525,
+   "raw": "Estimated Yield * 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 43.0,
+   "conf": "high",
+   "ocrConf": 87.832237,
+   "raw": "Water Level 43 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 95.452461,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 73.806221,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-02-13",
+   "conf": "low",
+   "ocrConf": 19.917915,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248109",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.717383684000026,
+ "lon": -117.06925368999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200048",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248109",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023200",
+ "processed": "2026-10-07T03:52:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-350-015",
+ "address": "32135 Falcon View Ln",
+ "city": "Homeland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247637",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 396
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247637",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 62.072121,
+   "raw": "Estimated Yield* 2  \u2014s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-06-14",
+   "conf": "high",
+   "ocrConf": 96.430603,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247637",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.755033566000066,
+ "lon": -117.10202260899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202044",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247637",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

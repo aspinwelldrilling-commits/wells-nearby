@@ -1,0 +1,55 @@
+{
+ "permit": "WP0011640",
+ "processed": "2026-10-07T03:26:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-220-041",
+ "address": "34841 Glory Ln",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241918",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 702
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241918",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 5.416908,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-01-16",
+   "conf": "low",
+   "ocrConf": 0.284355,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241918",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62461418500004,
+ "lon": -117.16216178899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212131",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241918",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,62 @@
+{
+ "permit": "WP0008542",
+ "processed": "2026-10-07T03:14:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "360-120-018",
+ "address": "30775 Sherman Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239715",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1891
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239715",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239715",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 323.0,
+   "conf": "low",
+   "ocrConf": 73.829346,
+   "raw": "TOTAL DEPTH OF BORING 323",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-09-29",
+   "conf": "high",
+   "ocrConf": 88.941216,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239715",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.673325627000054,
+ "lon": -117.18073971399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216086",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239715",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

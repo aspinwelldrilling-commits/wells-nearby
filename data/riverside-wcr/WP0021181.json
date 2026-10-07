@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021181",
+ "processed": "2026-10-07T03:48:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-210-011",
+ "address": "32061 Geneva Ln",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246869",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 457
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246869",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "low",
+   "ocrConf": 16.681259,
+   "raw": "Total Depth of Completed Well 1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.75206,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 87.847672,
+   "raw": "Water Level _200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-10-29",
+   "conf": "high",
+   "ocrConf": 87.975021,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246869",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65503483300006,
+ "lon": -117.13566763699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203315",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246869",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

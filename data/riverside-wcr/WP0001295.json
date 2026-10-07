@@ -1,0 +1,57 @@
+{
+ "permit": "WP0001295",
+ "processed": "2026-10-07T02:45:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-120-006",
+ "address": "25195 Wright Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234278",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 865
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234278",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING _250",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 70.0,
+   "conf": "medium",
+   "ocrConf": 71.005783,
+   "raw": "ESTIMATED YIELD -_ 70 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234278",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63185380500005,
+ "lon": -117.21965421999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221942",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234278",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

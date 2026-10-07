@@ -1,0 +1,80 @@
+{
+ "permit": "WP0019430",
+ "processed": "2026-10-07T03:47:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "340-480-048",
+ "address": "29837 Lindenberger Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246235",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1067
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246235",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 615.0,
+   "conf": "medium",
+   "ocrConf": 96.276321,
+   "raw": "Total Depth of Boring 615",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 96.839706,
+   "raw": "Estimated Yield * 500 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 97.0,
+   "conf": "medium",
+   "ocrConf": 79.37262,
+   "raw": "Water Level _97 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Rotary",
+   "conf": "high",
+   "ocrConf": 95.672783,
+   "raw": "Drilling Method Reverse Rotary Drilling Fluid _Polybore",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-02-03",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246235",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.68573219900003,
+ "lon": -117.14516554099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208167",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246235",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

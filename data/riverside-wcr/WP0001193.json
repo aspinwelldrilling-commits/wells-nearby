@@ -1,0 +1,57 @@
+{
+ "permit": "WP0001193",
+ "processed": "2026-10-07T02:45:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-130-045",
+ "address": "30300 Garbani Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234196",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 879
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234196",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 37.928452,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 553.0,
+   "conf": "low",
+   "ocrConf": 41.886795,
+   "raw": "WATER LEVEL ___ 553 _\u2014(Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234196",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.656411253000044,
+ "lon": -117.13212023599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221640",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234196",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

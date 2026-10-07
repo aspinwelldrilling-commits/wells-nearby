@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021268",
+ "processed": "2026-10-07T03:46:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "457-120-036",
+ "address": "25080 Juniper Flats Rd",
+ "city": "Homeland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246902",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 443
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246902",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 96.618408,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.842102,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 78.616219,
+   "raw": "Water Level 50 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-12-01",
+   "conf": "high",
+   "ocrConf": 95.409882,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246902",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.75636431500004,
+ "lon": -117.11271915099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203397",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246902",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

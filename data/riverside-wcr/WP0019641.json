@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019641",
+ "processed": "2026-10-07T04:26:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "329-020-022",
+ "address": "25351 Trumble Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246290",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1036
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246290",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 85.0,
+   "conf": "low",
+   "ocrConf": 10.450882,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL85",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-02-23",
+   "conf": "medium",
+   "ocrConf": 65.507584,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246290",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.752702061000036,
+ "lon": -117.18545314299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205240",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246290",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

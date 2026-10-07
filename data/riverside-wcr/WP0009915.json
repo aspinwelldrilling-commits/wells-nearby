@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009915",
+ "processed": "2026-10-07T03:22:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-190-001",
+ "address": "33130 Hixon St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240945",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 758
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240945",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 170.0,
+   "conf": "medium",
+   "ocrConf": 59.864811,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 170",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-11-14",
+   "conf": "high",
+   "ocrConf": 89.574905,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240945",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.605202733000056,
+ "lon": -117.29361698999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214661",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240945",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

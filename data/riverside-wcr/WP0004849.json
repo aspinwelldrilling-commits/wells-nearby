@@ -1,0 +1,64 @@
+{
+ "permit": "WP0004849",
+ "processed": "2026-10-07T03:00:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "370-320-010",
+ "address": "32398 Blue Terrace St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236658",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 836
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236658",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "low",
+   "ocrConf": 55.939423,
+   "raw": "TOTAL DEPTH OF BORING _ 350",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Mud Roatry",
+   "conf": "high",
+   "ocrConf": 89.99308,
+   "raw": "DRILLING\nMETHOD mud roatry FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 95.179634,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236658",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.620855670000026,
+ "lon": -117.29694097199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217317",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236658",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

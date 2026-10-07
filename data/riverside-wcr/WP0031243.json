@@ -1,0 +1,99 @@
+{
+ "permit": "WP0031243",
+ "processed": "2026-10-07T03:53:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "361-193-002",
+ "address": "0 Cottonwood Rd ",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/328729",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1171
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/328729",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/328729",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 540.0,
+   "conf": "high",
+   "ocrConf": 96.902588,
+   "raw": "Total Depth of Completed Well 540",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 93.289734,
+   "raw": "Estimated Yield* 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 96.0,
+   "conf": "high",
+   "ocrConf": 96.868256,
+   "raw": "Water Level 96 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 95.952332,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.331688,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2023-11-03",
+   "conf": "high",
+   "ocrConf": 96.253189,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.645901,
+   "lon": -117.225094,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/328729",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.645901,
+ "lon": -117.225094,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/328729",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

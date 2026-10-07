@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006398",
+ "processed": "2026-10-07T03:05:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-050-018",
+ "address": "26415 Beechwood Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238395",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 807
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238395",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 39.0,
+   "conf": "medium",
+   "ocrConf": 51.107605,
+   "raw": "WATER LEVEL ___39@ __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "low",
+   "ocrConf": 3.818039,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238395",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62747958600005,
+ "lon": -117.19903958299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217418",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238395",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

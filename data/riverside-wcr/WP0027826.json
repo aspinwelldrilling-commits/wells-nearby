@@ -1,0 +1,99 @@
+{
+ "permit": "WP0027826",
+ "processed": "2026-10-07T03:56:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "384-020-001",
+ "address": "33545 Daily Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249643",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 62
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249643",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249643",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "low",
+   "ocrConf": 2.975121,
+   "raw": "Total Depth of Completed Well 550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 17.0,
+   "conf": "high",
+   "ocrConf": 95.693283,
+   "raw": "Estimated Yield* 17 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 32.0,
+   "conf": "high",
+   "ocrConf": 94.157066,
+   "raw": "Water Level 32 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid. Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 46.949993,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-06-22",
+   "conf": "high",
+   "ocrConf": 83.475067,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.633499,
+   "lon": -117.205592,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249643",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63350386700006,
+ "lon": -117.20560397699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199053",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249643",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

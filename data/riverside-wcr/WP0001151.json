@@ -1,0 +1,65 @@
+{
+ "permit": "WP0001151",
+ "processed": "2026-10-07T02:45:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-370-010",
+ "address": "32420 Yates Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234162",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 815
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234162",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 61.799385,
+   "raw": "TOTAL DEPTH OF BORING _32",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.6,
+   "conf": "low",
+   "ocrConf": 11.77182,
+   "raw": "WATER LEVEL ___ 3.6 _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Aie Rotary",
+   "conf": "medium",
+   "ocrConf": 55.936695,
+   "raw": "DRILLING\nMETHOD aie rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234162",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60274140900003,
+ "lon": -117.09265766399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221530",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234162",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013867",
+ "processed": "2026-10-07T03:34:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-120-004",
+ "address": "33615 Lynx Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242941",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 843
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242941",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 209.0,
+   "conf": "low",
+   "ocrConf": 6.691254,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 209",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-03-11",
+   "conf": "low",
+   "ocrConf": 18.780807,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242941",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63318291500008,
+ "lon": -117.22011255199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210924",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242941",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

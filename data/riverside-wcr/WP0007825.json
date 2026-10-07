@@ -1,0 +1,75 @@
+{
+ "permit": "WP0007825",
+ "processed": "2026-10-07T03:12:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-140-023",
+ "address": "33590 Lindenberger Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239301",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1978
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239301",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239301",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239301",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 324.0,
+   "conf": "high",
+   "ocrConf": 90.95253,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 324",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 24.917061,
+   "raw": "WATER LEVEL____35 / __ (Ft",
+   "page": 3,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-02-28",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239301",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63281378900007,
+ "lon": -117.14433075799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218421",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239301",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 3,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0010663",
+ "processed": "2026-10-07T03:26:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-230-071",
+ "address": "32623 Patita Ln",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240889",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1015
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240889",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 82.312012,
+   "raw": "ESTIMATED YIELD * __ 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240889",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64694496300007,
+ "lon": -117.10461205099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213342",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240889",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

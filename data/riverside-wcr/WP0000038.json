@@ -1,0 +1,57 @@
+{
+ "permit": "WP0000038",
+ "processed": "2026-10-07T02:40:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-230-033",
+ "address": "30260 Los Alamos Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233376",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1136
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233376",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 62.207748,
+   "raw": "(12) WELL LOG: Total depth 300",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 34.0,
+   "conf": "low",
+   "ocrConf": 14.188736,
+   "raw": "Discharge 34 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233376",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.599498992000065,
+ "lon": -117.13131739399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222530",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233376",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

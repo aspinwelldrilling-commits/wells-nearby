@@ -1,0 +1,79 @@
+{
+ "permit": "WP0018045",
+ "processed": "2026-10-07T03:46:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "358-240-043",
+ "address": "25700 Garbani Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245798",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 780
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245798",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 820.0,
+   "conf": "medium",
+   "ocrConf": 95.375473,
+   "raw": "Total Depth of Boring 820",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 50.98999,
+   "raw": "Estimated Yield * 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 90.304741,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 77.661736,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-10",
+   "conf": "high",
+   "ocrConf": 88.773224,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245798",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65630805600006,
+ "lon": -117.21069228299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208697",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245798",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

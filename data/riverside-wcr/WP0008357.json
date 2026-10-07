@@ -1,0 +1,56 @@
+{
+ "permit": "WP0008357",
+ "processed": "2026-10-07T03:13:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "369-740-004",
+ "address": "23160 Palomar St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239599",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 961
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239599",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 330.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 330",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 96.165207,
+   "raw": "WATER LEVEL 70 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239599",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.58566974300004,
+ "lon": -117.24585875799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215607",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239599",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

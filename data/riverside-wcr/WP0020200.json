@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020200",
+ "processed": "2026-10-07T03:47:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-250-003",
+ "address": "23400 Bundy Canyon Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246659",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 505
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246659",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 96.922066,
+   "raw": "Estimated Yield* 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 48.142796,
+   "raw": "Water Level 100 _\u2014(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-08-14",
+   "conf": "high",
+   "ocrConf": 95.95488,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246659",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.626504553000075,
+ "lon": -117.25137155399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204447",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246659",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

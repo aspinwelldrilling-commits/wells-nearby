@@ -1,0 +1,92 @@
+{
+ "permit": "WP0028593",
+ "processed": "2026-10-07T03:53:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-300-024",
+ "address": "23480 Baxter Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248753",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1143
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248753",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248753",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "high",
+   "ocrConf": 91.078865,
+   "raw": "Total Depth of Completed Well 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 94.739197,
+   "raw": "Estimated Yield* 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 110.0,
+   "conf": "high",
+   "ocrConf": 96.091454,
+   "raw": "Water Level 110 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 91.983955,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-09-07",
+   "conf": "medium",
+   "ocrConf": 79.499039,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.614389,
+   "lon": -117.2507,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248753",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.61439386200004,
+ "lon": -117.25071198399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310380",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248753",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

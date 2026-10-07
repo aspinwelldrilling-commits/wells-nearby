@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001852",
+ "processed": "2026-10-07T02:46:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-210-025",
+ "address": "30020 Gardner Ln",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234695",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 770
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234695",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "medium",
+   "ocrConf": 61.47773,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 240",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-06-21",
+   "conf": "high",
+   "ocrConf": 96.375671,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234695",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.651525382000045,
+ "lon": -117.13622898699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220746",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234695",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

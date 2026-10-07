@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014640",
+ "processed": "2026-10-07T03:37:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "392-230-008",
+ "address": "35854 Greer Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243142",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 673
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243142",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 745.0,
+   "conf": "low",
+   "ocrConf": 34.977242,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 745",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-07-24",
+   "conf": "low",
+   "ocrConf": 38.306221,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243142",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.59990003900003,
+ "lon": -117.18651600799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211464",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243142",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0003352",
+ "processed": "2026-10-07T02:53:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-390-023",
+ "address": "32690 Haleblain Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235682",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 763
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235682",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 71.086311,
+   "raw": "TOTAL DEPTH OF BORING __ 250",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 21.730362,
+   "raw": "WATER LeveL ______3@_(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235682",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.645603408000056,
+ "lon": -117.157736452,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222189",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235682",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

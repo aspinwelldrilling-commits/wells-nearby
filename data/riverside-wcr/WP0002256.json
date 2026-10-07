@@ -1,0 +1,48 @@
+{
+ "permit": "WP0002256",
+ "processed": "2026-10-07T02:49:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-100-027",
+ "address": "34550 Vista View Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235302",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 811
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235302",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 275.0,
+   "conf": "medium",
+   "ocrConf": 64.923477,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 275",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235302",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.640898623000055,
+ "lon": -117.05558661199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222050",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235302",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

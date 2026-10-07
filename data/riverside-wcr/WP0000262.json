@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000262",
+ "processed": "2026-10-07T02:41:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "343-265-003",
+ "address": "21930 Club Dr",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233569",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 986
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233569",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 140.0,
+   "conf": "high",
+   "ocrConf": 96.540253,
+   "raw": "Completed depth 140 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 39.0,
+   "conf": "medium",
+   "ocrConf": 78.968872,
+   "raw": "Standing level after well completion 39 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233569",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.75805673200006,
+ "lon": -117.27684913399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222453",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233569",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0013696",
+ "processed": "2026-10-07T03:31:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "461-210-001",
+ "address": "32301 Patton Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242730",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 805
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242730",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 42.0,
+   "conf": "medium",
+   "ocrConf": 55.78474,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 42",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 290.0,
+   "conf": "low",
+   "ocrConf": 27.879868,
+   "raw": "ESTIMATED YIELD * 290) wie (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242730",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.688845472000025,
+ "lon": -117.09948618599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212848",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242730",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0008419",
+ "processed": "2026-10-07T03:13:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-280-031",
+ "address": "NEAREST INTERSECTION BUNDY CYN",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239641",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 977
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239641",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "low",
+   "ocrConf": 13.827888,
+   "raw": "TOTAL DEPTH OF BORING 265",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 45.0,
+   "conf": "low",
+   "ocrConf": 8.368309,
+   "raw": "WATER LEVEL___ 45 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239641",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62175390400006,
+ "lon": -117.24138169199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215769",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239641",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

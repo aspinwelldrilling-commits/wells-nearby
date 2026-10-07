@@ -1,0 +1,79 @@
+{
+ "permit": "WP0024307",
+ "processed": "2026-10-07T03:54:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-230-076",
+ "address": "32680 Pines Airpark Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247937",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 403
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247937",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 92.960777,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 31.838066,
+   "raw": "Estimated Yield* 30s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 165.0,
+   "conf": "high",
+   "ocrConf": 95.832153,
+   "raw": "Water Level 165 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 92.801224,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-07-03",
+   "conf": "medium",
+   "ocrConf": 79.782219,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247937",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.647203974000035,
+ "lon": -117.10644621099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201232",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247937",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

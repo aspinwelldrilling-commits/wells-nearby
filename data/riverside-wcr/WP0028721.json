@@ -1,0 +1,91 @@
+{
+ "permit": "WP0028721",
+ "processed": "2026-10-07T03:54:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-090-001",
+ "address": "24240 Bundy Canyon Rd ",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248770",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 140
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248770",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248770",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 385.0,
+   "conf": "medium",
+   "ocrConf": 79.381149,
+   "raw": "Total Depth of Completed Well 385",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 94.983345,
+   "raw": "Estimated Yield* 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 96.873962,
+   "raw": "Water Level 75 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 45.579216,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-08-30",
+   "conf": "medium",
+   "ocrConf": 75.781685,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.6374,
+   "lon": -117.23783,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248770",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63740000000007,
+ "lon": -117.23782999999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270673",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248770",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

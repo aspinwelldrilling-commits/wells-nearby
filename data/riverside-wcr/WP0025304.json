@@ -1,0 +1,63 @@
+{
+ "permit": "WP0025304",
+ "processed": "2026-10-07T03:51:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "349-160-009",
+ "address": "21240 Milo Rd",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248274",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 411
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248274",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 94.846207,
+   "raw": "Estimated Yield\u201c 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 77.064285,
+   "raw": "Water Level _200 __ (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-05-06",
+   "conf": "medium",
+   "ocrConf": 75.853989,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248274",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.71569788100004,
+ "lon": -117.28866243799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200288",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248274",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

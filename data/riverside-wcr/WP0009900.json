@@ -1,0 +1,48 @@
+{
+ "permit": "WP0009900",
+ "processed": "2026-10-07T03:24:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "372-120-012",
+ "address": "28823 Loretta Ave",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240924",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 926
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240924",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 43.851379,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ____ 400",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240924",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64441517800003,
+ "lon": -117.15707158499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214656",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240924",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

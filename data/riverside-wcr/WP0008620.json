@@ -1,0 +1,49 @@
+{
+ "permit": "WP0008620",
+ "processed": "2026-10-07T03:15:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-340-023",
+ "address": "11380 Sweetwater Canyon Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239761",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1001
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239761",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 86.105301,
+   "raw": "TOTAL DEPTH OF BORING 600",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239761",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.630227285000046,
+ "lon": -117.18985509499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216331",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239761",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008228",
+ "processed": "2026-10-07T03:13:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "461-130-038",
+ "address": "32948 Grand Ave",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239533",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1007
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239533",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 264.0,
+   "conf": "low",
+   "ocrConf": 40.390633,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ____264",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-05-15",
+   "conf": "medium",
+   "ocrConf": 61.52179,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239533",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.71632741800005,
+ "lon": -117.08691856899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215313",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239533",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

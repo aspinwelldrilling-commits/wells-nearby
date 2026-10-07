@@ -1,0 +1,78 @@
+{
+ "permit": "WP0024187",
+ "processed": "2026-10-07T03:48:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-120-005",
+ "address": "25175 Bundy Canyon Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247859",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 398
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247859",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "medium",
+   "ocrConf": 78.428757,
+   "raw": "Total Depth of Completed Well 22",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 91.464081,
+   "raw": "Estimated Yield * 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.255043,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 92.915466,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-03-28",
+   "conf": "low",
+   "ocrConf": 41.141853,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247859",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.632453576000046,
+ "lon": -117.21939892899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201110",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247859",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

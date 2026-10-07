@@ -1,0 +1,71 @@
+{
+ "permit": "WP0011584",
+ "processed": "2026-10-07T03:26:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-470-008",
+ "address": "27240 Keller Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241836",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 687
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241836",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "low",
+   "ocrConf": 46.979065,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL310",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "medium",
+   "ocrConf": 64.050034,
+   "raw": "ESTIMATED YIELD * 9 ___ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 63.0,
+   "conf": "high",
+   "ocrConf": 88.678398,
+   "raw": "WATER LeveL 63 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-11-15",
+   "conf": "medium",
+   "ocrConf": 64.879921,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241836",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62806356700003,
+ "lon": -117.18438972399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212002",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241836",
+ "serviceType": "Reconstruction Deepening",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

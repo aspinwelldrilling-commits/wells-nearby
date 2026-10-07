@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010501",
+ "processed": "2026-10-07T03:26:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-240-016",
+ "address": "22876 Margarth St",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240743",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 715
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240743",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 505.0,
+   "conf": "low",
+   "ocrConf": 43.333969,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 505",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-03-13",
+   "conf": "high",
+   "ocrConf": 85.70327,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240743",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.75342588700005,
+ "lon": -117.26022445099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213221",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240743",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

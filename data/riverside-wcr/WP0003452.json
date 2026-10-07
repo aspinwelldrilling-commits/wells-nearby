@@ -1,0 +1,55 @@
+{
+ "permit": "WP0003452",
+ "processed": "2026-10-07T02:52:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-280-020",
+ "address": "33150 Nancy Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235758",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 869
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235758",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 58.741791,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___ 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-10-30",
+   "conf": "medium",
+   "ocrConf": 54.783127,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235758",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63935482900007,
+ "lon": -117.18392999399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217054",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235758",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

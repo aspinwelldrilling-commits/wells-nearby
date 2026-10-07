@@ -1,0 +1,63 @@
+{
+ "permit": "WP0000400",
+ "processed": "2026-10-07T02:43:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "343-190-017",
+ "address": "21035 Olive Ave",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233689",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1779
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233689",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233689",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 565.0,
+   "conf": "medium",
+   "ocrConf": 91.749191,
+   "raw": "(12) WELL LOG: Total depth 565",
+   "note": "total depth (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 84.572311,
+   "raw": "Standing level after well completion 25 ft",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233689",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.75747374600007,
+ "lon": -117.29233848199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222683",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233689",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "readable"
+}

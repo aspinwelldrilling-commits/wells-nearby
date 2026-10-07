@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012022",
+ "processed": "2026-10-07T04:12:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "363-171-005",
+ "address": "31706 Casino Dr",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243800",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1204
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243800",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 96.178848,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 80",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-05-01",
+   "conf": "high",
+   "ocrConf": 96.095428,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243800",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.660461000000055,
+ "lon": -117.29883499999994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243800",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

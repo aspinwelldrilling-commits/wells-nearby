@@ -1,0 +1,63 @@
+{
+ "permit": "WP0009830",
+ "processed": "2026-10-07T03:22:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "360-190-005",
+ "address": "26759 Craig Ave",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240851",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 762
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240851",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 31.68885,
+   "raw": "WATER LEVEL 32 _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-10-11",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240851",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.66201105000005,
+ "lon": -117.19288494199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214592",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240851",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

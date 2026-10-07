@@ -1,0 +1,71 @@
+{
+ "permit": "WP0012963",
+ "processed": "2026-10-07T03:29:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "365-220-007",
+ "address": "32320 Navajo Springs Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242174",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 711
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242174",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 530.0,
+   "conf": "low",
+   "ocrConf": 16.239151,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 530",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "low",
+   "ocrConf": 40.807014,
+   "raw": "ESTIMATED YieLD * 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 138.0,
+   "conf": "low",
+   "ocrConf": 30.945572,
+   "raw": "WATER LeveL 138 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-03-16",
+   "conf": "high",
+   "ocrConf": 80.021149,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242174",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65187232400007,
+ "lon": -117.25706011199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211872",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242174",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

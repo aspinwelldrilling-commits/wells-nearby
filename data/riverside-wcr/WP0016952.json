@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016952",
+ "processed": "2026-10-07T04:23:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "335-191-003",
+ "address": "26980 McCall Blvd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245455",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1026
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245455",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 8.69574,
+   "raw": "WATER LEVEL___30' (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-11-07",
+   "conf": "high",
+   "ocrConf": 95.055664,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245455",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.71578526900004,
+ "lon": -117.19248758299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209542",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245455",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

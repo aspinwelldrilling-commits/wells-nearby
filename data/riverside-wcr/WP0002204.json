@@ -1,0 +1,49 @@
+{
+ "permit": "WP0002204",
+ "processed": "2026-10-07T04:00:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "465-200-002",
+ "address": "Olive Avenue and California Avenue",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235336",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 900
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235336",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 203.0,
+   "conf": "low",
+   "ocrConf": 22.221664,
+   "raw": "TOTAL DEPTH OF BORING __203",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235336",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.697556451000025,
+ "lon": -117.05826108299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221872",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235336",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

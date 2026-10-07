@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016526",
+ "processed": "2026-10-07T04:20:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "335-202-002",
+ "address": "27860 Bradley Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245205",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1073
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245205",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 46.0,
+   "conf": "low",
+   "ocrConf": 42.905499,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___46",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-06-02",
+   "conf": "high",
+   "ocrConf": 82.560295,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245205",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.715702700000065,
+ "lon": -117.19150079999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210727",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245205",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

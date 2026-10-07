@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006698",
+ "processed": "2026-10-07T03:07:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "331-040-043",
+ "address": "26770 Murrieta Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238577",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 947
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238577",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 58.290058,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-04-01",
+   "conf": "low",
+   "ocrConf": 27.068779,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238577",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.73013964800003,
+ "lon": -117.20510040799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218488",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238577",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

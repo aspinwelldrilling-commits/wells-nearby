@@ -1,0 +1,65 @@
+{
+ "permit": "WP0025323",
+ "processed": "2026-10-07T03:52:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "472-190-004",
+ "address": "34485 Alden Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248306",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 411
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248306",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 785.0,
+   "conf": "low",
+   "ocrConf": 54.578552,
+   "raw": "Total Depth of Boring 785",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 81.929993,
+   "raw": "Estimated Yield * 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 94.88916,
+   "raw": "Water Level 100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248306",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62202569500005,
+ "lon": -117.05920602999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200307",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248306",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,68 @@
+{
+ "permit": "WP0028860",
+ "processed": "2026-10-07T04:31:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-170-006",
+ "address": "33203 Hixon St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/301039",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 9
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/301039",
+   "page": 1,
+   "source": "text",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/301039",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2019-11-02",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.361688,
+   "lon": -117.17397,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/301039",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60483675000006,
+ "lon": -117.29436931099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/333716",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/301039",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

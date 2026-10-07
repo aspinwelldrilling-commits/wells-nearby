@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030209",
+ "processed": "2026-10-07T03:55:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "366-320-040",
+ "address": "33411 Chico Hills ",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256115",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 298
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256115",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256115",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 296.0,
+   "conf": "high",
+   "ocrConf": 89.910538,
+   "raw": "Total Depth of Completed Well 296",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 94.541168,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 47.0,
+   "conf": "high",
+   "ocrConf": 96.706207,
+   "raw": "Water Level 47 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 89.880447,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 61.416798,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-01-10",
+   "conf": "medium",
+   "ocrConf": 73.358856,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.635286,
+   "lon": -117.243677,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256115",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.635286,
+ "lon": -117.243677,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256114",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256115",
+ "serviceType": "Evaluation",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

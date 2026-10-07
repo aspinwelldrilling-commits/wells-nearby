@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009242",
+ "processed": "2026-10-07T03:21:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "330-180-029",
+ "address": "25025 Corsica Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240132",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 726
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240132",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 28.31282,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-08-12",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240132",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.73780629500004,
+ "lon": -117.22073491199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214182",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240132",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

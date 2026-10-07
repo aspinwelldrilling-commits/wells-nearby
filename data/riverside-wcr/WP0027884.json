@@ -1,0 +1,92 @@
+{
+ "permit": "WP0027884",
+ "processed": "2026-10-07T03:51:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "368-150-001",
+ "address": "21009 Grand Ave",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249665",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249665",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249665",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 298.0,
+   "conf": "medium",
+   "ocrConf": 58.165325,
+   "raw": "Total Depth of Completed Well 298",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 96.88282,
+   "raw": "Estimated Yield* 80 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 62.0,
+   "conf": "high",
+   "ocrConf": 96.662689,
+   "raw": "Water Level 62 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud Rot",
+   "conf": "medium",
+   "ocrConf": 73.925232,
+   "raw": "Drilling Method Other - Mud rot Drilling Fluid Bentonit",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-07-21",
+   "conf": "high",
+   "ocrConf": 81.034203,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.603714,
+   "lon": -117.289158,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249665",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60323439000007,
+ "lon": -117.28859349999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19294",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249665",
+ "serviceType": "Evaluation",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0024557",
+ "processed": "2026-10-07T03:49:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-280-023",
+ "address": "24580 Oak Circle Dr",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248091",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 465
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248091",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 615.0,
+   "conf": "high",
+   "ocrConf": 84.152863,
+   "raw": "Total Depth of Completed Well 615",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "medium",
+   "ocrConf": 76.818985,
+   "raw": "Estimated Yield* 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 167.0,
+   "conf": "medium",
+   "ocrConf": 66.101685,
+   "raw": "Water Level 167 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-09-09",
+   "conf": "medium",
+   "ocrConf": 70.414337,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248091",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.622686593000026,
+ "lon": -117.24590499299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201471",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248091",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

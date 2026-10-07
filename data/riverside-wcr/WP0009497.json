@@ -1,0 +1,60 @@
+{
+ "permit": "WP0009497",
+ "processed": "2026-10-07T04:08:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "370-030-012",
+ "address": "N/O Corydon St & E/O Cereal St",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240457",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3008
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240457",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240457",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240457",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1025.0,
+   "conf": "low",
+   "ocrConf": 15.504623,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1025",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240457",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63279805700006,
+ "lon": -117.29479615199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214370",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240457",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "unreadable"
+}

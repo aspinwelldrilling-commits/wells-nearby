@@ -1,0 +1,56 @@
+{
+ "permit": "WP0010959",
+ "processed": "2026-10-07T03:27:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-410-017",
+ "address": "35647 Epple St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241169",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 940
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241169",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 430.0,
+   "conf": "low",
+   "ocrConf": 21.900803,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL430",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 114.0,
+   "conf": "high",
+   "ocrConf": 82.129593,
+   "raw": "WATER LeveL 114 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241169",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60322467700007,
+ "lon": -117.15875043099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213573",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241169",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

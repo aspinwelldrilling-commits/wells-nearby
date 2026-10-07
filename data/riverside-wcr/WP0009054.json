@@ -1,0 +1,48 @@
+{
+ "permit": "WP0009054",
+ "processed": "2026-10-07T03:17:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-420-026",
+ "address": "35862 Capra Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240001",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1064
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240001",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 625.0,
+   "conf": "low",
+   "ocrConf": 48.166424,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 625",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240001",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.59946563800003,
+ "lon": -117.15562089899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214030",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240001",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

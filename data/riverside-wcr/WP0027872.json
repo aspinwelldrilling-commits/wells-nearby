@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027872",
+ "processed": "2026-10-07T03:56:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "349-123-011",
+ "address": "21420 Wallace Ave",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249660",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 62
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249660",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 850.0,
+   "conf": "high",
+   "ocrConf": 96.954231,
+   "raw": "Total Depth of Completed Well 850",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 148.0,
+   "conf": "medium",
+   "ocrConf": 70.449791,
+   "raw": "Estimated Yield * 148 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-07-18",
+   "conf": "high",
+   "ocrConf": 96.222862,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249660",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.72076721700006,
+ "lon": -117.28433345499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199018",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249660",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

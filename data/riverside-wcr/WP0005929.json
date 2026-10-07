@@ -1,0 +1,48 @@
+{
+ "permit": "WP0005929",
+ "processed": "2026-10-07T03:03:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "465-290-016",
+ "address": "33955 Stowe Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237364",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 817
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237364",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 225.0,
+   "conf": "high",
+   "ocrConf": 85.468147,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __225",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237364",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.72099553400005,
+ "lon": -117.06877925999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216016",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237364",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0025270",
+ "processed": "2026-10-07T03:49:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "461-190-051",
+ "address": "31100 Busby Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248220",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 61
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248220",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 82.354774,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 44.393875,
+   "raw": "Water Level 60 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-04-22",
+   "conf": "high",
+   "ocrConf": 80.053085,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248220",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.685532488000035,
+ "lon": -117.116554786,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200255",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248220",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

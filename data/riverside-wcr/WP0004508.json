@@ -1,0 +1,65 @@
+{
+ "permit": "WP0004508",
+ "processed": "2026-10-07T02:57:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-240-004",
+ "address": "22604 Margarth St",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236413",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 749
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236413",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 625.0,
+   "conf": "low",
+   "ocrConf": 62.19355,
+   "raw": "TOTAL DEPTH OF BORING __ 625",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 19.321777,
+   "raw": "ESTIMATED YIELD -4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Ais Rotary",
+   "conf": "low",
+   "ocrConf": 47.047295,
+   "raw": "DRILLING\nMETHOD ais rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236413",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.751979360000064,
+ "lon": -117.26530688499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216409",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236413",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

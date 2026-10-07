@@ -1,0 +1,57 @@
+{
+ "permit": "WP0015840",
+ "processed": "2026-10-07T03:42:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244795",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1618
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244795",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 16.10141,
+   "raw": "WELL LOG: Total depth 2O",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 68.0,
+   "conf": "high",
+   "ocrConf": 96.340477,
+   "raw": "Standing level after well completion 68 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244795",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.70619487000005,
+ "lon": -117.28403199599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/224768",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244795",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

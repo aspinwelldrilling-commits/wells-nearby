@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007967",
+ "processed": "2026-10-07T04:03:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "331-050-002",
+ "address": "SW Cor McLaughlin Rd/Evans Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239388",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 833
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239388",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "medium",
+   "ocrConf": 62.674652,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.51,
+   "conf": "high",
+   "ocrConf": 94.218262,
+   "raw": "WATER LEVEL 60.51 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239388",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.73527532600008,
+ "lon": -117.19873804199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215073",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239388",
+ "serviceType": null,
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

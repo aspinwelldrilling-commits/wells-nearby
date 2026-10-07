@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017377",
+ "processed": "2026-10-07T04:22:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "327-220-014",
+ "address": "Ethanic & Barnett",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245543",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3556
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245543",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "medium",
+   "ocrConf": 76.167786,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-02-16",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245543",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.744328186000075,
+ "lon": -117.19288462399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209909",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245543",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

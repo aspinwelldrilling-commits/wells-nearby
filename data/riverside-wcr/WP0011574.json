@@ -1,0 +1,63 @@
+{
+ "permit": "WP0011574",
+ "processed": "2026-10-07T03:28:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-390-020",
+ "address": "35125 Menifee Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241824",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 851
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241824",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "medium",
+   "ocrConf": 77.129059,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _325",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "low",
+   "ocrConf": 44.936222,
+   "raw": "ESTIMATED YIELD * 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-11-03",
+   "conf": "low",
+   "ocrConf": 23.459534,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241824",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60989725500008,
+ "lon": -117.15559967399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211986",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241824",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

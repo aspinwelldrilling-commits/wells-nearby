@@ -1,0 +1,64 @@
+{
+ "permit": "WP0020334",
+ "processed": "2026-10-07T03:48:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "330-240-059",
+ "address": "25597 Troy Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246706",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 397
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246706",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 96.934441,
+   "raw": "Total Depth of Boring 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 84.892952,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-10-16",
+   "conf": "low",
+   "ocrConf": 49.802505,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246706",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.731714787000044,
+ "lon": -117.21377163599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204575",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246706",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

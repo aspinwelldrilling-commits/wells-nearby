@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009910",
+ "processed": "2026-10-07T03:22:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-370-006",
+ "address": "32201 Evans Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240938",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 763
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240938",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 455.0,
+   "conf": "low",
+   "ocrConf": 32.124168,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 455",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-12-11",
+   "conf": "high",
+   "ocrConf": 90.914322,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240938",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.653710000000046,
+ "lon": -117.19870999999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214658",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240938",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

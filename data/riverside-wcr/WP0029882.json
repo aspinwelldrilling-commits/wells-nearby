@@ -1,0 +1,99 @@
+{
+ "permit": "WP0029882",
+ "processed": "2026-10-07T03:52:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-260-011",
+ "address": "Fredrick Oneal Rd ",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248909",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 140
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248909",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248909",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well           400",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 137.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                137 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method       Downhole Hammer             Drilling Fluid    Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-05-25",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.620521,
+   "lon": -117.253533,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             25 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248909",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.620521,
+ "lon": -117.253533,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/329689",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248909",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,49 @@
+{
+ "permit": "WP0006084",
+ "processed": "2026-10-07T03:03:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-400-006",
+ "address": "35385 Twin Willow Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238187",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 803
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238187",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 22",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238187",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60729714100006,
+ "lon": -117.15954830599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216366",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238187",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,48 @@
+{
+ "permit": "WP0010065",
+ "processed": "2026-10-07T03:24:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "333-190-004",
+ "address": "29634 Longshore Dr",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240222",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1016
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240222",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 609.0,
+   "conf": "high",
+   "ocrConf": 85.528046,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 609",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240222",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.71049957100007,
+ "lon": -117.14311396,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214781",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240222",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

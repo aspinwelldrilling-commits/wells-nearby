@@ -1,0 +1,70 @@
+{
+ "permit": "WP0002569",
+ "processed": "2026-10-07T04:01:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-410-012",
+ "address": "28890 Greenberg Pl",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235138",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 867
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235138",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 70.678528,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 95.488167,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.819351,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-10-28",
+   "conf": "high",
+   "ocrConf": 96.784195,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235138",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.602335131000075,
+ "lon": -117.15577646199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219616",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235138",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

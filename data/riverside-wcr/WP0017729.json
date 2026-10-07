@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017729",
+ "processed": "2026-10-07T03:48:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "361-113-010",
+ "address": "24417 Cottonwood St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245720",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 330
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245720",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "low",
+   "ocrConf": 35.051331,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 150",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-17",
+   "conf": "high",
+   "ocrConf": 83.086525,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245720",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.649371459000065,
+ "lon": -117.23334013699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208406",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245720",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

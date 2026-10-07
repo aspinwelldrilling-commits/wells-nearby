@@ -1,0 +1,62 @@
+{
+ "permit": "WP0001778",
+ "processed": "2026-10-07T02:46:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "461-200-019",
+ "address": "Winchester Do, Olive Ave",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234646",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1636
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234646",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234646",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 473.0,
+   "conf": "low",
+   "ocrConf": 9.652901,
+   "raw": "TOTAL DEPTH OF BORING _ 473",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-04-28",
+   "conf": "high",
+   "ocrConf": 96.494484,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234646",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.69571703300005,
+ "lon": -117.08897113399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220464",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234646",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

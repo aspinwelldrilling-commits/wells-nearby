@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006116",
+ "processed": "2026-10-07T03:03:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-480-020",
+ "address": "32100 Menifee Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238202",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 831
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238202",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 205.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 205",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.921677,
+   "raw": "DRILLING\nMETHOD AIR FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238202",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.653721586000074,
+ "lon": -117.15340863199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216494",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238202",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

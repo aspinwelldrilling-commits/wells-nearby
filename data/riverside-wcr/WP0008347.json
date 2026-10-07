@@ -1,0 +1,57 @@
+{
+ "permit": "WP0008347",
+ "processed": "2026-10-07T03:13:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-280-042",
+ "address": "22389 McPherson Rd",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239593",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1035
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239593",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 306.0,
+   "conf": "low",
+   "ocrConf": 19.326157,
+   "raw": "TOTAL DEPTH OF BORING 306",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 52.685211,
+   "raw": "ESTIMATED YIELD.\" 2 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239593",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.73575999500002,
+ "lon": -117.26895805699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215595",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239593",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

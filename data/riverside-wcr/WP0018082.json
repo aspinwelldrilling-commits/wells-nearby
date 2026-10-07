@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018082",
+ "processed": "2026-10-07T04:24:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "964-060-001",
+ "address": "Washington St",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245820",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 4772
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245820",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 49.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 49",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-05",
+   "conf": "high",
+   "ocrConf": 94.467384,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245820",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.58581803800007,
+ "lon": -117.07795116199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208731",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245820",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

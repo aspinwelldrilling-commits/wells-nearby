@@ -1,0 +1,55 @@
+{
+ "permit": "WP0025422",
+ "processed": "2026-10-07T04:30:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "459-082-049",
+ "address": "31160 Robertson St",
+ "city": "Homeland",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248381",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 406
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248381",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 230.0,
+   "conf": "high",
+   "ocrConf": 96.763084,
+   "raw": "Total Depth of Completed Well 230",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-07-21",
+   "conf": "high",
+   "ocrConf": 86.162819,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248381",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.74130668400005,
+ "lon": -117.11648222099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200405",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248381",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

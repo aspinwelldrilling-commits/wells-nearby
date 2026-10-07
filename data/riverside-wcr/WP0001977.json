@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001977",
+ "processed": "2026-10-07T03:55:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "327-170-010",
+ "address": "Mapes Rd",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234786",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 842
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234786",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 585.0,
+   "conf": "low",
+   "ocrConf": 8.003189,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 585",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 104.0,
+   "conf": "low",
+   "ocrConf": 34.926956,
+   "raw": "WATER LeveL __ 104 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234786",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.75787676400006,
+ "lon": -117.188896968,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221084",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234786",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

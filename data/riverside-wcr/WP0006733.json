@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006733",
+ "processed": "2026-10-07T03:08:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-030-011",
+ "address": "33679 Daily Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238599",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 983
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238599",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 43.0,
+   "conf": "high",
+   "ocrConf": 96.298668,
+   "raw": "WATER LEVEL 43 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-05-17",
+   "conf": "low",
+   "ocrConf": 13.141815,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238599",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.631777654000075,
+ "lon": -117.20287291699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218679",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238599",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

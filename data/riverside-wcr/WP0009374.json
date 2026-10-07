@@ -1,0 +1,56 @@
+{
+ "permit": "WP0009374",
+ "processed": "2026-10-07T03:21:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "335-430-019",
+ "address": "24800 Sotelo Rd",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240274",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1010
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240274",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 453.0,
+   "conf": "low",
+   "ocrConf": 13.797363,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 453",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "medium",
+   "ocrConf": 51.623032,
+   "raw": "WATER LEVEL____ 75 _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240274",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.726191140000026,
+ "lon": -117.22598443399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214287",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240274",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

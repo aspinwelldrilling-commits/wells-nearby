@@ -1,0 +1,78 @@
+{
+ "permit": "WP0011423",
+ "processed": "2026-10-07T04:14:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "327-190-008",
+ "address": "MAPES RD & SHERMAN RD(ACOE-TW1)",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241641",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 793
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241641",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 380.0,
+   "conf": "high",
+   "ocrConf": 96.911278,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 380",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1000.0,
+   "conf": "high",
+   "ocrConf": 96.628693,
+   "raw": "ESTIMATED YIELD 1000 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 69.0,
+   "conf": "high",
+   "ocrConf": 96.544365,
+   "raw": "WATER LEVEL 69 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.748276,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-01-08",
+   "conf": "high",
+   "ocrConf": 94.061287,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241641",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.75804807600008,
+ "lon": -117.18099077399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213935",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241641",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

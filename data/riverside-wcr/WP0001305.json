@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001305",
+ "processed": "2026-10-07T02:46:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "914-380-006",
+ "address": "32770 Shrimp Ln",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234287",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 854
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234287",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 642.0,
+   "conf": "high",
+   "ocrConf": 88.4076,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 642",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-12-14",
+   "conf": "medium",
+   "ocrConf": 67.785156,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234287",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.59538211300003,
+ "lon": -117.08792491899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221977",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234287",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

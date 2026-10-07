@@ -1,0 +1,49 @@
+{
+ "permit": "WP0009400",
+ "processed": "2026-10-07T03:21:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "329-310-005",
+ "address": "28781 Mapes Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240303",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 929
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240303",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "medium",
+   "ocrConf": 95.775246,
+   "raw": "TOTAL DEPTH OF BORING 700",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240303",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.75732202800003,
+ "lon": -117.15800390899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214299",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240303",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

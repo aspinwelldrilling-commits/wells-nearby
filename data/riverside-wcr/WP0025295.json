@@ -1,0 +1,55 @@
+{
+ "permit": "WP0025295",
+ "processed": "2026-10-07T04:30:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "392-230-035",
+ "address": "Mitchell Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248247",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 385
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248247",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 65.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 65",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-11-24",
+   "conf": "low",
+   "ocrConf": 32.549828,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248247",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.59881586900008,
+ "lon": -117.18097288099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200279",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248247",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

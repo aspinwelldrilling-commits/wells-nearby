@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023155",
+ "processed": "2026-10-07T03:49:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-320-015",
+ "address": "31925 Eucalyptus Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247610",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 388
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247610",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 96.852859,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-02-26",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247610",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.657599394000044,
+ "lon": -117.11155695299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202007",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247610",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

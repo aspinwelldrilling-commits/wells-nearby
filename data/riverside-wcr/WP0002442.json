@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002442",
+ "processed": "2026-10-07T02:49:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-120-012",
+ "address": "Haun Road",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235201",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 844
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235201",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 384.0,
+   "conf": "low",
+   "ocrConf": 31.008041,
+   "raw": "TOTAL DEPTH OF BORING __ 384",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 33.0,
+   "conf": "low",
+   "ocrConf": 15.769997,
+   "raw": "WATER LEVEL __33/@ _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235201",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.66544045300003,
+ "lon": -117.17794696599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219094",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235201",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

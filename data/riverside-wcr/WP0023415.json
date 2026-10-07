@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023415",
+ "processed": "2026-10-07T03:52:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-280-003",
+ "address": "23780 Mark Way",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247798",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 329
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247798",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "low",
+   "ocrConf": 22.918488,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL375",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-08-08",
+   "conf": "medium",
+   "ocrConf": 63.98983,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247798",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62269250300005,
+ "lon": -117.24456844299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202244",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247798",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

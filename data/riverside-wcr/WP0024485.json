@@ -1,0 +1,78 @@
+{
+ "permit": "WP0024485",
+ "processed": "2026-10-07T03:49:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-280-033",
+ "address": "24380 Oak Circle Dr",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248019",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 472
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248019",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 385.0,
+   "conf": "high",
+   "ocrConf": 91.181038,
+   "raw": "Total Depth of Completed Well 385",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "high",
+   "ocrConf": 96.450897,
+   "raw": "Estimated Yield* 7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 91.817734,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Polymer",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Polymer",
+   "conf": "medium",
+   "ocrConf": 67.10498,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-07-14",
+   "conf": "high",
+   "ocrConf": 95.567886,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248019",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.61993422300003,
+ "lon": -117.24528729299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201400",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248019",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

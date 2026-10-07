@@ -1,0 +1,98 @@
+{
+ "permit": "WP0029159",
+ "processed": "2026-10-07T03:54:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "360-250-012",
+ "address": "27099 Garboni Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248818",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 364
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248818",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248818",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248818",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 89.142715,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.5,
+   "conf": "high",
+   "ocrConf": 94.658081,
+   "raw": "Estimated Yield* 1.5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 95.988777,
+   "raw": "Water Level 100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 76.819916,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-04-23",
+   "conf": "medium",
+   "ocrConf": 77.243011,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.6575,
+   "lon": -117.18759,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248818",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65705000000003,
+ "lon": -117.18758999999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34699",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248818",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

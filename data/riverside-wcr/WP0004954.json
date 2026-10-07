@@ -1,0 +1,57 @@
+{
+ "permit": "WP0004954",
+ "processed": "2026-10-07T04:00:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-370-001",
+ "address": "26301 Garboni Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236714",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 985
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236714",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 96.028267,
+   "raw": "TOTAL DEPTH OF BORING 25",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LeveL 22\" _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236714",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65550368500004,
+ "lon": -117.19992075399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217668",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236714",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,49 @@
+{
+ "permit": "WP0000027",
+ "processed": "2026-10-07T02:40:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "33780 Zeider Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234102",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1823
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234102",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 56.11092,
+   "raw": "WELL LOG: Total depth 220",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234102",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62982126500003,
+ "lon": -117.17361602099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222499",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234102",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

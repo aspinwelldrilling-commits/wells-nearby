@@ -1,0 +1,55 @@
+{
+ "permit": "WP0027363",
+ "processed": "2026-10-07T03:53:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-250-026",
+ "address": "32597 Beeler",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249529",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 391
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249529",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "2017-11-06",
+   "conf": "medium",
+   "ocrConf": 76.432198,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.704552,
+   "raw": "Estimated Yield *_ 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249529",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64546487300004,
+ "lon": -117.10089195999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198855",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249529",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

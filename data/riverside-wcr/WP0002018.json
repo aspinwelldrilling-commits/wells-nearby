@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002018",
+ "processed": "2026-10-07T04:00:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "339-190-002",
+ "address": "Off Murrieta Road",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235427",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 825
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235427",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 17.143936,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _220",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 33.0,
+   "conf": "low",
+   "ocrConf": 49.061871,
+   "raw": "WATER LEVEL ___33 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235427",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.69403753600005,
+ "lon": -117.21746698999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221231",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235427",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

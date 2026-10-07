@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022863",
+ "processed": "2026-10-07T03:52:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "360-240-021",
+ "address": "31529 Linda Lee Dr",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249336",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 333
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249336",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 925.0,
+   "conf": "low",
+   "ocrConf": 4.882034,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL925",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-10-31",
+   "conf": "low",
+   "ocrConf": 42.701042,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249336",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.662623471000074,
+ "lon": -117.18489292499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310115",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249336",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

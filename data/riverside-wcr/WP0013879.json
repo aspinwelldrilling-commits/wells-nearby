@@ -1,0 +1,57 @@
+{
+ "permit": "WP0013879",
+ "processed": "2026-10-07T03:35:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-130-041",
+ "address": "30420 Sunny Hills Dr",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242951",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 800
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242951",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 139.0,
+   "conf": "low",
+   "ocrConf": 70.556274,
+   "raw": "TOTAL DEPTH OF BORING 139",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "low",
+   "ocrConf": 47.223808,
+   "raw": "ESTIMATED YiELD * 18 (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242951",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62373421800004,
+ "lon": -117.13060139899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210933",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242951",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

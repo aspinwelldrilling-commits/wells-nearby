@@ -1,0 +1,72 @@
+{
+ "permit": "WP0024614",
+ "processed": "2026-10-07T03:51:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-260-015",
+ "address": "34476 Oneal Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248159",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 352
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248159",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 63.639343,
+   "raw": "Total Depth of Boring 7OO",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 84.838295,
+   "raw": "Estimated Yield * 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.917709,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-08-27",
+   "conf": "high",
+   "ocrConf": 96.272179,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248159",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.621049252000034,
+ "lon": -117.25072407399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201527",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248159",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

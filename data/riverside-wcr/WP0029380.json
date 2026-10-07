@@ -1,0 +1,91 @@
+{
+ "permit": "WP0029380",
+ "processed": "2026-10-07T03:54:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-120-059",
+ "address": "33888 Arcadia Ln ",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264855",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 578
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264855",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264855",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "high",
+   "ocrConf": 87.422371,
+   "raw": "Total Depth of Completed Well 265",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 24.0,
+   "conf": "high",
+   "ocrConf": 96.042229,
+   "raw": "Estimated Yield* 24 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.19442,
+   "raw": "Water Level 50 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 63.126541,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-08-13",
+   "conf": "high",
+   "ocrConf": 83.501694,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.63013,
+   "lon": -117.21816,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264855",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62949,
+ "lon": -117.21841,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264854",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264855",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

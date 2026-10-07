@@ -1,0 +1,62 @@
+{
+ "permit": "WP0003684",
+ "processed": "2026-10-07T02:54:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "329-320-001",
+ "address": "28701 Mapes Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235897",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 809
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235897",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Wud Rotary",
+   "conf": "medium",
+   "ocrConf": 77.630318,
+   "raw": "DRILLING\nMETHOD wud rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.062859,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1996-06-04",
+   "conf": "low",
+   "ocrConf": 49.760468,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235897",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.75289820300003,
+ "lon": -117.16077297999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218222",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235897",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

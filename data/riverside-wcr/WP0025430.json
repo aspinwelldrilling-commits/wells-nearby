@@ -1,0 +1,64 @@
+{
+ "permit": "WP0025430",
+ "processed": "2026-10-07T03:50:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "330-190-021",
+ "address": "26411 Byers Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248398",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 412
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248398",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 96.579338,
+   "raw": "Total Depth of Boring 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 87.564125,
+   "raw": "Water Level 60 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-07-03",
+   "conf": "high",
+   "ocrConf": 94.937187,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248398",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.737135108000075,
+ "lon": -117.21567923699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200412",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248398",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

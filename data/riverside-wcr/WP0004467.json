@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004467",
+ "processed": "2026-10-07T02:57:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "958-030-028",
+ "address": "32769 Galleano Ave",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236383",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 880
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236383",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 306.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___306",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "medium",
+   "ocrConf": 54.24799,
+   "raw": "ESTIMATED YIELD _ 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236383",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.59624145600003,
+ "lon": -117.08760003499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220535",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236383",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

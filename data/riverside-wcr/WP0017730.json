@@ -1,0 +1,56 @@
+{
+ "permit": "WP0017730",
+ "processed": "2026-10-07T03:44:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "900-050-011",
+ "address": "36560 Los Alamos Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245721",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 837
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245721",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1940.0,
+   "conf": "medium",
+   "ocrConf": 66.016891,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1940",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 47.9571,
+   "raw": "ESTIMATED YIELD * 22 \u00a9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245721",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.58976089600003,
+ "lon": -117.15745619199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208407",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245721",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

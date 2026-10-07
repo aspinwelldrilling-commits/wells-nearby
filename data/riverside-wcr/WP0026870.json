@@ -1,0 +1,72 @@
+{
+ "permit": "WP0026870",
+ "processed": "2026-10-07T03:55:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-270-023",
+ "address": "22045 Ethanac Rd",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248682",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 133
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248682",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 96.954109,
+   "raw": "Total Depth of Boring 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 96.48893,
+   "raw": "Estimated Yield * 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 67.0,
+   "conf": "low",
+   "ocrConf": 14.280312,
+   "raw": "Water Level 67 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-06-24",
+   "conf": "high",
+   "ocrConf": 85.797813,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248682",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.74242975000004,
+ "lon": -117.27455399599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199892",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248682",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

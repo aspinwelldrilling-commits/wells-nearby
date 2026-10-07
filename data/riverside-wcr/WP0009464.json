@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009464",
+ "processed": "2026-10-07T04:09:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-180-037",
+ "address": "Abelia St",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240402",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2147
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240402",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 49.62323,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 60",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-08-14",
+   "conf": "medium",
+   "ocrConf": 54.567204,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240402",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.616648155000064,
+ "lon": -117.095209695,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214347",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240402",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

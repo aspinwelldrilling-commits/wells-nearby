@@ -1,0 +1,63 @@
+{
+ "permit": "WP0025419",
+ "processed": "2026-10-07T03:55:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "392-350-014",
+ "address": "29050 Lee Ln",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248375",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 399
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248375",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 75.882057,
+   "raw": "Estimated Yield+ 150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 90.169983,
+   "raw": "Water Level 40 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-07-01",
+   "conf": "high",
+   "ocrConf": 92.936478,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248375",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60584000000006,
+ "lon": -117.15289999999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200402",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248375",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

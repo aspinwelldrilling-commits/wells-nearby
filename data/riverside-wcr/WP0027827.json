@@ -1,0 +1,64 @@
+{
+ "permit": "WP0027827",
+ "processed": "2026-10-07T03:51:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "349-320-025",
+ "address": "Hudson Ct",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249645",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 64
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249645",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "medium",
+   "ocrConf": 95.437393,
+   "raw": "Total Depth of Boring 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.474075,
+   "raw": "Estimated Yield * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-31",
+   "conf": "high",
+   "ocrConf": 95.215332,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249645",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.71302487100007,
+ "lon": -117.28240199699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199052",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249645",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

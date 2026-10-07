@@ -1,0 +1,71 @@
+{
+ "permit": "WP0017870",
+ "processed": "2026-10-07T03:46:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "472-060-012",
+ "address": "31375 Scott Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245762",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 800
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245762",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 440.0,
+   "conf": "high",
+   "ocrConf": 96.062607,
+   "raw": "Total Depth of Completed Well 440",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 93.472916,
+   "raw": "Estimated Yield * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 83.348068,
+   "raw": "Water Level 150 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-02",
+   "conf": "medium",
+   "ocrConf": 79.371063,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245762",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64057464100006,
+ "lon": -117.11268633199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208525",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245762",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

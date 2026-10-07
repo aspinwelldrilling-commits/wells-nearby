@@ -1,0 +1,71 @@
+{
+ "permit": "WP0014208",
+ "processed": "2026-10-07T03:33:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "361-083-020",
+ "address": "24136 Olive Ave",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242747",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 701
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242747",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 475.0,
+   "conf": "medium",
+   "ocrConf": 57.598091,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL475",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 95.312309,
+   "raw": "ESTIMATED YieLD * 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 87.0,
+   "conf": "high",
+   "ocrConf": 88.000214,
+   "raw": "WATER LeveL 87 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-24",
+   "conf": "medium",
+   "ocrConf": 53.992786,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242747",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.650575210000056,
+ "lon": -117.23800539199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211162",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242747",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,54 @@
+{
+ "permit": "WP0002787",
+ "processed": "2026-10-07T02:51:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "368-190-015",
+ "address": "35135 Orange St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235015",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1661
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235015",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235015",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 3.7,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ___3.7\u00a7 _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235015",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.61062438000005,
+ "lon": -117.27590325899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220603",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235015",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

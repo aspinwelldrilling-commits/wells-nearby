@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030458",
+ "processed": "2026-10-07T03:55:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "361-021-004",
+ "address": "Orange St ",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270821",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 13
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270821",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270821",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        400",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  15 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Downhole Hammer           Drilling Fluid   Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-01-22",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.649034,
+   "lon": -117.226472,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 33.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             33 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270821",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.649034,
+ "lon": -117.226472,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310575",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270821",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

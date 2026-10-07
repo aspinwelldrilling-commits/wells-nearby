@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008978",
+ "processed": "2026-10-07T03:16:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "361-041-018",
+ "address": "24020 Acacia St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239932",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 697
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239932",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 17.095932,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-05-14",
+   "conf": "medium",
+   "ocrConf": 67.088516,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239932",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65513252200003,
+ "lon": -117.23974433699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217733",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239932",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

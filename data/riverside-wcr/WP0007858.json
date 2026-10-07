@@ -1,0 +1,48 @@
+{
+ "permit": "WP0007858",
+ "processed": "2026-10-07T03:11:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-570-025",
+ "address": "35501 B Duster Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239320",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 855
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239320",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 52.869751,
+   "raw": "ESTIMATED YIELD * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239320",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60371528300004,
+ "lon": -117.18422244199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218505",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239320",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

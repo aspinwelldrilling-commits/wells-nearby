@@ -1,0 +1,56 @@
+{
+ "permit": "WP0008986",
+ "processed": "2026-10-07T03:17:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-390-018",
+ "address": "28967 Baxter Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239938",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 956
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239938",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 66.691238,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL__3Q\u2014__(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239938",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.61117660800005,
+ "lon": -117.15532948999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217769",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239938",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

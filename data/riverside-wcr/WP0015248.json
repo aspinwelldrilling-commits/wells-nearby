@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015248",
+ "processed": "2026-10-07T03:34:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-270-016",
+ "address": "23895 Oak Circle Dr",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244386",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1586
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244386",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244386",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 234.0,
+   "conf": "low",
+   "ocrConf": 21.524307,
+   "raw": "TOTAL DEPTH OF BORING __234",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244386",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62365613500003,
+ "lon": -117.24385564399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210615",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244386",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "unreadable"
+}

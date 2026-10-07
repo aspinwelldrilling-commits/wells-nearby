@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005185",
+ "processed": "2026-10-07T03:01:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "369-180-050",
+ "address": "22455 Grand Ave",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236825",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 883
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236825",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 39.506126,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1998-12-16",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236825",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.587247439000066,
+ "lon": -117.261907356,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218290",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236825",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007293",
+ "processed": "2026-10-07T03:08:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-400-024",
+ "address": "28920 Lee Ln",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238964",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 769
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238964",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 499.0,
+   "conf": "low",
+   "ocrConf": 0.77565,
+   "raw": "TOTAL DEPTH OF BORING 499",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-07-11",
+   "conf": "low",
+   "ocrConf": 2.851166,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238964",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60556340200003,
+ "lon": -117.15741352699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216490",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238964",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

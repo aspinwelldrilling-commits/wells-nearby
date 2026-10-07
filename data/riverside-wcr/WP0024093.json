@@ -1,0 +1,71 @@
+{
+ "permit": "WP0024093",
+ "processed": "2026-10-07T03:50:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-250-022",
+ "address": "25515 Sophie Rd",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247833",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 400
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247833",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 19.768456,
+   "raw": "Estimated Yield* 2. \u2014\u2014s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 241.0,
+   "conf": "medium",
+   "ocrConf": 73.109306,
+   "raw": "Water Level 241 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 81.101776,
+   "raw": "Drilling Method _air Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-03-07",
+   "conf": "medium",
+   "ocrConf": 77.029037,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247833",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.749477857000045,
+ "lon": -117.259123666,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201024",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247833",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

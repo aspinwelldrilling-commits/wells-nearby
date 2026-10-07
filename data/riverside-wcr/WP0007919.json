@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007919",
+ "processed": "2026-10-07T03:11:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "360-190-004",
+ "address": "Craig Ave, Across From Paloma Valley H S",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239366",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 805
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239366",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 24",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 41.739082,
+   "raw": "ESTIMATED YIELD * 5 @ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239366",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.66229057000004,
+ "lon": -117.19359529299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218683",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239366",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

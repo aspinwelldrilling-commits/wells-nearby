@@ -1,0 +1,63 @@
+{
+ "permit": "WP0025336",
+ "processed": "2026-10-07T03:50:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-160-045",
+ "address": "21695 Eugene St",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248321",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 415
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248321",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 95.355484,
+   "raw": "Total Depth of Completed well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 80.076225,
+   "raw": "Water Level _70 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-05-12",
+   "conf": "high",
+   "ocrConf": 94.710236,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248321",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.73808129400004,
+ "lon": -117.28017790799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200320",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248321",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

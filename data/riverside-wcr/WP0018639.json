@@ -1,0 +1,80 @@
+{
+ "permit": "WP0018639",
+ "processed": "2026-10-07T03:49:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "358-130-059",
+ "address": "31785 Byers St",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246023",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 773
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246023",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "medium",
+   "ocrConf": 96.45269,
+   "raw": "Total Depth of Boring 375",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 83.047722,
+   "raw": "Estimated Yield * 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 26.0,
+   "conf": "low",
+   "ocrConf": 22.675522,
+   "raw": "Water Level 26s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 91.010849,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-05-05",
+   "conf": "low",
+   "ocrConf": 10.206039,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246023",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65905248300004,
+ "lon": -117.21519508499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209144",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246023",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

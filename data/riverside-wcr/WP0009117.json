@@ -1,0 +1,57 @@
+{
+ "permit": "WP0009117",
+ "processed": "2026-10-07T03:18:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-410-021",
+ "address": "35640 Epple Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240044",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1033
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240044",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 546.0,
+   "conf": "low",
+   "ocrConf": 35.583374,
+   "raw": "TOTAL DEPTH OF BORING _ 546",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 44.093559,
+   "raw": "ESTIMATED YIELD 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240044",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60289258600005,
+ "lon": -117.15837199499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214082",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240044",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

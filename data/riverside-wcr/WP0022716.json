@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022716",
+ "processed": "2026-10-07T04:26:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "964-030-010",
+ "address": "33740 Borel Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249276",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 398
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249276",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 41.9,
+   "conf": "high",
+   "ocrConf": 93.815033,
+   "raw": "Total Depth of Completed Well 41.9",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 38.0,
+   "conf": "high",
+   "ocrConf": 95.540367,
+   "raw": "Water Level 38 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-09-05",
+   "conf": "high",
+   "ocrConf": 96.760345,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249276",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.59064277400006,
+ "lon": -117.07448317499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19082",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249276",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

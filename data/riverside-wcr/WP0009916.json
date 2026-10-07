@@ -1,0 +1,61 @@
+{
+ "permit": "WP0009916",
+ "processed": "2026-10-07T04:09:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "331-110-004",
+ "address": "Ethanac Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240949",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1745
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240949",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240949",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD * 2\u201c _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-03-10",
+   "conf": "high",
+   "ocrConf": 95.994057,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240949",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.74221423700004,
+ "lon": -117.18323858699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214663",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240949",
+ "serviceType": null,
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

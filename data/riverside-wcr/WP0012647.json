@@ -1,0 +1,57 @@
+{
+ "permit": "WP0012647",
+ "processed": "2026-10-07T03:32:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "342-200-002",
+ "address": "22580 Mapes Rd ",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241778",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 736
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241778",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 26.642487,
+   "raw": "ESTIMATED YIELD * 4% (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241778",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.758735056000035,
+ "lon": -117.26499758599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211573",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241778",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

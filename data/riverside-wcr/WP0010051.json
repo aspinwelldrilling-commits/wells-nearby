@@ -1,0 +1,49 @@
+{
+ "permit": "WP0010051",
+ "processed": "2026-10-07T03:23:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-330-009",
+ "address": "33086 Merritt Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240203",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2010
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240203",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 28.200447,
+   "raw": "TOTAL DEPTH OF BORING 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240203",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64050273600003,
+ "lon": -117.12473278499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214770",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240203",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

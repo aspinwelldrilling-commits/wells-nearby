@@ -1,0 +1,89 @@
+{
+ "permit": "WP0029324",
+ "processed": "2026-10-07T03:56:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "461-190-015",
+ "address": "29929 Leon Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264857",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 541
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264857",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264857",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264857",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 485.0,
+   "conf": "medium",
+   "ocrConf": 59.621029,
+   "raw": "Total Depth of Completed Well 485",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 63.004509,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 57.032028,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-07-09",
+   "conf": "medium",
+   "ocrConf": 58.518124,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.68529,
+   "lon": -117.11888,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264857",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.68529,
+ "lon": -117.11888,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264856",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264857",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

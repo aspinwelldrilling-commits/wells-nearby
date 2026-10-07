@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017378",
+ "processed": "2026-10-07T03:48:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-180-033",
+ "address": "25785 La Estrella",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245544",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 727
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245544",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.969757,
+   "raw": "ESTIMATED YIELD * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-03-01",
+   "conf": "high",
+   "ocrConf": 85.028656,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245544",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.603877873000044,
+ "lon": -117.21312508399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209911",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245544",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

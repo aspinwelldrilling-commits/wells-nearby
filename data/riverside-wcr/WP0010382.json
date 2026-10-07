@@ -1,0 +1,48 @@
+{
+ "permit": "WP0010382",
+ "processed": "2026-10-07T04:09:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "455-360-027",
+ "address": "222 Prado Dr",
+ "city": "Hemet",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240652",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 954
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240652",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "2003-04-22",
+   "conf": "low",
+   "ocrConf": 34.163559,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240652",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.748017823000055,
+ "lon": -117.05046411299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213129",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240652",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

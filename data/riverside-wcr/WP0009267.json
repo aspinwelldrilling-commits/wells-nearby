@@ -1,0 +1,57 @@
+{
+ "permit": "WP0009267",
+ "processed": "2026-10-07T03:18:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "372-170-010",
+ "address": "32065 Heather Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240146",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1046
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240146",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 437.0,
+   "conf": "low",
+   "ocrConf": 39.737171,
+   "raw": "TOTAL DEPTH OF BORING 437",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 250.0,
+   "conf": "high",
+   "ocrConf": 96.868195,
+   "raw": "WATER LEVEL 250 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240146",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65527715800005,
+ "lon": -117.14360303599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214201",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240146",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

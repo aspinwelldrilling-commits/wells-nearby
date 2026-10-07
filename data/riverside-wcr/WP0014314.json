@@ -1,0 +1,83 @@
+{
+ "permit": "WP0014314",
+ "processed": "2026-10-07T03:36:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-300-038",
+ "address": "38425 Killarney Ln",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244040",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2312
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244040",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244040",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244040",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 34.531609,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "medium",
+   "ocrConf": 57.164124,
+   "raw": "ESTIMATED YIELD * 18 (GPM",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-07-19",
+   "conf": "high",
+   "ocrConf": 92.141739,
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 98.0,
+   "conf": "medium",
+   "ocrConf": 79.600418,
+   "raw": "WATER LeveL 98 (Ft",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244040",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.613839830000074,
+ "lon": -117.25372433099994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244040",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "partial"
+}

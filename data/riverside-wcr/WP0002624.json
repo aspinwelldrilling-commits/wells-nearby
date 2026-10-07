@@ -1,0 +1,71 @@
+{
+ "permit": "WP0002624",
+ "processed": "2026-10-07T02:51:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-340-022",
+ "address": "32850 Bradley Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235108",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 834
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235108",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 234.0,
+   "conf": "low",
+   "ocrConf": 44.117855,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _234",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LeveL 20 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.300201,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-12-20",
+   "conf": "medium",
+   "ocrConf": 53.839111,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235108",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64435912300007,
+ "lon": -117.18732239999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219896",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235108",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

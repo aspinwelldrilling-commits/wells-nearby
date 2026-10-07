@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002983",
+ "processed": "2026-10-07T02:52:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "366-060-010",
+ "address": "33363 Orchard St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234824",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 785
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234824",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 49.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __49",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 17.401749,
+   "raw": "WATER LEVEL __2\u00ab.  _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234824",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63633217200004,
+ "lon": -117.28608422099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221191",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234824",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

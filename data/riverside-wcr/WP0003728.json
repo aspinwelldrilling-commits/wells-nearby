@@ -1,0 +1,49 @@
+{
+ "permit": "WP0003728",
+ "processed": "2026-10-07T02:54:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-140-036",
+ "address": "26781 Wilkinson St",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235911",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 775
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235911",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 20.718689,
+   "raw": "TOTAL DEPTH OF BORING 220",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235911",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.73134539400007,
+ "lon": -117.27364808699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218387",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235911",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,50 @@
+{
+ "permit": "WP0021301",
+ "processed": "2026-10-07T04:27:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "364-010-005",
+ "address": "30107 Antelope Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246914",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 848
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246914",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 110.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 110",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246914",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.68443000000008,
+ "lon": -117.168005,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203430",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246914",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,99 @@
+{
+ "permit": "WP0027678",
+ "processed": "2026-10-07T03:55:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "349-300-007",
+ "address": "21390 Tyson Rd",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249596",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 297
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249596",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249596",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 91.729034,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 85.219917,
+   "raw": "Estimated Yield\u201d 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 95.569115,
+   "raw": "Water Level 45 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 82.58651,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 93.718163,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-03-28",
+   "conf": "medium",
+   "ocrConf": 77.017738,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.71322,
+   "lon": -117.28606,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249596",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.71322487100008,
+ "lon": -117.28607199699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198946",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249596",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

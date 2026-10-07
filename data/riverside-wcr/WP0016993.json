@@ -1,0 +1,71 @@
+{
+ "permit": "WP0016993",
+ "processed": "2026-10-07T03:45:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "392-320-006",
+ "address": "35520 Epple St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245495",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 864
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245495",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 9.0,
+   "conf": "high",
+   "ocrConf": 96.776634,
+   "raw": "Estimated Yield* 9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 91.894287,
+   "raw": "Water Level 25 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 67.458679,
+   "raw": "Drilling Method Air Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-11-16",
+   "conf": "medium",
+   "ocrConf": 64.019279,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245495",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60486792200004,
+ "lon": -117.15836247399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209582",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245495",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

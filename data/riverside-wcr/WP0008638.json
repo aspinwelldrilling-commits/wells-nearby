@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008638",
+ "processed": "2026-10-07T03:16:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "360-190-015",
+ "address": "26855 Wardell Ave",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239767",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 699
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239767",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 145.0,
+   "conf": "low",
+   "ocrConf": 35.881256,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL145",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-11-20",
+   "conf": "low",
+   "ocrConf": 25.36763,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239767",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.66118267000007,
+ "lon": -117.18911838099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216404",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239767",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

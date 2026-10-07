@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027819",
+ "processed": "2026-10-07T03:53:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-220-068",
+ "address": "21191 River Rd",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249640",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 63
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249640",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 675.0,
+   "conf": "high",
+   "ocrConf": 96.623047,
+   "raw": "Total Depth of Completed Well 675",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.963692,
+   "raw": "Estimated Yield* 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-24",
+   "conf": "medium",
+   "ocrConf": 59.0835,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249640",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.72925487300006,
+ "lon": -117.28932199999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199047",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249640",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

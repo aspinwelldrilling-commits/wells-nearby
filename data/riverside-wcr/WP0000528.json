@@ -1,0 +1,54 @@
+{
+ "permit": "WP0000528",
+ "processed": "2026-10-07T03:57:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "LINDENBERGER RD",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233801",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1710
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233801",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233801",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 680.0,
+   "conf": "medium",
+   "ocrConf": 62.188221,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 680",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233801",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.687922753000066,
+ "lon": -117.14597861199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220269",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233801",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

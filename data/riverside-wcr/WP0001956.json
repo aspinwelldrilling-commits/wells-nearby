@@ -1,0 +1,64 @@
+{
+ "permit": "WP0001956",
+ "processed": "2026-10-07T02:48:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "330-210-019",
+ "address": "25800 Kuffel",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234767",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 865
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234767",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 295.0,
+   "conf": "low",
+   "ocrConf": 33.356575,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 295",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 90.0,
+   "conf": "medium",
+   "ocrConf": 53.349884,
+   "raw": "ESTIMATED YIELD - 90 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 68.0,
+   "conf": "high",
+   "ocrConf": 96.883385,
+   "raw": "WATER LEVEL 68 . (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234767",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.74255648900004,
+ "lon": -117.20958623099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221032",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234767",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

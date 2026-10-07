@@ -1,0 +1,64 @@
+{
+ "permit": "WP0002415",
+ "processed": "2026-10-07T02:49:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-380-045",
+ "address": "26390 Okuma Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235216",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 859
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235216",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 354.0,
+   "conf": "medium",
+   "ocrConf": 69.046967,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___354",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 93.178116,
+   "raw": "WATER LEVEL 12 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 82.833206,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235216",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.651139941000054,
+ "lon": -117.20073719599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219016",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235216",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

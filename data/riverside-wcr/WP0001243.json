@@ -1,0 +1,48 @@
+{
+ "permit": "WP0001243",
+ "processed": "2026-10-07T02:46:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "914-340-005",
+ "address": "28510 Perry Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234238",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 814
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234238",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 305.0,
+   "conf": "low",
+   "ocrConf": 48.289116,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 305",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234238",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.58901700300004,
+ "lon": -117.16229932299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221793",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234238",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

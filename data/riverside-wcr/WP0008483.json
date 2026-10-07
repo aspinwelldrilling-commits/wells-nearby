@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008483",
+ "processed": "2026-10-07T03:14:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "331-210-008",
+ "address": "NEAREST CRN SAN JACINTO RD AND MCLAUGHLI",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239680",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 958
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239680",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 153.0,
+   "conf": "medium",
+   "ocrConf": 54.584648,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 153",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-09-18",
+   "conf": "medium",
+   "ocrConf": 75.137039,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239680",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.73354828600003,
+ "lon": -117.16625077099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215938",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239680",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0003974",
+ "processed": "2026-10-07T02:55:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-230-047",
+ "address": "31655 Wickerd Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236068",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 915
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236068",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.624359,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.602699,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236068",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.648678,
+ "lon": -117.109983,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219087",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236068",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

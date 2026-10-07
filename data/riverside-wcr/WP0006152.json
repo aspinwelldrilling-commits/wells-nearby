@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006152",
+ "processed": "2026-10-07T03:03:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-150-072",
+ "address": "34185 Pourroy Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238223",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 911
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238223",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 44.104443,
+   "raw": "ESTIMATED YIELD * 5G (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 43.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ___43___(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238223",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.624932251000075,
+ "lon": -117.10233737599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216625",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238223",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0003947",
+ "processed": "2026-10-07T02:55:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-370-025",
+ "address": "28240 Triple C Ranch Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236051",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 857
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236051",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 36.865601,
+   "raw": "ESTIMATED YIELD *24 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.216385,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 95.116142,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236051",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.616557390000025,
+ "lon": -117.16701358599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219024",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236051",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013957",
+ "processed": "2026-10-07T03:32:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "361-083-019",
+ "address": "Olive St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243053",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 714
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243053",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 16.915222,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-01-19",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243053",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65058537700003,
+ "lon": -117.23781389399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210992",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243053",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

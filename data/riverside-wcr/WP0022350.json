@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022350",
+ "processed": "2026-10-07T03:49:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-150-030",
+ "address": "35356 Meadow Park Cir",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249398",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 112
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249398",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 30.795326,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-02-23",
+   "conf": "high",
+   "ocrConf": 90.112747,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249398",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60847424900004,
+ "lon": -117.22703998899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18644",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249398",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

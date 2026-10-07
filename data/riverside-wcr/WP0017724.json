@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017724",
+ "processed": "2026-10-07T03:48:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "361-042-010",
+ "address": "2313 Carnation Ave",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245715",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1737
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245715",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245715",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 442.0,
+   "conf": "low",
+   "ocrConf": 3.961319,
+   "raw": "TOTAL DEPTH OF BORING 442",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245715",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.655859253000074,
+ "lon": -117.23612675599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208399",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245715",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

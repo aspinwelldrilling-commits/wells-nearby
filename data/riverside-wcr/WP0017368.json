@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017368",
+ "processed": "2026-10-07T03:45:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "330-240-044",
+ "address": "Sundance Lane",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245535",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 718
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245535",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 275.0,
+   "conf": "low",
+   "ocrConf": 8.639282,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL275",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-02-21",
+   "conf": "high",
+   "ocrConf": 90.377655,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245535",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.73084903600005,
+ "lon": -117.21198422899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209902",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245535",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023647",
+ "processed": "2026-10-07T03:50:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-140-007",
+ "address": "22751 McPherson Rd",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248046",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 402
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248046",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 96.345436,
+   "raw": "Estimated Yield *, 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-09-20",
+   "conf": "medium",
+   "ocrConf": 69.57814,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248046",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.730979724000065,
+ "lon": -117.26557897499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202439",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248046",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

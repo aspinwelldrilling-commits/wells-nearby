@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008837",
+ "processed": "2026-10-07T03:17:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-130-034",
+ "address": "29601 Landsdown Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239876",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 667
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239876",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 46.11274,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-01-28",
+   "conf": "low",
+   "ocrConf": 23.338478,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239876",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.638908247000074,
+ "lon": -117.14347997499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217090",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239876",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

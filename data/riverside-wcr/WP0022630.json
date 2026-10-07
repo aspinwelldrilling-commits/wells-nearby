@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022630",
+ "processed": "2026-10-07T03:49:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-230-074",
+ "address": "31680 Scott Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249273",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 320
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249273",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 575.0,
+   "conf": "medium",
+   "ocrConf": 63.384766,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 575",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-08-02",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249273",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64262558100006,
+ "lon": -117.10689638899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203038",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249273",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0017982",
+ "processed": "2026-10-07T03:44:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-350-013",
+ "address": "30550 Eucalyptus Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245865",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 863
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245865",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 7.0,
+   "conf": "high",
+   "ocrConf": 96.886139,
+   "raw": "Estimated Yield* 7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 67.882782,
+   "raw": "Water Level _200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 62.353245,
+   "raw": "Drilling Method Air Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-08-28",
+   "conf": "high",
+   "ocrConf": 94.479141,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245865",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.67742844800006,
+ "lon": -117.10915537299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208633",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245865",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

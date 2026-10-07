@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030585",
+ "processed": "2026-10-07T03:53:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "384-010-023",
+ "address": "26110 Boudreau Ln ",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270834",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 50
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270834",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270834",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 980.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        980",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 90.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  90 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Downhole Hammer           Drilling Fluid    Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-05-13",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.636711,
+   "lon": -117.204596,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*              1 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270834",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.636711,
+ "lon": -117.204596,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/296671",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270834",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

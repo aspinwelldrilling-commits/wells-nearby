@@ -1,0 +1,63 @@
+{
+ "permit": "WP0024524",
+ "processed": "2026-10-07T03:51:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "349-240-060",
+ "address": "20985 Dorchester Ave",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248062",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 359
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248062",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "medium",
+   "ocrConf": 62.932426,
+   "raw": "Total Depth of Completed Well 450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.321526,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-07-31",
+   "conf": "high",
+   "ocrConf": 93.476746,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248062",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.70566184000006,
+ "lon": -117.293256499,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201438",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248062",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

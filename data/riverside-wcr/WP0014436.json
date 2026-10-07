@@ -1,0 +1,71 @@
+{
+ "permit": "WP0014436",
+ "processed": "2026-10-07T03:36:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-250-023",
+ "address": "25625 Sophie St",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242958",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 679
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242958",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 92.166336,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 84.875252,
+   "raw": "ESTIMATED YieLD * 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 29.0,
+   "conf": "medium",
+   "ocrConf": 77.290871,
+   "raw": "WATER LEVEL 29 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-14",
+   "conf": "medium",
+   "ocrConf": 65.685562,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242958",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.74663779900004,
+ "lon": -117.26235430999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211286",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242958",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

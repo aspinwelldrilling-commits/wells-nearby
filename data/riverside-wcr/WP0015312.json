@@ -1,0 +1,70 @@
+{
+ "permit": "WP0015312",
+ "processed": "2026-10-07T04:21:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "360-160-022",
+ "address": "31315 Evans Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244430",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1630
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244430",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244430",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "medium",
+   "ocrConf": 96.152885,
+   "raw": "Total Depth of Boring 160",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 30.23616,
+   "raw": "Water Level 20s (Feet",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-12-16",
+   "conf": "medium",
+   "ocrConf": 78.003632,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244430",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.66472927500007,
+ "lon": -117.19957857499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210658",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244430",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "readable"
+}

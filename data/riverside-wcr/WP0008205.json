@@ -1,0 +1,48 @@
+{
+ "permit": "WP0008205",
+ "processed": "2026-10-07T03:12:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-510-012",
+ "address": "35515 McElwain Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239526",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 804
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239526",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 40.991318,
+   "raw": "ESTIMATED YIELD * 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239526",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.604640121000045,
+ "lon": -117.17375204299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215262",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239526",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

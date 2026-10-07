@@ -1,0 +1,78 @@
+{
+ "permit": "WP0016732",
+ "processed": "2026-10-07T03:45:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-280-029",
+ "address": "22081 McPhearson Rd",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245282",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 758
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245282",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 94.27198,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 81.372871,
+   "raw": "Estimated Yield * 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drillin",
+   "conf": "high",
+   "ocrConf": 89.911697,
+   "raw": "Drilling Method Air Drillin Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 68.301811,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-09-10",
+   "conf": "medium",
+   "ocrConf": 76.518456,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245282",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.736161123000045,
+ "lon": -117.27325928699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209331",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245282",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

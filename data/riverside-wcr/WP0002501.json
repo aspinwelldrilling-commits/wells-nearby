@@ -1,0 +1,54 @@
+{
+ "permit": "WP0002501",
+ "processed": "2026-10-07T02:50:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-020-014",
+ "address": "25310 Barnes Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235172",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1572
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235172",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235172",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 884.0,
+   "conf": "medium",
+   "ocrConf": 73.491661,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 884",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235172",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65289243800004,
+ "lon": -117.21740554999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219312",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235172",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013958",
+ "processed": "2026-10-07T03:35:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "361-083-006",
+ "address": "24191 Magnolia St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243055",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 707
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243055",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 26.534958,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 89.0,
+   "conf": "medium",
+   "ocrConf": 54.380104,
+   "raw": "WATER LeveL 89 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-01-18",
+   "conf": "low",
+   "ocrConf": 36.279377,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243055",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65131073800006,
+ "lon": -117.23712643899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210993",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243055",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

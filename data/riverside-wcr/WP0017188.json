@@ -1,0 +1,64 @@
+{
+ "permit": "WP0017188",
+ "processed": "2026-10-07T04:23:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "355-404-001",
+ "address": "24610 Railroad Canyon Rd",
+ "city": "Canyon Lake",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245447",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3556
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245447",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 96.801506,
+   "raw": "Total Depth of Boring 30",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 96.102028,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid sa",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-07-18",
+   "conf": "low",
+   "ocrConf": 47.98679,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245447",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.68103507100005,
+ "lon": -117.23534421199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210810",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245447",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

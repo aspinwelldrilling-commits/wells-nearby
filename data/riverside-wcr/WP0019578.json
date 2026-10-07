@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019578",
+ "processed": "2026-10-07T03:45:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "366-310-022",
+ "address": "34362 Hidden Glen Cir",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246280",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 681
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246280",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 197.0,
+   "conf": "low",
+   "ocrConf": 17.124588,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL197",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 39.0,
+   "conf": "high",
+   "ocrConf": 83.516907,
+   "raw": "ESTIMATED YIELD * 39 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-01-21",
+   "conf": "medium",
+   "ocrConf": 53.432266,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246280",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63611839400005,
+ "lon": -117.24433117299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208285",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246280",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

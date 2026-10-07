@@ -1,0 +1,72 @@
+{
+ "permit": "WP0025002",
+ "processed": "2026-10-07T03:54:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "360-350-025",
+ "address": "27985 Wickerd Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247962",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 395
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247962",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 140.0,
+   "conf": "medium",
+   "ocrConf": 96.866425,
+   "raw": "Total Depth of Boring 140",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 84.086304,
+   "raw": "Estimated Yield* 55 ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 55.0,
+   "conf": "medium",
+   "ocrConf": 73.569061,
+   "raw": "Water Level 55 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-06-10",
+   "conf": "high",
+   "ocrConf": 87.179398,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247962",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.649744836000025,
+ "lon": -117.17399506599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200919",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247962",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

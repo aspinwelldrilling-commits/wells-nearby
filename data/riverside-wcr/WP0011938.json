@@ -1,0 +1,57 @@
+{
+ "permit": "WP0011938",
+ "processed": "2026-10-07T03:30:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "335-020-029",
+ "address": "307 Round Tree Ct",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243762",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 789
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243762",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "low",
+   "ocrConf": 28.054474,
+   "raw": "TOTAL DEPTH OF BORING ___375",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 29.75132,
+   "raw": "ESTIMATED YIELD * 3. (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243762",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.72301166500006,
+ "lon": -117.23327954899997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243762",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

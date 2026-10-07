@@ -1,0 +1,48 @@
+{
+ "permit": "WP0001248",
+ "processed": "2026-10-07T02:45:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-440-003",
+ "address": "31575 Mayhew Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234244",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 820
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234244",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "high",
+   "ocrConf": 83.15509,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _160",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234244",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.662089638000054,
+ "lon": -117.18817740999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221809",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234244",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0011605",
+ "processed": "2026-10-07T03:29:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-050-031",
+ "address": "26405 McDonald Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241861",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 706
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241861",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-11-20",
+   "conf": "high",
+   "ocrConf": 90.749985,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241861",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62914740700006,
+ "lon": -117.19874142099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212035",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241861",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

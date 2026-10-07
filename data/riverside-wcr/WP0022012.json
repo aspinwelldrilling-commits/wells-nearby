@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022012",
+ "processed": "2026-10-07T03:49:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-240-025",
+ "address": "37800 Via Vista Grande",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249370",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 355
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249370",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 375",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-11-02",
+   "conf": "low",
+   "ocrConf": 9.137688,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249370",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.580265576000045,
+ "lon": -117.28184239599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18406",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249370",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

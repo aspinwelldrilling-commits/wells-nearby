@@ -1,0 +1,56 @@
+{
+ "permit": "WP0008930",
+ "processed": "2026-10-07T03:17:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "360-360-006",
+ "address": "27171 Wickerd Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239911",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1002
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239911",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 45.0,
+   "conf": "medium",
+   "ocrConf": 51.550179,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 45",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 0.84095,
+   "raw": "ESTIMATED YIELD * <5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239911",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64753303300006,
+ "lon": -117.18693517699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217493",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239911",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0024247",
+ "processed": "2026-10-07T03:53:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "900-050-026",
+ "address": "28729 Shannon Ln",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247909",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 372
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247909",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 36.594196,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 24.451759,
+   "raw": "ESTIMATED YIELD * _ 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247909",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.58540360500007,
+ "lon": -117.16093778399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201171",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247909",
+ "serviceType": "Reconstruction Deepening",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

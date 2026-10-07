@@ -1,0 +1,72 @@
+{
+ "permit": "WP0018083",
+ "processed": "2026-10-07T03:44:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "384-040-002",
+ "address": "33620 Daily Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245821",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1375
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245821",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 505.0,
+   "conf": "medium",
+   "ocrConf": 96.519165,
+   "raw": "Total Depth of Boring 505",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 92.499207,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 68.0,
+   "conf": "high",
+   "ocrConf": 91.468895,
+   "raw": "Water Level 68 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-08",
+   "conf": "low",
+   "ocrConf": 35.154449,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245821",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63323954900005,
+ "lon": -117.19955184299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208732",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245821",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

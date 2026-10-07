@@ -1,0 +1,57 @@
+{
+ "permit": "WP0014131",
+ "processed": "2026-10-07T03:32:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-390-002",
+ "address": "SE corner of Baxter Rd/Rocky Glen Pl",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242627",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 759
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242627",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 43.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _43",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 53.0,
+   "conf": "low",
+   "ocrConf": 23.223251,
+   "raw": "WATER LEVEL 53 ____(Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242627",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.61139727700004,
+ "lon": -117.16038119699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211108",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242627",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

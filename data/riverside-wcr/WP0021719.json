@@ -1,0 +1,79 @@
+{
+ "permit": "WP0021719",
+ "processed": "2026-10-07T03:51:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "360-150-008",
+ "address": "31045 Chade Ln",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247106",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 413
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247106",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 620.0,
+   "conf": "high",
+   "ocrConf": 96.9832,
+   "raw": "Total Depth of Completed Well 620",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 83.994736,
+   "raw": "Estimated Yield\" 2 ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "medium",
+   "ocrConf": 75.403519,
+   "raw": "Water Level 75 _\u2014_\u2014_\u2014(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.0056,
+   "raw": "Drilling Method Air Drilling Drilling Fluid\nMailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-05-30",
+   "conf": "high",
+   "ocrConf": 85.960106,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247106",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.66967156100003,
+ "lon": -117.19148684699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203835",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247106",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004083",
+ "processed": "2026-10-07T02:56:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-020-025",
+ "address": "21356 Sharp Rd",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236114",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 785
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236114",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 210.0,
+   "conf": "medium",
+   "ocrConf": 73.553627,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 210",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 29.0,
+   "conf": "medium",
+   "ocrConf": 68.159485,
+   "raw": "WATER LEVEL __ 29 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236114",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.75259493000004,
+ "lon": -117.28657544499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219389",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236114",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

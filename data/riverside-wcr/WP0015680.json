@@ -1,0 +1,56 @@
+{
+ "permit": "WP0015680",
+ "processed": "2026-10-07T03:38:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "23580 Glazebrook Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244689",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 882
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244689",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 96.737495,
+   "raw": "Standing level after well completion__ 60 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-09-06",
+   "conf": "medium",
+   "ocrConf": 31.267731,
+   "raw": "Completed. 9=6= 19",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244689",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.60501486100003,
+ "lon": -117.24946198199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/224609",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244689",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

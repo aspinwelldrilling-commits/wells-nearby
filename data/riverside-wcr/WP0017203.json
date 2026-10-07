@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017203",
+ "processed": "2026-10-07T03:48:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-300-014",
+ "address": "23308 Old Hill Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245468",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 764
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245468",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 330.0,
+   "conf": "low",
+   "ocrConf": 38.779636,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 330",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-07-17",
+   "conf": "medium",
+   "ocrConf": 55.595932,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245468",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.61516138700006,
+ "lon": -117.25285718799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210827",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245468",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

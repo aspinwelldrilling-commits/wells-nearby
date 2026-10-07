@@ -1,0 +1,79 @@
+{
+ "permit": "WP0028005",
+ "processed": "2026-10-07T03:56:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-230-027",
+ "address": "31790 Scott Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248693",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 59
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248693",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1060.0,
+   "conf": "low",
+   "ocrConf": 12.195862,
+   "raw": "Total Depth of Completed Well 1060",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 95.108025,
+   "raw": "Estimated Yield * 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 29.0,
+   "conf": "medium",
+   "ocrConf": 62.198463,
+   "raw": "Water Level .29 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 88.073303,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ves",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-09-28",
+   "conf": "low",
+   "ocrConf": 31.917046,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248693",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64188974600006,
+ "lon": -117.10452392099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19440",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248693",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

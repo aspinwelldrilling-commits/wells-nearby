@@ -1,0 +1,72 @@
+{
+ "permit": "WP0026421",
+ "processed": "2026-10-07T03:53:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "367-310-012",
+ "address": "34937 Susan Dr",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248636",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 893
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248636",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 96.543671,
+   "raw": "Total Depth of Boring 500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 95.658737,
+   "raw": "Estimated Yield * 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 175.0,
+   "conf": "medium",
+   "ocrConf": 53.489956,
+   "raw": "Water Level 175 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-10-19",
+   "conf": "low",
+   "ocrConf": 42.944645,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248636",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.61357512600006,
+ "lon": -117.24598623899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199491",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248636",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

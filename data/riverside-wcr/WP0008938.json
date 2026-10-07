@@ -1,0 +1,48 @@
+{
+ "permit": "WP0008938",
+ "processed": "2026-10-07T04:04:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "363-171-004",
+ "address": "250 Diamond Dr",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239917",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2859
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239917",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 42.398102,
+   "raw": "ESTIMATED YIELD * 1. (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239917",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.660473000000025,
+ "lon": -117.29936799999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217562",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239917",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

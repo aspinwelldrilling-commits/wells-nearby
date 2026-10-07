@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004252",
+ "processed": "2026-10-07T02:56:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "331-140-018",
+ "address": "26375 Dawson Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236230",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 840
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236230",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 165.0,
+   "conf": "low",
+   "ocrConf": 9.999374,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _165",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1997-06-05",
+   "conf": "high",
+   "ocrConf": 93.63208,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236230",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.73730235000005,
+ "lon": -117.17722814099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219939",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236230",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

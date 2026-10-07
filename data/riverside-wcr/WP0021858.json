@@ -1,0 +1,63 @@
+{
+ "permit": "WP0021858",
+ "processed": "2026-10-07T03:47:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "963-040-004",
+ "address": "37205 Van Gaale Ln",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247165",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 427
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247165",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "high",
+   "ocrConf": 94.007843,
+   "raw": "Total Depth of Completed Well 550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 96.885406,
+   "raw": "Estimated Yield *, 18 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-07-27",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247165",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.58211321500005,
+ "lon": -117.11522727699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203969",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247165",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

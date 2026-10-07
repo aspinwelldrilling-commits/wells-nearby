@@ -1,0 +1,84 @@
+{
+ "permit": "WP0028213",
+ "processed": "2026-10-07T03:51:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "372-140-014",
+ "address": "32255 Lindenberger Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248725",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 369
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248725",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248725",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 510.0,
+   "conf": "medium",
+   "ocrConf": 64.889908,
+   "raw": "Total Depth of Completed Well 510",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.5,
+   "conf": "high",
+   "ocrConf": 89.848755,
+   "raw": "Estimated Yield* 2.5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 95.352463,
+   "raw": "Water Level 100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-01-11",
+   "conf": "medium",
+   "ocrConf": 78.93399,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.65213,
+   "lon": -117.14627,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248725",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65213974300008,
+ "lon": -117.14629393599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34280",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248725",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

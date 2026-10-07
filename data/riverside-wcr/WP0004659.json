@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004659",
+ "processed": "2026-10-07T02:58:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-120-011",
+ "address": "30835 Holland Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236523",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 776
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236523",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 13.643486,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Aud Rotary",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "DRILLING\nMeTHoD aud rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236523",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.668751385000064,
+ "lon": -117.12316149499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216473",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236523",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018114",
+ "processed": "2026-10-07T03:49:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "349-320-005",
+ "address": "21799 Mauricio St",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245849",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 710
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245849",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 715.0,
+   "conf": "low",
+   "ocrConf": 17.402733,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL715",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-10-05",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245849",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.712840107000034,
+ "lon": -117.27823288099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208765",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245849",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

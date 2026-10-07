@@ -1,0 +1,83 @@
+{
+ "permit": "WP0026182",
+ "processed": "2026-10-07T04:30:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "358-070-009",
+ "address": "Audie Murphy Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248240",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 459
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248240",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248240",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248240",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.18029,
+   "raw": "Total Depth of Completed Well 40",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 95.356781,
+   "raw": "Estimated Yield* 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 83.744499,
+   "raw": "Water Level _12 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-05-10",
+   "conf": "high",
+   "ocrConf": 83.716705,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248240",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.684176742000034,
+ "lon": -117.22502396899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199287",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248240",
+ "serviceType": "New Construction",
+ "wellType": "Dewatering",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

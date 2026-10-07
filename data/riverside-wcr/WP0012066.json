@@ -1,0 +1,71 @@
+{
+ "permit": "WP0012066",
+ "processed": "2026-10-07T03:27:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-230-006",
+ "address": "21222 Alameda Del Monte",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243839",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 688
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243839",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "medium",
+   "ocrConf": 76.483688,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 375",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 90.863083,
+   "raw": "ESTIMATED YiELD * 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 110.0,
+   "conf": "low",
+   "ocrConf": 35.815117,
+   "raw": "WATER LeveL 110 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-04-12",
+   "conf": "medium",
+   "ocrConf": 68.371384,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243839",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.599402988000065,
+ "lon": -117.28439270799998,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243839",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0005768",
+ "processed": "2026-10-07T03:01:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-350-012",
+ "address": "30675 Curzulla Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237260",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1038
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237260",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 60.768257,
+   "raw": "TOTAL DEPTH OF BORING 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 48.048523,
+   "raw": "ESTIMATED YIELD * 2\u201c _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237260",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63518252600005,
+ "lon": -117.12501422099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215637",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237260",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

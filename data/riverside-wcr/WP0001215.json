@@ -1,0 +1,48 @@
+{
+ "permit": "WP0001215",
+ "processed": "2026-10-07T02:45:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "914-180-062",
+ "address": "32100 Auld Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234217",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 817
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234217",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 55.844315,
+   "raw": "ESTIMATED YIELD + 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234217",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.585854433000065,
+ "lon": -117.10084794999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221716",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234217",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

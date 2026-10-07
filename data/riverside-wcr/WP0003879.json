@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003879",
+ "processed": "2026-10-07T02:55:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "359-470-005",
+ "address": "27120 Keller Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236018",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 856
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236018",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 38.505344,
+   "raw": "ESTIMATED YIELD2 ____ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 27.079193,
+   "raw": "WATER LEVEL ____ 3 ___ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236018",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62908055400004,
+ "lon": -117.18584416699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218949",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236018",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

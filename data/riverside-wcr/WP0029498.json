@@ -1,0 +1,85 @@
+{
+ "permit": "WP0029498",
+ "processed": "2026-10-07T03:54:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "368-093-037",
+ "address": "32693 Gruwell St ",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264851",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 550
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264851",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264851",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 87.818069,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 90.0,
+   "conf": "high",
+   "ocrConf": 94.530518,
+   "raw": "Estimated Yield* 90 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 34.0,
+   "conf": "high",
+   "ocrConf": 94.159752,
+   "raw": "Water Level 34 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "low",
+   "ocrConf": 47.712742,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.603261,
+   "lon": -117.279058,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264851",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.603261,
+ "lon": -117.279058,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264850",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264851",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

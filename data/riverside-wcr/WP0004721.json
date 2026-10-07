@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004721",
+ "processed": "2026-10-07T02:59:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "460-130-043",
+ "address": "30290 Maxine Ln",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236568",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 820
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236568",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 76.156197,
+   "raw": "ESTIMATED YIELD -20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 95.786011,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236568",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.66059061100003,
+ "lon": -117.13132757999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216840",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236568",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

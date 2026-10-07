@@ -1,0 +1,71 @@
+{
+ "permit": "WP0024306",
+ "processed": "2026-10-07T03:50:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-270-025",
+ "address": "22187 Ethanac Rd",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247935",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 429
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247935",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "high",
+   "ocrConf": 95.969536,
+   "raw": "Total Depth of Completed Well 450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.390572,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 85.837021,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ns",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-04-29",
+   "conf": "high",
+   "ocrConf": 96.196892,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247935",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.74261441,
+ "lon": -117.271460487,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/301029",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247935",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

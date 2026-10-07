@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030328",
+ "processed": "2026-10-07T03:57:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "466-230-048",
+ "address": "32655 Flight Way ",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264832",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 486
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264832",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264832",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1240.0,
+   "conf": "high",
+   "ocrConf": 88.5373,
+   "raw": "Total Depth of Completed Well 1240",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 91.25946,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 96.540375,
+   "raw": "Water Level 150 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 61.884754,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 47.07262,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-12-13",
+   "conf": "high",
+   "ocrConf": 96.405975,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.64644,
+   "lon": -117.10946,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264832",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64644,
+ "lon": -117.10946,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/296666",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264832",
+ "serviceType": "Reconstruction Deepening",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

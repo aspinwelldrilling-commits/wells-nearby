@@ -1,0 +1,49 @@
+{
+ "permit": "WP0006214",
+ "processed": "2026-10-07T04:02:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "32477 Huan Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238256",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 901
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238256",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 75.92617,
+   "raw": "TOTAL DEPTH OF BORING _30",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238256",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65493810400005,
+ "lon": -117.175771812,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216800",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238256",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

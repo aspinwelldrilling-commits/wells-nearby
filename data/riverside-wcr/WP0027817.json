@@ -1,0 +1,57 @@
+{
+ "permit": "WP0027817",
+ "processed": "2026-10-07T04:29:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "392-310-018",
+ "address": "35470 Whitewood Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249637",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 64
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249637",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 19.814926,
+   "raw": "Total Depth of Boring 2o0",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 87.039612,
+   "raw": "Estimated Yield * 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249637",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.606829866000055,
+ "lon": -117.16076896799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199044",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249637",
+ "serviceType": "Destruction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

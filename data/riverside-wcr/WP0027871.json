@@ -1,0 +1,56 @@
+{
+ "permit": "WP0027871",
+ "processed": "2026-10-07T03:53:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "372-180-001",
+ "address": "29903 Garboni Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249659",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 62
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249659",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1050.0,
+   "conf": "medium",
+   "ocrConf": 96.40448,
+   "raw": "Total Depth of Boring 1050",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-07-12",
+   "conf": "high",
+   "ocrConf": 94.300835,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249659",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65547487200007,
+ "lon": -117.13850196699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199016",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249659",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

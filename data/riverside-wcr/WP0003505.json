@@ -1,0 +1,55 @@
+{
+ "permit": "WP0003505",
+ "processed": "2026-10-07T02:53:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "357-110-006",
+ "address": "31755 Bradley Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235790",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 901
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235790",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 41.011887,
+   "raw": "WATER LEVEL ___3Q _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1995-11-30",
+   "conf": "high",
+   "ocrConf": 92.835556,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235790",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.658003723000036,
+ "lon": -117.18964813799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217390",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235790",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

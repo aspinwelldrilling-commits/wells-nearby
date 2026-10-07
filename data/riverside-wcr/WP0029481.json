@@ -1,0 +1,92 @@
+{
+ "permit": "WP0029481",
+ "processed": "2026-10-07T03:52:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-120-059",
+ "address": "33888 Arcadia St ",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256083",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 154
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256083",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256083",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 235.0,
+   "conf": "high",
+   "ocrConf": 89.355202,
+   "raw": "Total Depth of Completed Well 235",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.5,
+   "conf": "medium",
+   "ocrConf": 79.365829,
+   "raw": "Estimated Yield\u201d 1.5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.737495,
+   "raw": "Water Level 50 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "low",
+   "ocrConf": 36.386215,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-08-06",
+   "conf": "high",
+   "ocrConf": 83.938705,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.62916,
+   "lon": -117.21754,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256083",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62916000000007,
+ "lon": -117.21753999999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310552",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256083",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

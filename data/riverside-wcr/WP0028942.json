@@ -1,0 +1,61 @@
+{
+ "permit": "WP0028942",
+ "processed": "2026-10-07T04:29:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "476-010-036",
+ "address": "34491 Washington Ave",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248805",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 247
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248805",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248805",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "2019-12-12",
+   "conf": "high",
+   "ocrConf": 96.641182,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.621391,
+   "lon": -117.091436,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248805",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62139587100006,
+ "lon": -117.09144795599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/333978",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248805",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

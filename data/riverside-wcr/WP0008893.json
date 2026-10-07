@@ -1,0 +1,57 @@
+{
+ "permit": "WP0008893",
+ "processed": "2026-10-07T03:16:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "958-020-019",
+ "address": "36055 Maddalena Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239892",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 786
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239892",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 140.0,
+   "conf": "low",
+   "ocrConf": 21.509727,
+   "raw": "TOTAL DEPTH OF BORING 140",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 34.313354,
+   "raw": "ESTIMATED YIELD * 2\u2018 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239892",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.59800188600008,
+ "lon": -117.09343764599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217352",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239892",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

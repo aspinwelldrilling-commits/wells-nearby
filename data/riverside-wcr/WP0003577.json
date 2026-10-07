@@ -1,0 +1,63 @@
+{
+ "permit": "WP0003577",
+ "processed": "2026-10-07T02:53:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-120-017",
+ "address": "33800 Wright Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235834",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 808
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235834",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 234.0,
+   "conf": "low",
+   "ocrConf": 36.246647,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __234",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 54.0,
+   "conf": "low",
+   "ocrConf": 45.677189,
+   "raw": "WATER LEVEL ____ 54 __(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 95.869957,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235834",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.633808988000055,
+ "lon": -117.20727841799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217809",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235834",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

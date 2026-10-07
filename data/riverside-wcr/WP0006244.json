@@ -1,0 +1,57 @@
+{
+ "permit": "WP0006244",
+ "processed": "2026-10-07T03:04:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "958-090-019",
+ "address": "Mazoe Road",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238280",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 956
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238280",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 205.0,
+   "conf": "low",
+   "ocrConf": 70.975899,
+   "raw": "TOTAL DEPTH OF BORING 205",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 22.0,
+   "conf": "high",
+   "ocrConf": 92.956398,
+   "raw": "ESTIMATED YIELD * 22 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238280",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.58081292300005,
+ "lon": -117.09074503,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216889",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238280",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

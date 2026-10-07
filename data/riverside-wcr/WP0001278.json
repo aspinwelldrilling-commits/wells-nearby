@@ -1,0 +1,63 @@
+{
+ "permit": "WP0001278",
+ "processed": "2026-10-07T02:46:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-450-008",
+ "address": "25560 Wickerd Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234265",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 811
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234265",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 67.709961,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.878296,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-11-20",
+   "conf": "medium",
+   "ocrConf": 72.29892,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234265",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64927363800007,
+ "lon": -117.21419687999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221887",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234265",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005601",
+ "processed": "2026-10-07T04:01:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "337-320-005",
+ "address": "26980 Cherry Hills Blvd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237160",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 759
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237160",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 43.012005,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _60",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-01-13",
+   "conf": "low",
+   "ocrConf": 12.608749,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237160",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.71139610000006,
+ "lon": -117.18955859999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219522",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237160",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

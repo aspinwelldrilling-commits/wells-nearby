@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023416",
+ "processed": "2026-10-07T03:48:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "465-160-012",
+ "address": "28325 California Ave",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247800",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 421
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247800",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 82.968521,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary Drilling",
+   "conf": "high",
+   "ocrConf": 86.106689,
+   "raw": "Drilling Method ROTARY DRILLING Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-08-16",
+   "conf": "medium",
+   "ocrConf": 54.084846,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247800",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.71020567700003,
+ "lon": -117.05081603999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202245",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247800",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

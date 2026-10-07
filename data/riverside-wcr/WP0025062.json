@@ -1,0 +1,55 @@
+{
+ "permit": "WP0025062",
+ "processed": "2026-10-07T04:28:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "384-150-010",
+ "address": "33540 Zeiders Rd",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248112",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 349
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248112",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 36.0,
+   "conf": "high",
+   "ocrConf": 91.821785,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 36",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-02-12",
+   "conf": "medium",
+   "ocrConf": 69.658493,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248112",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63149479000003,
+ "lon": -117.17319494399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200047",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248112",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

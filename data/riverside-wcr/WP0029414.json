@@ -1,0 +1,85 @@
+{
+ "permit": "WP0029414",
+ "processed": "2026-10-07T03:56:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "360-340-010",
+ "address": "26941 Ryans Ranch ",
+ "city": "Menifee",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248837",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 266
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248837",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248837",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 750.0,
+   "conf": "medium",
+   "ocrConf": 74.634659,
+   "raw": "Total Depth of Completed Well 750",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 95.964523,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 140.0,
+   "conf": "high",
+   "ocrConf": 96.106094,
+   "raw": "Water Level 140 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 83.197647,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-10-19",
+   "conf": "high",
+   "ocrConf": 81.080345,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248837",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.64626000000004,
+ "lon": -117.18902999999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205825",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248837",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

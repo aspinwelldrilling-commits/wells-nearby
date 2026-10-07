@@ -1,0 +1,68 @@
+{
+ "permit": "WP0030509",
+ "processed": "2026-10-07T04:29:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "368-160-004",
+ "address": "21247 Grand Ave ",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270828",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 9
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270828",
+   "page": 1,
+   "source": "text",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270828",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-02-17",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.600422,
+   "lon": -117.283812,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270828",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.600422,
+ "lon": -117.283812,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270185",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270828",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019449",
+ "processed": "2026-10-07T03:49:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "366-060-028",
+ "address": "21345 Apricot St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246239",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 817
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246239",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "high",
+   "ocrConf": 86.55941,
+   "raw": "Total Depth of Completed Well_180",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 96.432579,
+   "raw": "Estimated Yield* 150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-12-04",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246239",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63707334900005,
+ "lon": -117.28673559099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208187",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246239",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

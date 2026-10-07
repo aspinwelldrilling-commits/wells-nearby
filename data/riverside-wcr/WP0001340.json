@@ -1,0 +1,49 @@
+{
+ "permit": "WP0001340",
+ "processed": "2026-10-07T02:46:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "467-300-016",
+ "address": "33155 Christine Ln",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234317",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 833
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234317",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 850.0,
+   "conf": "low",
+   "ocrConf": 3.36879,
+   "raw": "TOTAL DEPTH OF BORING __ 850",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234317",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.63833269600008,
+ "lon": -117.11102711999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222052",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234317",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

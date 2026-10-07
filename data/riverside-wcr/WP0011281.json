@@ -1,0 +1,56 @@
+{
+ "permit": "WP0011281",
+ "processed": "2026-10-07T03:28:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "361-021-023",
+ "address": "32225 Sunset",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241431",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 851
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241431",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "low",
+   "ocrConf": 41.293873,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _900",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 15.696899,
+   "raw": "WATER LEVEL 1 \u201cJ! (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241431",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65228588300005,
+ "lon": -117.22445871399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213817",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241431",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

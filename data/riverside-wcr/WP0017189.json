@@ -1,0 +1,56 @@
+{
+ "permit": "WP0017189",
+ "processed": "2026-10-07T04:20:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "355-404-001",
+ "address": "24610 Railroad Canyon Rd",
+ "city": "Canyon Lake",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245448",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3585
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245448",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 96.763115,
+   "raw": "Total Depth of Boring 30",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-07-18",
+   "conf": "medium",
+   "ocrConf": 55.641617,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245448",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.681024972000046,
+ "lon": -117.23516041199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210812",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245448",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

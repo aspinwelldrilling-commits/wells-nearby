@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001961",
+ "processed": "2026-10-07T03:57:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "327-210-010",
+ "address": "Watson Road & Murrieta Road",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234773",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 798
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234773",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "low",
+   "ocrConf": 48.480991,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 240",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-12-31",
+   "conf": "high",
+   "ocrConf": 93.107056,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234773",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.75217066600004,
+ "lon": -117.19989094099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221044",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234773",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

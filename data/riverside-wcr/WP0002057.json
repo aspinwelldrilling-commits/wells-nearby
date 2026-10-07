@@ -1,0 +1,70 @@
+{
+ "permit": "WP0002057",
+ "processed": "2026-10-07T03:56:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "362-140-018",
+ "address": "Access from end of Olive Grove Road",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235408",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1758
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235408",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235408",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 94.739418,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 95.290192,
+   "page": 1,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 36.303066,
+   "raw": "TOTAL DEPTH OF BORING ___300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235408",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.62201002200004,
+ "lon": -117.23401373699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221335",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235408",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

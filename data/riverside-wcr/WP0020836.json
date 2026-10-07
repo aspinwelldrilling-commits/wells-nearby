@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020836",
+ "processed": "2026-10-07T03:50:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "380-150-018",
+ "address": "32695 Clinton Keith Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246472",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 336
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246472",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 380.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 380",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-08-16",
+   "conf": "high",
+   "ocrConf": 80.336624,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246472",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.58581829800005,
+ "lon": -117.25422225099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205054",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246472",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

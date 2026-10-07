@@ -1,0 +1,49 @@
+{
+ "permit": "WP0016289",
+ "processed": "2026-10-07T03:43:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "465-280-016",
+ "address": "27625 Smith Rd",
+ "city": "Winchester",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245081",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1614
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245081",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 49.0,
+   "conf": "low",
+   "ocrConf": 29.111588,
+   "raw": "WELL LOG: Total depth 49",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245081",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.71942837700004,
+ "lon": -117.05696172599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/224178",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245081",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

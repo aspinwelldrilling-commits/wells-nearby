@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021294",
+ "processed": "2026-10-07T03:48:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "361-064-007",
+ "address": "24081 Yucca St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246907",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 328
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246907",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 125.0,
+   "conf": "low",
+   "ocrConf": 4.343422,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL125",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-02-01",
+   "conf": "high",
+   "ocrConf": 96.704224,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246907",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.65295904000004,
+ "lon": -117.23896875999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203422",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246907",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

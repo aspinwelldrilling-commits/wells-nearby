@@ -1,0 +1,55 @@
+{
+ "permit": "WP0024215",
+ "processed": "2026-10-07T03:53:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "349-130-008",
+ "address": "21557 River Rd",
+ "city": "Meadowbrook",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247886",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 386
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247886",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 96.837761,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-04-16",
+   "conf": "high",
+   "ocrConf": 94.679535,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247886",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.72513801300005,
+ "lon": -117.28316864799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201138",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247886",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023401",
+ "processed": "2026-10-07T03:49:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "345-050-024",
+ "address": "25340 Spring St",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247776",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 404
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247776",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 13.0,
+   "conf": "high",
+   "ocrConf": 96.147614,
+   "raw": "Estimated Yield* 13 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.74588,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-07-31",
+   "conf": "low",
+   "ocrConf": 21.981979,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247776",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.75209344600006,
+ "lon": -117.27885637899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202231",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247776",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

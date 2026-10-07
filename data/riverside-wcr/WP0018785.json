@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018785",
+ "processed": "2026-10-07T03:47:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-290-007",
+ "address": "21980 Highland St",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246090",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 364
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246090",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 49.312824,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 87.0,
+   "conf": "high",
+   "ocrConf": 85.874001,
+   "raw": "WATER LEVEL 87 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-06-25",
+   "conf": "low",
+   "ocrConf": 1.755989,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246090",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.59092116800008,
+ "lon": -117.27254675499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207678",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246090",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

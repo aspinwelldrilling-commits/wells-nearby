@@ -1,0 +1,78 @@
+{
+ "permit": "WP0025342",
+ "processed": "2026-10-07T03:52:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "380-060-006",
+ "address": "22145 Grand Ave",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248328",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 454
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248328",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 295.0,
+   "conf": "high",
+   "ocrConf": 95.760033,
+   "raw": "Total Depth of Completed Well 295",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 97.005005,
+   "raw": "Estimated Yield* 45 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 109.0,
+   "conf": "high",
+   "ocrConf": 87.511703,
+   "raw": "Water Level _109 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-09-19",
+   "conf": "high",
+   "ocrConf": 88.593628,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.591045,
+   "lon": -117.268841,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248328",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.591225198000075,
+ "lon": -117.26831464499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200326",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248328",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

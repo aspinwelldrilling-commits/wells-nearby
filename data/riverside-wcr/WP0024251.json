@@ -1,0 +1,79 @@
+{
+ "permit": "WP0024251",
+ "processed": "2026-10-07T03:49:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "465-330-005",
+ "address": "26721 California Ave",
+ "city": "Green Acres",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247916",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 392
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247916",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 190.0,
+   "conf": "medium",
+   "ocrConf": 83.168015,
+   "raw": "Total Depth of Boring 190",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 95.86322,
+   "raw": "Estimated Yield* 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 89.820686,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 95.190887,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-05-08",
+   "conf": "low",
+   "ocrConf": 40.170078,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247916",
+ "errors": [],
+ "area": "murrieta",
+ "lat": 33.733312726000065,
+ "lon": -117.05174051899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201175",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247916",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}
