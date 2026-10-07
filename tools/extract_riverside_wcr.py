@@ -37,6 +37,9 @@ SCRIPT_VERSION = 1  # RivCo-only version; independent of SD SCRIPT_VERSION
 WORKERS_CAP = 3
 TILE_DEG = 0.025
 MAX_DOC_BYTES = 25_000_000
+# Written into manifest.json (the app only reads manifest.tiles, so extra string fields are ignored).
+COVERAGE_NOTE = ('Only RivCo FeatureServer permits with a WCR_Path are cached here; permits with only a Permit_Path '
+                 'or no documents are not cached, but they still show on the map live from ArcGIS.')
 
 # Wider than SD — Aguanga/Sage sit near the SD north edge; full RivCo is further north.
 sd.LAT_RANGE = (33.20, 34.20)
@@ -305,7 +308,7 @@ def rebuild_index():
         log(f'{len(unplaced)} permits without coords (not in any tile): {",".join(unplaced[:10])}')
     now = dt.datetime.now().astimezone().isoformat(timespec='seconds')
     json.dump({'version': 1, 'generated': now, 'tileDeg': TILE_DEG, 'count': sum(m['n'] for m in man.values()),
-               'boundsOrder': 'south,west,north,east', 'county': 'riverside', 'tiles': man},
+               'boundsOrder': 'south,west,north,east', 'county': 'riverside', 'coverage': COVERAGE_NOTE, 'tiles': man},
               open(os.path.join(OUT, 'manifest.json'), 'w'), separators=(',', ':'))
     json.dump({'moved': 'manifest.json (per-tile shards in tiles/)', 'count': 0, 'permits': {}, 'county': 'riverside'},
               open(os.path.join(OUT, 'index.json'), 'w'))

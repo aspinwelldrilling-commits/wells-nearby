@@ -468,6 +468,7 @@
       if (el.dataset.loaded) continue; el.dataset.loaded = '1';
       const qs = docReqs.get(el.id) || [];
       const main = qs.find((q) => !q.secondary) || qs[0];
+      if (!main) continue; // no library query queued (Riverside OpenDoc block has static links and no id, or id evicted)
       const apn = qs.find((q) => q.secondary && q !== main);
       const body = el.querySelector('.docs-body');
       let html = await runDocQuery(el, main);
