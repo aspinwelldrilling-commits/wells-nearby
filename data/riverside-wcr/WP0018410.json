@@ -1,0 +1,98 @@
+{
+ "permit": "WP0018410",
+ "processed": "2026-10-07T05:12:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "387-461-032",
+ "address": "Lincoln St/Terra Cota St",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245969",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2063
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245969",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245969",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245969",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "high",
+   "ocrConf": 96.739502,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 223.0,
+   "conf": "high",
+   "ocrConf": 96.815262,
+   "raw": "WATER LEVEL 223 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Rotary",
+   "conf": "high",
+   "ocrConf": 91.229431,
+   "raw": "DRILLING METHOD Reverse Rotary FLUID Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.803757,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-06-24",
+   "conf": "high",
+   "ocrConf": 96.810547,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1200.0,
+   "conf": "low",
+   "ocrConf": 47.102814,
+   "raw": "ESTIMATED YIELD _1,200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245969",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.68239395100005,
+ "lon": -117.38548342299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208966",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245969",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

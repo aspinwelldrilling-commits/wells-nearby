@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021266",
+ "processed": "2026-10-07T04:57:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "387-050-004",
+ "address": "35105 Ortega Highway",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246900",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 473
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246900",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1100.0,
+   "conf": "high",
+   "ocrConf": 93.373932,
+   "raw": "Total Depth of Completed Well 1100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.83699,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.76062,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-12-14",
+   "conf": "high",
+   "ocrConf": 92.546722,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246900",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.65642647900006,
+ "lon": -117.39721919199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203395",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246900",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

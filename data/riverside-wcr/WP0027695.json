@@ -1,0 +1,92 @@
+{
+ "permit": "WP0027695",
+ "processed": "2026-10-07T04:58:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-080-024",
+ "address": "Marvyn'S St",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249604",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 322
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249604",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249604",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 93.033447,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.5,
+   "conf": "medium",
+   "ocrConf": 70.051796,
+   "raw": "Estimated Yield* 4.50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 112.0,
+   "conf": "high",
+   "ocrConf": 96.153725,
+   "raw": "Water Level 112 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 91.73008,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-04-13",
+   "conf": "high",
+   "ocrConf": 86.885345,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.606035,
+   "lon": -117.323571,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249604",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.605773757000065,
+ "lon": -117.32209271499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198957",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249604",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

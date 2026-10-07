@@ -1,0 +1,71 @@
+{
+ "permit": "WP0016870",
+ "processed": "2026-10-07T04:58:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-120-053",
+ "address": "34575 Borchard Rd",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245364",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 707
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245364",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 34.510483,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 70.07502,
+   "raw": "ESTIMATED YiELD + 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 67.0,
+   "conf": "high",
+   "ocrConf": 95.639038,
+   "raw": "WATER LEVEL 67 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-11-10",
+   "conf": "high",
+   "ocrConf": 90.652008,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245364",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.61973708000005,
+ "lon": -117.31820218299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209458",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245364",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

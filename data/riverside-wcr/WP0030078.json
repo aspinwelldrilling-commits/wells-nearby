@@ -1,0 +1,92 @@
+{
+ "permit": "WP0030078",
+ "processed": "2026-10-07T04:58:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "343-030-009",
+ "address": "Baxter Ranch Rd ",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256106",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 313
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256106",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256106",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "high",
+   "ocrConf": 84.182861,
+   "raw": "Total Depth of Completed Well 1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 95.716499,
+   "raw": "Estimated Yield* 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 46.0,
+   "conf": "high",
+   "ocrConf": 96.736359,
+   "raw": "Water Level 46 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 93.923462,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-10-13",
+   "conf": "medium",
+   "ocrConf": 54.769394,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.759964,
+   "lon": -117.346332,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256106",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.759964,
+ "lon": -117.346332,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256105",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256106",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

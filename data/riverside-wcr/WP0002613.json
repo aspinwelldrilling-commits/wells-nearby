@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002613",
+ "processed": "2026-10-07T04:47:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "379-020-033",
+ "address": "32993 Machado St",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235114",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 822
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235114",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 27.0,
+   "conf": "low",
+   "ocrConf": 16.662399,
+   "raw": "TOTAL DEPTH OF BORING 27",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 604.0,
+   "conf": "medium",
+   "ocrConf": 64.786911,
+   "raw": "ESTIMATED YiELD*_604 (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235114",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.668582240000035,
+ "lon": -117.39167101199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219861",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235114",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

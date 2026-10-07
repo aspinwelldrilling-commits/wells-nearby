@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002372",
+ "processed": "2026-10-07T04:48:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "922-160-029",
+ "address": "La Cresta",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235241",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 773
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235241",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 29.0,
+   "conf": "low",
+   "ocrConf": 43.761337,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ____ 29",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 1.0,
+   "conf": "medium",
+   "ocrConf": 56.599991,
+   "raw": "WATER LEVEL ____ 1. (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235241",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.58941485500003,
+ "lon": -117.31914199399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222257",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235241",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

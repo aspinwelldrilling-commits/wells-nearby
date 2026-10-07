@@ -1,0 +1,54 @@
+{
+ "permit": "WP0008591",
+ "processed": "2026-10-07T04:51:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "346-030-032",
+ "address": "25910 El Toro Rd",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239742",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1863
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239742",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239742",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 49.666328,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _300",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239742",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.74594653400004,
+ "lon": -117.33849056799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216216",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239742",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022599",
+ "processed": "2026-10-07T04:59:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-030-005",
+ "address": "37375 Calle De Lobo",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249271",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 336
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249271",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 5.34639,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 91.240021,
+   "raw": "ESTIMATED YiELD * 45 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-07-20",
+   "conf": "low",
+   "ocrConf": 47.331413,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249271",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.58637540500007,
+ "lon": -117.30707371099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19062",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249271",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

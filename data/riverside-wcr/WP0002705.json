@@ -1,0 +1,49 @@
+{
+ "permit": "WP0002705",
+ "processed": "2026-10-07T04:59:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "374-252-001",
+ "address": "410 W Graham Ave",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235062",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 911
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235062",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 41.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 41",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235062",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.66911236400006,
+ "lon": -117.33243071199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220207",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235062",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

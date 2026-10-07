@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010581",
+ "processed": "2026-10-07T05:05:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "374-073-010",
+ "address": "301 N Main St",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240828",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1078
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240828",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 61.203781,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-04-08",
+   "conf": "high",
+   "ocrConf": 96.370926,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240828",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.671967461000065,
+ "lon": -117.32666457899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213283",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240828",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

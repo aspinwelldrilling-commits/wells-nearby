@@ -1,0 +1,64 @@
+{
+ "permit": "WP0020887",
+ "processed": "2026-10-07T05:13:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "377-241-003",
+ "address": "520 N Riley St",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246438",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 391
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246438",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 82.0,
+   "conf": "medium",
+   "ocrConf": 93.98613,
+   "raw": "Total Depth of Boring 82",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 96.296654,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-09",
+   "conf": "medium",
+   "ocrConf": 62.244751,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246438",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.67668370000007,
+ "lon": -117.32689079999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205105",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246438",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

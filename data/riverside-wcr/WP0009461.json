@@ -1,0 +1,56 @@
+{
+ "permit": "WP0009461",
+ "processed": "2026-10-07T04:53:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "385-230-004",
+ "address": "34730 Ortega Hwy",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240397",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2014
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240397",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 650.0,
+   "conf": "low",
+   "ocrConf": 51.886292,
+   "raw": "TOTAL DEPTH OF BORING _650",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-09-18",
+   "conf": "low",
+   "ocrConf": 9.571846,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240397",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.616186104000064,
+ "lon": -117.41725553699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214342",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240397",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

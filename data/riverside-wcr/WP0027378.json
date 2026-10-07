@@ -1,0 +1,86 @@
+{
+ "permit": "WP0027378",
+ "processed": "2026-10-07T04:58:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "389-143-004-6",
+ "address": "16401 Carson Ave",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249543",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 975
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249543",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 255.0,
+   "conf": "low",
+   "ocrConf": 47.129208,
+   "raw": "Total Depth of Completed Well 255",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 17.0,
+   "conf": "high",
+   "ocrConf": 96.185005,
+   "raw": "Estimated Yield * 17 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "low",
+   "ocrConf": 35.647057,
+   "raw": "Water Level _80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.744629,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 73.707565,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-12-08",
+   "conf": "high",
+   "ocrConf": 94.045967,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249543",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.699645162000024,
+ "lon": -117.37431872799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198859",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249543",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

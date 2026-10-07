@@ -1,0 +1,55 @@
+{
+ "permit": "WP0000974",
+ "processed": "2026-10-07T04:46:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "290-090-007",
+ "address": "25400 Maitri Rd",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243495",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 783
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243495",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 295.0,
+   "conf": "low",
+   "ocrConf": 26.690735,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 295",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-07-01",
+   "conf": "medium",
+   "ocrConf": 79.784393,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243495",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.75180811400003,
+ "lon": -117.49055606599995,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243495",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

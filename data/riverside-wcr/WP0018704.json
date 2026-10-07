@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018704",
+ "processed": "2026-10-07T05:14:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "379-050-024",
+ "address": "End of Tiller Ln & Ulla Ln",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246038",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 874
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246038",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 85.157059,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-05-13",
+   "conf": "high",
+   "ocrConf": 87.637459,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246038",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.66899692800007,
+ "lon": -117.38545684999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209203",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246038",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

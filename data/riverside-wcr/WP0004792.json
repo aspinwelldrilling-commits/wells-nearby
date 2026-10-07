@@ -1,0 +1,71 @@
+{
+ "permit": "WP0004792",
+ "processed": "2026-10-07T04:49:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "385-240-007",
+ "address": "34726 Ortega Hwy",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243591",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 902
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243591",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 43.467907,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 9.0,
+   "conf": "low",
+   "ocrConf": 33.603081,
+   "raw": "WATER LEVEL____ 9\" _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.685822,
+   "raw": "DRILLING\nMETHOD AIR FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.702354,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243591",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.61839952300005,
+ "lon": -117.41668396199998,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243591",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0027072",
+ "processed": "2026-10-07T05:15:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "374-261-002",
+ "address": "200 W Graham Ave",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249431",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 702
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249431",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 23.0,
+   "conf": "low",
+   "ocrConf": 19.454971,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 23",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-07-06",
+   "conf": "medium",
+   "ocrConf": 56.35611,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249431",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.66822580000007,
+ "lon": -117.32901529999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/269247",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249431",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

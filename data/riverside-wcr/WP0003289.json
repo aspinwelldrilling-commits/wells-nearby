@@ -1,0 +1,57 @@
+{
+ "permit": "WP0003289",
+ "processed": "2026-10-07T04:48:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "387-270-033",
+ "address": "14760 Amorose St",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235645",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 789
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235645",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 233.0,
+   "conf": "low",
+   "ocrConf": 8.886719,
+   "raw": "TOTAL DEPTH OF BORING 233",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 16.0,
+   "conf": "high",
+   "ocrConf": 94.507782,
+   "raw": "WATER LEVEL 16 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235645",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.678816631000075,
+ "lon": -117.40299929499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222027",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235645",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

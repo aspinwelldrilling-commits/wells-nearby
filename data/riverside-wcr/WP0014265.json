@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014265",
+ "processed": "2026-10-07T04:56:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "349-400-014",
+ "address": "28050 Missouri Trl",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242833",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 736
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242833",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 60.680458,
+   "raw": "ESTIMATED YIELD * 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242833",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.71236877900003,
+ "lon": -117.30476569599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211211",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242833",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

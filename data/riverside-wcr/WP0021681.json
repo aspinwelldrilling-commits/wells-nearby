@@ -1,0 +1,79 @@
+{
+ "permit": "WP0021681",
+ "processed": "2026-10-07T04:58:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "390-280-027",
+ "address": "17650 Snake Rd",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247096",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 407
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247096",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 810.0,
+   "conf": "medium",
+   "ocrConf": 96.575798,
+   "raw": "Total Depth of Boring 810",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 95.44442,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.155518,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid _Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 80.912468,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-05-12",
+   "conf": "high",
+   "ocrConf": 94.476913,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247096",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.739422,
+ "lon": -117.352941,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203809",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247096",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

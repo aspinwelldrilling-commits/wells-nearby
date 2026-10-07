@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002327",
+ "processed": "2026-10-07T04:47:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "347-150-014",
+ "address": "28267 Haygood Way",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235278",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 865
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235278",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING __ 150,",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 95.711128,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235278",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.709063137000044,
+ "lon": -117.33244409499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222210",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235278",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

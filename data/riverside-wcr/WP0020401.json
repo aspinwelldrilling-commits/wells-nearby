@@ -1,0 +1,71 @@
+{
+ "permit": "WP0020401",
+ "processed": "2026-10-07T04:57:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "385-160-024",
+ "address": "35435 Los Pinos Rd",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246724",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 413
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246724",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 27.558441,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 96.990753,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 83.062691,
+   "raw": "Water Level _50 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-12-01",
+   "conf": "medium",
+   "ocrConf": 59.049675,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246724",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.60877497600006,
+ "lon": -117.35427491099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204632",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246724",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0016693",
+ "processed": "2026-10-07T04:56:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "386-110-006",
+ "address": "30515 Ortega Highway",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245269",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 704
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245269",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 60.474686,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 19.0,
+   "conf": "low",
+   "ocrConf": 29.086273,
+   "raw": "ESTIMATED YIELD * 19 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 27.0,
+   "conf": "medium",
+   "ocrConf": 61.628731,
+   "raw": "WATER LEVEL 27 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-09-11",
+   "conf": "medium",
+   "ocrConf": 77.008766,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245269",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.64491749700005,
+ "lon": -117.37992406299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209292",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245269",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

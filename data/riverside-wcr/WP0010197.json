@@ -1,0 +1,49 @@
+{
+ "permit": "WP0010197",
+ "processed": "2026-10-07T05:05:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "373-153-039",
+ "address": "184 S Main St",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240375",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1187
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240375",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 48.0,
+   "conf": "low",
+   "ocrConf": 63.902866,
+   "raw": "TOTAL DEPTH OF BORING _ 48",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240375",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.66655921700004,
+ "lon": -117.32809069899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214906",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240375",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

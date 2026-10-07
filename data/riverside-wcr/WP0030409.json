@@ -1,0 +1,76 @@
+{
+ "permit": "WP0030409",
+ "processed": "2026-10-07T05:17:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "389-220-004",
+ "address": "29033 El Toro Rd ",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264821",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 644
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264821",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264821",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 43.0,
+   "conf": "high",
+   "ocrConf": 83.78463,
+   "raw": "Total Depth of Completed Well 43",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.722458,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-01-14",
+   "conf": "medium",
+   "ocrConf": 78.074799,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.696906,
+   "lon": -117.348246,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264821",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.696906,
+ "lon": -117.348246,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264822",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264821",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

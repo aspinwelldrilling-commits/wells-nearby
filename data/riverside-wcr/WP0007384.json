@@ -1,0 +1,75 @@
+{
+ "permit": "WP0007384",
+ "processed": "2026-10-07T05:05:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "379-192-017",
+ "address": "Joy Street Well",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239017",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2806
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239017",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239017",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239017",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1680.0,
+   "conf": "high",
+   "ocrConf": 87.055717,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1680",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-03-27",
+   "conf": "high",
+   "ocrConf": 93.190018,
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 90.357018,
+   "raw": "WATER LEVEL 100 (Ft",
+   "page": 3,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239017",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.67791607400005,
+ "lon": -117.36801301799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216799",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239017",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "readable"
+}

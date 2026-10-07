@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000903",
+ "processed": "2026-10-07T04:46:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-020-006",
+ "address": "Farrelly Circle",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243445",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 800
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243445",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 15.0,
+   "conf": "low",
+   "ocrConf": 22.541748,
+   "raw": "WATER LEVEL 15 ___ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "low",
+   "ocrConf": 25.16243,
+   "raw": "ESTIMATED YIELD*____9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243445",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.590217073000076,
+ "lon": -117.30879096199999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243445",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

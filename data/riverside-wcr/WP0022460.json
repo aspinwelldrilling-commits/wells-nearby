@@ -1,0 +1,71 @@
+{
+ "permit": "WP0022460",
+ "processed": "2026-10-07T04:58:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-330-001",
+ "address": "Stage Rd",
+ "city": "Wildomar",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249241",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 384
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249241",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 650.0,
+   "conf": "high",
+   "ocrConf": 96.595848,
+   "raw": "Total Depth of Completed Well 650",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 96.92733,
+   "raw": "Estimated Yield* 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 80.905029,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-05-25",
+   "conf": "high",
+   "ocrConf": 92.631989,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249241",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.59067169100007,
+ "lon": -117.30097502099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18826",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249241",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

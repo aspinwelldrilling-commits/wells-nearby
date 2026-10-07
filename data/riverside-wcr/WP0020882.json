@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020882",
+ "processed": "2026-10-07T04:58:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "387-443-001",
+ "address": "14949 Toft Dr",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246450",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 717
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246450",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 370.0,
+   "conf": "low",
+   "ocrConf": 21.76017,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL370",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-07-07",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246450",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.67229572000008,
+ "lon": -117.39946781399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205100",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246450",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

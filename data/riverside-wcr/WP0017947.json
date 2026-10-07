@@ -1,0 +1,65 @@
+{
+ "permit": "WP0017947",
+ "processed": "2026-10-07T04:57:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "381-190-010",
+ "address": "17748 Grand Ave",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245835",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 807
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245835",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 130.0,
+   "conf": "medium",
+   "ocrConf": 94.46582,
+   "raw": "Total Depth of Boring 130",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 42.0,
+   "conf": "high",
+   "ocrConf": 96.848495,
+   "raw": "Estimated Yield* 42 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "medium",
+   "ocrConf": 72.411057,
+   "raw": "Drilling Method Rotary Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245835",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.63759405600007,
+ "lon": -117.34120585799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208600",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245835",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

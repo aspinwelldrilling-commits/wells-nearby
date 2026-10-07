@@ -1,0 +1,54 @@
+{
+ "permit": "WP0028685",
+ "processed": "2026-10-07T05:17:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "290-150-006",
+ "address": "11985 Indian Truck Trl",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248760",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2028
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248760",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248760",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 340.0,
+   "conf": "medium",
+   "ocrConf": 58.759899,
+   "raw": "Completed depth 340",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248760",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.731785142000035,
+ "lon": -117.45835879599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16590",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248760",
+ "serviceType": "New Construction",
+ "wellType": "Municipal",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

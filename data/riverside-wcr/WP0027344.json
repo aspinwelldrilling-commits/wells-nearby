@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027344",
+ "processed": "2026-10-07T04:59:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "393-310-007",
+ "address": "",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249523",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 915
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249523",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 515.0,
+   "conf": "high",
+   "ocrConf": 96.604408,
+   "raw": "Total Depth of Completed Well 515",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 47.743259,
+   "raw": "Water Level _20 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-11-01",
+   "conf": "low",
+   "ocrConf": 18.117081,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249523",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.71403486300005,
+ "lon": -117.44802202499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198838",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249523",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

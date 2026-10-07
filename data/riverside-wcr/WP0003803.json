@@ -1,0 +1,64 @@
+{
+ "permit": "WP0003803",
+ "processed": "2026-10-07T04:48:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-390-052",
+ "address": "24555 Stoneman Ave",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235963",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 845
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235963",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.898369,
+   "raw": "ESTIMATED YIELD * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 65.0,
+   "conf": "high",
+   "ocrConf": 95.549706,
+   "raw": "WATER LEVEL 65 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.968513,
+   "raw": "DRILLING\nMETHOD AIR FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235963",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.61901862800005,
+ "lon": -117.32525097699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218641",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235963",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

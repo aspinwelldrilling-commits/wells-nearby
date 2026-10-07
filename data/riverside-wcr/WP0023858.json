@@ -1,0 +1,48 @@
+{
+ "permit": "WP0023858",
+ "processed": "2026-10-07T05:14:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "377-241-003",
+ "address": "520 N Riley St",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248271",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 386
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248271",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.5,
+   "conf": "high",
+   "ocrConf": 96.478874,
+   "raw": "Total Depth of Completed Well 30.5",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248271",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.67653821000005,
+ "lon": -117.32700198999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202611",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248271",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

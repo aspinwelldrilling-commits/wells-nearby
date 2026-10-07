@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004180",
+ "processed": "2026-10-07T04:49:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "391-160-024",
+ "address": "26900 Liston Ct",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236183",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 811
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236183",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 27.0,
+   "conf": "low",
+   "ocrConf": 36.299744,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___27",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 48.782196,
+   "raw": "ESTIMATED YIELD - 60+ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236183",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.72775672600005,
+ "lon": -117.41033639999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219745",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236183",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

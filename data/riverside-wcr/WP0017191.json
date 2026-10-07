@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017191",
+ "processed": "2026-10-07T05:11:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "363-090-001",
+ "address": "Grunder Dr",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245454",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1089
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245454",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 105.0,
+   "conf": "low",
+   "ocrConf": 38.950264,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL105",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-07-19",
+   "conf": "medium",
+   "ocrConf": 65.11113,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245454",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.677788244000055,
+ "lon": -117.30790784599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210814",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245454",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

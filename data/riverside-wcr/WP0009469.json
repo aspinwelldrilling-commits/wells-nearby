@@ -1,0 +1,48 @@
+{
+ "permit": "WP0009469",
+ "processed": "2026-10-07T04:52:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "391-130-014",
+ "address": "12320 Saint Paul Cir",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240410",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 651
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240410",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD * 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240410",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.72992162200006,
+ "lon": -117.44390988699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214348",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240410",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

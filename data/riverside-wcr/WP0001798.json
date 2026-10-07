@@ -1,0 +1,48 @@
+{
+ "permit": "WP0001798",
+ "processed": "2026-10-07T04:47:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "385-220-004",
+ "address": "34744 Ortega Hwy",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234663",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 912
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234663",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 64.166565,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __600",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234663",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.61489575300004,
+ "lon": -117.41579978199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220549",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234663",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0027295",
+ "processed": "2026-10-07T05:16:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "290-660-026",
+ "address": "11186 Guffey Ranch Way",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249501",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 194
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249501",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 73.628494,
+   "raw": "Total Depth of Boring 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-09-24",
+   "conf": "high",
+   "ocrConf": 85.1605,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249501",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.74080486400004,
+ "lon": -117.46501203099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198814",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249501",
+ "serviceType": "Destruction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

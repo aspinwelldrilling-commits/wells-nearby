@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014227",
+ "processed": "2026-10-07T05:08:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "386-070-001",
+ "address": "32692 Ortega Hwy",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242777",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 978
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242777",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 24.0,
+   "conf": "low",
+   "ocrConf": 68.629028,
+   "raw": "TOTAL DEPTH OF BORING _ 24",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-24",
+   "conf": "medium",
+   "ocrConf": 79.492477,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242777",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.64620395900005,
+ "lon": -117.41743390699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211179",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242777",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

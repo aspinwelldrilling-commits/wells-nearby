@@ -1,0 +1,62 @@
+{
+ "permit": "WP0011377",
+ "processed": "2026-10-07T05:05:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "385-180-025",
+ "address": "Monterey Riad/Calle Grande",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241570",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1168
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241570",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241570",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 75.372498,
+   "raw": "TOTAL DEPTH OF BORING __220",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-10-22",
+   "conf": "medium",
+   "ocrConf": 69.469017,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241570",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.61668683700003,
+ "lon": -117.35705349599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213896",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241570",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

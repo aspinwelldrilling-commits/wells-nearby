@@ -1,0 +1,57 @@
+{
+ "permit": "WP0003058",
+ "processed": "2026-10-07T05:01:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "371-141-006",
+ "address": "Wood Street",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235459",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 927
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235459",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 690.0,
+   "conf": "low",
+   "ocrConf": 23.929558,
+   "raw": "TOTAL DEPTH OF BORING 690",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 77.371048,
+   "raw": "WATER LEVEL __2\u00a7 _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235459",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.633354559000054,
+ "lon": -117.33869558799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221435",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235459",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

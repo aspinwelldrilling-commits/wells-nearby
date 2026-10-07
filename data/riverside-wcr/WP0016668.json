@@ -1,0 +1,63 @@
+{
+ "permit": "WP0016668",
+ "processed": "2026-10-07T05:13:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "379-050-006",
+ "address": "32803 Crown Point Ln",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245259",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 775
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245259",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 220",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 63.41925,
+   "raw": "WATER LEVEL 4 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-09-14",
+   "conf": "medium",
+   "ocrConf": 78.228271,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245259",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.66444930400007,
+ "lon": -117.38501037799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209278",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245259",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

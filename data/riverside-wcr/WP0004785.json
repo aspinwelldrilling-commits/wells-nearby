@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004785",
+ "processed": "2026-10-07T05:03:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "391-080-010",
+ "address": "25999 Glen Eden Rd",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236614",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 924
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236614",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 370.0,
+   "conf": "medium",
+   "ocrConf": 53.905075,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 370",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Mud Rotary",
+   "conf": "medium",
+   "ocrConf": 71.612938,
+   "raw": "DRILLING\nMETHOD mud rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236614",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.73859687400005,
+ "lon": -117.44844601999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217137",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236614",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

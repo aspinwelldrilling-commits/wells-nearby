@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016669",
+ "processed": "2026-10-07T05:11:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "379-060-005",
+ "address": "15410 Grand Ave",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245260",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1803
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245260",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "low",
+   "ocrConf": 5.121216,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 150",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-08-23",
+   "conf": "high",
+   "ocrConf": 91.733467,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245260",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.662782176000064,
+ "lon": -117.38084519399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209279",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245260",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

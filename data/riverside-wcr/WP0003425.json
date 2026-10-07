@@ -1,0 +1,55 @@
+{
+ "permit": "WP0003425",
+ "processed": "2026-10-07T05:00:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "346-030-033",
+ "address": "25760 El Toro Rd",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235737",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 916
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235737",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.457329,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1995-10-10",
+   "conf": "low",
+   "ocrConf": 3.408859,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235737",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.74464595200004,
+ "lon": -117.33961825899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216870",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235737",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

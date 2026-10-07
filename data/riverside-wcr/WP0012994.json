@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012994",
+ "processed": "2026-10-07T05:07:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "377-030-057",
+ "address": "29300 Central Ave",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242194",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1163
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242194",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 38.400314,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _20",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-09",
+   "conf": "low",
+   "ocrConf": 31.976608,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242194",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.69300020000003,
+ "lon": -117.33511689999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211915",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242194",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

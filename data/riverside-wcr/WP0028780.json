@@ -1,0 +1,92 @@
+{
+ "permit": "WP0028780",
+ "processed": "2026-10-07T05:00:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-110-038",
+ "address": "33510 Skylark",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248777",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 803
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248777",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248777",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "high",
+   "ocrConf": 91.354774,
+   "raw": "Total Depth of Completed Well 350",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 95.466286,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 47.0,
+   "conf": "high",
+   "ocrConf": 96.812134,
+   "raw": "Water Level 47 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 80.483627,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-09-18",
+   "conf": "medium",
+   "ocrConf": 70.885544,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.614366,
+   "lon": -117.317348,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248777",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.61436285800005,
+ "lon": -117.31732599499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/54168",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248777",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

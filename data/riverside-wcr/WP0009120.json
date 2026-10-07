@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009120",
+ "processed": "2026-10-07T04:52:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "347-270-041",
+ "address": "18225 Reba Rd",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240046",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 718
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240046",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 17.523926,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-04-30",
+   "conf": "high",
+   "ocrConf": 91.562386,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240046",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.72138905500003,
+ "lon": -117.34102830699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214085",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240046",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

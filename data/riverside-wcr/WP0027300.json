@@ -1,0 +1,79 @@
+{
+ "permit": "WP0027300",
+ "processed": "2026-10-07T04:58:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "382-110-030",
+ "address": "19591 Horvat Ln",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249506",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 866
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249506",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.86216,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.863419,
+   "raw": "Estimated Yield * 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 69.579697,
+   "raw": "Water Level 150 \u2014__\u2014s(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilli",
+   "conf": "medium",
+   "ocrConf": 67.167648,
+   "raw": "Drilling Method Air Drilli Drilling Fluid Ai",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-10-12",
+   "conf": "high",
+   "ocrConf": 94.920151,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249506",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.614034858000025,
+ "lon": -117.31921199599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198818",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249506",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

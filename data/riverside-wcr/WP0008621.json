@@ -1,0 +1,63 @@
+{
+ "permit": "WP0008621",
+ "processed": "2026-10-07T04:51:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "391-260-030",
+ "address": "28625 Billings Ln",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239762",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1077
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239762",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 242.0,
+   "conf": "low",
+   "ocrConf": 11.490189,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 242",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 47.0,
+   "conf": "high",
+   "ocrConf": 95.707909,
+   "raw": "WATER LEVEL 47 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-11-05",
+   "conf": "high",
+   "ocrConf": 91.953033,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239762",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.70447266000008,
+ "lon": -117.40492833399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216336",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239762",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

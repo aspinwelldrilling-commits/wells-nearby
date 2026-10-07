@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002047",
+ "processed": "2026-10-07T04:47:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "390-090-009",
+ "address": "25810 Lindell Rd",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235412",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 883
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235412",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 56.776108,
+   "raw": "TOTAL DEPTH OF BORING _ 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-10-29",
+   "conf": "medium",
+   "ocrConf": 68.686111,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235412",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.743205371000045,
+ "lon": -117.34864236099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221300",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235412",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

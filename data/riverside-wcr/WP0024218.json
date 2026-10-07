@@ -1,0 +1,64 @@
+{
+ "permit": "WP0024218",
+ "processed": "2026-10-07T04:58:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "347-280-054",
+ "address": "18376 Sanderson Pass Rd",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247887",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 416
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247887",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 790.0,
+   "conf": "medium",
+   "ocrConf": 95.828262,
+   "raw": "Total Depth of Boring 790",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.337654,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-05-06",
+   "conf": "high",
+   "ocrConf": 96.63662,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247887",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.716444128000035,
+ "lon": -117.33936466699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201142",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247887",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

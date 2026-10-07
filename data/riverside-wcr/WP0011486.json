@@ -1,0 +1,57 @@
+{
+ "permit": "WP0011486",
+ "processed": "2026-10-07T05:08:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "286-160-035",
+ "address": "25817 Richland Rd",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241722",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 904
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241722",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 284.0,
+   "conf": "low",
+   "ocrConf": 42.202896,
+   "raw": "TOTAL DEPTH OF BORING __284",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-10-24",
+   "conf": "medium",
+   "ocrConf": 63.1488,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241722",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.61668407600007,
+ "lon": -117.35704701199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211825",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241722",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

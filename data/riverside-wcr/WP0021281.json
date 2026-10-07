@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021281",
+ "processed": "2026-10-07T04:57:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-090-009",
+ "address": "20160 Paseo Montana",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246906",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 332
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246906",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 425.0,
+   "conf": "low",
+   "ocrConf": 18.353111,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL425",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-11-26",
+   "conf": "medium",
+   "ocrConf": 63.61034,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246906",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.582775509000044,
+ "lon": -117.30692017599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203409",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246906",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

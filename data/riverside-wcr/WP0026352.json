@@ -1,0 +1,71 @@
+{
+ "permit": "WP0026352",
+ "processed": "2026-10-07T04:58:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-090-023",
+ "address": "37420 Calle De Lobo",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248425",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 52
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248425",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 243.0,
+   "conf": "high",
+   "ocrConf": 95.360321,
+   "raw": "Total Depth of Completed Well 243",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 118.0,
+   "conf": "high",
+   "ocrConf": 95.54995,
+   "raw": "Water Level 118 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 96.067741,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-08-19",
+   "conf": "high",
+   "ocrConf": 96.624588,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248425",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.58411984500003,
+ "lon": -117.30799751099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199424",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248425",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

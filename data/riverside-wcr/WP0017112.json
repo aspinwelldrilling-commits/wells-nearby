@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017112",
+ "processed": "2026-10-07T05:13:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "377-242-021",
+ "address": "515 N Main St",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245389",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 702
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245389",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 44.0,
+   "conf": "low",
+   "ocrConf": 47.443279,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL44",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-08-24",
+   "conf": "high",
+   "ocrConf": 80.406372,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245389",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.67626319000004,
+ "lon": -117.32470497099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209702",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245389",
+ "serviceType": "New Construction",
+ "wellType": "Air Sparge",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

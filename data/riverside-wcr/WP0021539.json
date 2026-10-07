@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021539",
+ "processed": "2026-10-07T05:13:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "378-290-019",
+ "address": "16830 Lakeshore Dr",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247016",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 72
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247016",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 94.807442,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-09-09",
+   "conf": "low",
+   "ocrConf": 18.650299,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247016",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.685119600000064,
+ "lon": -117.36643189999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203664",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247016",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

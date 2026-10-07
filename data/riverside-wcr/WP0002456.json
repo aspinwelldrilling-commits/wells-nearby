@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002456",
+ "processed": "2026-10-07T04:47:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "387-372-007",
+ "address": "30365 Ainsworth Pl",
+ "city": "Lakeland Village",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235193",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 828
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235193",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 224.0,
+   "conf": "low",
+   "ocrConf": 75.560204,
+   "raw": "TOTAL DEPTH OF BORING _224",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 92.0,
+   "conf": "high",
+   "ocrConf": 96.710869,
+   "raw": "WATER LEVEL 92 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235193",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.67930257100005,
+ "lon": -117.40224608399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219134",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235193",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}
