@@ -349,7 +349,7 @@
 
   function countyRows(c) {
     return [
-      row('Permit', `<b>${esc(c.permit)}</b>`),
+      row('Permit', `<b>${esc(c.permit || 'No permit #')}</b>`),
       row('Opened', c.openedStr || c.dateStr),
       row('Work', esc(c.recordType || '—') + (c.status ? ` <small>(${esc(c.status)})</small>` : '')),
       row('Use', esc(c.wellUse || '—')),
@@ -373,7 +373,7 @@
       const mt = w.matches.length ? `<div class="dup">${esc(w.matchLabel)} same well as state ${esc(w.wcr)} — ${esc(w.matches[0].reason)}. Log values below are from that WCR.</div>` : '<div class="dup none">No matching state WCR found — permit record only.</div>';
       const pdf = w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">WCR PDF</a>` : '';
       const hasLog = w.matches.length || w.depthFt != null || w.gpm != null || w.swlFt != null || w.methodKey !== 'nolog';
-      return `${src}<b>${esc(w.permit)}</b>${pdf}${wcrBlock(w)}${mt}<table>${countyRows(w)}${hasLog ? rowsLog.join('') : ''}${row('Distance', fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>${docsBlock(w)}`;
+      return `${src}<b>${esc(w.permit || 'No permit #')}</b>${pdf}${wcrBlock(w)}${mt}<table>${countyRows(w)}${hasLog ? rowsLog.join('') : ''}${row('Distance', fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>${docsBlock(w)}`;
     }
     const rows = rowsLog.concat([
       row('Date', w.dateStr),
@@ -387,7 +387,7 @@
     ]);
     const pdf = w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">WCR PDF</a>` : '';
     const c = w.group === 'both' ? w.county : (w.match && w.match.county);
-    const dup = c ? `<div class="dup">${esc(w.matchLabel)} duplicate of county permit ${esc(c.permit)} — ${esc(w.match.reason)}</div>` : '';
+    const dup = c ? `<div class="dup">${esc(w.matchLabel)} duplicate of county permit ${esc(c.permit || '(no permit #)')} — ${esc(w.match.reason)}</div>` : '';
     const ctab = c ? `<div class="sub">County permit</div><table>${countyRows(c)}</table>` : '';
     return `${src}<b>${esc(w.wcr || w.legacyLog || 'WCR ?')}</b>${pdf}${c ? wcrBlock(w) : ''}${dup}<table>${rows.join('')}</table>${ctab}${docsBlock(w)}`;
   }
@@ -498,7 +498,7 @@
     const sorted = [...ws].sort((a, b) => (b.dateMs || 0) - (a.dateMs || 0));
     const g = C.groups[ws[0].group];
     return `<div class="popup"><div class="srcTag src-${ws[0].group}">${esc(g.label)}</div><h3>${ws.length} records at this point${acc}</h3><div class="list">${sorted.map((w) =>
-      `<div class="item" data-i="${ws.indexOf(w)}"><a href="#" class="open-item"><b>${esc(w.wcr || w.permit || '?')}</b></a>${w.matchLabel ? ` <span class="dupTag">dup: ${esc(w.matchLabel)}</span>` : ''} · ${w.depthFt != null ? fmt(w.depthFt) + ' ft' : '— ft'} · ${w.gpm != null ? fmt(w.gpm, 1) + ' gpm' : '— gpm'} · SWL ${w.swlFt != null ? fmt(w.swlFt) : '—'} · ${esc(w.methodLabel)} · ${w.dateStr}${w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">PDF</a>` : ''}</div>`).join('')}</div></div>`;
+      `<div class="item" data-i="${ws.indexOf(w)}"><a href="#" class="open-item"><b>${esc(w.wcr || w.permit || (w.group === 'county' ? 'No permit #' : '?'))}</b></a>${w.matchLabel ? ` <span class="dupTag">dup: ${esc(w.matchLabel)}</span>` : ''} · ${w.depthFt != null ? fmt(w.depthFt) + ' ft' : '— ft'} · ${w.gpm != null ? fmt(w.gpm, 1) + ' gpm' : '— gpm'} · SWL ${w.swlFt != null ? fmt(w.swlFt) : '—'} · ${esc(w.methodLabel)} · ${w.dateStr}${w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">PDF</a>` : ''}</div>`).join('')}</div></div>`;
   }
 
   // ---------- Summary ----------

@@ -5,6 +5,21 @@
 (function (global) {
   'use strict';
 
+  // Riverside WellPCID -> cache key. Mirrors tools/extract_riverside_wcr.py (MISSING_IDS, SAFE_KEY, clean_pcid,
+  // opendoc_id, rec_key): whitespace removed + upper-cased; '', NULL, <NULL>, NONE, <NONE>, N/A, NA, '-', anything not
+  // filename-safe, or an ID already starting RIV-WCR- counts as missing. Missing -> 'RIV-WCR-<WCR_Path OpenDoc id>',
+  // else null (the extractor skips such rows; the app shows them as 'No permit #').
+  const RIV_MISSING_IDS = new Set(['', '<NULL>', 'NULL', 'NONE', '<NONE>', 'N/A', 'NA', '-']);
+  const RIV_FALLBACK_PREFIX = 'RIV-WCR-';
+  const RIV_SAFE_KEY = /^[A-Z0-9][A-Z0-9_.-]{0,63}$/;
+  function rivcoKey(wellPcid, wcrPath) {
+    const p = String(wellPcid ?? '').replace(/\s+/g, '').toUpperCase();
+    if (!RIV_MISSING_IDS.has(p) && RIV_SAFE_KEY.test(p) && !p.startsWith(RIV_FALLBACK_PREFIX)) return p;
+    const u = String(wcrPath ?? '').trim();
+    const m = /\/OpenDoc\/(\d+)/.exec(u) || /docid=(\d+)/i.exec(u);
+    return m ? RIV_FALLBACK_PREFIX + m[1] : null;
+  }
+
   const CONFIG = {
     defaultRadiusMiles: 1,
     minRadiusMiles: 0.05,   // slider 0 = "tapped point": search this small radius internally
@@ -172,11 +187,9 @@
           // Keep OpenDoc WCR link even when a matched state WCR later overwrites pdfUrl.
           if (w.pdfUrl) w.countyWcrUrl = w.pdfUrl;
           if (w.permitPdf) w.countyPermitUrl = w.permitPdf;
-          // WellPCID can be NULL/'<Null>': key like tools/extract_riverside_wcr.py (RIV-WCR-<WCR OpenDoc id>) so cached WCRs join.
-          if (/^(<?null>?|none)?$/i.test(String(w.permit ?? '').trim())) {
-            const m = /\/OpenDoc\/(\d+)|docid=(\d+)/i.exec(w.pdfUrl || '');
-            w.permit = m ? 'RIV-WCR-' + (m[1] || m[2]) : null;
-          }
+          // Key exactly like tools/extract_riverside_wcr.py rec_key() so cached WCRs (data/riverside-wcr/<key>.json) join.
+          // w.pdfUrl is still the raw WCR_Path here (a matched state WCR only overwrites it later).
+          w.permit = rivcoKey(w.permit, w.pdfUrl);
           w.countyKey = 'riverside';
         },
       },
