@@ -1,7 +1,7 @@
 /* Wells Nearby service worker: lets the app open with no signal (so a site can still be tagged: GPS works offline).
  * Same-origin files: network first (always fresh when online), cached copy when offline. Cross-origin requests
  * (map tiles, state/county data, parcel lookup) are not touched. */
-const CACHE = 'wells-nearby-shell-v7';
+const CACHE = 'wells-nearby-shell-v8';
 const SHELL = ['./', 'index.html', 'css/app.css', 'vendor/leaflet/leaflet.css', 'vendor/leaflet/leaflet.js',
   'js/config.js', 'js/data.js', 'js/stats.js', 'js/match.js', 'js/docs.js', 'js/countywcr.js', 'js/app.js', 'js/sites.js', 'js/parcels.js', 'js/search.js', 'js/septic-core.js', 'js/septic.js',
   'data/county-wcr/manifest.json', 'data/riverside-wcr/manifest.json'];

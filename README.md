@@ -28,6 +28,15 @@ Sources (both queried live from the browser, CORS OK):
   Recent searches (max 8) are kept in `localStorage` (`wellsNearby.recentSearches`) on the device only. Esri's World Geocoder
   is not used: it now requires an access token and its terms forbid keeping results (the recent list) without a stored-geocode
   token.
+  **Riverside / Imperial:** 9-digit APNs (`XXX-XXX-XXX`) are asked of both the Riverside Assessor layer and the Imperial parcels
+  (DWR's statewide LightBox assessor-parcel layer `gis.water.ca.gov/.../i15_Parcels_Assessor_Lightbox/MapServer/0`, filtered to
+  `COUNTYNAME='Imperial'`, setting `imperialParcels`; the county's own parcel service needs a token); 12 digits
+  (`047-060-003-000`, tax-bill form) → Imperial; a 10-digit APN not in San Diego is retried as an old-style Imperial one
+  (`049-081-25-01` → `049-081-025`). Imperial towns / ZIPs (`addressSearch.imperialPlaces`: El Centro, Brawley, Calexico,
+  Imperial, Holtville, Ocotillo 92259, …) send the address to California's statewide public locator
+  (`services.gis.ca.gov/.../comp_parcels_streets_poi/GeocodeServer`, keyless, CORS) + the DWR parcel situs; a town alone →
+  its centre. Plain "Ocotillo" is the Imperial County town (92259); "Ocotillo Wells" is the San Diego County one (92004,
+  `placeCenters`). Test: `tools/test-address-search.py`.
 
 ## County WCR extraction (OCR cache)
 County completion reports are scanned PDFs behind an OutSystems viewer (no direct PDF URL, no text layer on most), so they

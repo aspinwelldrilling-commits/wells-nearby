@@ -305,6 +305,14 @@
       outFields: 'APN,SITUS_STREET,SITUS_CITY,STREET_NUMBER,STREET_NAME,STREET_TYPE,STREET_PREDIRECTION,STREET_SUFFIX,CITY,ZIP_CODE,ACREAGE',
       timeoutMs: 12000,
     },
+    // Imperial County parcels for the search box (9-digit APN XXX-XXX-XXX, also written XXX-XXX-XXX-000 on tax bills and
+    // XXX-XXX-XX-XX on some old state records): DWR's statewide LightBox assessor-parcel layer (public, CORS), filtered to
+    // the county. The county's own parcel service needs a token.
+    imperialParcels: {
+      url: 'https://gis.water.ca.gov/arcgis/rest/services/Planning/i15_Parcels_Assessor_Lightbox/MapServer/0/query',
+      where: "COUNTYNAME='Imperial'",
+      outFields: 'PARCEL_APN,TAXAPN,SITE_ADDR,SITE_CITY,SITE_ZIP',
+    },
     // Address / APN search box on the map (js/search.js). APN -> the parcel layer above. Addresses -> SANDAG's public regional
     // locator (no key; covers San Diego County only; knows ZIP codes but not city names, so a typed community becomes its
     // ZIPs) + the parcel layer's situs address. Esri's World Geocoder is not used: it now needs an access token, and its terms
@@ -334,7 +342,7 @@
         'ELFIN FOREST': ['92029'], 'ENCINITAS': ['92023', '92024'], 'ESCONDIDO': ['92025', '92026', '92027', '92029', '92030', '92033', '92046'],
         'FALLBROOK': ['92028', '92088'], 'GUATAY': ['91931'], 'IMPERIAL BEACH': ['91932', '91933'], 'JACUMBA': ['91934'], 'JAMUL': ['91935'],
         'JULIAN': ['92036'], 'LA JOLLA': ['92037', '92038', '92039', '92092', '92093'], 'LA MESA': ['91941', '91942', '91943', '91944'], 'LAKESIDE': ['92040'],
-        'LEMON GROVE': ['91945', '91946'], 'LEUCADIA': ['92024'], 'MOUNT LAGUNA': ['91948'], 'NATIONAL CITY': ['91950', '91951'], 'OCOTILLO': ['92004'],
+        'LEMON GROVE': ['91945', '91946'], 'LEUCADIA': ['92024'], 'MOUNT LAGUNA': ['91948'], 'NATIONAL CITY': ['91950', '91951'], 'OCOTILLO WELLS': ['92004'],
         'OCEANSIDE': ['92049', '92051', '92052', '92054', '92056', '92057', '92058'], 'OLIVENHAIN': ['92024'], 'PALA': ['92059'], 'PALOMAR MOUNTAIN': ['92060'],
         'PAUMA VALLEY': ['92061'], 'PINE VALLEY': ['91962'], 'POTRERO': ['91963'], 'POWAY': ['92064', '92074'], 'RAINBOW': ['92028'], 'RAMONA': ['92065'],
         'RANCHITA': ['92066'], 'RANCHO SANTA FE': ['92067', '92091'], 'SAN DIEGO': Array.from({ length: 99 }, (_, i) => '921' + String(i + 1).padStart(2, '0')),
@@ -350,8 +358,30 @@
         '4S RANCH': ['92127'], 'SCRIPPS RANCH': ['92131'], 'RANCHO PENASQUITOS': ['92129'], 'CARMEL VALLEY': ['92130'], 'MIRA MESA': ['92126'], 'OTAY MESA': ['92154'],
       },
       communityAliases: { 'CARDIFF BY THE SEA': 'CARDIFF', 'MT LAGUNA': 'MOUNT LAGUNA', 'IMPERIAL BCH': 'IMPERIAL BEACH', 'BORREGO': 'BORREGO SPRINGS',
-        'OCOTILLO WELLS': 'OCOTILLO', 'JACUMBA HOT SPRINGS': 'JACUMBA', 'PAUMA': 'PAUMA VALLEY', 'PALOMAR MTN': 'PALOMAR MOUNTAIN', 'MT HELIX': 'MOUNT HELIX',
-        'SDCE': 'SAN DIEGO COUNTRY ESTATES', 'RSF': 'RANCHO SANTA FE' },
+        'JACUMBA HOT SPRINGS': 'JACUMBA', 'PAUMA': 'PAUMA VALLEY', 'PALOMAR MTN': 'PALOMAR MOUNTAIN', 'MT HELIX': 'MOUNT HELIX',
+        'SDCE': 'SAN DIEGO COUNTRY ESTATES', 'RSF': 'RANCHO SANTA FE', 'OCOTILLO WLS': 'OCOTILLO WELLS', 'OCOTILLO WELLS SVRA': 'OCOTILLO WELLS' },
+      // A typed place with no street goes to this point instead of the ZIP-area centre when the place is a small part of a big
+      // ZIP (Ocotillo Wells shares 92004 with Borrego Springs, whose ZIP centre is ~15 mi away). [lat, lon]
+      placeCenters: { 'OCOTILLO WELLS': [33.1456, -116.1347] },
+      // Imperial County addresses: California's statewide public locator (CDT; no key, CORS; knows city names) + the parcel
+      // situs addresses in DWR's statewide assessor-parcel layer (imperialParcels below). Plain "Ocotillo" is the Imperial
+      // County town (92259); "Ocotillo Wells" is the San Diego County one (92004, above).
+      imperialGeocoderUrl: 'https://services.gis.ca.gov/arcgis/rest/services/Location/comp_parcels_streets_poi/GeocodeServer/findAddressCandidates',
+      imperialBounds: [32.61, -116.11, 33.44, -114.46],   // S, W, N, E (county line + a little)
+      // Imperial County postal towns / places -> ZIP codes + town centre [lat, lon] (used when only the place is typed).
+      imperialPlaces: {
+        'EL CENTRO': { zips: ['92243', '92244'], ll: [32.792, -115.563] }, 'CALEXICO': { zips: ['92231', '92232'], ll: [32.679, -115.499] },
+        'IMPERIAL': { zips: ['92251'], ll: [32.847, -115.569] }, 'BRAWLEY': { zips: ['92227'], ll: [32.979, -115.530] },
+        'HOLTVILLE': { zips: ['92250'], ll: [32.811, -115.380] }, 'HEBER': { zips: ['92249'], ll: [32.731, -115.530] },
+        'CALIPATRIA': { zips: ['92233'], ll: [33.126, -115.514] }, 'NILAND': { zips: ['92257'], ll: [33.240, -115.519] },
+        'WESTMORLAND': { zips: ['92281'], ll: [33.037, -115.621] }, 'WINTERHAVEN': { zips: ['92283'], ll: [32.739, -114.635] },
+        'SEELEY': { zips: ['92273'], ll: [32.793, -115.692] }, 'OCOTILLO': { zips: ['92259'], ll: [32.7403, -115.9944] },
+        'COYOTE WELLS': { zips: ['92259'], ll: [32.739, -115.963] }, 'PLASTER CITY': { zips: ['92259', '92273'], ll: [32.792, -115.860] },
+        'PALO VERDE': { zips: ['92266'], ll: [33.433, -114.733] }, 'SALTON CITY': { zips: ['92275', '92274'], ll: [33.299, -115.956] },
+        'BOMBAY BEACH': { zips: ['92257'], ll: [33.351, -115.729] }, 'DESERT SHORES': { zips: ['92274'], ll: [33.404, -116.040] },
+        'SALTON SEA BEACH': { zips: ['92274'], ll: [33.376, -115.996] }, 'BARD': { zips: ['92222'], ll: [32.787, -114.560] },
+        'FELICITY': { zips: ['92283'], ll: [32.750, -114.767] }, 'GLAMIS': { zips: [], ll: [32.996, -115.072] },
+      },
     },
     // Property lines overlay (js/parcels.js): county MapServer export of the same parcel layer, restyled.
     parcelLines: {
