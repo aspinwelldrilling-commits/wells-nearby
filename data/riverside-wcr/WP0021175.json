@@ -1,0 +1,64 @@
+{
+ "permit": "WP0021175",
+ "processed": "2026-10-06T21:37:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-080-053",
+ "address": "41541 Ivy St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246863",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 604
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246863",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 96.83651,
+   "raw": "Total Depth of Boring 30",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 96.231956,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-10-04",
+   "conf": "low",
+   "ocrConf": 33.292885,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246863",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.555311000000074,
+ "lon": -117.20585809999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203308",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246863",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

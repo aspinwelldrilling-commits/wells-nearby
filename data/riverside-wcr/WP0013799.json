@@ -1,0 +1,56 @@
+{
+ "permit": "WP0013799",
+ "processed": "2026-10-06T21:31:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "921-070-030",
+ "address": "28903 Rancho California Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242879",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1089
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242879",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 34.721786,
+   "raw": "TOTAL DEPTH OF BORING 20",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-03-11",
+   "conf": "low",
+   "ocrConf": 33.804977,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242879",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.49878315400008,
+ "lon": -117.15322414499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210873",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242879",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,91 @@
+{
+ "permit": "WP0028858",
+ "processed": "2026-10-06T21:01:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-222-010",
+ "address": "24940 Hayes Ave ",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248793",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 495
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248793",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248793",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 340.0,
+   "conf": "high",
+   "ocrConf": 91.135612,
+   "raw": "Total Depth of Completed Well 340",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 94.657501,
+   "raw": "Estimated Yield* 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 87.145699,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 82.032478,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-01-21",
+   "conf": "high",
+   "ocrConf": 82.231926,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.5471,
+   "lon": -117.21863,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248793",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.54710700000004,
+ "lon": -117.218585,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256189",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248793",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

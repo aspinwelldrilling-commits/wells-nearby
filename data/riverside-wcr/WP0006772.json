@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006772",
+ "processed": "2026-10-06T20:39:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-140-028",
+ "address": "25331 Hayes Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238619",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 930
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238619",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 352.0,
+   "conf": "medium",
+   "ocrConf": 59.844597,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 352",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 24.292908,
+   "raw": "WATER LEVEL 60 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238619",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.540114983000024,
+ "lon": -117.21366764399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218783",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238619",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

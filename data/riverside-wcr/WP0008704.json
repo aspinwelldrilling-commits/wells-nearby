@@ -1,0 +1,56 @@
+{
+ "permit": "WP0008704",
+ "processed": "2026-10-06T20:44:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "958-170-012",
+ "address": "32273 Wilke Way",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239799",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 864
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239799",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 183.0,
+   "conf": "medium",
+   "ocrConf": 64.598915,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 183",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 13.413574,
+   "raw": "ESTIMATED YIELD * 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239799",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.571203420000074,
+ "lon": -117.09739623399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216646",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239799",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

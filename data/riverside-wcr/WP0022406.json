@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022406",
+ "processed": "2026-10-06T20:57:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "918-040-015",
+ "address": "46910 Avenida Hierba",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249421",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 568
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249421",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 75.0,
+   "conf": "medium",
+   "ocrConf": 75.133369,
+   "raw": "Estimated Yield* 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 260.0,
+   "conf": "high",
+   "ocrConf": 82.35556,
+   "raw": "Water Level _260 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-04-23",
+   "conf": "medium",
+   "ocrConf": 79.756149,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249421",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.44363427400003,
+ "lon": -117.21913945499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18736",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249421",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

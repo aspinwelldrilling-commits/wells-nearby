@@ -1,0 +1,70 @@
+{
+ "permit": "WP0024092",
+ "processed": "2026-10-06T20:56:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "900-370-016",
+ "address": "28080 Mary",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247831",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 415
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247831",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 13.0,
+   "conf": "high",
+   "ocrConf": 96.099892,
+   "raw": "Estimated Yield * 13 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 97.0,
+   "conf": "high",
+   "ocrConf": 94.64328,
+   "raw": "Water Level 97 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 92.239517,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-03-14",
+   "conf": "high",
+   "ocrConf": 95.246353,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247831",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.577948492000075,
+ "lon": -117.168798547,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201023",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247831",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

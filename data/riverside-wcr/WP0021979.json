@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021979",
+ "processed": "2026-10-06T20:57:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-270-046",
+ "address": "24200 Hayes Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247214",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 440
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247214",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 395.0,
+   "conf": "high",
+   "ocrConf": 96.444168,
+   "raw": "Total Depth of Completed Well 395",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 150.0,
+   "conf": "medium",
+   "ocrConf": 77.944794,
+   "raw": "Estimated Yield* 150 __\u2014s\u00ab (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 75.056168,
+   "raw": "Water Level 30 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-10-12",
+   "conf": "medium",
+   "ocrConf": 65.346512,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247214",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.56014784600006,
+ "lon": -117.23123729699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204091",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247214",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

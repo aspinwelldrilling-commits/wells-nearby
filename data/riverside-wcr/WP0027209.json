@@ -1,0 +1,55 @@
+{
+ "permit": "WP0027209",
+ "processed": "2026-10-06T21:45:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "921-020-001",
+ "address": "42565 Avenida Alvarado",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249439",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 850
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249439",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 60.238747,
+   "raw": "Total Depth of Completed Well 30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-08-01",
+   "conf": "high",
+   "ocrConf": 89.368202,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249439",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.50590370800006,
+ "lon": -117.16739092199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198759",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249439",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004237",
+ "processed": "2026-10-06T20:35:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-260-012",
+ "address": "25426 Edna Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236220",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 811
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236220",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 48.0,
+   "conf": "low",
+   "ocrConf": 49.981331,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _48",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 23.0,
+   "conf": "medium",
+   "ocrConf": 55.792084,
+   "raw": "WATER LEVEL ____ 23) (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236220",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.536395328000026,
+ "lon": -117.21547293099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219905",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236220",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016786",
+ "processed": "2026-10-06T20:55:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-140-022",
+ "address": "42700 Brown St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245303",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 741
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245303",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 187.0,
+   "conf": "low",
+   "ocrConf": 41.125183,
+   "raw": "WATER LEVEL 187 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-10-28",
+   "conf": "low",
+   "ocrConf": 35.597466,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245303",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.53639948400007,
+ "lon": -117.21100097199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209384",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245303",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

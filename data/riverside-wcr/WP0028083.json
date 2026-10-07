@@ -1,0 +1,77 @@
+{
+ "permit": "WP0028083",
+ "processed": "2026-10-06T21:01:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "918-270-046",
+ "address": "32722 Los Encinos Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248703",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 61
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248703",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248703",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "high",
+   "ocrConf": 83.86116,
+   "raw": "Total Depth of Completed Well 180",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 95.522346,
+   "raw": "Water Level 80 (Feet",
+   "page": 2,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "low",
+   "ocrConf": 37.817108,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 2,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 92.912651,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248703",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.43980485000003,
+ "lon": -117.08745194299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34448",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248703",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "readable"
+}

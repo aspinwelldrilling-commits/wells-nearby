@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020307",
+ "processed": "2026-10-06T20:56:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-270-032",
+ "address": "21385 Hodan Hill Ct",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246694",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 619
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246694",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "medium",
+   "ocrConf": 58.984749,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-10-01",
+   "conf": "low",
+   "ocrConf": 44.517982,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246694",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.57360863500003,
+ "lon": -117.28603649599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204555",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246694",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

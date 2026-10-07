@@ -1,0 +1,49 @@
+{
+ "permit": "WP0004478",
+ "processed": "2026-10-06T21:04:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "910-130-047",
+ "address": "26520 Ynez Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236396",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 821
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236396",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 12.237999,
+   "raw": "TOTAL DEPTH OF BORING __300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236396",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.52295523500004,
+ "lon": -117.15774991799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220573",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236396",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

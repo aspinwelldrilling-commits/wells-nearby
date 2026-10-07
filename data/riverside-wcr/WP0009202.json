@@ -1,0 +1,56 @@
+{
+ "permit": "WP0009202",
+ "processed": "2026-10-06T20:42:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "917-310-010",
+ "address": "46285 Anza Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240100",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 952
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240100",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 430.0,
+   "conf": "medium",
+   "ocrConf": 78.175522,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _430",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 51.076172,
+   "raw": "ESTIMATED YIELD * 4 es (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240100",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.46057943900007,
+ "lon": -117.07794322499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214153",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240100",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

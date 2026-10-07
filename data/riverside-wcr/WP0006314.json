@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006314",
+ "processed": "2026-10-06T20:38:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "958-090-026",
+ "address": "32950 Marius Way",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238333",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 810
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238333",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 729.0,
+   "conf": "medium",
+   "ocrConf": 62.370472,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __729",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD -20. (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238333",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.57899839700008,
+ "lon": -117.08678859599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217165",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238333",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

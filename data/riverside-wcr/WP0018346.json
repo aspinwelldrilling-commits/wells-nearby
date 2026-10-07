@@ -1,0 +1,56 @@
+{
+ "permit": "WP0018346",
+ "processed": "2026-10-06T21:35:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-080-056",
+ "address": "24837 Jefferson Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245947",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 876
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245947",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 89.629913,
+   "raw": "Total Depth of Boring 20",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-12-28",
+   "conf": "medium",
+   "ocrConf": 59.976574,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245947",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.558235575000026,
+ "lon": -117.20766658299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208904",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245947",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

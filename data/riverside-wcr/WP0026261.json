@@ -1,0 +1,63 @@
+{
+ "permit": "WP0026261",
+ "processed": "2026-10-06T20:59:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "904-040-060",
+ "address": "22115 Tenaja Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248346",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 117
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248346",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 95.552406,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "medium",
+   "ocrConf": 60.156586,
+   "raw": "Water Level _35 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-08-19",
+   "conf": "low",
+   "ocrConf": 14.800346,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248346",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.51091984800007,
+ "lon": -117.26928412699999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248346",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

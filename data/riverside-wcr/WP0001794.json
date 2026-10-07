@@ -1,0 +1,69 @@
+{
+ "permit": "WP0001794",
+ "processed": "2026-10-06T20:28:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "938-160-006",
+ "address": "Off Calle Cuero Road",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234657",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2525
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234657",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234657",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 665.0,
+   "conf": "medium",
+   "ocrConf": 68.486526,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 665",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 11.859375,
+   "raw": "ESTIMATED YIELD\u2019 3 (gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-05-19",
+   "conf": "high",
+   "ocrConf": 95.767036,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234657",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.464015216000064,
+ "lon": -117.20703678199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220534",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234657",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

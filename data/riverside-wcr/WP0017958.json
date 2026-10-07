@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017958",
+ "processed": "2026-10-06T20:55:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-240-063",
+ "address": "42830 Dawnwood St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245842",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245842",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 465.0,
+   "conf": "low",
+   "ocrConf": 20.747643,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL465",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-08-01",
+   "conf": "high",
+   "ocrConf": 91.040215,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245842",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.550021496000056,
+ "lon": -117.23129462299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208611",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245842",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

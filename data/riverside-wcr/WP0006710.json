@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006710",
+ "processed": "2026-10-06T20:40:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-070-009",
+ "address": "24520 Washington Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238589",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1015
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238589",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 480.0,
+   "conf": "low",
+   "ocrConf": 46.799606,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __480",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 9.0,
+   "conf": "low",
+   "ocrConf": 29.53582,
+   "raw": "ESTIMATED YIELD * #9 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238589",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.559221441000034,
+ "lon": -117.21788217299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218570",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238589",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

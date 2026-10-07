@@ -1,0 +1,72 @@
+{
+ "permit": "WP0006340",
+ "processed": "2026-10-06T20:37:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-032-006",
+ "address": "21979 Avenida De Arboles",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238351",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 800
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238351",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 490.0,
+   "conf": "low",
+   "ocrConf": 8.199646,
+   "raw": "TOTAL DEPTH OF BORING 490",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 41.905678,
+   "raw": "ESTIMATED YIELD 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 95.206474,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.519943,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238351",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.561097233000055,
+ "lon": -117.28709121299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217242",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238351",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

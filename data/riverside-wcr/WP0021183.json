@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021183",
+ "processed": "2026-10-06T21:34:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "921-280-014",
+ "address": "Old Town Front St",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246870",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 397
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246870",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 42.0,
+   "conf": "high",
+   "ocrConf": 96.786163,
+   "raw": "Total Depth of Completed Well 42",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-10-25",
+   "conf": "high",
+   "ocrConf": 94.652573,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246870",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.49720610400004,
+ "lon": -117.15377758199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203317",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246870",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

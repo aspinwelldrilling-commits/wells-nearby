@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004402",
+ "processed": "2026-10-06T20:34:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-390-004",
+ "address": "19885 Tenaja Rd",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236333",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 868
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236333",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 39.0,
+   "conf": "medium",
+   "ocrConf": 54.423767,
+   "raw": "WATER LEVEL ___ 39 __(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.217079,
+   "raw": "DRILLING\nMETHOD Air FLUID ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236333",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.51823457800003,
+ "lon": -117.29849261399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220321",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236333",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0012905",
+ "processed": "2026-10-06T20:50:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-260-024",
+ "address": "42650 Hawthorne St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242099",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 768
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242099",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 37.701706,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 88.724716,
+   "raw": "ESTIMATED yiELD * 80 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 132.0,
+   "conf": "medium",
+   "ocrConf": 53.649002,
+   "raw": "STATIC\nWATER LeveL 132 Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-08-16",
+   "conf": "high",
+   "ocrConf": 81.257195,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242099",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.53932008400005,
+ "lon": -117.21344251899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211798",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242099",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

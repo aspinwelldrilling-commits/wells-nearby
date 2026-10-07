@@ -1,0 +1,64 @@
+{
+ "permit": "WP0011617",
+ "processed": "2026-10-06T20:49:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "958-090-023",
+ "address": "Washington Street",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241878",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 833
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241878",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1454.0,
+   "conf": "low",
+   "ocrConf": 6.662445,
+   "raw": "TOTAL DEPTH OF BORING 1454",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-11-26",
+   "conf": "low",
+   "ocrConf": 0.255424,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 67.208023,
+   "raw": "ESTIMATED YIELD * __4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241878",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.57893927300006,
+ "lon": -117.08483638799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212064",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241878",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

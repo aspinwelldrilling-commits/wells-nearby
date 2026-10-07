@@ -1,0 +1,77 @@
+{
+ "permit": "WP0030168",
+ "processed": "2026-10-06T21:01:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-140-071",
+ "address": "42750 Brown St ",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256111",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256111",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256111",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 510.0,
+   "conf": "medium",
+   "ocrConf": 78.408356,
+   "raw": "Total Depth of Completed Well 510",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 94.661545,
+   "raw": "Estimated Yield\" 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other-Mudand",
+   "conf": "medium",
+   "ocrConf": 65.847687,
+   "raw": "Drilling Method Other-MUDAND Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-09-21",
+   "conf": "medium",
+   "ocrConf": 79.174416,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256111",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.534418,
+ "lon": -117.21123,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256110",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256111",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

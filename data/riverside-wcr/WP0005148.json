@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005148",
+ "processed": "2026-10-06T20:37:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "913-150-007",
+ "address": "39405 Murrieta Hot Springs Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236804",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 742
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236804",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 210.0,
+   "conf": "low",
+   "ocrConf": 11.420288,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 210",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1998-11-17",
+   "conf": "low",
+   "ocrConf": 8.522179,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236804",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.556659601000035,
+ "lon": -117.15742463499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218178",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236804",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,79 @@
+{
+ "permit": "WP0022930",
+ "processed": "2026-10-06T20:55:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "933-300-003",
+ "address": "45355 Buena Loma Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249358",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 402
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249358",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 610.0,
+   "conf": "medium",
+   "ocrConf": 96.4347,
+   "raw": "Total Depth of Boring 610",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 95.183022,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Down-Hole Hammer",
+   "conf": "medium",
+   "ocrConf": 52.217171,
+   "raw": "Drilling Method Down-Hole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 59.062992,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-12-22",
+   "conf": "high",
+   "ocrConf": 92.305077,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249358",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.471608745000026,
+ "lon": -117.27210162099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203111",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249358",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

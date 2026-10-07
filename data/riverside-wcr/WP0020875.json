@@ -1,0 +1,71 @@
+{
+ "permit": "WP0020875",
+ "processed": "2026-10-06T20:53:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "935-370-033",
+ "address": "43860 Glen Meadows Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246447",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 439
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246447",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1025.0,
+   "conf": "medium",
+   "ocrConf": 54.593338,
+   "raw": "Total Depth of Completed Well 1025",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.86013,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 80.37252,
+   "raw": "Water Level 25 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-18",
+   "conf": "high",
+   "ocrConf": 95.51091,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246447",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.49759168400004,
+ "lon": -117.21933193799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205093",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246447",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

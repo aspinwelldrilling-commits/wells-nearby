@@ -1,0 +1,61 @@
+{
+ "permit": "WP0017352",
+ "processed": "2026-10-06T21:31:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "961-381-040",
+ "address": "45427 Moose Ct",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245531",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2718
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245531",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245531",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.974648,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-05-01",
+   "conf": "high",
+   "ocrConf": 96.56572,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245531",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.468461011000045,
+ "lon": -117.10785018799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209890",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245531",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

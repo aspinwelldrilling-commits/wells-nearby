@@ -1,0 +1,54 @@
+{
+ "permit": "WP0008607",
+ "processed": "2026-10-06T21:15:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "959-080-012",
+ "address": "44155 Margarita Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239752",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2128
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239752",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239752",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "high",
+   "ocrConf": 84.102127,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 160,",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239752",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.481735600000036,
+ "lon": -117.10408529999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216291",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239752",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

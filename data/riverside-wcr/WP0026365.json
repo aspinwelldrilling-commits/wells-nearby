@@ -1,0 +1,71 @@
+{
+ "permit": "WP0026365",
+ "processed": "2026-10-06T20:59:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-130-026",
+ "address": "42950 Ivy St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248432",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 415
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248432",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 3.518227,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 13.0,
+   "conf": "high",
+   "ocrConf": 96.923782,
+   "raw": "Estimated Yield* 13 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "medium",
+   "ocrConf": 69.519501,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "high",
+   "ocrConf": 94.214027,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248432",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.539344708000044,
+ "lon": -117.22318894499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199440",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248432",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

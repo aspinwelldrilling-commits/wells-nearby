@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014287",
+ "processed": "2026-10-06T20:48:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-100-050",
+ "address": "25817 Washington Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242865",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 761
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242865",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "low",
+   "ocrConf": 39.934807,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 42.0,
+   "conf": "high",
+   "ocrConf": 90.43261,
+   "raw": "WATER LeveL 42 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242865",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.537582214000054,
+ "lon": -117.19716543899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211233",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242865",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

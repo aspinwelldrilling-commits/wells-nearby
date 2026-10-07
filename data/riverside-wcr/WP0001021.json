@@ -1,0 +1,48 @@
+{
+ "permit": "WP0001021",
+ "processed": "2026-10-06T20:26:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "933-080-023",
+ "address": "Carancho Road near Calamar",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234111",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 906
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234111",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 880.0,
+   "conf": "medium",
+   "ocrConf": 58.054775,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _880",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234111",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.48892759200004,
+ "lon": -117.26966074699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221328",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234111",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

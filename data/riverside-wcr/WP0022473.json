@@ -1,0 +1,71 @@
+{
+ "permit": "WP0022473",
+ "processed": "2026-10-06T20:57:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "939-020-020",
+ "address": "43218 Sandia Creek",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249242",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 466
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249242",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 639.0,
+   "conf": "high",
+   "ocrConf": 91.192261,
+   "raw": "Total Depth of Completed Well 639",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.174751,
+   "raw": "Estimated Yield * 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "medium",
+   "ocrConf": 75.77475,
+   "raw": "Drilling Method Air Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-06-07",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249242",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.49694571200007,
+ "lon": -117.18639599799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18832",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249242",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

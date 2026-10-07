@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001160",
+ "processed": "2026-10-06T20:27:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "938-080-010",
+ "address": "45925 Via Vaquero",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234170",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 773
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234170",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 61.634918,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 33.250145,
+   "raw": "ESTIMATED YIELD - 22 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234170",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.47174553700006,
+ "lon": -117.21000608499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221555",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234170",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015140",
+ "processed": "2026-10-06T21:31:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-800-005",
+ "address": "41800 Brown St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244107",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 746
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244107",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 170.0,
+   "conf": "high",
+   "ocrConf": 96.788826,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 170",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-11-17",
+   "conf": "high",
+   "ocrConf": 96.340042,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244107",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.54480608100005,
+ "lon": -117.20071126699997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244107",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

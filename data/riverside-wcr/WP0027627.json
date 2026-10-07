@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027627",
+ "processed": "2026-10-06T21:00:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "933-160-026",
+ "address": "Vista Del Mar",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249586",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249586",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "high",
+   "ocrConf": 95.060501,
+   "raw": "Total Depth of Completed Well 220",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.778603,
+   "raw": "Estimated Yield~ 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-02",
+   "conf": "high",
+   "ocrConf": 93.750359,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249586",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.47330484300005,
+ "lon": -117.29871198099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198964",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249586",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

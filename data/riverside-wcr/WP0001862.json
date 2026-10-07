@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001862",
+ "processed": "2026-10-06T20:28:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "938-170-005",
+ "address": "45860 Calle Cuero",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234706",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 819
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234706",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 499.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 499",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.771065,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234706",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.461269816000026,
+ "lon": -117.21147430499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220773",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234706",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018257",
+ "processed": "2026-10-06T20:55:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-270-029",
+ "address": "21105 Camino De Jugador",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245902",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 890
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245902",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 91.985016,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 88.589546,
+   "raw": "Water Level _200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-12-04",
+   "conf": "medium",
+   "ocrConf": 54.380234,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245902",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.575198286000045,
+ "lon": -117.29167599999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208834",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245902",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

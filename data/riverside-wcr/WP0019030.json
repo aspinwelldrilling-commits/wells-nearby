@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019030",
+ "processed": "2026-10-06T21:35:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "921-400-045",
+ "address": "27705 Commerce Center Dr",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246167",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1605
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246167",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 5.241791,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 25",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-08-29",
+   "conf": "high",
+   "ocrConf": 96.831551,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246167",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.51068112000007,
+ "lon": -117.16123489999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207948",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246167",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

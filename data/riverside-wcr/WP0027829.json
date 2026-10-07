@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027829",
+ "processed": "2026-10-06T21:00:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "935-140-005",
+ "address": "42779 Via Bolero Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249646",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 71
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249646",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 96.554047,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "low",
+   "ocrConf": 37.49221,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-07-06",
+   "conf": "high",
+   "ocrConf": 87.578239,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249646",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.50759485100008,
+ "lon": -117.22699197099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199055",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249646",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,65 @@
+{
+ "permit": "WP0027613",
+ "processed": "2026-10-06T20:57:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "934-040-014",
+ "address": "44355 El Prado Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249580",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 67
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249580",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 96.706192,
+   "raw": "Total Depth of Boring 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 160.0,
+   "conf": "high",
+   "ocrConf": 89.274254,
+   "raw": "Estimated Yield * 160 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Water Level 20 (Feet",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249580",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.490474848000076,
+ "lon": -117.24040197199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198923",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249580",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

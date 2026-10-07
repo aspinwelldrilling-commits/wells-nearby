@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004438",
+ "processed": "2026-10-06T21:04:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "910-130-012",
+ "address": "27500 Jefferson Ave",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236358",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 872
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236358",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 33.0,
+   "conf": "low",
+   "ocrConf": 36.225582,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __33",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 24.0,
+   "conf": "high",
+   "ocrConf": 96.471497,
+   "raw": "WATER LEVEL 24 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236358",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.519478382000045,
+ "lon": -117.16284413199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220463",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236358",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

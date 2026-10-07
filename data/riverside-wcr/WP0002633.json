@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002633",
+ "processed": "2026-10-06T20:31:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-220-026",
+ "address": "26070 Lucille Cir",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235107",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 847
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235107",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 295.0,
+   "conf": "low",
+   "ocrConf": 48.394821,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 295",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 96.866615,
+   "raw": "WATER LEVEL 120 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235107",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.526426154000035,
+ "lon": -117.20309650899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219929",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235107",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

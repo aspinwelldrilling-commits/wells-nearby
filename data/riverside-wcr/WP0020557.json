@@ -1,0 +1,64 @@
+{
+ "permit": "WP0020557",
+ "processed": "2026-10-06T21:37:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "961-080-006",
+ "address": "31669 S Highway 79",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246537",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 501
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246537",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 96.924065,
+   "raw": "Total Depth of Boring 50",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger Driting",
+   "conf": "low",
+   "ocrConf": 41.839645,
+   "raw": "Drilling Method Hollow Stem Auger Driting Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-02-11",
+   "conf": "low",
+   "ocrConf": 17.320671,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246537",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.47929240000008,
+ "lon": -117.10318569999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204787",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246537",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

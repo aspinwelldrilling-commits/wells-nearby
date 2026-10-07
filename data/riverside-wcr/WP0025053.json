@@ -1,0 +1,86 @@
+{
+ "permit": "WP0025053",
+ "processed": "2026-10-06T20:59:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "937-040-025",
+ "address": "42371 Via De Los Fideos",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248096",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 416
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248096",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1510.0,
+   "conf": "high",
+   "ocrConf": 86.68866,
+   "raw": "Total Depth of Completed Well 1510",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.036316,
+   "raw": "Estimated Yield * 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 190.0,
+   "conf": "high",
+   "ocrConf": 89.982368,
+   "raw": "Water Level 190 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 86.001236,
+   "raw": "Drilling Method Air Rotary Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-03-17",
+   "conf": "medium",
+   "ocrConf": 73.658966,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.47333,
+   "lon": -117.22323,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248096",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.473335715000076,
+ "lon": -117.22324599099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200039",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248096",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

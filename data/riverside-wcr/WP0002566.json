@@ -1,0 +1,55 @@
+{
+ "permit": "WP0002566",
+ "processed": "2026-10-06T20:31:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "936-030-011",
+ "address": "24910 Camino Del Valle",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235137",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 983
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235137",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 80.110619,
+   "raw": "WATER LEVEL _____ 30 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.305962,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235137",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.48716237900004,
+ "lon": -117.22538332899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219601",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235137",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

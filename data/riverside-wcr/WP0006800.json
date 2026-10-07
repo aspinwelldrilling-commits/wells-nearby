@@ -1,0 +1,71 @@
+{
+ "permit": "WP0006800",
+ "processed": "2026-10-06T20:41:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "952-250-043",
+ "address": "34555 Santa Rita Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238637",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 979
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238637",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 380.0,
+   "conf": "low",
+   "ocrConf": 49.353897,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 380",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 70.715576,
+   "raw": "ESTIMATED YIELD 4 \u2014\u2014\u2014_ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 190.0,
+   "conf": "high",
+   "ocrConf": 96.489861,
+   "raw": "WATER LEVEL 190 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-05-13",
+   "conf": "low",
+   "ocrConf": 7.702682,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238637",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.47289663300006,
+ "lon": -117.05460593599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218838",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238637",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

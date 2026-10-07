@@ -1,0 +1,79 @@
+{
+ "permit": "WP0022112",
+ "processed": "2026-10-06T20:54:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "933-130-055",
+ "address": "20860 Rio Linda Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249387",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 414
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249387",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 650.0,
+   "conf": "high",
+   "ocrConf": 96.964905,
+   "raw": "Total Depth of Completed Well 650",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.809944,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 75.967682,
+   "raw": "Water Level _200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.728233,
+   "raw": "Drilling Method Air Drilling Drilling Fluid _\nMailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-12-07",
+   "conf": "high",
+   "ocrConf": 93.540657,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249387",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.48560131100004,
+ "lon": -117.29536374699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18484",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249387",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023212",
+ "processed": "2026-10-06T20:55:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "917-260-063",
+ "address": "45491 Sleepy Hollow Ln",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247642",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 57
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247642",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 465.0,
+   "conf": "high",
+   "ocrConf": 81.012787,
+   "raw": "Total Depth of Completed Well 465",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-08-15",
+   "conf": "high",
+   "ocrConf": 93.481987,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247642",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.46752332400007,
+ "lon": -117.07324875199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202056",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247642",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

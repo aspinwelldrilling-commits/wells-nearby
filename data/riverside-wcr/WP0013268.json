@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013268",
+ "processed": "2026-10-06T21:26:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "960-010-001",
+ "address": "44260 Redhawk Pkwy",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242379",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 724
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242379",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 36.550976,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-11-16",
+   "conf": "high",
+   "ocrConf": 96.748146,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242379",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.47934330000004,
+ "lon": -117.10472279999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212278",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242379",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

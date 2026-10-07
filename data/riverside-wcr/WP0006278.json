@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006278",
+ "processed": "2026-10-06T20:38:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "933-130-048",
+ "address": "20780 Calle Rocio",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238309",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 857
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238309",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 22.700935,
+   "raw": "ESTIMATED YIELD * 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-10-14",
+   "conf": "medium",
+   "ocrConf": 75.131218,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238309",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.488998835000075,
+ "lon": -117.29714709199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217040",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238309",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

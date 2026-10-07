@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010785",
+ "processed": "2026-10-06T20:45:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "938-170-008",
+ "address": "26100 Calle Cresta",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241041",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 761
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241041",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 305.0,
+   "conf": "low",
+   "ocrConf": 13.188156,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 305",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 39.0,
+   "conf": "low",
+   "ocrConf": 45.418953,
+   "raw": "ESTIMATED YIELD * 39 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-09-27",
+   "conf": "low",
+   "ocrConf": 25.613312,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241041",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.45717908200004,
+ "lon": -117.20426877599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213435",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241041",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

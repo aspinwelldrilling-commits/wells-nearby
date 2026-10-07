@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000978",
+ "processed": "2026-10-06T20:26:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "934-200-009",
+ "address": "45190 Camaron Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234061",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 809
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234061",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 105.0,
+   "conf": "medium",
+   "ocrConf": 85.817833,
+   "raw": "TOTAL DEPTH OF BORING 105",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-07-15",
+   "conf": "low",
+   "ocrConf": 4.617355,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234061",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.471288455000035,
+ "lon": -117.25540901299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221218",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234061",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

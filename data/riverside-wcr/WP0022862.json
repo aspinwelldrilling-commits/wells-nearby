@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022862",
+ "processed": "2026-10-06T20:57:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "904-570-017",
+ "address": "22005 Via Entrada",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249334",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 346
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249334",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 38.097996,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL7OO",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-11-09",
+   "conf": "medium",
+   "ocrConf": 77.960983,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249334",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.55091185300006,
+ "lon": -117.27512398299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203062",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249334",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0012495",
+ "processed": "2026-10-06T20:49:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "958-170-021",
+ "address": "37710 Pourroy Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241639",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 692
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241639",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 28.984322,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 29.0,
+   "conf": "high",
+   "ocrConf": 83.648758,
+   "raw": "ESTIMATED YIELD * 29 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-02-10",
+   "conf": "high",
+   "ocrConf": 87.961487,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241639",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.571520548000024,
+ "lon": -117.10074723299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212849",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241639",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

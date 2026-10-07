@@ -1,0 +1,57 @@
+{
+ "permit": "WP0014420",
+ "processed": "2026-10-06T21:32:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-281-017",
+ "address": "41555 Winchester Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242932",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1040
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242932",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 10.788788,
+   "raw": "TOTAL DEPTH OF BORING _30",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 19.0,
+   "conf": "low",
+   "ocrConf": 15.621399,
+   "raw": "WATER LeveL___19\" (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242932",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.52109660000008,
+ "lon": -117.16626809499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211275",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242932",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

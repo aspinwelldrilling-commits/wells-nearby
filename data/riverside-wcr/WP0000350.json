@@ -1,0 +1,55 @@
+{
+ "permit": "WP0000350",
+ "processed": "2026-10-06T20:24:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "933-080-030",
+ "address": "Cameron Road",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233646",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 760
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233646",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 620.0,
+   "conf": "low",
+   "ocrConf": 6.323959,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 620",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-04-18",
+   "conf": "low",
+   "ocrConf": 42.94458,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233646",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.48504506900008,
+ "lon": -117.26474222199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220058",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233646",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

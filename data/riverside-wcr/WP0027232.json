@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027232",
+ "processed": "2026-10-06T21:00:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-340-009",
+ "address": "25168 Estate Hillsway",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249476",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249476",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "high",
+   "ocrConf": 96.352341,
+   "raw": "Total Depth of Completed Well 410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 19.016457,
+   "raw": "Estimated Yield * {2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-01",
+   "conf": "low",
+   "ocrConf": 45.11235,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249476",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.541653386000064,
+ "lon": -117.21770311099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198777",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249476",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

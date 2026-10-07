@@ -1,0 +1,57 @@
+{
+ "permit": "WP0008221",
+ "processed": "2026-10-06T20:43:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "958-170-006",
+ "address": "32295 Buena Ventura Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239529",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 980
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239529",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 603.0,
+   "conf": "low",
+   "ocrConf": 75.831139,
+   "raw": "TOTAL DEPTH OF BORING 603",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 40.920753,
+   "raw": "WATER LeveL__2Q __(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239529",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.57544759500007,
+ "lon": -117.09644005799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215300",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239529",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,78 @@
+{
+ "permit": "WP0027804",
+ "processed": "2026-10-06T21:00:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-300-004",
+ "address": "21410 Avenida De Arboles",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249632",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 74
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249632",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 435.0,
+   "conf": "high",
+   "ocrConf": 91.295425,
+   "raw": "Total Depth of Completed Well 435",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.207397,
+   "raw": "Estimated Yield * 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 121.0,
+   "conf": "low",
+   "ocrConf": 41.399059,
+   "raw": "Water Level .121 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-06-14",
+   "conf": "high",
+   "ocrConf": 81.975227,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.56831,
+   "lon": -117.2924,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249632",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.56831485400005,
+ "lon": -117.29241198699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199031",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249632",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

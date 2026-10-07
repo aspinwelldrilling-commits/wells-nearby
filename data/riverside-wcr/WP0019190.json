@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019190",
+ "processed": "2026-10-06T20:56:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-340-006",
+ "address": "25145 Estate Hills Dr",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246175",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 803
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246175",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 51.50782,
+   "raw": "Total Depth of Completed Well 30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-09-19",
+   "conf": "high",
+   "ocrConf": 93.592041,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246175",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.54158582500003,
+ "lon": -117.21970281199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207997",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246175",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

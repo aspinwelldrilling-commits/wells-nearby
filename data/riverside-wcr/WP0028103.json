@@ -1,0 +1,84 @@
+{
+ "permit": "WP0028103",
+ "processed": "2026-10-06T21:00:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-140-045",
+ "address": "42701 Hawthorne St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248704",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 340
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248704",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248704",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 630.0,
+   "conf": "high",
+   "ocrConf": 87.45816,
+   "raw": "Total Depth of Completed Well 630",
+   "page": 2,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 36.0,
+   "conf": "high",
+   "ocrConf": 90.27343,
+   "raw": "Estimated Yield* 36 (GPM",
+   "page": 2,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 93.993256,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Bentonite",
+   "page": 2,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 88.570518,
+   "page": 2,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.53834,
+   "lon": -117.21727,
+   "conf": "medium",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248704",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.53834485500005,
+ "lon": -117.21728197199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270304",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248704",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 2,
+ "status": "readable"
+}

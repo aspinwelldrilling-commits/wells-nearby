@@ -1,0 +1,72 @@
+{
+ "permit": "WP0022130",
+ "processed": "2026-10-06T20:57:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "938-240-011",
+ "address": "Avenida Tierra Se",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249392",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 426
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249392",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1510.0,
+   "conf": "medium",
+   "ocrConf": 88.697975,
+   "raw": "Total Depth of Boring 1510",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 91.392799,
+   "raw": "Estimated Yield * 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 7.0,
+   "conf": "medium",
+   "ocrConf": 53.859272,
+   "raw": "Water Level 7 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-01-06",
+   "conf": "high",
+   "ocrConf": 85.686325,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249392",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.45557129600007,
+ "lon": -117.20910580599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18514",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249392",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

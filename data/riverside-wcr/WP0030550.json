@@ -1,0 +1,68 @@
+{
+ "permit": "WP0030550",
+ "processed": "2026-10-06T21:43:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "910-230-003",
+ "address": "36501 Madison Ave ",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293563",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1128
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293563",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293563",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.615334,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-08-04",
+   "conf": "high",
+   "ocrConf": 80.263748,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.534218,
+   "lon": -117.176272,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293563",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.534218,
+ "lon": -117.176272,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310718",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293563",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,58 @@
+{
+ "permit": "WP0004759",
+ "processed": "2026-10-06T20:35:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-240-037",
+ "address": "42923 Dawn Wood St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236592",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 838
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236592",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 39.578548,
+   "raw": "TOTAL DEPTH OF BORING _20",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 37.811562,
+   "raw": "WATER LEVEL 22 __(Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236592",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.54950636500007,
+ "lon": -117.23379311499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217019",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236592",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

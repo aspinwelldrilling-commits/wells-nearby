@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001953",
+ "processed": "2026-10-06T20:29:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "42840 Hawthorn St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234765",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 818
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234765",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 362.0,
+   "conf": "medium",
+   "ocrConf": 68.604828,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___ 362",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 42.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ____ 42. (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234765",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.53693650500003,
+ "lon": -117.21648007399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221023",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234765",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

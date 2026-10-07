@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022798",
+ "processed": "2026-10-06T20:54:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "910-140-001",
+ "address": "25394 Madison Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249317",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 416
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249317",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.330933,
+   "raw": "Estimated Yield * 300 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-10-05",
+   "conf": "medium",
+   "ocrConf": 54.430141,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249317",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.552710406000074,
+ "lon": -117.19405380499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19220",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249317",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

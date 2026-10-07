@@ -1,0 +1,49 @@
+{
+ "permit": "WP0000242",
+ "processed": "2026-10-06T21:02:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-130-?",
+ "address": "23771 Washington Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233553",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1077
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233553",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 37.434586,
+   "raw": "WELL LOG: Total depth 260",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233553",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.57161685700004,
+ "lon": -117.23570897799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222427",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233553",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

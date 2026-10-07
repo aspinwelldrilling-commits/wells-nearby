@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023285",
+ "processed": "2026-10-06T20:58:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "933-170-026",
+ "address": "45333 Los Gatos Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247659",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 398
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247659",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.190681,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-07-17",
+   "conf": "high",
+   "ocrConf": 81.687943,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247659",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.475482688000056,
+ "lon": -117.28918171199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202119",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247659",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

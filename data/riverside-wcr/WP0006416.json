@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006416",
+ "processed": "2026-10-06T20:38:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "930-080-008",
+ "address": "39070 Corte De Ollas",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238411",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 913
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238411",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "medium",
+   "ocrConf": 76.05661,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 64.577957,
+   "raw": "ESTIMATED YIELD - 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238411",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.55373200300005,
+ "lon": -117.27412313699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217470",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238411",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

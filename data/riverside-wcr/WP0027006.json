@@ -1,0 +1,62 @@
+{
+ "permit": "WP0027006",
+ "processed": "2026-10-06T21:45:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "917-260-066",
+ "address": "45645 Anza Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249449",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 671
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249449",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.049713,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-06-05",
+   "conf": "high",
+   "ocrConf": 96.637085,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.464407,
+   "lon": -117.069124,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249449",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.464416708000044,
+ "lon": -117.06914788099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/54239",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249449",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

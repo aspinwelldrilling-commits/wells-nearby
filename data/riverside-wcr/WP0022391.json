@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022391",
+ "processed": "2026-10-06T20:57:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "917-260-038",
+ "address": "45635 Monte Verde Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249423",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 329
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249423",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 61.526051,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-04-09",
+   "conf": "low",
+   "ocrConf": 28.417366,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249423",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.46575053400005,
+ "lon": -117.072153131,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18712",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249423",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

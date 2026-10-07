@@ -1,0 +1,60 @@
+{
+ "permit": "WP0023619",
+ "processed": "2026-10-06T21:42:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "910-282-001",
+ "address": "27378 Jefferson Ave",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248002",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 563
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248002",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248002",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "2013-08-27",
+   "conf": "high",
+   "ocrConf": 93.226013,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.5213999,
+   "lon": -117.1650641,
+   "conf": "low",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248002",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.52130565900006,
+ "lon": -117.16517919599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202415",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248002",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009133",
+ "processed": "2026-10-06T20:44:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-140-043",
+ "address": "Hawthorne St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240056",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1008
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240056",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 150.0,
+   "conf": "low",
+   "ocrConf": 43.869957,
+   "raw": "ESTIMATED YIELD * 150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-03-20",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240056",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.539525963000074,
+ "lon": -117.21607041199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214095",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240056",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

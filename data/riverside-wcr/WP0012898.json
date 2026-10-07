@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012898",
+ "processed": "2026-10-06T21:25:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "960-030-017",
+ "address": "33295 Highway 79 South",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242087",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1141
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242087",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 36.571716,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 35",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-07-24",
+   "conf": "high",
+   "ocrConf": 96.656967,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242087",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.48559916000005,
+ "lon": -117.07963373499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211788",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242087",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

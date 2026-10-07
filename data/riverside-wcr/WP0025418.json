@@ -1,0 +1,72 @@
+{
+ "permit": "WP0025418",
+ "processed": "2026-10-06T20:59:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "936-270-021",
+ "address": "45180 Via Vaquero",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248372",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 471
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248372",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1500.0,
+   "conf": "medium",
+   "ocrConf": 96.582542,
+   "raw": "Total Depth of Boring 1500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 86.297729,
+   "raw": "Estimated Yield* 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 92.589958,
+   "raw": "Water Level 5 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-08-21",
+   "conf": "high",
+   "ocrConf": 91.536491,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248372",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.47805430200003,
+ "lon": -117.21410961699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200401",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248372",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

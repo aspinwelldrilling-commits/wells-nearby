@@ -1,0 +1,63 @@
+{
+ "permit": "WP0017871",
+ "processed": "2026-10-06T20:55:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "964-120-002",
+ "address": "37800 Avenida De Laura",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245764",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 382
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245764",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 35.29319,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 31.464035,
+   "raw": "WATER LEVEL 32 _ __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-03",
+   "conf": "low",
+   "ocrConf": 17.585381,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245764",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.57146365800003,
+ "lon": -117.05705712599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208523",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245764",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

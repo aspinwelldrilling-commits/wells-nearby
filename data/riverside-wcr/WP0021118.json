@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021118",
+ "processed": "2026-10-06T20:56:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "957-130-005",
+ "address": "39675 Cantrell Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246836",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 338
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246836",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 295.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 295",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-09-17",
+   "conf": "low",
+   "ocrConf": 9.948952,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246836",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.54450322100007,
+ "lon": -117.10378621299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203252",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246836",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

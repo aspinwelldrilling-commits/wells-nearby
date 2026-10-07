@@ -1,0 +1,62 @@
+{
+ "permit": "WP0027007",
+ "processed": "2026-10-06T21:42:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "917-260-045",
+ "address": "45630 Monte Verde Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249450",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 693
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249450",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 95.949173,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-06-05",
+   "conf": "high",
+   "ocrConf": 94.572296,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.465013,
+   "lon": -117.072161,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249450",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.46502270800005,
+ "lon": -117.07218488299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/54244",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249450",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

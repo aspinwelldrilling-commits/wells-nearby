@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023064",
+ "processed": "2026-10-06T20:55:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-280-015",
+ "address": "38580 Via Majorca",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247536",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 341
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247536",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 535.0,
+   "conf": "low",
+   "ocrConf": 17.04866,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL535",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 65.0,
+   "conf": "high",
+   "ocrConf": 89.374222,
+   "raw": "WATER LeveL 65 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-04-11",
+   "conf": "medium",
+   "ocrConf": 57.955799,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247536",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.57580568800006,
+ "lon": -117.29691599099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201936",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247536",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

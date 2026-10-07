@@ -1,0 +1,79 @@
+{
+ "permit": "WP0027906",
+ "processed": "2026-10-06T20:57:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-340-004",
+ "address": "42675 Arjay Way",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249673",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 74
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249673",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 616.0,
+   "conf": "high",
+   "ocrConf": 84.795845,
+   "raw": "Total Depth of Completed Well 616",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 96.682922,
+   "raw": "Estimated Yield* 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 35.694328,
+   "raw": "Water Level 220 _\u2014s_\u2014s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Mud Drilling",
+   "conf": "high",
+   "ocrConf": 87.232452,
+   "raw": "Drilling Method _Mud Drilling Drilling Fluid Malling",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-08-17",
+   "conf": "low",
+   "ocrConf": 25.446304,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249673",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.543284855000024,
+ "lon": -117.21841197299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19326",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249673",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

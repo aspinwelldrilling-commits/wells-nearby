@@ -1,0 +1,56 @@
+{
+ "permit": "WP0005831",
+ "processed": "2026-10-06T20:36:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "917-310-008",
+ "address": "33425 Monte Verde Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237302",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 796
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237302",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "low",
+   "ocrConf": 45.7668,
+   "raw": "TOTAL DEPTH OF BORING _325",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-06-05",
+   "conf": "high",
+   "ocrConf": 88.463181,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237302",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.46138120300003,
+ "lon": -117.07818189199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215774",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237302",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

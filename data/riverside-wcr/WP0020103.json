@@ -1,0 +1,56 @@
+{
+ "permit": "WP0020103",
+ "processed": "2026-10-06T21:36:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-080-053",
+ "address": "41541 Ivy St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246620",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 551
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246620",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 96.826416,
+   "raw": "Total Depth of Boring 30",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-06-24",
+   "conf": "high",
+   "ocrConf": 92.6511,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246620",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.55557570000008,
+ "lon": -117.2053656,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204352",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246620",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

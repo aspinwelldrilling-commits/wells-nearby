@@ -1,0 +1,56 @@
+{
+ "permit": "WP0020558",
+ "processed": "2026-10-06T21:37:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "961-080-006",
+ "address": "31669 S Highway 79",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246536",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 513
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246536",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 96.871826,
+   "raw": "Total Depth of Boring 50",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-02-11",
+   "conf": "low",
+   "ocrConf": 1.695648,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246536",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.479331100000024,
+ "lon": -117.10372529999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204790",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246536",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

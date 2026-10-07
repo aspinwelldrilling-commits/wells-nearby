@@ -1,0 +1,57 @@
+{
+ "permit": "WP0009841",
+ "processed": "2026-10-06T20:43:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-340-023",
+ "address": "25017 Trilogy Trl",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240867",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1069
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240867",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 324.0,
+   "conf": "low",
+   "ocrConf": 37.600273,
+   "raw": "TOTAL DEPTH OF BORING 324",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 9.0,
+   "conf": "low",
+   "ocrConf": 5.659752,
+   "raw": "WATER LEVEL___ 9) _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240867",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.54246847700006,
+ "lon": -117.22005445899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214603",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240867",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

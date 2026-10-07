@@ -1,0 +1,70 @@
+{
+ "permit": "WP0022492",
+ "processed": "2026-10-06T20:57:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "933-180-018",
+ "address": "48500 Kings Cir",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249251",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 395
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249251",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "medium",
+   "ocrConf": 51.728252,
+   "raw": "Estimated Yield * (3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary Drilling",
+   "conf": "high",
+   "ocrConf": 90.051353,
+   "raw": "Drilling Method Rotary Drilling Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 91.822853,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-04-04",
+   "conf": "high",
+   "ocrConf": 89.139282,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249251",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.46757809300004,
+ "lon": -117.28215631799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18868",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249251",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

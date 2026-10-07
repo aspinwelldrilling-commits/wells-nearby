@@ -1,0 +1,111 @@
+{
+ "permit": "WP0027910",
+ "processed": "2026-10-06T21:43:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "927-560-009",
+ "address": "43880 Anza Rd",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249674",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 126
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249674",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249674",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249674",
+   "page": 3,
+   "source": "text",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249674",
+   "page": 4,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 770.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well         770",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                120 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Reverse Circulation",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Reverse Circulation         Drilling Fluid   Water",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2019-03-19",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.490643,
+   "lon": -117.0544458,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*           400 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249674",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.49064585800005,
+ "lon": -117.05442193999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19334",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249674",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

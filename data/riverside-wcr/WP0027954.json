@@ -1,0 +1,78 @@
+{
+ "permit": "WP0027954",
+ "processed": "2026-10-06T21:01:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "935-100-007",
+ "address": "42320 Via Nortada",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249457",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 70
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249457",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1405.0,
+   "conf": "high",
+   "ocrConf": 85.263329,
+   "raw": "Total Depth of Completed Well 1405",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.764908,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 27.0,
+   "conf": "low",
+   "ocrConf": 48.892502,
+   "raw": "Water Level 27 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-09-20",
+   "conf": "high",
+   "ocrConf": 88.091248,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.51717,
+   "lon": -117.21656,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249457",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.517179974000044,
+ "lon": -117.21580996999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19380",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249457",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

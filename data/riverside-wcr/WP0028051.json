@@ -1,0 +1,99 @@
+{
+ "permit": "WP0028051",
+ "processed": "2026-10-06T20:57:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-190-012",
+ "address": "Patton St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248701",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 69
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248701",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248701",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 66.116829,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 2,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 94.865356,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 185.0,
+   "conf": "high",
+   "ocrConf": 94.797043,
+   "raw": "Water Level 185 (Feet",
+   "page": 2,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud Rota",
+   "conf": "medium",
+   "ocrConf": 66.915924,
+   "raw": "Drilling Method Other - Mud rota Drilling Fluid Bentonite",
+   "page": 2,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 82.372818,
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-12-04",
+   "conf": "high",
+   "ocrConf": 95.567825,
+   "page": 2,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.549236,
+   "lon": -117.203624,
+   "conf": "high",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248701",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.54924085600004,
+ "lon": -117.20363597,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34445",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248701",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "readable"
+}

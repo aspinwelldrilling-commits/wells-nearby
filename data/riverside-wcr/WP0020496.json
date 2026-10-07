@@ -1,0 +1,56 @@
+{
+ "permit": "WP0020496",
+ "processed": "2026-10-06T21:37:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "921-060-006",
+ "address": "28111 Jefferson St",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246767",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 874
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246767",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.6,
+   "conf": "medium",
+   "ocrConf": 91.992485,
+   "raw": "Total Depth of Boring 20.6",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-12-16",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246767",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.50360310000008,
+ "lon": -117.15487429999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204726",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246767",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

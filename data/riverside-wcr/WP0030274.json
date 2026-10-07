@@ -1,0 +1,84 @@
+{
+ "permit": "WP0030274",
+ "processed": "2026-10-06T21:01:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "951-080-005",
+ "address": "Vineyard Vista Cir ",
+ "city": "Rancho California",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264825",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 902
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264825",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264825",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264825",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 530.0,
+   "conf": "medium",
+   "ocrConf": 64.085953,
+   "raw": "Total Depth of Completed Well 530",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.459404,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 289.0,
+   "conf": "high",
+   "ocrConf": 96.671761,
+   "raw": "Water Level 289 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud",
+   "conf": "medium",
+   "ocrConf": 78.405266,
+   "raw": "Drilling Method Other - MUD Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264825",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.515616,
+ "lon": -117.082746,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264824",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264825",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

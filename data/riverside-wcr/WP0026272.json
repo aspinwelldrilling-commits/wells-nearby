@@ -1,0 +1,71 @@
+{
+ "permit": "WP0026272",
+ "processed": "2026-10-06T20:59:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "933-030-015",
+ "address": "22711 Carancho Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248363",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 57
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248363",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 95.402985,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 28.0,
+   "conf": "high",
+   "ocrConf": 96.997765,
+   "raw": "Water Level 28 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 96.687744,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-11-01",
+   "conf": "high",
+   "ocrConf": 93.800301,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248363",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.49563670800006,
+ "lon": -117.24973998899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199370",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248363",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

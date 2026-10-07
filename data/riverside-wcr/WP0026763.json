@@ -1,0 +1,64 @@
+{
+ "permit": "WP0026763",
+ "processed": "2026-10-06T20:56:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "937-200-001",
+ "address": "26690 Carancho Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248652",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1134
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248652",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 542.0,
+   "conf": "medium",
+   "ocrConf": 96.734398,
+   "raw": "Total Depth of Boring 542",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 22.0,
+   "conf": "high",
+   "ocrConf": 86.496315,
+   "raw": "Water Level 22 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-05-29",
+   "conf": "medium",
+   "ocrConf": 78.188553,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248652",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.44812968800005,
+ "lon": -117.22486393199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199794",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248652",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

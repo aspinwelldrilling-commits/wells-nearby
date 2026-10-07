@@ -1,0 +1,78 @@
+{
+ "permit": "WP0027307",
+ "processed": "2026-10-06T20:57:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-260-053",
+ "address": "25383 Edna Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249507",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 735
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249507",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "high",
+   "ocrConf": 92.25251,
+   "raw": "Total Depth of Completed Well 410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 16.0,
+   "conf": "low",
+   "ocrConf": 36.237816,
+   "raw": "Estimated Yield * [16 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 91.221375,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 78.675194,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-11-02",
+   "conf": "low",
+   "ocrConf": 21.95015,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249507",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.53582685500004,
+ "lon": -117.21683496999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198821",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249507",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

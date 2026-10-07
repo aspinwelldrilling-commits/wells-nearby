@@ -1,0 +1,48 @@
+{
+ "permit": "WP0021068",
+ "processed": "2026-10-06T21:37:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "921-060-006",
+ "address": "28111 Jefferson St",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246813",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 403
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246813",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 34.0,
+   "conf": "high",
+   "ocrConf": 96.94455,
+   "raw": "Total Depth of Completed Well 34",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246813",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.50349250000005,
+ "lon": -117.15513019999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203210",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246813",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

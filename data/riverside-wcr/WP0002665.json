@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002665",
+ "processed": "2026-10-06T20:31:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "940-140-007",
+ "address": "Via Horca",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235086",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 880
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235086",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "high",
+   "ocrConf": 81.378838,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.351784,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235086",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.48129749100008,
+ "lon": -117.15341454299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220026",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235086",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

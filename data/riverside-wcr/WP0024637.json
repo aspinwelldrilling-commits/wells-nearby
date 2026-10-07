@@ -1,0 +1,71 @@
+{
+ "permit": "WP0024637",
+ "processed": "2026-10-06T20:56:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "940-290-003",
+ "address": "45600 Via Tornado",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248180",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 544
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248180",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1017.0,
+   "conf": "medium",
+   "ocrConf": 96.59967,
+   "raw": "Total Depth of Boring 1017",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.018227,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-10-10",
+   "conf": "medium",
+   "ocrConf": 65.989883,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.46876,
+   "lon": -117.17016,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248180",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.46787323900003,
+ "lon": -117.16761232799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201541",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248180",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

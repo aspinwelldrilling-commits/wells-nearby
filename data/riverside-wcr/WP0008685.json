@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008685",
+ "processed": "2026-10-06T21:16:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "921-060-025",
+ "address": "28900 Rancho California Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239789",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1283
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239789",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 61.471531,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL\n50",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-01-03",
+   "conf": "low",
+   "ocrConf": 13.7285,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239789",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.49970380000008,
+ "lon": -117.15346439999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216554",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239789",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

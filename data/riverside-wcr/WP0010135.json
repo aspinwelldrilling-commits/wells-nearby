@@ -1,0 +1,57 @@
+{
+ "permit": "WP0010135",
+ "processed": "2026-10-06T20:44:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "933-110-024",
+ "address": "44980 Dos Rios Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240298",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 941
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240298",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 77.241234,
+   "raw": "TOTAL DEPTH OF BORING _300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 1.131905,
+   "raw": "WATER LEVEL 3 __(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240298",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.47102315200004,
+ "lon": -117.26634444599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214844",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240298",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

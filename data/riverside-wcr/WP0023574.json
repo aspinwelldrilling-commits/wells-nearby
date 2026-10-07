@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023574",
+ "processed": "2026-10-06T21:41:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "921-320-061",
+ "address": "29540 Rancho California Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247897",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 337
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247897",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 68.0,
+   "conf": "low",
+   "ocrConf": 45.529091,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL68",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 36.9,
+   "conf": "medium",
+   "ocrConf": 63.863625,
+   "raw": "STATIC\nWATER LEVEL 36.9\n(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-12-23",
+   "conf": "low",
+   "ocrConf": 8.501274,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247897",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.50396740000008,
+ "lon": -117.14796209999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202370",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247897",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

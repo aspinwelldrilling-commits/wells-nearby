@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014454",
+ "processed": "2026-10-06T21:32:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "948-530-013",
+ "address": "39614 Los Alamos Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242984",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1520
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242984",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 14.484467,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___40",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-03-01",
+   "conf": "high",
+   "ocrConf": 95.861938,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242984",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.57384984000004,
+ "lon": -117.17769082799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211301",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242984",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

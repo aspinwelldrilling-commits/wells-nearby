@@ -1,0 +1,57 @@
+{
+ "permit": "WP0000491",
+ "processed": "2026-10-06T20:25:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "938-320-010",
+ "address": "44205 Via Barranca",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233766",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 701
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233766",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 930.0,
+   "conf": "low",
+   "ocrConf": 37.01516,
+   "raw": "(12) WELL LOG: Total depth 930",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.740791,
+   "raw": "Discharge. 20 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233766",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.473546947000045,
+ "lon": -117.19104529499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220123",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233766",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

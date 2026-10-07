@@ -1,0 +1,61 @@
+{
+ "permit": "WP0004978",
+ "processed": "2026-10-06T20:37:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "936-270-011",
+ "address": "45150 Via Vaquero Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236725",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1610
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236725",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236725",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 41.0,
+   "conf": "low",
+   "ocrConf": 46.941563,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 41",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1998-09-02",
+   "conf": "low",
+   "ocrConf": 13.410027,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236725",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.47965697800004,
+ "lon": -117.21542036699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217767",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236725",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0002570",
+ "processed": "2026-10-06T20:30:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "939-100-011",
+ "address": "44255 Calle Vista Lejos",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235136",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 979
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235136",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 640.0,
+   "conf": "high",
+   "ocrConf": 85.62886,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 640",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 27.429504,
+   "raw": "WATER LEVEL _____20 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.528015,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.053429,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235136",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.482775498000024,
+ "lon": -117.18543729499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219618",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235136",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

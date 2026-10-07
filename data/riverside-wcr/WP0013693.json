@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013693",
+ "processed": "2026-10-06T21:30:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "922-041-014",
+ "address": "29674 Mercedes St",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242727",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1099
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242727",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 125.0,
+   "conf": "low",
+   "ocrConf": 8.599823,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 125",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-01-07",
+   "conf": "medium",
+   "ocrConf": 73.494476,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242727",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.49400940700008,
+ "lon": -117.14694505699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212845",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242727",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

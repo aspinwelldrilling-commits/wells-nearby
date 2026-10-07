@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012814",
+ "processed": "2026-10-06T21:28:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "921-680-017",
+ "address": "26680 Ynez Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242014",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2465
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242014",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 39.0,
+   "conf": "medium",
+   "ocrConf": 51.709957,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 39",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-07-09",
+   "conf": "high",
+   "ocrConf": 91.509567,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242014",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.51515020000005,
+ "lon": -117.15487569999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211718",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242014",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

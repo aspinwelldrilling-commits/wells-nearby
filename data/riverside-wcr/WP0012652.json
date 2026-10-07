@@ -1,0 +1,57 @@
+{
+ "permit": "WP0012652",
+ "processed": "2026-10-06T20:46:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "933-030-023",
+ "address": "43705 Via Raquel",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241787",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 776
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241787",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 23.0,
+   "conf": "low",
+   "ocrConf": 3.945404,
+   "raw": "TOTAL DEPTH OF BORING _23",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 84.280945,
+   "raw": "WATER LEVEL 5 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241787",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.49265198000006,
+ "lon": -117.24841890099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211578",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241787",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

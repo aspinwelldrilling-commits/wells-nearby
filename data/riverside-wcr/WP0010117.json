@@ -1,0 +1,49 @@
+{
+ "permit": "WP0010117",
+ "processed": "2026-10-06T20:46:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "37589 Windsor Ct",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240271",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 105
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240271",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "medium",
+   "ocrConf": 94.036758,
+   "raw": "Total depth 350 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240271",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.575105,
+ "lon": -117.249742,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/257256",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240271",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

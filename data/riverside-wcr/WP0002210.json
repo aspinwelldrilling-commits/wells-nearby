@@ -1,0 +1,63 @@
+{
+ "permit": "WP0002210",
+ "processed": "2026-10-06T20:29:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "936-290-107",
+ "address": "46011 Sandia Creek Dr",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235451",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 257
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235451",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 56.653477,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 380.0,
+   "conf": "high",
+   "ocrConf": 88.384567,
+   "raw": "WATER LEVEL 380 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-02-21",
+   "conf": "high",
+   "ocrConf": 90.123222,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235451",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.479208251000045,
+ "lon": -117.224651328,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221895",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235451",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

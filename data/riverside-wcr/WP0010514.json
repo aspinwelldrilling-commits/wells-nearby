@@ -1,0 +1,48 @@
+{
+ "permit": "WP0010514",
+ "processed": "2026-10-06T20:46:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-060-043",
+ "address": "24491 Adams Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240750",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 965
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240750",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 84.226685,
+   "raw": "ESTIMATED YIELD * 80 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240750",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.56283452100007,
+ "lon": -117.21673996099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213232",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240750",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

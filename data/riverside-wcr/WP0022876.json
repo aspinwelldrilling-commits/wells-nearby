@@ -1,0 +1,87 @@
+{
+ "permit": "WP0022876",
+ "processed": "2026-10-06T20:57:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "930-210-018",
+ "address": "40004 Valle Vista",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249337",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 464
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249337",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 470.0,
+   "conf": "medium",
+   "ocrConf": 95.774231,
+   "raw": "Total Depth of Boring 470",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 95.531822,
+   "raw": "Estimated Yield\u201d 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 94.802277,
+   "raw": "Water Level 75 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Down-Hole Hammer",
+   "conf": "high",
+   "ocrConf": 84.943527,
+   "raw": "Drilling Method Down-Hole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 80.344711,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-11-09",
+   "conf": "medium",
+   "ocrConf": 75.565613,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249337",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.55007338400003,
+ "lon": -117.29230482199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203065",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249337",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

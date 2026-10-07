@@ -1,0 +1,63 @@
+{
+ "permit": "WP0009343",
+ "processed": "2026-10-06T20:45:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-130-027",
+ "address": "42910 Ivy St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240223",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1068
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240223",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 82.864494,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL__ 2\u00b0\" _\u2014__(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-09-02",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240223",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.53865418200007,
+ "lon": -117.22296858899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214258",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240223",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

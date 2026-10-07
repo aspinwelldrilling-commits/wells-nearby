@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022407",
+ "processed": "2026-10-06T20:54:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "918-040-014",
+ "address": "27290 Carancho Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249208",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 380
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249208",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1125.0,
+   "conf": "low",
+   "ocrConf": 23.056725,
+   "raw": "Total Depth of Completed Well 1,125",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.665054,
+   "raw": "Estimated Yield * 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-05-07",
+   "conf": "medium",
+   "ocrConf": 66.608482,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249208",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.44248277300005,
+ "lon": -117.22260868499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18738",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249208",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

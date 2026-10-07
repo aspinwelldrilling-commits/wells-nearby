@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002596",
+ "processed": "2026-10-06T20:31:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "935-310-004",
+ "address": "43650 Calle Capistrano",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235112",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 821
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235112",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 44.0,
+   "conf": "low",
+   "ocrConf": 4.56514,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __44",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 33.155983,
+   "raw": "WATER LEVEL ___4) _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235112",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.502332153000054,
+ "lon": -117.19830536899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219764",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235112",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

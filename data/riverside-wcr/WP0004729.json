@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004729",
+ "processed": "2026-10-06T20:36:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "914-550-006",
+ "address": "32493 Buena Ventura Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236574",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 836
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236574",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.12001,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.411041,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236574",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.57618486600006,
+ "lon": -117.09255195299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216860",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236574",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

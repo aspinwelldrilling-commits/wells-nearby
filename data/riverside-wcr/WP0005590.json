@@ -1,0 +1,56 @@
+{
+ "permit": "WP0005590",
+ "processed": "2026-10-06T20:36:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-040-064",
+ "address": "41855 Hales Ln",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237152",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 831
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237152",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 37.0,
+   "conf": "medium",
+   "ocrConf": 52.066109,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _37",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 26.14798,
+   "raw": "WATER LEVEL ___22 __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237152",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.565556137000044,
+ "lon": -117.22372005499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219476",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237152",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

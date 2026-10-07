@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009233",
+ "processed": "2026-10-06T20:44:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "909-340-005",
+ "address": "42693 Arjay Way",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240122",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1029
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240122",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 359.0,
+   "conf": "medium",
+   "ocrConf": 58.179848,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 359",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-06-01",
+   "conf": "medium",
+   "ocrConf": 78.791313,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240122",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.54201145700006,
+ "lon": -117.21992793799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214177",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240122",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

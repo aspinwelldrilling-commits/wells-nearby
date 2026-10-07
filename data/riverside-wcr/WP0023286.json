@@ -1,0 +1,71 @@
+{
+ "permit": "WP0023286",
+ "processed": "2026-10-06T20:55:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "910-180-023",
+ "address": "26038 Madison Ave",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247660",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 411
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247660",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 16.706932,
+   "raw": "Estimated Yield* 60s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 91.28743,
+   "raw": "Water Level _100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary Drilling",
+   "conf": "high",
+   "ocrConf": 96.118881,
+   "raw": "Drilling Method Rotary Drilling Drilling Fluid\nili",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-07-17",
+   "conf": "low",
+   "ocrConf": 25.454811,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247660",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.54221877700007,
+ "lon": -117.18251587699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202120",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247660",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

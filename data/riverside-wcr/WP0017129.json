@@ -1,0 +1,56 @@
+{
+ "permit": "WP0017129",
+ "processed": "2026-10-06T20:55:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "918-270-054",
+ "address": "47300 Pala Rd",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245408",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 776
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245408",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 444.0,
+   "conf": "low",
+   "ocrConf": 44.824947,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 444",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 24.456329,
+   "raw": "ESTIMATED YIELD * 1S (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245408",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.43971650000003,
+ "lon": -117.08678150199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209719",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245408",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

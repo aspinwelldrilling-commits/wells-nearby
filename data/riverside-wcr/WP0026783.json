@@ -1,0 +1,77 @@
+{
+ "permit": "WP0026783",
+ "processed": "2026-10-06T21:44:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "961-091-049",
+ "address": "44581 Corte Antgua",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248656",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 22884
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248656",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248656",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1490.0,
+   "conf": "medium",
+   "ocrConf": 96.317963,
+   "raw": "Total Depth of Boring 1490",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Circulation Rotary",
+   "conf": "high",
+   "ocrConf": 96.439491,
+   "raw": "Drilling Method Reverse Circulation Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 66.592346,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-07-28",
+   "conf": "high",
+   "ocrConf": 88.262367,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248656",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.473448493000035,
+ "lon": -117.10905693799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199814",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248656",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

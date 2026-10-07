@@ -1,0 +1,98 @@
+{
+ "permit": "WP0028658",
+ "processed": "2026-10-06T21:01:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "918-260-012",
+ "address": "47950 Pala Rd ",
+ "city": "Temecula",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248757",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1179
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248757",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248757",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248757",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 660.0,
+   "conf": "high",
+   "ocrConf": 81.745247,
+   "raw": "Total Depth of Completed Well 660",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 95.138702,
+   "raw": "Estimated Yield\u201d 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 136.0,
+   "conf": "high",
+   "ocrConf": 93.315178,
+   "raw": "Water Level 136 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 86.365326,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 50.923859,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.43073,
+   "lon": -117.08547,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248757",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.43073484900003,
+ "lon": -117.08548194099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270659",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248757",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

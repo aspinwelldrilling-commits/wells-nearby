@@ -1,0 +1,85 @@
+{
+ "permit": "WP0028749",
+ "processed": "2026-10-06T20:58:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "937-260-005",
+ "address": "47105 El Prado Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248946",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 84
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248946",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248946",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1260.0,
+   "conf": "medium",
+   "ocrConf": 77.84951,
+   "raw": "Total Depth of Completed Well 1260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 94.716606,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 86.302879,
+   "raw": "Water Level 70\u2019 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "medium",
+   "ocrConf": 61.83976,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid. Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 62.95108,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248946",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.45576484400004,
+ "lon": -117.24515,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310418",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248946",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0021211",
+ "processed": "2026-10-06T20:57:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "918-030-002",
+ "address": "47551 Rock Mountain Rd",
+ "city": "Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246875",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 445
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246875",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 95.955452,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.884995,
+   "raw": "Estimated Yield* 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-11-12",
+   "conf": "low",
+   "ocrConf": 36.984005,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246875",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.43800596600005,
+ "lon": -117.23807201899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203343",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246875",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0027600",
+ "processed": "2026-10-06T21:00:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "964-050-035",
+ "address": "Nw Maddalena Rd",
+ "city": "French Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249576",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 71
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249576",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 735.0,
+   "conf": "medium",
+   "ocrConf": 96.452545,
+   "raw": "Total Depth of Boring 735",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 92.807129,
+   "raw": "Estimated Yield* 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-03-16",
+   "conf": "high",
+   "ocrConf": 85.472908,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.57693,
+   "lon": -117.09443,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249576",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.576934866000045,
+ "lon": -117.09444195399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19244",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249576",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

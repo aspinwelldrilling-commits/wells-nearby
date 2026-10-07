@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019530",
+ "processed": "2026-10-06T20:56:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "906-240-022",
+ "address": "42575 Kalmia St",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246260",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 861
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246260",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 340.0,
+   "conf": "high",
+   "ocrConf": 92.003036,
+   "raw": "Total Depth of Completed Well 340",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 82.475502,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-01-15",
+   "conf": "medium",
+   "ocrConf": 54.266247,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246260",
+ "errors": [],
+ "area": "temecula",
+ "lat": 33.55128800700004,
+ "lon": -117.22602207599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208243",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246260",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}
