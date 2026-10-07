@@ -215,6 +215,17 @@
       defaultOn: true,
     },
 
+    // Los Angeles County: state DWR OSWCR records only (no public county permit GIS / WCR PDFs), cached by
+    // tools/extract_la_wcr.py in data/la-wcr/ (0.025° tiles, chunks spiralling out from Pomona) and drawn as their
+    // own overlay by js/lawcr.js. The live State search returns the same WCRs, so it is not merged into stats.
+    laWcr: {
+      manifestUrl: 'data/la-wcr/manifest.json',
+      label: 'LA County · DWR WCR (cached)',
+      color: '#a855f7',
+      minZoom: 12,      // draw the cached rings from this zoom
+      maxPoints: 2500,  // map points drawn at once
+    },
+
     // Where each group's markers/labels come from.
     groups: {
       state: { label: 'State (DWR WCR)', short: 'State', color: '#f59e0b' },

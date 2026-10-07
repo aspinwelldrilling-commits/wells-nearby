@@ -70,6 +70,7 @@
     <p><b>Septic / sewer:</b> for a site (or a tapped parcel) the app lists septic layouts, permits and old septic files from the DEHQ document library (searched by APN first, then by street address) and shows the parcel's sewer/septic designation from the County's screening layer (DPW/DEHQ, data through May 2025 — a guide, not proof). <i>📏 Setbacks</i> draws 50 / 100 / 150 ft rings around the well pin; mark the tank, seepage pit, leach line, sewer line or tight line to check distances. Only APNs, street numbers/names and coordinates are sent to County / SANDAG servers; marks stay on this device.</p>
     <p><b>Address / APN search:</b> the 🔍 box on the map takes an APN (285-030-06-00, 2850300600 or 8-digit 28503006 — preferred, since addresses change or do not exist yet before a house is built) or a San Diego County street address (add the community or ZIP, e.g. “729 Main St, Ramona”). APNs are looked up in the County parcel layer; addresses in SANDAG's regional address locator and the County parcel situs addresses. The typed text is sent only to those County / SANDAG public map services; recent searches are kept <i>only on this device</i>.</p>
     <p><b>Imperial County:</b> the purple <i>Imperial WCRs (DWR)</i> layer is a snapshot of the state OSWCR well completion reports for Imperial County (Ocotillo / Coyote Wells / Plaster City and the rest of the county). Most are placed at the <i>centre of the PLSS section</i> (dashed hollow pins), so the popup shows DWR's location accuracy; a pin may be ~0.5 mi off. PDFs open in DWR's Box viewer. The same WCRs also appear in the live State search.</p>
+    <p><b>Los Angeles County:</b> LA County publishes no public well-permit map layer, so LA wells are <i>state DWR OSWCR records only</i> (no county permits). The purple-ring <i>LA County WCRs</i> layer shows OSWCR records cached in the app area by area (starting with Pomona Valley / Claremont / La Verne / San Dimas / Diamond Bar), so they show without a search and offline; tap a ring for the WCR number, location and APN as entered on the state record and a link to the DWR WCR viewer. The same records are counted in the live State search.</p>
     <p>Imagery: Esri World Imagery. Averages exclude missing, zero, and implausible values; <i>n</i> shows how many wells were used.</p>
   </footer>
 
@@ -94,6 +95,7 @@
   <script src="js/septic-core.js"></script>
   <script src="js/septic.js"></script>
   <script src="js/imperial.js"></script>
+  <script src="js/lawcr.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
       const hadSw = !!navigator.serviceWorker.controller;
