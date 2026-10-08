@@ -1,0 +1,57 @@
+{
+ "permit": "WP0000877",
+ "processed": "2026-10-07T22:00:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "755-180-015",
+ "address": "76025 Pierce St",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234051",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 821
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234051",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 902.0,
+   "conf": "low",
+   "ocrConf": 15.639687,
+   "raw": "TOTAL DEPTH OF BORING 9O2",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 29.0,
+   "conf": "low",
+   "ocrConf": 46.626781,
+   "raw": "ESTIMATED YIELD*_29 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234051",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.49819862100003,
+ "lon": -116.11141117799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221175",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234051",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

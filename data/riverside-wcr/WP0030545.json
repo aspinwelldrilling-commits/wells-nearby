@@ -1,0 +1,100 @@
+{
+ "permit": "WP0030545",
+ "processed": "2026-10-07T21:59:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "751-320-014",
+ "address": "86600 Avenue 72 ",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270869",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1386
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270869",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270869",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 540.0,
+   "conf": "low",
+   "ocrConf": 78.355637,
+   "raw": "Total Depth of Boring 540",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1600.0,
+   "conf": "high",
+   "ocrConf": 95.265938,
+   "raw": "Estimated Yield* 1600 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 160.0,
+   "conf": "high",
+   "ocrConf": 96.532455,
+   "raw": "Water Level 160 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 53.635132,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 90.052216,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-04-09",
+   "conf": "medium",
+   "ocrConf": 74.638519,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.525808,
+   "lon": -116.1549664,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270869",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.525808,
+ "lon": -116.1549664,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310712",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270869",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,70 @@
+{
+ "permit": "WP0019444",
+ "processed": "2026-10-07T21:59:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "753-140-066",
+ "address": "83300 Avenue 66",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246238",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 88
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246238",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 120.0,
+   "conf": "medium",
+   "ocrConf": 75.518684,
+   "raw": "Water Level _120 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 95.60437,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 26.218796,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-11-26",
+   "conf": "low",
+   "ocrConf": 43.942474,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246238",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.57044962300006,
+ "lon": -116.208531688,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208185",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246238",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

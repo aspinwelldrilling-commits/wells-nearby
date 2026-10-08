@@ -1,0 +1,70 @@
+{
+ "permit": "WP0001511",
+ "processed": "2026-10-07T21:48:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "729-130-020",
+ "address": "70980 Wheeler St",
+ "city": "Mecca",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234446",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 863
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234446",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 490.0,
+   "conf": "low",
+   "ocrConf": 33.5606,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 490",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 96.618378,
+   "raw": "DRILLING\nMETHOD Rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 95.499481,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-07-24",
+   "conf": "medium",
+   "ocrConf": 70.98143,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234446",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.533359749000056,
+ "lon": -116.01665275099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219614",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234446",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

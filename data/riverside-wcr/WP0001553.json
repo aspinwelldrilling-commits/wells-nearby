@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001553",
+ "processed": "2026-10-07T21:48:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "749-220-003",
+ "address": "70775 Buchanan St",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234480",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 981
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234480",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 560.0,
+   "conf": "low",
+   "ocrConf": 48.227875,
+   "raw": "TOTAL DEPTH OF BORING 560",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-10-18",
+   "conf": "high",
+   "ocrConf": 96.531067,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234480",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.535666535000075,
+ "lon": -116.09631759599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219724",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234480",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

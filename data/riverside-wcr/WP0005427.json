@@ -1,0 +1,57 @@
+{
+ "permit": "WP0005427",
+ "processed": "2026-10-07T22:02:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "727-240-012",
+ "address": "MECCA II SANITARY LANDFILL",
+ "city": "Mecca",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237026",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1385
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237026",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 70.842102,
+   "raw": "TOTAL DEPTH OF BORING _ 250",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 224.0,
+   "conf": "high",
+   "ocrConf": 96.363121,
+   "raw": "WATER LEVEL 224 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237026",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.572399920000066,
+ "lon": -116.00071439999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218964",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237026",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

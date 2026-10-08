@@ -1,0 +1,78 @@
+{
+ "permit": "WP0021781",
+ "processed": "2026-10-07T21:58:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "749-150-003",
+ "address": "82681 Avenue 70",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247129",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 442
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247129",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 96.801613,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 96.950676,
+   "raw": "Estimated Yield* 55 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.422951,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 1.378975,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-06-25",
+   "conf": "high",
+   "ocrConf": 96.014481,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247129",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.53661574300003,
+ "lon": -116.13822952299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203894",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247129",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

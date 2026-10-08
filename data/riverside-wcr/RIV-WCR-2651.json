@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-2651",
+ "processed": "2026-10-07T21:43:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "AVE 74, POLK ST",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2651",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 83
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2651",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 618.0,
+   "conf": "low",
+   "ocrConf": 51.191235,
+   "raw": "Total depth 618 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2651",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.50593841500006,
+ "lon": -116.14221846099997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2651",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "03509",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

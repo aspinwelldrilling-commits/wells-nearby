@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006912",
+ "processed": "2026-10-07T22:05:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "749-050-011",
+ "address": "62775 Highway 111",
+ "city": "Mecca",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238705",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 67
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238705",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "high",
+   "ocrConf": 88.788788,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _900",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-07-14",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238705",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.594301452000025,
+ "lon": -116.10175583099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215283",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238705",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

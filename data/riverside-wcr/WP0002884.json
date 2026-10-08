@@ -1,0 +1,61 @@
+{
+ "permit": "WP0002884",
+ "processed": "2026-10-07T21:49:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "729-030-004",
+ "address": "90510 70th Ave",
+ "city": "Mecca",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234929",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1631
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234929",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234929",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 43.455948,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1996-06-24",
+   "conf": "high",
+   "ocrConf": 93.150948,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234929",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.54328785700005,
+ "lon": -116.08647549399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220897",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234929",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

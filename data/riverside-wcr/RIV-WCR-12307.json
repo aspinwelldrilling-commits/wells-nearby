@@ -1,0 +1,68 @@
+{
+ "permit": "RIV-WCR-12307",
+ "processed": "2026-10-07T21:44:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "751-350-010",
+ "address": "66991 Highway 86",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12307",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 966
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12307",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 22.610733,
+   "raw": "(12) WELL LOG: Total depth 2O",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 72.0,
+   "conf": "high",
+   "ocrConf": 84.053818,
+   "raw": "Standing level after well completion 72 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Discharge_20 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12307",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.56175959600006,
+ "lon": -116.17291747899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11670",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12307",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14152",
+ "bestDocPage": 1,
+ "status": "partial"
+}

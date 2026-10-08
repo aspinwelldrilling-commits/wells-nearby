@@ -1,0 +1,57 @@
+{
+ "permit": "WP0005991",
+ "processed": "2026-10-07T21:53:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "751-140-002",
+ "address": "84375 Avenue 66",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237417",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237417",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 612.0,
+   "conf": "low",
+   "ocrConf": 72.409317,
+   "raw": "TOTAL DEPTH OF BORING 612",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 54.762138,
+   "raw": "WATER LeveL _ 50 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237417",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.56819023800006,
+ "lon": -116.17362853899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216163",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237417",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

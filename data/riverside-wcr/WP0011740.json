@@ -1,0 +1,56 @@
+{
+ "permit": "WP0011740",
+ "processed": "2026-10-07T22:06:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "717-140-002",
+ "address": "3 Miles East Of Thermal",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242039",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1646
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242039",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 258.0,
+   "conf": "medium",
+   "ocrConf": 96.914215,
+   "raw": "Total Depth of Boring 258",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-01-16",
+   "conf": "medium",
+   "ocrConf": 59.596504,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242039",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.65332181800005,
+ "lon": -116.08626826699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212313",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242039",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,54 @@
+{
+ "permit": "WP0015106",
+ "processed": "2026-10-07T21:55:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "729-020-011",
+ "address": "90441 Avenue 68",
+ "city": "Mecca",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244351",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1538
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244351",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244351",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 810.0,
+   "conf": "high",
+   "ocrConf": 81.546074,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 810",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244351",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.55344793300003,
+ "lon": -116.09065379799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210572",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244351",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

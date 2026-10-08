@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001563",
+ "processed": "2026-10-07T21:48:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "755-240-002",
+ "address": "89525 Avenue 78",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234492",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 855
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234492",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 976.0,
+   "conf": "medium",
+   "ocrConf": 72.412529,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 976",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Mud",
+   "conf": "high",
+   "ocrConf": 96.310654,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234492",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.48144887800004,
+ "lon": -116.10207825199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219749",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234492",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

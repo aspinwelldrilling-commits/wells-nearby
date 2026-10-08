@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016775",
+ "processed": "2026-10-07T22:07:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "149-260-015",
+ "address": "88910 Avenue 73",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245300",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 710
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245300",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-04-27",
+   "conf": "high",
+   "ocrConf": 89.441681,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245300",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.51801409500007,
+ "lon": -116.11468350599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209375",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245300",
+ "serviceType": "New Construction",
+ "wellType": null,
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

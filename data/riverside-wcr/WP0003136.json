@@ -1,0 +1,48 @@
+{
+ "permit": "WP0003136",
+ "processed": "2026-10-07T22:02:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "727-181-007",
+ "address": "65770 Hammond Rd",
+ "city": "Mecca",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243561",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 902
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243561",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 24.5,
+   "conf": "medium",
+   "ocrConf": 53.40873,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 24.5",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243561",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.57081223400007,
+ "lon": -116.07666771599997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243561",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

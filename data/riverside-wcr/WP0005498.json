@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005498",
+ "processed": "2026-10-07T21:53:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "753-140-048",
+ "address": "82455 Avenue 65",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237088",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 835
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237088",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 11.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVeL 11] _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-03-30",
+   "conf": "medium",
+   "ocrConf": 65.785843,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237088",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.58040350700003,
+ "lon": -116.22919390499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219160",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237088",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

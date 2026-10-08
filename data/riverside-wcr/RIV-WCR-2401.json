@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-2401",
+ "processed": "2026-10-07T21:43:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": null,
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2401",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 71
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2401",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "medium",
+   "ocrConf": 96.680649,
+   "raw": "Total depth 320 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2401",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.569541935000075,
+ "lon": -116.18302773199997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2401",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "03288",
+ "bestDocPage": 1,
+ "status": "partial"
+}

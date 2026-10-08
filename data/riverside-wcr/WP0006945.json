@@ -1,0 +1,54 @@
+{
+ "permit": "WP0006945",
+ "processed": "2026-10-07T21:54:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "737-290-015",
+ "address": "Ave 84 & Hwy 86",
+ "city": "Salton",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238731",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1768
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238731",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238731",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 41.0,
+   "conf": "low",
+   "ocrConf": 31.175163,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _41",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238731",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.427092533000064,
+ "lon": -116.04455542799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215354",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238731",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

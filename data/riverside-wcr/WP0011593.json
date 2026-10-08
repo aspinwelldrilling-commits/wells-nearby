@@ -1,0 +1,77 @@
+{
+ "permit": "WP0011593",
+ "processed": "2026-10-07T22:06:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "755-400-003",
+ "address": "86355 77th Ave",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241849",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2666
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241849",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241849",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 329.0,
+   "conf": "low",
+   "ocrConf": 62.158188,
+   "raw": "Total Depth of Boring 329",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 277.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Water Level 277s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 44.673748,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-12-16",
+   "conf": "high",
+   "ocrConf": 88.363403,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241849",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.48870790600006,
+ "lon": -116.16454778599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212010",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241849",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

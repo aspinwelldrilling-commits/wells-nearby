@@ -1,0 +1,70 @@
+{
+ "permit": "WP0011655",
+ "processed": "2026-10-07T22:06:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "755-210-042",
+ "address": "NW of 84th St & Behrens Dr",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241941",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1860
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241941",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 443.0,
+   "conf": "high",
+   "ocrConf": 96.069481,
+   "raw": "Total Depth of Completed Well 443",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 339.0,
+   "conf": "high",
+   "ocrConf": 94.088821,
+   "raw": "Water Level 339 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 45.121529,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-12-30",
+   "conf": "medium",
+   "ocrConf": 51.173763,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241941",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.44139670000004,
+ "lon": -116.108062873,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212161",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241941",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

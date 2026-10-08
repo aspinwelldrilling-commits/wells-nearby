@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000637",
+ "processed": "2026-10-07T21:46:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "755-330-008",
+ "address": "79985 Filmore St",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233887",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1093
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233887",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 460.0,
+   "conf": "high",
+   "ocrConf": 88.447411,
+   "raw": "Completed depth 460 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 170.0,
+   "conf": "high",
+   "ocrConf": 96.78064,
+   "raw": "Standing level after well completion 170 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233887",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.472089631000074,
+ "lon": -116.131618877,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220605",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233887",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

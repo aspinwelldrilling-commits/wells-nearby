@@ -1,0 +1,69 @@
+{
+ "permit": "WP0011789",
+ "processed": "2026-10-07T22:06:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "721-020-004",
+ "address": "End of Painted Canyon Road",
+ "city": "Mecca",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242068",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2910
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242068",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242068",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 365.0,
+   "conf": "high",
+   "ocrConf": 96.898674,
+   "raw": "Total Depth of Completed Well 365",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 264.0,
+   "conf": "low",
+   "ocrConf": 49.417572,
+   "raw": "Water Level 264 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-02-03",
+   "conf": "medium",
+   "ocrConf": 66.093643,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242068",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.57032694000003,
+ "lon": -115.98877890799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212346",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242068",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

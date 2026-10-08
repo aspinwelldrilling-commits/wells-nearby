@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007981",
+ "processed": "2026-10-07T22:06:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "751-280-016",
+ "address": "68800 Polk St",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239399",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239399",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 620.0,
+   "conf": "high",
+   "ocrConf": 90.143379,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 620",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD.\" 5 \u2014 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239399",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.55022578400008,
+ "lon": -116.15088041599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214976",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239399",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

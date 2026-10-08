@@ -1,0 +1,48 @@
+{
+ "permit": "WP0001487",
+ "processed": "2026-10-07T22:00:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "737-090-010",
+ "address": "90345 Avenue 81",
+ "city": "Oasis",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234428",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 835
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234428",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 64.740936,
+   "raw": "ESTIMATED YIELD * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234428",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.46172013100005,
+ "lon": -116.08878753899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219553",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234428",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

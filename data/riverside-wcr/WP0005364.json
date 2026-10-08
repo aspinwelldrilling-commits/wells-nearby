@@ -1,0 +1,64 @@
+{
+ "permit": "WP0005364",
+ "processed": "2026-10-07T21:52:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "749-070-011",
+ "address": "89539 Avenue 64",
+ "city": "Mecca",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236962",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 856
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236962",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 72.335159,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 45.738544,
+   "raw": "ESTIMATED YIELD 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.855392,
+   "raw": "WATER LEVEL 25 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236962",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.577551018000065,
+ "lon": -116.10275760999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218784",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236962",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

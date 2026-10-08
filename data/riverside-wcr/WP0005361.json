@@ -1,0 +1,63 @@
+{
+ "permit": "WP0005361",
+ "processed": "2026-10-07T21:52:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "757-270-009",
+ "address": "87770 Avenue 62",
+ "city": "Thermal",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236968",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 845
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236968",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 640.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 640",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 17.0,
+   "conf": "low",
+   "ocrConf": 34.525482,
+   "raw": "WATER LEVEL ___17 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1998-06-23",
+   "conf": "medium",
+   "ocrConf": 59.984489,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236968",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.59973175300007,
+ "lon": -116.13533108999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218768",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236968",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

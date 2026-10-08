@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005983",
+ "processed": "2026-10-07T22:03:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "753-110-033",
+ "address": "Van Buren & Avenue 64",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237408",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 895
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237408",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 580.0,
+   "conf": "low",
+   "ocrConf": 3.905273,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 580",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-10-27",
+   "conf": "medium",
+   "ocrConf": 66.331573,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237408",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.58744228000006,
+ "lon": -116.20173780999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216146",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237408",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

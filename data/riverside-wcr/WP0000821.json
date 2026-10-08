@@ -1,0 +1,50 @@
+{
+ "permit": "WP0000821",
+ "processed": "2026-10-07T22:00:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "753-110-030",
+ "address": "1/4 Mi E of Van Buren-300 Ft off Ave 62",
+ "city": "Vista Santa Rosa",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234000",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 814
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234000",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1300.0,
+   "conf": "low",
+   "ocrConf": 24.633087,
+   "raw": "TOTAL DEPTH OF BORING 1300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234000",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.587414798000054,
+ "lon": -116.20831980099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221027",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234000",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

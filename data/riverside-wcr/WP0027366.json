@@ -1,0 +1,76 @@
+{
+ "permit": "WP0027366",
+ "processed": "2026-10-07T22:08:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "727-272-012",
+ "address": "66101 Hammond Rd",
+ "city": "Mecca",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249532",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 225
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249532",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249532",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "high",
+   "ocrConf": 85.567589,
+   "raw": "Total Depth of Completed Well 22",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": 85.708138,
+   "raw": "Drilling Method Auger Drilling Fluid None",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "None",
+   "conf": "high",
+   "ocrConf": 90.311356,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.569031,
+   "lon": -116.075828,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249532",
+ "errors": [],
+ "area": "thermal-mecca-salton",
+ "lat": 33.569031,
+ "lon": -116.075828,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/269285",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249532",
+ "serviceType": "New Construction",
+ "wellType": "Air Sparge",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}
