@@ -1,0 +1,86 @@
+{
+ "permit": "WP0018744",
+ "processed": "2026-10-08T02:28:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "659-160-005",
+ "address": "20271 Ford Ave",
+ "city": "Sky Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246064",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 409
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246064",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 69.934814,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 76.080139,
+   "raw": "Estimated Yield\" 10 ____ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 390.0,
+   "conf": "high",
+   "ocrConf": 95.505341,
+   "raw": "Water Level 390 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 83.59549,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 14.484558,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-07-09",
+   "conf": "medium",
+   "ocrConf": 51.6427,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246064",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.90241631200007,
+ "lon": -116.41069294999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207639",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246064",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0002971",
+ "processed": "2026-10-08T01:56:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "647-270-007",
+ "address": "23405 Henry Rd",
+ "city": "Sky Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234844",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 760
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234844",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 57.0,
+   "conf": "low",
+   "ocrConf": 58.215744,
+   "raw": "TOTAL DEPTH OF BORING 57",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 13.620102,
+   "raw": "ESTIMATED YIELD * \u20187 \u00a2. _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234844",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.87975461000008,
+ "lon": -116.36774348499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221151",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234844",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

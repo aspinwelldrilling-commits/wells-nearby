@@ -1,0 +1,97 @@
+{
+ "permit": "WP0030118",
+ "processed": "2026-10-08T02:30:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "647-030-012",
+ "address": "0 Vee Bee Rd ",
+ "city": "Sky Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270801",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 16
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270801",
+   "page": 1,
+   "source": "text",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270801",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270801",
+   "page": 3,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 540.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well         540",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Direct Rotary              Drilling Fluid   Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-01-19",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.898995,
+   "lon": -116.391982,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*                15 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270801",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.898995,
+ "lon": -116.391982,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310606",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270801",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

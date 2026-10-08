@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006191",
+ "processed": "2026-10-08T02:03:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-050-028",
+ "address": "42620 Tenaja Rd",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238241",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 892
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238241",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 41.0,
+   "conf": "medium",
+   "ocrConf": 74.620331,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 41",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-09-25",
+   "conf": "low",
+   "ocrConf": 40.578838,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238241",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.50251973300004,
+ "lon": -117.35419347299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216724",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238241",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

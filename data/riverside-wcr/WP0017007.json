@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017007",
+ "processed": "2026-10-08T02:22:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-070-015",
+ "address": "38191 Corte Jurado",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245316",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 700
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245316",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "low",
+   "ocrConf": 15.458923,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL350",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-10-19",
+   "conf": "medium",
+   "ocrConf": 55.639606,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245316",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.57657576100007,
+ "lon": -117.31287357199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209596",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245316",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

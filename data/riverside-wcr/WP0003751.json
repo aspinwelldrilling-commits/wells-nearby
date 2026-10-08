@@ -1,0 +1,57 @@
+{
+ "permit": "WP0003751",
+ "processed": "2026-10-08T01:57:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-280-017",
+ "address": "42290 Hacienda Dr",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235920",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 870
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235920",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 299.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 299",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 78.790947,
+   "raw": "ESTIMATED YIELD,\u201d 2% (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235920",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.514539875000025,
+ "lon": -117.34433474199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218485",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235920",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

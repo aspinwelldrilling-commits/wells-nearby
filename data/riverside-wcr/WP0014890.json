@@ -1,0 +1,64 @@
+{
+ "permit": "WP0014890",
+ "processed": "2026-10-08T02:20:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "647-100-014",
+ "address": "21755 Longvue Rd",
+ "city": "Sky Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243265",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 65
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243265",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 495.0,
+   "conf": "low",
+   "ocrConf": 48.848183,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _495",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "low",
+   "ocrConf": 6.996529,
+   "raw": "WATER LEVEL__ 120 __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 62.733246,
+   "raw": "ESTIMATED YIELD *_25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243265",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.890169213000036,
+ "lon": -116.35896384999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210386",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243265",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

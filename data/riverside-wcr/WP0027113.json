@@ -1,0 +1,79 @@
+{
+ "permit": "WP0027113",
+ "processed": "2026-10-08T02:31:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-310-018",
+ "address": "40400 Sierra Maria Rd",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249453",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1071
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249453",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.869583,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.658875,
+   "raw": "Estimated Yield* 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 47.0,
+   "conf": "high",
+   "ocrConf": 96.765198,
+   "raw": "Water Level 47 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 95.664238,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.539668,
+   "lon": -117.306969,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249453",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.540317420000065,
+ "lon": -117.30740714699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198662",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249453",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,49 @@
+{
+ "permit": "WP0002888",
+ "processed": "2026-10-08T02:36:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "654-160-002",
+ "address": "69400 Country Club Dr",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234928",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1369
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234928",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 74.141006,
+   "raw": "WELL LOG: Total depth 450",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234928",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.925719412000035,
+ "lon": -116.44491933599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220905",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234928",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

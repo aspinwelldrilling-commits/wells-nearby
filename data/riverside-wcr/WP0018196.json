@@ -1,0 +1,57 @@
+{
+ "permit": "WP0018196",
+ "processed": "2026-10-08T02:25:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-170-007",
+ "address": "41500 Gallop Ln",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244214",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1869
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244214",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 10.374062,
+   "raw": "Total Depth of Boring 30",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 22.072372,
+   "raw": "Estimated Yield * | \u00b0 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244214",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.52907586900005,
+ "lon": -117.32034466599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306817",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244214",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

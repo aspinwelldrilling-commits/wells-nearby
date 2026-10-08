@@ -1,0 +1,55 @@
+{
+ "permit": "WP0024209",
+ "processed": "2026-10-08T02:40:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "901-050-011",
+ "address": "10950 Verdugo Rd",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247879",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 368
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247879",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 96.838821,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-08-18",
+   "conf": "high",
+   "ocrConf": 86.05616,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247879",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.556477474000076,
+ "lon": -117.47083926599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201133",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247879",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

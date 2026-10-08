@@ -1,0 +1,90 @@
+{
+ "permit": "WP0029537",
+ "processed": "2026-10-08T02:30:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "657-450-001",
+ "address": "19409 Paintbrush Trl ",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248845",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 72
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248845",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248845",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248845",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 88.281334,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "low",
+   "ocrConf": 22.443756,
+   "raw": "Estimated Yield* \u201850 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "low",
+   "ocrConf": 28.24395,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 86.25779,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.906798,
+   "lon": -116.474924,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248845",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.906798,
+ "lon": -116.474924,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256183",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248845",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

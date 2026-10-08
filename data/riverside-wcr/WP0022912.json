@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022912",
+ "processed": "2026-10-08T02:28:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-190-012",
+ "address": "41926 Calle Pino",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249350",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 381
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249350",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 95.19046,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.987793,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-12-11",
+   "conf": "high",
+   "ocrConf": 90.5112,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249350",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.521598347000065,
+ "lon": -117.31920693799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203093",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249350",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

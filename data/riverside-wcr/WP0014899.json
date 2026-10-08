@@ -1,0 +1,92 @@
+{
+ "permit": "WP0014899",
+ "processed": "2026-10-08T02:39:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "657-470-005",
+ "address": "18th Ave & Palm Dr",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243270",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1313
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243270",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243270",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 820.0,
+   "conf": "high",
+   "ocrConf": 96.930832,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 820",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1500.0,
+   "conf": "medium",
+   "ocrConf": 58.910019,
+   "raw": "ESTIMATED YIELD _1,500 (GPM",
+   "page": 2,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 83.9,
+   "conf": "high",
+   "ocrConf": 94.286171,
+   "raw": "WATER LEVEL 83.9 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Rotary",
+   "conf": "high",
+   "ocrConf": 88.570511,
+   "raw": "DRILLING METHOD Reverse Rotary FLUID Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.73407,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-12-22",
+   "conf": "high",
+   "ocrConf": 96.915825,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243270",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.91676262200008,
+ "lon": -116.49166424699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210396",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243270",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

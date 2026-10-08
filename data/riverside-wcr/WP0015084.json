@@ -1,0 +1,79 @@
+{
+ "permit": "WP0015084",
+ "processed": "2026-10-08T02:20:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "654-150-004",
+ "address": "16205 Johnson Rd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244341",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 951
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244341",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 303.0,
+   "conf": "medium",
+   "ocrConf": 96.413528,
+   "raw": "Total Depth of Boring 303",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.599197,
+   "raw": "Estimated Yield * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.572647,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 32.024391,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-12-20",
+   "conf": "medium",
+   "ocrConf": 56.556969,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244341",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.93090678100003,
+ "lon": -116.44282382899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210550",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244341",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

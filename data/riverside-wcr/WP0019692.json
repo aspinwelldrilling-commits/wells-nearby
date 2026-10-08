@@ -1,0 +1,72 @@
+{
+ "permit": "WP0019692",
+ "processed": "2026-10-08T02:26:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-270-003",
+ "address": "38700 Calle La Salida",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246315",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 428
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246315",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 615.0,
+   "conf": "medium",
+   "ocrConf": 96.379219,
+   "raw": "Total Depth of Boring 615",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 95.871063,
+   "raw": "Estimated Yield * 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 85.0,
+   "conf": "high",
+   "ocrConf": 96.04882,
+   "raw": "Water Level 85 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-03-27",
+   "conf": "high",
+   "ocrConf": 95.105354,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246315",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.57109126300003,
+ "lon": -117.310541651,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205290",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246315",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

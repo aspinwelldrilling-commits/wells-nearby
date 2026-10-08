@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005822",
+ "processed": "2026-10-08T02:02:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-210-004",
+ "address": "38680 Avenida De Felicidad",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237299",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 802
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237299",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 295.0,
+   "conf": "medium",
+   "ocrConf": 57.308014,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __295",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-05-28",
+   "conf": "medium",
+   "ocrConf": 66.078094,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237299",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.56011382300005,
+ "lon": -117.31885967499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215741",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237299",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

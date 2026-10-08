@@ -1,0 +1,55 @@
+{
+ "permit": "WP0008006",
+ "processed": "2026-10-08T02:10:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "659-140-005",
+ "address": "21400 Long Canyon Rd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239947",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 720
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239947",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.783966,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-06-14",
+   "conf": "medium",
+   "ocrConf": 66.924545,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239947",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.892659138000056,
+ "lon": -116.45707068699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215001",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239947",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

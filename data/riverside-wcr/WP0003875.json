@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003875",
+ "processed": "2026-10-08T01:58:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "664-200-029",
+ "address": "63050 Lasalle",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236012",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 781
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236012",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 613.0,
+   "conf": "high",
+   "ocrConf": 95.649551,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 613",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 440.0,
+   "conf": "medium",
+   "ocrConf": 59.529869,
+   "raw": "WATER LEVEL 440 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236012",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.95867428200006,
+ "lon": -116.56209934499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215108",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236012",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

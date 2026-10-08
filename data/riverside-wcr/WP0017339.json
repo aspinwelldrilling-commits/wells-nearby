@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017339",
+ "processed": "2026-10-08T02:24:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-240-052",
+ "address": "19460 Calle Teresa",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245527",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 707
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245527",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 44.692665,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-02-12",
+   "conf": "high",
+   "ocrConf": 89.75473,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245527",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.518148662000044,
+ "lon": -117.31945082499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209873",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245527",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

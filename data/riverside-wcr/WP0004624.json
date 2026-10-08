@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004624",
+ "processed": "2026-10-08T01:59:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-180-004",
+ "address": "39570 Avenida La Cresta",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236498",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 784
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236498",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 95.42511,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.44455,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236498",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.54323395600005,
+ "lon": -117.32060618699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216352",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236498",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

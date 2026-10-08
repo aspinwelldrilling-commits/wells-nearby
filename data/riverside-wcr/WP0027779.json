@@ -1,0 +1,86 @@
+{
+ "permit": "WP0027779",
+ "processed": "2026-10-08T02:31:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-360-014",
+ "address": "41955 Calle Paramo",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249628",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 77
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249628",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1417.0,
+   "conf": "medium",
+   "ocrConf": 96.566185,
+   "raw": "Total Depth of Boring 1417",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 95.436066,
+   "raw": "Estimated Yield * 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "low",
+   "ocrConf": 39.691856,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 51.949959,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-06-01",
+   "conf": "medium",
+   "ocrConf": 61.74625,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.52449,
+   "lon": -117.356,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249628",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.52449484600004,
+ "lon": -117.35601199399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198988",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249628",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

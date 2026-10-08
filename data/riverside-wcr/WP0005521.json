@@ -1,0 +1,49 @@
+{
+ "permit": "WP0005521",
+ "processed": "2026-10-08T02:01:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "654-282-042",
+ "address": "71175 Aurora Rd",
+ "city": "Sky Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237110",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 75
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237110",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 630.0,
+   "conf": "low",
+   "ocrConf": 35.395325,
+   "raw": "TOTAL DEPTH OF BORING 630",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237110",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.92233687800007,
+ "lon": -116.42156720799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219246",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237110",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

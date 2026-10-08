@@ -1,0 +1,71 @@
+{
+ "permit": "WP0016607",
+ "processed": "2026-10-08T02:22:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-350-024",
+ "address": "20500 Sierra Soto",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245228",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 835
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245228",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 630.0,
+   "conf": "high",
+   "ocrConf": 82.399818,
+   "raw": "Total Depth of Completed Well 630",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 96.404411,
+   "raw": "Estimated Yield * 18 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 25.414894,
+   "raw": "Water Level 40s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-07-17",
+   "conf": "medium",
+   "ocrConf": 53.86409,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245228",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.531638275000034,
+ "lon": -117.30395079799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209236",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245228",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020397",
+ "processed": "2026-10-08T02:27:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-170-039",
+ "address": "21025 Paseo Montana",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246722",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 309
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246722",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 66.172966,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-10-03",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246722",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.57886963400006,
+ "lon": -117.30006927799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204627",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246722",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

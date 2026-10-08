@@ -1,0 +1,105 @@
+{
+ "permit": "WP0030763",
+ "processed": "2026-10-08T02:32:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-280-030",
+ "address": "41782 Avenida De Encanto",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306523",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1450
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306523",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306523",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306523",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1070.0,
+   "conf": "medium",
+   "ocrConf": 60.978413,
+   "raw": "Total Depth of Completed Well 1070",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 95.856865,
+   "raw": "Estimated Yield* 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.933464,
+   "raw": "Water Level 25 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 87.952156,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 50.176033,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-08-11",
+   "conf": "medium",
+   "ocrConf": 79.505875,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.517024,
+   "lon": -117.348625,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306523",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.517024,
+ "lon": -117.348625,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310817",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306523",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

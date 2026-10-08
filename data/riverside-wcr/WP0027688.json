@@ -1,0 +1,92 @@
+{
+ "permit": "WP0027688",
+ "processed": "2026-10-08T02:29:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "930-250-001",
+ "address": "20801 Avenida Castilla",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249602",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 54
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249602",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249602",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 87.541885,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 110.0,
+   "conf": "high",
+   "ocrConf": 95.616821,
+   "raw": "Estimated Yield* 110 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 84.0,
+   "conf": "high",
+   "ocrConf": 95.636292,
+   "raw": "Water Level 84 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 90.507141,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 43.357986,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-04-04",
+   "conf": "high",
+   "ocrConf": 82.706963,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249602",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.56118585300004,
+ "lon": -117.30227898899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198951",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249602",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

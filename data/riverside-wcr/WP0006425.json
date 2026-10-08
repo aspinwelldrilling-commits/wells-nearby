@@ -1,0 +1,48 @@
+{
+ "permit": "WP0006425",
+ "processed": "2026-10-08T02:04:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-100-014",
+ "address": "38417 Avenida Bonita",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238417",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 950
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238417",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 43.338081,
+   "raw": "ESTIMATED YIELD 4, (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238417",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.572414053000045,
+ "lon": -117.31883941199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217486",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238417",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

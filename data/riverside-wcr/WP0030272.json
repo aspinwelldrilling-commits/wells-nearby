@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030272",
+ "processed": "2026-10-08T02:32:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-350-002",
+ "address": "40110 Calle Bandido ",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270804",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 49
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270804",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270804",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 720.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well          720",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 210.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                210 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method       Downhole Hammer            Drilling Fluid    Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-03-09",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.545956,
+   "lon": -117.330124,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             25 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270804",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.545956,
+ "lon": -117.330124,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310647",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270804",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

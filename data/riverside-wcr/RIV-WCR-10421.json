@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-10421",
+ "processed": "2026-10-08T01:46:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "657-220-003",
+ "address": "66135 Dillon Rd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10421",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 984
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10421",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 96.0,
+   "conf": "high",
+   "ocrConf": 80.838707,
+   "raw": "Standing level after well completion 96 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10421",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.92396289800007,
+ "lon": -116.50771898999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8679",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10421",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12653",
+ "bestDocPage": 1,
+ "status": "partial"
+}

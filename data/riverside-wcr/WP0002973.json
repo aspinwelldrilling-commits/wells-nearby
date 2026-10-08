@@ -1,0 +1,48 @@
+{
+ "permit": "WP0002973",
+ "processed": "2026-10-08T02:35:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "654-160-002",
+ "address": "Dillon Road & Corkhill",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234840",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 752
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234840",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 45.0,
+   "conf": "medium",
+   "ocrConf": 51.032738,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 45",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234840",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.925719412000035,
+ "lon": -116.44491933599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221161",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234840",
+ "serviceType": "Reconstruction Deepening",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

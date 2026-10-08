@@ -1,0 +1,49 @@
+{
+ "permit": "WP0002914",
+ "processed": "2026-10-08T02:34:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "659-040-009",
+ "address": "18075 Langlois Rd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234901",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 986
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234901",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 94.0,
+   "conf": "low",
+   "ocrConf": 44.725746,
+   "raw": "(12) WELL LOG: Total depth 94",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234901",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.91685288600007,
+ "lon": -116.43351104199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220983",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234901",
+ "serviceType": null,
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

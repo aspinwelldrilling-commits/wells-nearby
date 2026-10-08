@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005325",
+ "processed": "2026-10-08T02:35:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "639-322-017",
+ "address": "11740 Mesquite Ave",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236933",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 824
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236933",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 445.0,
+   "conf": "high",
+   "ocrConf": 83.267693,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _445",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1998-01-30",
+   "conf": "high",
+   "ocrConf": 95.377319,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236933",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.96330334400005,
+ "lon": -116.49652476899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218678",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236933",
+ "serviceType": null,
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

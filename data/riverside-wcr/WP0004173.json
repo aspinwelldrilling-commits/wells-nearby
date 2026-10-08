@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004173",
+ "processed": "2026-10-08T01:57:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-150-009",
+ "address": "20575 Kyle Ct",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236176",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 788
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236176",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 234.0,
+   "conf": "high",
+   "ocrConf": 90.782364,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 234",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "medium",
+   "ocrConf": 68.780045,
+   "raw": "WATER LEVEL ____ 35 __(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236176",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.574022451000076,
+ "lon": -117.30365369799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219717",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236176",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

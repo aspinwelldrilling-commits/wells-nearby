@@ -1,0 +1,63 @@
+{
+ "permit": "WP0009200",
+ "processed": "2026-10-08T02:11:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-330-024",
+ "address": "18797 Vista De Montanas",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240098",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 703
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240098",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 15.547638,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL 05 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-05-23",
+   "conf": "medium",
+   "ocrConf": 68.83596,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240098",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.553869114000065,
+ "lon": -117.33350503399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214152",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240098",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

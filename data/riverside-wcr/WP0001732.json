@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001732",
+ "processed": "2026-10-08T01:53:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "930-320-003",
+ "address": "40650 Calle De Suenos",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234614",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 827
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234614",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "low",
+   "ocrConf": 43.532608,
+   "raw": "TOTAL DEPTH OF BORING 320",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-03-15",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234614",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.54707297500005,
+ "lon": -117.30665470299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220264",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234614",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

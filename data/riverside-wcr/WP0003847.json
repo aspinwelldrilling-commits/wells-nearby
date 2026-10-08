@@ -1,0 +1,55 @@
+{
+ "permit": "WP0003847",
+ "processed": "2026-10-08T01:57:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-110-011",
+ "address": "38845 Calle De Companero",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235998",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 852
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235998",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "1996-09-25",
+   "conf": "low",
+   "ocrConf": 14.949295,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 63.412472,
+   "raw": "ESTIMATED YIELD _ 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235998",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.56684958900007,
+ "lon": -117.32355448499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218849",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235998",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

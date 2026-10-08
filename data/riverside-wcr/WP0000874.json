@@ -1,0 +1,69 @@
+{
+ "permit": "WP0000874",
+ "processed": "2026-10-08T02:34:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "666-220-028",
+ "address": "DILLION Rd AT LOUISE St",
+ "city": "North Palm Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234048",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1682
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234048",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234048",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "high",
+   "ocrConf": 84.961349,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3000.0,
+   "conf": "medium",
+   "ocrConf": 56.993793,
+   "raw": "ESTIMATED YIELD *3000 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-01-31",
+   "conf": "high",
+   "ocrConf": 89.253716,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234048",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.924610735000044,
+ "lon": -116.54060533199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221167",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234048",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009189",
+ "processed": "2026-10-08T02:12:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-270-023",
+ "address": "40825 Sierra Maria Rd",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240096",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 713
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240096",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 335.0,
+   "conf": "low",
+   "ocrConf": 41.373272,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL335",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-05-08",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240096",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.53581410800007,
+ "lon": -117.31338464499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214141",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240096",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

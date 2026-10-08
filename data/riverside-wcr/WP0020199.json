@@ -1,0 +1,56 @@
+{
+ "permit": "WP0020199",
+ "processed": "2026-10-08T02:27:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-110-010",
+ "address": "40836 Calle Bandido",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246658",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 321
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246658",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 26.94854,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 68.0,
+   "conf": "high",
+   "ocrConf": 93.259552,
+   "raw": "WATER LeveL 68 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246658",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.53641638800008,
+ "lon": -117.33075374099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204446",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246658",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

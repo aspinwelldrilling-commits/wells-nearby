@@ -1,0 +1,70 @@
+{
+ "permit": "WP0027869",
+ "processed": "2026-10-08T02:29:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-290-006",
+ "address": "37789 Avenida La Cresta",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249661",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 75
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249661",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 642.0,
+   "conf": "high",
+   "ocrConf": 90.077682,
+   "raw": "Total Depth of Completed Well 642",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.433357,
+   "raw": "Estimated Yield * 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-08-30",
+   "conf": "medium",
+   "ocrConf": 70.773239,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.5662,
+   "lon": -117.31031,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249661",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.566609706000065,
+ "lon": -117.31017397999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199015",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249661",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

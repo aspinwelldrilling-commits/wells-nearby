@@ -1,0 +1,80 @@
+{
+ "permit": "WP0016750",
+ "processed": "2026-10-08T02:22:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "659-020-006",
+ "address": "4th Lot SSide Of 18th - EOf Long Cnyn",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245291",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1182
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245291",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 96.991547,
+   "raw": "Total Depth of Boring 400",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 40.732231,
+   "raw": "Estimated Yield* 40 _\u2014s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 230.0,
+   "conf": "medium",
+   "ocrConf": 62.118164,
+   "raw": "Water Level _230 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 95.985771,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bervonie",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-09-25",
+   "conf": "low",
+   "ocrConf": 9.483704,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245291",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.917610327000034,
+ "lon": -116.45390763199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209344",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245291",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

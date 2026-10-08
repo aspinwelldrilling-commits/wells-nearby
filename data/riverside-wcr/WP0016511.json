@@ -1,0 +1,87 @@
+{
+ "permit": "WP0016511",
+ "processed": "2026-10-08T02:21:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "659-100-012",
+ "address": "Bennett Rd",
+ "city": "Southeast Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244181",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1041
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244181",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 380.0,
+   "conf": "medium",
+   "ocrConf": 96.862511,
+   "raw": "Total Depth of Boring 380",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 285.0,
+   "conf": "low",
+   "ocrConf": 42.386433,
+   "raw": "Water Level 285 SSCs (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.25666,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 12.47094,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-06-21",
+   "conf": "medium",
+   "ocrConf": 65.744659,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 61.888508,
+   "raw": "Estimated Yield *_50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244181",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.914946246000056,
+ "lon": -116.41775760299998,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244181",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

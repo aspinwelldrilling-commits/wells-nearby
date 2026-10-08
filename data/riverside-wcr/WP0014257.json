@@ -1,0 +1,70 @@
+{
+ "permit": "WP0014257",
+ "processed": "2026-10-08T02:38:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-070-008",
+ "address": "38190 Corte Jurado",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242823",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1402
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242823",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242823",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 91.800583,
+   "raw": "ESTIMATED YIELD * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 47.0,
+   "conf": "high",
+   "ocrConf": 88.788544,
+   "raw": "WATER LEVEL 47 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242823",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.57749930800003,
+ "lon": -117.31185862599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211203",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242823",
+ "serviceType": "New Construction",
+ "wellType": "Injection",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0018941",
+ "processed": "2026-10-08T02:26:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "656-390-009",
+ "address": "68800 18th Ave",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246127",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 65
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246127",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 380.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Total Depth of Boring 380",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-09-05",
+   "conf": "medium",
+   "ocrConf": 55.913979,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246127",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.918859448000035,
+ "lon": -116.46194420499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207836",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246127",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

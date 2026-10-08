@@ -1,0 +1,63 @@
+{
+ "permit": "WP0000546",
+ "processed": "2026-10-08T01:50:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "20620 Sierra Soto Rd",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233821",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 920
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233821",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "medium",
+   "ocrConf": 62.75927,
+   "raw": "ESTIMATED YIELD 3G (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Ade Rotary",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "DRILLING\nMETHOD ade rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 95.272789,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233821",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.53024205300005,
+ "lon": -117.30096076599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220340",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233821",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

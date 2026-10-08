@@ -1,0 +1,55 @@
+{
+ "permit": "WP0002953",
+ "processed": "2026-10-08T01:56:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "664-200-035",
+ "address": "12425 Western Ave",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234857",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1607
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234857",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234857",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 9.82901,
+   "raw": "TOTAL DEPTH OF BORING 220",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234857",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.95822674000004,
+ "lon": -116.55547898999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221101",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234857",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "unreadable"
+}

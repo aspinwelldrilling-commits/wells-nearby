@@ -1,0 +1,64 @@
+{
+ "permit": "WP0002099",
+ "processed": "2026-10-08T01:53:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-340-011",
+ "address": "39149 Del Sol Ct",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235395",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 888
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235395",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 59.216049,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 29.589432,
+   "raw": "WATER LEVEL ___3@* _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.565323,
+   "raw": "DRILLING\nMETHOD AIR FLUID __ ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235395",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.56221064300007,
+ "lon": -117.30612141899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221480",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235395",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

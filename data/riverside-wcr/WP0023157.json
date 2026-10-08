@@ -1,0 +1,56 @@
+{
+ "permit": "WP0023157",
+ "processed": "2026-10-08T02:28:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-220-006",
+ "address": "19315 Avenida De Anza",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247612",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 429
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247612",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 495.0,
+   "conf": "low",
+   "ocrConf": 41.72459,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 495",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 37.0,
+   "conf": "medium",
+   "ocrConf": 70.216843,
+   "raw": "WATER LEVEL 37 \u2014 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247612",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.55834113800006,
+ "lon": -117.32235337799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202005",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247612",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

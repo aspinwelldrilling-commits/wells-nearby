@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-2837",
+ "processed": "2026-10-08T02:32:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "MT VIEW-ENCANTO RD, MCGARGER, WIDE CANYO",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2837",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 69
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2837",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 207.0,
+   "conf": "low",
+   "ocrConf": 46.99036,
+   "raw": "Total depth  2O7 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2837",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.93730027000004,
+ "lon": -116.46935415899998,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2837",
+ "serviceType": "New Construction",
+ "wellType": "Test Well",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "03664",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

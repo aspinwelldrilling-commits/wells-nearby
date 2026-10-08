@@ -1,0 +1,64 @@
+{
+ "permit": "WP0003454",
+ "processed": "2026-10-08T01:57:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-240-037",
+ "address": "41265 Avenida Chonchita",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235756",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 908
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235756",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 43.0,
+   "conf": "low",
+   "ocrConf": 34.80629,
+   "raw": "TOTAL DEPTH OF BORING __43",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 94.587097,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.609665,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235756",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.52477041700007,
+ "lon": -117.32754862999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217076",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235756",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

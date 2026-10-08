@@ -1,0 +1,56 @@
+{
+ "permit": "WP0005475",
+ "processed": "2026-10-08T02:35:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "641-271-004",
+ "address": "13900 Palm Dr",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237070",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237070",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "medium",
+   "ocrConf": 82.390411,
+   "raw": "TOTAL DEPTH OF BORING __ 240",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1998-11-19",
+   "conf": "medium",
+   "ocrConf": 63.917828,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237070",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.95075536200005,
+ "lon": -116.50101904999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219107",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237070",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

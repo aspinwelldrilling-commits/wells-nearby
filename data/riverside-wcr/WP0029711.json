@@ -1,0 +1,105 @@
+{
+ "permit": "WP0029711",
+ "processed": "2026-10-08T02:39:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "663-230-023",
+ "address": "Acoma Ave/ Little Morongo Rd ",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248863",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 114
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248863",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248863",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248863",
+   "page": 3,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1090.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well          1090",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 378.18,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level            378.18 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Reverse Circulation",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Reverse Circulation         Drilling Fluid    Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-06-19",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.960794,
+   "lon": -116.526244,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 2975.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*         2975 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248863",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.960794,
+ "lon": -116.526244,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/231242",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248863",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

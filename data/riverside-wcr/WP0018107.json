@@ -1,0 +1,79 @@
+{
+ "permit": "WP0018107",
+ "processed": "2026-10-08T02:38:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "642-111-005",
+ "address": "12622 Miracle Hill Rd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245845",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 403
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245845",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "medium",
+   "ocrConf": 96.544601,
+   "raw": "Total Depth of Boring 320",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.538979,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.688171,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 85.094261,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-21",
+   "conf": "high",
+   "ocrConf": 90.012474,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245845",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.95689297400003,
+ "lon": -116.48349322599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208758",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245845",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,49 @@
+{
+ "permit": "WP0007055",
+ "processed": "2026-10-08T02:07:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "654-030-004",
+ "address": "69235 15th Ave",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238776",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 879
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238776",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 5.053627,
+   "raw": "TOTAL DEPTH OF BORING 2oO",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238776",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.938742225000055,
+ "lon": -116.45282043399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215590",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238776",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

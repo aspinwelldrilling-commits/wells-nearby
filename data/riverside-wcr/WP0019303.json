@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019303",
+ "processed": "2026-10-08T02:28:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-170-010",
+ "address": "40653 Calle Campina",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246210",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 920
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246210",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 79.647102,
+   "raw": "Estimated Yield * 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 90.176544,
+   "raw": "Water Level _100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-10-15",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246210",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.530929859000025,
+ "lon": -117.31313963099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208095",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246210",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

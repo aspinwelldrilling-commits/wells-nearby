@@ -1,0 +1,71 @@
+{
+ "permit": "WP0022986",
+ "processed": "2026-10-08T02:29:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-370-060",
+ "address": "41125 Avenida De Encanto",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249367",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 340
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249367",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 850.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 850",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 29.0,
+   "conf": "medium",
+   "ocrConf": 79.751495,
+   "raw": "ESTIMATED YIELD * 29 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 99.0,
+   "conf": "high",
+   "ocrConf": 89.134384,
+   "raw": "WATER LEVEL 99 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-02-07",
+   "conf": "medium",
+   "ocrConf": 73.784828,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249367",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.51988537700004,
+ "lon": -117.34965125699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203147",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249367",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

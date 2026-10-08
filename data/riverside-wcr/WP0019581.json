@@ -1,0 +1,78 @@
+{
+ "permit": "WP0019581",
+ "processed": "2026-10-08T02:28:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "516-051-002",
+ "address": "11868 Cecil Dr",
+ "city": "Whitewater",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246283",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1005
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246283",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.898209,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Estimated Yield* 30s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.734962,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 91.719971,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-03-20",
+   "conf": "high",
+   "ocrConf": 91.169464,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246283",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.94637418000008,
+ "lon": -116.64221832999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208290",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246283",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

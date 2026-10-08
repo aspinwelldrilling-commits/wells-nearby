@@ -1,0 +1,86 @@
+{
+ "permit": "WP0017215",
+ "processed": "2026-10-08T02:38:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "667-290-083",
+ "address": "11535 Karen Ave",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245474",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 826
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245474",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1040.0,
+   "conf": "low",
+   "ocrConf": 28.007332,
+   "raw": "Total Depth of Completed Well 1040",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "medium",
+   "ocrConf": 69.419937,
+   "raw": "Estimated Yield * 1.000 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 440.0,
+   "conf": "high",
+   "ocrConf": 83.899635,
+   "raw": "Water Level 440 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Circulation Rotary",
+   "conf": "high",
+   "ocrConf": 96.331474,
+   "raw": "Drilling Method Reverse Circulation Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 24.591614,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-04-10",
+   "conf": "high",
+   "ocrConf": 85.152115,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245474",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.964723133000064,
+ "lon": -116.56321157199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209750",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245474",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

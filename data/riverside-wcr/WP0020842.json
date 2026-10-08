@@ -1,0 +1,56 @@
+{
+ "permit": "WP0020842",
+ "processed": "2026-10-08T02:29:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "656-390-025",
+ "address": "17830 Zeta Rd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246565",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 52
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246565",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 95.925934,
+   "raw": "Estimated Yield * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 224.0,
+   "conf": "low",
+   "ocrConf": 49.534191,
+   "raw": "Water Level 224 (Feet",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246565",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.91931993000003,
+ "lon": -116.46444264099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205058",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246565",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

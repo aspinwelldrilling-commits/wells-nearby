@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005570",
+ "processed": "2026-10-08T02:37:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "642-170-029",
+ "address": "67520 Two Bunch Palms Trl",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243611",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 832
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243611",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 254.0,
+   "conf": "low",
+   "ocrConf": 29.900116,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _254",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-06-30",
+   "conf": "high",
+   "ocrConf": 95.209877,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243611",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.94864999300006,
+ "lon": -116.48501925599999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243611",
+ "serviceType": null,
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

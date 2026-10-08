@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012523",
+ "processed": "2026-10-08T02:17:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-290-020",
+ "address": "NW corner of Via Nuve & Ainsely Court",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241684",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 895
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241684",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "low",
+   "ocrConf": 5.676453,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 325",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 39.969822,
+   "raw": "WATER LEVEL __1_ A _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241684",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.50903234000003,
+ "lon": -117.35658203699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212898",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241684",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

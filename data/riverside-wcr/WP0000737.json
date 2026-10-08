@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000737",
+ "processed": "2026-10-08T01:51:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "644-171-002",
+ "address": "68247 Calle Azteca",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243390",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1041
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243390",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 292.0,
+   "conf": "medium",
+   "ocrConf": 67.18689,
+   "raw": "Completed depth 292 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 123.0,
+   "conf": "high",
+   "ocrConf": 95.558716,
+   "raw": "Standing level after well completion 123 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243390",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.952111924000064,
+ "lon": -116.47088325299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256068",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243390",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

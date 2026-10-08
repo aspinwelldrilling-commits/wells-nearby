@@ -1,0 +1,71 @@
+{
+ "permit": "WP0010932",
+ "processed": "2026-10-08T02:15:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-320-013",
+ "address": "20474 Mesita Ln",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241151",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 714
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241151",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 655.0,
+   "conf": "low",
+   "ocrConf": 5.339447,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL655",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 32.0,
+   "conf": "high",
+   "ocrConf": 89.477058,
+   "raw": "ESTIMATED YIELD * 32 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 235.0,
+   "conf": "high",
+   "ocrConf": 88.239349,
+   "raw": "WATER LeveL 235 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-07-01",
+   "conf": "medium",
+   "ocrConf": 72.690758,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241151",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.56022539800006,
+ "lon": -117.31072505499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213552",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241151",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018802",
+ "processed": "2026-10-08T02:28:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "656-280-016",
+ "address": "68210 Louisan St",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246099",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 57
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246099",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.765411,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 91.081116,
+   "raw": "Estimated Yield* 18 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-07-09",
+   "conf": "medium",
+   "ocrConf": 61.454124,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246099",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.93636610200008,
+ "lon": -116.47162374399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207696",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246099",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

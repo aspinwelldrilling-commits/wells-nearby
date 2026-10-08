@@ -1,0 +1,49 @@
+{
+ "permit": "WP0002922",
+ "processed": "2026-10-08T01:54:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "666-180-014",
+ "address": "16819 Little Morongo Rd",
+ "city": "North Palm Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234894",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 833
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234894",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 42.097122,
+   "raw": "TOTAL DEPTH OF BORING 35",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234894",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.92882648300008,
+ "lon": -116.53110217099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221001",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234894",
+ "serviceType": "Reconstruction Deepening",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

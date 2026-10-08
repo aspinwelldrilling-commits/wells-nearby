@@ -1,0 +1,71 @@
+{
+ "permit": "WP0026312",
+ "processed": "2026-10-08T02:31:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-090-020",
+ "address": "38550 Calle De Companero",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248382",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 56
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248382",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.564522,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 54.0,
+   "conf": "high",
+   "ocrConf": 94.658913,
+   "raw": "Water Level 54 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 87.763496,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-10-20",
+   "conf": "high",
+   "ocrConf": 94.3946,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248382",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.57132170400007,
+ "lon": -117.32702498599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199391",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248382",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

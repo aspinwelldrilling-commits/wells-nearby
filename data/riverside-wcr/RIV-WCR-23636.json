@@ -1,0 +1,67 @@
+{
+ "permit": "RIV-WCR-23636",
+ "processed": "2026-10-08T01:47:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "656-280-003",
+ "address": "CLARENCE",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23636",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 769
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23636",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 321.0,
+   "conf": "low",
+   "ocrConf": 47.352673,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 321",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 21.236771,
+   "raw": "ESTIMATED YIELD*3 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 104.0,
+   "conf": "low",
+   "ocrConf": 11.744568,
+   "raw": "WATER Level __ 104 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23636",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.93901242000004,
+ "lon": -116.47264434999994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23636",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "22681",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

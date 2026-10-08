@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030796",
+ "processed": "2026-10-08T02:30:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "901-170-058",
+ "address": "38305 Via Sereno",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306530",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 49
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306530",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306530",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 465.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well          465",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  12 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method       Downhole Hammer           Drilling Fluid    Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2023-04-26",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.5619,
+   "lon": -117.339726,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*           100 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306530",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.5619,
+ "lon": -117.339726,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/315572",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306530",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

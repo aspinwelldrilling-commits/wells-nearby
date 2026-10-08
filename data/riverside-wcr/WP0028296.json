@@ -1,0 +1,105 @@
+{
+ "permit": "WP0028296",
+ "processed": "2026-10-08T02:32:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "901-180-016",
+ "address": "19205 Saint Gallen Way",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248726",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 61
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248726",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248726",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248726",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "high",
+   "ocrConf": 89.076591,
+   "raw": "Total Depth of Completed Well 450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 96.273758,
+   "raw": "Estimated Yield* 55 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 95.822739,
+   "raw": "Water Level 100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 92.292786,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 61.139408,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-05-30",
+   "conf": "medium",
+   "ocrConf": 65.767029,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.57738,
+   "lon": -117.32259,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248726",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.57688152600008,
+ "lon": -117.32399465599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270435",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248726",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

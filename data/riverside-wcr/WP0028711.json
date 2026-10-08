@@ -1,0 +1,70 @@
+{
+ "permit": "WP0028711",
+ "processed": "2026-10-08T02:32:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-060-006",
+ "address": "18101 Calle Huerto",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248767",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 75
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248767",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1100.0,
+   "conf": "low",
+   "ocrConf": 48.336548,
+   "raw": "Total Depth of Completed Well 1100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer Dritling",
+   "conf": "medium",
+   "ocrConf": 67.851593,
+   "raw": "Drilling Method Downhole Hammer Dritling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 45.562141,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-08-13",
+   "conf": "medium",
+   "ocrConf": 68.987015,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248767",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.51960484600005,
+ "lon": -117.34132199199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310398",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248767",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

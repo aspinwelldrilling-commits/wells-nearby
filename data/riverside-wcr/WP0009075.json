@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009075",
+ "processed": "2026-10-08T02:12:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-160-020",
+ "address": "19495 Avenida Presa",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240017",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 741
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240017",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 3.774216,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-04-18",
+   "conf": "medium",
+   "ocrConf": 74.192543,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240017",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.51135104600007,
+ "lon": -117.31969463799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214046",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240017",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

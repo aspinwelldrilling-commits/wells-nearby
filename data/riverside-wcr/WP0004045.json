@@ -1,0 +1,63 @@
+{
+ "permit": "WP0004045",
+ "processed": "2026-10-08T01:57:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-240-025",
+ "address": "18503 Calle Juanito",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236756",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 782
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236756",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "medium",
+   "ocrConf": 65.927353,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "low",
+   "ocrConf": 45.196495,
+   "raw": "ESTIMATED YIELD * \u20146-\u2014\u2014 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1997-03-10",
+   "conf": "high",
+   "ocrConf": 96.085228,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236756",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.52089856600003,
+ "lon": -117.32953815999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219262",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236756",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14511",
+ "processed": "2026-10-08T02:33:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "664-220-007",
+ "address": "Western Ave",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14511",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1145
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14511",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 592.0,
+   "conf": "low",
+   "ocrConf": 36.76104,
+   "raw": "Completed depth 592 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14511",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.953678,
+ "lon": -116.555482,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16510",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14511",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16692",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

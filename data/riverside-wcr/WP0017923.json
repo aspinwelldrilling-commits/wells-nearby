@@ -1,0 +1,57 @@
+{
+ "permit": "WP0017923",
+ "processed": "2026-10-08T02:40:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "654-210-022",
+ "address": "17777 Langlois Rd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245805",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 834
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245805",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 2500.0,
+   "conf": "low",
+   "ocrConf": 54.019817,
+   "raw": "TOTAL DEPTH OF BORING 2500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 39.349808,
+   "raw": "ESTIMATED YIELD * 2) (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245805",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.918708828000035,
+ "lon": -116.43228093799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208581",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245805",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

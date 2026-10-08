@@ -1,0 +1,99 @@
+{
+ "permit": "WP0029147",
+ "processed": "2026-10-08T02:41:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "642-183-017",
+ "address": "642-183-017",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248815",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 130
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248815",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248815",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        200",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 61.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  61 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Direct Rotary                Drilling Fluid    Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2020-05-18",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.95317,
+   "lon": -116.481242,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             60 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248815",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.95317000000006,
+ "lon": -116.48124199999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/35031",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248815",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022584",
+ "processed": "2026-10-08T02:28:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-280-012",
+ "address": "42225 Hacienda Dr",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249267",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 566
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249267",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 16.754211,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-02-01",
+   "conf": "medium",
+   "ocrConf": 54.002319,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249267",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.51533317800005,
+ "lon": -117.34665497299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19031",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249267",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

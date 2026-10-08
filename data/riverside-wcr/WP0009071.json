@@ -1,0 +1,48 @@
+{
+ "permit": "WP0009071",
+ "processed": "2026-10-08T02:10:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-290-011",
+ "address": "Via Nuve",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240012",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 973
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240012",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "low",
+   "ocrConf": 17.642586,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 350",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240012",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.50925447900005,
+ "lon": -117.35351589599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214044",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240012",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

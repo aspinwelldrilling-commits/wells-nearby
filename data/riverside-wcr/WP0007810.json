@@ -1,0 +1,49 @@
+{
+ "permit": "WP0007810",
+ "processed": "2026-10-08T02:10:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-040-012",
+ "address": "41600 Calle Andalvcia",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239291",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 834
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239291",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 810.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING _810",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239291",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.52453412600005,
+ "lon": -117.33785008199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218375",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239291",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

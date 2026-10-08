@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012588",
+ "processed": "2026-10-08T02:17:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-330-027",
+ "address": "39955 Cresta Land Cir",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241755",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 680
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241755",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 2.222359,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 92.42144,
+   "raw": "ESTIMATED YiELD * 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241755",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.555200813000056,
+ "lon": -117.32814119599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211794",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241755",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

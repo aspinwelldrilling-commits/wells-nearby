@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019390",
+ "processed": "2026-10-08T02:28:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-260-011",
+ "address": "41775 Avenida Bosque",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246218",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 676
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246218",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "low",
+   "ocrConf": 19.071739,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 325",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 29.0,
+   "conf": "high",
+   "ocrConf": 92.553535,
+   "raw": "ESTIMATED YIELD * 29 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-10-22",
+   "conf": "low",
+   "ocrConf": 23.035164,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246218",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.51656207900004,
+ "lon": -117.33636394399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208131",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246218",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

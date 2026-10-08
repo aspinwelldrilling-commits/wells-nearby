@@ -1,0 +1,63 @@
+{
+ "permit": "WP0009310",
+ "processed": "2026-10-08T02:12:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-130-002",
+ "address": "20200 Avenida De Arboles",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240192",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 698
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240192",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 14.605476,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 65.0,
+   "conf": "low",
+   "ocrConf": 33.159195,
+   "raw": "ESTIMATED YieLD * 65 __\u2014s(Gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-06-17",
+   "conf": "low",
+   "ocrConf": 33.764732,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240192",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.57527057500005,
+ "lon": -117.31131509999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214232",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240192",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

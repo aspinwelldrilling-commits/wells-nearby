@@ -1,0 +1,79 @@
+{
+ "permit": "WP0025351",
+ "processed": "2026-10-08T02:31:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-330-014",
+ "address": "40900 Sierra Maria Rd",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248339",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 573
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248339",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 170.0,
+   "conf": "medium",
+   "ocrConf": 96.555847,
+   "raw": "Total Depth of Boring 170",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 96.910263,
+   "raw": "Estimated Yield* 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 57.0,
+   "conf": "high",
+   "ocrConf": 84.361412,
+   "raw": "Water Level 57 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-10-20",
+   "conf": "medium",
+   "ocrConf": 56.669384,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.536283,
+   "lon": -117.307933,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248339",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.536283000000026,
+ "lon": -117.30793299999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200333",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248339",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

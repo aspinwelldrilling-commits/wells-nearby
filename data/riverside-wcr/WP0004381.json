@@ -1,0 +1,63 @@
+{
+ "permit": "WP0004381",
+ "processed": "2026-10-08T01:58:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-240-022",
+ "address": "41656 Avenida Conchita",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236318",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 851
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236318",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ____22 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 93.315781,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.071724,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236318",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.51979195600006,
+ "lon": -117.32701209899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220261",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236318",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

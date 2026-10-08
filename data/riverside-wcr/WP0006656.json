@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006656",
+ "processed": "2026-10-08T02:05:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-150-013",
+ "address": "41315 Gallop Ln",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238557",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 997
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238557",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 465.0,
+   "conf": "medium",
+   "ocrConf": 78.814911,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 465",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-03-17",
+   "conf": "high",
+   "ocrConf": 95.195557,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238557",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.53035109800004,
+ "lon": -117.32225352899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218314",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238557",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

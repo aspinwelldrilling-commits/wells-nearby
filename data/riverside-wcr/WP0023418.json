@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023418",
+ "processed": "2026-10-08T02:29:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-190-008",
+ "address": "19500 Hodge Cir",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247805",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 353
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247805",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "low",
+   "ocrConf": 18.785904,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-08-15",
+   "conf": "medium",
+   "ocrConf": 70.109596,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247805",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.52335814700007,
+ "lon": -117.317173218,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202248",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247805",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

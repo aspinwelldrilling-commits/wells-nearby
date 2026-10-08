@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005946",
+ "processed": "2026-10-08T02:03:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "650-140-010",
+ "address": "69200 Moon Ranch Rd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237381",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 818
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237381",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 215.0,
+   "conf": "high",
+   "ocrConf": 81.831932,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _215",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-07-14",
+   "conf": "low",
+   "ocrConf": 44.760746,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237381",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.89348226000004,
+ "lon": -116.45520096599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216061",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237381",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

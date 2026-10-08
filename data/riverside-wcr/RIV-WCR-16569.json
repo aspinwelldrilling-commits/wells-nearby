@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-16569",
+ "processed": "2026-10-08T01:48:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-180-012",
+ "address": "41650 Calle Pino",
+ "city": "Murrieta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16569",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 976
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16569",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 75.344818,
+   "raw": "Standing level after well completion 2 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16569",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.525272,
+ "lon": -117.317514,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409875",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16569",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "18070",
+ "bestDocPage": 1,
+ "status": "partial"
+}

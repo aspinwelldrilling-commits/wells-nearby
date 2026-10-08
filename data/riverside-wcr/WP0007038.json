@@ -1,0 +1,54 @@
+{
+ "permit": "WP0007038",
+ "processed": "2026-10-08T02:38:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "656-160-006",
+ "address": "15525 Mountain View Rd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239425",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2030
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239425",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239425",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 62.806335,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 400",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239425",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.938607492000074,
+ "lon": -116.47657879399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215545",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239425",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

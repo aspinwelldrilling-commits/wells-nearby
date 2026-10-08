@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010702",
+ "processed": "2026-10-08T02:14:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-060-010",
+ "address": "41595 Deanna Ranch Rd",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240935",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 718
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240935",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 580.0,
+   "conf": "medium",
+   "ocrConf": 50.439648,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 580",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-09-06",
+   "conf": "low",
+   "ocrConf": 17.485313,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240935",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.51778976500003,
+ "lon": -117.33855611899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213373",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240935",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

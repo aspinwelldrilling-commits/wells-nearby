@@ -1,0 +1,63 @@
+{
+ "permit": "WP0008718",
+ "processed": "2026-10-08T02:10:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-130-007",
+ "address": "38201 Palo Alto Ln",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239809",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 738
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239809",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "low",
+   "ocrConf": 2.402512,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 26.0,
+   "conf": "medium",
+   "ocrConf": 78.195351,
+   "raw": "ESTIMATED YIELD * 26 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-12-04",
+   "conf": "high",
+   "ocrConf": 85.145943,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239809",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.57665959700006,
+ "lon": -117.30797568099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216692",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239809",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

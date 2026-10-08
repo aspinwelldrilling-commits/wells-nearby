@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004506",
+ "processed": "2026-10-08T01:59:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "930-260-012",
+ "address": "38500 Calle Pimienta",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236415",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 832
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236415",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 62.331055,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 37.0,
+   "conf": "high",
+   "ocrConf": 96.179581,
+   "raw": "WATER LEVEL 37 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236415",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.55928434500004,
+ "lon": -117.30291762399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216396",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236415",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

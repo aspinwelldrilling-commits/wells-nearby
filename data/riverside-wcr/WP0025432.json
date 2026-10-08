@@ -1,0 +1,55 @@
+{
+ "permit": "WP0025432",
+ "processed": "2026-10-08T02:30:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-290-026",
+ "address": "Avenida Escalla",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248410",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 685
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248410",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 80.655609,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-10-26",
+   "conf": "high",
+   "ocrConf": 94.446465,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248410",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.519439341000066,
+ "lon": -117.35626966199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200415",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248410",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

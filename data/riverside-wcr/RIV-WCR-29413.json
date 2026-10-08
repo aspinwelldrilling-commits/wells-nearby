@@ -1,0 +1,66 @@
+{
+ "permit": "RIV-WCR-29413",
+ "processed": "2026-10-08T01:48:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-120-012",
+ "address": "39285 Calle De Campanero",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29413",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 722
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29413",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 425.0,
+   "conf": "low",
+   "ocrConf": 13.540939,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL425",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 37.0,
+   "conf": "low",
+   "ocrConf": 25.579536,
+   "raw": "WATER LeveL 37 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-09-01",
+   "conf": "medium",
+   "ocrConf": 72.951675,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29413",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.56012257000003,
+ "lon": -117.32608017099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408947",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29413",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31811",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,87 @@
+{
+ "permit": "WP0016705",
+ "processed": "2026-10-08T02:21:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "660-140-020",
+ "address": "21St St",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245272",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 843
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245272",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "medium",
+   "ocrConf": 96.77832,
+   "raw": "Total Depth of Boring 350",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "medium",
+   "ocrConf": 77.5849,
+   "raw": "Estimated Yield* 40 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 64.0,
+   "conf": "medium",
+   "ocrConf": 78.361008,
+   "raw": "Water Level _64 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 95.679199,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 7.502586,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-09-05",
+   "conf": "low",
+   "ocrConf": 35.442688,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245272",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.896315119000064,
+ "lon": -116.46124565899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209304",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245272",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

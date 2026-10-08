@@ -1,0 +1,64 @@
+{
+ "permit": "WP0006029",
+ "processed": "2026-10-08T02:04:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "647-150-001",
+ "address": "21100 Hot Springs Rd",
+ "city": "Sky Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238147",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1025
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238147",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 493.0,
+   "conf": "high",
+   "ocrConf": 96.793991,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 493",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 340.0,
+   "conf": "low",
+   "ocrConf": 32.497955,
+   "raw": "WATER LEVeL___340 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 19.0,
+   "conf": "low",
+   "ocrConf": 40.467979,
+   "raw": "ESTIMATED YiELD *_19 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238147",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.896066544000064,
+ "lon": -116.35254102899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216232",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238147",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

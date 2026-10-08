@@ -1,0 +1,71 @@
+{
+ "permit": "WP0020952",
+ "processed": "2026-10-08T02:29:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-140-011",
+ "address": "19141 Avenida De Louisa",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246391",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 453
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246391",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "high",
+   "ocrConf": 95.250038,
+   "raw": "Total Depth of Completed Well 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 95.865662,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "medium",
+   "ocrConf": 65.095184,
+   "raw": "Water Level 120 __\u2014=(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-07-26",
+   "conf": "high",
+   "ocrConf": 90.123085,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246391",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.553862940000045,
+ "lon": -117.32640417199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205170",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246391",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

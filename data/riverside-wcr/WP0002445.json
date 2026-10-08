@@ -1,0 +1,55 @@
+{
+ "permit": "WP0002445",
+ "processed": "2026-10-08T02:34:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "659-200-002",
+ "address": "70100 Edom Hill Rd",
+ "city": "Cathedral City",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235198",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 799
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235198",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 380.0,
+   "conf": "high",
+   "ocrConf": 80.349747,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __380",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-08-12",
+   "conf": "high",
+   "ocrConf": 96.487045,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235198",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.88041952900005,
+ "lon": -116.43120393199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219099",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235198",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,72 @@
+{
+ "permit": "WP0017021",
+ "processed": "2026-10-08T02:23:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-060-034",
+ "address": "39695 Redonda Mesa Rd",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245327",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1576
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245327",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 735.0,
+   "conf": "low",
+   "ocrConf": 20.920593,
+   "raw": "Total Depth of Boring 735",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 35.0,
+   "conf": "medium",
+   "ocrConf": 76.667641,
+   "raw": "Estimated Yield* 35 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 480.0,
+   "conf": "medium",
+   "ocrConf": 71.924973,
+   "raw": "Water Level 480 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-10-08",
+   "conf": "high",
+   "ocrConf": 87.963974,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245327",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.496448247000046,
+ "lon": -117.34023717399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209611",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245327",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

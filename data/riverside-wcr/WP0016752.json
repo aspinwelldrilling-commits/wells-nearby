@@ -1,0 +1,63 @@
+{
+ "permit": "WP0016752",
+ "processed": "2026-10-08T02:22:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-161-002",
+ "address": "69570 Rockwood Dr",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245293",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1145
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245293",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.885551,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "medium",
+   "ocrConf": 51.281055,
+   "raw": "Estimated Yield* 40 _\u2014s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-10-12",
+   "conf": "high",
+   "ocrConf": 85.526299,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245293",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.92156328200008,
+ "lon": -116.49346381599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209351",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245293",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

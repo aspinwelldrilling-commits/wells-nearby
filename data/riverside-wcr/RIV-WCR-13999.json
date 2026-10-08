@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13999",
+ "processed": "2026-10-08T01:47:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-030-002",
+ "address": "18675 La Ventana Cir",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13999",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1881
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13999",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "high",
+   "ocrConf": 96.906479,
+   "raw": "Completed depth 260 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13999",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.531084847000045,
+ "lon": -117.33682199199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15492",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13999",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16177",
+ "bestDocPage": 1,
+ "status": "partial"
+}

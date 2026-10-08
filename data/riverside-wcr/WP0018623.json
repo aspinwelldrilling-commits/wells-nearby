@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018623",
+ "processed": "2026-10-08T02:27:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-270-011",
+ "address": "20115 Avenida De Arboles",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246018",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 365
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246018",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 155.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL155",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-09-13",
+   "conf": "low",
+   "ocrConf": 12.750107,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246018",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.573574423000025,
+ "lon": -117.31063225999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207603",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246018",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,69 @@
+{
+ "permit": "WP0010669",
+ "processed": "2026-10-08T02:14:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "901-150-001",
+ "address": "40100 Belardes Potrero Rd",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240899",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1420
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240899",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240899",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 975.0,
+   "conf": "high",
+   "ocrConf": 83.411278,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 975",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 49.895927,
+   "raw": "WATER LEVEL __2&@} _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-08-13",
+   "conf": "low",
+   "ocrConf": 38.680382,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240899",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.53245773400005,
+ "lon": -117.47699891199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213350",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240899",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

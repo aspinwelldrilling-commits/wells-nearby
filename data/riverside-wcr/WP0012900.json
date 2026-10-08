@@ -1,0 +1,48 @@
+{
+ "permit": "WP0012900",
+ "processed": "2026-10-08T02:18:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-080-011",
+ "address": "18550 Avenida Bosque",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242093",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 859
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242093",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 37.383495,
+   "raw": "ESTIMATED YIELD * 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242093",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.52375200800003,
+ "lon": -117.33079790899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211791",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242093",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

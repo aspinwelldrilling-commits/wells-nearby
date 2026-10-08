@@ -1,0 +1,49 @@
+{
+ "permit": "WP0005945",
+ "processed": "2026-10-08T02:35:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "656-280-007",
+ "address": "68100 Louisan Rd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237385",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 756
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237385",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "low",
+   "ocrConf": 26.086945,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 240",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237385",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.93611682200003,
+ "lon": -116.47472200399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216055",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237385",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

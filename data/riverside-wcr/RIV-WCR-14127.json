@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14127",
+ "processed": "2026-10-08T02:33:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "664-090-015",
+ "address": "Mission Lakes Blvd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14127",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1848
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14127",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "high",
+   "ocrConf": 96.049149,
+   "raw": "Completed depth 900 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 505.0,
+   "conf": "high",
+   "ocrConf": 90.620041,
+   "raw": "Standing level after well completion 505 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14127",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.975490071000024,
+ "lon": -116.53863885099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15740",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14127",
+ "serviceType": "New Construction",
+ "wellType": "Municipal",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16303",
+ "bestDocPage": 1,
+ "status": "readable"
+}

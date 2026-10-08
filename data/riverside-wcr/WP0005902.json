@@ -1,0 +1,63 @@
+{
+ "permit": "WP0005902",
+ "processed": "2026-10-08T02:04:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-120-030",
+ "address": "40581 Via Herradura",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237348",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 870
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237348",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 399.0,
+   "conf": "medium",
+   "ocrConf": 58.31147,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _399",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Method",
+   "conf": "medium",
+   "ocrConf": 77.915901,
+   "raw": "DRILLING\nMETHOD Air method FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.312767,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237348",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.54140761900004,
+ "lon": -117.32759271099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215932",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237348",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

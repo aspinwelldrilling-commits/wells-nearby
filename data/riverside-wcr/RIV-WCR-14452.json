@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14452",
+ "processed": "2026-10-08T02:32:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "642-082-005",
+ "address": "67200 Hacienda Ave",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14452",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1050
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14452",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 83.58429,
+   "raw": "Completed depth 200 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14452",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.95445482700006,
+ "lon": -116.48868443099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16422",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14452",
+ "serviceType": "New Construction",
+ "wellType": "Other",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16648",
+ "bestDocPage": 1,
+ "status": "partial"
+}

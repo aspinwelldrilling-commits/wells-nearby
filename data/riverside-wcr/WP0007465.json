@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007465",
+ "processed": "2026-10-08T02:08:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-300-010",
+ "address": "41125 Calle De Suenos",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239064",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 959
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239064",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 16.5467,
+   "raw": "ESTIMATED YIELD \u201c2s __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 2.84491,
+   "raw": "WATER LEVEL 2} (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239064",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.54406558100004,
+ "lon": -117.30256766699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217072",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239064",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

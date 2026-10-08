@@ -1,0 +1,63 @@
+{
+ "permit": "WP0005755",
+ "processed": "2026-10-08T02:02:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-150-003",
+ "address": "37980 Via Huerta Rd",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237259",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 796
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237259",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 76.70829,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 53.0,
+   "conf": "high",
+   "ocrConf": 96.272964,
+   "raw": "WATER LEVEL 53 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-04-02",
+   "conf": "low",
+   "ocrConf": 43.109985,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237259",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.575402954000026,
+ "lon": -117.30073658899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215597",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237259",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

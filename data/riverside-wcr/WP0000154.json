@@ -1,0 +1,49 @@
+{
+ "permit": "WP0000154",
+ "processed": "2026-10-08T01:49:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "645-250-019",
+ "address": "19400 Ford Ave",
+ "city": "Sky Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233473",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1006
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233473",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 396.0,
+   "conf": "low",
+   "ocrConf": 33.351868,
+   "raw": "(12) WELL LOG: Total depth 396",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233473",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.90791118200008,
+ "lon": -116.40486520899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222337",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233473",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

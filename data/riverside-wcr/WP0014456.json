@@ -1,0 +1,54 @@
+{
+ "permit": "WP0014456",
+ "processed": "2026-10-08T02:19:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-290-019",
+ "address": "40420 Calle Rosita",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242987",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1603
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242987",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242987",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 2.950928,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242987",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.543058177000034,
+ "lon": -117.30842758799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211306",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242987",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

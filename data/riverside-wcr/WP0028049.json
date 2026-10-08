@@ -1,0 +1,76 @@
+{
+ "permit": "WP0028049",
+ "processed": "2026-10-08T02:30:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-020-008",
+ "address": "39898 Via Sereno",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248699",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 171
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248699",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248699",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 735.0,
+   "conf": "medium",
+   "ocrConf": 73.224022,
+   "raw": "Total Depth of Completed Well 735",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 94.62326,
+   "raw": "Water Level 35 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-11-12",
+   "conf": "high",
+   "ocrConf": 85.040962,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.55341,
+   "lon": -117.34236,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248699",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.553414849000035,
+ "lon": -117.34237199499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34442",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248699",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0017325",
+ "processed": "2026-10-08T02:22:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-320-006",
+ "address": "20450 Avenida Castilla",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245525",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 713
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245525",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 165.0,
+   "conf": "low",
+   "ocrConf": 34.193527,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL165",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 99.0,
+   "conf": "medium",
+   "ocrConf": 57.906898,
+   "raw": "WATER LEVEL 99 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-02-20",
+   "conf": "medium",
+   "ocrConf": 63.799549,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245525",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.55867484200007,
+ "lon": -117.30876596899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209859",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245525",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

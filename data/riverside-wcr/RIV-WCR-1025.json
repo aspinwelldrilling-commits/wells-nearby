@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-1025",
+ "processed": "2026-10-08T01:44:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "11021 Sunset Ave",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/1025",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 71
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/1025",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 209.0,
+   "conf": "medium",
+   "ocrConf": 96.707108,
+   "raw": "Total depth of well 209 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/1025",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.96834550400007,
+ "lon": -116.49902379499997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/1025",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "02272",
+ "bestDocPage": 1,
+ "status": "partial"
+}

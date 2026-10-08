@@ -1,0 +1,79 @@
+{
+ "permit": "WP0023246",
+ "processed": "2026-10-08T02:30:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-290-010",
+ "address": "38970 Ave Bonita",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247649",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 393
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247649",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 518.0,
+   "conf": "medium",
+   "ocrConf": 96.231819,
+   "raw": "Total Depth of Boring 518",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 87.947937,
+   "raw": "Estimated Yield * 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Down-Hole Hammer",
+   "conf": "high",
+   "ocrConf": 90.518723,
+   "raw": "Drilling Method Down-Hole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 81.651604,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-06-28",
+   "conf": "high",
+   "ocrConf": 96.695282,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247649",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.56559908200006,
+ "lon": -117.31519325099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202082",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247649",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

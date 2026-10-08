@@ -1,0 +1,48 @@
+{
+ "permit": "WP0007259",
+ "processed": "2026-10-08T02:39:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "644-072-003",
+ "address": "68075 Club Circle Dr",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238933",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 720
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238933",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.748764,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238933",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.95506844400006,
+ "lon": -116.47361716499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216333",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238933",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

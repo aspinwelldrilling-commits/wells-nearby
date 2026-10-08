@@ -1,0 +1,57 @@
+{
+ "permit": "WP0003522",
+ "processed": "2026-10-08T01:56:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "928-050-006",
+ "address": "37954 Calle De Lobo",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235801",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 867
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235801",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "low",
+   "ocrConf": 32.316193,
+   "raw": "TOTAL DEPTH OF BORING _ 320",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 87.371033,
+   "raw": "WATER LEVEL 1 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235801",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.579784510000025,
+ "lon": -117.31592981299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217489",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235801",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

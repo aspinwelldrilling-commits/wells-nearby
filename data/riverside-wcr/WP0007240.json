@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007240",
+ "processed": "2026-10-08T02:07:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "642-133-015",
+ "address": "12535 Hidalgo St",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238924",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 756
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238924",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 29.936127,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-04-25",
+   "conf": "low",
+   "ocrConf": 38.735676,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238924",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.957505207000054,
+ "lon": -116.47688161899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216246",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238924",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

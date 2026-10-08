@@ -1,0 +1,105 @@
+{
+ "permit": "WP0030927",
+ "processed": "2026-10-08T02:33:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "654-300-005",
+ "address": "17257 Morley Rd",
+ "city": "Sky Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306515",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 22
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306515",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306515",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306515",
+   "page": 3,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well          400",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 256.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                256 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Direct Rotary               Drilling Fluid   Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2023-02-21",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.922787,
+   "lon": -116.412481,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*              2 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306515",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.922787,
+ "lon": -116.412481,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310911",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306515",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Expired",
+ "bestDocPage": 1,
+ "status": "readable"
+}

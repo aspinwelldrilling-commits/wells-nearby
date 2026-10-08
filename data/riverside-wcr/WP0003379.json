@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003379",
+ "processed": "2026-10-08T01:56:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-330-008",
+ "address": "20170 Sierra Soto Rd",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235705",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 828
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235705",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 320",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 33.0,
+   "conf": "low",
+   "ocrConf": 45.927422,
+   "raw": "ESTIMATED YIELD _ 33 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235705",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.53450182900008,
+ "lon": -117.30708717699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216546",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235705",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

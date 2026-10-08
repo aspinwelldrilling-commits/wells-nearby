@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019341",
+ "processed": "2026-10-08T02:28:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-260-009",
+ "address": "41955 Calle Corriente",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246214",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 710
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246214",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 26.30912,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 85.460037,
+   "raw": "ESTIMATED YiELD * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-10-16",
+   "conf": "low",
+   "ocrConf": 10.275887,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246214",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.51420828400006,
+ "lon": -117.33651607299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208102",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246214",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

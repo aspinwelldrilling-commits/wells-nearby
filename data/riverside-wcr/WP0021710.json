@@ -1,0 +1,72 @@
+{
+ "permit": "WP0021710",
+ "processed": "2026-10-08T02:29:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "657-260-015",
+ "address": "17325 Mountain View",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247102",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 417
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247102",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 96.936317,
+   "raw": "Total Depth of Boring 400",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.492096,
+   "raw": "Estimated Yield * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 49.559483,
+   "raw": "Water Level 220  _\u2014(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-05-24",
+   "conf": "high",
+   "ocrConf": 92.934067,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247102",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.92271498000002,
+ "lon": -116.47678492299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203824",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247102",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0001539",
+ "processed": "2026-10-08T02:34:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "639-272-006",
+ "address": "66700 5th St",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234468",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 849
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234468",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 520.0,
+   "conf": "low",
+   "ocrConf": 50.823814,
+   "raw": "TOTAL DEPTH OF BORING 520",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 138.0,
+   "conf": "medium",
+   "ocrConf": 71.416702,
+   "raw": "WATER LEVEL 138 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234468",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.96685459400004,
+ "lon": -116.49729025899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219693",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234468",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

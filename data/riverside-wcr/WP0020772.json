@@ -1,0 +1,71 @@
+{
+ "permit": "WP0020772",
+ "processed": "2026-10-08T02:27:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "647-121-003",
+ "address": "20550 Easy St",
+ "city": "Sky Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246555",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 397
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246555",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 520.0,
+   "conf": "low",
+   "ocrConf": 30.793694,
+   "raw": "Total Depth of Completed Well 520",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.597939,
+   "raw": "Estimated Yield * 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 290.0,
+   "conf": "medium",
+   "ocrConf": 76.76487,
+   "raw": "Water Level 290 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-04",
+   "conf": "high",
+   "ocrConf": 96.401917,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246555",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.89975147400003,
+ "lon": -116.35084128899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204991",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246555",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

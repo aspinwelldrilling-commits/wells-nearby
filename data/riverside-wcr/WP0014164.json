@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014164",
+ "processed": "2026-10-08T02:37:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-150-002-0",
+ "address": "19350 Via Diana",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242682",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 764
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242682",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 38.495575,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 15.0,
+   "conf": "low",
+   "ocrConf": 48.11319,
+   "raw": "WATER LEVEL____15 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-04-26",
+   "conf": "low",
+   "ocrConf": 27.09201,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242682",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.54669411500004,
+ "lon": -117.32154836899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211132",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242682",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

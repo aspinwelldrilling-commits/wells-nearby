@@ -1,0 +1,57 @@
+{
+ "permit": "WP0004199",
+ "processed": "2026-10-08T01:57:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-250-001",
+ "address": "42205 Calle Bandido",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236195",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 784
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236195",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "low",
+   "ocrConf": 47.629501,
+   "raw": "TOTAL DEPTH OF BORING __310",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 7.843262,
+   "raw": "ESTIMATED YIELD*_2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236195",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.51519927600003,
+ "lon": -117.32847707899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219805",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236195",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

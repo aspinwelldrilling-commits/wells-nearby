@@ -1,0 +1,70 @@
+{
+ "permit": "WP0018405",
+ "processed": "2026-10-08T02:25:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "654-290-025",
+ "address": "71137 Aurora Rd",
+ "city": "Sky Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244229",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 730
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244229",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 395.0,
+   "conf": "high",
+   "ocrConf": 86.047714,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ..395",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Mud Rotary",
+   "conf": "high",
+   "ocrConf": 96.710297,
+   "raw": "DRILLING METHOD Mud Rotary FLUID Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 96.350769,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-03-19",
+   "conf": "high",
+   "ocrConf": 96.873695,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244229",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.920528843000056,
+ "lon": -116.42005868199999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244229",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

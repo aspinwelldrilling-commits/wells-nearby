@@ -1,0 +1,79 @@
+{
+ "permit": "WP0022123",
+ "processed": "2026-10-08T02:28:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-280-037",
+ "address": "42172 Angels Peak Ct",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249389",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 405
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249389",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 73.144257,
+   "raw": "Total Depth of Completed Well 1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.960274,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 94.398758,
+   "raw": "Water Level 300 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 96.538696,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-12-26",
+   "conf": "low",
+   "ocrConf": 49.541878,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249389",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.51023779500008,
+ "lon": -117.34663799199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18500",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249389",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

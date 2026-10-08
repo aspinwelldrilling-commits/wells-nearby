@@ -1,0 +1,77 @@
+{
+ "permit": "WP0015035",
+ "processed": "2026-10-08T02:38:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "667-080-002",
+ "address": "11535 Karen Ave",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244310",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1517
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244310",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244310",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "high",
+   "ocrConf": 96.888245,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1250.0,
+   "conf": "high",
+   "ocrConf": 96.600975,
+   "raw": "ESTIMATED YIELD* 1250 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 385.0,
+   "conf": "high",
+   "ocrConf": 96.594765,
+   "raw": "WATER LEVEL 385 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-02-09",
+   "conf": "high",
+   "ocrConf": 81.462006,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244310",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.96440536000006,
+ "lon": -116.56331362599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210509",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244310",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

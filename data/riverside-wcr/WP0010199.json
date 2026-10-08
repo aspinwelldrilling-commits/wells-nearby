@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010199",
+ "processed": "2026-10-08T02:14:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "660-140-015",
+ "address": "20490 Artesia Rd",
+ "city": "Desert Hot Springs",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240372",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 957
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240372",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 2335.0,
+   "conf": "low",
+   "ocrConf": 41.049248,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 2335",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 63.0,
+   "conf": "high",
+   "ocrConf": 96.386276,
+   "raw": "WATER LEVEL 63 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-02-08",
+   "conf": "high",
+   "ocrConf": 83.840881,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240372",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.90030662600003,
+ "lon": -116.46141044199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214907",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240372",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

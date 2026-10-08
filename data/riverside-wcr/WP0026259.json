@@ -1,0 +1,71 @@
+{
+ "permit": "WP0026259",
+ "processed": "2026-10-08T02:29:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "932-160-060",
+ "address": "Avenida Presa",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248345",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 348
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248345",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 430.0,
+   "conf": "high",
+   "ocrConf": 96.806892,
+   "raw": "Total Depth of Completed Well 430",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 57.0,
+   "conf": "high",
+   "ocrConf": 96.660347,
+   "raw": "Water Level 57 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 96.211884,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-08-01",
+   "conf": "high",
+   "ocrConf": 96.707115,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248345",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.512086830000044,
+ "lon": -117.32270340999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199359",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248345",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

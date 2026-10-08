@@ -1,0 +1,55 @@
+{
+ "permit": "WP0011055",
+ "processed": "2026-10-08T02:15:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "929-320-003",
+ "address": "20477 Mesita Ln",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241238",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 726
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241238",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "medium",
+   "ocrConf": 54.801197,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL280",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-09-04",
+   "conf": "medium",
+   "ocrConf": 63.424904,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241238",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.55995248500005,
+ "lon": -117.31049732899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213644",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241238",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

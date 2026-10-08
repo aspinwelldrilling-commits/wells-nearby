@@ -1,0 +1,49 @@
+{
+ "permit": "WP0007775",
+ "processed": "2026-10-08T02:08:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "931-390-002",
+ "address": "19880 Tenaja Rd",
+ "city": "Tenaja",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239264",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1020
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239264",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 799.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 799",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239264",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.52096671800007,
+ "lon": -117.30012084499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218286",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239264",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

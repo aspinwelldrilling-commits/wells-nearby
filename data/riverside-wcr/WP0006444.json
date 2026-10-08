@@ -1,0 +1,64 @@
+{
+ "permit": "WP0006444",
+ "processed": "2026-10-08T02:05:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "930-280-011",
+ "address": "39315 Calle De Suenos",
+ "city": "La Cresta",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238430",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 771
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238430",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 325.0,
+   "conf": "low",
+   "ocrConf": 48.020458,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __325",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 26.598251,
+   "raw": "WATER LEVEL ____20 __(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Retary",
+   "conf": "medium",
+   "ocrConf": 65.394714,
+   "raw": "DRILLING\nMETHOD air retary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238430",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.55635095900004,
+ "lon": -117.30847373099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217532",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238430",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}
