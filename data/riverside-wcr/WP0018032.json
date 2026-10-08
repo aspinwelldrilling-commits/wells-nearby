@@ -1,0 +1,56 @@
+{
+ "permit": "WP0018032",
+ "processed": "2026-10-08T01:05:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "848-043-001",
+ "address": "Blythe Commingled Plume#5",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245784",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1013
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245784",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 21.0,
+   "conf": "low",
+   "ocrConf": 78.095276,
+   "raw": "Total Depth of Boring 21",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-20",
+   "conf": "high",
+   "ocrConf": 82.738052,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245784",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.60991360000003,
+ "lon": -114.59812249999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208683",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245784",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

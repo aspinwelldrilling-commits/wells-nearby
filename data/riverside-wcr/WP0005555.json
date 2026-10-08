@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005555",
+ "processed": "2026-10-07T23:41:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "833-091-020",
+ "address": "5689 Colorado River Rd",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243602",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 945
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243602",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 85.413528,
+   "raw": "ESTIMATED YIELD 4 ____ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-05-19",
+   "conf": "high",
+   "ocrConf": 87.654228,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243602",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.66404304500003,
+ "lon": -114.53112762199999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243602",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

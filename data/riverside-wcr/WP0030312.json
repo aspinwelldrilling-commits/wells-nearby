@@ -1,0 +1,93 @@
+{
+ "permit": "WP0030312",
+ "processed": "2026-10-07T23:52:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "875-280-017",
+ "address": "18821 E Riviera Dr ",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256131",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 12
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256131",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256131",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 117.0,
+   "conf": "medium",
+   "ocrConf": null,
+   "raw": "Total Depth of Boring          117",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 16.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  16 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Other - Dual Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method        Other - Dual Rotary        Drilling Fluid   Water",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-12-15",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             50 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256131",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.568989,
+ "lon": -114.543886,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310663",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256131",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,76 @@
+{
+ "permit": "WP0030631",
+ "processed": "2026-10-08T01:12:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "808-112-005",
+ "address": "43035 Aztec Ave ",
+ "city": "Desert Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270860",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 165
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270860",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270860",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 90.83255,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 82.296928,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 94.190605,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-05-03",
+   "conf": "medium",
+   "ocrConf": 51.850449,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270860",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.708898,
+ "lon": -115.380139,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270219",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270860",
+ "serviceType": "Destruction",
+ "wellType": "Cathodic",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

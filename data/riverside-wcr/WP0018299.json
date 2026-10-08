@@ -1,0 +1,86 @@
+{
+ "permit": "WP0018299",
+ "processed": "2026-10-08T01:06:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "824-080-004",
+ "address": "16350 W Hobson Way",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245913",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 714
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245913",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 640.0,
+   "conf": "high",
+   "ocrConf": 96.899193,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 640",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1243.0,
+   "conf": "low",
+   "ocrConf": 34.400414,
+   "raw": "ESTIMATED YIELD 1,243 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 143.0,
+   "conf": "high",
+   "ocrConf": 96.858162,
+   "raw": "WATER LEVEL 143 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Rotary",
+   "conf": "high",
+   "ocrConf": 86.637886,
+   "raw": "DRILLING METHOD Reverse Rotary FLUID Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.501938,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-02-28",
+   "conf": "high",
+   "ocrConf": 95.516701,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245913",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.61015101900006,
+ "lon": -114.70903252999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208860",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245913",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

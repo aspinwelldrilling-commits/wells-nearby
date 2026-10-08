@@ -1,0 +1,57 @@
+{
+ "permit": "WP0005433",
+ "processed": "2026-10-07T23:41:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "869-240-019",
+ "address": "14340 Riviera Dr",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237029",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 860
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237029",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 13.026016,
+   "raw": "TOTAL DEPTH OF BORING __22",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 21.44593,
+   "raw": "WATER LEVEL 2 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237029",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.601134340000044,
+ "lon": -114.53616549099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218991",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237029",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

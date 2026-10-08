@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014840",
+ "processed": "2026-10-08T00:55:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "848-100-029",
+ "address": "600 W Donlon St",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243244",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 979
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243244",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 29.0,
+   "conf": "low",
+   "ocrConf": 34.680336,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 29",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 8.0,
+   "conf": "low",
+   "ocrConf": 45.369301,
+   "raw": "WATER LeveL__8' (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-06-24",
+   "conf": "high",
+   "ocrConf": 96.784805,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243244",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.60854115400008,
+ "lon": -114.60495219899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210347",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243244",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

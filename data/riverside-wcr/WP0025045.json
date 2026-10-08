@@ -1,0 +1,56 @@
+{
+ "permit": "WP0025045",
+ "processed": "2026-10-08T01:09:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "807-110-013",
+ "address": "44810 Kaiser Rd",
+ "city": "Desert Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248081",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 135
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248081",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 752.0,
+   "conf": "low",
+   "ocrConf": 61.032024,
+   "raw": "Total Depth of Boring 752",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-04-04",
+   "conf": "medium",
+   "ocrConf": 69.465141,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248081",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.83235005800003,
+ "lon": -115.38914332399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200032",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248081",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

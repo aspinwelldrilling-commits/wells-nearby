@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021178",
+ "processed": "2026-10-08T01:07:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "808-112-006",
+ "address": "43025 Aztec Ave",
+ "city": "Desert Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246865",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 417
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246865",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 71.722763,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-10-25",
+   "conf": "high",
+   "ocrConf": 87.880516,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246865",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.70824700800006,
+ "lon": -115.37986958899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203312",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246865",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

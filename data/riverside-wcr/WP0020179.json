@@ -1,0 +1,70 @@
+{
+ "permit": "WP0020179",
+ "processed": "2026-10-08T01:05:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "818-160-010",
+ "address": "",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246645",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 549
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246645",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 1.0,
+   "conf": "medium",
+   "ocrConf": 53.527626,
+   "raw": "Estimated Yield* 1 Ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 196.0,
+   "conf": "medium",
+   "ocrConf": 55.317032,
+   "raw": "Water Level 196 _\u2014_\u2014s(Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 51.135559,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-08-31",
+   "conf": "medium",
+   "ocrConf": 77.379562,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246645",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.67185100800003,
+ "lon": -114.75490325499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204426",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246645",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

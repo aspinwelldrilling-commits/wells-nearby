@@ -1,0 +1,56 @@
+{
+ "permit": "WP0021327",
+ "processed": "2026-10-08T01:12:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "811-221-001",
+ "address": "Gas Co Line 2000 MP 4646",
+ "city": "Desert Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246928",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 408
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246928",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 95.735809,
+   "raw": "Total Depth of Boring 500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-01-12",
+   "conf": "low",
+   "ocrConf": 18.97908,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246928",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.69314439500005,
+ "lon": -115.31771918899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203454",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246928",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

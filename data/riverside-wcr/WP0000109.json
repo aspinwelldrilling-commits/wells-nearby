@@ -1,0 +1,49 @@
+{
+ "permit": "WP0000109",
+ "processed": "2026-10-07T23:55:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "848-142-021",
+ "address": "350 S Broadway",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243384",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 822
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243384",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 62.144341,
+   "raw": "(12) WELL LOG: Total depth 2O",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243384",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.605741211000066,
+ "lon": -114.59622316499997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243384",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

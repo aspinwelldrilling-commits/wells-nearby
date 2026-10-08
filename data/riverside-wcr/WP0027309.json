@@ -1,0 +1,55 @@
+{
+ "permit": "WP0027309",
+ "processed": "2026-10-08T01:09:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "Hwy 78",
+ "city": "Palo Verde",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249509",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1465
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249509",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 29.4,
+   "conf": "medium",
+   "ocrConf": 56.69532,
+   "raw": "Total Depth of Completed Well 29.4",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-11-20",
+   "conf": "low",
+   "ocrConf": 15.88868,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249509",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.454271918000074,
+ "lon": -114.73084452299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/269269",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249509",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

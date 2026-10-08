@@ -1,0 +1,71 @@
+{
+ "permit": "WP0018369",
+ "processed": "2026-10-07T23:49:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "833-041-025",
+ "address": "5801 Colorado River Rd",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245956",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 841
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245956",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 96.67878,
+   "raw": "Total Depth of Completed Well 80",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 91.949921,
+   "raw": "Estimated Yield * 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 89.340057,
+   "raw": "Water Level _10 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-01-08",
+   "conf": "medium",
+   "ocrConf": 59.087032,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245956",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.66318905300005,
+ "lon": -114.53057846499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208928",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245956",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

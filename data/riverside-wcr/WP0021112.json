@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021112",
+ "processed": "2026-10-08T01:11:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "833-320-014",
+ "address": "2nd Ave",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246831",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 432
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246831",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 13.0,
+   "conf": "high",
+   "ocrConf": 94.090736,
+   "raw": "Water Level 13 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-12-14",
+   "conf": "low",
+   "ocrConf": 29.243393,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246831",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.68760780400004,
+ "lon": -114.53209792699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203246",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246831",
+ "serviceType": "New Construction",
+ "wellType": "Piezometer",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

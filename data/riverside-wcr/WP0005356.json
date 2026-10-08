@@ -1,0 +1,72 @@
+{
+ "permit": "WP0005356",
+ "processed": "2026-10-07T23:40:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "878-182-003",
+ "address": "14020 W Hobsonway",
+ "city": "Palo Verde",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236959",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 741
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236959",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 80.0,
+   "conf": "low",
+   "ocrConf": 20.561363,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 80",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 80.0,
+   "conf": "low",
+   "ocrConf": 49.816853,
+   "raw": "ESTIMATED YIELD ~ \u201c80 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 38.697681,
+   "raw": "WATER LEVEL 4% ___ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 94.615395,
+   "raw": "DRILLING\nMETHOD Rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236959",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.474814028000026,
+ "lon": -114.62991752499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218750",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236959",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

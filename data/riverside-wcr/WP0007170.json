@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007170",
+ "processed": "2026-10-08T00:49:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "845-170-005",
+ "address": "761 E Hobson Way",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238863",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 959
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238863",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 23.0,
+   "conf": "medium",
+   "ocrConf": 60.952538,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 23",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-10-25",
+   "conf": "low",
+   "ocrConf": 45.705063,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238863",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.61102000000005,
+ "lon": -114.58831429999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215981",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238863",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

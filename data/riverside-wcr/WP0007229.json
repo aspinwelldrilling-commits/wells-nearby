@@ -1,0 +1,62 @@
+{
+ "permit": "WP0007229",
+ "processed": "2026-10-07T23:43:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "842-080-005",
+ "address": "747 N 7th St",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238909",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1435
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238909",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238909",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 48.767056,
+   "raw": "ESTIMATED YIELD * 4 __ (Gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 94.431297,
+   "raw": "WATER LEVEL 5 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238909",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.621920887000044,
+ "lon": -114.58905676899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216211",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238909",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

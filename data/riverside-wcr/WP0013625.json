@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013625",
+ "processed": "2026-10-08T00:56:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "836-122-002",
+ "address": "1134 W Hobsonway",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243992",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 925
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243992",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 20",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-04-18",
+   "conf": "low",
+   "ocrConf": 27.745369,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243992",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.61000530000007,
+ "lon": -114.60956779999998,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243992",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0030004",
+ "processed": "2026-10-07T23:52:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "810-182-001",
+ "address": "818-182-001 ",
+ "city": "Desert Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248988",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 121
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248988",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248988",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 41.821243,
+   "raw": "Total Depth of Boring 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 315.0,
+   "conf": "high",
+   "ocrConf": 93.047081,
+   "raw": "Water Level 315 (Feet",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248988",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.68294,
+ "lon": -115.24297,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/232687",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248988",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

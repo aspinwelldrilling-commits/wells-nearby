@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014838",
+ "processed": "2026-10-08T00:55:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "848-100-035",
+ "address": "301 S Lovekin",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243242",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 935
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243242",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _20",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 8.0,
+   "conf": "low",
+   "ocrConf": 30.275261,
+   "raw": "WATER LeveL__8' (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243242",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.60999190000007,
+ "lon": -114.60527849999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210344",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243242",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

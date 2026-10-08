@@ -1,0 +1,86 @@
+{
+ "permit": "WP0019904",
+ "processed": "2026-10-08T01:10:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "705-230-040",
+ "address": "100 Hatfield Rd",
+ "city": "Chiriaco Summit",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246377",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 403
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246377",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "high",
+   "ocrConf": 84.703964,
+   "raw": "Total Depth of Completed Well_1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3000.0,
+   "conf": "high",
+   "ocrConf": 96.045349,
+   "raw": "Estimated Yield * 3,000 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 489.0,
+   "conf": "high",
+   "ocrConf": 83.129997,
+   "raw": "Water Level 489 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Circulation Rotary",
+   "conf": "high",
+   "ocrConf": 87.733528,
+   "raw": "Drilling Method Reverse Circulation Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 84.323967,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-09-02",
+   "conf": "high",
+   "ocrConf": 90.897484,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246377",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.69155540300005,
+ "lon": -115.65121773499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205499",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246377",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

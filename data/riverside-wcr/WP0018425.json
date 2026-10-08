@@ -1,0 +1,64 @@
+{
+ "permit": "WP0018425",
+ "processed": "2026-10-07T23:47:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "833-092-018",
+ "address": "5820 Colorado River Rd",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245981",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 52
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245981",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 90.0,
+   "conf": "medium",
+   "ocrConf": 92.954712,
+   "raw": "Total Depth of Boring 90",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "medium",
+   "ocrConf": 77.222633,
+   "raw": "Estimated Yield* 60 Ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-03-07",
+   "conf": "high",
+   "ocrConf": 81.072906,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245981",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.66400415500004,
+ "lon": -114.52948882099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208984",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245981",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

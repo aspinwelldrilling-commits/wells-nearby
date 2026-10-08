@@ -1,0 +1,84 @@
+{
+ "permit": "WP0028486",
+ "processed": "2026-10-07T23:49:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "854-110-013",
+ "address": "123 E 14th Ave",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270895",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 84
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270895",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270895",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 68.390221,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 95.75972,
+   "raw": "Water Level 12 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "low",
+   "ocrConf": 42.500839,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 89.405167,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-05-03",
+   "conf": "high",
+   "ocrConf": 80.889526,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270895",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.60300500500006,
+ "lon": -114.57101150499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270561",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270895",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

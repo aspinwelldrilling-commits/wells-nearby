@@ -1,0 +1,57 @@
+{
+ "permit": "WP0017552",
+ "processed": "2026-10-07T23:50:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "866-022-012",
+ "address": "14141 Neighbors Blvd",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245626",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1115
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245626",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 44.0,
+   "conf": "low",
+   "ocrConf": 22.993195,
+   "raw": "TOTAL DEPTH OF BORING _44",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 41.121071,
+   "raw": "ESTIMATED YIELD * <2) _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245626",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.60139349900004,
+ "lon": -114.65813341599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210078",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245626",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

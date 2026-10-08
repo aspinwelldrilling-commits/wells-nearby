@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000757",
+ "processed": "2026-10-07T23:37:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "821-190-030",
+ "address": "3051 N Arrowhead Blvd",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243408",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2023
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243408",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 219.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING 219",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-04-17",
+   "conf": "high",
+   "ocrConf": 95.773788,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243408",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.682508410000025,
+ "lon": -114.64227531499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/268028",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243408",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

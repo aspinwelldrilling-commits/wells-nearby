@@ -1,0 +1,77 @@
+{
+ "permit": "WP0026169",
+ "processed": "2026-10-08T01:12:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "833-070-010",
+ "address": "4980 Colorado River Rd",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275024",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1219
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275024",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275024",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 380.0,
+   "conf": "medium",
+   "ocrConf": 67.280045,
+   "raw": "Total Depth of Completed Well _380",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 250.0,
+   "conf": "high",
+   "ocrConf": 96.360481,
+   "raw": "Estimated Yield * 250 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 16.0,
+   "conf": "medium",
+   "ocrConf": 58.891869,
+   "raw": "Water Level 16 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-05-05",
+   "conf": "high",
+   "ocrConf": 95.461304,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275024",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.670079103000035,
+ "lon": -114.53576100199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274982",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275024",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

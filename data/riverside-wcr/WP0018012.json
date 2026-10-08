@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018012",
+ "processed": "2026-10-08T00:59:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "845-132-017",
+ "address": "Blythe Commingled Plume#5",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246151",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1000
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246151",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 21.0,
+   "conf": "medium",
+   "ocrConf": 69.09581,
+   "raw": "Total Depth of Completed Well 21",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger Craig",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Drilling Method Hollow Stem Auger Craig Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-20",
+   "conf": "medium",
+   "ocrConf": 73.275764,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246151",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.610207100000025,
+ "lon": -114.59982349999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208664",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246151",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,92 @@
+{
+ "permit": "WP0030622",
+ "processed": "2026-10-07T23:51:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "879-090-057",
+ "address": "16th Ave ",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275005",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 14
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275005",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275005",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 370.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        370",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 139.4,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level              139.4 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Direct Rotary             Drilling Fluid    Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-05-19",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*             50 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275005",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.586991,
+ "lon": -114.732004,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306509",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275005",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

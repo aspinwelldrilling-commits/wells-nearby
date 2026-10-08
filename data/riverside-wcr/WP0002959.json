@@ -1,0 +1,48 @@
+{
+ "permit": "WP0002959",
+ "processed": "2026-10-07T23:38:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "863-100-016",
+ "address": "16400 Keim Blvd",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234854",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 754
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234854",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 80.678223,
+   "raw": "ESTIMATED YIELD -30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234854",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.586597777000065,
+ "lon": -114.69319542599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221116",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234854",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

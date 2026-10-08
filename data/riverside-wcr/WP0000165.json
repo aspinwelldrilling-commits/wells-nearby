@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000165",
+ "processed": "2026-10-07T23:56:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "815-141-001",
+ "address": "7700 Highway 95",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233482",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1102
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233482",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 119.0,
+   "conf": "low",
+   "ocrConf": 49.604435,
+   "raw": "Completed depth 119 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 17.0,
+   "conf": "high",
+   "ocrConf": 95.270851,
+   "raw": "Standing level after well completion 17 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233482",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.71214295000004,
+ "lon": -114.55148024999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222351",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233482",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

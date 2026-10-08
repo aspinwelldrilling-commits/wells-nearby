@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-18249",
+ "processed": "2026-10-07T23:37:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "833-300-008",
+ "address": "6951 6th Ave",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18249",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 801
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18249",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 32.998344,
+   "raw": "WATER LEVEL 1 ff (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18249",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.661562,
+ "lon": -114.524968,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409832",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18249",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "19105",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

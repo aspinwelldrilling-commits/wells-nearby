@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010238",
+ "processed": "2026-10-07T23:45:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "705-230-044",
+ "address": "100 Hayfield Rd",
+ "city": "Chiriaco Summit",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240446",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1885
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240446",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 880.0,
+   "conf": "low",
+   "ocrConf": 19.441597,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __880",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-08-14",
+   "conf": "medium",
+   "ocrConf": 60.119862,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240446",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.69326072200005,
+ "lon": -115.59427420999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213967",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240446",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018685",
+ "processed": "2026-10-07T23:47:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "830-060-020",
+ "address": "10260 8th Ave",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246039",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 448
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246039",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 35.671211,
+   "raw": "Total Depth of Completed Well _60",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 73.794037,
+   "raw": "Estimated Yield* 25 _\u2014\u2014s(GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-05-03",
+   "conf": "high",
+   "ocrConf": 86.946266,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246039",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.64816495000008,
+ "lon": -114.59355273299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207616",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246039",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021114",
+ "processed": "2026-10-08T01:07:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "833-320-014",
+ "address": "2nd Ave",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246833",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 410
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246833",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 79.024765,
+   "raw": "Total Depth of Completed Well_30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 13.0,
+   "conf": "high",
+   "ocrConf": 92.784897,
+   "raw": "Water Level 13 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger Pats",
+   "conf": "low",
+   "ocrConf": 8.548424,
+   "raw": "Drilling Method Hollow Stem Auger pats Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-12-15",
+   "conf": "high",
+   "ocrConf": 89.283936,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246833",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.68760780400004,
+ "lon": -114.53209792699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203248",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246833",
+ "serviceType": "New Construction",
+ "wellType": "Piezometer",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

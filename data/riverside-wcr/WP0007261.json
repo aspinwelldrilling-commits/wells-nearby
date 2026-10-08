@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007261",
+ "processed": "2026-10-07T23:43:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "833-091-006",
+ "address": "6th Ave",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238940",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 784
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238940",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 444.0,
+   "conf": "medium",
+   "ocrConf": 76.036636,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 444",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 25.219734,
+   "raw": "ESTIMATED YIELD * 4) __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238940",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.662661359000026,
+ "lon": -114.53315907899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216339",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238940",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

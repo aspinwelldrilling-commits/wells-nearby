@@ -1,0 +1,84 @@
+{
+ "permit": "WP0030739",
+ "processed": "2026-10-07T23:52:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "878-161-013",
+ "address": "33520 Ludy Rd ",
+ "city": "Palo Verde",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274990",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1637
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274990",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274990",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 88.694923,
+   "raw": "Total Depth of Completed Well 120",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 95.752968,
+   "raw": "Water Level 12 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Dual Rotary",
+   "conf": "high",
+   "ocrConf": 82.392624,
+   "raw": "Drilling Method Other - Dual Rotary Drilling Fluid Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "medium",
+   "ocrConf": 73.650665,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-06-24",
+   "conf": "medium",
+   "ocrConf": 77.028206,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274990",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.465979,
+ "lon": -114.726525,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/308323",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274990",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

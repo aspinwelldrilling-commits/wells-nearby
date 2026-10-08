@@ -1,0 +1,49 @@
+{
+ "permit": "WP0010281",
+ "processed": "2026-10-07T23:44:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "821-190-017",
+ "address": "4th Ave & Defrain",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240508",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 64
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240508",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 720.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING .72O",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240508",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.67695938500003,
+ "lon": -114.65494721599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213046",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240508",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

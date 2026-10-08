@@ -1,0 +1,57 @@
+{
+ "permit": "WP0026218",
+ "processed": "2026-10-08T01:09:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "833-070-010",
+ "address": "4980 Colorado River Rd",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275022",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 65
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275022",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 392.0,
+   "conf": "medium",
+   "ocrConf": 96.193077,
+   "raw": "Total Depth of Boring 392",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-05-27",
+   "conf": "high",
+   "ocrConf": 96.108223,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275022",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.674308120000035,
+ "lon": -114.53526397999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274981",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275022",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

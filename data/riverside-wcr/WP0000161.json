@@ -1,0 +1,49 @@
+{
+ "permit": "WP0000161",
+ "processed": "2026-10-07T23:55:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "851-090-007",
+ "address": "9025 Riverside Ave",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233480",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 902
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233480",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 23.0,
+   "conf": "low",
+   "ocrConf": 29.913704,
+   "raw": "(12) WELL LOG: Total depth 23",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233480",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.61749708700006,
+ "lon": -114.57183608599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222348",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233480",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

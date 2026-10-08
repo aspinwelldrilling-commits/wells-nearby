@@ -1,0 +1,71 @@
+{
+ "permit": "WP0018686",
+ "processed": "2026-10-07T23:50:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "866-080-007",
+ "address": "14201 W 16th Ave",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246032",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 455
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246032",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 12.277069,
+   "raw": "Total Depth of Completed Well 60",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.72863,
+   "raw": "Estimated Yield * 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 16.0,
+   "conf": "medium",
+   "ocrConf": 72.184464,
+   "raw": "Water Level 16 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-05-04",
+   "conf": "medium",
+   "ocrConf": 52.131432,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246032",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.587807628000064,
+ "lon": -114.65904724999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207617",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246032",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "PC Approved",
+ "bestDocPage": 1,
+ "status": "partial"
+}

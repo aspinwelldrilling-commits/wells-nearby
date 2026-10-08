@@ -1,0 +1,55 @@
+{
+ "permit": "WP0003175",
+ "processed": "2026-10-08T00:17:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "821-180-007",
+ "address": "12260 W 6th Ave",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235550",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 880
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235550",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 19.40612,
+   "raw": "ESTIMATED YIELD - \u00a32 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.409836,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235550",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.66188728000003,
+ "lon": -114.62891056999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221715",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235550",
+ "serviceType": "New Construction",
+ "wellType": "Driven",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

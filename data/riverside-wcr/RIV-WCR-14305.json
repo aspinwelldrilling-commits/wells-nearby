@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14305",
+ "processed": "2026-10-07T23:54:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "500 W Hobson Way",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14305",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1070
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14305",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 355.0,
+   "conf": "high",
+   "ocrConf": 96.433548,
+   "raw": "Completed depth 355 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 37.487415,
+   "raw": "Discharge 2 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14305",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.609846496000046,
+ "lon": -114.60241831699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16084",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14305",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16479",
+ "bestDocPage": 1,
+ "status": "partial"
+}

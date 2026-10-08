@@ -1,0 +1,69 @@
+{
+ "permit": "WP0021767",
+ "processed": "2026-10-08T01:08:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "810-410-021",
+ "address": "11995 Wileys Well Rd",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247124",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 491
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247124",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247124",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 803.0,
+   "conf": "high",
+   "ocrConf": 95.908585,
+   "raw": "Estimated Yield * 803 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 108.0,
+   "conf": "high",
+   "ocrConf": 89.895477,
+   "raw": "Water Level _108 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-09-03",
+   "conf": "high",
+   "ocrConf": 88.536621,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247124",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.663855685000044,
+ "lon": -115.00346827099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203880",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247124",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

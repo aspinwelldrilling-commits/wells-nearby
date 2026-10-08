@@ -1,0 +1,54 @@
+{
+ "permit": "WP0001411",
+ "processed": "2026-10-08T00:06:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "848-121-002",
+ "address": "391 S Main St",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234374",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2365
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234374",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234374",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 36.629173,
+   "raw": "WATER LEVEL 2 (Ft",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234374",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.60537622900006,
+ "lon": -114.59996467499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219350",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234374",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "unreadable"
+}

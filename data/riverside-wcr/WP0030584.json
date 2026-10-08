@@ -1,0 +1,93 @@
+{
+ "permit": "WP0030584",
+ "processed": "2026-10-07T23:52:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "839-130-009",
+ "address": "1006 N Broadway ",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270835",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 566
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270835",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270835",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 29.0,
+   "conf": "low",
+   "ocrConf": 77.38253,
+   "raw": "Total Depth of Boring 29",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.25161,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 11.0,
+   "conf": "high",
+   "ocrConf": 93.209396,
+   "raw": "Water Level 11 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 93.234604,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid None",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "None",
+   "conf": "high",
+   "ocrConf": 85.938843,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-03-09",
+   "conf": "high",
+   "ocrConf": 81.317497,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270835",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.626839,
+ "lon": -114.596739,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270215",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270835",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

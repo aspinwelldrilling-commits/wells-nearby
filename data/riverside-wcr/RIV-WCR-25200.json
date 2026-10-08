@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-25200",
+ "processed": "2026-10-07T23:54:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "709-340-001",
+ "address": "100 Hayfield Rd",
+ "city": "Desert Center",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25200",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 958
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25200",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 785.0,
+   "conf": "medium",
+   "ocrConf": 78.437469,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 785",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 493.0,
+   "conf": "high",
+   "ocrConf": 90.864464,
+   "raw": "WATER LEVEL 493 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25200",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.678278,
+ "lon": -115.651388,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409802",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25200",
+ "serviceType": "New Construction",
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "24392",
+ "bestDocPage": 1,
+ "status": "readable"
+}

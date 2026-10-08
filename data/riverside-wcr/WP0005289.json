@@ -1,0 +1,49 @@
+{
+ "permit": "WP0005289",
+ "processed": "2026-10-08T00:45:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "848-171-038",
+ "address": "491 S 7th St",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236905",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 786
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236905",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 45.0,
+   "conf": "low",
+   "ocrConf": 36.760452,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 45",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236905",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.60351350500002,
+ "lon": -114.58833928799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218576",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236905",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

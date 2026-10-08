@@ -1,0 +1,72 @@
+{
+ "permit": "WP0018684",
+ "processed": "2026-10-07T23:49:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "857-140-003",
+ "address": "11438 N Intake Blvd",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246037",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 460
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246037",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "medium",
+   "ocrConf": 96.806358,
+   "raw": "Total Depth of Boring 60",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 51.581902,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 86.301071,
+   "raw": "Water Level _18 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-05-05",
+   "conf": "high",
+   "ocrConf": 80.317055,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246037",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.62207140700008,
+ "lon": -114.57059848599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207615",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246037",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

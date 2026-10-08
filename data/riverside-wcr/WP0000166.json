@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000166",
+ "processed": "2026-10-07T23:37:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "810-452-005",
+ "address": "Ford Dry Lake (S of old State Hwy)",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233484",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1073
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233484",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 982.0,
+   "conf": "medium",
+   "ocrConf": 59.149021,
+   "raw": "Completed depth 982 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 450.0,
+   "conf": "high",
+   "ocrConf": 92.076378,
+   "raw": "Discharge 450 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233484",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.60331573700006,
+ "lon": -115.02006178099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222356",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233484",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

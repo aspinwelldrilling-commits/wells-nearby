@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018005",
+ "processed": "2026-10-08T01:02:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "845-131-015",
+ "address": "321 W Hobson Way",
+ "city": "Blythe",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246145",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1055
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246145",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 21.0,
+   "conf": "medium",
+   "ocrConf": 76.229866,
+   "raw": "Total Depth of Completed Well 21",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 95.43148,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-20",
+   "conf": "high",
+   "ocrConf": 90.889343,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246145",
+ "errors": [],
+ "area": "east-desert-blythe",
+ "lat": 33.610781700000075,
+ "lon": -114.59962489999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208659",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246145",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}
