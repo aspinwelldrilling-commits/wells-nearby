@@ -1,0 +1,68 @@
+{
+ "permit": "WP0028626",
+ "processed": "2026-10-07T21:07:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "169-120-038",
+ "address": "4220 Glen St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270908",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 765
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270908",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270908",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.833427,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-12-24",
+   "conf": "medium",
+   "ocrConf": 55.760986,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 34.011322,
+   "lon": -117.4816035,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270908",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.011326895000025,
+ "lon": -117.48161555499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270634",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270908",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

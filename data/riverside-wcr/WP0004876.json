@@ -1,0 +1,57 @@
+{
+ "permit": "WP0004876",
+ "processed": "2026-10-07T20:09:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "246-150-017",
+ "address": "333 W La Cadena Dr",
+ "city": "Highgrove",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236678",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 160
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236678",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 77.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 77",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 83.0,
+   "conf": "low",
+   "ocrConf": 96.112938,
+   "raw": "WATER LEVEL 83 (Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236678",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.01529558900006,
+ "lon": -117.34401764599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217417",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236678",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

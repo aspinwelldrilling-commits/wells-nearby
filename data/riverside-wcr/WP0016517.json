@@ -1,0 +1,54 @@
+{
+ "permit": "WP0016517",
+ "processed": "2026-10-07T20:46:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "164-050-001",
+ "address": "1265 Corona Pointe Ct",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245203",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 863
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245203",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245203",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "2006-05-25",
+   "conf": "high",
+   "ocrConf": 96.916351,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245203",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.96630071300007,
+ "lon": -117.57367800299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210838",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245203",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017596",
+ "processed": "2026-10-07T20:48:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "246-150-006",
+ "address": "350 Stephens St",
+ "city": "Highgrove",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245654",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1115
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245654",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 110.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 110",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-04-27",
+   "conf": "high",
+   "ocrConf": 96.754272,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245654",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.01461450000005,
+ "lon": -117.34390839999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208364",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245654",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

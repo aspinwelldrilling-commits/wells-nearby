@@ -1,0 +1,67 @@
+{
+ "permit": "RIV-WCR-15487",
+ "processed": "2026-10-07T19:52:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "EITWANDA, IBERIA",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15487",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1123
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15487",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 89.196869,
+   "raw": "Completed depth 400 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 226.0,
+   "conf": "high",
+   "ocrConf": 95.615692,
+   "raw": "Standing level after well completion 226 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2000.0,
+   "conf": "medium",
+   "ocrConf": 60.719982,
+   "raw": "Discharge 2000 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15487",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.02334420600005,
+ "lon": -117.52152077699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410063",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15487",
+ "serviceType": "New Construction",
+ "wellType": "Municipal",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17358",
+ "bestDocPage": 1,
+ "status": "readable"
+}

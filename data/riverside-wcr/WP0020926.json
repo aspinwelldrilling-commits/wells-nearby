@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020926",
+ "processed": "2026-10-07T19:49:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "170-050-014",
+ "address": "9692 Ben Nevis Blvd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246425",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 387
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246425",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 37.67514,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-07-20",
+   "conf": "low",
+   "ocrConf": 25.143524,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246425",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.017920944000025,
+ "lon": -117.49554638699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205144",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246425",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

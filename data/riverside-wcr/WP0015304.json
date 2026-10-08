@@ -1,0 +1,56 @@
+{
+ "permit": "WP0015304",
+ "processed": "2026-10-07T20:45:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "129-261-005",
+ "address": "2610 Hamner Ave",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244425",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2510
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244425",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "medium",
+   "ocrConf": 96.894493,
+   "raw": "Total Depth of Boring 40",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-01-12",
+   "conf": "medium",
+   "ocrConf": 52.288475,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244425",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.919767000000036,
+ "lon": -117.56025749999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210650",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244425",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,49 @@
+{
+ "permit": "WP0023362",
+ "processed": "2026-10-07T20:59:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "126-220-009",
+ "address": "1850 Hamner Ave",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247719",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 352
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247719",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 95.0,
+   "conf": "medium",
+   "ocrConf": 55.237617,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___95",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247719",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.90919270000006,
+ "lon": -117.56184649999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202191",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247719",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

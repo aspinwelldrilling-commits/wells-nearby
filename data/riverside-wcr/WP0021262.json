@@ -1,0 +1,56 @@
+{
+ "permit": "WP0021262",
+ "processed": "2026-10-07T20:51:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "171-241-007",
+ "address": "4467 Lone Tr",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246898",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 406
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246898",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 72.0,
+   "conf": "medium",
+   "ocrConf": 96.30632,
+   "raw": "Total Depth of Boring 72",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-12-01",
+   "conf": "medium",
+   "ocrConf": 71.144096,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246898",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.00707100500006,
+ "lon": -117.46477657199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203391",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246898",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

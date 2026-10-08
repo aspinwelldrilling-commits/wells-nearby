@@ -1,0 +1,77 @@
+{
+ "permit": "WP0029610",
+ "processed": "2026-10-07T19:50:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "116-310-034",
+ "address": "1119 Casper Circle Cir",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270878",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1085
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270878",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270878",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "medium",
+   "ocrConf": 79.338501,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 95.617897,
+   "raw": "Estimated Yield* 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 550.0,
+   "conf": "high",
+   "ocrConf": 96.134819,
+   "raw": "Water Level 550 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-05-07",
+   "conf": "medium",
+   "ocrConf": 78.136978,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270878",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.81989,
+ "lon": -117.55778,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270228",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270878",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

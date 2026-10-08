@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-25292",
+ "processed": "2026-10-07T19:51:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "102-040-003",
+ "address": "519 Maple St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25292",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 935
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25292",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 32",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2000.0,
+   "conf": "medium",
+   "ocrConf": 50.01619,
+   "raw": "ESTIMATED YieLD* 2000 __ (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25292",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.88122229000004,
+ "lon": -117.60506203999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409804",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/25292",
+ "serviceType": "New Construction",
+ "wellType": "Municipal",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "24545",
+ "bestDocPage": 1,
+ "status": "partial"
+}

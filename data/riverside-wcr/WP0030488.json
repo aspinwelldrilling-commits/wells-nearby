@@ -1,0 +1,84 @@
+{
+ "permit": "WP0030488",
+ "processed": "2026-10-07T21:10:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "101-110-002",
+ "address": "2227 Railroad St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262784",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 15
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262784",
+   "page": 1,
+   "source": "text",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262784",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        20",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  12 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-01-12",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.89587,
+   "lon": -117.59457,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262784",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.89587,
+ "lon": -117.59457,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262429",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262784",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

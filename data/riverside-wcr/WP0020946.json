@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020946",
+ "processed": "2026-10-07T19:49:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "169-050-011",
+ "address": "9180 Hastings Rd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246415",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 374
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246415",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 490.0,
+   "conf": "low",
+   "ocrConf": 20.953835,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL490",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-07-29",
+   "conf": "medium",
+   "ocrConf": 64.906662,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246415",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.01432503500007,
+ "lon": -117.48352918599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205164",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246415",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

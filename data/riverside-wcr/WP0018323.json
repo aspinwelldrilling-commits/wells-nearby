@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018323",
+ "processed": "2026-10-07T20:50:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "144-121-004",
+ "address": "14449 Chandler St",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245929",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1866
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245929",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 35.0,
+   "conf": "medium",
+   "ocrConf": 64.328255,
+   "raw": "Total Depth of Completed Well 35",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger Ies",
+   "conf": "low",
+   "ocrConf": 11.910568,
+   "raw": "Drilling Method Hollow Stem Auger ies Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-02-21",
+   "conf": "high",
+   "ocrConf": 81.674675,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245929",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.94619582900003,
+ "lon": -117.59917616199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208886",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245929",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

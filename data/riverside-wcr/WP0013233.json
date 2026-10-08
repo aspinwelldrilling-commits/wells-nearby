@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013233",
+ "processed": "2026-10-07T20:38:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "109-021-001",
+ "address": "1205 S Main St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242360",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1207
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242360",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 96.784904,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 35",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-11-24",
+   "conf": "high",
+   "ocrConf": 96.144348,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242360",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.86871443900003,
+ "lon": -117.56714238899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212219",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242360",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

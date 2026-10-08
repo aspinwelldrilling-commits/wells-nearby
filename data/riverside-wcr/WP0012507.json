@@ -1,0 +1,57 @@
+{
+ "permit": "WP0012507",
+ "processed": "2026-10-07T20:33:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "246-150-017",
+ "address": "333 W La Cadena Dr",
+ "city": "Highgrove",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241663",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2006
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241663",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 90.0,
+   "conf": "low",
+   "ocrConf": 14.028236,
+   "raw": "TOTAL DEPTH OF BORING 90",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-05-20",
+   "conf": "high",
+   "ocrConf": 96.408493,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241663",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.01514614400003,
+ "lon": -117.34395370499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212865",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241663",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

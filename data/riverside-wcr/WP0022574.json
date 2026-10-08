@@ -1,0 +1,87 @@
+{
+ "permit": "WP0022574",
+ "processed": "2026-10-07T20:55:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "118-030-075",
+ "address": "220 Deininger Cir",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249260",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 383
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249260",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "medium",
+   "ocrConf": 96.240227,
+   "raw": "Total Depth of Boring 310",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 39.0,
+   "conf": "high",
+   "ocrConf": 96.791443,
+   "raw": "Estimated Yield* 39 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 105.0,
+   "conf": "high",
+   "ocrConf": 83.790817,
+   "raw": "Water Level _105 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary Baie",
+   "conf": "low",
+   "ocrConf": 40.129417,
+   "raw": "Drilling Method Direct Rotary baie Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 80.36113,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-09-24",
+   "conf": "high",
+   "ocrConf": 94.966347,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249260",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.88652598400006,
+ "lon": -117.59775996399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19016",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249260",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

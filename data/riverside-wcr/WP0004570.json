@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004570",
+ "processed": "2026-10-07T19:47:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "246-060-001",
+ "address": "Placentia Lane",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236461",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 788
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236461",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 229.0,
+   "conf": "medium",
+   "ocrConf": 66.037109,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _229",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 50.901676,
+   "raw": "ESTIMATED YIELD - 1000 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236461",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.016385366000065,
+ "lon": -117.35785386699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216132",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236461",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

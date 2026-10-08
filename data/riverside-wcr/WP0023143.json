@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023143",
+ "processed": "2026-10-07T20:58:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "102-250-050",
+ "address": "616 Paseo Grande",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247595",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 402
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247595",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "high",
+   "ocrConf": 94.470154,
+   "raw": "Total Depth of Completed Well 180",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-05-08",
+   "conf": "medium",
+   "ocrConf": 56.638561,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247595",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.87886640000005,
+ "lon": -117.60167029999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201994",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247595",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-29319",
+ "processed": "2026-10-07T19:52:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "8790 Mission Blvd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29319",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 915
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29319",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 28.882332,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 25",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-03-31",
+   "conf": "high",
+   "ocrConf": 94.511818,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29319",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.01166900000004,
+ "lon": -117.47525779899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408771",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29319",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31630",
+ "bestDocPage": 1,
+ "status": "partial"
+}

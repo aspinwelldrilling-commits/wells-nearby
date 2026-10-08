@@ -1,0 +1,71 @@
+{
+ "permit": "WP0022578",
+ "processed": "2026-10-07T20:58:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "110-301-010",
+ "address": "1650 Lincoln Ave",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249263",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 377
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249263",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 270.0,
+   "conf": "medium",
+   "ocrConf": 95.955826,
+   "raw": "Total Depth of Boring 270",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.758179,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 87.264595,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-09-24",
+   "conf": "medium",
+   "ocrConf": 78.733093,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249263",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.865732259000026,
+ "lon": -117.58535295599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19024",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249263",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

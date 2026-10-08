@@ -1,0 +1,62 @@
+{
+ "permit": "WP0009933",
+ "processed": "2026-10-07T20:22:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "134-050-003",
+ "address": "13844 Blue Ribbon Ln",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240981",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2045
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240981",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240981",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 489.0,
+   "conf": "medium",
+   "ocrConf": 79.236572,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _489",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2000.0,
+   "conf": "low",
+   "ocrConf": 45.797516,
+   "raw": "ESTIMATED YIELD * 2000 __ (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240981",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.967881084000055,
+ "lon": -117.58526510399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214679",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240981",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

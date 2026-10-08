@@ -1,0 +1,78 @@
+{
+ "permit": "WP0019845",
+ "processed": "2026-10-07T20:52:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "118-302-011",
+ "address": "211 S Buena Vista Ave",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246334",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 453
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246334",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "medium",
+   "ocrConf": 67.222939,
+   "raw": "Total Depth of Completed Well 240",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1500.0,
+   "conf": "low",
+   "ocrConf": 32.111954,
+   "raw": "Estimated Yield * 1,500 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Rotary",
+   "conf": "high",
+   "ocrConf": 80.780708,
+   "raw": "Drilling Method Reverse Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 49.179619,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-07-24",
+   "conf": "low",
+   "ocrConf": 34.167534,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246334",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.87995936000004,
+ "lon": -117.57649055699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205443",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246334",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

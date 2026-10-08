@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018614",
+ "processed": "2026-10-07T20:50:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "182-181-014",
+ "address": "3845 Pacific Ave",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246012",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 968
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246012",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.777908,
+   "raw": "Total Depth of Completed Well 100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-04-15",
+   "conf": "high",
+   "ocrConf": 96.67305,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246012",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.00291327900004,
+ "lon": -117.42198030399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209127",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246012",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

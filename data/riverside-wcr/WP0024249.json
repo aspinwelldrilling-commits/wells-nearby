@@ -1,0 +1,71 @@
+{
+ "permit": "WP0024249",
+ "processed": "2026-10-07T19:50:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "116-310-077",
+ "address": "1243 Via Venezia Cir",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247912",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 378
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247912",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.888832,
+   "raw": "Estimated Yield * 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 71.943054,
+   "raw": "Water Level 500 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 92.14502,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-10-30",
+   "conf": "low",
+   "ocrConf": 3.593216,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247912",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.82067384800007,
+ "lon": -117.55661181299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201173",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247912",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

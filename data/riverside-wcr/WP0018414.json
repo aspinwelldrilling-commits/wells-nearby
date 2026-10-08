@@ -1,0 +1,79 @@
+{
+ "permit": "WP0018414",
+ "processed": "2026-10-07T20:51:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "118-242-009",
+ "address": "SW corner Buena Vista/Railroad St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245973",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 831
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245973",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 87.043716,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 900.0,
+   "conf": "high",
+   "ocrConf": 96.37545,
+   "raw": "Estimated Yield * 900 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 69.0,
+   "conf": "low",
+   "ocrConf": 33.034981,
+   "raw": "Water Level 69 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Rotary",
+   "conf": "high",
+   "ocrConf": 94.912155,
+   "raw": "Drilling Method Reverse Rotary Drilling Fluid _Polybore",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-05-01",
+   "conf": "low",
+   "ocrConf": 12.879807,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245973",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.885162629000035,
+ "lon": -117.57655563299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208970",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245973",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

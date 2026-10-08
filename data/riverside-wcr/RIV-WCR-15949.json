@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15949",
+ "processed": "2026-10-07T19:53:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "129-240-026",
+ "address": "2600 Hamner Ave",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15949",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 992
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15949",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 3.0,
+   "conf": "medium",
+   "ocrConf": 52.200455,
+   "raw": "Standing level after well completion 3",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15949",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.919782,
+ "lon": -117.559887,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410259",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15949",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17666",
+ "bestDocPage": 1,
+ "status": "partial"
+}

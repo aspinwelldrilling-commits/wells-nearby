@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001017",
+ "processed": "2026-10-07T20:00:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "129-081-004",
+ "address": "Ted Brooke Park - Vine Avenue",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234812",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 966
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234812",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 880.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 880",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 532.0,
+   "conf": "low",
+   "ocrConf": 15.861702,
+   "raw": "WATER LeveL ____ 532\u00b0 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234812",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.92227319800003,
+ "lon": -117.58877427699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221318",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234812",
+ "serviceType": null,
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

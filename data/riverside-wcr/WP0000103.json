@@ -1,0 +1,48 @@
+{
+ "permit": "WP0000103",
+ "processed": "2026-10-07T19:56:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "2227 Railroad St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233429",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1069
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233429",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 109.0,
+   "conf": "medium",
+   "ocrConf": 60.966518,
+   "raw": "Completed depth 109 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233429",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.891630587000066,
+ "lon": -117.60809233899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222290",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233429",
+ "serviceType": "Destruction",
+ "wellType": "Extraction",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

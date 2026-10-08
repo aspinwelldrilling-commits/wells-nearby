@@ -1,0 +1,62 @@
+{
+ "permit": "WP0009934",
+ "processed": "2026-10-07T20:21:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "134-060-009",
+ "address": "6577 Cedar Creek Rd",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240983",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2018
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240983",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240983",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 330.0,
+   "conf": "low",
+   "ocrConf": 5.278847,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 330",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 76.0,
+   "conf": "medium",
+   "ocrConf": 53.237167,
+   "raw": "WATER LEVEL___76 ___(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240983",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.968339969000056,
+ "lon": -117.58041284299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214678",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240983",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

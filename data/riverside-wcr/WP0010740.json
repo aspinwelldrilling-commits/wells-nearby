@@ -1,0 +1,55 @@
+{
+ "permit": "WP0010740",
+ "processed": "2026-10-07T20:24:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "210-030-016",
+ "address": "1855 Columbia Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240976",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1131
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240976",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 75.0,
+   "conf": "low",
+   "ocrConf": 7.584496,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 75",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-05-16",
+   "conf": "high",
+   "ocrConf": 96.134865,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240976",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.00137371000005,
+ "lon": -117.35032351899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213401",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240976",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

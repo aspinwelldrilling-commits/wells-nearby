@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018315",
+ "processed": "2026-10-07T20:49:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "144-121-004",
+ "address": "14449 Chandler St",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245921",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1749
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245921",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.937355,
+   "raw": "Total Depth of Completed Well 40",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-02-21",
+   "conf": "high",
+   "ocrConf": 80.6315,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245921",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.94614719000003,
+ "lon": -117.59884858299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208873",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245921",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

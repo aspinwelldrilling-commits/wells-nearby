@@ -1,0 +1,56 @@
+{
+ "permit": "WP0017497",
+ "processed": "2026-10-07T20:46:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "169-181-007",
+ "address": "8790 Mission Blvd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245596",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1035
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245596",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 26.0,
+   "conf": "low",
+   "ocrConf": 50.952686,
+   "raw": "TOTAL DEPTH OF BORING 26",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-03-28",
+   "conf": "high",
+   "ocrConf": 96.401588,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245596",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.01145155800003,
+ "lon": -117.47492312099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210028",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245596",
+ "serviceType": "New Construction",
+ "wellType": "Remediation",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

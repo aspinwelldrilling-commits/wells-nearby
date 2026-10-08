@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021269",
+ "processed": "2026-10-07T19:50:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "144-100-038",
+ "address": "14616 Walters St",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246903",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 419
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246903",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 170.0,
+   "conf": "medium",
+   "ocrConf": 75.991516,
+   "raw": "Total Depth of Completed Well 170",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 95.802261,
+   "raw": "Estimated Yield * 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 42.91193,
+   "raw": "Water Level 30 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-12-03",
+   "conf": "high",
+   "ocrConf": 93.664383,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246903",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.95198429100003,
+ "lon": -117.60264519099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203399",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246903",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

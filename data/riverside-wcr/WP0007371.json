@@ -1,0 +1,49 @@
+{
+ "permit": "WP0007371",
+ "processed": "2026-10-07T19:47:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "275-120-006",
+ "address": "20475 S Main St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239005",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 821
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239005",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 40.026741,
+   "raw": "TOTAL DEPTH OF BORING 260",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239005",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.823653027000034,
+ "lon": -117.57901021599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216769",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239005",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,66 @@
+{
+ "permit": "RIV-WCR-29345",
+ "processed": "2026-10-07T19:47:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "127-090-010-4",
+ "address": "1425 Fourth St",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29345",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 678
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29345",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "low",
+   "ocrConf": 2.587738,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 150",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 32.0,
+   "conf": "medium",
+   "ocrConf": 65.37886,
+   "raw": "WATER LeveL 32 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-04-19",
+   "conf": "high",
+   "ocrConf": 91.181435,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29345",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.925017800000035,
+ "lon": -117.55256344999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408831",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29345",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31690",
+ "bestDocPage": 1,
+ "status": "partial"
+}

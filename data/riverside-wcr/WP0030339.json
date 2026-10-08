@@ -1,0 +1,76 @@
+{
+ "permit": "WP0030339",
+ "processed": "2026-10-07T21:09:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "101-060-001",
+ "address": "14980 River Rd ",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270808",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 138
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270808",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270808",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 52.0,
+   "conf": "high",
+   "ocrConf": 83.102875,
+   "raw": "Total Depth of Completed Well 52",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": 87.40213,
+   "raw": "Drilling Method Auger Drilling Fluid Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 94.119568,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.90734,
+   "lon": -117.634445,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270808",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.9073404,
+ "lon": -117.6344451,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262489",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270808",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-15043",
+ "processed": "2026-10-07T19:51:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "128-030-062",
+ "address": "275 N Maple St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15043",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 739
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15043",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 74.809265,
+   "raw": "Completed depth 200 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15043",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.887952951000045,
+ "lon": -117.59841738899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409984",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15043",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17068",
+ "bestDocPage": 1,
+ "status": "partial"
+}

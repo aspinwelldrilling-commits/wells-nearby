@@ -1,0 +1,55 @@
+{
+ "permit": "WP0002298",
+ "processed": "2026-10-07T20:03:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "247-170-016",
+ "address": "800 Iowa Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235294",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2401
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235294",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 133.0,
+   "conf": "high",
+   "ocrConf": 96.7332,
+   "raw": "STATIC\nWATER LEVEL 133\n(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-04-15",
+   "conf": "high",
+   "ocrConf": 86.946556,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235294",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.00691141500005,
+ "lon": -117.33666021699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222150",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235294",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

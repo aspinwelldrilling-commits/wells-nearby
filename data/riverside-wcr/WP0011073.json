@@ -1,0 +1,48 @@
+{
+ "permit": "WP0011073",
+ "processed": "2026-10-07T20:26:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "134-240-014",
+ "address": "7447 Scholar Way",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241251",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 958
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241251",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 95.473244,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241251",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.95293116800008,
+ "lon": -117.56925861199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213661",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241251",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

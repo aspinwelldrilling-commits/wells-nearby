@@ -1,0 +1,64 @@
+{
+ "permit": "WP0021310",
+ "processed": "2026-10-07T20:54:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "144-130-008",
+ "address": "14325 Chandler St",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246920",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 633
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246920",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 49.0,
+   "conf": "low",
+   "ocrConf": 10.93856,
+   "raw": "TOTAL DEPTH OF BORING 49",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 33.0,
+   "conf": "medium",
+   "ocrConf": 59.310299,
+   "raw": "WATER LeveL 33 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-12-10",
+   "conf": "medium",
+   "ocrConf": 71.848312,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246920",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.94666912100007,
+ "lon": -117.596413429,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203438",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246920",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

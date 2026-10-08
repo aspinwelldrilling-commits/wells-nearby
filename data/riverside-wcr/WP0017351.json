@@ -1,0 +1,86 @@
+{
+ "permit": "WP0017351",
+ "processed": "2026-10-07T19:49:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "114-060-010",
+ "address": "532 Orange Heights Ln",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245530",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1050
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245530",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 270.0,
+   "conf": "low",
+   "ocrConf": 41.445114,
+   "raw": "Total Depth of Completed Well 270",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 38.0,
+   "conf": "high",
+   "ocrConf": 96.895149,
+   "raw": "Estimated Yield * 38 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 171.0,
+   "conf": "high",
+   "ocrConf": 86.985199,
+   "raw": "Water Level 171 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.497231,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 66.21344,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-03-08",
+   "conf": "high",
+   "ocrConf": 90.783073,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245530",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.83321872800008,
+ "lon": -117.57912749699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209884",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245530",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

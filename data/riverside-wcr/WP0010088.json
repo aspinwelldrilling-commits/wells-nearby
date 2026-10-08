@@ -1,0 +1,48 @@
+{
+ "permit": "WP0010088",
+ "processed": "2026-10-07T20:24:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "9997 Union Ave",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240253",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 911
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240253",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 5.0,
+   "conf": "medium",
+   "ocrConf": 65.272964,
+   "raw": "ESTIMATED YIELD 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240253",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.01228566300006,
+ "lon": -117.50660385299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214799",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240253",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

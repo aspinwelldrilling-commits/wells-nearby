@@ -1,0 +1,72 @@
+{
+ "permit": "WP0018415",
+ "processed": "2026-10-07T20:51:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "119-220-028",
+ "address": "1800' W Of Cota/E Of Lincoln",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245972",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 845
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245972",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "medium",
+   "ocrConf": 96.178917,
+   "raw": "Total Depth of Boring 310",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 135.0,
+   "conf": "high",
+   "ocrConf": 96.920471,
+   "raw": "Estimated Yield * 135 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Reverse Rotary",
+   "conf": "high",
+   "ocrConf": 96.20993,
+   "raw": "Drilling Method Reverse Rotary Drilling Fluid _Polybore",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-05-01",
+   "conf": "low",
+   "ocrConf": 36.591354,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245972",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.88894009400008,
+ "lon": -117.57682290199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208971",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245972",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

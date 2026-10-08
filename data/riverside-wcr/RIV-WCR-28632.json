@@ -1,19 +1,48 @@
 {
  "permit": "RIV-WCR-28632",
- "processed": "2026-10-07T16:39:09-07:00",
+ "processed": "2026-10-07T19:52:46-07:00",
  "version": 1,
  "county": "riverside",
  "apn": "266-040-005",
  "address": "18965 Van Buren Blvd",
  "city": "Riverside",
- "docs": [],
- "wcrPages": [],
- "fields": {},
- "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28632",
- "errors": [
-  "download: The read operation timed out"
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28632",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 967
+  }
  ],
- "area": "corona-norco-temescal",
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28632",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 39.0,
+   "conf": "medium",
+   "ocrConf": 51.345398,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 39",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-03-16",
+   "conf": "high",
+   "ocrConf": 90.62867,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28632",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
  "lat": 33.88702695600006,
  "lon": -117.33180283699994,
  "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409058",
@@ -24,5 +53,6 @@
  "permitFallback": true,
  "permitDisplay": "No permit #",
  "legacyPermit": "30340",
- "status": "error"
+ "bestDocPage": 1,
+ "status": "readable"
 }

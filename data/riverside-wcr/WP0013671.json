@@ -1,0 +1,56 @@
+{
+ "permit": "WP0013671",
+ "processed": "2026-10-07T20:39:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "130-020-003",
+ "address": "14610 Chandler St",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242701",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2055
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242701",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 35.0,
+   "conf": "medium",
+   "ocrConf": 71.070518,
+   "raw": "WATER LEVEL____ 35\" _(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-03-15",
+   "conf": "medium",
+   "ocrConf": 66.86058,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242701",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.94575464500008,
+ "lon": -117.60268899799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212812",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242701",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

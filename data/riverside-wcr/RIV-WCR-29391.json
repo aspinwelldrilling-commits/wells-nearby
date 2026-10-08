@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-29391",
+ "processed": "2026-10-07T19:55:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "119-240-033",
+ "address": "300-470 N Main St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29391",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 998
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29391",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "2006-05-01",
+   "conf": "high",
+   "ocrConf": 89.381317,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29391",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.88499354500004,
+ "lon": -117.566315869,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408917",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29391",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31778",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

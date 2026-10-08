@@ -1,0 +1,79 @@
+{
+ "permit": "WP0011309",
+ "processed": "2026-10-07T20:27:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "118-250-011",
+ "address": "111 N Lincoln Ave",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241479",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 4829
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241479",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241479",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241479",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241479",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241479",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 115.0,
+   "conf": "low",
+   "ocrConf": 26.244087,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___115",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-09-22",
+   "conf": "high",
+   "ocrConf": 96.671257,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241479",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.88389360000008,
+ "lon": -117.58185929999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213832",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241479",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,19 +1,32 @@
 {
  "permit": "RIV-WCR-29368",
- "processed": "2026-10-07T16:39:08-07:00",
+ "processed": "2026-10-07T19:52:40-07:00",
  "version": 1,
  "county": "riverside",
  "apn": "123-260-004-6",
  "address": "1841 Hillside Ave",
  "city": "Norco",
- "docs": [],
- "wcrPages": [],
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29368",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 5450
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29368",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
  "fields": {},
  "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29368",
- "errors": [
-  "download: The read operation timed out"
- ],
- "area": "corona-norco-temescal",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
  "lat": 33.91298567900003,
  "lon": -117.53718615799994,
  "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408857",
@@ -24,5 +37,6 @@
  "permitFallback": true,
  "permitDisplay": "No permit #",
  "legacyPermit": "31716",
- "status": "error"
+ "bestDocPage": 1,
+ "status": "unreadable"
 }

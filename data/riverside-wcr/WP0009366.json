@@ -1,0 +1,56 @@
+{
+ "permit": "WP0009366",
+ "processed": "2026-10-07T20:18:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "118-030-070",
+ "address": "275 N Maple St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240262",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1317
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240262",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 44.75433,
+   "raw": "TOTAL DEPTH OF BORING _2OO",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-07-08",
+   "conf": "low",
+   "ocrConf": 31.030411,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240262",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.88806834800005,
+ "lon": -117.59766201899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214273",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240262",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

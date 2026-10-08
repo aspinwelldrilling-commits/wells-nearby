@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-15485",
+ "processed": "2026-10-07T19:51:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "3221 Deforest Cir",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15485",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1244
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15485",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "high",
+   "ocrConf": 88.625778,
+   "raw": "Completed depth 410 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 143.0,
+   "conf": "high",
+   "ocrConf": 96.80368,
+   "raw": "Standing level after well completion 143 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15485",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.02821101400008,
+ "lon": -117.52032681499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410062",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15485",
+ "serviceType": "New Construction",
+ "wellType": "Municipal",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17357",
+ "bestDocPage": 1,
+ "status": "readable"
+}

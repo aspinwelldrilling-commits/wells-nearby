@@ -1,0 +1,68 @@
+{
+ "permit": "RIV-WCR-15005",
+ "processed": "2026-10-07T19:50:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "255-070-002",
+ "address": "CENTER St & MICHIGAN AVENUE",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15005",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1243
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15005",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 229.0,
+   "conf": "low",
+   "ocrConf": 39.71389,
+   "raw": "(12) WELL LOG: Total depth 229",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 131.2,
+   "conf": "high",
+   "ocrConf": 86.849045,
+   "raw": "Standing level after well completion 131.2 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2650.0,
+   "conf": "low",
+   "ocrConf": 26.748436,
+   "raw": "Discharge 2650 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15005",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.015429,
+ "lon": -117.322714,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409965",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15005",
+ "serviceType": "New Construction",
+ "wellType": "Municipal",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17047",
+ "bestDocPage": 1,
+ "status": "partial"
+}

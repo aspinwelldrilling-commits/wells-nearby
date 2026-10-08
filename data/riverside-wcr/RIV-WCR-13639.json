@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13639",
+ "processed": "2026-10-07T19:46:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "4292 Valley View Ave",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13639",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1874
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13639",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 135.0,
+   "conf": "medium",
+   "ocrConf": 51.777161,
+   "raw": "Completed depth 135",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.300453,
+   "raw": "Standing level after well completion 30 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13639",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.94367993000003,
+ "lon": -117.55018406199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14600",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13639",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15714",
+ "bestDocPage": 1,
+ "status": "readable"
+}

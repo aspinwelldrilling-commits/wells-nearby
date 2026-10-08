@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023946",
+ "processed": "2026-10-07T21:02:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "182-031-004",
+ "address": "6310 Mission Blvd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248320",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 347
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248320",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 111.0,
+   "conf": "medium",
+   "ocrConf": 66.33783,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL111",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-01-23",
+   "conf": "high",
+   "ocrConf": 89.066315,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248320",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.00585680000006,
+ "lon": -117.42468929999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202642",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248320",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

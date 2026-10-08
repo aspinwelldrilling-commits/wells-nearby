@@ -1,0 +1,68 @@
+{
+ "permit": "WP0028131",
+ "processed": "2026-10-07T19:49:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "175-170-045",
+ "address": "1500 Rubidoux Blvd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248709",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 596
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248709",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248709",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 395.0,
+   "conf": "high",
+   "ocrConf": 87.580414,
+   "raw": "Total Depth of Completed Well 395",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-12-21",
+   "conf": "medium",
+   "ocrConf": 74.282227,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 34.0274013,
+   "lon": -117.3894298,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248709",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.02846490200005,
+ "lon": -117.38928203999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/301024",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248709",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

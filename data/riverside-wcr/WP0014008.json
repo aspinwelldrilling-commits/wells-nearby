@@ -1,0 +1,54 @@
+{
+ "permit": "WP0014008",
+ "processed": "2026-10-07T20:41:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "156-140-045",
+ "address": "2100' W Of Etiwanda-480' S Of Iberia St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242487",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1491
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242487",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242487",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 0.456512,
+   "raw": "ESTIMATED YIELD *_20.00 (GPM",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242487",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.02139607000004,
+ "lon": -117.53195164999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211027",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242487",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "unreadable"
+}

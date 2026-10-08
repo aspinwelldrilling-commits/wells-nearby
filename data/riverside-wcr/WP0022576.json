@@ -1,0 +1,79 @@
+{
+ "permit": "WP0022576",
+ "processed": "2026-10-07T20:58:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "119-150-023",
+ "address": "W Rincon St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249261",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 367
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249261",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 301.0,
+   "conf": "medium",
+   "ocrConf": 96.66803,
+   "raw": "Total Depth of Boring 301",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 36.0,
+   "conf": "low",
+   "ocrConf": 41.323738,
+   "raw": "Water Level 36 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary Ean",
+   "conf": "low",
+   "ocrConf": 4.502975,
+   "raw": "Drilling Method Direct Rotary ean Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 87.505264,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-09-24",
+   "conf": "high",
+   "ocrConf": 95.234436,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249261",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.896824362000075,
+ "lon": -117.58776748099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19020",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249261",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

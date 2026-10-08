@@ -1,0 +1,55 @@
+{
+ "permit": "WP0000520",
+ "processed": "2026-10-07T19:57:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "118-320-001",
+ "address": "215 N Smith Ave",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233794",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 872
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233794",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 115.0,
+   "conf": "low",
+   "ocrConf": 26.576355,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 115",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-02-27",
+   "conf": "high",
+   "ocrConf": 86.799118,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233794",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.886425934000044,
+ "lon": -117.59175595399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220237",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233794",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

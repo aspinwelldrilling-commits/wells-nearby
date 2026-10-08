@@ -1,0 +1,54 @@
+{
+ "permit": "WP0002295",
+ "processed": "2026-10-07T19:46:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "134-130-004",
+ "address": "7200 Hellman Ave",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235296",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1638
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235296",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235296",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 299.0,
+   "conf": "low",
+   "ocrConf": 26.823746,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___ 299",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235296",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.95700107700003,
+ "lon": -117.61055596599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222145",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235296",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

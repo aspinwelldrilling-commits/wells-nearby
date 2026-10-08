@@ -1,0 +1,55 @@
+{
+ "permit": "WP0011323",
+ "processed": "2026-10-07T19:48:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "130-070-008",
+ "address": "8196 Grapewin Rd",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241499",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 708
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241499",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 8.653877,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-10-24",
+   "conf": "low",
+   "ocrConf": 13.541061,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241499",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.93883432600006,
+ "lon": -117.59091002299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213851",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241499",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

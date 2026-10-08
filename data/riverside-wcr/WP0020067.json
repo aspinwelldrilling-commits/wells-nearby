@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020067",
+ "processed": "2026-10-07T20:51:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "206-122-015",
+ "address": "1115 W La Cadena Dr",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246603",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 366
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246603",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 28.811478,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-12-16",
+   "conf": "low",
+   "ocrConf": 45.241131,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246603",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.00286870000008,
+ "lon": -117.35195209999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204320",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246603",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

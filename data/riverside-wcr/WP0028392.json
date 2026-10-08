@@ -1,0 +1,91 @@
+{
+ "permit": "WP0028392",
+ "processed": "2026-10-07T21:06:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "119-160-008",
+ "address": "Butterfield Dr",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270887",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 950
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270887",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270887",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 27.5,
+   "conf": "low",
+   "ocrConf": 44.332001,
+   "raw": "Total Depth of Completed Well 27.5",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 82.480629,
+   "raw": "Water Level 15 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": 94.944374,
+   "raw": "Drilling Method Auger Drilling Fluid None",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "None",
+   "conf": "high",
+   "ocrConf": 88.007507,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-04-01",
+   "conf": "high",
+   "ocrConf": 80.086929,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.894718,
+   "lon": -117.584286,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270887",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.89490075000003,
+ "lon": -117.58483412599998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270486",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270887",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

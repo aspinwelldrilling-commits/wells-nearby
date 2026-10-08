@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012382",
+ "processed": "2026-10-07T20:29:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "156-090-031",
+ "address": "11201 Harrell St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241503",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 761
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241503",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-06-22",
+   "conf": "medium",
+   "ocrConf": 66.395134,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241503",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.01215527900007,
+ "lon": -117.52912500599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212651",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241503",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

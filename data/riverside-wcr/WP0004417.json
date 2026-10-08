@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004417",
+ "processed": "2026-10-07T20:07:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "121-250-003",
+ "address": "1933 River Rd",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236341",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 777
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236341",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.403214,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1997-09-08",
+   "conf": "low",
+   "ocrConf": 41.051479,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236341",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.908420447000026,
+ "lon": -117.58218454299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220374",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236341",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007643",
+ "processed": "2026-10-07T20:14:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "118-270-024",
+ "address": "231 S Lincoln Ave",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239173",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1769
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239173",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239173",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "low",
+   "ocrConf": 48.023758,
+   "raw": "TOTAL DEPTH OF BORING 22",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239173",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.88084261400007,
+ "lon": -117.58023690099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217872",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239173",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

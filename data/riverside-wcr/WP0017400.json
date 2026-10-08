@@ -1,0 +1,61 @@
+{
+ "permit": "WP0017400",
+ "processed": "2026-10-07T20:47:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "101-290-012",
+ "address": "4721 Green River Rd ",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245558",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2716
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245558",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245558",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 93.324272,
+   "raw": "Total Depth of Completed Well 120",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-03-08",
+   "conf": "high",
+   "ocrConf": 91.828255,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245558",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.87802750000003,
+ "lon": -117.6611653,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209932",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245558",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

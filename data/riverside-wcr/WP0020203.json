@@ -1,0 +1,90 @@
+{
+ "permit": "WP0020203",
+ "processed": "2026-10-07T20:51:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "130-240-042",
+ "address": "3700 Hamner Ave",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246662",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 406
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246662",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246662",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246662",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246662",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 51.0,
+   "conf": "medium",
+   "ocrConf": 95.376022,
+   "raw": "Total depth of boring: 51",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 3,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 38.0,
+   "conf": "medium",
+   "ocrConf": 66.033226,
+   "raw": "Water Level 38 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 94.800316,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid va",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-09-21",
+   "conf": "high",
+   "ocrConf": 88.762627,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246662",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.93706510000004,
+ "lon": -117.55800059999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204450",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246662",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

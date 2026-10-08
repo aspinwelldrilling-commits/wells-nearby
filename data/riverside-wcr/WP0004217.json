@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004217",
+ "processed": "2026-10-07T20:06:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "246-150-017",
+ "address": "333 W La Cadena Dr",
+ "city": "Highgrove",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236206",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2004
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236206",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 110.0,
+   "conf": "medium",
+   "ocrConf": 95.591911,
+   "raw": "TOTAL DEPTH OF BORING 110",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-05-20",
+   "conf": "high",
+   "ocrConf": 96.544243,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236206",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.015291871000045,
+ "lon": -117.34374292099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211817",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236206",
+ "serviceType": "Destruction",
+ "wellType": "Air Sparge",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

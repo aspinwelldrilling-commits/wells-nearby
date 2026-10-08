@@ -1,0 +1,71 @@
+{
+ "permit": "WP0022482",
+ "processed": "2026-10-07T20:57:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "131-200-029",
+ "address": "1488 Sixth St",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249245",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 320
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249245",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "low",
+   "ocrConf": 26.11689,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 56.538731,
+   "raw": "ESTIMATED yieLD + 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 210.0,
+   "conf": "medium",
+   "ocrConf": 68.9561,
+   "raw": "STATIC\nWATER LeveL 210 Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-05-12",
+   "conf": "low",
+   "ocrConf": 38.259853,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249245",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.93662400000005,
+ "lon": -117.55304559999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18850",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249245",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

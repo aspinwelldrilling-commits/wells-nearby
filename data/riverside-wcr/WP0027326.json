@@ -1,0 +1,84 @@
+{
+ "permit": "WP0027326",
+ "processed": "2026-10-07T21:04:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "101-030-001",
+ "address": "14995 River Rd",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249518",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1100
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249518",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249518",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 55.531754,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 29.0,
+   "conf": "high",
+   "ocrConf": 96.866058,
+   "raw": "Water Level 29 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 73.962204,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 93.406403,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.924069,
+   "lon": -117.618789,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249518",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.92261629500007,
+ "lon": -117.62298414399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198829",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249518",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

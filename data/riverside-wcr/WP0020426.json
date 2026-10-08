@@ -1,0 +1,56 @@
+{
+ "permit": "WP0020426",
+ "processed": "2026-10-07T20:53:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "156-030-043",
+ "address": "Riverside Dr",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246737",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 438
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246737",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 540.0,
+   "conf": "low",
+   "ocrConf": 65.082542,
+   "raw": "TOTAL DEPTH OF BORING __540",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-01-18",
+   "conf": "high",
+   "ocrConf": 96.476326,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246737",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.01890719800008,
+ "lon": -117.54315965199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204657",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246737",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

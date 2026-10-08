@@ -1,0 +1,63 @@
+{
+ "permit": "WP0021706",
+ "processed": "2026-10-07T19:49:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "144-100-015",
+ "address": "7755 Hall Ave",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247103",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 323
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247103",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 20.704414,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 16.0,
+   "conf": "medium",
+   "ocrConf": 63.873398,
+   "raw": "WATER LeveL 16 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-05-14",
+   "conf": "medium",
+   "ocrConf": 61.924118,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247103",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.94664485000004,
+ "lon": -117.60477395099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203820",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247103",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

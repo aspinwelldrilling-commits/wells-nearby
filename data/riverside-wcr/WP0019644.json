@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019644",
+ "processed": "2026-10-07T20:52:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "130-030-042",
+ "address": "8300 Fieldmaster St",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246293",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 117
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246293",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 56.417953,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL50",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-03-05",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246293",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.93777965000004,
+ "lon": -117.59890748899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205244",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246293",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

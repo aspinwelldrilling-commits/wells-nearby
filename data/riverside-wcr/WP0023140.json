@@ -1,0 +1,56 @@
+{
+ "permit": "WP0023140",
+ "processed": "2026-10-07T20:58:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "102-250-050",
+ "address": "616 Paseo Grande",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247590",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 387
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247590",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "medium",
+   "ocrConf": 54.243698,
+   "raw": "Total Depth of Completed Well 180",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Vacuum Rig",
+   "conf": "high",
+   "ocrConf": 93.148445,
+   "raw": "Drilling Method Air Vacuum Rig Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247590",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.87863190000007,
+ "lon": -117.60187029999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201990",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247590",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

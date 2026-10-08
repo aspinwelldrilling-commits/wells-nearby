@@ -1,0 +1,91 @@
+{
+ "permit": "WP0028399",
+ "processed": "2026-10-07T21:06:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "101-110-002",
+ "address": "2227 Railroad St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270880",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 977
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270880",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270880",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 87.714417,
+   "raw": "Total Depth of Completed Well 20",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 95.75032,
+   "raw": "Water Level 10 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": 91.874313,
+   "raw": "Drilling Method Auger Drilling Fluid None",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "None",
+   "conf": "high",
+   "ocrConf": 95.94075,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-04-23",
+   "conf": "high",
+   "ocrConf": 86.076309,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.895737,
+   "lon": -117.594456,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270880",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.895741875000056,
+ "lon": -117.59446806399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/296887",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270880",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

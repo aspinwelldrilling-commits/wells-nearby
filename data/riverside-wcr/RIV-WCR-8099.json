@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-8099",
+ "processed": "2026-10-07T19:46:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "12400 Limonite Ave",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8099",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1010
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8099",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Discharge___ 200 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8099",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.97476252300004,
+ "lon": -117.55761286299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/4966",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8099",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10622",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

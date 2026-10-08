@@ -1,0 +1,63 @@
+{
+ "permit": "WP0002636",
+ "processed": "2026-10-07T19:46:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "101-030-003",
+ "address": "9001 River Rd",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235100",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 823
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235100",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "medium",
+   "ocrConf": 66.378937,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __180",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 60.657734,
+   "raw": "WATER LEVEL 25\u00b0 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1995-03-09",
+   "conf": "high",
+   "ocrConf": 84.741562,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235100",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.915596934000064,
+ "lon": -117.61863892599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219940",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235100",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

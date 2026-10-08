@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014491",
+ "processed": "2026-10-07T20:43:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "102-380-009",
+ "address": "2860 Palisades Dr",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243023",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3283
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243023",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 96.097969,
+   "raw": "Total Depth of Boring 100",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-08-18",
+   "conf": "low",
+   "ocrConf": 21.984932,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243023",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.87756382300006,
+ "lon": -117.61991899299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211332",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243023",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

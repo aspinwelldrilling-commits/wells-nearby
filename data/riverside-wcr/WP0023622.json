@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023622",
+ "processed": "2026-10-07T19:50:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "175-150-001",
+ "address": "1052 Andalusia Ave",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248009",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 417
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248009",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 9.069595,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 87.0,
+   "conf": "high",
+   "ocrConf": 82.985687,
+   "raw": "WATER LEVEL 87 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-10-01",
+   "conf": "low",
+   "ocrConf": 21.944061,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248009",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.02769468100007,
+ "lon": -117.39686564099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202418",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248009",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

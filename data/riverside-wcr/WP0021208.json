@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021208",
+ "processed": "2026-10-07T19:49:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "164-030-010",
+ "address": "12740 58th St",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246873",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 332
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246873",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 18.607033,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL220",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-11-15",
+   "conf": "high",
+   "ocrConf": 90.267357,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246873",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.98203886700003,
+ "lon": -117.56454779599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203339",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246873",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

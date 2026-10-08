@@ -1,0 +1,68 @@
+{
+ "permit": "WP0030420",
+ "processed": "2026-10-07T21:09:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "101-150-001",
+ "address": "14980 River Rd ",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270815",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 138
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270815",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270815",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 52.0,
+   "conf": "low",
+   "ocrConf": 43.85305,
+   "raw": "Total Depth of Completed Well 52",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-04-11",
+   "conf": "medium",
+   "ocrConf": 71.96981,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.893093,
+   "lon": -117.630648,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270815",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.893093,
+ "lon": -117.630648,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262407",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270815",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

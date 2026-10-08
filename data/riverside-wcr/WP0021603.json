@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021603",
+ "processed": "2026-10-07T20:54:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "206-122-015",
+ "address": "1115 W La Cadena Dr",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247057",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 469
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247057",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 110.0,
+   "conf": "low",
+   "ocrConf": 42.85416,
+   "raw": "Total Depth of Completed Well 110",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-03-29",
+   "conf": "medium",
+   "ocrConf": 69.530869,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247057",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.002884238000036,
+ "lon": -117.35202281899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203728",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247057",
+ "serviceType": "New Construction",
+ "wellType": "Air Sparge",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,62 @@
+{
+ "permit": "WP0019855",
+ "processed": "2026-10-07T20:52:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "275-140-012",
+ "address": "",
+ "city": "Cleveland National Forest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246336",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 107
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246336",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246336",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 96.82045,
+   "raw": "Total Depth of Boring 400.0",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-05-20",
+   "conf": "high",
+   "ocrConf": 88.339859,
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246336",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.77951133100004,
+ "lon": -117.57998717299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205451",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246336",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

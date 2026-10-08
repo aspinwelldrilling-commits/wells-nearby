@@ -1,0 +1,87 @@
+{
+ "permit": "WP0022573",
+ "processed": "2026-10-07T20:58:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "118-090-001",
+ "address": "1400 Pomona Rd",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249259",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 382
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249259",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 306.0,
+   "conf": "medium",
+   "ocrConf": 96.648926,
+   "raw": "Total Depth of Boring 306",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.224457,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 113.0,
+   "conf": "medium",
+   "ocrConf": 71.522415,
+   "raw": "Water Level 113 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 95.641083,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 92.294273,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-09-24",
+   "conf": "high",
+   "ocrConf": 91.689407,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249259",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.88258984300006,
+ "lon": -117.59323697399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19014",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249259",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

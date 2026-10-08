@@ -1,0 +1,63 @@
+{
+ "permit": "WP0025095",
+ "processed": "2026-10-07T19:50:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "918-020-006",
+ "address": "47080 Rock Mountain Rd",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248171",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 563
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248171",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 867.0,
+   "conf": "low",
+   "ocrConf": 46.80447,
+   "raw": "Total Depth of Completed Well 867",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.635323,
+   "raw": "Estimated Yield * 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-02-20",
+   "conf": "high",
+   "ocrConf": 95.954185,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248171",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.88278259900005,
+ "lon": -117.61278597699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200081",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248171",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

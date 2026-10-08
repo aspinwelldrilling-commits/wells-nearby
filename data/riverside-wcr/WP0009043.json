@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009043",
+ "processed": "2026-10-07T20:18:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "117-310-001",
+ "address": "907 Circle City Dr",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239994",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1761
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239994",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 210.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 210",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-05-24",
+   "conf": "high",
+   "ocrConf": 96.296234,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239994",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.876212965000036,
+ "lon": -117.55367434499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214019",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239994",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

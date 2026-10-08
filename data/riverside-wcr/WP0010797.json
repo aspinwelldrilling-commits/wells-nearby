@@ -1,0 +1,56 @@
+{
+ "permit": "WP0010797",
+ "processed": "2026-10-07T20:26:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "118-260-001",
+ "address": "202 N Buena Vista Ave",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241052",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 950
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241052",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 199.0,
+   "conf": "medium",
+   "ocrConf": 52.985756,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _199",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 79.0,
+   "conf": "medium",
+   "ocrConf": 55.250378,
+   "raw": "WATER LEVEL___79 __(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241052",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.883805076000044,
+ "lon": -117.57685329899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213440",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241052",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

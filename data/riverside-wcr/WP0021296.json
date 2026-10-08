@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021296",
+ "processed": "2026-10-07T20:54:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "122-070-028",
+ "address": "125 Hidden Valley Pkwy",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246910",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 360
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246910",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 50.0,
+   "conf": "low",
+   "ocrConf": 2.985138,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __5O",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-12-09",
+   "conf": "high",
+   "ocrConf": 96.233109,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246910",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.89841830000006,
+ "lon": -117.56262419999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203424",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246910",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

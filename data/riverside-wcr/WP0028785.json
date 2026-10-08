@@ -1,0 +1,97 @@
+{
+ "permit": "WP0028785",
+ "processed": "2026-10-07T21:08:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "101-170-001",
+ "address": "2493 Pomona Rincon Rd",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248780",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1574
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248780",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248780",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248780",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 63.2,
+   "conf": "high",
+   "ocrConf": 91.670624,
+   "raw": "Total Depth of Completed Well 63.2",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 23.0,
+   "conf": "high",
+   "ocrConf": 96.171585,
+   "raw": "Water Level 23 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "low",
+   "ocrConf": 34.723694,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 91.906807,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-11-20",
+   "conf": "medium",
+   "ocrConf": 71.547462,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.88722,
+   "lon": -117.63842,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248780",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.88710166800007,
+ "lon": -117.63854050199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310436",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248780",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0020425",
+ "processed": "2026-10-07T20:52:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "160-040-021",
+ "address": "4685 Pier Enterprises Way",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246734",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 407
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246734",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "low",
+   "ocrConf": 41.450203,
+   "raw": "TOTAL DEPTH OF BORING __410",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-03-11",
+   "conf": "high",
+   "ocrConf": 95.018051,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246734",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.00390875700003,
+ "lon": -117.54775360999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204655",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246734",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

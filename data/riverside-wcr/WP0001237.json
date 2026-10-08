@@ -1,0 +1,57 @@
+{
+ "permit": "WP0001237",
+ "processed": "2026-10-07T20:00:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "183-112-014",
+ "address": "6024 Valley Way",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234245",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 794
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234245",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 48.381462,
+   "raw": "TOTAL DEPTH OF BORING 60",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-10-19",
+   "conf": "high",
+   "ocrConf": 88.512527,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234245",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.010843167000075,
+ "lon": -117.43486992699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221780",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234245",
+ "serviceType": "Destruction",
+ "wellType": "Extraction",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0020428",
+ "processed": "2026-10-07T20:52:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "156-040-074",
+ "address": "Wineville Rd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246738",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 414
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246738",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 490.0,
+   "conf": "low",
+   "ocrConf": 33.707565,
+   "raw": "TOTAL DEPTH OF BORING __490",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-02-25",
+   "conf": "high",
+   "ocrConf": 96.082504,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246738",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.012388859000055,
+ "lon": -117.54165134499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204659",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246738",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

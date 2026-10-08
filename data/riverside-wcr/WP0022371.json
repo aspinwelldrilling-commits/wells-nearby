@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022371",
+ "processed": "2026-10-07T20:57:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "144-150-001",
+ "address": "7676 Hellman Ave",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249408",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 335
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249408",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 198.0,
+   "conf": "low",
+   "ocrConf": 23.661545,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 198",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-03-08",
+   "conf": "medium",
+   "ocrConf": 79.932549,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249408",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.949996990000045,
+ "lon": -117.61047188199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18684",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249408",
+ "serviceType": "Destruction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,103 @@
+{
+ "permit": "WP0028498",
+ "processed": "2026-10-07T21:07:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "171-250-013",
+ "address": "3450 Pyrite Ave",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264860",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2457
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264860",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264860",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264860",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264860",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 81.939484,
+   "raw": "Total Depth of Completed Well 55",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 34.5,
+   "conf": "high",
+   "ocrConf": 93.381927,
+   "raw": "Water Level 34.5 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 67.633804,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 93.528648,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-05-21",
+   "conf": "high",
+   "ocrConf": 86.005325,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 34.004446,
+   "lon": -117.466404,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264860",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.00445089500005,
+ "lon": -117.46641605199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270571",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264860",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

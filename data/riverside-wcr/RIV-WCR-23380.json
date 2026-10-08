@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-23380",
+ "processed": "2026-10-07T19:55:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "169-310-040",
+ "address": "5020 Pedley Rd",
+ "city": null,
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23380",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 813
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23380",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 90.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING _9o",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23380",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.002435,
+ "lon": -117.534791,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23380",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "22230",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

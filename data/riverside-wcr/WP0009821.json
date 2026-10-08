@@ -1,0 +1,56 @@
+{
+ "permit": "WP0009821",
+ "processed": "2026-10-07T20:21:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "177-110-015",
+ "address": "6214 Canal St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240844",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1060
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240844",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 22.12661,
+   "raw": "TOTAL DEPTH OF BORING __300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-03-28",
+   "conf": "high",
+   "ocrConf": 96.418877,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240844",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 34.010415788000046,
+ "lon": -117.421363354,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214585",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240844",
+ "serviceType": null,
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

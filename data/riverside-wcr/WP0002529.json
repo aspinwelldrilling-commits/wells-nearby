@@ -1,0 +1,71 @@
+{
+ "permit": "WP0002529",
+ "processed": "2026-10-07T20:04:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "130-080-001",
+ "address": "14545 River Rd",
+ "city": "Eastvale",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235151",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 940
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235151",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "low",
+   "ocrConf": 46.14386,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 45.0,
+   "conf": "low",
+   "ocrConf": 17.565445,
+   "raw": "WATER LEVEL 45\" (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-10-24",
+   "conf": "low",
+   "ocrConf": 41.569618,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 150.0,
+   "conf": "low",
+   "ocrConf": 25.289536,
+   "raw": "ESTIMATED YIELD -_ 150 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235151",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.92453487800003,
+ "lon": -117.60186206799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219440",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235151",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

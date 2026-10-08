@@ -1,0 +1,64 @@
+{
+ "permit": "WP0021784",
+ "processed": "2026-10-07T19:49:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "101-130-028",
+ "address": "5215 Green River Rd",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247132",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 400
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247132",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 92.0,
+   "conf": "medium",
+   "ocrConf": 96.27742,
+   "raw": "Total Depth of Boring 92",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 600.0,
+   "conf": "high",
+   "ocrConf": 95.658318,
+   "raw": "Estimated Yield * 600 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-09-21",
+   "conf": "medium",
+   "ocrConf": 72.206482,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247132",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.87980471100008,
+ "lon": -117.66829256799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203898",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247132",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

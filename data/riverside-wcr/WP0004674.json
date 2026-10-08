@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004674",
+ "processed": "2026-10-07T20:08:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "102-380-009",
+ "address": "2470 Palisades Dr",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236537",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 797
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236537",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 403.0,
+   "conf": "low",
+   "ocrConf": 49.045273,
+   "raw": "WATER LEVEL 403 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1998-03-26",
+   "conf": "low",
+   "ocrConf": 23.068909,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236537",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.87756382300006,
+ "lon": -117.61991899299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216597",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236537",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

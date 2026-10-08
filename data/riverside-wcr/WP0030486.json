@@ -1,0 +1,84 @@
+{
+ "permit": "WP0030486",
+ "processed": "2026-10-07T21:07:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "118-020-001",
+ "address": "N Smith Ave & Davril Cir ",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262782",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 15
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262782",
+   "page": 1,
+   "source": "text",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262782",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        40",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 32.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                  32 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-01-12",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.89284,
+   "lon": -117.59234,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262782",
+ "errors": [],
+ "area": "jurupa-eastvale-corona-west",
+ "lat": 33.89284,
+ "lon": -117.59234,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262428",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262782",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}
