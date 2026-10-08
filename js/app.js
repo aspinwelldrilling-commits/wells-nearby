@@ -38,6 +38,7 @@
   // looked up by id in a setTimeout; when a popup was already open, the old one is still in the DOM for Leaflet's
   // 200 ms fade-out, so the id lookup found the OLD button and the visible one did nothing — "Search here isn't working".)
   function toolActive() {
+    if (window.WellsLayout && WellsLayout.isActive()) return true;   // ✏️ Septic layout drawing (js/layout.js) owns taps
     if (!state.mapTool) return false;
     // self-heal: a map tool only owns taps while its sheet is actually open (e.g. setbacks closed some other way)
     if (window.WellsSeptic && WellsSeptic.isActive && !WellsSeptic.isActive()) { state.mapTool = false; WellsSeptic.onSheetClose(); return false; }

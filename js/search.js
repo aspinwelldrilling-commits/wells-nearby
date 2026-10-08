@@ -419,7 +419,7 @@
     <div class="as-drop" hidden></div>`;
   L.DomEvent.disableClickPropagation(box); L.DomEvent.disableScrollPropagation(box);
   const form = box.querySelector('form'), input = box.querySelector('.as-input'), drop = box.querySelector('.as-drop'), clr = box.querySelector('.as-clear'), go = box.querySelector('.as-go');
-  let seq = 0, lastCands = [], lastQ = '';
+  let seq = 0, lastCands = [], lastQ = '', lastPick = null;
 
   function openDrop(html) { drop.innerHTML = html; drop.hidden = !html; box.classList.toggle('open', !!html); }
   function closeDrop() { openDrop(''); }
@@ -444,6 +444,8 @@
     showPin(c);
     addRecent(c, q || c.label);
     A.setLocation(c.lat, c.lon, c.apn && c.src === 'apn' ? `APN ${c.apn}` : `Address: ${c.label}`);
+    lastPick = c;
+    if (window.WellsLayout && WellsLayout.isActive()) WellsLayout.onSearch(c);   // drawing a septic layout: go to the parcel
     enrichPin(c);
   }
   async function run() {
@@ -494,5 +496,5 @@
   /** Called by the app whenever the search point moves: a pin left from an earlier search goes away. */
   function onLocation(lat, lon) { if (pinAt && map.distance([lat, lon], [pinAt.lat, pinAt.lon]) > 2) clearPin(); }
 
-  window.WellsSearch = { parseApn, parseAddress, lookup, run, choose, onLocation, clearPin, get input() { return input; } };
+  window.WellsSearch = { parseApn, parseAddress, lookup, run, choose, onLocation, clearPin, get input() { return input; }, get last() { return pinAt ? lastPick : null; } };
 })();

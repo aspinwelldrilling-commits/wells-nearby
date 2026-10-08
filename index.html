@@ -72,12 +72,14 @@
     <p><b>Imperial County:</b> the magenta <i>Imperial WCRs (DWR)</i> layer is a snapshot of the state OSWCR well completion reports for Imperial County (Ocotillo / Coyote Wells / Plaster City and the rest of the county). Most are placed at the <i>centre of the PLSS section</i> (dashed hollow pins), so the popup shows DWR's location accuracy; a pin may be ~0.5 mi off. PDFs open in DWR's Box viewer. The same WCRs also appear in the live State search.</p>
     <p><b>Los Angeles County:</b> LA County publishes no public well-permit map layer, so LA wells are <i>state DWR OSWCR records only</i> (no county permits). The purple-ring <i>LA County WCRs</i> layer shows OSWCR records cached in the app area by area (starting with Pomona Valley / Claremont / La Verne / San Dimas / Diamond Bar), so they show without a search and offline; tap a ring for the WCR number, location and APN as entered on the state record and a link to the DWR WCR viewer. The same records are counted in the live State search.</p>
     <p><b>My jobs:</b> <i>⛏ My jobs</i> on the map imports your own Google Earth export (.kmz / .kml) or the matched .json made from it, and draws each job (lines, setback circles, a pin at the well) with its matched County permit / WCR. The file is read <i>on this device only</i>, kept in this browser's storage and never uploaded; <i>Remove my jobs from this device</i> deletes it.</p>
+    <p><b>Septic layout:</b> <i>✏️ Septic layout</i> draws a septic system on the satellite map — well / proposed well, tank, distribution box, seepage pit, leach / sewer / tight / property lines, house, leach field, reserve area, driveway, text and measurements — with your own colours and legend, 50 / 100 / 150 ft setback rings and warnings, and exports a letter-size plot plan (PNG or PDF) with north arrow, bar scale, legend and title block. Layouts are customer job data: they are kept <i>only on this device</i> and never uploaded (use ⬇ Backup to move one). <i>Parcel lines from APN</i> sends only the APN to the County parcel service (SanGIS); parcel lines are approximate, not a survey.</p>
     <p>Imagery: Esri World Imagery. Averages exclude missing, zero, and implausible values; <i>n</i> shows how many wells were used.</p>
   </footer>
 
   <nav id="bottomBar" class="bottombar">
     <button id="btnSites" type="button">📋 My sites</button>
     <button id="btnTag" type="button" class="tag">📌 Tag site</button>
+    <button id="btnLayout" type="button" class="layout">✏️ Septic layout</button>
   </nav>
   <section id="sheet" class="sheet hidden" aria-live="polite"></section>
   <div id="toast" class="toast" role="status"></div>
@@ -98,6 +100,8 @@
   <script src="js/imperial.js"></script>
   <script src="js/lawcr.js"></script>
   <script src="js/myjobs.js"></script>
+  <script src="js/layout-core.js"></script>
+  <script src="js/layout.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
       const hadSw = !!navigator.serviceWorker.controller;

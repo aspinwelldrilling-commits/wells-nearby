@@ -148,6 +148,7 @@
     b('📤 Share', () => share(s));
     if (!inPopup) b('🗺 Map', () => showOnMap(s));
     if (window.WellsSeptic) b('📏 Setbacks', () => WellsSeptic.openSetbacks(s), 'act-setbacks');
+    if (window.WellsLayout) b('✏️ Septic layout', () => WellsLayout.openForSite(s), 'act-layout');
     b('✏️ Edit', () => openForm(s));
     if (s.apnStatus === 'pending' || s.apnStatus === 'none') b('🔎 Look up APN', () => retryLookup(s));
     b('🗑', () => removeSite(s), 'danger');
@@ -196,6 +197,7 @@
   let sheetMode = '', editing = null, watchId = null, gpsTimer = null, draftMarker = null;
   function openSheet(mode, html) {
     if (sheetMode === 'setback' && mode !== 'setback' && window.WellsSeptic) WellsSeptic.onSheetClose();
+    if (/^layout/.test(sheetMode) && window.WellsLayout) WellsLayout.onSheetClose();   // leaving ✏️ Septic layout
     sheetMode = mode;
     const sh = $('sheet');
     sh.innerHTML = html; sh.classList.remove('hidden'); document.body.classList.add('sheet-open');
@@ -204,6 +206,7 @@
   }
   function closeSheet() {
     if (sheetMode === 'setback' && window.WellsSeptic) WellsSeptic.onSheetClose();
+    if (/^layout/.test(sheetMode) && window.WellsLayout) WellsLayout.onSheetClose();
     stopGps();
     const sh = $('sheet'); sh.classList.add('hidden'); sh.innerHTML = ''; document.body.classList.remove('sheet-open');
     $('bottomBar').classList.remove('hidden');
