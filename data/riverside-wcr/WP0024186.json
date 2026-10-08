@@ -1,0 +1,78 @@
+{
+ "permit": "WP0024186",
+ "processed": "2026-10-07T22:49:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "473-330-005",
+ "address": "29449 Live Oak Canyon Rd",
+ "city": "San Timeteo Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247858",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 403
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247858",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "low",
+   "ocrConf": 40.674778,
+   "raw": "Total Depth of Completed Well 320",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 92.551086,
+   "raw": "Estimated Yield * 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Mud Rotary",
+   "conf": "high",
+   "ocrConf": 93.926285,
+   "raw": "Drilling Method MUD ROTARY Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 76.213898,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-03-25",
+   "conf": "high",
+   "ocrConf": 82.392014,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247858",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.003445052000075,
+ "lon": -117.14969994699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201112",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247858",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

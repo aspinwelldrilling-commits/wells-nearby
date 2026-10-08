@@ -1,0 +1,72 @@
+{
+ "permit": "WP0017908",
+ "processed": "2026-10-07T22:46:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "473-320-013",
+ "address": "28700 Live Oak Canyon Rd",
+ "city": "San Timeteo Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245790",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1235
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245790",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 96.958374,
+   "raw": "Total Depth of Boring 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 96.157066,
+   "raw": "Estimated Yield *, 80 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 24.1511,
+   "raw": "Water Level 30. \u2014\u2014\u2014s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-06",
+   "conf": "low",
+   "ocrConf": 38.079689,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245790",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.003869046000034,
+ "lon": -117.16410331699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208561",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245790",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-12007",
+ "processed": "2026-10-07T22:41:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "7180 Winship Way",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12007",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1845
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12007",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "medium",
+   "ocrConf": 52.358047,
+   "raw": "Completed depth 320",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 176.0,
+   "conf": "medium",
+   "ocrConf": 76.566635,
+   "raw": "Standing level after well completion 176 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12007",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.01515204700007,
+ "lon": -117.27677930399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11154",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12007",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13894",
+ "bestDocPage": 1,
+ "status": "readable"
+}

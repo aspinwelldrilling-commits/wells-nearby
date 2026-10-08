@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14215",
+ "processed": "2026-10-07T22:42:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "255-030-021",
+ "address": "7135 Luane Trl",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14215",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1103
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14215",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 222.0,
+   "conf": "low",
+   "ocrConf": 14.9151,
+   "raw": "Completed depth 222 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "medium",
+   "ocrConf": 71.709915,
+   "raw": "Discharge 6 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14215",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.017627953000044,
+ "lon": -117.27562173799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15894",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14215",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16381",
+ "bestDocPage": 1,
+ "status": "partial"
+}

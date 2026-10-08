@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016924",
+ "processed": "2026-10-07T22:52:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "255-240-013",
+ "address": "675 Mt Vernon Ave",
+ "city": "Highgrove",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245430",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 807
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245430",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 65.0,
+   "conf": "medium",
+   "ocrConf": 79.181892,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL65",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-01-04",
+   "conf": "low",
+   "ocrConf": 36.033344,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245430",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.00629287400005,
+ "lon": -117.28784217799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209517",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245430",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

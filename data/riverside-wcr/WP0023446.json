@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023446",
+ "processed": "2026-10-07T22:48:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "259-300-001",
+ "address": "7511 Reche Canyon Rd",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247808",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 378
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247808",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 33.363266,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-07-31",
+   "conf": "medium",
+   "ocrConf": 75.677597,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247808",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.00900643600005,
+ "lon": -117.26258409699994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247808",
+ "serviceType": "Evaluation",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

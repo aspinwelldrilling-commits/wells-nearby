@@ -1,0 +1,57 @@
+{
+ "permit": "WP0012826",
+ "processed": "2026-10-07T22:47:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "259-280-025",
+ "address": "7680 Winship Way",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242032",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 869
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242032",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 254.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF BORING __254",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.9,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ___2.9)___(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242032",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.01218126600003,
+ "lon": -117.27488322999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211727",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242032",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

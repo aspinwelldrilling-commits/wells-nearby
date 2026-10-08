@@ -1,0 +1,57 @@
+{
+ "permit": "WP0007310",
+ "processed": "2026-10-07T22:49:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "413-020-057",
+ "address": "30500 Live Oak Canyon Rd",
+ "city": "San Timeteo Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243640",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 965
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243640",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 354.0,
+   "conf": "low",
+   "ocrConf": 24.705467,
+   "raw": "TOTAL DEPTH OF BORING 354",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 10.770256,
+   "raw": "WATER LEVEL __ 3) ___(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243640",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.003181003000066,
+ "lon": -117.12814560399994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243640",
+ "serviceType": null,
+ "wellType": "Dewatering",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

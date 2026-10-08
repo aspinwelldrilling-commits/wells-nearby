@@ -1,0 +1,87 @@
+{
+ "permit": "WP0014005",
+ "processed": "2026-10-07T22:45:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "259-280-018",
+ "address": "7475 Luane Trl",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242481",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 893
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242481",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 96.182999,
+   "raw": "Total Depth of Boring 400",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 96.909363,
+   "raw": "Estimated Yield * 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 92.0,
+   "conf": "high",
+   "ocrConf": 91.4039,
+   "raw": "Water Level 92 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling And Mud Drilling",
+   "conf": "high",
+   "ocrConf": 89.767815,
+   "raw": "Drilling Method Air Drilling and mud drilling Drilling Fluid air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 28.807594,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-04-05",
+   "conf": "high",
+   "ocrConf": 95.11528,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242481",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.01251109900005,
+ "lon": -117.27192940399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211023",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242481",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

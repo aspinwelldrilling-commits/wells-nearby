@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021097",
+ "processed": "2026-10-07T22:49:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "471-150-002",
+ "address": "8080 Smiley Blvd",
+ "city": "San Timeteo Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246823",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 548
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246823",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 612.0,
+   "conf": "high",
+   "ocrConf": 96.187195,
+   "raw": "Total Depth of Completed Well 612",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.208076,
+   "raw": "Estimated Yield\" 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 96.866982,
+   "raw": "Drilling Method Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-09-16",
+   "conf": "high",
+   "ocrConf": 95.865829,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246823",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.00323286200006,
+ "lon": -117.183991059,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203231",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246823",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

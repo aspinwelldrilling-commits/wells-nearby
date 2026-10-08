@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-9861",
+ "processed": "2026-10-07T22:41:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "28450 Live Oak Canyon Rd",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9861",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 967
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9861",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 359.0,
+   "conf": "low",
+   "ocrConf": 31.538902,
+   "raw": "WELL LOG: Total depth 359",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9861",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.00005989,
+ "lon": -117.16746559,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7846",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9861",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12235",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

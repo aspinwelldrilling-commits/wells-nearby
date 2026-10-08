@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13631",
+ "processed": "2026-10-07T22:41:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "30471 Oak Grove Dr",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13631",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1773
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13631",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 88.935699,
+   "raw": "Completed depth 300 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 96.619209,
+   "raw": "Standing level after well completion 120 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13631",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.00084728200005,
+ "lon": -117.13041571099996,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13631",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15707",
+ "bestDocPage": 1,
+ "status": "readable"
+}

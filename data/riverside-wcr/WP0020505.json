@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020505",
+ "processed": "2026-10-07T22:47:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "471-030-008",
+ "address": "7883 Stewart Rd",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246775",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 432
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246775",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "high",
+   "ocrConf": 80.240417,
+   "raw": "Total Depth of Completed Well 280",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 72.364548,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-01-06",
+   "conf": "high",
+   "ocrConf": 94.972115,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246775",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.00554370700007,
+ "lon": -117.24202042299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204734",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246775",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0024491",
+ "processed": "2026-10-07T22:47:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "471-310-006",
+ "address": "24875 Keissel Rd",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248026",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 438
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248026",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 46.42815,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.376892,
+   "raw": "Estimated Yield * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-09-16",
+   "conf": "high",
+   "ocrConf": 91.174126,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248026",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.003069958000026,
+ "lon": -117.22683533999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201403",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248026",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

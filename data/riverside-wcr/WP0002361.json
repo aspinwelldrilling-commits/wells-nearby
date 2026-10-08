@@ -1,0 +1,55 @@
+{
+ "permit": "WP0002361",
+ "processed": "2026-10-07T22:50:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "255-230-003",
+ "address": "7639 Sage Scrub Rd",
+ "city": "Highgrove",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235244",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 943
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235244",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 235.0,
+   "conf": "medium",
+   "ocrConf": 67.710449,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 235",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "None",
+   "conf": "high",
+   "ocrConf": 96.074875,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235244",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.00780107700007,
+ "lon": -117.29028616,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222246",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235244",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0009191",
+ "processed": "2026-10-07T22:45:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "259-280-004",
+ "address": "7470 Luane Trl",
+ "city": "Reche Canyon",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240095",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1951
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240095",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240095",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 335.0,
+   "conf": "low",
+   "ocrConf": 3.5224,
+   "raw": "WATER LEVEL 335, (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 84.836319,
+   "raw": "TOTAL DEPTH OF BORING __ 500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240095",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.01308041600004,
+ "lon": -117.27059746299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214145",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240095",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0027225",
+ "processed": "2026-10-07T22:52:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "255-240-011",
+ "address": "1420 Highgrove Pass Rd",
+ "city": "Highgrove",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249475",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2911
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249475",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 155.0,
+   "conf": "low",
+   "ocrConf": 19.74295,
+   "raw": "Total Depth of Completed Well 155",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.699226,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-08-29",
+   "conf": "high",
+   "ocrConf": 85.616119,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249475",
+ "errors": [],
+ "area": "riverside-north",
+ "lat": 34.00757490500007,
+ "lon": -117.28651202099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/269260",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249475",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}
