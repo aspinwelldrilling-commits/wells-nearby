@@ -1,0 +1,89 @@
+{
+ "permit": "RIV-WCR-29419",
+ "processed": "2026-10-07T15:51:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "239-250-008",
+ "address": "9595 Equestrian Dr",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29419",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 759
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29419",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "high",
+   "ocrConf": 96.043869,
+   "raw": "Total Depth of Completed Well 375",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.902565,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 23.0,
+   "conf": "low",
+   "ocrConf": 24.895638,
+   "raw": "Water Level 23.0 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling Lina",
+   "conf": "low",
+   "ocrConf": 31.496193,
+   "raw": "Drilling Method Air Drilling Lina Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 80.179909,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-05-12",
+   "conf": "high",
+   "ocrConf": 94.365005,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29419",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88896414000004,
+ "lon": -117.42277488999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408958",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29419",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31822",
+ "bestDocPage": 1,
+ "status": "readable"
+}

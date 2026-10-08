@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023410",
+ "processed": "2026-10-07T19:25:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "182-290-019",
+ "address": "5804 Mission Blvd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247789",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 381
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247789",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 15.197105,
+   "raw": "Total Depth of Completed Well 60",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Vacuum Rig",
+   "conf": "high",
+   "ocrConf": 93.628471,
+   "raw": "Drilling Method Air Vacuum Rig Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-08-13",
+   "conf": "low",
+   "ocrConf": 35.360313,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247789",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.99941560000008,
+ "lon": -117.41364659999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202239",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247789",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

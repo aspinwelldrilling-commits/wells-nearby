@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-23405",
+ "processed": "2026-10-07T17:06:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "169-270-017",
+ "address": "5020 Pedley Rd",
+ "city": null,
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23405",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 841
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23405",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 28.789154,
+   "raw": "TOTAL DEPTH OF BORING 100",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23405",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.998903,
+ "lon": -117.471371,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23405",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "22243",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

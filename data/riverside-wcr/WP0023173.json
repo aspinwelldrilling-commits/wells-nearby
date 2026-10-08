@@ -1,0 +1,71 @@
+{
+ "permit": "WP0023173",
+ "processed": "2026-10-07T16:31:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "166-150-028",
+ "address": "8495 58th St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247615",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 322
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247615",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "low",
+   "ocrConf": 32.266006,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL375",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "medium",
+   "ocrConf": 57.991211,
+   "raw": "ESTIMATED yieLD + 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 37.0,
+   "conf": "high",
+   "ocrConf": 87.103836,
+   "raw": "WATER LEVEL 37 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-07-02",
+   "conf": "medium",
+   "ocrConf": 63.052212,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247615",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.98322491700003,
+ "lon": -117.46762055699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202022",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247615",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

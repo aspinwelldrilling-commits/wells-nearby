@@ -1,0 +1,56 @@
+{
+ "permit": "WP0020970",
+ "processed": "2026-10-07T19:15:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "135-103-005",
+ "address": "13120 Magnolia Ave",
+ "city": "Home Gardens",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246399",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 381
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246399",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 89.575096,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid\nWELL",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-09-21",
+   "conf": "medium",
+   "ocrConf": 58.431625,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246399",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.881773836000036,
+ "lon": -117.51360195499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205188",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246399",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

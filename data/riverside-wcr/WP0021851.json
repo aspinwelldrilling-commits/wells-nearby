@@ -1,0 +1,63 @@
+{
+ "permit": "WP0021851",
+ "processed": "2026-10-07T16:30:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "266-330-036",
+ "address": "17711 Barton St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247163",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 327
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247163",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 445.0,
+   "conf": "low",
+   "ocrConf": 27.598541,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL445",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 82.93457,
+   "raw": "ESTIMATED YieLD + 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-08-08",
+   "conf": "medium",
+   "ocrConf": 77.816902,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247163",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.862835467000025,
+ "lon": -117.31772214499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203964",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247163",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001229",
+ "processed": "2026-10-07T15:54:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-400-016",
+ "address": "16755 Chocolate Lily Ln",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234230",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 811
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234230",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 44.887772,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.217842,
+   "raw": "DRILLING\nMETHOD Air FLUID\nTOTAL",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234230",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.78730123500003,
+ "lon": -117.36949863699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221759",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234230",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

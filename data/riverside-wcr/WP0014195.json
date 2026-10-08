@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014195",
+ "processed": "2026-10-07T18:38:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "210-160-010",
+ "address": "1995 3rd St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242737",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 5401
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242737",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 157.0,
+   "conf": "low",
+   "ocrConf": 42.064041,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL157",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-07-20",
+   "conf": "medium",
+   "ocrConf": 68.224442,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242737",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.98393580000004,
+ "lon": -117.35474439999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211153",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242737",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0013130",
+ "processed": "2026-10-07T18:32:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "143-180-016",
+ "address": "10360 Cochran Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242295",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1227
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242295",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 47.0,
+   "conf": "low",
+   "ocrConf": 64.786644,
+   "raw": "TOTAL DEPTH OF BORING 47",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-30",
+   "conf": "low",
+   "ocrConf": 7.422089,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242295",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.913294273000076,
+ "lon": -117.46604233799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212102",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242295",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

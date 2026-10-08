@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009842",
+ "processed": "2026-10-07T18:07:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-120-016",
+ "address": "10910 Dawson Canyon Rd",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240870",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1587
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240870",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 36.044888,
+   "raw": "WATER LEVEL. 2D __ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-10-17",
+   "conf": "low",
+   "ocrConf": 2.206451,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240870",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.79656034300007,
+ "lon": -117.45914463999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214604",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240870",
+ "serviceType": "Destruction",
+ "wellType": "Extraction",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0025025",
+ "processed": "2026-10-07T19:30:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "151-070-007",
+ "address": "8200 Arlington Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248025",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 400
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248025",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Hollow Stem Auger Dai",
+   "conf": "low",
+   "ocrConf": 26.191635,
+   "raw": "Drilling Method Hollow Stem Auger Dai Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-02-08",
+   "conf": "low",
+   "ocrConf": 14.136513,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248025",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.943749343000036,
+ "lon": -117.46072799499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200011",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248025",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

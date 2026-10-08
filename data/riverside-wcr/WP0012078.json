@@ -1,0 +1,57 @@
+{
+ "permit": "WP0012078",
+ "processed": "2026-10-07T18:25:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "160-050-025",
+ "address": "11201 Harrell St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243845",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 794
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243845",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 339.0,
+   "conf": "low",
+   "ocrConf": 13.476517,
+   "raw": "TOTAL DEPTH OF BORING 339",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 142.0,
+   "conf": "medium",
+   "ocrConf": 64.017822,
+   "raw": "WATER LEVEL 142 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243845",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.986621574000026,
+ "lon": -117.54446860999997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243845",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

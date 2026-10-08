@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-14847",
+ "processed": "2026-10-07T15:52:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "390-020-005",
+ "address": "Sandberg Pl",
+ "city": "Perris",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14847",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1044
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14847",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "low",
+   "ocrConf": 70.134933,
+   "raw": "(12) WELL LOG: Total depth 410",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 90.397972,
+   "raw": "Standing level after well completion 35 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14847",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.768424,
+ "lon": -117.395251,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16991",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14847",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16941",
+ "bestDocPage": 1,
+ "status": "partial"
+}

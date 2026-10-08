@@ -1,0 +1,67 @@
+{
+ "permit": "RIV-WCR-15393",
+ "processed": "2026-10-07T15:50:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "159-172-013",
+ "address": "50Th St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15393",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1061
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15393",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 209.0,
+   "conf": "low",
+   "ocrConf": 26.046127,
+   "raw": "Completed depth 209 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 109.0,
+   "conf": "high",
+   "ocrConf": 96.454208,
+   "raw": "Standing level after well completion 109 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 96.873474,
+   "raw": "Discharge 35 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15393",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.996574,
+ "lon": -117.507146,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410416",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15393",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17927",
+ "bestDocPage": 1,
+ "status": "partial"
+}

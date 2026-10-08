@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014283",
+ "processed": "2026-10-07T16:19:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-532-001",
+ "address": "17694 Big Sky Cir",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242858",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 749
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242858",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 575.0,
+   "conf": "medium",
+   "ocrConf": 77.181633,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 575",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 21.656311,
+   "raw": "ESTIMATED YIELD *2.\u00a2 _\u00a2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242858",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77461136200003,
+ "lon": -117.349958217,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211224",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242858",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

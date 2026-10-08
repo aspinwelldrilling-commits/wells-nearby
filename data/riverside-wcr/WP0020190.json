@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020190",
+ "processed": "2026-10-07T19:12:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "151-061-006",
+ "address": "8855 Phillip Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246650",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 84
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246650",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 68.536118,
+   "raw": "Total Depth of Completed Well 30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-07-31",
+   "conf": "high",
+   "ocrConf": 94.059715,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246650",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.946119200000055,
+ "lon": -117.46825399999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204437",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246650",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

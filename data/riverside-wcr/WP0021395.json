@@ -1,0 +1,62 @@
+{
+ "permit": "WP0021395",
+ "processed": "2026-10-07T19:18:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "149-260-006",
+ "address": "5310 La Sierra Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246978",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 390
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246978",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 95.898018,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 83.000244,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-01-11",
+   "conf": "medium",
+   "ocrConf": 68.238335,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246978",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.92761910000007,
+ "lon": -117.49416109999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203522",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246978",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

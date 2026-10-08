@@ -1,0 +1,55 @@
+{
+ "permit": "WP0007900",
+ "processed": "2026-10-07T17:57:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "219-041-008",
+ "address": "3304 14th St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239352",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1338
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239352",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 110.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 110",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-03-29",
+   "conf": "medium",
+   "ocrConf": 53.703362,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239352",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.973510400000066,
+ "lon": -117.37426789999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218612",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239352",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,48 @@
+{
+ "permit": "WP0008924",
+ "processed": "2026-10-07T17:56:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "136-050-007",
+ "address": "2221 Old Heritage Rd",
+ "city": "El Sobrante",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239909",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1791
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239909",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 35.0,
+   "conf": "medium",
+   "ocrConf": 55.031464,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _35",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239909",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88109091300004,
+ "lon": -117.46156214999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217453",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239909",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

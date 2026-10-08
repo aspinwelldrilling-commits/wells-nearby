@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-8063",
+ "processed": "2026-10-07T15:41:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "18891 Mariposa Ave",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8063",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 981
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8063",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 95.557404,
+   "raw": "Standing level after well completion 35 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8063",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.872500245000026,
+ "lon": -117.33319980799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/4866",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8063",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10572",
+ "bestDocPage": 1,
+ "status": "partial"
+}

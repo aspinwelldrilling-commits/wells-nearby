@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023783",
+ "processed": "2026-10-07T19:29:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "143-170-002",
+ "address": "10301 Magnolia Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248181",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 613
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248181",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 5.0,
+   "conf": "medium",
+   "ocrConf": 57.240356,
+   "raw": "Depth to Static\n_ 5 f",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-11-21",
+   "conf": "low",
+   "ocrConf": 41.306149,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248181",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.911433300000056,
+ "lon": -117.46292619999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202544",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248181",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

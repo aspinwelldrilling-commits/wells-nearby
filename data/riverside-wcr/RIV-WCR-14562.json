@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14562",
+ "processed": "2026-10-07T15:49:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "278-220-029",
+ "address": "18800 My Hiway",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14562",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1040
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14562",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 22.0,
+   "conf": "medium",
+   "ocrConf": 68.520599,
+   "raw": "Completed depth 22 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 22.0,
+   "conf": "medium",
+   "ocrConf": 66.391945,
+   "raw": "Standing level after well completion 22 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14562",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.846865268000045,
+ "lon": -117.52825857799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16622",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14562",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16748",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,64 @@
+{
+ "permit": "WP0003927",
+ "processed": "2026-10-07T17:30:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-120-015",
+ "address": "16451 El Sobrante Rd",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236044",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3000
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236044",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 67.0,
+   "conf": "medium",
+   "ocrConf": 78.08992,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 67",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 452.0,
+   "conf": "low",
+   "ocrConf": 30.817291,
+   "raw": "WATER LEVEL 452 _(Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1996-10-08",
+   "conf": "high",
+   "ocrConf": 95.289749,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236044",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.836904881000066,
+ "lon": -117.37189202199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218992",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236044",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004042",
+ "processed": "2026-10-07T17:31:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-120-021",
+ "address": "Cajalco Rd at El Sobrante Rd",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236754",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2846
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236754",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 39.075531,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 35",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.4,
+   "conf": "high",
+   "ocrConf": 95.208359,
+   "raw": "WATER LEVEL 3.4 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236754",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.83301666400007,
+ "lon": -117.36779825299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219253",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236754",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

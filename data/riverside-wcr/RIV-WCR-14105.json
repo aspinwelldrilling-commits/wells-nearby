@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14105",
+ "processed": "2026-10-07T15:49:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-220-004",
+ "address": "11240 Sunway Ct",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14105",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1087
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14105",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 125.0,
+   "conf": "low",
+   "ocrConf": 0.543396,
+   "raw": "Completed depth 125",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 24.0,
+   "conf": "high",
+   "ocrConf": 95.639023,
+   "raw": "Standing level after well completion 24 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14105",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.778444869000054,
+ "lon": -117.45927203199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15690",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14105",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16278",
+ "bestDocPage": 1,
+ "status": "partial"
+}

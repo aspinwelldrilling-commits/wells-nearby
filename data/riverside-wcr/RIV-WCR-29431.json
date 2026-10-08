@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-29431",
+ "processed": "2026-10-07T17:10:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "163-400-001-2",
+ "address": "6501 Clay St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29431",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2254
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29431",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 45.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 45",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-05-18",
+   "conf": "high",
+   "ocrConf": 94.413033,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29431",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.96937,
+ "lon": -117.468145,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408990",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29431",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31855",
+ "bestDocPage": 1,
+ "status": "partial"
+}

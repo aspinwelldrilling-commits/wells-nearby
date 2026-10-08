@@ -1,0 +1,55 @@
+{
+ "permit": "WP0003477",
+ "processed": "2026-10-07T17:25:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "LUCRITA, LIMONITE",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235770",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 789
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235770",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 95.819,
+   "raw": "DRILLING\nMETHOD rotary FLUID mud",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Mud",
+   "conf": "high",
+   "ocrConf": 96.832481,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235770",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.97544347200005,
+ "lon": -117.53191627499996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215906",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235770",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

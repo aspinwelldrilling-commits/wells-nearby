@@ -1,0 +1,63 @@
+{
+ "permit": "WP0025372",
+ "processed": "2026-10-07T16:32:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-560-014",
+ "address": "23949 Koepfer Rd",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248358",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 448
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248358",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "low",
+   "ocrConf": 28.355698,
+   "raw": "Total Depth of Completed Well 240",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 93.131561,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-08-19",
+   "conf": "high",
+   "ocrConf": 92.96978,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248358",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.772158544000035,
+ "lon": -117.35639388399994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200355",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248358",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

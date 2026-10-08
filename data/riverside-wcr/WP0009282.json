@@ -1,0 +1,48 @@
+{
+ "permit": "WP0009282",
+ "processed": "2026-10-07T18:00:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "142-090-003",
+ "address": "4210 Riverwalk Pkwy",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240158",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1238
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240158",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "dateEnded": {
+   "value": "2002-06-07",
+   "conf": "high",
+   "ocrConf": 86.873917,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240158",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.90309266300005,
+ "lon": -117.49591809699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214212",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240158",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

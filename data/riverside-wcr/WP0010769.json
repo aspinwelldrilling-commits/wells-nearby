@@ -1,0 +1,56 @@
+{
+ "permit": "WP0010769",
+ "processed": "2026-10-07T16:13:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-070-014",
+ "address": "21480 Salter Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241023",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1014
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241023",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 57.544613,
+   "raw": "TOTAL DEPTH OF BORING 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-04-29",
+   "conf": "low",
+   "ocrConf": 48.339645,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241023",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.80826224200007,
+ "lon": -117.30263367599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213422",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241023",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

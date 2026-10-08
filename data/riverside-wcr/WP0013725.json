@@ -1,0 +1,56 @@
+{
+ "permit": "WP0013725",
+ "processed": "2026-10-07T16:16:34-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "221-132-017",
+ "address": "291 Martin Luther King Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242768",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 933
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242768",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 225.0,
+   "conf": "medium",
+   "ocrConf": 69.731583,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _225",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 14.0,
+   "conf": "low",
+   "ocrConf": 37.250858,
+   "raw": "WATER LEveL__ 14] (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242768",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.969000021000056,
+ "lon": -117.35917789999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212895",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242768",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

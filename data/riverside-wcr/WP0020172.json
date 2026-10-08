@@ -1,0 +1,71 @@
+{
+ "permit": "WP0020172",
+ "processed": "2026-10-07T16:24:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "278-230-030",
+ "address": "18670 State St",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246637",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 59
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246637",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "high",
+   "ocrConf": 95.214844,
+   "raw": "Total Depth of Completed Well 900",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 95.643257,
+   "raw": "Estimated Yield* 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 87.40976,
+   "raw": "Water Level 10 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-08-20",
+   "conf": "high",
+   "ocrConf": 94.296814,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246637",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.84854688300004,
+ "lon": -117.53036079999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204420",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246637",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

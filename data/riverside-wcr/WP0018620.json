@@ -1,0 +1,64 @@
+{
+ "permit": "WP0018620",
+ "processed": "2026-10-07T16:23:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-160-016",
+ "address": "19300 Harley John Rd",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246016",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 457
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246016",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 96.166756,
+   "raw": "Total Depth of Boring 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 96.353012,
+   "raw": "Estimated Yield * 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-04-21",
+   "conf": "high",
+   "ocrConf": 95.878151,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246016",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.83937384400008,
+ "lon": -117.355454899,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209132",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246016",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

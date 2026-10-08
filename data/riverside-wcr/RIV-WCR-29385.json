@@ -1,0 +1,82 @@
+{
+ "permit": "RIV-WCR-29385",
+ "processed": "2026-10-07T15:51:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "319-240-051",
+ "address": "20620 Mack St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29385",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 757
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29385",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 96.590721,
+   "raw": "Total Depth of Boring 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 96.987694,
+   "raw": "Estimated Yield * 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 13.0,
+   "conf": "medium",
+   "ocrConf": 72.58963,
+   "raw": "Water Level 13 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 28.325653,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-05-05",
+   "conf": "high",
+   "ocrConf": 82.923706,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29385",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.82301238000008,
+ "lon": -117.30343382999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408907",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29385",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31768",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0023826",
+ "processed": "2026-10-07T16:32:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-540-021",
+ "address": "17990 Fort Lauder Ln",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248215",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 409
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248215",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 95.849556,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 93.850822,
+   "raw": "Water Level 40 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-11-23",
+   "conf": "high",
+   "ocrConf": 89.819244,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248215",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.890005604000066,
+ "lon": -117.53021598999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202584",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248215",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023347",
+ "processed": "2026-10-07T19:24:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "230-090-006",
+ "address": "3480 Madison St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247707",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 355
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247707",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 52.5,
+   "conf": "low",
+   "ocrConf": 20.094933,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL52.5",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-07-22",
+   "conf": "medium",
+   "ocrConf": 63.627354,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247707",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.93624310000007,
+ "lon": -117.40554339999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202178",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247707",
+ "serviceType": "Destruction",
+ "wellType": "Extraction",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

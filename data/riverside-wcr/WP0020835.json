@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020835",
+ "processed": "2026-10-07T16:26:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "159-191-003",
+ "address": "10690 50Th St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246473",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 320
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246473",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 285.0,
+   "conf": "low",
+   "ocrConf": 18.036194,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL285",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 39.0,
+   "conf": "low",
+   "ocrConf": 38.708183,
+   "raw": "ESTIMATED YiELD * 39 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-01",
+   "conf": "low",
+   "ocrConf": 31.772644,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246473",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.995648361000065,
+ "lon": -117.51813242999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205052",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246473",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,72 @@
+{
+ "permit": "WP0021501",
+ "processed": "2026-10-07T16:26:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-560-011",
+ "address": "23852 Koepfer Rd",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246984",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 414
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246984",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 475.0,
+   "conf": "medium",
+   "ocrConf": 88.069221,
+   "raw": "Total Depth of Boring 475",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 95.37133,
+   "raw": "Estimated Yield * 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 35.0,
+   "conf": "high",
+   "ocrConf": 89.002312,
+   "raw": "Water Level 35 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-03-10",
+   "conf": "high",
+   "ocrConf": 91.652901,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246984",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.773739324000076,
+ "lon": -117.35566981399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203626",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246984",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

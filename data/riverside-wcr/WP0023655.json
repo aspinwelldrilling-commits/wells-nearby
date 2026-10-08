@@ -1,0 +1,64 @@
+{
+ "permit": "WP0023655",
+ "processed": "2026-10-07T16:32:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "245-090-035",
+ "address": "15992 Summit Crest Dr",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248051",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 402
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248051",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 275.0,
+   "conf": "medium",
+   "ocrConf": 96.693993,
+   "raw": "Total Depth of Boring 275",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 95.694626,
+   "raw": "Estimated Yield* 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-10-10",
+   "conf": "medium",
+   "ocrConf": 69.035347,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248051",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88893969600008,
+ "lon": -117.38410009799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202445",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248051",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004600",
+ "processed": "2026-10-07T17:41:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "163-280-076",
+ "address": "6105 Clay St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236481",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 805
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236481",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 72.599579,
+   "raw": "TOTAL DEPTH OF BORING _ 40",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1997-12-09",
+   "conf": "high",
+   "ocrConf": 85.232872,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236481",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.97642512300007,
+ "lon": -117.46256334199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216298",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236481",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

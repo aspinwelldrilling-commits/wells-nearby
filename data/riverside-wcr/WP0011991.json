@@ -1,0 +1,56 @@
+{
+ "permit": "WP0011991",
+ "processed": "2026-10-07T16:14:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "279-151-009",
+ "address": "20330 State St",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243786",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 759
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243786",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 197.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL197",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 70.0,
+   "conf": "medium",
+   "ocrConf": 55.191292,
+   "raw": "ESTIMATED YieLD * 70 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243786",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.823885279000024,
+ "lon": -117.53527899099998,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243786",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

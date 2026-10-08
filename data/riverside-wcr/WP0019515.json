@@ -1,0 +1,64 @@
+{
+ "permit": "WP0019515",
+ "processed": "2026-10-07T16:24:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "273-450-027",
+ "address": "16280 Whispering Spur St",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246255",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 835
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246255",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "medium",
+   "ocrConf": 91.777641,
+   "raw": "Total Depth of Boring 320",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 96.303177,
+   "raw": "Estimated Yield* 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-01-13",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246255",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88408231600005,
+ "lon": -117.38805273099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208228",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246255",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

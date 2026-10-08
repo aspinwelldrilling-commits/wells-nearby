@@ -1,0 +1,49 @@
+{
+ "permit": "WP0002987",
+ "processed": "2026-10-07T17:23:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "272-060-001",
+ "address": "970 E Alessandro Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234830",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 842
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234830",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 625.0,
+   "conf": "low",
+   "ocrConf": 17.014549,
+   "raw": "TOTAL DEPTH OF BORING _ 62,5",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234830",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.92034902200004,
+ "lon": -117.31917428599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221209",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234830",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

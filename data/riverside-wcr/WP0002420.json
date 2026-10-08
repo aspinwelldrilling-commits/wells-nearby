@@ -1,0 +1,55 @@
+{
+ "permit": "WP0002420",
+ "processed": "2026-10-07T15:57:15-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "274-200-002",
+ "address": "16651 Porter Ave",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235214",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 847
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235214",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 309.0,
+   "conf": "medium",
+   "ocrConf": 50.615646,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___ 309",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-07-22",
+   "conf": "low",
+   "ocrConf": 11.343597,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235214",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.877586016000066,
+ "lon": -117.35910929299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219035",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235214",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

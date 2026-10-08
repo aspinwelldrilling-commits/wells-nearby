@@ -1,0 +1,89 @@
+{
+ "permit": "WP0027389",
+ "processed": "2026-10-07T19:36:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "165-070-009",
+ "address": "5616 Tomal Ln",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249550",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3738
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249550",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249550",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249550",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 36.0,
+   "conf": "high",
+   "ocrConf": 86.961952,
+   "raw": "Total Depth of Completed Well 36",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": 86.328766,
+   "raw": "Drilling Method Auger Drilling Fluid Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 84.085197,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-12-19",
+   "conf": "high",
+   "ocrConf": 96.055489,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.986327,
+   "lon": -117.482088,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249550",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.98630771000006,
+ "lon": -117.48202572399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/269298",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249550",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

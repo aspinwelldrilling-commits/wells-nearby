@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018065",
+ "processed": "2026-10-07T16:24:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-130-028",
+ "address": "22690 Poppy Canyon Rd",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245815",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 728
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245815",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 17.547699,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-12",
+   "conf": "medium",
+   "ocrConf": 61.757698,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245815",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.79086364500006,
+ "lon": -117.45401737399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208722",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245815",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

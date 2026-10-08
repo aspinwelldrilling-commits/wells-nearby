@@ -1,0 +1,72 @@
+{
+ "permit": "WP0020045",
+ "processed": "2026-10-07T16:26:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "241-150-032",
+ "address": "6431 Hawarden Dr",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246588",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 84
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246588",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1100.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Total Depth of Boring 1100",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "medium",
+   "ocrConf": 78.244675,
+   "raw": "Estimated Yield* 4 ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "low",
+   "ocrConf": 49.332241,
+   "raw": "Water Level 50 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-06-19",
+   "conf": "medium",
+   "ocrConf": 76.223656,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246588",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.932616292000034,
+ "lon": -117.37336220799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204297",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246588",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

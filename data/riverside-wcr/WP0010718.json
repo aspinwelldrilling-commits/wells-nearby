@@ -1,0 +1,57 @@
+{
+ "permit": "WP0010718",
+ "processed": "2026-10-07T16:12:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "286-140-017",
+ "address": "209925 Lakeridge Dr",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240958",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 760
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240958",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 74.0,
+   "conf": "low",
+   "ocrConf": 68.602097,
+   "raw": "TOTAL DEPTH OF BoRING 74",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 1.961716,
+   "raw": "ESTIMATED YIELD * _2Oo (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240958",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.81714213600003,
+ "lon": -117.41116226799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213384",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240958",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

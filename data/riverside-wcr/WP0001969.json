@@ -1,0 +1,72 @@
+{
+ "permit": "WP0001969",
+ "processed": "2026-10-07T15:57:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-090-003",
+ "address": "Post Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234779",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 729
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234779",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 144.0,
+   "conf": "low",
+   "ocrConf": 11.94828,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _144",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD *25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 15.0,
+   "conf": "low",
+   "ocrConf": 13.026886,
+   "raw": "WATER LEveL___15__(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.779617,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234779",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.801738374000024,
+ "lon": -117.30208398399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221062",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234779",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

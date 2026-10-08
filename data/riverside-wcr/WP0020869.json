@@ -1,0 +1,56 @@
+{
+ "permit": "WP0020869",
+ "processed": "2026-10-07T19:14:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "225-241-001",
+ "address": "3570 Central Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246440",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 372
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246440",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 80.0,
+   "conf": "medium",
+   "ocrConf": 96.89859,
+   "raw": "Total Depth of Boring 80",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-09",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246440",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.95334400000007,
+ "lon": -117.39071999999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205087",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246440",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

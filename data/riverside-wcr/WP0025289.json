@@ -1,0 +1,63 @@
+{
+ "permit": "WP0025289",
+ "processed": "2026-10-07T16:32:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-170-015",
+ "address": "Wild Onion",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248228",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 423
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248228",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 96.374428,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 88.220833,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-04-18",
+   "conf": "high",
+   "ocrConf": 91.986008,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248228",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77701975800005,
+ "lon": -117.38541931799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200273",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248228",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

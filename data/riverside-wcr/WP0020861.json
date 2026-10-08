@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020861",
+ "processed": "2026-10-07T19:14:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "225-241-001",
+ "address": "3570 Central Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246433",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 372
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246433",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 89.0,
+   "conf": "medium",
+   "ocrConf": 79.652618,
+   "raw": "Total Depth of Completed Well 89",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 95.523094,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-09",
+   "conf": "low",
+   "ocrConf": 10.471741,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246433",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.953197843000055,
+ "lon": -117.39035329399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205079",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246433",
+ "serviceType": "Destruction",
+ "wellType": "Air Sparge",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

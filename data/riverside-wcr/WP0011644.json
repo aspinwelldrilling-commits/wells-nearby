@@ -1,0 +1,56 @@
+{
+ "permit": "WP0011644",
+ "processed": "2026-10-07T16:13:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "267-200-006",
+ "address": "18698 Warren Rd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241927",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 849
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241927",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "medium",
+   "ocrConf": 84.177391,
+   "raw": "TOTAL DEPTH OF BORING 250",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-12-18",
+   "conf": "high",
+   "ocrConf": 85.845497,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241927",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86357875700003,
+ "lon": -117.33734697299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212144",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241927",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

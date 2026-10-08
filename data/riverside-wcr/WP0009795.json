@@ -1,0 +1,56 @@
+{
+ "permit": "WP0009795",
+ "processed": "2026-10-07T18:08:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "191-050-022",
+ "address": "4975 Van Buren Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243674",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1060
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243674",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 45.353554,
+   "raw": "TOTAL DEPTH OF BORING _25",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-04-24",
+   "conf": "high",
+   "ocrConf": 96.489975,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243674",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.934664240000075,
+ "lon": -117.45409475899999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243674",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

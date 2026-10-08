@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003763",
+ "processed": "2026-10-07T15:59:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-160-019",
+ "address": "15010 Gavilan Springs Ranch Rd",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235928",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 922
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235928",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 429.0,
+   "conf": "medium",
+   "ocrConf": 55.666862,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _429",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 15.467682,
+   "raw": "WATER LEVEL ____ 4) __(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235928",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.777334342000074,
+ "lon": -117.40167156299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218527",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235928",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

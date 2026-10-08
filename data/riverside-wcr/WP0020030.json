@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020030",
+ "processed": "2026-10-07T19:09:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "181-170-005",
+ "address": "4348 Fort Dr",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246578",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 51
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246578",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 41.281662,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL20",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-09-09",
+   "conf": "low",
+   "ocrConf": 25.621964,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246578",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.99094741600004,
+ "lon": -117.41166182099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204280",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246578",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

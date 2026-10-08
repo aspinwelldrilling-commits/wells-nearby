@@ -1,0 +1,49 @@
+{
+ "permit": "WP0003306",
+ "processed": "2026-10-07T17:21:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-120-004",
+ "address": "10910 Dawson Canyon Rd",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235652",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3269
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235652",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 28.0,
+   "conf": "medium",
+   "ocrConf": 95.009132,
+   "raw": "Total depth 28 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235652",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.798173888000065,
+ "lon": -117.47293274099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222085",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235652",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

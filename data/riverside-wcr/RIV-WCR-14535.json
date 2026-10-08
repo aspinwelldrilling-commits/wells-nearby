@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-14535",
+ "processed": "2026-10-07T15:49:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "245-110-016",
+ "address": "15130 Golden Star Ave",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14535",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1006
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14535",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "low",
+   "ocrConf": 29.088257,
+   "raw": "(12) WELL LOG: Total depth 120",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14535",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.900513,
+ "lon": -117.371919,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16558",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14535",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16716",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,67 @@
+{
+ "permit": "RIV-WCR-11878",
+ "processed": "2026-10-07T16:34:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "6510 Etiwanda Ave",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11878",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1975
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11878",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 46.006218,
+   "raw": "Completed depth 220 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 53.0,
+   "conf": "high",
+   "ocrConf": 96.750595,
+   "raw": "Standing level after well completion 53 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 305.0,
+   "conf": "low",
+   "ocrConf": 2.490616,
+   "raw": "Discharge 305 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11878",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.97059900000005,
+ "lon": -117.52224335099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/10916",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11878",
+ "serviceType": "New Construction",
+ "wellType": "Test Well",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13775",
+ "bestDocPage": 1,
+ "status": "partial"
+}

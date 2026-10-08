@@ -1,0 +1,55 @@
+{
+ "permit": "WP0004662",
+ "processed": "2026-10-07T16:01:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-240-019",
+ "address": "16903 Hidden Valley Rd",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236529",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 867
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236529",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.436012,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.06514,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236529",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.774318943000026,
+ "lon": -117.36641250599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216535",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236529",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

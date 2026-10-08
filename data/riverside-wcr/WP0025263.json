@@ -1,0 +1,64 @@
+{
+ "permit": "WP0025263",
+ "processed": "2026-10-07T16:31:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "242-100-015",
+ "address": "1681 Washington St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248212",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 462
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248212",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 180.0,
+   "conf": "medium",
+   "ocrConf": 96.379883,
+   "raw": "Total Depth of Boring 180",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 90.702469,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-04-13",
+   "conf": "high",
+   "ocrConf": 95.083069,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248212",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91417098900007,
+ "lon": -117.38252529999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200248",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248212",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,57 @@
+{
+ "permit": "WP0007380",
+ "processed": "2026-10-07T16:07:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "242-060-001",
+ "address": "1750 St Lawrence St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239013",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 950
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239013",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 41.796894,
+   "raw": "TOTAL DEPTH OF BORING 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 28.0,
+   "conf": "low",
+   "ocrConf": 11.959641,
+   "raw": "ESTIMATED YIELD * 28s. (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239013",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.90425434700006,
+ "lon": -117.39753999799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216790",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239013",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

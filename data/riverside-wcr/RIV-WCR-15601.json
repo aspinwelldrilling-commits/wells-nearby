@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-15601",
+ "processed": "2026-10-07T15:52:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "222-030-001",
+ "address": "5001 Sedwick Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15601",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1040
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15601",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 43.461067,
+   "raw": "WELL LOG: Total depth 220",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15601",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.960398,
+ "lon": -117.359274,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410106",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15601",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17430",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

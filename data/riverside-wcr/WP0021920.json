@@ -1,0 +1,64 @@
+{
+ "permit": "WP0021920",
+ "processed": "2026-10-07T19:21:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-120-004",
+ "address": "10910 Dawson Canyon Rd",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247185",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 398
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247185",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 117.0,
+   "conf": "medium",
+   "ocrConf": 95.958588,
+   "raw": "Total Depth of Boring 117",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 95.295677,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid .. ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-09-16",
+   "conf": "high",
+   "ocrConf": 96.219635,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247185",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.79771910000005,
+ "lon": -117.47623229999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204032",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247185",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

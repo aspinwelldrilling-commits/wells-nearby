@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012056",
+ "processed": "2026-10-07T18:26:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "230-090-006",
+ "address": "3480 Madison St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243829",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2136
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243829",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 16.714706,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-03-30",
+   "conf": "high",
+   "ocrConf": 96.083199,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243829",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.93681390000006,
+ "lon": -117.40557519999999,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243829",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

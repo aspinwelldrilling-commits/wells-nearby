@@ -1,0 +1,64 @@
+{
+ "permit": "WP0027221",
+ "processed": "2026-10-07T19:33:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "107-080-006",
+ "address": "Sw El Camino & Magnolia Ave",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249471",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 4279
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249471",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 165.0,
+   "conf": "medium",
+   "ocrConf": 96.72509,
+   "raw": "Total Depth of Boring 165",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 92.716072,
+   "raw": "Drilling Method Air Drilling Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-06",
+   "conf": "high",
+   "ocrConf": 93.7267,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249471",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86188187500005,
+ "lon": -117.53755205299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/269256",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249471",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

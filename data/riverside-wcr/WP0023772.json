@@ -1,0 +1,64 @@
+{
+ "permit": "WP0023772",
+ "processed": "2026-10-07T19:27:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "143-170-024",
+ "address": "10301 Magnolia Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248148",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 384
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248148",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.6,
+   "conf": "medium",
+   "ocrConf": 96.589363,
+   "raw": "Total Depth of Boring 25.6",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 7.0,
+   "conf": "low",
+   "ocrConf": 41.921989,
+   "raw": "Water Level 7 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-11-19",
+   "conf": "medium",
+   "ocrConf": 76.330101,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248148",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91188760000006,
+ "lon": -117.46185309999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202533",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248148",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022882",
+ "processed": "2026-10-07T16:29:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-380-032",
+ "address": "17490 Owl Tree Rd",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249340",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 375
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249340",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.963364,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 10.0,
+   "conf": "low",
+   "ocrConf": 34.019676,
+   "raw": "Water Level 10 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-11-01",
+   "conf": "high",
+   "ocrConf": 93.767487,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249340",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.857562114000075,
+ "lon": -117.35377790999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203070",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249340",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

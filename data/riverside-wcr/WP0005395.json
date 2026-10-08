@@ -1,0 +1,49 @@
+{
+ "permit": "WP0005395",
+ "processed": "2026-10-07T16:01:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "23435 Rolling Meadows",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236991",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 91
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236991",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "(12) WELL LOG: Total depth 200",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236991",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.778855,
+ "lon": -117.371852,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/265196",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236991",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

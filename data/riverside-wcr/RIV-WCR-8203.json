@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-8203",
+ "processed": "2026-10-07T15:42:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-230-018",
+ "address": "SPANISH HILLS",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8203",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1055
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8203",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.71006,
+   "raw": "Standing level after well completion 5 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 58.313148,
+   "raw": "Discharge__2 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8203",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.774187389000076,
+ "lon": -117.46119275399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/5202",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8203",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10740",
+ "bestDocPage": 1,
+ "status": "partial"
+}

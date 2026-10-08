@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020628",
+ "processed": "2026-10-07T16:25:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "162-230-004",
+ "address": "9330 Limonite Ave",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246523",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 428
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246523",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 250.0,
+   "conf": "high",
+   "ocrConf": 93.865387,
+   "raw": "Estimated Yield * 250 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-03-04",
+   "conf": "high",
+   "ocrConf": 96.380463,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246523",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.97395260400003,
+ "lon": -117.49028541899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204858",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246523",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

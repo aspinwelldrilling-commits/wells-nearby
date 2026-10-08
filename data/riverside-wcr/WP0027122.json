@@ -1,0 +1,86 @@
+{
+ "permit": "WP0027122",
+ "processed": "2026-10-07T16:32:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "267-190-002",
+ "address": "18485 Warren Rd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249442",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1032
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249442",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 96.920547,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 95.864761,
+   "raw": "Estimated Yield* 18 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 27.0,
+   "conf": "high",
+   "ocrConf": 96.883766,
+   "raw": "Water Level 27 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 96.354538,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-08-21",
+   "conf": "high",
+   "ocrConf": 96.078918,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.860095,
+   "lon": -117.342137,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249442",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86092961500003,
+ "lon": -117.34111257899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198671",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249442",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

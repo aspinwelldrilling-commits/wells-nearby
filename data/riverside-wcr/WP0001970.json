@@ -1,0 +1,56 @@
+{
+ "permit": "WP0001970",
+ "processed": "2026-10-07T17:20:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "189-130-005",
+ "address": "7007 Jurupa Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234778",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 779
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234778",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 143.0,
+   "conf": "medium",
+   "ocrConf": 67.040627,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _143",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 504.0,
+   "conf": "medium",
+   "ocrConf": 59.838261,
+   "raw": "ESTIMATED YIELD + 504 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234778",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.961425150000025,
+ "lon": -117.44806582599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221066",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234778",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

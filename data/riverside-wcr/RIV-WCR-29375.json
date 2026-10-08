@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-29375",
+ "processed": "2026-10-07T17:07:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "3900 Tyler St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29375",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1089
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29375",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 51.726875,
+   "raw": "WATER LEvEL__25' (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-04-10",
+   "conf": "high",
+   "ocrConf": 96.282043,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29375",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.914511,
+ "lon": -117.464828,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408868",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29375",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31727",
+ "bestDocPage": 1,
+ "status": "partial"
+}

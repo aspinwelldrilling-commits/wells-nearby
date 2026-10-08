@@ -1,0 +1,55 @@
+{
+ "permit": "WP0024619",
+ "processed": "2026-10-07T19:30:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "279-231-001",
+ "address": "3710 Temescal Canyon Rd",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248172",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 325
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248172",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "medium",
+   "ocrConf": 51.562561,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 60",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-06-29",
+   "conf": "low",
+   "ocrConf": 37.80344,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248172",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.82265299200003,
+ "lon": -117.51067149399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201531",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248172",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

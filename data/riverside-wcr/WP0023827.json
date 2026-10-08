@@ -1,0 +1,64 @@
+{
+ "permit": "WP0023827",
+ "processed": "2026-10-07T16:30:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "266-320-016",
+ "address": "19747 Glenwood Ave",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248216",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 407
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248216",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "medium",
+   "ocrConf": 96.486244,
+   "raw": "Total Depth of Boring 220",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "medium",
+   "ocrConf": 74.735085,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-11-12",
+   "conf": "high",
+   "ocrConf": 95.583748,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248216",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86340096200007,
+ "lon": -117.31880213499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202585",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248216",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,86 @@
+{
+ "permit": "WP0025060",
+ "processed": "2026-10-07T16:31:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "274-181-027",
+ "address": "16770 Washington St",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248107",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 393
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248107",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 72.887817,
+   "raw": "Total Depth of Completed Well_200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 95.428955,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 5.746597,
+   "raw": "Water Level 30 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 83.163208,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Foam",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Foam",
+   "conf": "high",
+   "ocrConf": 88.43293,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-03-09",
+   "conf": "medium",
+   "ocrConf": 59.074554,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248107",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.87594926600008,
+ "lon": -117.36465916299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200045",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248107",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

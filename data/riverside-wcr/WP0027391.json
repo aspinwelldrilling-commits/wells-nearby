@@ -1,0 +1,75 @@
+{
+ "permit": "WP0027391",
+ "processed": "2026-10-07T19:34:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "167-222-015",
+ "address": "9364 Jurupa Rd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249552",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3749
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249552",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249552",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249552",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 63.0,
+   "conf": "medium",
+   "ocrConf": 77.80513,
+   "raw": "Total Depth of Completed Well 63",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": 90.199455,
+   "raw": "Drilling Method Auger Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.995111,
+   "lon": -117.487851,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249552",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.99605418400006,
+ "lon": -117.48791208799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/269300",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249552",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

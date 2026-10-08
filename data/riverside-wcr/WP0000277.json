@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000277",
+ "processed": "2026-10-07T15:53:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "245-110-061",
+ "address": "16700 Silver Star Ct",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233579",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1046
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233579",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Completed depth 160\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 255.0,
+   "conf": "low",
+   "ocrConf": 41.567749,
+   "raw": "Discharge _ 255 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233579",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.898706928000024,
+ "lon": -117.37143194599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222487",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233579",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0023356",
+ "processed": "2026-10-07T16:29:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "161-260-011",
+ "address": "6085 Ridgeview Ave",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247713",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 332
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247713",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 92.197586,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 90.0,
+   "conf": "medium",
+   "ocrConf": 75.250542,
+   "raw": "ESTIMATED YiELD * 90 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247713",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.977599776000034,
+ "lon": -117.52052411699998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202187",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247713",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

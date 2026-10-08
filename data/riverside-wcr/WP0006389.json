@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006389",
+ "processed": "2026-10-07T17:50:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "253-090-007",
+ "address": "UCR Pesticide Waste Pits",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238390",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 810
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238390",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 86.0,
+   "conf": "low",
+   "ocrConf": 35.901459,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 86",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-12-01",
+   "conf": "low",
+   "ocrConf": 1.486099,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238390",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.96384964400005,
+ "lon": -117.33592839999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217373",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238390",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

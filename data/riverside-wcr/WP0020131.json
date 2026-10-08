@@ -1,0 +1,80 @@
+{
+ "permit": "WP0020131",
+ "processed": "2026-10-07T16:26:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-080-013",
+ "address": "20421 Sawgo Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246629",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 444
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246629",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "medium",
+   "ocrConf": 96.901924,
+   "raw": "Total Depth of Boring 260",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "high",
+   "ocrConf": 96.733276,
+   "raw": "Estimated Yield* 7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 77.691383,
+   "raw": "Water Level _30 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Down-Hoie Hammer",
+   "conf": "medium",
+   "ocrConf": 57.688824,
+   "raw": "Drilling Method Down-Hoie Hammer Drilling Fluid Fresh",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-07-03",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246629",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.802217330000076,
+ "lon": -117.30589840799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204379",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246629",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

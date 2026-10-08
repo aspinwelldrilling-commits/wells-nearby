@@ -1,0 +1,55 @@
+{
+ "permit": "WP0026673",
+ "processed": "2026-10-07T19:31:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "143-313-004",
+ "address": "10761 Starlight Ct",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262786",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 493
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262786",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 90.509331,
+   "raw": "Total Depth of Completed Well 130",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-01-30",
+   "conf": "low",
+   "ocrConf": 14.070068,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262786",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.90970976600005,
+ "lon": -117.47292408999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199716",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262786",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,91 @@
+{
+ "permit": "WP0030539",
+ "processed": "2026-10-07T16:34:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "321-230-003",
+ "address": "21 El Nido Rd ",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/300921",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1393
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/300921",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/300921",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/300921",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1300.0,
+   "conf": "low",
+   "ocrConf": 44.272789,
+   "raw": "Total Depth of Completed Well 1300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 88.15374,
+   "raw": "Estimated Yield\u2019 1 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": 96.028381,
+   "raw": "Water Level 150 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 94.0112,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-03-22",
+   "conf": "medium",
+   "ocrConf": 72.983582,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/300921",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77651,
+ "lon": -117.33202,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310711",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/300921",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

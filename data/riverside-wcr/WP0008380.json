@@ -1,0 +1,57 @@
+{
+ "permit": "WP0008380",
+ "processed": "2026-10-07T16:09:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "242-090-011",
+ "address": "OFF HERMOSA",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239614",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1017
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239614",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 414.0,
+   "conf": "low",
+   "ocrConf": 68.866844,
+   "raw": "TOTAL DEPTH OF BORING 414",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 95.705597,
+   "raw": "WATER LEVEL 60 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239614",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.90306897100004,
+ "lon": -117.38617815899994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215675",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239614",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

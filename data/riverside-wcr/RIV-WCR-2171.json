@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-2171",
+ "processed": "2026-10-07T15:37:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "5750 Holden Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2171",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2171",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "medium",
+   "ocrConf": 96.973999,
+   "raw": "Total depth 60 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2171",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.934624866000036,
+ "lon": -117.49649463099996,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/2171",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "03096",
+ "bestDocPage": 1,
+ "status": "partial"
+}

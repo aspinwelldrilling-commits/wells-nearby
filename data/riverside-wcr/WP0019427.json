@@ -1,0 +1,78 @@
+{
+ "permit": "WP0019427",
+ "processed": "2026-10-07T16:23:40-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "231-141-001",
+ "address": "3555 Crowell Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246233",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 424
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246233",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 225.0,
+   "conf": "high",
+   "ocrConf": 95.30748,
+   "raw": "Total Depth of Completed Well 225",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "medium",
+   "ocrConf": 72.740982,
+   "raw": "Estimated Yield* 100 _\u2014s(GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 96.312584,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 94.146416,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-12-09",
+   "conf": "high",
+   "ocrConf": 87.503357,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246233",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.930997529000024,
+ "lon": -117.41816041699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208168",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246233",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

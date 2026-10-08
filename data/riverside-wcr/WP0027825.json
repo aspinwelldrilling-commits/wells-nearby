@@ -1,0 +1,84 @@
+{
+ "permit": "WP0027825",
+ "processed": "2026-10-07T16:33:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "390-050-016",
+ "address": "",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249644",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 76
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249644",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249644",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "medium",
+   "ocrConf": 72.469719,
+   "raw": "Total Depth of Completed Well 600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.413109,
+   "raw": "Estimated Yield* 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 95.625496,
+   "raw": "Water Level 55 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-07-27",
+   "conf": "medium",
+   "ocrConf": 71.682167,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.76844,
+   "lon": -117.37506,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249644",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.768449744000065,
+ "lon": -117.37808403399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199049",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249644",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

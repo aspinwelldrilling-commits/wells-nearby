@@ -1,0 +1,71 @@
+{
+ "permit": "WP0021820",
+ "processed": "2026-10-07T16:28:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "273-173-002",
+ "address": "16796 Katie Dr",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247144",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 386
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247144",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 96.031532,
+   "raw": "Total Depth of Boring 300",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "low",
+   "ocrConf": 11.280128,
+   "raw": "Drilling Method Air Drilling Drilling Fluid _Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 80.357971,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-08-05",
+   "conf": "medium",
+   "ocrConf": 73.332573,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247144",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.87533666400003,
+ "lon": -117.37781919599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203934",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247144",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

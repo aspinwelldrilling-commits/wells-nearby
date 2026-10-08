@@ -1,0 +1,56 @@
+{
+ "permit": "WP0025026",
+ "processed": "2026-10-07T19:32:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "151-070-007",
+ "address": "8200 Arlington Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248028",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 375
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248028",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 67.0,
+   "conf": "medium",
+   "ocrConf": 96.993797,
+   "raw": "Total Depth of Boring 67",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-02-08",
+   "conf": "medium",
+   "ocrConf": 67.003914,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248028",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.94374167600006,
+ "lon": -117.46070563199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200013",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248028",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

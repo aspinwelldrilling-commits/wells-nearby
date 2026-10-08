@@ -1,0 +1,56 @@
+{
+ "permit": "WP0012007",
+ "processed": "2026-10-07T18:23:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "279-230-061",
+ "address": "Nwc TNwc Temescal Canyon Rd & Cajalco Rdemescal Canyon Rd & Cajalco Rd",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243791",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1815
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243791",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 75.0,
+   "conf": "medium",
+   "ocrConf": 96.806969,
+   "raw": "TOTAL DEPTH OF BORING 75",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-06-03",
+   "conf": "medium",
+   "ocrConf": 65.000282,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243791",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.82568263300004,
+ "lon": -117.51403790599994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243791",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

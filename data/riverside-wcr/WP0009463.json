@@ -1,0 +1,48 @@
+{
+ "permit": "WP0009463",
+ "processed": "2026-10-07T18:06:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "254-113-006",
+ "address": "5005 Lamart Dr",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240399",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 861
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240399",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 244.0,
+   "conf": "medium",
+   "ocrConf": 51.330547,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 244",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240399",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.95966476700005,
+ "lon": -117.33335413599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214346",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240399",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

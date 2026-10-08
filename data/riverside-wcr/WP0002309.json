@@ -1,0 +1,62 @@
+{
+ "permit": "WP0002309",
+ "processed": "2026-10-07T15:58:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "286-250-021",
+ "address": "14988 Burwood Dr",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235288",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 868
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235288",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 95.315979,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.332863,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1994-08-06",
+   "conf": "medium",
+   "ocrConf": 57.688461,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235288",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.80267791500006,
+ "lon": -117.39783537299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222168",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235288",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

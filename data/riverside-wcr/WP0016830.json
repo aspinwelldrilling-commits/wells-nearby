@@ -1,0 +1,71 @@
+{
+ "permit": "WP0016830",
+ "processed": "2026-10-07T16:20:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "277-172-003",
+ "address": "19923 Grant St",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245344",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 710
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245344",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 42.841057,
+   "raw": "ESTIMATED YIELD * 30 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 92.308365,
+   "raw": "WATER LEVEL 2 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-11-24",
+   "conf": "high",
+   "ocrConf": 90.3647,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245344",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.83033958300007,
+ "lon": -117.52152444099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209420",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245344",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

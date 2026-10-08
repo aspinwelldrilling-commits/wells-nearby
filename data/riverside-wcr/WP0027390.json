@@ -1,0 +1,82 @@
+{
+ "permit": "WP0027390",
+ "processed": "2026-10-07T19:36:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "165-210-029",
+ "address": "9209 Trailhead Point",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249551",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3743
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249551",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249551",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249551",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 43.0,
+   "conf": "high",
+   "ocrConf": 83.159409,
+   "raw": "Total Depth of Completed Well 43",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": 87.716354,
+   "raw": "Drilling Method Auger Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-11-21",
+   "conf": "high",
+   "ocrConf": 96.210182,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.982705,
+   "lon": -117.484444,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249551",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.98236888300005,
+ "lon": -117.48448675499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/269299",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249551",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

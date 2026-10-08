@@ -1,0 +1,57 @@
+{
+ "permit": "WP0021785",
+ "processed": "2026-10-07T16:28:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "273-172-012",
+ "address": "16793 Katie Dr",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247133",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 362
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247133",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 95.786491,
+   "raw": "Total Depth of Boring 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 72.431824,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247133",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.87567736500006,
+ "lon": -117.37862787599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203897",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247133",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

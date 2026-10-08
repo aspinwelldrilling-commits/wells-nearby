@@ -1,0 +1,64 @@
+{
+ "permit": "WP0017937",
+ "processed": "2026-10-07T16:24:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-260-012",
+ "address": "9376 Gum Tree Ln",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245819",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 806
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245819",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 255.0,
+   "conf": "medium",
+   "ocrConf": 95.745605,
+   "raw": "Total Depth of Boring 255",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 4.0,
+   "conf": "high",
+   "ocrConf": 96.474701,
+   "raw": "Estimated Yield* 4 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-08-01",
+   "conf": "medium",
+   "ocrConf": 69.821625,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245819",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77189526400008,
+ "lon": -117.49691274499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208589",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245819",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,64 @@
+{
+ "permit": "WP0025042",
+ "processed": "2026-10-07T19:32:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "151-070-007",
+ "address": "8200 Arlington Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248079",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 368
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248079",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 67.0,
+   "conf": "medium",
+   "ocrConf": 96.904388,
+   "raw": "Total Depth of Boring 67",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 96.278313,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid . .\nMailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-02-07",
+   "conf": "medium",
+   "ocrConf": 54.756317,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248079",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.943010026000024,
+ "lon": -117.46158952899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200031",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248079",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

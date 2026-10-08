@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-12707",
+ "processed": "2026-10-07T15:45:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "323-230-039",
+ "address": "20775 Gardenias St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12707",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1089
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12707",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 236.0,
+   "conf": "low",
+   "ocrConf": 69.401169,
+   "raw": "(12) WELL LOG: Total depth 236",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12707",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.772437027000024,
+ "lon": -117.30000384499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12408",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12707",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14523",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-9171",
+ "processed": "2026-10-07T15:41:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "17666 Palm Rd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9171",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 962
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9171",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 81.861076,
+   "raw": "Standing level after well completion 20 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9171",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86309317000007,
+ "lon": -117.39509184999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/6836",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9171",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "11729",
+ "bestDocPage": 1,
+ "status": "partial"
+}

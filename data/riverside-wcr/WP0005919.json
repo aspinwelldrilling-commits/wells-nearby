@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005919",
+ "processed": "2026-10-07T17:41:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "270-170-006",
+ "address": "12751 Date Palm Cir",
+ "city": "El Sobrante",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237359",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 928
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237359",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "medium",
+   "ocrConf": 56.890114,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 120",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-06-23",
+   "conf": "high",
+   "ocrConf": 96.815231,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237359",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86301209800007,
+ "lon": -117.44056929199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215980",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237359",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

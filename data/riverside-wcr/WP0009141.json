@@ -1,0 +1,56 @@
+{
+ "permit": "WP0009141",
+ "processed": "2026-10-07T16:09:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "321-300-028",
+ "address": "21844 Gold Valley Rd",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240062",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 710
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240062",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 42.0,
+   "conf": "low",
+   "ocrConf": 19.541138,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 42",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LeveL__1B (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240062",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.80276755400007,
+ "lon": -117.33419707699994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214101",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240062",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

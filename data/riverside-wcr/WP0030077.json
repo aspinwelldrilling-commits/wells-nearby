@@ -1,0 +1,84 @@
+{
+ "permit": "WP0030077",
+ "processed": "2026-10-07T16:33:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-300-012",
+ "address": "16761 Fox Glen Rd ",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256103",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 592
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256103",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256103",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 86.779259,
+   "raw": "Total Depth of Completed Well 50",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 42.0,
+   "conf": "high",
+   "ocrConf": 96.560959,
+   "raw": "Water Level 42 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 96.274338,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-08-27",
+   "conf": "medium",
+   "ocrConf": 78.968338,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.847944,
+   "lon": -117.369619,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256103",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.847944,
+ "lon": -117.369619,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256104",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/256103",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

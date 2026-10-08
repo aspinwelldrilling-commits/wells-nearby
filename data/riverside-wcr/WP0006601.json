@@ -1,0 +1,57 @@
+{
+ "permit": "WP0006601",
+ "processed": "2026-10-07T16:04:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "239-040-018",
+ "address": "Dufferin Street & John Street",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238519",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 814
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238519",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 243.0,
+   "conf": "medium",
+   "ocrConf": 84.36554,
+   "raw": "TOTAL DEPTH OF BORING __ 243",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 9.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL 9 _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238519",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.892012428000044,
+ "lon": -117.44138651999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218109",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238519",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

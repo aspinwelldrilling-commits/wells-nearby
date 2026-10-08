@@ -1,0 +1,55 @@
+{
+ "permit": "WP0001182",
+ "processed": "2026-10-07T17:13:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "187-090-011",
+ "address": "Tequesquite Landfill-Off Redwood",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234186",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1253
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234186",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 59.440456,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _25",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1992-09-17",
+   "conf": "high",
+   "ocrConf": 96.372833,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234186",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.971244013000046,
+ "lon": -117.40558920699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221611",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234186",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

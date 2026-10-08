@@ -1,0 +1,57 @@
+{
+ "permit": "WP0020818",
+ "processed": "2026-10-07T16:25:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-040-006",
+ "address": "14870 El Sobrante Rd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246467",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 371
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246467",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "medium",
+   "ocrConf": 96.389465,
+   "raw": "Total Depth of Boring 375",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 24.0,
+   "conf": "high",
+   "ocrConf": 96.044586,
+   "raw": "Water Level 24 (Feet",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246467",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.854638591000025,
+ "lon": -117.39871057799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205037",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246467",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

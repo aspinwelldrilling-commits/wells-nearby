@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012594",
+ "processed": "2026-10-07T18:24:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "231-221-001",
+ "address": "3399 Adams St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243953",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1133
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243953",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 85.0,
+   "conf": "low",
+   "ocrConf": 42.203194,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 85",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-05-18",
+   "conf": "high",
+   "ocrConf": 96.871277,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243953",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.92688810000004,
+ "lon": -117.41864879999997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243953",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

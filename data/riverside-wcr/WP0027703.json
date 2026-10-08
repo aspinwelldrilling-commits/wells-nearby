@@ -1,0 +1,76 @@
+{
+ "permit": "WP0027703",
+ "processed": "2026-10-07T16:33:31-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-130-003-4",
+ "address": "14603 Burwood Dr",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249611",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 113
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249611",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249611",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "medium",
+   "ocrConf": 58.995266,
+   "raw": "Total Depth of Completed Well 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.141968,
+   "raw": "Water Level 100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-04-12",
+   "conf": "medium",
+   "ocrConf": 77.047226,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.799799,
+   "lon": -117.403085,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249611",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.799803875000066,
+ "lon": -117.40309702399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198999",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249611",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

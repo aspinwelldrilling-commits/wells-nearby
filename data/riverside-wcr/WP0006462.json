@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006462",
+ "processed": "2026-10-07T16:05:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "154-102-016",
+ "address": "11551 Arlington Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238437",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 832
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238437",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.382004,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-01-26",
+   "conf": "high",
+   "ocrConf": 94.518524,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238437",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.94570880600003,
+ "lon": -117.50001837299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217597",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238437",
+ "serviceType": null,
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

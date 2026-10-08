@@ -1,0 +1,63 @@
+{
+ "permit": "WP0022465",
+ "processed": "2026-10-07T19:22:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "162-250-004",
+ "address": "11401 Arlington Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249238",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 428
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249238",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 125.0,
+   "conf": "medium",
+   "ocrConf": 65.55928,
+   "raw": "Total Depth of Completed Well 125",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 350.0,
+   "conf": "high",
+   "ocrConf": 96.23558,
+   "raw": "Estimated Yield * 350 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-12-21",
+   "conf": "low",
+   "ocrConf": 37.453022,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249238",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.96163949000004,
+ "lon": -117.49854168399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18830",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249238",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "VOIDED PERMIT",
+ "bestDocPage": 1,
+ "status": "readable"
+}

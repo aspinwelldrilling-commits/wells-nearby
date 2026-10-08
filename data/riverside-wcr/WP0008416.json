@@ -1,0 +1,63 @@
+{
+ "permit": "WP0008416",
+ "processed": "2026-10-07T16:07:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "321-180-003",
+ "address": "18325 Sandra Ln",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239637",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 968
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239637",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 94.950447,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __ 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 22.328537,
+   "raw": "WATER LEVEL ____ 5) ___(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2001-09-01",
+   "conf": "high",
+   "ocrConf": 81.024559,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239637",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.78632991600006,
+ "lon": -117.34124089299996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215764",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239637",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

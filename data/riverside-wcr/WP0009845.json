@@ -1,0 +1,55 @@
+{
+ "permit": "WP0009845",
+ "processed": "2026-10-07T16:10:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "286-250-050",
+ "address": "21960 Lake Mathews Dr",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240877",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 708
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240877",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 610.0,
+   "conf": "medium",
+   "ocrConf": 59.739647,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL610",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-12-13",
+   "conf": "low",
+   "ocrConf": 6.976128,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240877",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.805662624000036,
+ "lon": -117.40320420499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214606",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240877",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

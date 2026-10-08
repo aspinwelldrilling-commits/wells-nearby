@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019432",
+ "processed": "2026-10-07T19:06:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "284-270-004",
+ "address": "Ne Corner of Wood Rd & Van Buren Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246234",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2351
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246234",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 34.5,
+   "conf": "high",
+   "ocrConf": 95.931847,
+   "raw": "Total Depth of Completed Well 34.5",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-12-10",
+   "conf": "high",
+   "ocrConf": 90.644958,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246234",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.887342896000064,
+ "lon": -117.33111256999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208171",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246234",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

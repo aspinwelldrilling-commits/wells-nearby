@@ -1,0 +1,82 @@
+{
+ "permit": "RIV-WCR-28620",
+ "processed": "2026-10-07T15:55:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "282-070-006",
+ "address": "21412 Moser Dr",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28620",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 809
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28620",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 580.0,
+   "conf": "high",
+   "ocrConf": 94.718033,
+   "raw": "Total Depth of Completed Well 580",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.928162,
+   "raw": "Estimated Yield * 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 350.0,
+   "conf": "low",
+   "ocrConf": 48.182823,
+   "raw": "Water Level 350 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotary",
+   "conf": "high",
+   "ocrConf": 91.69899,
+   "raw": "Drilling Method Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-03-17",
+   "conf": "medium",
+   "ocrConf": 68.479073,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28620",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.808882,
+ "lon": -117.514554,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409044",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28620",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "30326",
+ "bestDocPage": 1,
+ "status": "readable"
+}

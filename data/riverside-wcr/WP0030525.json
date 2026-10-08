@@ -1,0 +1,61 @@
+{
+ "permit": "WP0030525",
+ "processed": "2026-10-07T19:35:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "270-180-010",
+ "address": "12850 El Sobrante Rd ",
+ "city": "El Sobrante",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264811",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 441
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264811",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264811",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.611176,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.85889,
+   "lon": -117.437222,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264811",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.85889,
+ "lon": -117.43722,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264810",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/264811",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

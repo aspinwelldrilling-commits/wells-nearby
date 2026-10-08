@@ -1,0 +1,55 @@
+{
+ "permit": "WP0018362",
+ "processed": "2026-10-07T19:04:28-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "215-261-015",
+ "address": "13Th & Market",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245955",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 748
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245955",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 89.0,
+   "conf": "medium",
+   "ocrConf": 50.925465,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL89",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-01-25",
+   "conf": "high",
+   "ocrConf": 89.857964,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245955",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.978267800000026,
+ "lon": -117.37942289999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208919",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245955",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

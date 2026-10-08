@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017834",
+ "processed": "2026-10-07T19:03:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "256-130-001",
+ "address": "20775 Box Springs Rd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245751",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2630
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245751",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 39.518288,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-06-20",
+   "conf": "high",
+   "ocrConf": 83.955894,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245751",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.94936810000007,
+ "lon": -117.30086619999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208495",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245751",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

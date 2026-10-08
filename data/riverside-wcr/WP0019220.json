@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019220",
+ "processed": "2026-10-07T19:06:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "276-370-018",
+ "address": "401 Ealessandro Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246183",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 988
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246183",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 5.171364,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-09-25",
+   "conf": "high",
+   "ocrConf": 96.772453,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246183",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.916000100000076,
+ "lon": -117.32429259999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208014",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246183",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

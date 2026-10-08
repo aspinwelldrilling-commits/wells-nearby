@@ -1,0 +1,55 @@
+{
+ "permit": "WP0020055",
+ "processed": "2026-10-07T19:12:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "166-620-023",
+ "address": "7840 Limonite Ave",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246595",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 54
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246595",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 10.141907,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL35",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-07-20",
+   "conf": "low",
+   "ocrConf": 14.931412,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246595",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.97761170000007,
+ "lon": -117.45474169999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204305",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246595",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

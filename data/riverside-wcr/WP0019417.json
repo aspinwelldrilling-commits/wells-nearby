@@ -1,0 +1,71 @@
+{
+ "permit": "WP0019417",
+ "processed": "2026-10-07T16:24:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "281-100-046",
+ "address": "9099 Cajalco Rd",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246227",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 643
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246227",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 65.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL65",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 19.0,
+   "conf": "medium",
+   "ocrConf": 54.805569,
+   "raw": "ESTIMATED YIELD * 19 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 21.0,
+   "conf": "medium",
+   "ocrConf": 58.505478,
+   "raw": "WATER LeveL 21 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-10-30",
+   "conf": "low",
+   "ocrConf": 26.625778,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246227",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.82431268900007,
+ "lon": -117.50023259399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208155",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246227",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

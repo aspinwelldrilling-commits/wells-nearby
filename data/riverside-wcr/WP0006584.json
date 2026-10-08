@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006584",
+ "processed": "2026-10-07T17:51:16-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "179-230-001",
+ "address": "5249 34th St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238503",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 960
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238503",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 170.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 170",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 89.275284,
+   "raw": "WATER LEVEL 18 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238503",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.997100818000035,
+ "lon": -117.3949955,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218021",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238503",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

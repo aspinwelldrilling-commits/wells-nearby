@@ -1,0 +1,49 @@
+{
+ "permit": "WP0009278",
+ "processed": "2026-10-07T16:11:45-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "277-100-013",
+ "address": "7890 Minnesota Rd",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240153",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 994
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240153",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 425.0,
+   "conf": "medium",
+   "ocrConf": 86.452934,
+   "raw": "TOTAL DEPTH OF BORING _425",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240153",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.836675918000026,
+ "lon": -117.52052300899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214208",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240153",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

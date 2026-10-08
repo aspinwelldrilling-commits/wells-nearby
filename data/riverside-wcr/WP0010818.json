@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010818",
+ "processed": "2026-10-07T16:13:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "273-310-031",
+ "address": "17810 Nandina Ave",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241076",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 711
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241076",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 178.0,
+   "conf": "low",
+   "ocrConf": 47.182674,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 178",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 1.0,
+   "conf": "high",
+   "ocrConf": 82.782059,
+   "raw": "WATER LEVEL 1 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-02-15",
+   "conf": "low",
+   "ocrConf": 23.442047,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241076",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.866244669000025,
+ "lon": -117.35265881799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213464",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241076",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

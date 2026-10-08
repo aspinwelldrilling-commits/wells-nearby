@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017242",
+ "processed": "2026-10-07T16:21:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "278-060-018",
+ "address": "18875 State St",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245507",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 712
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245507",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 38.817108,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-01-09",
+   "conf": "low",
+   "ocrConf": 15.545578,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245507",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.84553019600003,
+ "lon": -117.53293748799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209777",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245507",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

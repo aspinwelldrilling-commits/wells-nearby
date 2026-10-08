@@ -1,0 +1,58 @@
+{
+ "permit": "WP0013943",
+ "processed": "2026-10-07T16:18:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-130-012",
+ "address": "22175 Lake Mathews Dr",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243040",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 763
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243040",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 28.786934,
+   "raw": "TOTAL DEPTH OF BORING 3O",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 226.0,
+   "conf": "low",
+   "ocrConf": 37.541725,
+   "raw": "WATER LEVEL 226 (Ft",
+   "note": "SWL >= depth (misread)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243040",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.79697328000003,
+ "lon": -117.40198386699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210978",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243040",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

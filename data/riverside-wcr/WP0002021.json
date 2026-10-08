@@ -1,0 +1,56 @@
+{
+ "permit": "WP0002021",
+ "processed": "2026-10-07T15:56:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "319-220-011",
+ "address": "20705 Nadine Ct",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235423",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 845
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235423",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 420.0,
+   "conf": "low",
+   "ocrConf": 45.032265,
+   "raw": "TOTAL DEPTH OF BORING _ 420",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1993-10-12",
+   "conf": "high",
+   "ocrConf": 96.270226,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235423",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.820184812000036,
+ "lon": -117.30485024899997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221242",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235423",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-15991",
+ "processed": "2026-10-07T15:50:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "17217 Roosevelt St",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15991",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 756
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15991",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 555.0,
+   "conf": "low",
+   "ocrConf": 63.906628,
+   "raw": "(12) WELL LOG: Total depth 555",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 46.0,
+   "conf": "low",
+   "ocrConf": 27.919609,
+   "raw": "Standing level after well completion 46",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15991",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.869144154000026,
+ "lon": -117.34943062399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410287",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15991",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17698",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

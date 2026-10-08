@@ -1,0 +1,72 @@
+{
+ "permit": "WP0020134",
+ "processed": "2026-10-07T16:25:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-080-016",
+ "address": "20420 Sawgo Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246628",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 714
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246628",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 510.0,
+   "conf": "medium",
+   "ocrConf": 96.044296,
+   "raw": "Total Depth of Boring 510",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 95.781219,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 120.0,
+   "conf": "high",
+   "ocrConf": 89.635735,
+   "raw": "Water Level _120 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-07-16",
+   "conf": "medium",
+   "ocrConf": 63.259289,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246628",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.804122981000035,
+ "lon": -117.30483840799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204383",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246628",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

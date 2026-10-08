@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015264",
+ "processed": "2026-10-07T18:46:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "273-141-004",
+ "address": "16971 Van Buren Blvd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244397",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1925
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244397",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244397",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 75.485931,
+   "raw": "TOTAL DEPTH OF BORING 20",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244397",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88257592400004,
+ "lon": -117.36634272599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210626",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244397",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

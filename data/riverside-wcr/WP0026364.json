@@ -1,0 +1,71 @@
+{
+ "permit": "WP0026364",
+ "processed": "2026-10-07T16:34:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-030-011",
+ "address": "21140 Fox St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248429",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 56
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248429",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 660.0,
+   "conf": "high",
+   "ocrConf": 95.841072,
+   "raw": "Total Depth of Completed Well 660",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 95.774055,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 93.283882,
+   "raw": "Water Level 50 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-10-07",
+   "conf": "high",
+   "ocrConf": 91.415779,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248429",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.81329976400008,
+ "lon": -117.30245401599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199437",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248429",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

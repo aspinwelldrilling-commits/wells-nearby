@@ -1,0 +1,62 @@
+{
+ "permit": "WP0021246",
+ "processed": "2026-10-07T19:16:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "151-151-006",
+ "address": "6266 Van Buren Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246883",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 601
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246883",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246883",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "medium",
+   "ocrConf": 96.007217,
+   "raw": "Total Depth of Boring 40",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-11-15",
+   "conf": "medium",
+   "ocrConf": 63.299221,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246883",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.94464857000003,
+ "lon": -117.45582809999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203378",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246883",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

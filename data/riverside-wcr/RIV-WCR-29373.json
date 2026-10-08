@@ -1,0 +1,66 @@
+{
+ "permit": "RIV-WCR-29373",
+ "processed": "2026-10-07T17:09:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "3950 Tyler St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29373",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1114
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29373",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 45.0,
+   "conf": "low",
+   "ocrConf": 45.927753,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _45",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 40.370941,
+   "raw": "WATER LEVeL__25' _____ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-04-10",
+   "conf": "high",
+   "ocrConf": 90.979996,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29373",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.913798,
+ "lon": -117.465873,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408866",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29373",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31725",
+ "bestDocPage": 1,
+ "status": "partial"
+}

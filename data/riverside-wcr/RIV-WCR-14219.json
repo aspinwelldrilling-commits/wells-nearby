@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-14219",
+ "processed": "2026-10-07T15:49:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "270-110-014",
+ "address": "14650 Blackburn Rd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14219",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 769
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14219",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 62.316551,
+   "raw": "Completed depth 300 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14219",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86620324100005,
+ "lon": -117.40719285999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15904",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14219",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16387",
+ "bestDocPage": 1,
+ "status": "partial"
+}

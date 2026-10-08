@@ -1,0 +1,63 @@
+{
+ "permit": "WP0004073",
+ "processed": "2026-10-07T16:01:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "282-140-017",
+ "address": "21775 Knabe Rd",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236108",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 777
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236108",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 320.0,
+   "conf": "medium",
+   "ocrConf": 79.046753,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 320",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Rotwry Air",
+   "conf": "low",
+   "ocrConf": 37.731323,
+   "raw": "DRILLING\nMETHOD Rotwry Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.365158,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236108",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.803441648000046,
+ "lon": -117.51008750099999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/219363",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236108",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

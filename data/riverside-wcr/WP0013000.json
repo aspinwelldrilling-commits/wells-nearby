@@ -1,0 +1,56 @@
+{
+ "permit": "WP0013000",
+ "processed": "2026-10-07T18:30:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "229-140-017",
+ "address": "6608 Indiana Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242200",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1092
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242200",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1107.0,
+   "conf": "low",
+   "ocrConf": 45.028324,
+   "raw": "TOTAL DEPTH OF BORING 1107",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-09-01",
+   "conf": "medium",
+   "ocrConf": 64.595711,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242200",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.94611500000008,
+ "lon": -117.38716849999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211916",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242200",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

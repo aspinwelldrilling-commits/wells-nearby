@@ -1,0 +1,62 @@
+{
+ "permit": "WP0023612",
+ "processed": "2026-10-07T19:25:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "210-160-010",
+ "address": "1995 3rd St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247978",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 522
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247978",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 95.937996,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid ss",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-09-12",
+   "conf": "high",
+   "ocrConf": 95.655884,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.983002,
+   "lon": -117.355797,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247978",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.983955200000025,
+ "lon": -117.35388379999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202409",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247978",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

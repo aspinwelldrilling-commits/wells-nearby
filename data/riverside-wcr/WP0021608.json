@@ -1,0 +1,56 @@
+{
+ "permit": "WP0021608",
+ "processed": "2026-10-07T19:18:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "215-272-008",
+ "address": "4336 Market St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247061",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 383
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247061",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 80.0,
+   "conf": "medium",
+   "ocrConf": 96.671806,
+   "raw": "Total Depth of Boring 80",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-05-28",
+   "conf": "high",
+   "ocrConf": 94.942665,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247061",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.97719960000006,
+ "lon": -117.37870659999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203733",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247061",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

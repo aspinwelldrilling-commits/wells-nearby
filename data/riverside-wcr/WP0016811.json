@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016811",
+ "processed": "2026-10-07T18:49:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "182-290-019",
+ "address": "5804 Mission Blvd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245324",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1094
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245324",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 60",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-11-20",
+   "conf": "high",
+   "ocrConf": 89.629822,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245324",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.999443900000074,
+ "lon": -117.41299819999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209400",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245324",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0017310",
+ "processed": "2026-10-07T16:24:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "287-190-001",
+ "address": "19980 Gustin Rd",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245517",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 734
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245517",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "low",
+   "ocrConf": 38.353916,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL550",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 93.0,
+   "conf": "high",
+   "ocrConf": 82.03228,
+   "raw": "WATER LEVEL 93 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-02-08",
+   "conf": "medium",
+   "ocrConf": 69.613739,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245517",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.828243231000044,
+ "lon": -117.34652119499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209843",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245517",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

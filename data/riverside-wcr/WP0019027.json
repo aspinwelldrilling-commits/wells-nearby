@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019027",
+ "processed": "2026-10-07T16:23:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "246-250-055",
+ "address": "21771 Onaknoll Dr",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246165",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 893
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246165",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 95.532516,
+   "raw": "Estimated Yield* 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 350.0,
+   "conf": "medium",
+   "ocrConf": 71.140457,
+   "raw": "Water Level 350 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-08-29",
+   "conf": "high",
+   "ocrConf": 91.136314,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246165",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.80380789900005,
+ "lon": -117.40022689899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207945",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246165",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

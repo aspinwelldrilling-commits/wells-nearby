@@ -1,0 +1,99 @@
+{
+ "permit": "WP0027601",
+ "processed": "2026-10-07T16:33:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "237-152-007",
+ "address": "2315 Grace St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249578",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 293
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249578",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249578",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "high",
+   "ocrConf": 83.433624,
+   "raw": "Total Depth of Completed Well 450",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 96.560722,
+   "raw": "Estimated Yield* 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 28.0,
+   "conf": "high",
+   "ocrConf": 96.90963,
+   "raw": "Water Level 28 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downholehammer",
+   "conf": "medium",
+   "ocrConf": 61.573822,
+   "raw": "Drilling Method DownholeHammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 58.257874,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-02-20",
+   "conf": "medium",
+   "ocrConf": 74.494156,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.91833,
+   "lon": -117.393833,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249578",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91833488800006,
+ "lon": -117.39384503199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198917",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249578",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

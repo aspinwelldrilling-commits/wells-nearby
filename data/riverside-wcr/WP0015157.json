@@ -1,0 +1,71 @@
+{
+ "permit": "WP0015157",
+ "processed": "2026-10-07T16:19:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "245-500-012",
+ "address": "15230 Cayuse Ct",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244114",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 955
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244114",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 275.0,
+   "conf": "medium",
+   "ocrConf": 96.38855,
+   "raw": "Total Depth of Boring 275",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 89.508484,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 41.898327,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-10-21",
+   "conf": "medium",
+   "ocrConf": 63.489727,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244114",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.898916591000045,
+ "lon": -117.37949184399997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244114",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

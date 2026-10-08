@@ -1,0 +1,72 @@
+{
+ "permit": "WP0018616",
+ "processed": "2026-10-07T16:23:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "245-040-010",
+ "address": "1559 Heather Ln",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246014",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 883
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246014",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 850.0,
+   "conf": "medium",
+   "ocrConf": 85.990883,
+   "raw": "Total Depth of Boring 850",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 96.41008,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "medium",
+   "ocrConf": 77.117706,
+   "raw": "Water Level _75 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-04-29",
+   "conf": "medium",
+   "ocrConf": 73.846962,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246014",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.89478694600007,
+ "lon": -117.39760748299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209130",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246014",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

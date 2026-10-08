@@ -1,0 +1,79 @@
+{
+ "permit": "WP0021683",
+ "processed": "2026-10-07T16:29:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "287-090-036",
+ "address": "16080 McEwan Ln",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247095",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 415
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247095",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 900.0,
+   "conf": "high",
+   "ocrConf": 87.437111,
+   "raw": "Total Depth of Completed Well 900",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 24.0,
+   "conf": "high",
+   "ocrConf": 96.841438,
+   "raw": "Estimated Yield* 24 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 68.046829,
+   "raw": "Water Level 200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling Brising",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Drilling Method Air Drilling Brising Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-04-29",
+   "conf": "high",
+   "ocrConf": 83.80751,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247095",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.82652773900003,
+ "lon": -117.37823878199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203810",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247095",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

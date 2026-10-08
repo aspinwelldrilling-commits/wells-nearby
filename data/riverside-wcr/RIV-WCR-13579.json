@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13579",
+ "processed": "2026-10-07T15:48:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "DAWSON CYN",
+ "city": "",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13579",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1845
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13579",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 80.0,
+   "conf": "medium",
+   "ocrConf": 55.88345,
+   "raw": "Completed depth 80 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13579",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.786451,
+ "lon": -117.439245,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14500",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13579",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15662",
+ "bestDocPage": 1,
+ "status": "partial"
+}

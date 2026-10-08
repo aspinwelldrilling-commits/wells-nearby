@@ -1,0 +1,57 @@
+{
+ "permit": "WP0015634",
+ "processed": "2026-10-07T16:18:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "17341 Parsons Rd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244655",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 947
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244655",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 175.0,
+   "conf": "low",
+   "ocrConf": 77.005829,
+   "raw": "WELL LOG: Total depth 175",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 8.0,
+   "conf": "high",
+   "ocrConf": 94.725311,
+   "raw": "Standing level after well completion__ 8 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244655",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.868045,
+ "lon": -117.327362,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/224562",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244655",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

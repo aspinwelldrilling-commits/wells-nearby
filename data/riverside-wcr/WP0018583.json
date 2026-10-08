@@ -1,0 +1,63 @@
+{
+ "permit": "WP0018583",
+ "processed": "2026-10-07T16:22:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "166-090-015",
+ "address": "5334 Agate St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246004",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 743
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246004",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 31.673172,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL250",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 4.543564,
+   "raw": "ESTIMATED YIELD 35 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-04-05",
+   "conf": "medium",
+   "ocrConf": 59.573078,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246004",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.99173590300006,
+ "lon": -117.46874160899995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209099",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246004",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

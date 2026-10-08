@@ -1,0 +1,49 @@
+{
+ "permit": "WP0009535",
+ "processed": "2026-10-07T16:11:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "5334 Agate St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240509",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 83
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240509",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 135.0,
+   "conf": "medium",
+   "ocrConf": 95.660744,
+   "raw": "Total depth 135 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240509",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.99142181000008,
+ "lon": -117.46781156899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/258733",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240509",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

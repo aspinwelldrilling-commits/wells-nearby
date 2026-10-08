@@ -1,0 +1,72 @@
+{
+ "permit": "WP0025293",
+ "processed": "2026-10-07T16:31:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-230-016",
+ "address": "11353 Siesta Ln",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248239",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 442
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248239",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 675.0,
+   "conf": "medium",
+   "ocrConf": 96.640472,
+   "raw": "Total Depth of Boring 675",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 96.989357,
+   "raw": "Estimated Yield * 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 91.899544,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-07-15",
+   "conf": "medium",
+   "ocrConf": 50.009674,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248239",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77263045800004,
+ "lon": -117.46175614199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200277",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248239",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,91 @@
+{
+ "permit": "WP0030533",
+ "processed": "2026-10-07T16:33:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "138-210-007",
+ "address": "10501 Victoria Ave ",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293562",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 938
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293562",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293562",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "high",
+   "ocrConf": 87.634483,
+   "raw": "Total Depth of Completed Well 360",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 95.220596,
+   "raw": "Water Level 100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 52.101555,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "low",
+   "ocrConf": 20.357056,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-08-02",
+   "conf": "medium",
+   "ocrConf": 69.905617,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.89529,
+   "lon": -117.45326,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293562",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.89529,
+ "lon": -117.45326,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310706",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293562",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

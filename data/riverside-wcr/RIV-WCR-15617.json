@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-15617",
+ "processed": "2026-10-07T15:52:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "270-140-001",
+ "address": "14170 El Sobrante Rd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15617",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1168
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15617",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 440.0,
+   "conf": "low",
+   "ocrConf": 39.144295,
+   "raw": "(12) WELL LOG: Total depth 440",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15617",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.861247794000064,
+ "lon": -117.41579581799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410113",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15617",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17440",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

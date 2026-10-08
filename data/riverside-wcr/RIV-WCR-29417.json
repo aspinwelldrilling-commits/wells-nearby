@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-29417",
+ "processed": "2026-10-07T15:53:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "287-280-005",
+ "address": "21915 Gavilan Rd",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29417",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 710
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29417",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 390.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _39o",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29417",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.800796,
+ "lon": -117.360529,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408956",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29417",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31820",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

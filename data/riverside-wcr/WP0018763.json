@@ -1,0 +1,71 @@
+{
+ "permit": "WP0018763",
+ "processed": "2026-10-07T16:23:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-130-027",
+ "address": "11990 Dawson Canyon Rd",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246082",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 725
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246082",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "low",
+   "ocrConf": 13.751511,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 61.735302,
+   "raw": "ESTIMATED YIELD * 2 (Gpm",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 112.0,
+   "conf": "medium",
+   "ocrConf": 64.90654,
+   "raw": "WATER LEVEL 112 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-06-06",
+   "conf": "low",
+   "ocrConf": 7.960739,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246082",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.78944767400003,
+ "lon": -117.45163152099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207657",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246082",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

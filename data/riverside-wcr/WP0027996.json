@@ -1,0 +1,92 @@
+{
+ "permit": "WP0027996",
+ "processed": "2026-10-07T16:33:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "290-290-004",
+ "address": "24120 Warm Spring Rd",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249464",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 270
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249464",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249464",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 670.0,
+   "conf": "medium",
+   "ocrConf": 65.020645,
+   "raw": "Total Depth of Completed Well 670",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 94.842194,
+   "raw": "Estimated Yield* 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 96.017426,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "low",
+   "ocrConf": 34.564529,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 63.763878,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.76145,
+   "lon": -117.50316,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249464",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.761454865000076,
+ "lon": -117.50317203899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19424",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249464",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

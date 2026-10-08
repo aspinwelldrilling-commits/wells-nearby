@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015244",
+ "processed": "2026-10-07T18:43:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "290-190-018",
+ "address": "24391 Temescal Canyon Rd",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244382",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1335
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244382",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244382",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 27.0,
+   "conf": "low",
+   "ocrConf": 28.301941,
+   "raw": "TOTAL DEPTH OF BORING 27",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244382",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.76539809600007,
+ "lon": -117.48955548599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210607",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244382",
+ "serviceType": "New Construction",
+ "wellType": "Community",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

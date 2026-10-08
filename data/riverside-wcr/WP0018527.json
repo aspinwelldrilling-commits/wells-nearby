@@ -1,0 +1,77 @@
+{
+ "permit": "WP0018527",
+ "processed": "2026-10-07T16:25:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "274-150-015",
+ "address": "17922 Krameria Ave",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245999",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1013
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245999",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245999",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 150.0,
+   "conf": "low",
+   "ocrConf": 36.678371,
+   "raw": "Total Depth of Completed Well 150",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.503891,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling As",
+   "conf": "low",
+   "ocrConf": 21.548492,
+   "raw": "Drilling Method Air Drilling as Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-03-30",
+   "conf": "high",
+   "ocrConf": 96.394325,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245999",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88162108700004,
+ "lon": -117.35019399999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209075",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245999",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

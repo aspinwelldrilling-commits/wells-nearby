@@ -1,0 +1,57 @@
+{
+ "permit": "WP0019221",
+ "processed": "2026-10-07T19:04:47-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "276-370-018",
+ "address": "401 E Alessandro Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246182",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1010
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246182",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 23.0,
+   "conf": "low",
+   "ocrConf": 48.566723,
+   "raw": "TOTAL DEPTH OF BORING 23",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-09-25",
+   "conf": "high",
+   "ocrConf": 96.070503,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246182",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91574970000005,
+ "lon": -117.32429469999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208013",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246182",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

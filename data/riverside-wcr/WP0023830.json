@@ -1,0 +1,56 @@
+{
+ "permit": "WP0023830",
+ "processed": "2026-10-07T19:26:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "160-060-060",
+ "address": "4860 Wineville Rd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248224",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 408
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248224",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 190.0,
+   "conf": "low",
+   "ocrConf": 76.588303,
+   "raw": "Total Depth of Boring 190",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-11-15",
+   "conf": "high",
+   "ocrConf": 91.877823,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248224",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.994422599000075,
+ "lon": -117.540268003,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202588",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248224",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

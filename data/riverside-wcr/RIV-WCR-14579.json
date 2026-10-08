@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-14579",
+ "processed": "2026-10-07T16:34:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "241-150-007",
+ "address": "6431 Hawarden Dr",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14579",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 820
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14579",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 4.499588,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1980-11-05",
+   "conf": "medium",
+   "ocrConf": 77.288132,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14579",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.93261628000005,
+ "lon": -117.37336217299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16676",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14579",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16776",
+ "bestDocPage": 1,
+ "status": "partial"
+}

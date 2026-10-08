@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-16035",
+ "processed": "2026-10-07T15:51:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "258-210-014",
+ "address": "20400 Poarch Rd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16035",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1055
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16035",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1040.0,
+   "conf": "medium",
+   "ocrConf": 59.350044,
+   "raw": "Completed depth 1040",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16035",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.965154,
+ "lon": -117.306551,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410301",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16035",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17725",
+ "bestDocPage": 1,
+ "status": "partial"
+}

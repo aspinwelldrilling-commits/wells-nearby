@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017324",
+ "processed": "2026-10-07T18:57:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "146-251-006",
+ "address": "10981 Hole Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245524",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 689
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245524",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 18.859596,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL20",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-09-04",
+   "conf": "low",
+   "ocrConf": 49.450073,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245524",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91867902300004,
+ "lon": -117.48492052699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209857",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245524",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

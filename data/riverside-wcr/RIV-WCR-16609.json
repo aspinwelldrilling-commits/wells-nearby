@@ -1,0 +1,67 @@
+{
+ "permit": "RIV-WCR-16609",
+ "processed": "2026-10-07T17:09:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "189-220-001",
+ "address": "6951 Flight Rd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16609",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 768
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16609",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 170.0,
+   "conf": "low",
+   "ocrConf": 8.855026,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 170",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 34.0,
+   "conf": "low",
+   "ocrConf": 10.145294,
+   "raw": "STATIC\nWATER LEVEL___ 34 Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 175.0,
+   "conf": "low",
+   "ocrConf": 46.986443,
+   "raw": "ESTIMATED YIELD*__175 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16609",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.950688,
+ "lon": -117.445944,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409895",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16609",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "18091",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

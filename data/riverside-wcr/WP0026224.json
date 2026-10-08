@@ -1,0 +1,61 @@
+{
+ "permit": "WP0026224",
+ "processed": "2026-10-07T19:32:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "274-040-047",
+ "address": "17055 Van Buren Blvd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248293",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 296
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248293",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248293",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 17.0,
+   "conf": "high",
+   "ocrConf": 96.673088,
+   "raw": "Water Level 17 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.881045,
+   "lon": -117.365272,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248293",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88115775600005,
+ "lon": -117.36552224299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199324",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248293",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

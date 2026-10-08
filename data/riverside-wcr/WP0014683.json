@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014683",
+ "processed": "2026-10-07T18:45:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "263-320-013",
+ "address": "1500 Eastridge Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243152",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1032
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243152",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 56.0,
+   "conf": "low",
+   "ocrConf": 15.477585,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 56",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-11-28",
+   "conf": "high",
+   "ocrConf": 94.487389,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243152",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.93189169500005,
+ "lon": -117.30654153599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211498",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243152",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,72 @@
+{
+ "permit": "WP0023153",
+ "processed": "2026-10-07T16:29:24-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "280-130-005",
+ "address": "18847 John F Kennedy Dr",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247607",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 373
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247607",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 175.0,
+   "conf": "medium",
+   "ocrConf": 96.566124,
+   "raw": "Total Depth of Boring 175",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.49646,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 13.0,
+   "conf": "high",
+   "ocrConf": 94.744598,
+   "raw": "Water Level 13 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-05-30",
+   "conf": "low",
+   "ocrConf": 35.415474,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247607",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.90135374000005,
+ "lon": -117.33321972099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202002",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247607",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

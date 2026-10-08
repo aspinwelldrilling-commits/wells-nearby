@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-32409",
+ "processed": "2026-10-07T15:39:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "3250 Maricopa Dr",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32409",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1528
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32409",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 92.669769,
+   "raw": "(12) WELL LOG: Total depth 200",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32409",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.98509900300007,
+ "lon": -117.31177939699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/24325",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32409",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "09873",
+ "bestDocPage": 1,
+ "status": "partial"
+}

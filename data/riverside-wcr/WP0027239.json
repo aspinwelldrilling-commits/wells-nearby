@@ -1,0 +1,55 @@
+{
+ "permit": "WP0027239",
+ "processed": "2026-10-07T19:35:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "163-300-013",
+ "address": "5950 Acorn St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249480",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2440
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249480",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.982376,
+   "raw": "Total Depth of Completed Well 20",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-08",
+   "conf": "medium",
+   "ocrConf": 79.626045,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249480",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.96134088900004,
+ "lon": -117.46383404799997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198782",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249480",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

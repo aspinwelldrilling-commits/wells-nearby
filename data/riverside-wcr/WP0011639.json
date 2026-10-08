@@ -1,0 +1,48 @@
+{
+ "permit": "WP0011639",
+ "processed": "2026-10-07T18:18:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "217-060-014",
+ "address": "4491 Brockton Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241919",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2270
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241919",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "medium",
+   "ocrConf": 68.990868,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 40",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241919",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.97734880000007,
+ "lon": -117.38528849999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212126",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241919",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

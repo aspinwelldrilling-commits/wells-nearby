@@ -1,0 +1,71 @@
+{
+ "permit": "WP0017134",
+ "processed": "2026-10-07T18:50:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "189-270-024",
+ "address": "6859 Arlington Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245415",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1068
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245415",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 79.609695,
+   "raw": "Total Depth of Completed Well 25",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 10.0,
+   "conf": "low",
+   "ocrConf": 5.982529,
+   "raw": "Water Level 10 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger Ae",
+   "conf": "low",
+   "ocrConf": 33.922379,
+   "raw": "Drilling Method Hollow Stem Auger ae Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-02-06",
+   "conf": "high",
+   "ocrConf": 87.710785,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245415",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.946299270000054,
+ "lon": -117.44479839999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209727",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245415",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,49 @@
+{
+ "permit": "WP0010472",
+ "processed": "2026-10-07T18:10:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "230-221-009",
+ "address": "7850 Indiana Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240728",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2049
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240728",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 47.821457,
+   "raw": "WATER LEVEL 2 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240728",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.93097400000005,
+ "lon": -117.41047549999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213199",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240728",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

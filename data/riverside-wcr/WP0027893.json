@@ -1,0 +1,83 @@
+{
+ "permit": "WP0027893",
+ "processed": "2026-10-07T16:33:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "123-250-002-3",
+ "address": "Hillside Ave South Of 3rd St",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249667",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 448
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249667",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249667",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249667",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1420.0,
+   "conf": "medium",
+   "ocrConf": 77.542114,
+   "raw": "Total Depth of Completed Well 1420",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.006676,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 91.418839,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-07-30",
+   "conf": "medium",
+   "ocrConf": 78.676834,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249667",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91351488000004,
+ "lon": -117.54354205699997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19307",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249667",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

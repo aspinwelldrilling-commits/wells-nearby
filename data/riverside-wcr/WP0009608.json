@@ -1,0 +1,63 @@
+{
+ "permit": "WP0009608",
+ "processed": "2026-10-07T16:11:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-470-024",
+ "address": "17210 El Mineral Rd",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240615",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 706
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240615",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 357.0,
+   "conf": "low",
+   "ocrConf": 7.916252,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 357",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 99.0,
+   "conf": "medium",
+   "ocrConf": 58.99374,
+   "raw": "WATER LEVEL 99 _____ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2002-09-23",
+   "conf": "low",
+   "ocrConf": 31.34845,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240615",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77917071300004,
+ "lon": -117.35921842799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214469",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240615",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

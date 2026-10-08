@@ -1,0 +1,64 @@
+{
+ "permit": "WP0017318",
+ "processed": "2026-10-07T18:55:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-210-004",
+ "address": "17679 Cajalco Rd",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245523",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2334
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245523",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 45.0,
+   "conf": "medium",
+   "ocrConf": 96.74807,
+   "raw": "Total Depth of Boring 45",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 95.091156,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-02-28",
+   "conf": "low",
+   "ocrConf": 16.307518,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245523",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.834809764000056,
+ "lon": -117.35082403599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209852",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245523",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

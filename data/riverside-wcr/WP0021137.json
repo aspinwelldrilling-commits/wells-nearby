@@ -1,0 +1,87 @@
+{
+ "permit": "WP0021137",
+ "processed": "2026-10-07T16:29:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-330-014",
+ "address": "22220 Gavilan Hills Rd",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246854",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 659
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246854",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 675.0,
+   "conf": "medium",
+   "ocrConf": 96.519791,
+   "raw": "Total Depth of Boring 675",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 27.275475,
+   "raw": "Estimated Yield* #5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 83.891739,
+   "raw": "Water Level 18 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.630943,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 76.676308,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-01-10",
+   "conf": "high",
+   "ocrConf": 88.19519,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246854",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.797135567000055,
+ "lon": -117.35749123599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203273",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246854",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

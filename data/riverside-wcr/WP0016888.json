@@ -1,0 +1,56 @@
+{
+ "permit": "WP0016888",
+ "processed": "2026-10-07T18:53:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "138-110-031",
+ "address": "3520 Tyler St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245384",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1747
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245384",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 61.0,
+   "conf": "medium",
+   "ocrConf": 96.107468,
+   "raw": "Total Depth of Boring 61",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-11-07",
+   "conf": "low",
+   "ocrConf": 29.106697,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245384",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.907109406000075,
+ "lon": -117.45908699599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209478",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245384",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

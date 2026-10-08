@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13187",
+ "processed": "2026-10-07T15:49:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "287-130-017",
+ "address": "16481 Multiview Dr",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13187",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1777
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13187",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "low",
+   "ocrConf": 29.806915,
+   "raw": "Completed depth265",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13187",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.81714984200005,
+ "lon": -117.37212068999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13618",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13187",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15139",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

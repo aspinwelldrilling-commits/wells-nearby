@@ -1,0 +1,55 @@
+{
+ "permit": "WP0016655",
+ "processed": "2026-10-07T16:23:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "159-232-012",
+ "address": "10539 Jurupa Rd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245249",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 783
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245249",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "low",
+   "ocrConf": 5.454254,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-09-25",
+   "conf": "medium",
+   "ocrConf": 67.755592,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245249",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.99350389700004,
+ "lon": -117.51486835099996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209267",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245249",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

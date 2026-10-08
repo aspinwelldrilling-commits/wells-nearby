@@ -1,0 +1,68 @@
+{
+ "permit": "WP0027812",
+ "processed": "2026-10-07T19:37:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "279-070-020",
+ "address": "18750 Minnesota Rd",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249636",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 124
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249636",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249636",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 45.0,
+   "conf": "medium",
+   "ocrConf": 78.702576,
+   "raw": "Total Depth of Completed Well 45",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-21",
+   "conf": "medium",
+   "ocrConf": 74.629745,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.83635,
+   "lon": -117.508921,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249636",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.83521987300003,
+ "lon": -117.50848304499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199040",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249636",
+ "serviceType": "New Construction",
+ "wellType": "Piezometer",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

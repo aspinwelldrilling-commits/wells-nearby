@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-15694",
+ "processed": "2026-10-07T15:53:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "267-200-017",
+ "address": "17731 Wood Rd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15694",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 681
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15694",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 78.837509,
+   "raw": "(12) WELL LOG: Total depth 200",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15694",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.862514,
+ "lon": -117.331792,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410148",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/15694",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17489",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

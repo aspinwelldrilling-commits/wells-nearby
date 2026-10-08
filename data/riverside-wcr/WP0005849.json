@@ -1,0 +1,55 @@
+{
+ "permit": "WP0005849",
+ "processed": "2026-10-07T16:02:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-050-011",
+ "address": "12401 Dawson Canyon Rd",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237310",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 813
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237310",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 96.134651,
+   "raw": "DRILLING\nMETHOD AIR FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-06-02",
+   "conf": "low",
+   "ocrConf": 44.857224,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237310",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.78886148300006,
+ "lon": -117.440998907,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215820",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237310",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

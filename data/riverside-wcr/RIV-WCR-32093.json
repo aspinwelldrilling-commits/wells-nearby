@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-32093",
+ "processed": "2026-10-07T15:39:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "22355 Forest Boundry Rd",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32093",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 993
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32093",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 2.366425,
+   "raw": "(12) WELL LOG: total depth 20",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32093",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.79503842300005,
+ "lon": -117.50309012699995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/23151",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/32093",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "09274",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

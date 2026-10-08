@@ -1,0 +1,63 @@
+{
+ "permit": "WP0013960",
+ "processed": "2026-10-07T18:38:13-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "211-201-037",
+ "address": "3075 10Th St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243059",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1187
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243059",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 115.0,
+   "conf": "low",
+   "ocrConf": 34.665642,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _115",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 28.518692,
+   "raw": "WATER LeveL___100' _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-01-24",
+   "conf": "high",
+   "ocrConf": 94.176682,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243059",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.97546610200004,
+ "lon": -117.36808917099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210995",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243059",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

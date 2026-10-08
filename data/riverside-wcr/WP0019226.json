@@ -1,0 +1,49 @@
+{
+ "permit": "WP0019226",
+ "processed": "2026-10-07T19:07:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "172-420-001",
+ "address": "175 N McKinley St",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246192",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1042
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246192",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 70.0,
+   "conf": "low",
+   "ocrConf": 27.895897,
+   "raw": "TOTAL DEPTH OF BORING _ 70,",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246192",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88558440000003,
+ "lon": -117.51655079999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208019",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246192",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

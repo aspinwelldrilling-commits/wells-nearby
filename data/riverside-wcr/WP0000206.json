@@ -1,0 +1,64 @@
+{
+ "permit": "WP0000206",
+ "processed": "2026-10-07T15:53:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "162-200-004",
+ "address": "10010 60Th St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233518",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1040
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233518",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 356.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Completed depth 356 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Standing level after well completion 4",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.152885,
+   "raw": "Discharge 50 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233518",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.978249540000036,
+ "lon": -117.50175832599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222391",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233518",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

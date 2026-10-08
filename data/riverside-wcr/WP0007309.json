@@ -1,0 +1,56 @@
+{
+ "permit": "WP0007309",
+ "processed": "2026-10-07T17:53:36-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "135-103-005",
+ "address": "13120 Magnolia Ave",
+ "city": "Home Gardens",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238972",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 923
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238972",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 435.0,
+   "conf": "low",
+   "ocrConf": 70.859177,
+   "raw": "TOTAL DEPTH OF BORING _ 435",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2000-05-31",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238972",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88167086300007,
+ "lon": -117.51350292299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216551",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238972",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021889",
+ "processed": "2026-10-07T19:19:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "151-130-001",
+ "address": "8200 Arlington Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247180",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 127
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247180",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 93.152466,
+   "raw": "Total Depth of Completed Well 40",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-08-11",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247180",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.94357,
+ "lon": -117.461226,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204002",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247180",
+ "serviceType": "New Construction",
+ "wellType": "Air Sparge",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

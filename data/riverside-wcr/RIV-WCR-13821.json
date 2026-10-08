@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-13821",
+ "processed": "2026-10-07T15:47:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-090-002",
+ "address": "21970 Post Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13821",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1031
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13821",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 66.225769,
+   "raw": "Completed depth 200 ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "medium",
+   "ocrConf": 60.731834,
+   "raw": "Standing level after well completion 75 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13821",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.801741536000065,
+ "lon": -117.30283501799994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14958",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13821",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15904",
+ "bestDocPage": 1,
+ "status": "readable"
+}

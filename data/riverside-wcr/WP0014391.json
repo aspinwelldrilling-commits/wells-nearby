@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014391",
+ "processed": "2026-10-07T18:41:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "193-261-001",
+ "address": "8690 California Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244097",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1603
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244097",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 27.0,
+   "conf": "low",
+   "ocrConf": 24.941727,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___27",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-08-13",
+   "conf": "high",
+   "ocrConf": 96.808144,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244097",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.93494520000007,
+ "lon": -117.43657649999994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244097",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

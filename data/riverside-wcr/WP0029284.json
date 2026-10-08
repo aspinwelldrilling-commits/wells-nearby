@@ -1,0 +1,105 @@
+{
+ "permit": "WP0029284",
+ "processed": "2026-10-07T16:33:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "237-140-022",
+ "address": "7805 Dufferin Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248825",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1067
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248825",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248825",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248825",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "medium",
+   "ocrConf": 60.079819,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 53.85508,
+   "raw": "Estimated Yield\u00ae O25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 94.872711,
+   "raw": "Water Level 40 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "low",
+   "ocrConf": 34.228996,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 87.341156,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-08-03",
+   "conf": "medium",
+   "ocrConf": 72.895981,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.91547,
+   "lon": -117.39783,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248825",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91547000000003,
+ "lon": -117.39732999999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/34540",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248825",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,84 @@
+{
+ "permit": "WP0028776",
+ "processed": "2026-10-07T16:35:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-440-018",
+ "address": "23551 Rose Quartz Dr",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248779",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 353
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248779",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248779",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 885.0,
+   "conf": "high",
+   "ocrConf": 83.477165,
+   "raw": "Total Depth of Completed Well 885",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 94.859322,
+   "raw": "Estimated Yield* 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 115.0,
+   "conf": "high",
+   "ocrConf": 95.065514,
+   "raw": "Water Level 115 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2019-10-18",
+   "conf": "high",
+   "ocrConf": 81.755348,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.77845,
+   "lon": -117.34328,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248779",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77845487600007,
+ "lon": -117.34329201199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/310428",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248779",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

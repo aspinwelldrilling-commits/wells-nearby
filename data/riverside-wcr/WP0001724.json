@@ -1,0 +1,64 @@
+{
+ "permit": "WP0001724",
+ "processed": "2026-10-07T15:55:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-240-030",
+ "address": "16927 El Mineral Rd",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234609",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 845
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234609",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 46.0,
+   "conf": "low",
+   "ocrConf": 31.564774,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __46",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "WATER LEVEL ___3____(Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.997276,
+   "raw": "DRILLING\nMETHOD Air FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234609",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77838656400007,
+ "lon": -117.36506569599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/220226",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/234609",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

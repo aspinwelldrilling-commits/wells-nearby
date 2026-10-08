@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021946",
+ "processed": "2026-10-07T19:20:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "191-190-005",
+ "address": "6050 Arlington Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247203",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 312
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247203",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 38.0,
+   "conf": "low",
+   "ocrConf": 11.514908,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 38",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-09-17",
+   "conf": "low",
+   "ocrConf": 31.780327,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247203",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.94523887400004,
+ "lon": -117.43438808399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204058",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247203",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

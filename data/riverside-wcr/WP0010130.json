@@ -1,0 +1,48 @@
+{
+ "permit": "WP0010130",
+ "processed": "2026-10-07T16:11:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "290-060-034",
+ "address": "24820 Temescal Canyon Rd",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240288",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 875
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240288",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 89.0,
+   "conf": "low",
+   "ocrConf": 33.584198,
+   "raw": "ESTIMATED YIELD * 89 ___ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240288",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.76311071500004,
+ "lon": -117.47284350199999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214836",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240288",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

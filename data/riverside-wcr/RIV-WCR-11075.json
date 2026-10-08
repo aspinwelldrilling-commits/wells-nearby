@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-11075",
+ "processed": "2026-10-07T15:44:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "EL CERITO RD, STATE",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11075",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 945
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11075",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 145.0,
+   "conf": "low",
+   "ocrConf": 66.588875,
+   "raw": "WELL LOG: Total depth 145",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11075",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.82436418,
+ "lon": -117.53555571,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9662",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11075",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13146",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

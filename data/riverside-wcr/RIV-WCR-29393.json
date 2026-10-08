@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-29393",
+ "processed": "2026-10-07T16:38:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "145-304-001-8",
+ "address": "9505 Magnolia Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29393",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2573
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29393",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 64.0,
+   "conf": "low",
+   "ocrConf": 38.191189,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___64",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-09-28",
+   "conf": "high",
+   "ocrConf": 96.898514,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29393",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.92020977200008,
+ "lon": -117.44702408199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408919",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29393",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31780",
+ "bestDocPage": 1,
+ "status": "partial"
+}

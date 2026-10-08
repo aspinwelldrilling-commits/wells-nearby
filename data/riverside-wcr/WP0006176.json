@@ -1,0 +1,61 @@
+{
+ "permit": "WP0006176",
+ "processed": "2026-10-07T17:43:10-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "209-092-001",
+ "address": "2190 Main St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238233",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2030
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238233",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238233",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238233",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 60.0,
+   "conf": "low",
+   "ocrConf": 59.270096,
+   "raw": "TOTAL DEPTH OF BORING _ 60",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238233",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.99576810000008,
+ "lon": -117.36470469999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216697",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238233",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

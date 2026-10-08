@@ -1,0 +1,55 @@
+{
+ "permit": "WP0022791",
+ "processed": "2026-10-07T19:22:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "210-150-001",
+ "address": "2625 Durahart St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249310",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 744
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249310",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 95.785851,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid -\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-10-04",
+   "conf": "high",
+   "ocrConf": 89.420525,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249310",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.98765709800006,
+ "lon": -117.35182740999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19207",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249310",
+ "serviceType": "Destruction",
+ "wellType": "Extraction",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0027245",
+ "processed": "2026-10-07T16:32:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "321-060-037",
+ "address": "18389 Avenue C",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249482",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 56
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249482",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "medium",
+   "ocrConf": 96.865486,
+   "raw": "Total Depth of Boring 450",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-09-13",
+   "conf": "high",
+   "ocrConf": 96.15316,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249482",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.85018215100007,
+ "lon": -117.33910170299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198791",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249482",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,72 @@
+{
+ "permit": "WP0020198",
+ "processed": "2026-10-07T16:26:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "322-060-033",
+ "address": "21430 Salter Rd",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246657",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 390
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246657",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "medium",
+   "ocrConf": 96.747955,
+   "raw": "Total Depth of Boring 260",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "low",
+   "ocrConf": 27.908386,
+   "raw": "Estimated Yield\u2019 3s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 93.699005,
+   "raw": "Water Level 30 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-08-06",
+   "conf": "medium",
+   "ocrConf": 74.100304,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246657",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.808234921000064,
+ "lon": -117.30136941699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204444",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246657",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

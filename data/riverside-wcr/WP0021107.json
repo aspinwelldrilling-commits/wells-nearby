@@ -1,0 +1,64 @@
+{
+ "permit": "WP0021107",
+ "processed": "2026-10-07T19:16:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "143-170-022",
+ "address": "10301 Magnolia Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246830",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 423
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246830",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 61.0,
+   "conf": "medium",
+   "ocrConf": 96.849297,
+   "raw": "Total Depth of Boring 61",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Holiow Stem Auger",
+   "conf": "high",
+   "ocrConf": 84.202332,
+   "raw": "Drilling Method Holiow Stem Auger Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-09-11",
+   "conf": "high",
+   "ocrConf": 84.272835,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246830",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91119480000003,
+ "lon": -117.46331639999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203241",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246830",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

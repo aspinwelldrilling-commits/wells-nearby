@@ -1,0 +1,55 @@
+{
+ "permit": "WP0003640",
+ "processed": "2026-10-07T17:30:23-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-120-021",
+ "address": "S side Cajalco/W of Gavilan Rd",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235879",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 5490
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235879",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 68.5,
+   "conf": "low",
+   "ocrConf": 23.078392,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 68.5",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1996-05-08",
+   "conf": "high",
+   "ocrConf": 96.878342,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235879",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.83301666400007,
+ "lon": -117.36779825299999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218028",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235879",
+ "serviceType": null,
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

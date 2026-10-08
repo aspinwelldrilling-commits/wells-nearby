@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-28634",
+ "processed": "2026-10-07T16:36:49-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "18965 Van Buren Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28634",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 946
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28634",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 15.237968,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 35",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-03-16",
+   "conf": "high",
+   "ocrConf": 95.746193,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28634",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88781413300006,
+ "lon": -117.33119926999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/409060",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/28634",
+ "serviceType": "New Construction",
+ "wellType": "Air Sparge",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "30342",
+ "bestDocPage": 1,
+ "status": "partial"
+}

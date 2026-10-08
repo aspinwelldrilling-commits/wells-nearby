@@ -1,0 +1,57 @@
+{
+ "permit": "WP0015424",
+ "processed": "2026-10-07T16:20:27-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "11211 Spanish Hills Dr",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244515",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 81
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244515",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 440.0,
+   "conf": "medium",
+   "ocrConf": 89.883987,
+   "raw": "(12) WELL LOG: Total depth 440",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 8.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Standing level after well completion 8 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244515",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77391857300006,
+ "lon": -117.46685657199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/224356",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244515",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

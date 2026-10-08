@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-29347",
+ "processed": "2026-10-07T15:51:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "278-190-004-1",
+ "address": "TIN MINE Rd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29347",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 708
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29347",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 475.0,
+   "conf": "low",
+   "ocrConf": 14.998337,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL475",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-04-23",
+   "conf": "high",
+   "ocrConf": 86.411766,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29347",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.83546115000007,
+ "lon": -117.47371886999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408833",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29347",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31692",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,78 @@
+{
+ "permit": "WP0022367",
+ "processed": "2026-10-07T16:28:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "390-330-001",
+ "address": "17505 Baluchi Ct",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249405",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 619
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249405",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 10.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Estimated Yield* 10 ~~ ~~ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 400.0,
+   "conf": "medium",
+   "ocrConf": 60.497509,
+   "raw": "Water Level 400 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 93.384995,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 90.213776,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-03-02",
+   "conf": "low",
+   "ocrConf": 46.744938,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249405",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.769759674000056,
+ "lon": -117.35437079399998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/18678",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249405",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

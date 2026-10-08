@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021386",
+ "processed": "2026-10-07T19:19:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "149-260-006",
+ "address": "5310 La Sierra Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246970",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 398
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246970",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.345551,
+   "raw": "Total Depth of Completed Well 30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-01-13",
+   "conf": "low",
+   "ocrConf": 43.521599,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246970",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.92738170000007,
+ "lon": -117.49405619999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203513",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246970",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

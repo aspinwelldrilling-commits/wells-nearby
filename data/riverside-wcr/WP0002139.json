@@ -1,0 +1,49 @@
+{
+ "permit": "WP0002139",
+ "processed": "2026-10-07T15:56:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "321-020-007",
+ "address": "18015 Avenue B",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235375",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 761
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235375",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 26.0,
+   "conf": "medium",
+   "ocrConf": 96.950981,
+   "raw": "(12) WELL LOG: Total depth 26",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235375",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.853896434000035,
+ "lon": -117.34448753799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/221624",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235375",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

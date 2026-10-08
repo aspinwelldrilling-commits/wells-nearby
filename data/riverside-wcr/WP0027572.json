@@ -1,0 +1,92 @@
+{
+ "permit": "WP0027572",
+ "processed": "2026-10-07T16:33:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "243-290-012",
+ "address": "6026 St Augustine Dr",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249568",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 570
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249568",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249568",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 90.402962,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 82.0,
+   "conf": "high",
+   "ocrConf": 96.290291,
+   "raw": "Estimated Yield* 82 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 21.0,
+   "conf": "high",
+   "ocrConf": 96.5084,
+   "raw": "Water Level 21 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 87.169868,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-02-14",
+   "conf": "medium",
+   "ocrConf": 79.189629,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.942264,
+   "lon": -117.349304,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249568",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.94226889400005,
+ "lon": -117.34931602599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198906",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249568",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

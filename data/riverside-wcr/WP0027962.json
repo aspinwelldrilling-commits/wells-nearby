@@ -1,0 +1,71 @@
+{
+ "permit": "WP0027962",
+ "processed": "2026-10-07T16:35:09-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-410-010",
+ "address": "22765 Rolling Meadows Dr",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249460",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 60
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249460",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 795.0,
+   "conf": "low",
+   "ocrConf": 11.863464,
+   "raw": "Total Depth of Completed Well 795",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 96.680435,
+   "raw": "Estimated Yield * 70 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 61.967422,
+   "raw": "Water Level .200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-09-04",
+   "conf": "medium",
+   "ocrConf": 79.491318,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249460",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.78692487500007,
+ "lon": -117.37200201799999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/19394",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249460",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,64 @@
+{
+ "permit": "WP0020862",
+ "processed": "2026-10-07T19:12:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "225-241-001",
+ "address": "3570 Central Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246434",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 368
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246434",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 75.0,
+   "conf": "medium",
+   "ocrConf": 96.696312,
+   "raw": "Total Depth of Boring 75",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 93.543983,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2010-06-09",
+   "conf": "medium",
+   "ocrConf": 53.427235,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246434",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.953197843000055,
+ "lon": -117.39035329399996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205080",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246434",
+ "serviceType": "Destruction",
+ "wellType": "Extraction",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0018302",
+ "processed": "2026-10-07T16:22:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "282-050-023",
+ "address": "8220 Greg Alan Ct",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245915",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 3412
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245915",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "low",
+   "ocrConf": 25.263664,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 90.0,
+   "conf": "medium",
+   "ocrConf": 72.151031,
+   "raw": "ESTIMATED YieLD * 90 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 57.0,
+   "conf": "high",
+   "ocrConf": 80.750641,
+   "raw": "WATER LEVEL 57 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-12-13",
+   "conf": "high",
+   "ocrConf": 90.633003,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245915",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.811404707000065,
+ "lon": -117.51627398999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208863",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245915",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

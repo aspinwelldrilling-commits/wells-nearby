@@ -1,0 +1,71 @@
+{
+ "permit": "WP0017876",
+ "processed": "2026-10-07T16:21:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "135-280-039",
+ "address": "12500 Indiana Ave",
+ "city": "Home Gardens",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245770",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 783
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245770",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 158.0,
+   "conf": "high",
+   "ocrConf": 94.571358,
+   "raw": "Total Depth of Completed Well 158",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 96.410027,
+   "raw": "Estimated Yield * 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 72.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Water Level 72. Ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-07-20",
+   "conf": "high",
+   "ocrConf": 93.320518,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245770",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88207202700005,
+ "lon": -117.49692092499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208527",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245770",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

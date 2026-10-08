@@ -1,0 +1,48 @@
+{
+ "permit": "WP0009221",
+ "processed": "2026-10-07T16:10:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "277-100-012",
+ "address": "19450 Quebec Ave",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240120",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 922
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240120",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 26.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD * 26? _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240120",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.83717801600005,
+ "lon": -117.52094130799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/214168",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/240120",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

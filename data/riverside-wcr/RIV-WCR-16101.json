@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-16101",
+ "processed": "2026-10-07T15:52:58-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "BLACKBURN",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16101",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1750
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16101",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16101",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 50.916412,
+   "raw": "(12) WELL LOG: Total depth 600",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16101",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.868197,
+ "lon": -117.429804,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/410330",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16101",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "17775",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

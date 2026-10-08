@@ -1,0 +1,70 @@
+{
+ "permit": "WP0023658",
+ "processed": "2026-10-07T16:30:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-400-008",
+ "address": "18779 Wildflower Way",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248059",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 391
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248059",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 96.519569,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "medium",
+   "ocrConf": 74.437378,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 92.558853,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-10-10",
+   "conf": "high",
+   "ocrConf": 84.34388,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248059",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.84673241200005,
+ "lon": -117.36531841099998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202452",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248059",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

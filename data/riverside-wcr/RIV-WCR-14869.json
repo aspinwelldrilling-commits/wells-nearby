@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-14869",
+ "processed": "2026-10-07T15:54:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "319-240-048",
+ "address": "20620 Firewood St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14869",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1045
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14869",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 93.058098,
+   "raw": "Standing level after well completion 3 ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 33.796043,
+   "raw": "Discharge 2 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14869",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.823812,
+ "lon": -117.304444,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/17016",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14869",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16953",
+ "bestDocPage": 1,
+ "status": "partial"
+}

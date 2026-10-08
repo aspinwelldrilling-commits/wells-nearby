@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013720",
+ "processed": "2026-10-07T18:33:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "123-190-031",
+ "address": "2307 Golden West Ln",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242761",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2549
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242761",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 29.758316,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL ___25",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-01-12",
+   "conf": "high",
+   "ocrConf": 93.780479,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242761",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91537703400007,
+ "lon": -117.54105987899999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212884",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242761",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

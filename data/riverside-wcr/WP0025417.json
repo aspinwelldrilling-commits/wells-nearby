@@ -1,0 +1,63 @@
+{
+ "permit": "WP0025417",
+ "processed": "2026-10-07T16:32:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "295-100-006",
+ "address": "17981 Alexander St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248369",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 111
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248369",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 8.0,
+   "conf": "medium",
+   "ocrConf": 77.880753,
+   "raw": "Estimated Yield * -8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 25.0,
+   "conf": "medium",
+   "ocrConf": 58.803642,
+   "raw": "Water Level 25 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-07-17",
+   "conf": "low",
+   "ocrConf": 45.461945,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248369",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.85897216700005,
+ "lon": -117.30570722199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200400",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248369",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

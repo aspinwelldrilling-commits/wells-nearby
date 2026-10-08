@@ -1,0 +1,55 @@
+{
+ "permit": "WP0014258",
+ "processed": "2026-10-07T16:18:39-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-550-024",
+ "address": "18489 Fort Lauder Ln",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242825",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 754
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242825",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 17.7966,
+   "raw": "ESTIMATED YIELD * \u00a32 ___ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-07-15",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242825",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77343980000006,
+ "lon": -117.34173634999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211204",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242825",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

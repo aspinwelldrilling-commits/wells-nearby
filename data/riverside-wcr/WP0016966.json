@@ -1,0 +1,86 @@
+{
+ "permit": "WP0016966",
+ "processed": "2026-10-07T16:21:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-532-005",
+ "address": "17822 Big Sky Circle",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245467",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 771
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245467",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 181.0,
+   "conf": "medium",
+   "ocrConf": 73.201317,
+   "raw": "Total Depth of Completed Well 181",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.28846,
+   "raw": "Estimated Yield * 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 26.0,
+   "conf": "low",
+   "ocrConf": 9.272476,
+   "raw": "Water Level 26s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 89.937744,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 71.198975,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-10-26",
+   "conf": "high",
+   "ocrConf": 88.190697,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245467",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.775460113000065,
+ "lon": -117.34977940499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/209556",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245467",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

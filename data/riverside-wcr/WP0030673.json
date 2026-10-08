@@ -1,0 +1,83 @@
+{
+ "permit": "WP0030673",
+ "processed": "2026-10-07T19:37:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "189-120-002",
+ "address": "5807 Payton St ",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270865",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 17
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270865",
+   "page": 1,
+   "source": "text",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270865",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 49.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well             49",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method         Direct Rotary                Drilling Fluid    Bentonite",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-04-27",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.965023,
+   "lon": -117.451968,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270865",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.965023,
+ "lon": -117.451968,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/268024",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270865",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

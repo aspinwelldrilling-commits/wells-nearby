@@ -1,0 +1,48 @@
+{
+ "permit": "WP0008440",
+ "processed": "2026-10-07T17:57:30-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "111-300-016",
+ "address": "1251 Magnolia Ave",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239654",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2707
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239654",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 66.0,
+   "conf": "low",
+   "ocrConf": 31.667877,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 66",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239654",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.868886520000046,
+ "lon": -117.54121912399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215819",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/239654",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

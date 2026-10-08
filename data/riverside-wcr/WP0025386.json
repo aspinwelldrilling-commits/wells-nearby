@@ -1,0 +1,79 @@
+{
+ "permit": "WP0025386",
+ "processed": "2026-10-07T19:31:29-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "151-070-008",
+ "address": "8233 Cypress Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248366",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 448
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248366",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "medium",
+   "ocrConf": 96.867256,
+   "raw": "Total Depth of Boring 500",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "high",
+   "ocrConf": 96.80629,
+   "raw": "Estimated Yield* 45 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 147.0,
+   "conf": "high",
+   "ocrConf": 93.796265,
+   "raw": "Water Level 147 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-05-09",
+   "conf": "high",
+   "ocrConf": 94.251373,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.466584,
+   "lon": -116.841088,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248366",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.94303570000005,
+ "lon": -117.46226759999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200370",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248366",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0003760",
+ "processed": "2026-10-07T16:01:02-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-150-033",
+ "address": "14650 Briley Ct",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235922",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 862
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235922",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 174.0,
+   "conf": "low",
+   "ocrConf": 13.345581,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 174",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 95.348862,
+   "raw": "DRILLING\nMETHOD Air FLUID\nWATER",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 95.5709,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235922",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.779108662000056,
+ "lon": -117.40377608199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/218522",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235922",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

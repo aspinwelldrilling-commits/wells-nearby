@@ -1,0 +1,78 @@
+{
+ "permit": "WP0026286",
+ "processed": "2026-10-07T16:32:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "237-130-023",
+ "address": "2190 St Lawrence St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248370",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 56
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248370",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 850.0,
+   "conf": "high",
+   "ocrConf": 95.96283,
+   "raw": "Total Depth of Completed Well 850",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 162.0,
+   "conf": "high",
+   "ocrConf": 96.894859,
+   "raw": "Water Level 162 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 95.363182,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 36.642651,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-09-26",
+   "conf": "high",
+   "ocrConf": 95.799492,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248370",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.910250774000076,
+ "lon": -117.40162806599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199381",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248370",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

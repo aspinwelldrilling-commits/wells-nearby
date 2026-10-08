@@ -1,0 +1,57 @@
+{
+ "permit": "WP0021918",
+ "processed": "2026-10-07T16:28:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "280-050-051",
+ "address": "15313 Colleen Ct",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247182",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 380
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247182",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 140.0,
+   "conf": "medium",
+   "ocrConf": 96.457855,
+   "raw": "Total Depth of Boring 140",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 68.428207,
+   "raw": "Estimated Yield* 50 Ss (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247182",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.89725470900004,
+ "lon": -117.34739858199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204029",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247182",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0013674",
+ "processed": "2026-10-07T18:35:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "279-230-027",
+ "address": "20310 Temescal Canyon Rd",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242706",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 823
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242706",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 46.752136,
+   "raw": "WATER LEVEL_____- 2] (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-02-01",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242706",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.82366555300007,
+ "lon": -117.50251638399999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/212819",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242706",
+ "serviceType": "Destruction",
+ "wellType": "Abandonment",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

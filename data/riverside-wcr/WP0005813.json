@@ -1,0 +1,56 @@
+{
+ "permit": "WP0005813",
+ "processed": "2026-10-07T16:04:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "343-040-004",
+ "address": "20450 Christmas Tree Ln",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237287",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 854
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237287",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 670.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 670",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 95.941605,
+   "raw": "WATER LEVEL 70? (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237287",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.76790681600005,
+ "lon": -117.31434993199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215720",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237287",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

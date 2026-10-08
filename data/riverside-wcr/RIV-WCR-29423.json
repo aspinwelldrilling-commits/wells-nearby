@@ -1,0 +1,58 @@
+{
+ "permit": "RIV-WCR-29423",
+ "processed": "2026-10-07T17:02:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "215-261-006",
+ "address": "4271 Market St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29423",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 764
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29423",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 80.0,
+   "conf": "low",
+   "ocrConf": 13.168175,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 80",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-05-15",
+   "conf": "low",
+   "ocrConf": 34.759735,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29423",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.97812650000003,
+ "lon": -117.37925339999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/408968",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/29423",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "31833",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

@@ -1,0 +1,64 @@
+{
+ "permit": "WP0014542",
+ "processed": "2026-10-07T18:42:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "280-260-018",
+ "address": "18600 Van Buren Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243083",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 4362
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243083",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 96.171684,
+   "raw": "Total Depth of Boring 30",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger Oy",
+   "conf": "medium",
+   "ocrConf": 52.245415,
+   "raw": "Drilling Method Hollow Stem Auger oy Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-29",
+   "conf": "high",
+   "ocrConf": 88.544365,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243083",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88750519400003,
+ "lon": -117.33832459299998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211379",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243083",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,56 @@
+{
+ "permit": "WP0022881",
+ "processed": "2026-10-07T19:22:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "211-201-003",
+ "address": "3084 E 10Th St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249339",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 363
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249339",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 117.0,
+   "conf": "low",
+   "ocrConf": 24.870178,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __117",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2012-11-05",
+   "conf": "high",
+   "ocrConf": 90.377464,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249339",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.974782839000056,
+ "lon": -117.36794153499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203072",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249339",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

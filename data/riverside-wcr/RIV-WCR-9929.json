@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-9929",
+ "processed": "2026-10-07T15:42:18-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "18141 Birch St",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9929",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 941
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9929",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "medium",
+   "ocrConf": 86.176758,
+   "raw": "(12) WELL LOG: Total depth 280",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9929",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.85597292,
+ "lon": -117.34073946,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/7933",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/9929",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "12278",
+ "bestDocPage": 1,
+ "status": "partial"
+}

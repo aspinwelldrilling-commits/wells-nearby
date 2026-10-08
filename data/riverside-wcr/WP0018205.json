@@ -1,0 +1,86 @@
+{
+ "permit": "WP0018205",
+ "processed": "2026-10-07T16:25:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-500-001",
+ "address": "23970 Spencer Butte Dr",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244216",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 772
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244216",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "high",
+   "ocrConf": 95.00927,
+   "raw": "Total Depth of Completed Well 160",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 88.131485,
+   "raw": "Estimated Yield * 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 47.0,
+   "conf": "high",
+   "ocrConf": 95.162743,
+   "raw": "Water Level 47 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling Sie",
+   "conf": "low",
+   "ocrConf": 19.858284,
+   "raw": "Drilling Method Air Drilling sie Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 79.268372,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-11-03",
+   "conf": "high",
+   "ocrConf": 96.069847,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244216",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.772060331000034,
+ "lon": -117.35321143799996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/306839",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244216",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

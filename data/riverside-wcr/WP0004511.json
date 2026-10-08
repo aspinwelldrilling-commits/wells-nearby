@@ -1,0 +1,56 @@
+{
+ "permit": "WP0004511",
+ "processed": "2026-10-07T16:02:43-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "321-060-012",
+ "address": "20980 Burns St",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236417",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 776
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236417",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 32.220993,
+   "raw": "ESTIMATED YIELD - 5 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Rotary",
+   "conf": "high",
+   "ocrConf": 95.642914,
+   "raw": "DRILLING\nMETHOD air rotary FLUID\n",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236417",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.84839298700007,
+ "lon": -117.33785515399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216424",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/236417",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

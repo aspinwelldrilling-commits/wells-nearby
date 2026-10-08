@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-14554",
+ "processed": "2026-10-07T17:06:41-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "245-110-015",
+ "address": "15110 Golden Star Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14554",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1008
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14554",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "low",
+   "ocrConf": 35.809113,
+   "raw": "(12) WELL LOG: Total depth 220",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 78.992935,
+   "raw": "Standing level after well completion 2 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14554",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.900599,
+ "lon": -117.371515,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16613",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14554",
+ "serviceType": null,
+ "wellType": null,
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16744",
+ "bestDocPage": 1,
+ "status": "partial"
+}

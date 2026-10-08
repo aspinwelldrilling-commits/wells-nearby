@@ -1,0 +1,49 @@
+{
+ "permit": "WP0021343",
+ "processed": "2026-10-07T19:16:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "166-620-007",
+ "address": "6100 Clay St",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246937",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 718
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246937",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 30",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246937",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.97664610000004,
+ "lon": -117.46199889999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203470",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246937",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020074",
+ "processed": "2026-10-07T16:25:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "239-022-011",
+ "address": "10700 Cleveland Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246608",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 347
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246608",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 562.0,
+   "conf": "low",
+   "ocrConf": 42.105705,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 562",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 68.0,
+   "conf": "medium",
+   "ocrConf": 75.182243,
+   "raw": "WATER LeveL 68 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-07-08",
+   "conf": "low",
+   "ocrConf": 37.630993,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246608",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88788314200008,
+ "lon": -117.45305025999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204323",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246608",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

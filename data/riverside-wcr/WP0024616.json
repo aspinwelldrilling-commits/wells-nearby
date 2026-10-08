@@ -1,0 +1,64 @@
+{
+ "permit": "WP0024616",
+ "processed": "2026-10-07T16:31:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-270-030",
+ "address": "16115 Markham St",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248166",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 405
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248166",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 450.0,
+   "conf": "medium",
+   "ocrConf": 96.836388,
+   "raw": "Total Depth of Boring 450",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.943825,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2014-09-27",
+   "conf": "high",
+   "ocrConf": 96.33963,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248166",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.85755969300004,
+ "lon": -117.376746175,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/201528",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248166",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

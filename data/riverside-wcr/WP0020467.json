@@ -1,0 +1,71 @@
+{
+ "permit": "WP0020467",
+ "processed": "2026-10-07T16:25:19-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "390-330-007",
+ "address": "17596 Baluchi Ct",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246756",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 543
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246756",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 6.916161,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 2.0,
+   "conf": "low",
+   "ocrConf": 44.11483,
+   "raw": "WATER LEVEL_2/ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-11-25",
+   "conf": "low",
+   "ocrConf": 47.24091,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "low",
+   "ocrConf": 49.799805,
+   "raw": "ESTIMATED YIELD *_12 (gpm",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246756",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.770114754000076,
+ "lon": -117.35169642399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204697",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246756",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

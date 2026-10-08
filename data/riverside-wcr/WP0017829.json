@@ -1,0 +1,55 @@
+{
+ "permit": "WP0017829",
+ "processed": "2026-10-07T19:02:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "284-250-001",
+ "address": "8902 Trautwein Rd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245746",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 957
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245746",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 85.572762,
+   "raw": "Total Depth of Completed Well 40",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-06-13",
+   "conf": "low",
+   "ocrConf": 32.623703,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245746",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.889067899000054,
+ "lon": -117.32330150999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208493",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245746",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

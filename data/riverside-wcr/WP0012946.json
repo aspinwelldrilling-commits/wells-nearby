@@ -1,0 +1,55 @@
+{
+ "permit": "WP0012946",
+ "processed": "2026-10-07T16:17:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-150-032",
+ "address": "15470 Gavilan Springs Ranch Rd",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242141",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 761
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242141",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 175.0,
+   "conf": "low",
+   "ocrConf": 43.330238,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL175",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-08-27",
+   "conf": "high",
+   "ocrConf": 86.352676,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242141",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77983563200007,
+ "lon": -117.40206821299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211847",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242141",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

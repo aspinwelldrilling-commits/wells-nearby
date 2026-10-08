@@ -1,0 +1,71 @@
+{
+ "permit": "WP0023657",
+ "processed": "2026-10-07T16:30:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "280-040-016",
+ "address": "18264 Kross Rd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248056",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 418
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248056",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 96.567459,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "low",
+   "ocrConf": 40.623474,
+   "raw": "Water Level .50 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 91.830429,
+   "raw": "Drilling Method Air Drilling Drilling Fluid _\n",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-09-30",
+   "conf": "high",
+   "ocrConf": 88.576729,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248056",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.89869038900002,
+ "lon": -117.34400262199995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202450",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248056",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

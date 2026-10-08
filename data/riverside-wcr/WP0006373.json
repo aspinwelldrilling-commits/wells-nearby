@@ -1,0 +1,55 @@
+{
+ "permit": "WP0006373",
+ "processed": "2026-10-07T16:05:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "267-161-016",
+ "address": "17459 Bates Ave",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238376",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 974
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238376",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 265.0,
+   "conf": "medium",
+   "ocrConf": 61.831429,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 265",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "1999-11-10",
+   "conf": "low",
+   "ocrConf": 41.53223,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238376",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86591739600004,
+ "lon": -117.33686431799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217332",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238376",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

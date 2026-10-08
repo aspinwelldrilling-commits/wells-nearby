@@ -1,0 +1,83 @@
+{
+ "permit": "WP0027813",
+ "processed": "2026-10-07T19:35:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "279-070-019",
+ "address": "18750 Minnesota Rd",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249638",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 98
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249638",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249638",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 44.0,
+   "conf": "medium",
+   "ocrConf": 75.657692,
+   "raw": "Total Depth of Completed Well 44",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other Air Ccker Ling",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Drilling Method Other Air ccker ling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-21",
+   "conf": "high",
+   "ocrConf": 82.753891,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.835215,
+   "lon": -117.508471,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249638",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.83521987300003,
+ "lon": -117.50848304499999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199039",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249638",
+ "serviceType": "New Construction",
+ "wellType": "Piezometer",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

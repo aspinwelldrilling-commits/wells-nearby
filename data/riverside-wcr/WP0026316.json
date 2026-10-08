@@ -1,0 +1,70 @@
+{
+ "permit": "WP0026316",
+ "processed": "2026-10-07T19:33:53-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "226-164-001",
+ "address": "6812 Valencia St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248387",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 420
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248387",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 290.0,
+   "conf": "medium",
+   "ocrConf": 67.698654,
+   "raw": "Total Depth of Completed Well 290",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary - Ae",
+   "conf": "low",
+   "ocrConf": 27.583992,
+   "raw": "Drilling Method Direct Rotary - ae Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 96.52272,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-08-12",
+   "conf": "medium",
+   "ocrConf": 50.371284,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248387",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.949809783000035,
+ "lon": -117.41079907599999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199393",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248387",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

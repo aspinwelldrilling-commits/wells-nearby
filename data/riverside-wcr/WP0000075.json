@@ -1,0 +1,56 @@
+{
+ "permit": "WP0000075",
+ "processed": "2026-10-07T15:53:32-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "319-062-012",
+ "address": "20723 Wells St",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233408",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1030
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233408",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 23.99794,
+   "raw": "Completed depth 100",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 5.0,
+   "conf": "high",
+   "ocrConf": 91.949524,
+   "raw": "Standing level after well completion 5 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233408",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.83794356400006,
+ "lon": -117.30123108999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222600",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233408",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,49 @@
+{
+ "permit": "WP0005816",
+ "processed": "2026-10-07T17:44:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "142-170-015",
+ "address": "3950 Pierce St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237291",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 923
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237291",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 90.0,
+   "conf": "low",
+   "ocrConf": 58.44455,
+   "raw": "TOTAL DEPTH OF BORING 90",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237291",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.89818380000003,
+ "lon": -117.49400559999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/215728",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/237291",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

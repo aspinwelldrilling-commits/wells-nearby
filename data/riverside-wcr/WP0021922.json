@@ -1,0 +1,72 @@
+{
+ "permit": "WP0021922",
+ "processed": "2026-10-07T16:30:35-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-550-020",
+ "address": "18272 Valle Pacifico Dr",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247186",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 420
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247186",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 96.055687,
+   "raw": "Total Depth of Boring 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 95.734459,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 19.0,
+   "conf": "medium",
+   "ocrConf": 51.832767,
+   "raw": "Water Level 19 \u2014\u2014\u2014s (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-12-15",
+   "conf": "medium",
+   "ocrConf": 73.135971,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247186",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77198527500008,
+ "lon": -117.34150894099997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204034",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247186",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

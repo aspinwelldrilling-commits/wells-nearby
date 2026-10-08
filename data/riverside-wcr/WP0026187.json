@@ -1,0 +1,64 @@
+{
+ "permit": "WP0026187",
+ "processed": "2026-10-07T16:34:20-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-170-010",
+ "address": "23520 Estelle Mountain Rd",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248246",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 63
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248246",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1100.0,
+   "conf": "medium",
+   "ocrConf": 90.029488,
+   "raw": "Total Depth of Boring 1,100",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 93.760422,
+   "raw": "Estimated Yield\" 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-08-04",
+   "conf": "high",
+   "ocrConf": 93.604752,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248246",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.777415639000026,
+ "lon": -117.38871599799995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199292",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248246",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,55 @@
+{
+ "permit": "WP0026836",
+ "processed": "2026-10-07T19:32:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "123-200-022",
+ "address": "1841 Hillside Ave",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248528",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1014
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248528",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 42.0,
+   "conf": "low",
+   "ocrConf": 0.82431,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 42",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-05-11",
+   "conf": "high",
+   "ocrConf": 86.729126,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248528",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91660076000005,
+ "lon": -117.54433411599996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199863",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248528",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

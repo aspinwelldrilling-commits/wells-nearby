@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019685",
+ "processed": "2026-10-07T19:07:01-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "189-130-008",
+ "address": "7007 Jurupa Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246309",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 422
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246309",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 96.305199,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid\nMailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-03-12",
+   "conf": "low",
+   "ocrConf": 46.500046,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246309",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.96142026100006,
+ "lon": -117.44805379399997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205285",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246309",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

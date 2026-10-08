@@ -1,0 +1,56 @@
+{
+ "permit": "WP0006072",
+ "processed": "2026-10-07T16:04:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "269-020-014",
+ "address": "MCCALLESTER RD",
+ "city": "El Sobrante",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238176",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 820
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238176",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 290.0,
+   "conf": "low",
+   "ocrConf": 24.575546,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 290",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 5.0,
+   "conf": "low",
+   "ocrConf": 47.817287,
+   "raw": "WATER LeveL ____5@* __(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238176",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.88048912700003,
+ "lon": -117.43636560999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/216334",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238176",
+ "serviceType": null,
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}

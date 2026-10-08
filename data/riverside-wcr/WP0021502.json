@@ -1,0 +1,57 @@
+{
+ "permit": "WP0021502",
+ "processed": "2026-10-07T16:26:57-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "181-190-018",
+ "address": "Crestmore Rd",
+ "city": "Jurupa Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246986",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 430
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246986",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 340.0,
+   "conf": "medium",
+   "ocrConf": 95.520859,
+   "raw": "Total Depth of Boring 340",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.25,
+   "conf": "medium",
+   "ocrConf": 72.044617,
+   "raw": "Estimated Yield * 1.250 (GPM",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246986",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.98700405100004,
+ "lon": -117.41462388099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203627",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246986",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

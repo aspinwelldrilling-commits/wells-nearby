@@ -1,0 +1,91 @@
+{
+ "permit": "WP0030130",
+ "processed": "2026-10-07T16:35:38-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "266-320-016",
+ "address": "19747 Glenwood Ave ",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248980",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 563
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248980",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248980",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 220.0,
+   "conf": "medium",
+   "ocrConf": 79.981308,
+   "raw": "Total Depth of Completed Well 220",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 96.187187,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 66.0,
+   "conf": "high",
+   "ocrConf": 95.742889,
+   "raw": "Water Level 66 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 42.529442,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-11-12",
+   "conf": "medium",
+   "ocrConf": 72.080872,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.86554,
+   "lon": -117.32257,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248980",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86372,
+ "lon": -117.31916,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/232685",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248980",
+ "serviceType": "Evaluation",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "WP0025079",
+ "processed": "2026-10-07T16:31:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-230-007",
+ "address": "11101 View Ln",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248160",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 417
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248160",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 2420.0,
+   "conf": "medium",
+   "ocrConf": 62.769905,
+   "raw": "Total Depth of Completed Well 2420",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "high",
+   "ocrConf": 96.608673,
+   "raw": "Estimated Yield* 7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 93.582481,
+   "raw": "Drilling Method Air Drilling Drilling Fluid .\nMailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2015-03-06",
+   "conf": "low",
+   "ocrConf": 36.475239,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248160",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.771875918000035,
+ "lon": -117.46618255299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/200064",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248160",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

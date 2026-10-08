@@ -1,0 +1,60 @@
+{
+ "permit": "RIV-WCR-14559",
+ "processed": "2026-10-07T15:49:46-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "278-070-015",
+ "address": "7535 Smerber Rd",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14559",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1029
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14559",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 26.821579,
+   "raw": "Total depth 20 ft",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 3.0,
+   "conf": "medium",
+   "ocrConf": 75.738762,
+   "raw": "Standing level after well completion 3 ",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14559",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.85108487300005,
+ "lon": -117.52759204899996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/16620",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14559",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "16747",
+ "bestDocPage": 1,
+ "status": "partial"
+}

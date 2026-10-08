@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014517",
+ "processed": "2026-10-07T16:20:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-470-016",
+ "address": "23315 Modoc Ct",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243044",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 898
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243044",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 225.0,
+   "conf": "low",
+   "ocrConf": 28.582008,
+   "raw": "TOTAL DEPTH OF BORING 225",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-20",
+   "conf": "medium",
+   "ocrConf": 65.225433,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243044",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.78181327900006,
+ "lon": -117.36195274199997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211360",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243044",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

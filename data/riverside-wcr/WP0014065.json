@@ -1,0 +1,63 @@
+{
+ "permit": "WP0014065",
+ "processed": "2026-10-07T16:17:33-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "323-030-002",
+ "address": "22800 Homestead Circle",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242552",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 707
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242552",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 750.0,
+   "conf": "low",
+   "ocrConf": 27.914146,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 750",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 11.0,
+   "conf": "medium",
+   "ocrConf": 65.877594,
+   "raw": "ESTIMATED YIELD * 11 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-09-11",
+   "conf": "medium",
+   "ocrConf": 67.924744,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242552",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.78966149900003,
+ "lon": -117.30990449099994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211060",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242552",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0012071",
+ "processed": "2026-10-07T16:16:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "321-290-030",
+ "address": "18590 Yellow Brick Rd",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243844",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 701
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243844",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 304.0,
+   "conf": "low",
+   "ocrConf": 49.986847,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 304",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 50.450592,
+   "raw": "WATER LEVEL 10 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2004-04-01",
+   "conf": "high",
+   "ocrConf": 83.779671,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243844",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.804434929000024,
+ "lon": -117.33789508299998,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/243844",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

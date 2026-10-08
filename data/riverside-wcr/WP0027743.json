@@ -1,0 +1,84 @@
+{
+ "permit": "WP0027743",
+ "processed": "2026-10-07T16:35:05-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "269-090-075",
+ "address": "12749 Road Runner Ridge",
+ "city": "El Sobrante",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249627",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 59
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249627",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249627",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "medium",
+   "ocrConf": 53.746246,
+   "raw": "Total Depth of Completed Well 260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "medium",
+   "ocrConf": 58.574905,
+   "raw": "Estimated Yield\" 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 96.340164,
+   "raw": "Water Level 60 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-05-24",
+   "conf": "high",
+   "ocrConf": 83.065971,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.87338,
+   "lon": -117.43969,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249627",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.873017711000045,
+ "lon": -117.43988429599995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198983",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249627",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

@@ -1,0 +1,99 @@
+{
+ "permit": "WP0030313",
+ "processed": "2026-10-07T16:34:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "237-130-029",
+ "address": "2198 Jefferson St ",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270810",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 12
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270810",
+   "page": 1,
+   "source": "text",
+   "nFields": 5
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270810",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        700",
+   "page": 1,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 150.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                150 (Feet",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Downhole Rotary           Drilling Fluid    Air",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-04-19",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.91309,
+   "lon": -117.39877,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  },
+  "gpm": {
+   "value": 0.5,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Estimated Yield*           0.50 (GPM",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270810",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91309,
+ "lon": -117.39879,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270174",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270810",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

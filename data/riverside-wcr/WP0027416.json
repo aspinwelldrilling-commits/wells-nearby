@@ -1,0 +1,84 @@
+{
+ "permit": "WP0027416",
+ "processed": "2026-10-07T16:32:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "267-190-002",
+ "address": "18485 Warren Rd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249560",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 55
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249560",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249560",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 750.0,
+   "conf": "medium",
+   "ocrConf": 72.095009,
+   "raw": "Total Depth of Completed Well 750",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 96.402351,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 42.0,
+   "conf": "high",
+   "ocrConf": 96.648445,
+   "raw": "Water Level 42 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-02-12",
+   "conf": "low",
+   "ocrConf": 44.595512,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.860114,
+   "lon": -117.343012,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249560",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86011888500008,
+ "lon": -117.34302401899998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198880",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249560",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

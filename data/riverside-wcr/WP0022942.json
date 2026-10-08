@@ -1,0 +1,71 @@
+{
+ "permit": "WP0022942",
+ "processed": "2026-10-07T16:29:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "390-330-011",
+ "address": "24006 Spencer Butte Dr",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249357",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 442
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249357",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 160.0,
+   "conf": "low",
+   "ocrConf": 31.345833,
+   "raw": "Total Depth of Completed Well_160",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 95.369377,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 92.363098,
+   "raw": "Drilling Method Air Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 11.861099,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249357",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.771439514000065,
+ "lon": -117.35337510399995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203123",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249357",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

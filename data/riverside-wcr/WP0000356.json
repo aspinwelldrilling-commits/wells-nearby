@@ -1,0 +1,57 @@
+{
+ "permit": "WP0000356",
+ "processed": "2026-10-07T15:56:04-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-230-016",
+ "address": "11353 Siesta Ln",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233652",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1019
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233652",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 260.0,
+   "conf": "low",
+   "ocrConf": 14.129219,
+   "raw": "(12) WELL LOG: Total depth 260",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 93.828003,
+   "raw": "Standing level after well completion 20 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233652",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77263045800004,
+ "lon": -117.46175614199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/222627",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/233652",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

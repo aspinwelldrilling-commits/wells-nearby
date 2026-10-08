@@ -1,0 +1,56 @@
+{
+ "permit": "WP0014137",
+ "processed": "2026-10-07T16:18:08-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "321-030-004",
+ "address": "18410 Avenue B",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242633",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 807
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242633",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "medium",
+   "ocrConf": 67.825241,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _ 1000",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 4.0,
+   "conf": "low",
+   "ocrConf": 21.217773,
+   "raw": "WATER LEVEL____4f) _(Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242633",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.854919324000036,
+ "lon": -117.33914998199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/211113",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/242633",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

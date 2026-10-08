@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13641",
+ "processed": "2026-10-07T15:47:54-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "283-060-019",
+ "address": "9170 Leroy Rd",
+ "city": "Temescal Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13641",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1820
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13641",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 120.0,
+   "conf": "medium",
+   "ocrConf": 68.871155,
+   "raw": "Completed depth 120 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13641",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.80053202300007,
+ "lon": -117.49961837599994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14602",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13641",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15715",
+ "bestDocPage": 1,
+ "status": "partial"
+}

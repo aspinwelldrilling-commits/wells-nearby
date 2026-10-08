@@ -1,0 +1,55 @@
+{
+ "permit": "WP0015187",
+ "processed": "2026-10-07T18:45:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "279-230-068",
+ "address": "3615 Grand Oaks",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244125",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1228
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244125",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 75.0,
+   "conf": "low",
+   "ocrConf": 16.450211,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL _75",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2005-11-14",
+   "conf": "high",
+   "ocrConf": 93.032814,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244125",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.82568263300004,
+ "lon": -117.51403790599994,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244125",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,63 @@
+{
+ "permit": "WP0019633",
+ "processed": "2026-10-07T16:26:25-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "270-170-014",
+ "address": "17530 McAllister St",
+ "city": "El Sobrante",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246289",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 743
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246289",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 625.0,
+   "conf": "low",
+   "ocrConf": 11.810669,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL625",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 90.0,
+   "conf": "low",
+   "ocrConf": 49.020554,
+   "raw": "ESTIMATED YiELD * 90 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-02-20",
+   "conf": "high",
+   "ocrConf": 89.295609,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246289",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86492845200007,
+ "lon": -117.43670176799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/207911",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246289",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

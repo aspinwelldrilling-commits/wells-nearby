@@ -1,0 +1,71 @@
+{
+ "permit": "WP0017680",
+ "processed": "2026-10-07T18:58:52-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "103-280-002",
+ "address": "3502 Adams St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245683",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 2357
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245683",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 90.0,
+   "conf": "high",
+   "ocrConf": 95.975815,
+   "raw": "Total Depth of Completed Well 90",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 65.0,
+   "conf": "high",
+   "ocrConf": 87.933418,
+   "raw": "Water Level 65 ss (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Hollow Stem Auger",
+   "conf": "high",
+   "ocrConf": 96.002174,
+   "raw": "Drilling Method Hollow Stem Auger Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-04-03",
+   "conf": "medium",
+   "ocrConf": 79.945435,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245683",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.927969200000064,
+ "lon": -117.42083579999996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/210161",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245683",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

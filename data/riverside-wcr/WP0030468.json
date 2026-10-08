@@ -1,0 +1,75 @@
+{
+ "permit": "WP0030468",
+ "processed": "2026-10-07T19:35:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "151-140-026",
+ "address": "8233 Cypress Ave ",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274998",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 18
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274998",
+   "page": 1,
+   "source": "text",
+   "nFields": 2
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274998",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 40.5,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well           40.5",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "None",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2022-02-09",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.9432641,
+   "lon": -117.4617492,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274998",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.94332596000004,
+ "lon": -117.46126221499998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274664",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/274998",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

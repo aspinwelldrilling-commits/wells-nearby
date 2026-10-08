@@ -1,0 +1,55 @@
+{
+ "permit": "WP0021356",
+ "processed": "2026-10-07T16:29:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "281-100-001",
+ "address": "9076 Cajalco Rd",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246950",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 334
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246950",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 19.0,
+   "conf": "low",
+   "ocrConf": 36.504017,
+   "raw": "WATER LEVEL 19 (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2011-01-15",
+   "conf": "medium",
+   "ocrConf": 60.34399,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246950",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.82494992200003,
+ "lon": -117.50101176299995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/203482",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246950",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

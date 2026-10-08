@@ -1,0 +1,70 @@
+{
+ "permit": "WP0027323",
+ "processed": "2026-10-07T16:33:00-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-390-015",
+ "address": "18530 Chickory Dr",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249515",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 927
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249515",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 93.888962,
+   "raw": "Estimated Yield * 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 93.795944,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 8.707153,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-10-30",
+   "conf": "high",
+   "ocrConf": 96.43158,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249515",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.85129772700003,
+ "lon": -117.35919223199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198826",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249515",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

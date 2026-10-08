@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019765",
+ "processed": "2026-10-07T16:24:55-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "242-030-031",
+ "address": "1690 Washington Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246321",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 315
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246321",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 95.156349,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-04-01",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246321",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.91467731900008,
+ "lon": -117.38483387999997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205361",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246321",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

@@ -1,0 +1,83 @@
+{
+ "permit": "WP0030173",
+ "processed": "2026-10-07T19:38:07-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "135-270-002",
+ "address": "1709 Sherborn St ",
+ "city": "Corona",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270800",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 936
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270800",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270800",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 165.0,
+   "conf": "high",
+   "ocrConf": 87.99324,
+   "raw": "Total Depth of Completed Well 165",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud Rotary",
+   "conf": "high",
+   "ocrConf": 92.578934,
+   "raw": "Drilling Method Other - Mud Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 83.193954,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-09-28",
+   "conf": "medium",
+   "ocrConf": 75.44545,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.8598599,
+   "lon": -117.5213532,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270800",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.85927,
+ "lon": -117.52137,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/263292",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270800",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

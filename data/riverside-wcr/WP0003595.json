@@ -1,0 +1,56 @@
+{
+ "permit": "WP0003595",
+ "processed": "2026-10-07T16:00:21-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "323-020-047",
+ "address": "22205 Post Rd",
+ "city": "Good Hope",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235841",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 841
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235841",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 309.0,
+   "conf": "medium",
+   "ocrConf": 66.417526,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __309",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 45.0,
+   "conf": "low",
+   "ocrConf": 47.146896,
+   "raw": "WATER LEVEL 45 (Ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235841",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.797608600000046,
+ "lon": -117.30438444699996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217864",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235841",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

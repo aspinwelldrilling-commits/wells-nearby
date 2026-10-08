@@ -1,0 +1,64 @@
+{
+ "permit": "WP0026251",
+ "processed": "2026-10-07T19:31:37-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "153-240-034",
+ "address": "5203 Pedley Station Ave",
+ "city": "Norco",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248336",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 432
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248336",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 96.532097,
+   "raw": "Total Depth of Boring 50",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Vacuum Rig",
+   "conf": "high",
+   "ocrConf": 93.857773,
+   "raw": "Drilling Method Air Vacuum Rig Drilling Fluid Mailing",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2016-06-23",
+   "conf": "medium",
+   "ocrConf": 70.949249,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248336",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.95649268600005,
+ "lon": -117.52303237699999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/199352",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248336",
+ "serviceType": "Destruction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

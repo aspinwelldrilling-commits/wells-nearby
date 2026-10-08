@@ -1,0 +1,48 @@
+{
+ "permit": "WP0006402",
+ "processed": "2026-10-07T17:50:22-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "151-151-006",
+ "address": "6266 Van Buren Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238398",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1337
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238398",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 32.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL __32",
+   "page": 2,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238398",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.94466360000007,
+ "lon": -117.45553319999999,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/217433",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/238398",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 2,
+ "status": "unreadable"
+}

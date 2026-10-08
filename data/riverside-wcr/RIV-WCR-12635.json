@@ -1,0 +1,59 @@
+{
+ "permit": "RIV-WCR-12635",
+ "processed": "2026-10-07T15:46:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "9013 Cajalo Rd",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12635",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1904
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12635",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 66.0,
+   "conf": "low",
+   "ocrConf": 34.415688,
+   "raw": "Completed depth 66",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 22.0,
+   "conf": "medium",
+   "ocrConf": 70.70652,
+   "raw": "Standing level after well completion 22FT",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12635",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.82398142400007,
+ "lon": -117.50201801599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12302",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12635",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "14470",
+ "bestDocPage": 1,
+ "status": "partial"
+}

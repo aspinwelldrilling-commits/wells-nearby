@@ -1,0 +1,86 @@
+{
+ "permit": "WP0020272",
+ "processed": "2026-10-07T16:25:03-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "390-320-001",
+ "address": "17033 La Mina Ln",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246681",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 376
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246681",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 96.091881,
+   "raw": "Total Depth of Completed Well 500",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 1.0,
+   "conf": "low",
+   "ocrConf": 38.859062,
+   "raw": "Estimated Yield* 1. \u2014\u2014s (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 66.0,
+   "conf": "high",
+   "ocrConf": 95.516655,
+   "raw": "Water Level 66 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 89.487259,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 62.338196,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-09-10",
+   "conf": "high",
+   "ocrConf": 90.138199,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246681",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77131600400003,
+ "lon": -117.36184849499995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204518",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246681",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

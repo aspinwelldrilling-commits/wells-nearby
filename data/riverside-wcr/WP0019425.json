@@ -1,0 +1,55 @@
+{
+ "permit": "WP0019425",
+ "processed": "2026-10-07T19:08:12-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "214-211-007",
+ "address": "4019/4029 Mission Inn Ave",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246230",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 928
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246230",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "low",
+   "ocrConf": 7.44928,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 25",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2008-11-03",
+   "conf": "high",
+   "ocrConf": 85.300079,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246230",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.985026065000056,
+ "lon": -117.37785708099995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208164",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246230",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

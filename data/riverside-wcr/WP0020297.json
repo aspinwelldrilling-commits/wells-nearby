@@ -1,0 +1,71 @@
+{
+ "permit": "WP0020297",
+ "processed": "2026-10-07T16:25:11-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-560-016",
+ "address": "17457 Astorian St",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246692",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 384
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246692",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 203.0,
+   "conf": "high",
+   "ocrConf": 94.951103,
+   "raw": "Total Depth of Completed Well 203",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 80.044037,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 67.0,
+   "conf": "high",
+   "ocrConf": 92.657471,
+   "raw": "Water Level 67 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-09-19",
+   "conf": "high",
+   "ocrConf": 94.552277,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246692",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77200211400003,
+ "lon": -117.35456460299997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204543",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246692",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

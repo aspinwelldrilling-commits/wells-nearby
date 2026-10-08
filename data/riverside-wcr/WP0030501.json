@@ -1,0 +1,76 @@
+{
+ "permit": "WP0030501",
+ "processed": "2026-10-07T19:37:44-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "193-262-008",
+ "address": "8693 Larkin Ct",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270826",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 119
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270826",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270826",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 49.0,
+   "conf": "high",
+   "ocrConf": 89.507851,
+   "raw": "Total Depth of Completed Well 49",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": 90.119247,
+   "raw": "Drilling Method Auger Drilling Fluid Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 87.510796,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-06-07",
+   "conf": "medium",
+   "ocrConf": 74.328644,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270826",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.932792,
+ "lon": -117.434796,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270184",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270826",
+ "serviceType": "New Construction",
+ "wellType": "Cathodic",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

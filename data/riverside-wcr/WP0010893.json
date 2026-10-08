@@ -1,0 +1,63 @@
+{
+ "permit": "WP0010893",
+ "processed": "2026-10-07T16:13:14-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "277-100-004",
+ "address": "19350 Quebec Ave",
+ "city": "El Cerrito",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241118",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 722
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241118",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 190.0,
+   "conf": "low",
+   "ocrConf": 12.577522,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL190",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 27.0,
+   "conf": "high",
+   "ocrConf": 95.963409,
+   "raw": "WATER LEVEL - 27 _ (Ft",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-09-29",
+   "conf": "medium",
+   "ocrConf": 60.76086,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241118",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.83868443600005,
+ "lon": -117.52102241199998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/213521",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/241118",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

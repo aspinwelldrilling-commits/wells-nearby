@@ -1,0 +1,83 @@
+{
+ "permit": "WP0030381",
+ "processed": "2026-10-07T19:38:17-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "151-380-007",
+ "address": "4890 Van Buren Blvd ",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262781",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 18
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262781",
+   "page": 1,
+   "source": "text",
+   "nFields": 3
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262781",
+   "page": 2,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well        25",
+   "page": 1,
+   "source": "text"
+  },
+  "method": {
+   "value": "Auger",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method      Auger                     Drilling Fluid    None",
+   "page": 1,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "None",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2021-11-24",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 1,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 33.9341724,
+   "lon": -117.4549564,
+   "conf": "high",
+   "page": 1,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262781",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.934089,
+ "lon": -117.454847,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262440",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/262781",
+ "serviceType": "New Construction",
+ "wellType": "Monitoring",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "readable"
+}

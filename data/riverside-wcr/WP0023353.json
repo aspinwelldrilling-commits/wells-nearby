@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023353",
+ "processed": "2026-10-07T16:31:51-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-510-005",
+ "address": "17036 Birdseye Dr",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247712",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 406
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247712",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 77.558708,
+   "raw": "Estimated Yield * 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-07-01",
+   "conf": "high",
+   "ocrConf": 86.149216,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247712",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.79196229100006,
+ "lon": -117.36155667299994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202185",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247712",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Final",
+ "bestDocPage": 1,
+ "status": "partial"
+}

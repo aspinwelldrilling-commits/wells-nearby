@@ -1,0 +1,55 @@
+{
+ "permit": "WP0023447",
+ "processed": "2026-10-07T16:29:42-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "266-320-016",
+ "address": "19747 Glenwood Ave",
+ "city": "Mead Valley",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247810",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 651
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247810",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 14.0,
+   "conf": "medium",
+   "ocrConf": 72.403351,
+   "raw": "Estimated Yield* 14 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2013-08-09",
+   "conf": "low",
+   "ocrConf": 9.363937,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247810",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86340096200007,
+ "lon": -117.31880213499994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/202250",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/247810",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

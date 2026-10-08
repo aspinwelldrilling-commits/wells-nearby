@@ -1,0 +1,63 @@
+{
+ "permit": "WP0020197",
+ "processed": "2026-10-07T16:24:56-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "289-560-001",
+ "address": "23642 Los Arrolos Rd",
+ "city": "Gavilan Hills",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246656",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 336
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246656",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 81.449982,
+   "raw": "TOTAL DEPTH OF COMPLETED WELL 300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "medium",
+   "ocrConf": 56.251236,
+   "raw": "ESTIMATED YiELD * 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-07-21",
+   "conf": "medium",
+   "ocrConf": 77.164993,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246656",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.77249798400004,
+ "lon": -117.35782862499997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/204443",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246656",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

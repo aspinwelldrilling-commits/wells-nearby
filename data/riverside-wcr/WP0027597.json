@@ -1,0 +1,70 @@
+{
+ "permit": "WP0027597",
+ "processed": "2026-10-07T16:34:59-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "285-390-007",
+ "address": "17170 Seven Springs Way",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249575",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 62
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249575",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "low",
+   "ocrConf": 44.392326,
+   "raw": "Total Depth of Completed Well _800",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 20.0,
+   "conf": "medium",
+   "ocrConf": 65.315742,
+   "raw": "Water Level 20 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2018-02-20",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.853639,
+   "lon": -117.359616,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249575",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.853677883000046,
+ "lon": -117.35964302199994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198905",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249575",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "partial"
+}

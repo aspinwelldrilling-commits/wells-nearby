@@ -1,0 +1,78 @@
+{
+ "permit": "WP0027331",
+ "processed": "2026-10-07T16:34:48-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "237-240-007",
+ "address": "2080 Jefferson St",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249520",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 931
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249520",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 350.0,
+   "conf": "medium",
+   "ocrConf": 76.149498,
+   "raw": "Total Depth of Completed Well 350",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 96.988449,
+   "raw": "Estimated Yield* 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 95.220573,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 72.463737,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-12-08",
+   "conf": "high",
+   "ocrConf": 93.459404,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249520",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.910824888000036,
+ "lon": -117.39674203199996,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/198832",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/249520",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

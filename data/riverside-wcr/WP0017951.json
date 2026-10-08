@@ -1,0 +1,80 @@
+{
+ "permit": "WP0017951",
+ "processed": "2026-10-07T16:22:50-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "273-270-004",
+ "address": "17810 Palm Rd",
+ "city": "Woodcrest",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245840",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 421
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245840",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1475.0,
+   "conf": "medium",
+   "ocrConf": 96.350037,
+   "raw": "Total Depth of Boring 1475",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 96.936829,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 85.777428,
+   "raw": "Water Level _130 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 79.59845,
+   "raw": "Drilling Method _Air Drilling Fluid - ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2007-08-07",
+   "conf": "high",
+   "ocrConf": 90.799423,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245840",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.86074801700005,
+ "lon": -117.39390040799998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/208607",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/245840",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

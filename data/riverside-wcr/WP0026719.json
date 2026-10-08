@@ -1,0 +1,56 @@
+{
+ "permit": "WP0026719",
+ "processed": "2026-10-07T19:34:26-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "163-300-010",
+ "address": "6840 Van Buren Blvd",
+ "city": "Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248454",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1085
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248454",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 2
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.597855,
+   "raw": "Total Depth of Completed Well 25",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2017-02-24",
+   "conf": "high",
+   "ocrConf": 91.423477,
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248454",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.962440180000044,
+ "lon": -117.46611439599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/293560",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/248454",
+ "serviceType": "Destruction",
+ "wellType": "Monitoring",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
+}

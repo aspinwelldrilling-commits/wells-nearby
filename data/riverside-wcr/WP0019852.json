@@ -1,0 +1,79 @@
+{
+ "permit": "WP0019852",
+ "processed": "2026-10-07T16:24:06-07:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "287-140-008",
+ "address": "20950 Villa Knoll Dr",
+ "city": "Lake Mathews",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246331",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 428
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246331",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 660.0,
+   "conf": "medium",
+   "ocrConf": 96.706261,
+   "raw": "Total Depth of Boring 660",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.82119,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Air Drilling",
+   "conf": "high",
+   "ocrConf": 94.6856,
+   "raw": "Drilling Method Air Drilling Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 76.454086,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2009-09-20",
+   "conf": "high",
+   "ocrConf": 95.843773,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246331",
+ "errors": [],
+ "area": "corona-norco-temescal",
+ "lat": 33.81471540800004,
+ "lon": -117.37343256999998,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/205448",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/246331",
+ "serviceType": "New Construction",
+ "wellType": "Agricultural/Industrial",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}
