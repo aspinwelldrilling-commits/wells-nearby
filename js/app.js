@@ -22,12 +22,28 @@
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19 }),
   ]).addTo(map);
   const streets = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: 'Tiles &copy; Esri' });
+  // Topographic base maps (USGS The National Map; tiles exist to z16, Leaflet upscales beyond). All send CORS *, so the plot plan can print them.
+  const USGS = 'https://basemap.nationalmap.gov/arcgis/rest/services/';
+  const usgsAttr = 'Tiles courtesy of the <a href="https://www.usgs.gov/" target="_blank" rel="noopener">U.S. Geological Survey</a> (The National Map)';
+  const topo = L.tileLayer(USGS + 'USGSTopo/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, maxNativeZoom: 16, attribution: usgsAttr });
+  const imgTopo = L.tileLayer(USGS + 'USGSImageryTopo/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, maxNativeZoom: 16, attribution: usgsAttr });
+  const esriTopo = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, maxNativeZoom: 19, attribution: 'Tiles &copy; Esri, USGS, NOAA and contributors' });
+  const hillshade = L.tileLayer(USGS + 'USGSShadedReliefOnly/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, maxNativeZoom: 16, opacity: 0.4, attribution: usgsAttr });
+  const bases = { 'Satellite': imagery, 'Streets': streets, 'Topo (USGS)': topo, 'Topo + satellite (USGS)': imgTopo, 'Topo (Esri)': esriTopo };
+  // Remember the chosen base map on this device.
+  const BASE_KEY = 'wellsNearby.basemap';
+  try {
+    const want = localStorage.getItem(BASE_KEY);
+    if (want && bases[want] && bases[want] !== imagery) { map.removeLayer(imagery); bases[want].addTo(map); }
+  } catch (e) { /* private mode */ }
+  map.on('baselayerchange', (e) => { try { localStorage.setItem(BASE_KEY, e.name); } catch (er) { /* */ } });
   const stateLayer = L.layerGroup().addTo(map);   // state WCRs (and merged state+county wells)
   const countyLayer = L.layerGroup().addTo(map);  // county permits
   const linkLayer = L.layerGroup();               // dashed lines: county parcel <-> state point for matched pairs (off by default)
   const meLayer = L.layerGroup().addTo(map);
-  const layersCtl = L.control.layers({ 'Satellite': imagery, 'Streets': streets }, {
+  const layersCtl = L.control.layers(bases, {
     'Roads & labels': labels,
+    'Hillshade (USGS)': hillshade,
     '<span class="lg lg-state"></span> State wells (DWR)': stateLayer,
     '<span class="lg lg-county"></span> County permits (DEHQ)': countyLayer,
     'Duplicate links': linkLayer,
@@ -47,11 +63,24 @@
   function searchHerePopup(latlng) {
     const { lat, lng } = latlng;
     const box = document.createElement('div'); box.className = 'popup tap-popup';
-    box.innerHTML = `${lat.toFixed(5)}, ${lng.toFixed(5)}<br><button type="button" class="small search-here" id="searchHere">Search here</button>`;
+    box.innerHTML = `${lat.toFixed(5)}, ${lng.toFixed(5)}<br><span class="muted elev">Elevation: …</span><br><button type="button" class="small search-here" id="searchHere">Search here</button>`;
     const b = box.querySelector('button');
     b.dataset.lat = lat; b.dataset.lon = lng;
     L.DomEvent.on(b, 'click', (ev) => { L.DomEvent.stop(ev); searchHereGo(lat, lng, b); });
+    elevationFt(lat, lng).then((ft) => { const el = box.querySelector('.elev'); if (el) el.textContent = ft == null ? 'Elevation: n/a' : `Elevation: ≈${Math.round(ft).toLocaleString()} ft (USGS)`; });
     return L.popup({ maxWidth: 310 }).setLatLng(latlng).setContent(box).openOn(map);
+  }
+  /** Ground elevation in feet from the USGS Elevation Point Query Service (3DEP). Never blocks; null on failure / timeout. */
+  const elevCache = new Map();
+  function elevationFt(lat, lng) {
+    const k = lat.toFixed(5) + ',' + lng.toFixed(5);
+    if (elevCache.has(k)) return Promise.resolve(elevCache.get(k));
+    const ctl = window.AbortController ? new AbortController() : null;
+    const t = setTimeout(() => ctl && ctl.abort(), 15000);
+    return fetch(`https://epqs.nationalmap.gov/v1/json?x=${lng.toFixed(6)}&y=${lat.toFixed(6)}&units=Feet&wkid=4326`, ctl ? { signal: ctl.signal } : {})
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => { const v = j && Number(j.value); const ft = Number.isFinite(v) && v > -1000 ? v : null; if (ft != null) elevCache.set(k, ft); return ft; })
+      .catch(() => null).finally(() => clearTimeout(t));
   }
   function searchHereGo(lat, lng, b) {
     if (b) { b.disabled = true; b.textContent = 'Searching…'; }

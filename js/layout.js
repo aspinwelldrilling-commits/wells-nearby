@@ -325,7 +325,7 @@
     prevZoomLimits = { mapMax: map.options.maxZoom, layers: [] };
     const seen = new Set();
     const fix = (l) => {
-      if (!(l instanceof L.TileLayer) || seen.has(l) || !/arcgisonline/.test(l._url || '')) return;
+      if (!(l instanceof L.TileLayer) || seen.has(l) || !/arcgisonline|basemap\.nationalmap\.gov/.test(l._url || '')) return;
       seen.add(l); prevZoomLimits.layers.push([l, l.options.maxZoom, l.options.maxNativeZoom]);
       l.options.maxNativeZoom = Math.min(19, l.options.maxNativeZoom || l.options.maxZoom || 19); l.options.maxZoom = 21;
     };
@@ -623,14 +623,25 @@
       im.src = url;
     });
   }
-  /** Esri tile templates to print: the base map shown now (satellite or streets) + roads / labels if they are on. */
+  /** Tile templates to print: the base map shown now (satellite, streets or topo) + roads / labels / hillshade if on.
+   * Esri and USGS National Map tiles both send Access-Control-Allow-Origin: *, so the canvas stays exportable.
+   * USGS tiles stop at z16 (max), which the renderer upsamples. */
   function tileTemplates() {
     const urls = [];
-    map.eachLayer((l) => { if (l instanceof L.TileLayer && /arcgisonline\.com/.test(l._url || '') && !urls.includes(l._url)) urls.push(l._url); });
-    const isBase = (u) => /World_Imagery|World_Street_Map/.test(u);
+    map.eachLayer((l) => { if (l instanceof L.TileLayer && /arcgisonline\.com|basemap\.nationalmap\.gov/.test(l._url || '') && !urls.includes(l._url)) urls.push(l._url); });
+    const isBase = (u) => /World_Imagery|World_Street_Map|World_Topo_Map|USGSTopo|USGSImageryTopo/.test(u);
     const base = urls.filter(isBase), ref = urls.filter((u) => !isBase(u));
     return (base.length ? base.slice(0, 1) : ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}']).concat(ref);
   }
+  function baseCredit() {
+    const b = tileTemplates()[0];
+    if (/USGSImageryTopo/.test(b)) return 'Topo + imagery: USGS The National Map.';
+    if (/USGSTopo/.test(b)) return 'Topo map: USGS The National Map.';
+    if (/World_Topo_Map/.test(b)) return 'Topo map © Esri, USGS, NOAA.';
+    if (/World_Street_Map/.test(b)) return 'Map © Esri.';
+    return 'Imagery © Esri, Maxar, Earthstar Geographics.';
+  }
+  const tileMaxZ = (u) => (/basemap\.nationalmap\.gov/.test(u) ? 16 : 19);
   function wrap(ctx, text, maxW) {
     const out = [];
     for (const para of String(text || '').split(/\n/)) {
@@ -746,19 +757,23 @@
     ctx.save(); ctx.beginPath(); ctx.rect(fr.x, fr.y, fr.w, fr.h); ctx.clip();
     ctx.fillStyle = '#cbd5e1'; ctx.fillRect(fr.x, fr.y, fr.w, fr.h);
     const n = Math.pow(2, tz);
+    const hshade = /USGSShadedReliefOnly/;
     for (const tpl of temps) {
-      const jobs = [];
+      const jobs = [], tz0 = tz, n0 = n, R0 = R;
+      { const tz = Math.min(tz0, tileMaxZ(tpl)), R = tz === tz0 ? R0 : range(tz), n = tz === tz0 ? n0 : Math.pow(2, tz);
       for (let ty = R.y0; ty <= R.y1; ty++) for (let tx = R.x0; tx <= R.x1; tx++) {
         if (ty < 0 || ty >= n) continue;
         const wx = ((tx % n) + n) % n;
         info.tiles++;
         jobs.push(loadImg(tpl.replace('{z}', tz).replace('{y}', ty).replace('{x}', wx)).then((im) => ({ im, tx, ty })));
       }
+      ctx.globalAlpha = hshade.test(tpl) ? 0.4 : 1;
       for (const { im, tx, ty } of await Promise.all(jobs)) {
         if (!im) continue;
         info.tilesOk++;
         ctx.drawImage(im, fr.x + tx * R.ts - origin.x, fr.y + ty * R.ts - origin.y, R.ts + 0.5, R.ts + 0.5);
       }
+      ctx.globalAlpha = 1; }
     }
     drawPlanShapes(ctx, l, P, k);
     ctx.restore();
@@ -860,7 +875,7 @@
     }
     const last = cols[cols.length - 1];
     ctx.font = `400 ${fs(6.5)}px sans-serif`; ctx.fillStyle = '#475569'; ctx.textAlign = 'left'; ctx.textBaseline = 'bottom';
-    const foot = wrap(ctx, `Imagery © Esri, Maxar, Earthstar Geographics.${l.shapes.some((s) => s.src === 'parcel') ? ' Property lines: County of San Diego / SanGIS parcels (approximate, not a survey).' : ''} Distances measured on aerial imagery — verify in the field.`, last.w - 2 * pad);
+    const foot = wrap(ctx, `${baseCredit()}${l.shapes.some((s) => s.src === 'parcel') ? ' Property lines: County of San Diego / SanGIS parcels (approximate, not a survey).' : ''} Distances measured on ${/World_Imagery|USGSImageryTopo/.test(tileTemplates()[0]) ? 'aerial imagery' : 'the map'} — verify in the field.`, last.w - 2 * pad);
     foot.reverse().forEach((t, i) => ctx.fillText(t, last.x + pad, pn.y + pn.h - pad * 0.6 - i * fs(6.5) * 1.2));
   }
   const toBlob = (cv, type, q) => new Promise((res, rej) => { try { cv.toBlob((b2) => (b2 ? res(b2) : rej(new Error('could not make the image'))), type, q); } catch (e) { rej(e); } });
