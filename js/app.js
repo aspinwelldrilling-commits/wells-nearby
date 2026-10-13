@@ -411,7 +411,7 @@
       const mt = w.matches.length ? `<div class="dup">${esc(w.matchLabel)} same well as state ${esc(w.wcr)} — ${esc(w.matches[0].reason)}. Log values below are from that WCR.</div>` : '<div class="dup none">No matching state WCR found — permit record only.</div>';
       const pdf = w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">WCR PDF</a>` : '';
       const hasLog = w.matches.length || w.depthFt != null || w.gpm != null || w.swlFt != null || w.methodKey !== 'nolog';
-      return `${src}<b>${esc(w.permit || 'No permit #')}</b>${pdf}${wcrBlock(w)}${mt}<table>${countyRows(w)}${hasLog ? rowsLog.join('') : ''}${row('Distance', fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>${docsBlock(w)}`;
+      return `${src}<b>${esc(w.permit || 'No permit #')}</b>${pdf}${wcrBlock(w)}${mt}<table>${countyRows(w)}${hasLog ? rowsLog.join('') : ''}${row('Distance', fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>${(window.WellsSdOswcr && w.permit) ? window.WellsSdOswcr.countyLinkHtml(w.permit) : ''}${docsBlock(w)}`;
     }
     const rows = rowsLog.concat([
       row('Date', w.dateStr),

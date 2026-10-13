@@ -233,6 +233,23 @@
       defaultOn: true,
     },
 
+    // San Diego County: static snapshot of the state DWR OSWCR well completion reports (tools/build_sd_oswcr.py ->
+    // data/sd-oswcr/, 0.025° tiles). The County DEHQ permit layer stops ~2020, so this fills 2020 -> today plus older state
+    // reports with no County permit (reports matched to a County permit are left out; their WCR link shows in the County
+    // popup). Own overlays (js/sdoswcr.js): water + destructions (on), monitoring & other (off). The live State search
+    // returns the same WCRs, so the overlays are not merged into the search table / stats.
+    sdOswcr: {
+      manifestUrl: 'data/sd-oswcr/manifest.json',
+      matchedUrl: 'data/sd-oswcr/matched.json',
+      label: 'SD state WCRs (DWR): water wells + destructions',
+      otherLabel: 'SD state WCRs (DWR): monitoring & other',
+      color: '#65a30d',        // lime: water-supply wells (dashed hollow = section centroid / approximate)
+      destroyRing: '#111827',  // destructions: lime fill inside a thick near-black ring
+      otherColor: '#64748b',   // slate rings: monitoring, cathodic, vapor extraction, sparging, injection, remediation, other, unknown
+      minZoom: 12,             // tiles are fetched for the visible area from this zoom
+      defaultOn: true,
+    },
+
     // Los Angeles County: state DWR OSWCR records only (no public county permit GIS / WCR PDFs), cached by
     // tools/extract_la_wcr.py in data/la-wcr/ (0.025° tiles, chunks spiralling out from Pomona) and drawn as their
     // own overlay by js/lawcr.js. The live State search returns the same WCRs, so it is not merged into stats.

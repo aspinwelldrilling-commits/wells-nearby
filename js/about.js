@@ -7,7 +7,7 @@
   'use strict';
   const FEEDBACK_EMAIL = '';   // e.g. 'feedback@example.com'; empty = open a GitHub issue instead
   const ISSUE_URL = 'https://github.com/aspinwelldrilling-commits/wells-nearby/issues/new';
-  const APP_VERSION = 'v13';   // keep in step with the cache version in sw.js (wells-nearby-shell-vNN)
+  const APP_VERSION = 'v14';   // keep in step with the cache version in sw.js (wells-nearby-shell-vNN)
   const NOTICE_KEY = 'wellsNearby.noticeDismissed';
   const SUBJECT = 'Wells Nearby feedback';
   const $ = (id) => document.getElementById(id);
@@ -41,7 +41,7 @@
   wireFeedback($('btnFeedbackTop'));
 
   // ---------------------------------------------------------------- About panel (modal)
-  const where = 'San Diego, Riverside, Los Angeles and Imperial counties, plus the state DWR OSWCR database';
+  const where = 'San Diego (County well permits plus the state drillers\' well completion reports), Riverside, Los Angeles and Imperial counties, plus the state DWR OSWCR database';
   const ov = document.createElement('div'); ov.id = 'aboutPanel'; ov.className = 'about-ov hidden';
   ov.innerHTML = `<div class="about-box" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
     <div class="sheet-head"><b id="aboutTitle">ⓘ About this data</b><button type="button" class="small" id="aboutClose">Close</button></div>
