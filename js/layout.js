@@ -631,17 +631,21 @@
     map.eachLayer((l) => { if (l instanceof L.TileLayer && /arcgisonline\.com|basemap\.nationalmap\.gov/.test(l._url || '') && !urls.includes(l._url)) urls.push(l._url); });
     const isBase = (u) => /World_Imagery|World_Street_Map|World_Topo_Map|USGSTopo|USGSImageryTopo/.test(u);
     const base = urls.filter(isBase), ref = urls.filter((u) => !isBase(u));
+    const hist = histSrc();   // 🕰 History on: print the past image shown (left side when comparing); both sources send CORS
+    if (hist) return [hist.tpl].concat(ref);
     return (base.length ? base.slice(0, 1) : ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}']).concat(ref);
   }
+  function histSrc() { try { return window.WellsHistory ? WellsHistory.exportSource() : null; } catch (e) { return null; } }
   function baseCredit() {
-    const b = tileTemplates()[0];
+    const hist = histSrc(); if (hist) return hist.credit;
+    const b = String(tileTemplates()[0]);
     if (/USGSImageryTopo/.test(b)) return 'Topo + imagery: USGS The National Map.';
     if (/USGSTopo/.test(b)) return 'Topo map: USGS The National Map.';
     if (/World_Topo_Map/.test(b)) return 'Topo map © Esri, USGS, NOAA.';
     if (/World_Street_Map/.test(b)) return 'Map © Esri.';
     return 'Imagery © Esri, Maxar, Earthstar Geographics.';
   }
-  const tileMaxZ = (u) => (/basemap\.nationalmap\.gov/.test(u) ? 16 : 19);
+  const tileMaxZ = (u) => (typeof u === 'function' ? 18 : /basemap\.nationalmap\.gov/.test(u) ? 16 : 19);
   function wrap(ctx, text, maxW) {
     const out = [];
     for (const para of String(text || '').split(/\n/)) {
@@ -765,9 +769,9 @@
         if (ty < 0 || ty >= n) continue;
         const wx = ((tx % n) + n) % n;
         info.tiles++;
-        jobs.push(loadImg(tpl.replace('{z}', tz).replace('{y}', ty).replace('{x}', wx)).then((im) => ({ im, tx, ty })));
+        jobs.push(loadImg(typeof tpl === 'function' ? tpl(tz, ty, wx) : tpl.replace('{z}', tz).replace('{y}', ty).replace('{x}', wx)).then((im) => ({ im, tx, ty })));
       }
-      ctx.globalAlpha = hshade.test(tpl) ? 0.4 : 1;
+      ctx.globalAlpha = hshade.test(String(tpl)) ? 0.4 : 1;
       for (const { im, tx, ty } of await Promise.all(jobs)) {
         if (!im) continue;
         info.tilesOk++;
@@ -875,7 +879,7 @@
     }
     const last = cols[cols.length - 1];
     ctx.font = `400 ${fs(6.5)}px sans-serif`; ctx.fillStyle = '#475569'; ctx.textAlign = 'left'; ctx.textBaseline = 'bottom';
-    const foot = wrap(ctx, `${baseCredit()}${l.shapes.some((s) => s.src === 'parcel') ? ' Property lines: County of San Diego / SanGIS parcels (approximate, not a survey).' : ''} Distances measured on ${/World_Imagery|USGSImageryTopo/.test(tileTemplates()[0]) ? 'aerial imagery' : 'the map'} — verify in the field.`, last.w - 2 * pad);
+    const foot = wrap(ctx, `${baseCredit()}${l.shapes.some((s) => s.src === 'parcel') ? ' Property lines: County of San Diego / SanGIS parcels (approximate, not a survey).' : ''} Distances measured on ${(histSrc() || /World_Imagery|USGSImageryTopo/.test(String(tileTemplates()[0]))) ? 'aerial imagery' : 'the map'} — verify in the field.`, last.w - 2 * pad);
     foot.reverse().forEach((t, i) => ctx.fillText(t, last.x + pad, pn.y + pn.h - pad * 0.6 - i * fs(6.5) * 1.2));
   }
   const toBlob = (cv, type, q) => new Promise((res, rej) => { try { cv.toBlob((b2) => (b2 ? res(b2) : rej(new Error('could not make the image'))), type, q); } catch (e) { rej(e); } });
