@@ -453,7 +453,7 @@
     siteGps: { goodFt: 16, okFt: 50, maxWaitS: 30 },   // accuracy thresholds (ft) + how long to refine the fix
     sitePhoto: { maxPx: 1600, quality: 0.72 },
     tableColumns: [
-      { key: 'distanceMi', label: 'Dist (mi)', fmt: (v) => v == null ? '' : v.toFixed(2), num: true },
+      { key: 'distanceMi', label: 'Dist (mi)', fmt: (v, w) => v == null ? '' : w && w.approxLoc ? '≈' + v.toFixed(1) + ' sec' : v.toFixed(2), num: true },   // ≈ … sec = section-level location
       { key: 'srcShort', label: 'Src' },
       { key: 'depthFt', label: 'Depth (ft)', fmt: (v) => v == null ? '—' : Math.round(v), num: true },
       { key: 'methodLabel', label: 'Method' },

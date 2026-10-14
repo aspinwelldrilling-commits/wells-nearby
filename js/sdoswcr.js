@@ -3,8 +3,11 @@
  * OSWCR index (CountyName = San Diego). The County DEHQ permit layer stops ~2020, so these fill 2020 -> today plus every older
  * state report that has no County permit. Reports matched to a County permit are NOT drawn again; their WCR link is in
  * data/sd-oswcr/matched.json and is shown in that County permit's popup (WellsSdOswcr.matchedFor).
- * One marker per well (no grouping); co-located wells fan out on a small pixel spiral. Popup/tooltip show the well's own
- * coords and SanGIS APN (tools/assign_sd_apn.py), or why it has none.
+ * Accuracy: wells with a real point location (pq != 's') get one marker each (co-located ones fan out on a small pixel
+ * spiral); popup/tooltip show the well's own coords and SanGIS APN (tools/assign_sd_apn.py). Section-level wells (DWR put
+ * them at the centre of their PLSS section) get NO point: the wells sharing a section are drawn as one approximate area,
+ * the BLM PLSS section polygon (data/sd-oswcr/sections.json, tools/build_sd_sections.py), or a soft ~section-size circle
+ * where BLM has no section. Tapping / hovering an area lists its wells and says the location is section-level only.
  * Two overlays: water-supply wells + destructions (on), monitoring & other non-water uses (off).
  * The live State search already returns these same WCRs, so the overlays do not feed the search table / stats.
  */
@@ -23,19 +26,36 @@
 .sdo-warn{color:#b45309;font-size:12px;margin:2px 0}
 .popup .sdo-tag{display:inline-block;font-size:11px;font-weight:600;padding:1px 6px;border-radius:4px;background:#ecfccb;color:#3f6212;margin-bottom:4px}
 .popup .sdo-tag.d{background:#1f2937;color:#fff}.popup .sdo-tag.m{background:#e2e8f0;color:#334155}
-.sdo-link{font-size:12px;margin:3px 0}`;
+.sdo-link{font-size:12px;margin:3px 0}
+.lg-sdo-a{border:2px dashed ${cfg.color};background:rgba(101,163,13,.12);border-radius:2px;box-sizing:border-box}
+.sdo-approx{background:#fef3c7;color:#92400e;font-size:12px;font-weight:600;padding:3px 6px;border-radius:4px;margin:3px 0}
+.sdo-det ul{max-height:220px;overflow-y:auto}.sdo-det summary{cursor:pointer;font-size:12px;margin-top:2px}
+.sdo-wl{margin:0;padding:0;list-style:none;font-size:12px}.sdo-wl li{border-top:1px solid #e5e7eb;padding:3px 0}
+.sdo-ic{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px;box-sizing:border-box}
+.sdo-ic.w{background:${cfg.color}}.sdo-ic.d{background:${cfg.color};border:3px solid ${cfg.destroyRing}}.sdo-ic.m{border:2px solid ${cfg.otherColor}}`;
   document.head.appendChild(st);
 
   map.createPane('sdOswcr').style.zIndex = 450;   // under the search pins (markerPane 600)
+  const areaPane = map.createPane('sdOswcrArea'); areaPane.style.zIndex = 430;   // approximate section areas sit under every pin
+  areaPane.style.pointerEvents = 'none';   // display only: taps / touch adjustment go to the map and pins, never to this SVG
   const layer = L.layerGroup();        // water supply + destructions
   const otherLayer = L.layerGroup();   // monitoring + other non-water uses
   if (A.layersCtl) {
-    A.layersCtl.addOverlay(layer, `<span class="lg lg-sdo"></span><span class="lg lg-sdo-d"></span> ${esc(cfg.label)}`);
-    A.layersCtl.addOverlay(otherLayer, `<span class="lg lg-sdo-m"></span> ${esc(cfg.otherLabel)}`);
+    A.layersCtl.addOverlay(layer, `<span class="lg lg-sdo"></span><span class="lg lg-sdo-d"></span> ${esc(cfg.label)}<br>`
+      + `<small style="margin-left:22px"><span class="lg lg-sdo-a"></span> dashed square = approximate area: DWR located those wells only to a PLSS section (≈1 sq mi), no exact point / APN</small>`);
+    A.layersCtl.addOverlay(otherLayer, `<span class="lg lg-sdo-m"></span> ${esc(cfg.otherLabel)} <small>(grey dashed areas = section-level)</small>`);
   }
   if (cfg.defaultOn) layer.addTo(map);
 
-  let manifestP = null, matchedP = null, matched = null;
+  let manifestP = null, matchedP = null, matched = null, sectionsP = null, sections = null;
+  function loadSections(m) {
+    if (!sectionsP) {
+      const base = cfg.manifestUrl.replace(/[^/]*$/, ''), s = m.sections || {};
+      sectionsP = s.url ? fetch(`${base}${s.url}?v=${s.h || ''}`).then((r) => (r.ok ? r.json() : {})).catch(() => ({}))
+        .then((j) => { sections = j || {}; return sections; }) : Promise.resolve((sections = {}));
+    }
+    return sectionsP;
+  }
   const tileP = new Map();   // tile key -> Promise(tile json)
   const drawn = { main: new Set(), other: new Set() };
   const records = {};
@@ -121,12 +141,109 @@
   }
   map.on('zoomend', () => groups.forEach(placeGroup));
 
+  // ---- approximate section areas (section-level wells): one polygon per section per overlay, listing its wells
+  const areas = { main: new Map(), other: new Map() };   // area key -> { shape, wells: Map(wcr -> r), lab }
+  const KORDER = { w: 0, d: 1, m: 2 };
+  function areaLabel(a) {
+    const r0 = a.wells.values().next().value;
+    const s = r0.sx && sections && sections[r0.sx];
+    return s ? `${s.lab}${s.mer ? ', ' + s.mer + ' Meridian' : ''}` : (r0.trs ? `${r0.trs} per DWR; unsurveyed / land-grant area, shown as a section-size circle` : 'section not identified; shown as a section-size circle');
+  }
+  function wellsSorted(a) {
+    return [...a.wells.values()].sort((x, y) => (KORDER[x.k] - KORDER[y.k]) || String(y.end || y.rcv || '').localeCompare(String(x.end || x.rcv || '')));
+  }
+  function wellLine(r) {
+    const pdf = /^https:\/\//i.test(r.pdf || '') ? ` · <a href="${esc(r.pdf)}" target="_blank" rel="noopener">PDF</a>` : '';
+    const depth = r.cd != null ? `${esc(r.cd)} ft` : r.dd != null ? `${esc(r.dd)} ft drilled` : '— ft';
+    const date = r.end ? esc(r.end) + (r.bd ? ' (bad date)' : '') : r.rcv ? 'rcvd ' + esc(r.rcv) : 'no date';
+    return `<li><span class="sdo-ic ${r.k}" title="${KIND[r.k]}"></span><b>${esc(r.wcr)}</b> · ${esc(r.use || KIND[r.k])}${r.k === 'd' ? ' (destruction)' : ''} · ${date} · ${depth} · ${esc(r.drl || 'driller not recorded')}${pdf}</li>`;
+  }
+  function areaHeader(a) {
+    const n = a.wells.size;
+    return `<div class="sdo-approx">⚠ Approximate location: section-level only (${esc(areaLabel(a))}), no APN.</div>
+      <div class="muted small">DWR recorded ${n === 1 ? 'this well' : `these ${n} wells`} only to a PLSS section (≈1 sq mi). The well can be anywhere in the outlined area; no GPS point.</div>`;
+  }
+  function areaTooltip(a) {
+    const ws = wellsSorted(a), more = ws.length - 6;
+    return `<b>Approximate area · ${ws.length} WCR${ws.length > 1 ? 's' : ''}</b><br>Section-level only (${esc(areaLabel(a))}), no APN<br>`
+      + ws.slice(0, 6).map((r) => `<span class="sdo-ic ${r.k}"></span>${esc(r.wcr)} · ${esc((r.use || KIND[r.k]).replace(/^Water Supply\s*/i, ''))} · ${esc((r.end || r.rcv || '').slice(0, 4) || '—')}`).join('<br>')
+      + (more > 0 ? `<br>+${more} more — tap for the full list` : '');
+  }
+  function styleArea(a, which) {
+    const ks = new Set([...a.wells.values()].map((r) => r.k));
+    const col = which === 'other' ? cfg.otherColor : ks.has('w') ? cfg.color : cfg.destroyRing;
+    return { color: col, weight: 2, dashArray: '6 5', fillColor: which === 'other' ? cfg.otherColor : cfg.color, fillOpacity: 0.07 };
+  }
+  function addToArea(r, which, target) {
+    const sec = r.sx && sections && sections[r.sx];
+    const key = sec ? 'S' + r.sx : `P${r.lat},${r.lon}`;
+    let a = areas[which].get(key);
+    if (!a) {
+      a = { wells: new Map() };
+      // Not interactive: the area must never swallow a normal map tap ("Search here", parcel APN, septic tools). Taps are
+      // handled by tapExtras() (adds the area's well list to the normal tap popup) and hover by the map mousemove below.
+      const o = { pane: 'sdOswcrArea', interactive: false, className: 'sdo-area sdo-area-' + which };
+      a.shape = sec ? L.polygon(sec.rings.map((ring) => ring.map(([x, y]) => [y, x])), o) : L.circle([+r.lat, +r.lon], { radius: 900, ...o });
+      a.sec = sec; a.which = which;
+      a.shape.sdoArea = a;
+      a.shape.addTo(target);
+      areas[which].set(key, a);
+    }
+    a.wells.set(r.wcr, r);
+    a.shape.setStyle(styleArea(a, which));
+  }
+
+  function inRings(lat, lon, rings) {
+    let c = false;
+    for (const ring of rings) for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+      const [xi, yi] = ring[i], [xj, yj] = ring[j];
+      if ((yi > lat) !== (yj > lat) && lon < (xj - xi) * (lat - yi) / (yj - yi) + xi) c = !c;
+    }
+    return c;
+  }
+  /** Approximate areas (on visible overlays) containing a point. */
+  function areasAt(ll) {
+    const out = [];
+    for (const [which, l] of [['main', layer], ['other', otherLayer]]) {
+      if (!map.hasLayer(l)) continue;
+      for (const a of areas[which].values()) {
+        if (a.sec ? (a.shape.getBounds().contains(ll) && inRings(ll.lat, ll.lng, a.sec.rings)) : map.distance(ll, a.shape.getLatLng()) <= a.shape.getRadius()) out.push(a);
+      }
+    }
+    return out;
+  }
+  /** Called by the normal map-tap popup (js/app.js searchHerePopup): appends the approximate areas under the tap. */
+  function tapExtras(ll, box) {
+    const hit = areasAt(ll);
+    if (!hit.length) return;
+    const d = document.createElement('div'); d.className = 'sdo-tapareas';
+    // compact by default (the tap popup must stay small on a phone): header + collapsible well list
+    d.innerHTML = hit.map((a) => `<details class="sdo-det"><summary class="sdo-approx">⚠ Approximate: ${a.wells.size} SD state WCR${a.wells.size > 1 ? 's' : ''} here</summary>${areaHeader(a)}<ul class="sdo-wl">${wellsSorted(a).map(wellLine).join('')}</ul></details>`).join('');
+    box.appendChild(d);
+  }
+  // desktop hover: one tooltip that follows the mouse while it is over an approximate area
+  const hoverTip = L.tooltip({ direction: 'top', offset: [0, -8], className: 'sdo-area-tip' });
+  let hoverKey = null, hoverT = 0;
+  const canHover = !global.matchMedia || global.matchMedia('(hover: hover)').matches;   // touch phones: taps only
+  if (canHover) map.on('mousemove', (e) => {
+    const now = Date.now(); if (now - hoverT < 60) return; hoverT = now;
+    if (map.getContainer().querySelector('.leaflet-interactive:hover')) { if (hoverKey) { map.closeTooltip(hoverTip); hoverKey = null; } return; }
+    const hit = areasAt(e.latlng);
+    if (!hit.length) { if (hoverKey) { map.closeTooltip(hoverTip); hoverKey = null; } return; }
+    const key = hit.map((a) => a.which + (a.sec ? a.wells.values().next().value.sx : a.shape.getLatLng())).join('|');
+    hoverTip.setLatLng(e.latlng);
+    if (key !== hoverKey) { hoverKey = key; hoverTip.setContent(hit.map(areaTooltip).join('<hr style="margin:3px 0">') + '<br><i>Tap / click for the full list</i>'); }
+    if (!map.hasLayer(hoverTip)) hoverTip.addTo(map);
+  });
+  map.on('mouseout', () => { map.closeTooltip(hoverTip); hoverKey = null; });
+
   function draw(t, which) {
     const target = which === 'main' ? layer : otherLayer;
     const byPt = new Map();
     for (const r of Object.values(t.wcrs || {})) {
       records[r.wcr] = r;
       if ((r.k === 'm') !== (which === 'other')) continue;
+      if (r.pq === 's') { addToArea(r, which, target); continue; }
       const key = `${r.lat},${r.lon}`;
       if (!byPt.has(key)) byPt.set(key, []);
       byPt.get(key).push(r);
@@ -171,6 +288,7 @@
     try {
       const m = await loadManifest();
       if (!m) return;
+      await loadSections(m);
       const b = map.getBounds().pad(0.2);
       const need = Object.entries(m.tiles).filter(([k, t]) => t.b[0] <= b.getNorth() && t.b[2] >= b.getSouth()
         && t.b[1] <= b.getEast() && t.b[3] >= b.getWest() && want.some((w) => !drawn[w].has(k)));
@@ -187,5 +305,5 @@
   map.on('moveend overlayadd', refresh);
   refresh();
   loadMatched();
-  global.WellsSdOswcr = { apnText, layer, otherLayer, refresh, loadManifest, loadMatched, matchedFor, countyLinkHtml, records, drawn, detailHtml };
+  global.WellsSdOswcr = { areasAt, tapExtras, areas, areaLabel, apnText, layer, otherLayer, refresh, loadManifest, loadMatched, matchedFor, countyLinkHtml, records, drawn, detailHtml };
 })(typeof window !== 'undefined' ? window : globalThis);

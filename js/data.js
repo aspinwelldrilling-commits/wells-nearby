@@ -78,6 +78,8 @@
     w.matchLabel = '';
 
     if (origin && w.lat != null && w.lon != null) w.distanceMi = haversineMi(origin.lat, origin.lon, w.lat, w.lon);
+    // DWR "Centroid of Section" / TRS-derived points are a section centre, not the well: distance is approximate (±~0.7 mi)
+    w.approxLoc = /centroid/i.test(w.llAccuracy || '') || /trs/i.test(w.llMethod || '');
     return w;
   }
 

@@ -67,6 +67,7 @@
     const b = box.querySelector('button');
     b.dataset.lat = lat; b.dataset.lon = lng;
     L.DomEvent.on(b, 'click', (ev) => { L.DomEvent.stop(ev); searchHereGo(lat, lng, b); });
+    if (window.WellsSdOswcr) window.WellsSdOswcr.tapExtras(latlng, box);   // SD section-level (approximate) well areas under the tap
     elevationFt(lat, lng).then((ft) => { const el = box.querySelector('.elev'); if (el) el.textContent = ft == null ? 'Elevation: n/a' : `Elevation: ≈${Math.round(ft).toLocaleString()} ft (USGS)`; });
     return L.popup({ maxWidth: 310 }).setLatLng(latlng).setContent(box).openOn(map);
   }
@@ -411,7 +412,7 @@
       const mt = w.matches.length ? `<div class="dup">${esc(w.matchLabel)} same well as state ${esc(w.wcr)} — ${esc(w.matches[0].reason)}. Log values below are from that WCR.</div>` : '<div class="dup none">No matching state WCR found — permit record only.</div>';
       const pdf = w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">WCR PDF</a>` : '';
       const hasLog = w.matches.length || w.depthFt != null || w.gpm != null || w.swlFt != null || w.methodKey !== 'nolog';
-      return `${src}<b>${esc(w.permit || 'No permit #')}</b>${pdf}${wcrBlock(w)}${mt}<table>${countyRows(w)}${hasLog ? rowsLog.join('') : ''}${row('Distance', fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>${(window.WellsSdOswcr && w.permit) ? window.WellsSdOswcr.countyLinkHtml(w.permit) : ''}${docsBlock(w)}`;
+      return `${src}<b>${esc(w.permit || 'No permit #')}</b>${pdf}${wcrBlock(w)}${mt}<table>${countyRows(w)}${hasLog ? rowsLog.join('') : ''}${row('Distance', w.approxLoc ? `≈${fmt(w.distanceMi, 1)} mi (approximate: section-level location)` : fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>${(window.WellsSdOswcr && w.permit) ? window.WellsSdOswcr.countyLinkHtml(w.permit) : ''}${docsBlock(w)}`;
     }
     const rows = rowsLog.concat([
       row('Date', w.dateStr),
@@ -420,7 +421,7 @@
       row('Casing Ø', esc(w.casingDiameter || '—')),
       row('Perfs', w.perfTop || w.perfBottom ? `${esc(w.perfTop || '?')}–${esc(w.perfBottom || '?')} ft` : '—'),
       row('Driller', esc(w.driller || '—')),
-      row('Distance', w.distanceMi != null ? fmt(w.distanceMi, 2) + ' mi' : '—'),
+      row('Distance', w.distanceMi == null ? '—' : w.approxLoc ? `≈${fmt(w.distanceMi, 1)} mi <b>(approximate: section-level location, ±~0.7 mi)</b>` : fmt(w.distanceMi, 2) + ' mi'),
       row('Loc. accuracy', esc(w.llAccuracy || 'not recorded')),
     ]);
     const pdf = w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">WCR PDF</a>` : '';
@@ -558,7 +559,7 @@
     if (s.total === 0) {
       const allUses = $('optAllUses').checked, destroyed = $('optDestroyed').checked;
       const cand = M.buildView(state.view, state.stateRecs, state.countyRecs, 1e9).filter((w) => (allUses || w.waterSupply) && (destroyed || !w.destruction) && w.distanceMi != null).sort((a, b) => a.distanceMi - b.distanceMi);
-      if (cand.length) nearest = ` Nearest record: ${esc(cand[0].wcr || cand[0].permit || '')} at ${fmt(cand[0].distanceMi, 2)} mi — widen the radius.`;
+      if (cand.length) nearest = ` Nearest record: ${esc(cand[0].wcr || cand[0].permit || '')} at ${cand[0].approxLoc ? '≈' + fmt(cand[0].distanceMi, 1) + ' mi (section-level, approximate)' : fmt(cand[0].distanceMi, 2) + ' mi'} — widen the radius.`;
     }
     const nCounty = state.shown.filter((w) => w.group === 'county').length;
     const nNoLog = state.shown.filter((w) => w.methodKey === 'nolog').length;
@@ -599,7 +600,7 @@
     });
     const t = $('wellTable');
     t.innerHTML = `<thead><tr>${cols.map((c) => `<th data-k="${c.key}" class="${c.num ? 'num' : ''}">${c.label}${c.key === key ? (dir > 0 ? ' ▲' : ' ▼') : ''}</th>`).join('')}</tr></thead>
-      <tbody>${rows.map((w, i) => `<tr data-i="${i}" class="row-${w.group}${w.wcrFlag === 'read' ? ' row-red' : isPending(w) ? ' row-pending' : ''}">${cols.map((c) => `<td class="${c.num ? 'num' : ''} col-${c.key}">${esc(c.fmt ? c.fmt(w[c.key]) : (w[c.key] || '—'))}${ocrMark(w, c.key)}</td>`).join('')}</tr>`).join('')}</tbody>`;
+      <tbody>${rows.map((w, i) => `<tr data-i="${i}" class="row-${w.group}${w.wcrFlag === 'read' ? ' row-red' : isPending(w) ? ' row-pending' : ''}">${cols.map((c) => `<td class="${c.num ? 'num' : ''} col-${c.key}">${esc(c.fmt ? c.fmt(w[c.key], w) : (w[c.key] || '—'))}${ocrMark(w, c.key)}</td>`).join('')}</tr>`).join('')}</tbody>`;
     t.querySelectorAll('th').forEach((th) => (th.onclick = () => {
       const k = th.dataset.k; state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 }; renderTable();
     }));
