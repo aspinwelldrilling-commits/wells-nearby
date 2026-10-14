@@ -3,6 +3,8 @@
  * OSWCR index (CountyName = San Diego). The County DEHQ permit layer stops ~2020, so these fill 2020 -> today plus every older
  * state report that has no County permit. Reports matched to a County permit are NOT drawn again; their WCR link is in
  * data/sd-oswcr/matched.json and is shown in that County permit's popup (WellsSdOswcr.matchedFor).
+ * One marker per well (no grouping); co-located wells fan out on a small pixel spiral. Popup/tooltip show the well's own
+ * coords and SanGIS APN (tools/assign_sd_apn.py), or why it has none.
  * Two overlays: water-supply wells + destructions (on), monitoring & other non-water uses (off).
  * The live State search already returns these same WCRs, so the overlays do not feed the search table / stats.
  */
@@ -91,38 +93,62 @@
       <div>${pdf}</div>`;
   }
 
-  function popupFor(stack) {
+  const fmtLL = (r) => `${(+r.lat).toFixed(5)}, ${(+r.lon).toFixed(5)}`;
+  function apnText(r) {
+    if (r.pa) return String(r.pa).replace(/^(\d{3})(\d{3})(\d{2})(\d{2})$/, '$1-$2-$3-$4');
+    return r.pq === 's' ? 'no APN — section-level location' : 'no APN — point is in no parcel (road / water)';
+  }
+
+  function popupFor(r) {
     const box = document.createElement('div'); box.className = 'popup';
-    const n = stack.length, k = stack[0].k;
-    const head = `<span class="sdo-tag ${k}">San Diego · state WCR (DWR) · ${KIND[k]}</span>${n > 1 ? `<div><b>${n} WCRs at this point</b></div>` : ''}`;
-    const body = n > 1 ? `<div class="list">${stack.map((r) => `<div class="item">${detailHtml(r)}</div>`).join('')}</div>` : detailHtml(stack[0]);
-    box.innerHTML = `${head}${body}<div style="margin-top:4px"><button type="button" class="small">Search wells here</button></div>`;
-    L.DomEvent.on(box.querySelector('button'), 'click', (ev) => { L.DomEvent.stop(ev); map.closePopup(); A.setLocation(+stack[0].lat, +stack[0].lon, 'SD state WCR ' + stack[0].wcr); });
+    box.innerHTML = `<span class="sdo-tag ${r.k}">San Diego · state WCR (DWR) · ${KIND[r.k]}</span>
+      <div class="sdo-id"><b>${esc(fmtLL(r))}</b><br>APN: <b class="sdo-apn">${esc(apnText(r))}</b></div>${detailHtml(r)}
+      <div style="margin-top:4px"><button type="button" class="small">Search wells here</button></div>`;
+    L.DomEvent.on(box.querySelector('button'), 'click', (ev) => { L.DomEvent.stop(ev); map.closePopup(); A.setLocation(+r.lat, +r.lon, 'SD state WCR ' + r.wcr); });
     return box;
   }
 
+  // One marker per well (no grouping). DWR stacks many WCRs on one point (section centroids), so wells sharing exact
+  // coordinates are fanned out on a small pixel spiral around the true point (recomputed on zoom); popups show true coords.
+  const groups = [];   // [{ lat, lon, markers: [] }]
+  function placeGroup(g) {
+    if (g.markers.length < 2) return;
+    const c = map.project([g.lat, g.lon]);
+    g.markers.forEach((m, i) => {
+      const ang = i * 2.4, rad = 9 + 4.5 * Math.sqrt(i);
+      m.setLatLng(map.unproject(c.add(L.point(rad * Math.cos(ang), rad * Math.sin(ang)))));
+    });
+  }
+  map.on('zoomend', () => groups.forEach(placeGroup));
+
   function draw(t, which) {
     const target = which === 'main' ? layer : otherLayer;
-    const stacks = new Map();
+    const byPt = new Map();
     for (const r of Object.values(t.wcrs || {})) {
       records[r.wcr] = r;
       if ((r.k === 'm') !== (which === 'other')) continue;
-      const key = `${r.lat},${r.lon},${r.k}`;
-      if (!stacks.has(key)) stacks.set(key, []);
-      stacks.get(key).push(r);
+      const key = `${r.lat},${r.lon}`;
+      if (!byPt.has(key)) byPt.set(key, []);
+      byPt.get(key).push(r);
     }
-    for (const stack of stacks.values()) {
-      stack.sort((a, b) => String(b.end || b.rcv || '').localeCompare(String(a.end || a.rcv || '')));
-      const k = stack[0].k, approx = stack.every(approxOf), multi = stack.length > 1;
-      const o = k === 'd'
-        ? { radius: multi ? 8 : 6, color: cfg.destroyRing, weight: 3, fillColor: cfg.color, fillOpacity: 0.55, dashArray: null }
-        : k === 'm'
-          ? { radius: multi ? 6 : 4.5, color: cfg.otherColor, weight: 2, fillColor: cfg.otherColor, fillOpacity: 0.15, dashArray: approx ? '3 3' : null }
-          : { radius: multi ? 8 : 6, color: cfg.color, weight: 2, fillColor: cfg.color, fillOpacity: approx ? 0.25 : 0.85, dashArray: approx ? '3 3' : null };
-      L.circleMarker([+stack[0].lat, +stack[0].lon], { pane: 'sdOswcr', bubblingMouseEvents: false, className: 'sdo-' + k, ...o })
-        .bindPopup(() => popupFor(stack), { maxWidth: 310, maxHeight: 320 })
-        .bindTooltip(multi ? `${stack.length} SD state WCRs` : `${esc(stack[0].wcr)} · ${KIND[k]}`, { direction: 'top' })
-        .addTo(target);
+    for (const list of byPt.values()) {
+      list.sort((a, b) => String(a.wcr).localeCompare(String(b.wcr)));
+      const g = { lat: +list[0].lat, lon: +list[0].lon, markers: [] };
+      for (const r of list) {
+        const k = r.k, approx = approxOf(r);
+        const o = k === 'd'
+          ? { radius: 6, color: cfg.destroyRing, weight: 3, fillColor: cfg.color, fillOpacity: 0.55, dashArray: null }
+          : k === 'm'
+            ? { radius: 4.5, color: cfg.otherColor, weight: 2, fillColor: cfg.otherColor, fillOpacity: 0.15, dashArray: approx ? '3 3' : null }
+            : { radius: 6, color: cfg.color, weight: 2, fillColor: cfg.color, fillOpacity: approx ? 0.25 : 0.85, dashArray: approx ? '3 3' : null };
+        const mk = L.circleMarker([g.lat, g.lon], { pane: 'sdOswcr', bubblingMouseEvents: false, className: 'sdo-' + k, ...o })
+          .bindPopup(() => popupFor(r), { maxWidth: 310, maxHeight: 320 })
+          .bindTooltip(`${esc(r.wcr)} · ${KIND[k]}<br>${esc(fmtLL(r))}<br>APN ${esc(apnText(r))}`, { direction: 'top' })
+          .addTo(target);
+        mk.sdoWcr = r.wcr;
+        g.markers.push(mk);
+      }
+      if (g.markers.length > 1) { groups.push(g); placeGroup(g); }
     }
   }
 
@@ -161,5 +187,5 @@
   map.on('moveend overlayadd', refresh);
   refresh();
   loadMatched();
-  global.WellsSdOswcr = { layer, otherLayer, refresh, loadManifest, loadMatched, matchedFor, countyLinkHtml, records, drawn, detailHtml };
+  global.WellsSdOswcr = { apnText, layer, otherLayer, refresh, loadManifest, loadMatched, matchedFor, countyLinkHtml, records, drawn, detailHtml };
 })(typeof window !== 'undefined' ? window : globalThis);
