@@ -421,6 +421,8 @@
       row('Casing Ø', esc(w.casingDiameter || '—')),
       row('Perfs', w.perfTop || w.perfBottom ? `${esc(w.perfTop || '?')}–${esc(w.perfBottom || '?')} ft` : '—'),
       row('Driller', esc(w.driller || '—')),
+      ...(() => { const pc = window.WellsSdOswcr && w.wcr && window.WellsSdOswcr.parcelFor(w.wcr);   // SD state wells on a parcel
+        return pc ? [row('Parcel', `${esc(pc.apn)}<br>${pc.address ? esc(pc.address) : '<i>no address on file</i>'}`)] : []; })(),
       row('Distance', w.distanceMi == null ? '—' : w.approxLoc ? `≈${fmt(w.distanceMi, 1)} mi <b>(approximate: section-level location, ±~0.7 mi)</b>` : fmt(w.distanceMi, 2) + ' mi'),
       row('Loc. accuracy', esc(w.llAccuracy || 'not recorded')),
     ]);
@@ -530,6 +532,10 @@
   }
   map.on('popupopen', (e) => loadDocs(e.popup.getElement()));
 
+  function listAddr(w) {   // SD state well with a parcel address: one short line under the list item (fits a phone popup)
+    const pc = window.WellsSdOswcr && w.wcr && window.WellsSdOswcr.parcelFor(w.wcr);
+    return pc && pc.address ? `<br><small class="muted">📍 ${esc(pc.address)}</small>` : '';
+  }
   function groupPopup(ws) {
     if (ws.length === 1) return `<div class="popup">${wellDetails(ws[0])}</div>`;
     setTimeout(() => document.querySelectorAll('.leaflet-popup .item .open-item').forEach((a) => (a.onclick = (ev) => {
@@ -541,7 +547,7 @@
     const sorted = [...ws].sort((a, b) => (b.dateMs || 0) - (a.dateMs || 0));
     const g = C.groups[ws[0].group];
     return `<div class="popup"><div class="srcTag src-${ws[0].group}">${esc(g.label)}</div><h3>${ws.length} records at this point${acc}</h3><div class="list">${sorted.map((w) =>
-      `<div class="item" data-i="${ws.indexOf(w)}"><a href="#" class="open-item"><b>${esc(w.wcr || w.permit || (w.group === 'county' ? 'No permit #' : '?'))}</b></a>${w.matchLabel ? ` <span class="dupTag">dup: ${esc(w.matchLabel)}</span>` : ''} · ${w.depthFt != null ? fmt(w.depthFt) + ' ft' : '— ft'} · ${w.gpm != null ? fmt(w.gpm, 1) + ' gpm' : '— gpm'} · SWL ${w.swlFt != null ? fmt(w.swlFt) : '—'} · ${esc(w.methodLabel)} · ${w.dateStr}${w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">PDF</a>` : ''}</div>`).join('')}</div></div>`;
+      `<div class="item" data-i="${ws.indexOf(w)}"><a href="#" class="open-item"><b>${esc(w.wcr || w.permit || (w.group === 'county' ? 'No permit #' : '?'))}</b></a>${w.matchLabel ? ` <span class="dupTag">dup: ${esc(w.matchLabel)}</span>` : ''} · ${w.depthFt != null ? fmt(w.depthFt) + ' ft' : '— ft'} · ${w.gpm != null ? fmt(w.gpm, 1) + ' gpm' : '— gpm'} · SWL ${w.swlFt != null ? fmt(w.swlFt) : '—'} · ${esc(w.methodLabel)} · ${w.dateStr}${w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">PDF</a>` : ''}${listAddr(w)}</div>`).join('')}</div></div>`;
   }
 
   // ---------- Summary ----------

@@ -122,7 +122,7 @@
   function popupFor(r) {
     const box = document.createElement('div'); box.className = 'popup';
     box.innerHTML = `<span class="sdo-tag ${r.k}">San Diego · state WCR (DWR) · ${KIND[r.k]}</span>
-      <div class="sdo-id"><b>${esc(fmtLL(r))}</b><br>APN: <b class="sdo-apn">${esc(apnText(r))}</b></div>${detailHtml(r)}
+      <div class="sdo-id"><b>${esc(fmtLL(r))}</b><br>APN: <b class="sdo-apn">${esc(apnText(r))}</b>${r.pa ? `<br>Address: <span class="sdo-addr">${r.ad ? `<b>${esc(r.ad)}</b>` : '<i>no address on file</i>'}</span>` : ''}</div>${detailHtml(r)}
       <div style="margin-top:4px"><button type="button" class="small">Search wells here</button></div>`;
     L.DomEvent.on(box.querySelector('button'), 'click', (ev) => { L.DomEvent.stop(ev); map.closePopup(); A.setLocation(+r.lat, +r.lon, 'SD state WCR ' + r.wcr); });
     return box;
@@ -260,7 +260,7 @@
             : { radius: 6, color: cfg.color, weight: 2, fillColor: cfg.color, fillOpacity: approx ? 0.25 : 0.85, dashArray: approx ? '3 3' : null };
         const mk = L.circleMarker([g.lat, g.lon], { pane: 'sdOswcr', bubblingMouseEvents: false, className: 'sdo-' + k, ...o })
           .bindPopup(() => popupFor(r), { maxWidth: 310, maxHeight: 320 })
-          .bindTooltip(`${esc(r.wcr)} · ${KIND[k]}<br>${esc(fmtLL(r))}<br>APN ${esc(apnText(r))}`, { direction: 'top' })
+          .bindTooltip(`${esc(r.wcr)} · ${KIND[k]}<br>${esc(fmtLL(r))}<br>APN ${esc(apnText(r))}${r.pa ? '<br>' + esc(r.ad || 'no address on file') : ''}`, { direction: 'top' })
           .addTo(target);
         mk.sdoWcr = r.wcr;
         g.markers.push(mk);
@@ -305,5 +305,10 @@
   map.on('moveend overlayadd', refresh);
   refresh();
   loadMatched();
-  global.WellsSdOswcr = { areasAt, tapExtras, areas, areaLabel, apnText, layer, otherLayer, refresh, loadManifest, loadMatched, matchedFor, countyLinkHtml, records, drawn, detailHtml };
+  /** Parcel APN + situs address for a WCR drawn by this layer (null if not an exact-point SD well / tile not loaded). */
+  function parcelFor(wcr) {
+    const r = records[String(wcr || '')];
+    return r && r.pa ? { apn: apnText(r), address: r.ad || null } : null;
+  }
+  global.WellsSdOswcr = { parcelFor, areasAt, tapExtras, areas, areaLabel, apnText, layer, otherLayer, refresh, loadManifest, loadMatched, matchedFor, countyLinkHtml, records, drawn, detailHtml };
 })(typeof window !== 'undefined' ? window : globalThis);
