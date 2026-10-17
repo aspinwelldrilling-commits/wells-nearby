@@ -161,6 +161,33 @@ def tile_bounds(key):
     return [round(iy * TILE_DEG, 6), round(ix * TILE_DEG, 6), round((iy + 1) * TILE_DEG, 6), round((ix + 1) * TILE_DEG, 6)]
 
 
+COUNTY_POLY = os.path.join(os.path.dirname(STATE.rstrip('/')), 'sd_county_tiger.json')
+COUNTY_POLY_URL = ('https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query'
+                   "?where=GEOID%3D'06073'&outFields=NAME&returnGeometry=true&outSR=4326&f=json")
+
+
+def county_rings():
+    # Census TIGERweb San Diego County polygon (GEOID 06073), cached next to the raw pulls
+    if not os.path.exists(COUNTY_POLY):
+        req = urllib.request.Request(COUNTY_POLY_URL, headers={'User-Agent': UA})
+        open(COUNTY_POLY, 'wb').write(urllib.request.urlopen(req, timeout=120).read())
+    return json.load(open(COUNTY_POLY))['features'][0]['geometry']['rings']
+
+
+def in_rings(lat, lon, rings):
+    c = False
+    for ring in rings:
+        for i in range(len(ring)):
+            x1, y1 = ring[i]; x2, y2 = ring[i - 1]
+            if (y1 > lat) != (y2 > lat) and lon < (x2 - x1) * (lat - y1) / (y2 - y1) + x1:
+                c = not c
+    return c
+
+
+def section_level(a):
+    return 'centroid' in (a.get('LLAccuracy') or '').lower() or 'trs' in (a.get('MethodofDeterminationLL') or '').lower()
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--refresh', action='store_true', help='re-pull DWR OSWCR + County permits instead of the cached raw files')
@@ -241,13 +268,17 @@ def main():
             left.append(a)
 
     tiles, unplaced, cats, years = {}, [], {'w': 0, 'd': 0, 'm': 0}, {}
+    rings = county_rings()
     for a in left:
         r = slim(a)
         r['k'] = category(a)
         if r.get('end') and r['end'] > today:
             r['bd'] = 1   # bogus future work-ended date (e.g. WCR2024-001647 -> 2029)
         lat, lon = a.get('DecimalLatitude'), a.get('DecimalLongitude')
-        if lat is None or lon is None or not (PLACE_BOX[0] <= lat <= PLACE_BOX[2] and PLACE_BOX[1] <= lon <= PLACE_BOX[3]):
+        # exact points must fall inside the county line (DWR typos put some offshore / in Riverside / Imperial).
+        # Section-level points are a section centre and may sit just across the line for a border section: kept.
+        outside = lat is not None and lon is not None and not section_level(a) and not in_rings(lat, lon, rings)
+        if outside or lat is None or lon is None or not (PLACE_BOX[0] <= lat <= PLACE_BOX[2] and PLACE_BOX[1] <= lon <= PLACE_BOX[3]):
             unplaced.append({'wcr': r['wcr'], 'why': 'no coordinates' if lat is None or lon is None else 'coordinates outside SD County',
                              **{x: r[x] for x in ('k', 'end', 'pmt', 'city', 'pdf') if x in r}})
             continue
