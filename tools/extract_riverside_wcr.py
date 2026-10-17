@@ -253,9 +253,23 @@ def rec_files():
                   if os.path.basename(f) not in ('manifest.json', 'index.json') and SAFE_KEY.match(os.path.basename(f)[:-5]))
 
 
+def _wait_county_gap(since, delay):
+    """Sleep so the next county call starts at least `delay` seconds after `since`.
+
+    `since` is when the previous county call finished (None if there has not been one).
+    The gap is never shortened and never dropped. Own copy (was sd._wait_county_gap) so
+    this script does not depend on an SD helper that may not exist on main.
+    """
+    if not delay or delay <= 0 or since is None:
+        return
+    remain = delay - (time.time() - since)
+    if remain > 0:
+        time.sleep(remain)
+
+
 def download_wcr(url, delay, last_end):
     """Download OpenDoc PDF. Returns (bytes|None, error|None, new_last_end)."""
-    sd._wait_county_gap(last_end, delay)
+    _wait_county_gap(last_end, delay)
     try:
         data, ctype = http_bytes(url)
         end = time.time()
@@ -263,7 +277,7 @@ def download_wcr(url, delay, last_end):
             # Fallback TLMA ElectronicFile
             doc_id = opendoc_id(url)
             if doc_id:
-                sd._wait_county_gap(end, delay)
+                _wait_county_gap(end, delay)
                 alt = f'https://weblink.rctlma.org/EH_Weblink/ElectronicFile.aspx?docid={doc_id}&dbid=0'
                 data, ctype = http_bytes(alt)
                 end = time.time()
