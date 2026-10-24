@@ -316,7 +316,44 @@
   const distM = (a, b) => map.distance([a.lat, a.lon], [b.lat, b.lon]);
   const TYPE_RANK = { PointAddress: 0, StreetAddress: 1, StreetInt: 2, StreetName: 3, Postal: 4 };
 
+  /** GPS coordinates typed in the box: decimal, N/W letters, deg-min, DMS; a positive 100–125 longitude is taken as West. */
+  function parseCoords(raw) {
+    let t = String(raw).toUpperCase().replace(/[°º˚]/g, ' ').replace(/[′’‘´`']/g, ' ').replace(/[″“”"]|''/g, ' ')
+      .replace(/\b(DEG|DEGREES|LAT|LON|LONG|LATITUDE|LONGITUDE|GPS)\b/g, ' ').replace(/\bNORTH\b/g, 'N').replace(/\bSOUTH\b/g, 'S').replace(/\bWEST\b/g, 'W').replace(/\bEAST\b/g, 'E');
+    if (/[^0-9NSEW.,;:\s+\-]/.test(t)) return null;
+    let halves;
+    const m = t.match(/^\s*([NS])?([^NSEW]*?)([NS])?\s*[,;]?\s*([EW])?([^NSEW]*?)([EW])?\s*$/);
+    if (!m) return null;
+    const hLat = m[1] || m[3], hLon = m[4] || m[6];
+    if (hLat || hLon) halves = [m[2], m[5]];
+    else if (/[,;]/.test(t)) { halves = t.split(/[,;]/); if (halves.length !== 2) return null; }
+    else {
+      const n = t.trim().split(/\s+/);
+      if (![2, 4, 6].includes(n.length)) return null;
+      halves = [n.slice(0, n.length / 2).join(' '), n.slice(n.length / 2).join(' ')];
+    }
+    const val = (h) => {
+      const parts = String(h).trim().split(/[\s:]+/).filter(Boolean);
+      if (!parts.length || parts.length > 3 || !parts.every((x) => /^[+\-]?\d+(\.\d+)?$/.test(x))) return null;
+      const n = parts.map(Number), neg = /^-/.test(parts[0]);
+      if (parts.length > 1 && (parts.slice(1).some((x) => /^[+\-]/.test(x)) || n[1] >= 60 || (n[2] != null && n[2] >= 60) || /\./.test(parts[0]) || (parts.length === 3 && /\./.test(parts[1])))) return null;
+      const v = Math.abs(n[0]) + (n[1] || 0) / 60 + (n[2] || 0) / 3600;
+      return { v: neg ? -v : v, dec: parts.length > 1 || /\./.test(parts[0]) };
+    };
+    const a = val(halves[0]), b = val(halves[1]);
+    if (!a || !b || !(a.dec || b.dec)) return null;
+    let lat = a.v, lon = b.v;
+    if (hLat === 'S') lat = -Math.abs(lat); else if (hLat === 'N') lat = Math.abs(lat);
+    if (hLon === 'W') lon = -Math.abs(lon); else if (hLon === 'E') lon = Math.abs(lon);
+    else if (lon >= 100 && lon <= 125) lon = -lon;   // all data is southern California: a missing minus means West
+    if (!(lat >= -90 && lat <= 90 && lon >= -180 && lon <= 180)) return null;
+    if (Math.abs(lat) > 90 || lat === 0 && lon === 0) return null;
+    return { lat: +lat.toFixed(6), lon: +lon.toFixed(6) };
+  }
+
   async function lookup(raw) {
+    const g0 = parseCoords(raw);
+    if (g0) return { cands: [{ kind: 'gps', src: 'gps', label: `GPS ${g0.lat.toFixed(5)}, ${g0.lon.toFixed(5)}`, lat: g0.lat, lon: g0.lon }], kind: 'gps' };
     const p = parseApn(raw);
     if (p && p.bad) return { msg: `An APN has 10 digits (SD: XXX-XXX-XX-XX), 9 (Riverside / Imperial: XXX-XXX-XXX), 12 (Imperial: XXX-XXX-XXX-XXX), or 8 (SD: XXX-XXX-XX); that one has ${p.bad}.` };
     if (p) {
@@ -367,7 +404,7 @@
   function loadRecent() { try { const v = JSON.parse(localStorage.getItem(KEY)); return Array.isArray(v) ? v : []; } catch (e) { return []; } }
   function saveRecent(list) { try { localStorage.setItem(KEY, JSON.stringify(list.slice(0, G.recentMax))); } catch (e) { /* private mode */ } }
   function addRecent(c, q) {
-    const r = { q: String(q).trim(), label: c.label, sub: c.sub || '', lat: c.lat, lon: c.lon, apn: c.apn || null, kind: c.apn && c.src === 'apn' ? 'apn' : 'address', t: Date.now() };
+    const r = { q: String(q).trim(), label: c.label, sub: c.sub || '', lat: c.lat, lon: c.lon, apn: c.apn || null, kind: c.apn && c.src === 'apn' ? 'apn' : c.src === 'gps' ? 'gps' : 'address', t: Date.now() };
     saveRecent([r, ...loadRecent().filter((x) => x.label !== r.label && x.q.toUpperCase() !== r.q.toUpperCase())]);
   }
 
@@ -412,7 +449,7 @@
   const box = L.DomUtil.create('div', 'addr-search', map.getContainer());
   box.innerHTML = `<form class="as-bar" role="search" autocomplete="off">
       <input type="search" class="as-input" enterkeyhint="search" autocapitalize="characters" autocorrect="off" spellcheck="false"
-        placeholder="Address or APN" aria-label="Search an address or APN (San Diego, Riverside or Imperial County)">
+        placeholder="Address, APN, or GPS" aria-label="Search an address, APN or GPS coordinates (San Diego, Riverside or Imperial County)">
       <button type="button" class="as-clear" aria-label="Clear" hidden>✕</button>
       <button type="submit" class="as-go" aria-label="Search">🔍</button>
     </form>
@@ -429,7 +466,7 @@
     const rs = loadRecent().map((r, i) => ({ ...r, i })).filter((r) => !q || r.q.toUpperCase().includes(q) || r.label.toUpperCase().includes(q));
     if (!rs.length) return closeDrop();
     openDrop(`<div class="as-head">Recent <button type="button" class="as-clr-recent">Clear</button></div>${rs.map((r) =>
-      `<div class="as-row" data-r="${r.i}"><button type="button" class="as-pick">${r.kind === 'apn' ? '🏷️' : '🏠'} <b>${esc(r.label)}</b>${r.sub ? `<small>${esc(r.sub)}</small>` : ''}</button><button type="button" class="as-del" aria-label="Remove">✕</button></div>`).join('')}`);
+      `<div class="as-row" data-r="${r.i}"><button type="button" class="as-pick">${r.kind === 'apn' ? '🏷️' : r.kind === 'gps' ? '📍' : '🏠'} <b>${esc(r.label)}</b>${r.sub ? `<small>${esc(r.sub)}</small>` : ''}</button><button type="button" class="as-del" aria-label="Remove">✕</button></div>`).join('')}`);
   }
   function renderCands(res) {
     lastCands = res.cands;
@@ -443,7 +480,7 @@
     closeDrop(); input.blur();
     showPin(c);
     addRecent(c, q || c.label);
-    A.setLocation(c.lat, c.lon, c.apn && c.src === 'apn' ? `APN ${c.apn}` : `Address: ${c.label}`);
+    A.setLocation(c.lat, c.lon, c.apn && c.src === 'apn' ? `APN ${c.apn}` : c.src === 'gps' ? c.label : `Address: ${c.label}`);
     lastPick = c;
     if (window.WellsLayout && WellsLayout.isActive()) WellsLayout.onSearch(c);   // drawing a septic layout: go to the parcel
     enrichPin(c);
@@ -452,7 +489,7 @@
     const q = input.value.trim();
     if (!q) return renderRecent();
     const id = ++seq; lastQ = q;
-    busy(true); message(parseApn(q) ? 'Looking up the parcel…' : 'Looking up the address…');
+    busy(true); message(parseCoords(q) ? 'Going to the coordinates…' : parseApn(q) ? 'Looking up the parcel…' : 'Looking up the address…');
     try {
       const res = await lookup(q);
       if (id !== seq) return;
@@ -485,7 +522,7 @@
     if (t.closest('.as-del')) { list.splice(+row.dataset.r, 1); saveRecent(list); return renderRecent(); }
     input.value = r.q; clr.hidden = false;
     // re-use the saved spot (works with no signal); the APN outline is fetched again in the background
-    const c = { kind: r.apn ? 'parcel' : 'geocode', src: r.kind === 'apn' ? 'apn' : 'situs', apn: r.apn, label: r.label, sub: r.sub, lat: r.lat, lon: r.lon };
+    const c = { kind: r.apn ? 'parcel' : 'geocode', src: r.kind === 'apn' ? 'apn' : r.kind === 'gps' ? 'gps' : 'situs', apn: r.apn, label: r.label, sub: r.sub, lat: r.lat, lon: r.lon };
     choose(c, r.q);
     if (r.kind === 'apn') findApn(parseApn(r.apn) || {}).then((cs) => { const f = cs.find((x) => x.apn === r.apn); if (f && pinAt && pinAt.lat === r.lat && pinAt.lon === r.lon) { c.rings = f.rings; showPin(c); } }).catch(() => {});
     else if (r.apn) WellsSites && WellsSites.lookupParcel(r.lat, r.lon).then((p) => { if (p && p.found && pinAt && pinAt.lat === r.lat) { c.rings = p.rings; showPin(c); } }).catch(() => {});
@@ -496,5 +533,5 @@
   /** Called by the app whenever the search point moves: a pin left from an earlier search goes away. */
   function onLocation(lat, lon) { if (pinAt && map.distance([lat, lon], [pinAt.lat, pinAt.lon]) > 2) clearPin(); }
 
-  window.WellsSearch = { parseApn, parseAddress, lookup, run, choose, onLocation, clearPin, get input() { return input; }, get last() { return pinAt ? lastPick : null; } };
+  window.WellsSearch = { parseCoords, parseApn, parseAddress, lookup, run, choose, onLocation, clearPin, get input() { return input; }, get last() { return pinAt ? lastPick : null; } };
 })();

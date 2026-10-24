@@ -24,6 +24,9 @@ Sources (both queried live from the browser, CORS OK):
   regional locator `geo.sandag.org/.../SANDAG_COMPOSITE_LOCATOR/GeocodeServer` (keyless, CORS, San Diego County only; it ignores
   city names, so a typed community like "Ramona" is turned into its ZIP(s)) and the parcel layer's situs address
   (`SITUS_ADDRESS` + `SITUS_STREET`, gives the APN). A community or ZIP alone → the County `ZIPCODE5` locator (ZIP centre).
+  **GPS coordinates** are recognised first (`parseCoords`): `33.07459, -116.61666`, space-separated, missing minus (a positive
+  100–125 longitude = West), `33.07459 N 116.61666 W`, deg-min `33 04.475 N, 116 37.000 W`, DMS `33°04'28.5"N 116°37'00.0"W`
+  → pin + nearby search, like `?lat=&lon=`.
   One clear hit → map centres, pin, normal nearby search (same path as `?lat=&lon=`); several → pick list; none → message.
   Recent searches (max 8) are kept in `localStorage` (`wellsNearby.recentSearches`) on the device only. Esri's World Geocoder
   is not used: it now requires an access token and its terms forbid keeping results (the recent list) without a stored-geocode
