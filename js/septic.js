@@ -252,12 +252,29 @@
   let cur = null;   // {site, tool, draft:[], editId, backup}
   const newId = () => 'mk-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
 
+  // Proposed-site ring toggles (150 / 100 / 50 ft), saved on this device; default all on
+  const RING_KEY = 'wn.ringToggles';
+  const ringOn = (() => { try { const v = JSON.parse(localStorage.getItem(RING_KEY) || 'null'); if (v && typeof v === 'object') return v; } catch (e) {} return {}; })();
+  const isRingOn = (ft) => ringOn[ft] !== false;
+  function ringTogglesHtml() {
+    return `<div class="ring-tg" role="group" aria-label="Setback rings">Rings:${K.RINGS.slice().sort((a, b) => b.ft - a.ft).map((r) =>
+      `<label style="border-color:${r.color}"><input type="checkbox" data-ft="${r.ft}" ${isRingOn(r.ft) ? 'checked' : ''}> ${r.ft} ft</label>`).join('')}</div>`;
+  }
+  document.addEventListener('change', (e) => {
+    const t = e.target; if (!t || !t.matches || !t.matches('.ring-tg input[data-ft]')) return;
+    ringOn[t.dataset.ft] = t.checked;
+    try { localStorage.setItem(RING_KEY, JSON.stringify(ringOn)); } catch (err) {}
+    document.querySelectorAll(`.ring-tg input[data-ft="${t.dataset.ft}"]`).forEach((i) => (i.checked = t.checked));
+    const s = cur ? cur.site : popupSite; if (s) drawSetbacks(s, cur ? { skipHandles: false } : {});
+  });
+
   function drawSetbacks(site, opts = {}) {
     sbLayer.clearLayers();
     if (!opts.skipHandles) hLayer.clearLayers();
     if (!site) return;
     const c = [site.lat, site.lon];
     for (const r of K.RINGS) {
+      if (!isRingOn(r.ft)) continue;
       L.circle(c, { radius: r.ft * M_PER_FT, color: r.color, weight: 2.5, opacity: 0.95, fill: false, dashArray: r.ft === 150 ? null : '7 5', interactive: false }).addTo(sbLayer);
       const top = K.projector(site.lat, site.lon).inv(0, r.ft * M_PER_FT);
       L.marker(top, { interactive: false, keyboard: false, icon: L.divIcon({ className: '', html: `<div class="sb-ring-label" style="border-color:${r.color}">${r.ft} ft</div>`, iconSize: [44, 18], iconAnchor: [22, 9] }) }).addTo(sbLayer);
@@ -307,6 +324,7 @@
     site.marks = site.marks || [];
     cur = { site, tool: null, draft: [], editId: null, backup: null };
     S.openSheet('setback', `<div class="sheet-head"><b>📏 Setbacks · ${esc(site.customer)}</b><button class="small" id="sbDone">Done</button></div>
+      ${ringTogglesHtml()}
       <div id="sbSummary"></div>
       <div class="sb-tools" id="sbTools">${Object.entries(K.KINDS).map(([k, v]) => `<button type="button" data-kind="${k}" class="sb-tool k-${k}"><span>${v.icon}</span>${v.label}<small>${v.setbackFt} ft</small></button>`).join('')}</div>
       <div id="sbInstr" class="sb-instr hidden"></div>
@@ -440,6 +458,6 @@
     + Object.entries(K.KINDS).map(([k, v]) => `<Style id="mk-${k}"><LineStyle><color>ff${v.color.slice(5, 7)}${v.color.slice(3, 5)}${v.color.slice(1, 3)}</color><width>4</width></LineStyle><IconStyle><color>ff${v.color.slice(5, 7)}${v.color.slice(3, 5)}${v.color.slice(1, 3)}</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>`).join('')
     + '<Style id="mk-bad"><LineStyle><color>ff2626dc</color><width>6</width></LineStyle><IconStyle><color>ff2626dc</color><scale>1.3</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon></IconStyle></Style>';
 
-  window.WellsSeptic = { isActive: () => !!cur && !$('sheet').classList.contains('hidden'), fillBox, siteCtx, fillSite: (s, box) => fillBox(box, siteCtx(s)), fetchStatus, fetchRecords, openSetbacks, onSheetClose, showForSite,
+  window.WellsSeptic = { isActive: () => !!cur && !$('sheet').classList.contains('hidden'), fillBox, siteCtx, fillSite: (s, box) => fillBox(box, siteCtx(s)), fetchStatus, fetchRecords, openSetbacks, onSheetClose, showForSite, ringTogglesHtml,
     summaryHtml, exportFields, kmlFor, kmlStyles, mainsNear, drawSetbacks, get current() { return cur; }, applyRef, ref };
 })();

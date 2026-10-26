@@ -105,7 +105,7 @@
         ${s.notes ? `<tr><td>Notes</td><td>${esc(s.notes)}</td></tr>` : ''}
         <tr><td>Tagged</td><td>${esc(when(s.created))}</td></tr>
       </table>
-      ${window.WellsSeptic ? WellsSeptic.summaryHtml(s) : ''}
+      ${window.WellsSeptic ? WellsSeptic.summaryHtml(s) : ''}${window.WellsSeptic ? WellsSeptic.ringTogglesHtml() : ''}
       <div class="site-actions"></div>
       ${window.WellsSeptic ? '<div class="sep-box"></div>' : ''}
       ${s.photo ? `<img class="site-photo" src="${s.photo}" alt="site photo">` : ''}`;

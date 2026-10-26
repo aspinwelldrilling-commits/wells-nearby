@@ -410,3 +410,9 @@ body.layout-open .hist-ctl, body.layout-open .hist-bar, body.layout-open .hist-s
 
 .bk-box { margin: 4px 0 10px; } .bk-box .big { margin-top: 6px !important; }
 .sheet label.big.bk-merge { display: block; text-align: center; font-size: 19px; font-weight: 700; padding: 16px; border-radius: 12px; margin-top: 8px; background: #2563eb; color: #fff; cursor: pointer; }
+
+/* ---- proposed-site ring toggles (150 / 100 / 50 ft) ---- */
+.ring-tg { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 6px 0; font-size: 13px; }
+.ring-tg label { display: inline-flex; align-items: center; gap: 4px; min-height: 40px; padding: 4px 10px; border: 2px solid; border-radius: 10px; cursor: pointer; font-weight: 600; }
+.ring-tg input { width: 20px; height: 20px; margin: 0; }
+.leaflet-popup .ring-tg { gap: 4px; } .leaflet-popup .ring-tg label { padding: 4px 6px; }
