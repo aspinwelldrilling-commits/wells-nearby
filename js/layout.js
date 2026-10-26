@@ -957,9 +957,9 @@
       const f = e.target.files && e.target.files[0]; if (!f) return;
       try {
         const got = LC.parseFile(await f.text());
-        const have = new Set(list.map((x) => x.id));
-        for (const l of got) { if (have.has(l.id)) { l.id = LC.newId('lay'); l.name += ' (imported)'; } await Store.put(l); }
-        toast(`Imported ${got.length} layout${got.length > 1 ? 's' : ''}`);
+        const have = new Map(list.map((x) => [x.id, x])); let add = 0, upd = 0, kept = 0;
+        for (const l of got) { const c = have.get(l.id); if (!c) { await Store.put(l); add++; } else if ((l.updated || '') > (c.updated || '')) { await Store.put(l); upd++; } else kept++; }
+        toast(`Layouts: ${add} new, ${upd} updated, ${kept} already here`);
         openList();
       } catch (err) { alert('Import failed: ' + (err.message || err)); }
     };

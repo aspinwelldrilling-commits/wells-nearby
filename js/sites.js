@@ -382,6 +382,7 @@
   function renderList() {
     const nPend = sites.filter((s) => s.apnStatus === 'pending').length;
     $('listBody').innerHTML = `<div class="sheet-head"><b>📋 My sites (${sites.length})</b><button class="small" id="lClose">Close</button></div>
+      <div id="lBackup"></div>
       <div class="l-tools"><button class="small" id="lCsv">⬇ CSV</button><button class="small" id="lKml">⬇ KML (Google Earth)</button><button class="small" id="lJson">⬇ Backup</button>
         <label class="small btnlike">⬆ Import backup<input id="lImport" type="file" accept=".json,application/json" hidden></label>
         ${nPend ? `<button class="small" id="lRetry">🔎 Look up ${nPend} pending APN${nPend > 1 ? 's' : ''}</button>` : ''}</div>
@@ -397,6 +398,7 @@
       actionButtons(s, it.querySelector('.site-actions'), false);
       box.appendChild(it);
     }
+    if (window.WellsBackup) WellsBackup.mount($('lBackup'));
     $('lClose').onclick = closeSheet;
     $('lCsv').onclick = exportCsv; $('lKml').onclick = exportKml; $('lJson').onclick = exportJson;
     $('lImport').onchange = importJson;

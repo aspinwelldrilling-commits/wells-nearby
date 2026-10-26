@@ -450,5 +450,5 @@
     if (rec && Array.isArray(rec.jobs)) { data = rec; if (pref.on !== false) group.addTo(map); }
     render();
   }).catch(() => renderCtl());
-  global.WellsMyJobs = { parseKml, unzipKml, importFile, removeAll, Store, get data() { return data; }, counts, visibleJobs, group, render, zoomJob, fitAll, deriveWell };
+  global.WellsMyJobs = { parseKml, unzipKml, importFile, removeAll, Store, get data() { return data; }, counts, visibleJobs, group, render, zoomJob, reload: () => Store.get().then((rec) => { if (rec && Array.isArray(rec.jobs)) { data = rec; if (pref.on !== false && !map.hasLayer(group)) group.addTo(map); } render(); }), fitAll, deriveWell };
 })(typeof window !== 'undefined' ? window : globalThis);

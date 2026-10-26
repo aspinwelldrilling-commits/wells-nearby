@@ -181,3 +181,10 @@ Box viewer URL) is linked as-is. Rows with no coordinates or coordinates far out
 manifest's `unplaced`; placed rows outside the county line carry `oc:1`. `js/imperial.js` draws the overlay with its own
 toggle (*Imperial WCRs (DWR)*) and is not merged into the search table/stats (the live State search returns the same WCRs).
 Test: `/workspace/.venv-pw/bin/python tools/test-imperial.py [--base URL]`.
+
+## Back up everything / Merge from backup (`js/backup.js`, v21)
+My sites → **💾 Back up everything** makes one file `wells-nearby-backup-YYYY-MM-DD.json` (`kind: wells-nearby-full-backup`, version 1:
+sites incl. photos, septic layouts, My Jobs). Android opens the Share sheet (save to Drive / email yourself); desktop downloads it.
+**📥 Merge from backup** (also accepts old sites backups and single layout files) never deletes or duplicates: same id → newer
+`updated` wins; My Jobs merge by job key (missing jobs added, local kept). Nothing is uploaded; the file goes only where you send it.
+Layout import (✏️ list) now also merges by id instead of making "(imported)" copies.

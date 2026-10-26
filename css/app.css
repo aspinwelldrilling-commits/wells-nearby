@@ -407,3 +407,6 @@ body.layout-open .hist-ctl, body.layout-open .hist-bar, body.layout-open .hist-s
 .leaflet-control-layers-expanded .leaflet-control-layers-list { overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
 /* invisible bridge over the gap where the collapsed button was, so the hover/tap that opened it doesn't "leave" and collapse it */
 .leaflet-right .leaflet-control-layers-expanded::before { content: ''; position: absolute; top: -62px; right: -2px; width: 52px; height: 62px; }
+
+.bk-box { margin: 4px 0 10px; } .bk-box .big { margin-top: 6px !important; }
+.sheet label.big.bk-merge { display: block; text-align: center; font-size: 19px; font-weight: 700; padding: 16px; border-radius: 12px; margin-top: 8px; background: #2563eb; color: #fff; cursor: pointer; }
