@@ -37,7 +37,7 @@ with sync_playwright() as p, tempfile.TemporaryDirectory() as tmp:
     n0 = pg.evaluate('() => WellsApp.state.shown.length'); npins = pg.locator('#map .leaflet-marker-icon, #map path.leaflet-interactive').count()
     check(n0 > 0 and npins > 0, f'well search near 33.04,-116.87 still works ({n0} wells, {npins} pins)')
     check(pg.evaluate('() => !!(window.WellsLayout && window.LayoutCore)'), 'layout modules loaded')
-    check(pg.locator('#btnLayout').is_visible(), '✏️ Septic layout button in the bottom bar')
+    check(pg.locator('#btnLayout').is_visible(), '✏️ Well layout button in the bottom bar')
     pg.evaluate("() => { WellsApp.state.lat = 0; WellsApp.state.lon = 0; }")
     inp = pg.locator('.as-input'); inp.fill(APN); inp.press('Enter')
     try: pg.wait_for_function('() => WellsApp.state.lat !== 0', timeout=40000)

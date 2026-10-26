@@ -392,7 +392,7 @@
   }
   function renderSheet() {
     if (!lay || !$('loBody')) return;
-    $('loTitle').textContent = '✏️ ' + (lay.name || 'Septic layout');
+    $('loTitle').textContent = '✏️ ' + (lay.name || 'Well layout');
     $('loTabs').querySelectorAll('button').forEach((b) => b.classList.toggle('on', !tool && !sel && b.dataset.t === tab));
     renderSum();
     const body = $('loBody');
@@ -556,7 +556,7 @@
       <div id="loExpMsg" class="small-note"></div>
       <div class="sb-row"><button type="button" class="small" id="loJson">⬇ Backup (.json)</button><button type="button" class="small danger" id="loDelLay">🗑 Delete layout</button></div>
       <p class="small-note muted">🔒 This layout is stored only on this device and never uploaded. PNG / PDF / backup files are made on the phone; only the APN goes to the County parcel service when you load parcel lines.</p>`;
-    const txt = (id, fn) => ($(id).oninput = (e) => { fn(e.target.value); lay.updated = new Date().toISOString(); scheduleSave(); $('loTitle').textContent = '✏️ ' + (lay.name || 'Septic layout'); });
+    const txt = (id, fn) => ($(id).oninput = (e) => { fn(e.target.value); lay.updated = new Date().toISOString(); scheduleSave(); $('loTitle').textContent = '✏️ ' + (lay.name || 'Well layout'); });
     txt('loName', (v) => (lay.name = v)); txt('loApn', (v) => (lay.apn = v)); txt('loAddr', (v) => (lay.address = v));
     txt('loBy', (v) => (m.preparedBy = v)); txt('loDate', (v) => (m.date = v)); txt('loNotes', (v) => (m.notes = v));
     const segBind = (id, key) => $(id).querySelectorAll('button').forEach((b) => (b.onclick = () => { o[key] = b.dataset.v; scheduleSave(); $(id).querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b)); }));
@@ -931,7 +931,7 @@
   async function openList() {
     let list = [];
     try { list = await Store.all(); } catch (e) { toast('Device storage unavailable (private mode?)'); }
-    WS().openSheet('layouts', `<div class="sheet-head"><b>✏️ Septic layouts (${list.length})</b><button type="button" class="small" id="llClose">Close</button></div>
+    WS().openSheet('layouts', `<div class="sheet-head"><b>✏️ Well layouts (${list.length})</b><button type="button" class="small" id="llClose">Close</button></div>
       <button type="button" class="big good" id="llNew">＋ New layout here</button>
       <div class="l-tools" style="margin-top:8px"><label class="small btnlike">⬆ Import backup (.json)<input id="llImport" type="file" accept=".json,application/json" hidden></label></div>
       <p class="muted small-note">Draw the septic system on the satellite map and export a plot plan (PNG / PDF). 🔒 Layouts are stored only on this device, never uploaded — use ⬇ Backup to move one to another phone.</p>
@@ -965,7 +965,7 @@
     };
   }
   function openNew(pre = {}) {
-    WS().openSheet('layout-new', `<div class="sheet-head"><b>✏️ New septic layout</b><button type="button" class="small" id="lnCancel">Cancel</button></div>
+    WS().openSheet('layout-new', `<div class="sheet-head"><b>✏️ New well layout</b><button type="button" class="small" id="lnCancel">Cancel</button></div>
       <label>Owner / job name *<input type="text" id="lnName" autocapitalize="words" maxlength="120" value="${esc(pre.name || '')}"></label>
       <label>APN <small id="lnApnSrc"></small><input type="text" id="lnApn" inputmode="numeric" placeholder="285-030-06-00" value="${esc(pre.apn || '')}"></label>
       <label>Address<input type="text" id="lnAddr" maxlength="200" value="${esc(pre.address || '')}"></label>

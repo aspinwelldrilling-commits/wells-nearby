@@ -148,7 +148,7 @@
     b('📤 Share', () => share(s));
     if (!inPopup) b('🗺 Map', () => showOnMap(s));
     if (window.WellsSeptic) b('📏 Setbacks', () => WellsSeptic.openSetbacks(s), 'act-setbacks');
-    if (window.WellsLayout) b('✏️ Septic layout', () => WellsLayout.openForSite(s), 'act-layout');
+    if (window.WellsLayout) b('✏️ Well layout', () => WellsLayout.openForSite(s), 'act-layout');
     b('✏️ Edit', () => openForm(s));
     if (s.apnStatus === 'pending' || s.apnStatus === 'none') b('🔎 Look up APN', () => retryLookup(s));
     b('🗑', () => removeSite(s), 'danger');

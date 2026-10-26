@@ -67,7 +67,7 @@
     const now = new Date().toISOString();
     return {
       app: 'wells-nearby', kind: 'septic-layout', v: 1, id: newId('lay'), created: now, updated: now,
-      name: o.name || 'Septic layout', apn: o.apn || '', address: o.address || '', siteId: o.siteId || null,
+      name: o.name || 'Well layout', apn: o.apn || '', address: o.address || '', siteId: o.siteId || null,
       view: o.view || null, legend: clone(DEFAULT_LEGEND), shapes: [],
       opts: { rings: true, sizes: true, orientation: 'landscape', area: 'fit', warnings: true },
       meta: { preparedBy: 'Aspin Well Drilling', date: localDate(), notes: '' },
