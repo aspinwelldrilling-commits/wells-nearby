@@ -550,7 +550,7 @@
       <label>Date<input type="text" id="loDate" value="${esc(m.date)}" maxlength="40"></label>
       <label>Notes<textarea id="loNotes" rows="3" maxlength="2000" placeholder="e.g. 1,500 gal tank, 2 × 60 ft leach lines, 100% reserve">${esc(m.notes)}</textarea></label>
       <div class="lo-sub">Page (letter size)</div>${seg('loOrient', 'orientation', [['landscape', '▭ Landscape'], ['portrait', '▯ Portrait']])}
-      <div class="lo-sub">Map area</div>${seg('loArea', 'area', [['fit', 'Fit the drawing'], ['view', 'Current map view']])}
+      <div class="lo-sub">Map area</div>${seg('loArea', 'area', [['view', 'Current map view'], ['fit', 'Fit the drawing']])}
       <div class="lo-toggles"><label><input type="checkbox" id="loPRings" ${o.rings ? 'checked' : ''}> Setback rings</label><label><input type="checkbox" id="loPSizes" ${o.sizes !== false ? 'checked' : ''}> Lengths &amp; areas</label><label><input type="checkbox" id="loPWarn" ${o.warnings !== false ? 'checked' : ''}> Setback warnings</label></div>
       <div class="sb-row lo-exp"><button type="button" class="small good" id="loPng">⬇ PNG</button><button type="button" class="small good" id="loPdf">⬇ PDF</button>${canShare ? '<button type="button" class="small" id="loShare">📤 Share PDF</button>' : ''}</div>
       <div id="loExpMsg" class="small-note"></div>
@@ -559,7 +559,7 @@
     const txt = (id, fn) => ($(id).oninput = (e) => { fn(e.target.value); lay.updated = new Date().toISOString(); scheduleSave(); $('loTitle').textContent = '✏️ ' + (lay.name || 'Well layout'); });
     txt('loName', (v) => (lay.name = v)); txt('loApn', (v) => (lay.apn = v)); txt('loAddr', (v) => (lay.address = v));
     txt('loBy', (v) => (m.preparedBy = v)); txt('loDate', (v) => (m.date = v)); txt('loNotes', (v) => (m.notes = v));
-    const segBind = (id, key) => $(id).querySelectorAll('button').forEach((b) => (b.onclick = () => { o[key] = b.dataset.v; scheduleSave(); $(id).querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b)); }));
+    const segBind = (id, key) => $(id).querySelectorAll('button').forEach((b) => (b.onclick = () => { o[key] = b.dataset.v; if (key === 'area') o.areaPicked = true; scheduleSave(); $(id).querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b)); }));
     segBind('loOrient', 'orientation'); segBind('loArea', 'area');
     $('loPRings').onchange = (e) => { o.rings = e.target.checked; scheduleSave(); render(); };
     $('loPSizes').onchange = (e) => { o.sizes = e.target.checked; scheduleSave(); render(); };
@@ -748,8 +748,12 @@
       bnds.extend(c.toBounds(120 * M_PER_FT));
     }
     const p1 = crs.latLngToPoint(bnds.getNorthWest(), 0), p2 = crs.latLngToPoint(bnds.getSouthEast(), 0);
-    const z = Math.min(22, Math.log2(Math.min(fr.w / Math.max(1e-9, p2.x - p1.x), fr.h / Math.max(1e-9, p2.y - p1.y))));
-    const center = crs.latLngToPoint(bnds.getCenter(), z);
+    const fx = fr.w / Math.max(1e-9, p2.x - p1.x), fy = fr.h / Math.max(1e-9, p2.y - p1.y);
+    // 'fit': show the whole drawing (contain). 'view' (default): the exact on-screen centre and scale — the screen is cropped to
+    // the paper's aspect (cover), so the print is never zoomed out past what was on screen when Save was tapped.
+    const z = Math.min(22, Math.log2(b ? Math.min(fx, fy) : Math.max(fx, fy)));
+    const cLL = b ? bnds.getCenter() : map.getCenter();
+    const center = crs.latLngToPoint(cLL, z);
     const origin = L.point(center.x - fr.w / 2, center.y - fr.h / 2);
     const P = (p) => { const q = crs.latLngToPoint(L.latLng(p[0], p[1]), z); return { x: q.x - origin.x + fr.x, y: q.y - origin.y + fr.y }; };
     // ---- imagery tiles (Esri sends Access-Control-Allow-Origin: *, so the canvas stays exportable)
@@ -757,7 +761,7 @@
     const range = (t) => { const s = Math.pow(2, z - t), ts = 256 * s; return { ts, x0: Math.floor(origin.x / ts), y0: Math.floor(origin.y / ts), x1: Math.floor((origin.x + fr.w) / ts), y1: Math.floor((origin.y + fr.h) / ts) }; };
     let R = range(tz);
     while ((R.x1 - R.x0 + 1) * (R.y1 - R.y0 + 1) > 110 && tz > 1) R = range(--tz);
-    const temps = tileTemplates(), info = { zoom: +z.toFixed(2), tileZoom: tz, tiles: 0, tilesOk: 0, layers: temps.length };
+    const temps = tileTemplates(), info = { zoom: +z.toFixed(2), area: b ? 'fit' : 'view', center: [cLL.lat, cLL.lng], tileZoom: tz, tiles: 0, tilesOk: 0, layers: temps.length };
     ctx.save(); ctx.beginPath(); ctx.rect(fr.x, fr.y, fr.w, fr.h); ctx.clip();
     ctx.fillStyle = '#cbd5e1'; ctx.fillRect(fr.x, fr.y, fr.w, fr.h);
     const n = Math.pow(2, tz);
@@ -784,7 +788,7 @@
     ctx.lineWidth = 3; ctx.strokeStyle = '#000'; ctx.strokeRect(fr.x, fr.y, fr.w, fr.h);
     // ---- north arrow + scale bar on the map
     northArrow(ctx, fr.x + fr.w - 0.45 * DPI, fr.y + 0.5 * DPI, 0.3 * DPI);
-    const lat = bnds.getCenter().lat, ftPerPx = 40075016.686 * Math.cos(lat * Math.PI / 180) / (256 * Math.pow(2, z)) * LC.FT_PER_M;
+    const lat = cLL.lat, ftPerPx = 40075016.686 * Math.cos(lat * Math.PI / 180) / (256 * Math.pow(2, z)) * LC.FT_PER_M;
     const sc = LC.niceScale(ftPerPx, 1.6 * DPI);
     info.ftPerInch = +(ftPerPx * DPI).toFixed(1); info.scaleFt = sc.ft; info.scalePx = sc.px;
     {

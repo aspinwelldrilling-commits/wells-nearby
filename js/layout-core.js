@@ -69,7 +69,7 @@
       app: 'wells-nearby', kind: 'septic-layout', v: 1, id: newId('lay'), created: now, updated: now,
       name: o.name || 'Well layout', apn: o.apn || '', address: o.address || '', siteId: o.siteId || null,
       view: o.view || null, legend: clone(DEFAULT_LEGEND), shapes: [],
-      opts: { rings: true, sizes: true, orientation: 'landscape', area: 'fit', warnings: true },
+      opts: { rings: true, sizes: true, orientation: 'landscape', area: 'view', warnings: true },
       meta: { preparedBy: 'Aspin Well Drilling', date: localDate(), notes: '' },
     };
   }
@@ -282,7 +282,7 @@
       view: o.view && Number.isFinite(+o.view.lat) && Number.isFinite(+o.view.lon) ? { lat: +o.view.lat, lon: +o.view.lon, z: Math.max(1, Math.min(21, +o.view.z || 18)) } : null };
     lay.opts = { ...base.opts, ...(o.opts && typeof o.opts === 'object' ? o.opts : {}) };
     lay.opts.orientation = lay.opts.orientation === 'portrait' ? 'portrait' : 'landscape';
-    lay.opts.area = lay.opts.area === 'view' ? 'view' : 'fit';
+    lay.opts.area = lay.opts.area === 'fit' && lay.opts.areaPicked ? 'fit' : 'view';   // print what is on screen unless 'Fit the drawing' was picked
     lay.meta = { ...base.meta, ...(o.meta && typeof o.meta === 'object' ? { preparedBy: str(o.meta.preparedBy, 120), date: str(o.meta.date, 40), notes: str(o.meta.notes, 2000) } : {}) };
     if (Array.isArray(o.legend) && o.legend.length) {
       lay.legend = o.legend.filter((e) => e && e.id && ['point', 'line', 'area'].includes(e.sym)).map((e) => ({ id: str(e.id, 80), label: str(e.label, 80),
