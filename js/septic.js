@@ -252,21 +252,45 @@
   let cur = null;   // {site, tool, draft:[], editId, backup}
   const newId = () => 'mk-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
 
-  // Proposed-site ring toggles (150 / 100 / 50 ft), saved on this device; default all on
-  const RING_KEY = 'wn.ringToggles';
-  const ringOn = (() => { try { const v = JSON.parse(localStorage.getItem(RING_KEY) || 'null'); if (v && typeof v === 'object') return v; } catch (e) {} return {}; })();
-  const isRingOn = (ft) => ringOn[ft] !== false;
-  function ringTogglesHtml() {
-    return `<div class="ring-tg" role="group" aria-label="Setback rings">Rings:${K.RINGS.slice().sort((a, b) => b.ft - a.ft).map((r) =>
-      `<label style="border-color:${r.color}"><input type="checkbox" data-ft="${r.ft}" ${isRingOn(r.ft) ? 'checked' : ''}> ${r.ft} ft</label>`).join('')}</div>`;
+  // Ring toggles (150 / 100 / 50 ft), saved on this device; default all on.
+  //  group 'p' = proposed well (site pin here + proposed wells in Well layout), key wn.ringToggles (unchanged from v23)
+  //  group 'e' = existing wells drawn in Well layout, key wn.ringTogglesExisting
+  const RING_KEYS = { p: 'wn.ringToggles', e: 'wn.ringTogglesExisting' };
+  const loadRings = (k) => { try { const v = JSON.parse(localStorage.getItem(k) || 'null'); if (v && typeof v === 'object') return v; } catch (e) {} return {}; };
+  const ringState = { p: loadRings(RING_KEYS.p), e: loadRings(RING_KEYS.e) };
+  const isRingOnG = (g, ft) => (ringState[g] || {})[ft] !== false;
+  const isRingOn = (ft) => isRingOnG('p', ft);
+  function ringTogglesHtml(g = 'p', title = 'Rings:') {
+    return `<div class="ring-tg" role="group" aria-label="${g === 'e' ? 'Existing well' : 'Setback'} rings">${title}${K.RINGS.slice().sort((a, b) => b.ft - a.ft).map((r) =>
+      `<label style="border-color:${r.color}"><input type="checkbox" data-grp="${g}" data-ft="${r.ft}" ${isRingOnG(g, r.ft) ? 'checked' : ''}> ${r.ft}<span class="rt-ft"> ft</span></label>`).join('')}</div>`;
   }
   document.addEventListener('change', (e) => {
     const t = e.target; if (!t || !t.matches || !t.matches('.ring-tg input[data-ft]')) return;
-    ringOn[t.dataset.ft] = t.checked;
-    try { localStorage.setItem(RING_KEY, JSON.stringify(ringOn)); } catch (err) {}
-    document.querySelectorAll(`.ring-tg input[data-ft="${t.dataset.ft}"]`).forEach((i) => (i.checked = t.checked));
-    const s = cur ? cur.site : popupSite; if (s) drawSetbacks(s, cur ? { skipHandles: false } : {});
+    const g = t.dataset.grp === 'e' ? 'e' : 'p';
+    ringState[g][t.dataset.ft] = t.checked;
+    try { localStorage.setItem(RING_KEYS[g], JSON.stringify(ringState[g])); } catch (err) {}
+    document.querySelectorAll(`.ring-tg input[data-grp="${g}"][data-ft="${t.dataset.ft}"]`).forEach((i) => (i.checked = t.checked));
+    if (g === 'p') { const s = cur ? cur.site : popupSite; if (s) drawSetbacks(s, cur ? { skipHandles: false } : {}); }
+    document.dispatchEvent(new CustomEvent('wn-rings-change', { detail: { grp: g, ft: +t.dataset.ft, on: t.checked } }));
   });
+  // Always-visible map copy of the toggles (main screen, while tagging, and with Well layout open).
+  // Same markup + the shared listener above keep every copy and localStorage in sync.
+  // Phone: a small "◎ Rings" button that opens the boxes (open/closed remembered) so the small map stays tappable;
+  // desktop: always open. Well layout also has the same boxes at the top of its Draw tab.
+  const RING_OPEN_KEY = 'wn.ringCtlOpen';
+  const RingCtl = L.Control.extend({ options: { position: 'topright' }, onAdd() {
+    const d = L.DomUtil.create('div', 'leaflet-bar ring-ctl');
+    let open = false; try { open = localStorage.getItem(RING_OPEN_KEY) === '1'; } catch (e) {}
+    d.classList.toggle('open', open);
+    d.innerHTML = `<button type="button" class="ring-ctl-btn" aria-expanded="${open}">◎ Rings</button><div class="ring-ctl-body">` +
+      ringTogglesHtml('p', '<span class="ring-ctl-t">◎ Proposed well rings</span>') + ringTogglesHtml('e', '<span class="ring-ctl-t">◎ Existing well rings</span>') + '</div>';
+    const b = d.querySelector('.ring-ctl-btn');
+    b.onclick = () => { const o = !d.classList.contains('open'); d.classList.toggle('open', o); b.setAttribute('aria-expanded', o); try { localStorage.setItem(RING_OPEN_KEY, o ? '1' : '0'); } catch (e) {} };
+    L.DomEvent.disableClickPropagation(d); L.DomEvent.disableScrollPropagation(d); return d; } });
+  const ringCtl = new RingCtl().addTo(map);
+  // keep the ring box last in its corner so it never shifts other controls
+  const ringToEnd = () => { const c = ringCtl.getContainer(); if (c && c.parentNode && c.parentNode.lastChild !== c) c.parentNode.appendChild(c); };
+  window.addEventListener('load', ringToEnd); setTimeout(ringToEnd, 0); setTimeout(ringToEnd, 1500);
 
   function drawSetbacks(site, opts = {}) {
     sbLayer.clearLayers();
@@ -458,6 +482,6 @@
     + Object.entries(K.KINDS).map(([k, v]) => `<Style id="mk-${k}"><LineStyle><color>ff${v.color.slice(5, 7)}${v.color.slice(3, 5)}${v.color.slice(1, 3)}</color><width>4</width></LineStyle><IconStyle><color>ff${v.color.slice(5, 7)}${v.color.slice(3, 5)}${v.color.slice(1, 3)}</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>`).join('')
     + '<Style id="mk-bad"><LineStyle><color>ff2626dc</color><width>6</width></LineStyle><IconStyle><color>ff2626dc</color><scale>1.3</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href></Icon></IconStyle></Style>';
 
-  window.WellsSeptic = { isActive: () => !!cur && !$('sheet').classList.contains('hidden'), fillBox, siteCtx, fillSite: (s, box) => fillBox(box, siteCtx(s)), fetchStatus, fetchRecords, openSetbacks, onSheetClose, showForSite, ringTogglesHtml,
+  window.WellsSeptic = { isActive: () => !!cur && !$('sheet').classList.contains('hidden'), fillBox, siteCtx, fillSite: (s, box) => fillBox(box, siteCtx(s)), fetchStatus, fetchRecords, openSetbacks, onSheetClose, showForSite, ringTogglesHtml, isRingOn: isRingOnG,
     summaryHtml, exportFields, kmlFor, kmlStyles, mainsNear, drawSetbacks, get current() { return cur; }, applyRef, ref };
 })();

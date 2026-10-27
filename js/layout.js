@@ -72,7 +72,7 @@
   const RING_ENTRY = (r) => ({ sym: 'line', color: r.color, dash: r.ft === 150 ? 'solid' : 'dashed', width: 2 });
 
   // ------------------------------------------------------------------ what to label (shared by the map and the plot plan)
-  function labelsFor(l, chk) {
+  function labelsFor(l, chk, screen) {
     const out = [], sizes = l.opts.sizes !== false;
     for (const s of l.shapes) {
       const g = geomOf(s); if (!s.pts || !s.pts.length) continue;
@@ -93,18 +93,23 @@
       } else if (g === 'dim' && s.pts.length >= 2) out.push({ ll: LC.midAlong(s.pts), text: LC.sizeText(s), cls: 'dim' });
     }
     if (l.opts.warnings !== false) for (const r of chk.inside) out.push({ ll: r.nearest, text: `⚠ ${r.ftRounded} ft to well — needs ${r.limitFt}`, cls: 'bad', right: r.nearest[1] >= r.wellPt[1] });   // on the side away from the well
-    if (l.opts.rings) for (const w of chk.wells) for (const r of K.RINGS) out.push({ ll: K.projector(w.lat, w.lon).inv(0, r.ft * M_PER_FT), text: `${r.ft} ft`, cls: 'ring', color: r.color });
+    if (l.opts.rings) for (const w of chk.wells) for (const r of K.RINGS) if (!screen || ringShown(w, r.ft)) out.push({ ll: K.projector(w.lat, w.lon).inv(0, r.ft * M_PER_FT), text: `${r.ft} ft`, cls: 'ring', color: r.color });
     return out;
   }
   const drawOrder = { poly: 0, line: 1, dim: 2, point: 3, text: 4 };
   const sorted = (l) => l.shapes.slice().sort((a, b) => (drawOrder[geomOf(a)] ?? 9) - (drawOrder[geomOf(b)] ?? 9));
 
   // ------------------------------------------------------------------ map rendering
+  // On-screen ring filter from the map ◎ ring box (js/septic.js): existing wells -> 'e', proposed wells -> 'p'.
+  // Only hides individual rings on the map; the layout's own ◎ Setback rings option (and the printed plot plan) are unchanged.
+  const ringShown = (w, ft) => !window.WellsSeptic || !WellsSeptic.isRingOn || WellsSeptic.isRingOn(w.shape.kind === 'pwell' ? 'p' : 'e', ft);
+  document.addEventListener('wn-rings-change', () => { if (active) render(); });
   function render(o = {}) {
     for (const g of LAYERS) if (g !== handleLayer || !o.keepHandles) g.clearLayers();
     if (!lay || !active) return;
     const chk = LC.setbackChecks(lay), bad = new Map(chk.inside.map((r) => [r.shape.id, r]));
     if (lay.opts.rings) for (const w of chk.wells) for (const r of K.RINGS) {
+      if (!ringShown(w, r.ft)) continue;
       L.circle([w.lat, w.lon], { renderer, radius: r.ft * M_PER_FT, color: r.color, weight: 2.5, opacity: 0.95, dashArray: r.ft === 150 ? null : '7 5', fill: false, interactive: false }).addTo(ringLayer);
     }
     for (const s of sorted(lay)) drawShape(s, lay.opts.warnings !== false && bad.get(s.id));
@@ -114,7 +119,7 @@
       L.polyline([sr.wellPt, sr.nearest], { renderer, color: '#22c55e', weight: 2.5, dashArray: '4 5', interactive: false }).addTo(ringLayer);
       label([(sr.wellPt[0] + sr.nearest[0]) / 2, (sr.wellPt[1] + sr.nearest[1]) / 2], `${sr.ftRounded} ft to well`, 'ok');
     }
-    for (const b of labelsFor(lay, chk)) label(b.ll, b.text, b.cls === 'bad' ? (b.right ? 'bad lo-badr' : 'bad lo-badl') : b.cls, b.color);
+    for (const b of labelsFor(lay, chk, true)) label(b.ll, b.text, b.cls === 'bad' ? (b.right ? 'bad lo-badr' : 'bad lo-badl') : b.cls, b.color);
     renderDraft();
     if (!o.keepHandles) renderHandles();
     renderMapLegend(chk);
@@ -416,6 +421,7 @@
   function renderDrawTab(body) {
     const grp = (t, ks) => `<div class="lo-grp">${t}</div><div class="lo-tools">${ks.map(toolBtn).join('')}</div>`;
     body.innerHTML = `${lay.shapes.length ? '' : '<div class="lo-hint">Pick something to draw, then tap the map. Pan and zoom with your fingers as usual. Tip: start with <b>▦ Parcel lines</b> and the well.</div>'}
+      ${window.WellsSeptic && WellsSeptic.ringTogglesHtml ? `<div class="lo-rings">${WellsSeptic.ringTogglesHtml('e', '<span class="lo-rings-t">Existing well rings</span>')}${WellsSeptic.ringTogglesHtml('p', '<span class="lo-rings-t">Proposed well rings</span>')}</div>` : ''}
       ${grp('Points', ['well', 'pwell', 'tank', 'dbox', 'pit'])}${grp('Lines', ['leach', 'sewer', 'tight', 'prop', 'line'])}${grp('Areas', ['house', 'field', 'reserve', 'drive', 'area'])}
       <div class="lo-grp">Other</div><div class="lo-tools">${toolBtn('text')}${toolBtn('dim')}<button type="button" class="lo-tool" id="loParcelBtn"><span class="lo-ticon">▦</span><span>Parcel lines from APN</span></button></div>
       <div class="lo-toggles"><label><input type="checkbox" id="loRings" ${lay.opts.rings ? 'checked' : ''}> ◎ Setback rings</label><label><input type="checkbox" id="loSizes" ${lay.opts.sizes !== false ? 'checked' : ''}> 📐 Lengths &amp; areas</label></div>`;

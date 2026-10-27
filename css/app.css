@@ -240,10 +240,14 @@ body.sheet-open:has(.sheet.compact) { padding-bottom: 46vh; }
 .sw-sw { display: inline-block; width: 10px; height: 10px; margin-right: 3px; vertical-align: -1px; border-radius: 2px; }
 .sw-sw.a { background: #14b8a6; } .sw-sw.b { background: #38bdf8; } .sw-sw.m { background: #84cc16; height: 4px; vertical-align: 2px; }
 /* while a popup is open, the top map buttons (zoom / Lines / Sewer / layers) step aside so a tall popup is readable on a phone */
-.map.popup-open .leaflet-top { opacity: 0; pointer-events: none; transition: opacity .15s; }
+.map.popup-open .leaflet-top { pointer-events: none; }
+.map.popup-open .leaflet-top .leaflet-control:not(.ring-ctl) { opacity: 0; transition: opacity .15s; }
+/* the ◎ Rings box stays usable beside a popup on desktop; on a phone the popup has its own copy, so it steps aside too */
+@media (max-width: 719px) { .map.popup-open .ring-ctl { opacity: 0; transition: opacity .15s; } .map.popup-open .ring-ctl, .map.popup-open .ring-ctl * { pointer-events: none !important; } }
 /* Leaflet gives every .leaflet-control pointer-events:auto, so the faded buttons (Lines opacity slider, zoom, Sewer, layers)
    still caught taps/clicks meant for the popup under them (e.g. "Search here"); switch them off too. */
 .map.popup-open .leaflet-top .leaflet-control, .map.popup-open .leaflet-top .leaflet-control * { pointer-events: none !important; }
+@media (min-width: 720px) { .map.popup-open .leaflet-top .ring-ctl, .map.popup-open .leaflet-top .ring-ctl * { pointer-events: auto !important; } }
 .sw-update { position: fixed; top: 8px; left: 50%; transform: translateX(-50%); z-index: 2000; background: #0f172a; color: #fff; border: 0; border-radius: 20px; padding: 10px 16px; font-size: 15px; font-weight: 600; box-shadow: 0 2px 10px rgba(0,0,0,.4); }
 .status .small { margin-left: 6px; }
 .map-note { position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); z-index: 1000; max-width: calc(100% - 20px); background: rgba(15,23,42,.92); color: #fff; font-size: 14px; font-weight: 600; padding: 8px 12px; border-radius: 18px; box-shadow: 0 2px 8px rgba(0,0,0,.45); text-align: center; }
@@ -415,6 +419,17 @@ body.layout-open .hist-ctl, body.layout-open .hist-bar, body.layout-open .hist-s
 .ring-tg { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 6px 0; font-size: 13px; }
 .ring-tg label { display: inline-flex; align-items: center; gap: 4px; min-height: 40px; padding: 4px 10px; border: 2px solid; border-radius: 10px; cursor: pointer; font-weight: 600; }
 .ring-tg input { width: 20px; height: 20px; margin: 0; }
+.ring-ctl { background: rgba(255,255,255,.95); padding: 4px 6px; clear: both; }
+.ring-ctl-btn { display: none; }
+.lo-rings { margin: 4px 0 8px; } .lo-rings .ring-tg { margin: 2px 0; } .lo-rings-t { flex-basis: 100%; font-size: 12px; font-weight: 700; }
+.ring-ctl .ring-tg { margin: 0 0 2px; gap: 3px; font-size: 12px; color: #0f172a; }
+.ring-ctl .ring-ctl-t { flex-basis: 100%; font-weight: 700; font-size: 11px; }
+.ring-ctl .ring-tg label { min-height: 30px; padding: 2px 6px; background: #fff; }
+.ring-ctl .ring-tg input { width: 16px; height: 16px; }
+@media (max-width: 719px) { .ring-ctl { padding: 0; } .ring-ctl-btn { display: block; min-height: 44px; padding: 0 12px; border: 0; background: #fff; font-weight: 700; font-size: 14px; border-radius: 4px; }
+  .ring-ctl:not(.open) .ring-ctl-body { display: none; } .ring-ctl.open .ring-ctl-btn { width: 100%; text-align: left; border-bottom: 1px solid #e2e8f0; border-radius: 4px 4px 0 0; }
+  .ring-ctl.open { width: 196px; box-sizing: border-box; } .ring-ctl-body { padding: 3px 4px; } }
+@media (max-width: 719px) { .ring-ctl .rt-ft { display: none; } .ring-ctl .ring-tg label { min-height: 40px; min-width: 52px; padding: 2px 6px; } .ring-ctl .ring-tg input { width: 20px; height: 20px; } }
 .leaflet-popup .ring-tg { gap: 4px; } .leaflet-popup .ring-tg label { padding: 4px 6px; }
 /* desktop: full-width page, tall map; >=1100px map left with results column on the right (phone <720px untouched) */
 @media (min-width: 720px) {
@@ -431,3 +446,5 @@ body.layout-open .hist-ctl, body.layout-open .hist-bar, body.layout-open .hist-s
   body > #tableCard .table-wrap { max-height: calc(100vh - 120px); overflow: auto; }
   .stats { grid-template-columns: repeat(2, 1fr); }
 }
+/* phone Well Layout: the sheet's Draw tab carries the ring toggles; keep the map clear for taps */
+@media (max-width: 899px) { body.layout-open .ring-ctl { display: none; } }
