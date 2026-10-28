@@ -244,11 +244,12 @@
   }
 
   // ---------------------------------------------------------------- bounds, scale bar, formatting
+  // withRings: true = all rings, or (well, ft) => bool to include only the rings that are drawn
   function boundsOf(lay, withRings) {
     let s = 90, w = 180, n = -90, e = -180, any = false;
     const add = (p) => { any = true; s = Math.min(s, p[0]); n = Math.max(n, p[0]); w = Math.min(w, p[1]); e = Math.max(e, p[1]); };
     for (const sh of lay.shapes) for (const p of sh.pts || []) add(p);
-    if (withRings) for (const wl of wellsOf(lay)) for (const r of K().RINGS) for (const p of K().circle(wl, r.ft, 24)) add(p);
+    if (withRings) for (const wl of wellsOf(lay)) for (const r of K().RINGS) if (typeof withRings !== 'function' || withRings(wl, r.ft)) for (const p of K().circle(wl, r.ft, 24)) add(p);
     return any ? [[s, w], [n, e]] : null;
   }
   /** A round scale-bar length (feet) about targetPx long, given feet per pixel. */

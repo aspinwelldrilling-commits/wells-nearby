@@ -93,7 +93,7 @@
       } else if (g === 'dim' && s.pts.length >= 2) out.push({ ll: LC.midAlong(s.pts), text: LC.sizeText(s), cls: 'dim' });
     }
     if (l.opts.warnings !== false) for (const r of chk.inside) out.push({ ll: r.nearest, text: `⚠ ${r.ftRounded} ft to well — needs ${r.limitFt}`, cls: 'bad', right: r.nearest[1] >= r.wellPt[1] });   // on the side away from the well
-    if (l.opts.rings) for (const w of chk.wells) for (const r of K.RINGS) if (!screen || ringShown(w, r.ft)) out.push({ ll: K.projector(w.lat, w.lon).inv(0, r.ft * M_PER_FT), text: `${r.ft} ft`, cls: 'ring', color: r.color });
+    if (l.opts.rings) for (const w of chk.wells) for (const r of K.RINGS) if (ringShown(w, r.ft)) out.push({ ll: K.projector(w.lat, w.lon).inv(0, r.ft * M_PER_FT), text: `${r.ft} ft`, cls: 'ring', color: r.color });
     return out;
   }
   const drawOrder = { poly: 0, line: 1, dim: 2, point: 3, text: 4 };
@@ -101,8 +101,10 @@
 
   // ------------------------------------------------------------------ map rendering
   // On-screen ring filter from the map ◎ ring box (js/septic.js): existing wells -> 'e', proposed wells -> 'p'.
-  // Only hides individual rings on the map; the layout's own ◎ Setback rings option (and the printed plot plan) are unchanged.
+  // The printed / saved plot plan (PNG + PDF) uses the same filter, so it matches the map at the moment of export (v27).
   const ringShown = (w, ft) => !window.WellsSeptic || !WellsSeptic.isRingOn || WellsSeptic.isRingOn(w.shape.kind === 'pwell' ? 'p' : 'e', ft);
+  // Rings actually drawn (layout option on + at least one well with that ring toggled on) -> legend rows.
+  const ringsDrawn = (l, chk) => (l.opts.rings ? K.RINGS.filter((r) => chk.wells.some((w) => ringShown(w, r.ft))) : []);
   document.addEventListener('wn-rings-change', () => { if (active) render(); });
   function render(o = {}) {
     for (const g of LAYERS) if (g !== handleLayer || !o.keepHandles) g.clearLayers();
@@ -316,11 +318,11 @@
   let legOpen = true, legPeek = false;
   function renderMapLegend(chk) {
     const d = legCtl.getContainer(); if (!d || !lay) return;
-    const used = LC.usedLegend(lay), rings = lay.opts.rings && chk.wells.length;
-    if (!used.length && !rings) { d.innerHTML = ''; d.classList.add('empty'); return; }
+    const used = LC.usedLegend(lay), rings = ringsDrawn(lay, chk);
+    if (!used.length && !rings.length) { d.innerHTML = ''; d.classList.add('empty'); return; }
     d.classList.remove('empty');
     const open = tool ? legPeek : legOpen;   // folded while drawing so it never eats a tap
-    d.innerHTML = `<button type="button" class="lo-legbtn">Legend ${open ? '▾' : '▸'}</button>${open ? `<div class="lo-legrows">${used.map((e) => `<div>${swatch(e, 24, 14)}<span>${esc(e.label)}</span></div>`).join('')}${rings ? K.RINGS.map((r) => `<div>${swatch(RING_ENTRY(r), 24, 14)}<span>${r.ft} ft well setback</span></div>`).join('') : ''}</div>` : ''}`;
+    d.innerHTML = `<button type="button" class="lo-legbtn">Legend ${open ? '▾' : '▸'}</button>${open ? `<div class="lo-legrows">${used.map((e) => `<div>${swatch(e, 24, 14)}<span>${esc(e.label)}</span></div>`).join('')}${rings.map((r) => `<div>${swatch(RING_ENTRY(r), 24, 14)}<span>${r.ft} ft well setback</span></div>`).join('')}</div>` : ''}`;
     d.querySelector('.lo-legbtn').onclick = () => { if (tool) legPeek = !open; else legOpen = !open; renderMapLegend(LC.setbackChecks(lay)); };
   }
 
@@ -677,6 +679,7 @@
     const chk = LC.setbackChecks(l), bad = new Set(l.opts.warnings !== false ? chk.inside.map((r) => r.shape.id) : []);
     ctx.lineJoin = 'round';
     if (l.opts.rings) for (const w of chk.wells) for (const r of K.RINGS) {
+      if (!ringShown(w, r.ft)) continue;   // same on/off as the map's ◎ ring boxes
       strokePath(ctx, K.circle(w, r.ft, 120).map(P), true);
       ctx.setLineDash(r.ft === 150 ? [] : [7 * k, 5 * k]); ctx.strokeStyle = r.color; ctx.lineWidth = 2.5 * k; ctx.stroke(); ctx.setLineDash([]);
     }
@@ -745,7 +748,7 @@
     ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, W, H);
     // ---- map area: what to show and at what (fractional) zoom
     const crs = L.CRS.EPSG3857;
-    const b = (o.area || l.opts.area) === 'view' ? null : LC.boundsOf(l, l.opts.rings);
+    const b = (o.area || l.opts.area) === 'view' ? null : LC.boundsOf(l, l.opts.rings && ringShown);
     let bnds = b ? L.latLngBounds(b) : map.getBounds();
     if (b) {   // pad 10 %, and never closer than ~120 ft across
       const c = bnds.getCenter(), ne = crs.latLngToPoint(bnds.getNorthEast(), 0), sw = crs.latLngToPoint(bnds.getSouthWest(), 0);
@@ -767,7 +770,7 @@
     const range = (t) => { const s = Math.pow(2, z - t), ts = 256 * s; return { ts, x0: Math.floor(origin.x / ts), y0: Math.floor(origin.y / ts), x1: Math.floor((origin.x + fr.w) / ts), y1: Math.floor((origin.y + fr.h) / ts) }; };
     let R = range(tz);
     while ((R.x1 - R.x0 + 1) * (R.y1 - R.y0 + 1) > 110 && tz > 1) R = range(--tz);
-    const temps = tileTemplates(), info = { zoom: +z.toFixed(2), area: b ? 'fit' : 'view', center: [cLL.lat, cLL.lng], tileZoom: tz, tiles: 0, tilesOk: 0, layers: temps.length };
+    const temps = tileTemplates(), info = { zoom: +z.toFixed(2), area: b ? 'fit' : 'view', center: [cLL.lat, cLL.lng], tileZoom: tz, tiles: 0, tilesOk: 0, layers: temps.length, legendRings: ringsDrawn(l, LC.setbackChecks(l)).map((r) => r.ft) };
     ctx.save(); ctx.beginPath(); ctx.rect(fr.x, fr.y, fr.w, fr.h); ctx.clip();
     ctx.fillStyle = '#cbd5e1'; ctx.fillRect(fr.x, fr.y, fr.w, fr.h);
     const n = Math.pow(2, tz);
@@ -866,7 +869,7 @@
     text('LEGEND', 10.5, 800);
     const chk = LC.setbackChecks(l);
     const rows = LC.usedLegend(l).map((e) => [e, e.label]);
-    if (l.opts.rings && chk.wells.length) for (const r of K.RINGS) rows.push([RING_ENTRY(r), `${r.ft} ft well setback (${r.label.split('·')[1].trim()})`]);
+    for (const r of ringsDrawn(l, chk)) rows.push([RING_ENTRY(r), `${r.ft} ft well setback (${r.label.split('·')[1].trim()})`]);
     if (!rows.length) text('(nothing drawn)', 9, 400, '#64748b');
     for (const [e, lab] of rows) {
       ctx.font = `600 ${fs(9)}px sans-serif`;
