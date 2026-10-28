@@ -51,7 +51,11 @@
 
   // ------------------------------------------------------------------ map layers
   map.createPane('layoutPane').style.zIndex = 450;   // above parcels (350), My Jobs drawings (420); below markers / popups
+  // Setback rings get their own pane UNDER the layout drawing (lines, areas) and far under the feature icons (markerPane 600),
+  // so a ring passing through a well / tank / line never paints over it (v29).
+  const ringPane = map.createPane('layoutRingPane'); ringPane.style.zIndex = 440; ringPane.style.pointerEvents = 'none';
   const renderer = L.canvas({ pane: 'layoutPane', tolerance: 12, padding: 0.3 });
+  const ringRenderer = L.canvas({ pane: 'layoutRingPane', padding: 0.3 });
   const ringLayer = L.layerGroup(), shapeLayer = L.layerGroup(), labelLayer = L.layerGroup(), handleLayer = L.layerGroup(), draftLayer = L.layerGroup();
   const LAYERS = [ringLayer, shapeLayer, labelLayer, draftLayer, handleLayer];
 
@@ -72,7 +76,24 @@
   const RING_ENTRY = (r) => ({ sym: 'line', color: r.color, dash: r.ft === 150 ? 'solid' : 'dashed', width: 2 });
 
   // ------------------------------------------------------------------ what to label (shared by the map and the plot plan)
-  function labelsFor(l, chk, screen) {
+  /** Ring call-outs ("150 ft" …) go at the top of the ring unless that spot is on a feature icon (well, proposed well, tank …)
+   * or another ring call-out: then they slide round the ring to the nearest clear spot (v29). proj: [lat, lon] -> {x, y} px. */
+  function ringLabels(l, chk, proj, k = 1) {
+    const out = [], icons = [], placed = [], W = 46 * k, H = 19 * k, R = 17 * k;
+    if (proj) for (const s of l.shapes) if (geomOf(s) === 'point' && s.pts && s.pts.length) icons.push(proj(s.pts[0]));
+    const clear = (q) => icons.every((c) => Math.max(Math.abs(c.x - q.x) - W / 2, 0) ** 2 + Math.max(Math.abs(c.y - q.y) - H / 2, 0) ** 2 > R * R)
+      && placed.every((b) => Math.abs(b.x - q.x) > W + 2 * k || Math.abs(b.y - q.y) > H + 2 * k);
+    for (const w of chk.wells) for (const r of K.RINGS) {
+      if (!ringShown(w, r.ft)) continue;
+      const pj = K.projector(w.lat, w.lon), m = r.ft * M_PER_FT, at = (deg) => pj.inv(m * Math.sin(deg * Math.PI / 180), m * Math.cos(deg * Math.PI / 180));
+      let ll = at(0);
+      if (proj) for (let i = 0; i <= 30; i++) { const deg = (i % 2 ? 1 : -1) * Math.ceil(i / 2) * 12, c = at(deg); if (clear(proj(c))) { ll = c; break; } }
+      if (proj) placed.push(proj(ll));
+      out.push({ ll, text: `${r.ft} ft`, cls: 'ring', color: r.color });
+    }
+    return out;
+  }
+  function labelsFor(l, chk, screen, proj, k) {
     const out = [], sizes = l.opts.sizes !== false;
     for (const s of l.shapes) {
       const g = geomOf(s); if (!s.pts || !s.pts.length) continue;
@@ -93,7 +114,7 @@
       } else if (g === 'dim' && s.pts.length >= 2) out.push({ ll: LC.midAlong(s.pts), text: LC.sizeText(s), cls: 'dim' });
     }
     if (l.opts.warnings !== false) for (const r of chk.inside) out.push({ ll: r.nearest, text: `⚠ ${r.ftRounded} ft to well — needs ${r.limitFt}`, cls: 'bad', right: r.nearest[1] >= r.wellPt[1] });   // on the side away from the well
-    if (l.opts.rings) for (const w of chk.wells) for (const r of K.RINGS) if (ringShown(w, r.ft)) out.push({ ll: K.projector(w.lat, w.lon).inv(0, r.ft * M_PER_FT), text: `${r.ft} ft`, cls: 'ring', color: r.color });
+    if (l.opts.rings) out.push(...ringLabels(l, chk, proj, k));
     return out;
   }
   const drawOrder = { poly: 0, line: 1, dim: 2, point: 3, text: 4 };
@@ -112,7 +133,7 @@
     const chk = LC.setbackChecks(lay), bad = new Map(chk.inside.map((r) => [r.shape.id, r]));
     if (lay.opts.rings) for (const w of chk.wells) for (const r of K.RINGS) {
       if (!ringShown(w, r.ft)) continue;
-      L.circle([w.lat, w.lon], { renderer, radius: r.ft * M_PER_FT, color: r.color, weight: 2.5, opacity: 0.95, dashArray: r.ft === 150 ? null : '7 5', fill: false, interactive: false }).addTo(ringLayer);
+      L.circle([w.lat, w.lon], { renderer: ringRenderer, pane: 'layoutRingPane', radius: r.ft * M_PER_FT, color: r.color, weight: 2.5, opacity: 0.95, dashArray: r.ft === 150 ? null : '7 5', fill: false, interactive: false }).addTo(ringLayer);
     }
     for (const s of sorted(lay)) drawShape(s, lay.opts.warnings !== false && bad.get(s.id));
     if (lay.opts.warnings !== false) for (const r of chk.inside) L.polyline([r.wellPt, r.nearest], { renderer, color: '#dc2626', weight: 2.5, dashArray: '4 5', interactive: false }).addTo(ringLayer);
@@ -121,7 +142,8 @@
       L.polyline([sr.wellPt, sr.nearest], { renderer, color: '#22c55e', weight: 2.5, dashArray: '4 5', interactive: false }).addTo(ringLayer);
       label([(sr.wellPt[0] + sr.nearest[0]) / 2, (sr.wellPt[1] + sr.nearest[1]) / 2], `${sr.ftRounded} ft to well`, 'ok');
     }
-    for (const b of labelsFor(lay, chk, true)) label(b.ll, b.text, b.cls === 'bad' ? (b.right ? 'bad lo-badr' : 'bad lo-badl') : b.cls, b.color);
+    const mp = (ll) => map.latLngToContainerPoint(ll);
+    for (const b of labelsFor(lay, chk, true, mp)) label(b.ll, b.text, b.cls === 'bad' ? (b.right ? 'bad lo-badr' : 'bad lo-badl') : b.cls, b.color);
     renderDraft();
     if (!o.keepHandles) renderHandles();
     renderMapLegend(chk);
@@ -400,6 +422,7 @@
     lay = null; undo = [];
   }
   map.on('zoomend moveend resize', () => { if (active) clearLegend(); });
+  map.on('zoomend', () => { if (active && lay && lay.opts.rings) render({ keepHandles: true }); });   // ring call-outs re-placed clear of icons
   map.on('moveend', () => { if (active && lay) { const c = map.getCenter(); lay.view = { lat: +c.lat.toFixed(6), lon: +c.lng.toFixed(6), z: map.getZoom() }; scheduleSave(); } });
 
   // ------------------------------------------------------------------ the sheet: editor
@@ -726,14 +749,16 @@
   function drawPlanShapes(ctx, l, P, k, out = { keepOut: [], boxes: [], frame: { x: -1e9, y: -1e9, w: 2e9, h: 2e9 } }) {
     const chk = LC.setbackChecks(l), bad = new Set(l.opts.warnings !== false ? chk.inside.map((r) => r.shape.id) : []);
     ctx.lineJoin = 'round';
+    out.order = [];   // draw order, for tools/test-icon-ring-order.py: rings first, then lines / areas, then icons, then call-outs (v29)
+    out.icons = [];
     if (l.opts.rings) for (const w of chk.wells) for (const r of K.RINGS) {
       if (!ringShown(w, r.ft)) continue;   // same on/off as the map's ◎ ring boxes
-      strokePath(ctx, K.circle(w, r.ft, 120).map(P), true);
+      strokePath(ctx, K.circle(w, r.ft, 120).map(P), true); out.order.push('ring');
       ctx.setLineDash(r.ft === 150 ? [] : [7 * k, 5 * k]); ctx.strokeStyle = r.color; ctx.lineWidth = 2.5 * k; ctx.stroke(); ctx.setLineDash([]);
     }
     for (const s of sorted(l)) {
       const g = geomOf(s); if (!s.pts || !s.pts.length) continue;
-      const xy = s.pts.map(P);
+      const xy = s.pts.map(P); out.order.push(g);
       if (g === 'line' || g === 'poly') {
         const st = LC.styleOf(l, s), closed = g === 'poly' || s.closed;
         if (bad.has(s.id)) { strokePath(ctx, xy, closed); ctx.strokeStyle = 'rgba(220,38,38,.5)'; ctx.lineWidth = (st.width + 12) * k; ctx.lineCap = 'round'; ctx.stroke(); }
@@ -749,6 +774,9 @@
         for (const q of [a, b]) { ctx.beginPath(); ctx.moveTo(q.x - nx, q.y - ny); ctx.lineTo(q.x + nx, q.y + ny); ctx.strokeStyle = '#000'; ctx.lineWidth = 4 * k; ctx.stroke(); ctx.strokeStyle = '#fff'; ctx.lineWidth = 2 * k; ctx.stroke(); }
       } else if (g === 'point') {
         const st = LC.styleOf(l, s), q = xy[0], r = 12 * k;
+        out.icons.push({ kind: s.kind, x: Math.round(q.x), y: Math.round(q.y), r: Math.round(r), color: st.color }); out.keepOut.push([q.x - r - 3 * k, q.y - r - 3 * k, 2 * r + 6 * k, 2 * r + 6 * k]);
+        // white halo first: the icon reads clearly even where a ring or line runs right through it
+        ctx.beginPath(); ctx.arc(q.x, q.y, r + 4.5 * k, 0, 2 * Math.PI); ctx.fillStyle = 'rgba(255,255,255,.85)'; ctx.fill();
         if (bad.has(s.id)) { ctx.beginPath(); ctx.arc(q.x, q.y, r + 7 * k, 0, 2 * Math.PI); ctx.fillStyle = 'rgba(220,38,38,.55)'; ctx.fill(); }
         ctx.beginPath(); ctx.arc(q.x, q.y, r, 0, 2 * Math.PI); ctx.fillStyle = st.color; ctx.fill();
         ctx.lineWidth = 2.5 * k; ctx.strokeStyle = '#fff'; ctx.stroke();
@@ -765,8 +793,8 @@
     if (l.opts.warnings !== false) for (const r of chk.inside) {
       strokePath(ctx, [P(r.wellPt), P(r.nearest)]); ctx.setLineDash([4 * k, 5 * k]); ctx.strokeStyle = '#dc2626'; ctx.lineWidth = 2.5 * k; ctx.stroke(); ctx.setLineDash([]);
     }
-    for (const b of labelsFor(l, chk)) {
-      if (!b.ll) continue;
+    for (const b of labelsFor(l, chk, false, P, k)) {
+      if (!b.ll) continue; out.order.push('label');
       const q = P(b.ll);
       if (b.cls === 'pt') placePill(ctx, q.x + 16 * k, q.y, b.text, k, { left: true }, out);
       else if (b.cls === 'bad') placePill(ctx, q.x + (b.right ? 18 : -18) * k, q.y, b.text, k, { bg: '#dc2626', left: b.right, right: !b.right }, out);
@@ -848,6 +876,7 @@
     drawPlanShapes(ctx, l, P, k, out);
     info.labelBoxes = out.boxes.map((b) => ({ t: b.t, moved: b.moved, r: b.r.map((v) => Math.round(v)), hidden: b.r[0] + b.r[2] < fr.x || b.r[0] > fr.x + fr.w || b.r[1] + b.r[3] < fr.y || b.r[1] > fr.y + fr.h }));
     info.keepOut = out.keepOut.map((b) => b.map(Math.round));
+    info.icons = out.icons; info.drawOrder = out.order;
     ctx.restore();
     ctx.lineWidth = 3; ctx.strokeStyle = '#000'; ctx.strokeRect(fr.x, fr.y, fr.w, fr.h);
     // ---- north arrow + scale bar on the map
