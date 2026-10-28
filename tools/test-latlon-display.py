@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Regression test (v30): every GPS readout also shows labeled latitude / longitude ("Lat 33.040000° N · Lon 116.870000° W").
 Surfaces: map tap popup, search-point popup, 🔍 GPS search pin popup, proposed well site popup + My sites list, Well Layout list,
-Well Layout 🖨 Plan tab, plot plan PDF title block (GPS field + labeled line + dedicated "Latitude: … Longitude: …" line).
+Well Layout 🖨 Plan tab, plot plan PDF title block (v31: only the dedicated "Latitude: … Longitude: …" line; the bold "GPS" field is gone;
+portrait keeps separate Prepared by / Date and the WELL SETBACKS description, with and without notes).
 SYNTHETIC data only (fake customer, fake APN). Phone 390x844 (primary) + desktop 1920x1080.
 Usage: /workspace/.venv-pw/bin/python tools/test-latlon-display.py [--base URL] [--shots DIR] [--prefix NAME] [--vps phone,desk1920]"""
 import sys, os, re, json, base64, subprocess, http.server, threading, functools, tempfile, argparse
@@ -78,22 +79,34 @@ with sync_playwright() as p, tempfile.TemporaryDirectory() as tmp:
     pg.click('#loTabs [data-t="plan"]'); pg.wait_for_timeout(600)
     tab = pg.inner_text('#loGps') if pg.locator('#loGps').count() else pg.inner_text('.sheet') if pg.locator('.sheet').count() else ''
     check(f'{vname} Well Layout Plan tab', tab, r'33\.040321, -116\.869654'); shot(pg, f'{vname}-layoutplan', '#loGps')
-    for orient in ['landscape', 'portrait']:
-      pg.evaluate('(o) => { WellsLayout.current.opts.orientation = o; }', orient)
+    for orient, notes in [('landscape', 'synthetic'), ('portrait', 'synthetic'), ('landscape', ''), ('portrait', '')]:
+      pg.evaluate('([o, n]) => { WellsLayout.current.opts.orientation = o; WellsLayout.current.meta.notes = n; }', [orient, notes])
       res = pg.evaluate('''async () => { const r = await WellsLayout.makePlan('pdf'); const b = new Uint8Array(await r.blob.arrayBuffer()); let s=''; for (const x of b) s += String.fromCharCode(x);
-          return { b64: btoa(s), ll: r.info.latLon || null, leg: r.info.legendBox || null }; }''')
+          return { b64: btoa(s), ll: r.info.latLon || null, leg: r.info.legendBox || null, keys: (r.info.titleFields || []).map(f => f.key), desc: r.info.setbackDesc, ovf: r.info.titleOverflow }; }''')
       ll = res['ll'] or {}
       line = ll.get('line', '')
-      ok = bool(re.fullmatch(r'Latitude: 33\.040321° N   Longitude: 116\.869654° W', line))
-      print(f'  {"PASS" if ok else "FAIL"} {vname} plot plan {orient}: dedicated line={line!r} src={ll.get("src")}')
-      if not ok: bad.append(f'{vname} plan {orient}')
+      tag = f'{orient}{"-notes" if notes else "-nonotes"}'
+      ok = bool(re.fullmatch(r'Latitude: 33\.040321° N   Longitude: 116\.869654° W', line)) and ll.get('drawn') is True
+      print(f'  {"PASS" if ok else "FAIL"} {vname} plot plan {tag}: dedicated line={line!r} drawn={ll.get("drawn")} src={ll.get("src")}')
+      if not ok: bad.append(f'{vname} plan {tag} latlon')
+      keys = res['keys']
+      ok = 'GPS' not in keys and not any('GPS' in k for k in keys)
+      print(f'  {"PASS" if ok else "FAIL"} {vname} plot plan {tag}: no bold GPS field (fields={keys})')
+      if not ok: bad.append(f'{vname} plan {tag} GPS field')
+      ok = 'Prepared by' in keys and 'Date' in keys and not any('·' in k for k in keys)
+      print(f'  {"PASS" if ok else "FAIL"} {vname} plot plan {tag}: separate Prepared by / Date')
+      if not ok: bad.append(f'{vname} plan {tag} prepared/date')
+      ok = res['desc'] is True  # (portrait: per-item check rows may still run out of room — pre-existing, reported as overflow)
+      print(f'  {"PASS" if ok else "FAIL"} {vname} plot plan {tag}: setback description shown={res["desc"]} overflow={res["ovf"]}')
+      if not ok: bad.append(f'{vname} plan {tag} setback desc/overflow')
+      orient = tag
       pdf = f'{tmp}/{vname}-{orient}.pdf'; open(pdf, 'wb').write(base64.b64decode(res['b64']))
       if OUT:
         subprocess.run(['pdftoppm', '-png', '-r', '110', '-singlefile', pdf, f'{OUT}/{A.prefix}-{vname}-plan-{orient}'], check=True)
         # zoom on the title block (right panel in landscape, bottom in portrait)
         from PIL import Image
         im = Image.open(f'{OUT}/{A.prefix}-{vname}-plan-{orient}.png'); w, h = im.size
-        (im.crop((int(w * 0.70), 0, w, int(h * 0.55))) if orient == 'landscape' else im.crop((0, int(h * 0.62), int(w * 0.55), h))).save(f'{OUT}/{A.prefix}-{vname}-plan-{orient}-zoom.png')
+        (im.crop((int(w * 0.70), 0, w, int(h * 0.55))) if orient.startswith('landscape') else im.crop((0, int(h * 0.62), int(w * 0.55), h))).save(f'{OUT}/{A.prefix}-{vname}-plan-{orient}-zoom.png')
     if errs: bad.append(f'{vname} page errors'); print('  errors:', errs[:3])
     ctx.close()
 print('ALL PASS' if not bad else f'{len(bad)} FAIL: {bad}'); sys.exit(1 if bad else 0)

@@ -933,15 +933,17 @@
     const text = (t, size, weight = 400, color = '#000') => {
       ctx.font = `${weight} ${fs(size)}px sans-serif`;
       for (const line of wrap(ctx, t, Wd())) {
-        if (y + fs(size) * 1.25 > bottom() && !nextCol()) return false;
+        if (y + fs(size) * 1.25 > bottom() && !nextCol()) { info.titleOverflow++; return false; }
         ctx.font = `${weight} ${fs(size)}px sans-serif`; ctx.fillStyle = color; ctx.textAlign = 'left'; ctx.textBaseline = 'top';
         ctx.fillText(line, X(), y); y += fs(size) * 1.25;
       }
       return true;
     };
     const rule = () => { y += 0.03 * DPI; ctx.beginPath(); ctx.moveTo(cols[col].x, y); ctx.lineTo(cols[col].x + cols[col].w, y); ctx.lineWidth = 2; ctx.strokeStyle = '#000'; ctx.stroke(); y += 0.06 * DPI; };
+    info.titleFields = []; info.titleOverflow = 0;
     const field = (key, v) => {
       if (y + fs(8) * 2.6 > bottom()) nextCol();
+      info.titleFields.push({ key, col });
       ctx.font = `700 ${fs(7.5)}px sans-serif`; ctx.fillStyle = '#475569'; ctx.textAlign = 'left'; ctx.textBaseline = 'top';
       ctx.fillText(key.toUpperCase(), X(), y); y += fs(7.5) * 1.15;
       text(v || '—', 10, 600);
@@ -954,11 +956,20 @@
     field('APN', l.apn);
     field('Address', l.address);
     { const g = planPoint(l);
-      if (g) { field('GPS', `${g.lat.toFixed(6)}, ${g.lon.toFixed(6)} (${g.src})`); y -= 0.015 * DPI;
-        text(WellsLL.long(g.lat, g.lon), portrait ? 7.5 : 8, 700, '#1e293b'); y += 0.015 * DPI;
-        info.latLon = { lat: g.lat, lon: g.lon, src: g.src, line: WellsLL.long(g.lat, g.lon) }; } }
-    if (portrait && planPoint(l)) field('Prepared by · Date', [l.meta.preparedBy, l.meta.date].filter(Boolean).join(' · '));
-    else { field('Prepared by', l.meta.preparedBy); field('Date', l.meta.date); }
+      // v31: only the labeled Latitude / Longitude line (the bold "GPS" field duplicated it and cost portrait space)
+      if (g) { info.latLon = { lat: g.lat, lon: g.lon, src: g.src, line: WellsLL.long(g.lat, g.lon), drawn: text(WellsLL.long(g.lat, g.lon), portrait ? 7.5 : 8, 700, '#1e293b') }; y += 0.03 * DPI; } }
+    // portrait: 'Prepared by' and 'Date' stay separate labeled fields, side by side on one row (saves a row in the half-width column)
+    if (portrait) {
+      if (y + fs(8) * 2.6 > bottom()) nextCol();
+      const x0 = X(), w0 = Wd(), wA = w0 * 0.6, y0 = y; let yA;
+      info.titleFields.push({ key: 'Prepared by', col }, { key: 'Date', col });
+      const sub = (key, v, x, w) => { ctx.font = `700 ${fs(7.5)}px sans-serif`; ctx.fillStyle = '#475569'; ctx.textAlign = 'left'; ctx.textBaseline = 'top';
+        ctx.fillText(key.toUpperCase(), x, y0); ctx.font = `600 ${fs(10)}px sans-serif`; ctx.fillStyle = '#000';
+        const ln = wrap(ctx, v || '—', w - 0.08 * DPI); ln.slice(0, 2).forEach((t, i) => ctx.fillText(t, x, y0 + fs(7.5) * 1.15 + i * fs(10) * 1.25));
+        return y0 + fs(7.5) * 1.15 + Math.min(2, ln.length) * fs(10) * 1.25; };
+      yA = Math.max(sub('Prepared by', l.meta.preparedBy, x0, wA), sub('Date', l.meta.date, x0 + wA, w0 - wA));
+      y = yA + 0.015 * DPI;
+    } else { field('Prepared by', l.meta.preparedBy); field('Date', l.meta.date); }
     field('Scale', `1 in ≈ ${Math.round(info.ftPerInch)} ft at letter size — use the bar scale`);
     if (l.meta.notes) field('Notes', l.meta.notes);
     if (portrait) nextCol(); else rule();
@@ -980,7 +991,7 @@
     info.legendBox = [Math.round(legX), Math.round(legY0), Math.round(cols[col].x + cols[col].w - legX), Math.round(Math.max(y, legY0) - legY0)];
     rule();
     text('WELL SETBACKS', 10.5, 800);
-    text('Sewer / tight line 50 ft · septic tank, distribution box, leach line / field, reserve area 100 ft · seepage pit 150 ft', 8, 500, '#334155');
+    info.setbackDesc = text('Sewer / tight line 50 ft · septic tank, distribution box, leach line / field, reserve area 100 ft · seepage pit 150 ft', 8, 500, '#334155');
     if (!chk.rows.length) text(chk.wells.length ? 'No septic items drawn.' : 'No well drawn.', 8.5, 500, '#64748b');
     else if (!chk.wells.length) text('No well drawn — setbacks not checked.', 8.5, 700, '#b45309');
     else {
