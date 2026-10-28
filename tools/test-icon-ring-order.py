@@ -51,7 +51,11 @@ with sync_playwright() as p, tempfile.TemporaryDirectory() as tmp:
     print(vname)
     pg.evaluate(f'async () => {{ const o = ({BUILD})(); const n = LayoutCore.normalize(o); n.opts = o.opts; await WellsLayout.Store.put(n); }}')
     pg.evaluate('() => WellsLayout.openList()'); pg.wait_for_selector('.l-item .ll-open'); pg.click('.l-item .ll-open'); pg.wait_for_selector('#loTabs')
+    pg.wait_for_timeout(1500)
+    try: pg.wait_for_load_state('networkidle', timeout=20000)
+    except Exception: pass
     pg.evaluate(f'() => WellsApp.map.setView([{LAT}, {LON - 0.0002}], 19, {{animate:false}})'); pg.wait_for_timeout(2500)
+    if pg.evaluate('() => WellsApp.map.getZoom()') != 19: pg.evaluate(f'() => WellsApp.map.setView([{LAT}, {LON-0.0002}], 19, {{animate:false}})'); pg.wait_for_timeout(2500)
     m = pg.evaluate('''() => { const map = WellsApp.map, z = (n) => +getComputedStyle(map.getPane(n)).zIndex, rings = [], icons = [];
         map.eachLayer((l) => { if (l instanceof L.Circle && l.options.fill === false && l.options.interactive === false) rings.push(l.options.pane || (l.options.renderer && l.options.renderer.options.pane)); });
         for (const s of WellsLayout.current.shapes) if (['well','pwell','tank'].includes(s.kind)) { const q = map.latLngToContainerPoint(s.pts[0]); icons.push({ kind: s.kind, x: q.x, y: q.y }); }
