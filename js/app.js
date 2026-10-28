@@ -63,7 +63,7 @@
   function searchHerePopup(latlng) {
     const { lat, lng } = latlng;
     const box = document.createElement('div'); box.className = 'popup tap-popup';
-    box.innerHTML = `${lat.toFixed(5)}, ${lng.toFixed(5)}<br><span class="muted elev">Elevation: …</span><br><button type="button" class="small search-here" id="searchHere">Search here</button>`;
+    box.innerHTML = `${lat.toFixed(5)}, ${lng.toFixed(5)}<br>${WellsLL.html(lat, lng)}<br><span class="muted elev">Elevation: …</span><br><button type="button" class="small search-here" id="searchHere">Search here</button>`;
     const b = box.querySelector('button');
     b.dataset.lat = lat; b.dataset.lon = lng;
     L.DomEvent.on(b, 'click', (ev) => { L.DomEvent.stop(ev); searchHereGo(lat, lng, b); });
@@ -183,10 +183,10 @@
     let slowT = null;
     try {
       drawMe();
-      setStatus(`Searching ${radius} mi around ${lat.toFixed(5)}, ${lon.toFixed(5)}…${offline() ? ' <b>(no signal?)</b>' : ''}`);
+      setStatus(`Searching ${radius} mi around ${lat.toFixed(5)}, ${lon.toFixed(5)} (${WellsLL.text(lat, lon)})…${offline() ? ' <b>(no signal?)</b>' : ''}`);
       state.searching = true;
       note(`⏳ Searching ${radius} mi here…${offline() ? ' (no signal?)' : ''}`, 'busy');
-      slowT = setTimeout(() => { if (id === state.reqId && state.searching) note('⏳ Still searching… a state or county server is slow', 'busy'), setStatus(`Still searching ${radius} mi around ${lat.toFixed(5)}, ${lon.toFixed(5)}… (a state or county server is slow; it gives up after about a minute)`); }, 10000);
+      slowT = setTimeout(() => { if (id === state.reqId && state.searching) note('⏳ Still searching… a state or county server is slow', 'busy'), setStatus(`Still searching ${radius} mi around ${lat.toFixed(5)}, ${lon.toFixed(5)} (${WellsLL.text(lat, lon)})… (a state or county server is slow; it gives up after about a minute)`); }, 10000);
       const t0 = performance.now();
       // Fetch a buffer beyond the radius so duplicates straddling the edge still pair up; views are cut back to the radius.
       // At 0 mi ("just this point") fetch a bit wider so the nearest wells can be shown if none are within 0.05 mi.
@@ -328,7 +328,7 @@
     const ll = [state.lat, state.lon];
     L.circle(ll, { radius: state.radius * 1609.344, color: '#38bdf8', weight: 2, fillOpacity: 0.05, interactive: false }).addTo(meLayer);
     L.marker(ll, { icon: L.divIcon({ className: '', html: '<div class="me-pin"></div>', iconSize: [18, 18], iconAnchor: [9, 9] }), zIndexOffset: 1000 })
-      .bindPopup(`<div class="popup"><h3>${/GPS/.test(state.how || '') ? 'Your location' : 'Search point'}</h3>${state.lat.toFixed(6)}, ${state.lon.toFixed(6)}<br>${esc(state.how || '')}</div>`).addTo(meLayer);
+      .bindPopup(`<div class="popup"><h3>${/GPS/.test(state.how || '') ? 'Your location' : 'Search point'}</h3>${state.lat.toFixed(6)}, ${state.lon.toFixed(6)}<br>${WellsLL.html(state.lat, state.lon)}<br>${esc(state.how || '')}</div>`).addTo(meLayer);
     map.fitBounds(L.latLng(ll).toBounds(Math.max(state.radius, 0.2) * 1609.344 * 2.1));
   }
 

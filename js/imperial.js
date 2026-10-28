@@ -67,7 +67,7 @@
         ${row('Depth', depth)}${row('SWL', r.swl != null ? esc(r.swl) + ' ft' : '')}${row('Yield', yld)}${row('Method', meth)}
         ${row('Casing', r.csg != null ? esc(r.csg) + ' in' : '')}${row('Perforated', perf)}${row('Driller', drl)}
         ${row('Location', loc)}${row('APN', esc(r.apn))}${row('Permit', pmt)}${row('Legacy log', esc(r.leg))}${row('TRS', trs)}
-        ${row('Lat / Lon', `${(+r.lat).toFixed(5)}, ${(+r.lon).toFixed(5)}`)}${row('Accuracy', a.s)}
+        ${row('Lat / Lon', `${(+r.lat).toFixed(5)}, ${(+r.lon).toFixed(5)}<br>${WellsLL.html(+r.lat, +r.lon)}`)}${row('Accuracy', a.s)}
       </table>
       ${a.warn ? `<div class="imp-warn">${a.warn}</div>` : ''}
       ${r.oc ? '<div class="imp-oc">⚠ DWR coordinates fall outside the Imperial County line.</div>' : ''}

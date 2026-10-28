@@ -188,3 +188,11 @@ sites incl. photos, septic layouts, My Jobs). Android opens the Share sheet (sav
 **📥 Merge from backup** (also accepts old sites backups and single layout files) never deletes or duplicates: same id → newer
 `updated` wins; My Jobs merge by job key (missing jobs added, local kept). Nothing is uploaded; the file goes only where you send it.
 Layout import (✏️ list) now also merges by id instead of making "(imported)" copies.
+
+## Labeled latitude / longitude (v30)
+Every GPS readout keeps its original numbers and also shows labeled decimal degrees, e.g. `Lat 33.040321° N · Lon 116.869654° W`
+(`js/latlon.js`, `WellsLL`; tap the blue chip to copy). Shown in: map tap popup, search-point popup, status line, 🔍 search pin popup,
+proposed well site popup / edit form / GPS capture / My sites list / share text, My Jobs popup, Imperial WCR popup, Well Layout list +
+🖨 Plan tab, About feedback map centre, and the plot plan PDF/PNG title block (GPS field + dedicated `Latitude: … Longitude: …` line;
+source = proposed well, else first well, else the layout's map centre). Display only, nothing saved changes.
+Test: `tools/test-latlon-display.py [--base URL] [--shots DIR]`.

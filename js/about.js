@@ -7,7 +7,7 @@
   'use strict';
   const FEEDBACK_EMAIL = '';   // e.g. 'feedback@example.com'; empty = open a GitHub issue instead
   const ISSUE_URL = 'https://github.com/aspinwelldrilling-commits/wells-nearby/issues/new';
-  const APP_VERSION = 'v29';   // keep in step with the cache version in sw.js (wells-nearby-shell-vNN)
+  const APP_VERSION = 'v30';   // keep in step with the cache version in sw.js (wells-nearby-shell-vNN)
   const NOTICE_KEY = 'wellsNearby.noticeDismissed';
   const SUBJECT = 'Wells Nearby feedback';
   const $ = (id) => document.getElementById(id);
@@ -15,7 +15,7 @@
   function mapView() {
     const m = window.WellsApp && WellsApp.map;
     if (!m) return 'map not loaded';
-    try { const c = m.getCenter(); return `${c.lat.toFixed(5)}, ${c.lng.toFixed(5)} (zoom ${m.getZoom()})`; } catch (e) { return 'unknown'; }
+    try { const c = m.getCenter(); return `${c.lat.toFixed(5)}, ${c.lng.toFixed(5)} (zoom ${m.getZoom()}) · ${window.WellsLL ? WellsLL.text(c.lat, c.lng) : ''}`; } catch (e) { return 'unknown'; }
   }
   function feedbackBody() {
     return ['What were you trying to do?', '', '', 'What happened?', '', '', 'What would help?', '', '',

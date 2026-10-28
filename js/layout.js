@@ -595,11 +595,19 @@
     $('loLegAdd').onclick = () => { pushUndo(); const sym = $('loLegSym').value; lay.legend.push({ id: LC.newId('lg'), label: 'New entry', color: '#ffffff', dash: 'solid', width: 3, sym }); changed(); };
     $('loLegReset').onclick = () => { pushUndo(); for (const d of LC.DEFAULT_LEGEND) if (!LC.entryOf(lay, d.id)) lay.legend.push(JSON.parse(JSON.stringify(d))); changed(); };
   }
+  /** GPS point for a layout (display only): the proposed well, else the first well drawn, else the layout's saved map centre. */
+  function planPoint(l) {
+    const ws = LC.wellsOf(l), pw = ws.find((w) => w.shape.kind === 'pwell') || ws[0];
+    if (pw && Number.isFinite(pw.lat) && Number.isFinite(pw.lon)) return { lat: pw.lat, lon: pw.lon, src: (LC.KINDS[pw.shape.kind] || {}).label || 'well' };
+    const v = l.view; if (v && Number.isFinite(+v.lat) && Number.isFinite(+v.lon)) return { lat: +v.lat, lon: +v.lon, src: 'layout map centre' };
+    return null;
+  }
+  const gpsHtml = (l) => { const g = planPoint(l); return g ? `<div class="lo-gps" id="loGps">GPS <b>${g.lat.toFixed(6)}, ${g.lon.toFixed(6)}</b> <small class="muted">(${esc(g.src)})</small><br>${WellsLL.html(g.lat, g.lon)}</div>` : ''; };
   function renderPlanTab(body) {
     const o = lay.opts, m = lay.meta;
     const seg = (id, key, opts) => `<div class="seg lo-seg" id="${id}">${opts.map(([v, t]) => `<button type="button" data-v="${v}" class="${o[key] === v ? 'on' : ''}">${t}</button>`).join('')}</div>`;
     const canShare = !!(navigator.canShare && window.File);
-    body.innerHTML = `<label>Owner / job name<input type="text" id="loName" value="${esc(lay.name)}" maxlength="120"></label>
+    body.innerHTML = `${gpsHtml(lay)}<label>Owner / job name<input type="text" id="loName" value="${esc(lay.name)}" maxlength="120"></label>
       <label>APN<input type="text" id="loApn" inputmode="numeric" value="${esc(lay.apn)}" placeholder="285-030-06-00"></label>
       <div class="sb-row"><button type="button" class="small" id="loParcel">▦ Load parcel lines from APN</button></div><div id="loParcelMsg" class="small-note"></div>
       <label>Address<input type="text" id="loAddr" value="${esc(lay.address)}" maxlength="200"></label>
@@ -945,8 +953,12 @@
     field('Owner / job', l.name);
     field('APN', l.apn);
     field('Address', l.address);
-    field('Prepared by', l.meta.preparedBy);
-    field('Date', l.meta.date);
+    { const g = planPoint(l);
+      if (g) { field('GPS', `${g.lat.toFixed(6)}, ${g.lon.toFixed(6)} (${g.src})`); y -= 0.015 * DPI;
+        text(WellsLL.long(g.lat, g.lon), portrait ? 7.5 : 8, 700, '#1e293b'); y += 0.015 * DPI;
+        info.latLon = { lat: g.lat, lon: g.lon, src: g.src, line: WellsLL.long(g.lat, g.lon) }; } }
+    if (portrait && planPoint(l)) field('Prepared by · Date', [l.meta.preparedBy, l.meta.date].filter(Boolean).join(' · '));
+    else { field('Prepared by', l.meta.preparedBy); field('Date', l.meta.date); }
     field('Scale', `1 in ≈ ${Math.round(info.ftPerInch)} ft at letter size — use the bar scale`);
     if (l.meta.notes) field('Notes', l.meta.notes);
     if (portrait) nextCol(); else rule();
@@ -1041,6 +1053,7 @@
       const it = document.createElement('div'); it.className = 'l-item';
       it.innerHTML = `<div class="l-main"><b>${esc(l.name)}</b> <small class="muted">${esc(when(l.updated))}</small><br>
         ${l.apn ? `APN <b>${esc(l.apn)}</b>` : '<span class="muted">no APN</span>'}${l.address ? ` · <small>${esc(l.address)}</small>` : ''}<br>
+        ${(() => { const g = planPoint(l); return g ? `<small class="muted">GPS ${g.lat.toFixed(6)}, ${g.lon.toFixed(6)}</small> ${WellsLL.html(g.lat, g.lon)}<br>` : ''; })()}
         <small class="muted">${l.shapes.length} item${l.shapes.length === 1 ? '' : 's'}${chk.inside.length ? ` · <b class="bad">⚠ ${chk.inside.length} setback problem${chk.inside.length > 1 ? 's' : ''}</b>` : chk.rows.length && chk.wells.length ? ' · ✓ setbacks OK' : ''}</small></div>
         <div class="site-actions"><button type="button" class="small good ll-open">✏️ Open</button><button type="button" class="small ll-ren">Rename</button><button type="button" class="small ll-json">⬇ Backup</button><button type="button" class="small danger ll-del" aria-label="Delete">🗑</button></div>`;
       it.querySelector('.l-main').onclick = () => openEditor(l);

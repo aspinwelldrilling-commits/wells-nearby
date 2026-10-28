@@ -344,7 +344,7 @@
     box.innerHTML = `<div class="mj-tag">My job · on this device only</div><h3>${esc(j.name)}</h3>
       <div class="small">${esc(j.year ? 'Drilling ' + j.year : j.group)}${j.kind !== 'new' ? ` · <b>${esc(j.kind === 'destruction' ? 'well destruction' : 'destruction + new well')}</b>` : ''}</div>
       ${j.parcel && (j.parcel.apn || j.parcel.address) ? `<div class="small">APN ${esc(j.parcel.apn || '—')}${j.parcel.address ? ' · ' + esc(j.parcel.address) : ''}</div>` : ''}
-      <div class="muted small">Well point: ${j.well.lat.toFixed(6)}, ${j.well.lon.toFixed(6)} · ${esc(j.well.src)}</div>${others}
+      <div class="muted small">Well point: ${j.well.lat.toFixed(6)}, ${j.well.lon.toFixed(6)} · ${esc(j.well.src)}<br>${WellsLL.html(j.well.lat, j.well.lon)}</div>${others}
       ${matchHtml(j)}
       <div class="site-actions"><button type="button" class="small mj-near">💧 Wells nearby</button><button type="button" class="small mj-zoom">🔍 Drawings</button>
         <a class="small btnlink" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=${j.well.lat.toFixed(6)},${j.well.lon.toFixed(6)}">🧭 Directions</a></div>`;

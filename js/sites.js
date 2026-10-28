@@ -100,7 +100,7 @@
       <table>
         <tr><td>APN</td><td><b>${esc(s.apn || '—')}</b> ${apnBadge(s)}</td></tr>
         ${s.address ? `<tr><td>Address</td><td>${esc(s.address)}</td></tr>` : ''}
-        <tr><td>GPS</td><td>${s.lat.toFixed(6)}, ${s.lon.toFixed(6)}<br><small>${gpsNote(s)}</small></td></tr>
+        <tr><td>GPS</td><td>${s.lat.toFixed(6)}, ${s.lon.toFixed(6)}<br>${WellsLL.html(s.lat, s.lon)}<br><small>${gpsNote(s)}</small></td></tr>
         ${s.phone ? `<tr><td>Phone</td><td><a href="tel:${esc(s.phone)}">${esc(s.phone)}</a></td></tr>` : ''}
         ${s.notes ? `<tr><td>Notes</td><td>${esc(s.notes)}</td></tr>` : ''}
         <tr><td>Tagged</td><td>${esc(when(s.created))}</td></tr>
@@ -133,7 +133,7 @@
   const gmapsUrl = (s) => `https://www.google.com/maps/dir/?api=1&destination=${s.lat.toFixed(6)},${s.lon.toFixed(6)}`;
   function summaryText(s) {
     return [`Proposed well site — ${s.customer}`, s.phone ? `Phone: ${s.phone}` : '', `APN: ${s.apn || '(not looked up yet)'}`, s.address ? `Address: ${s.address}` : '',
-      `GPS: ${s.lat.toFixed(6)}, ${s.lon.toFixed(6)}${s.gps && s.gps.accuracyFt != null ? ` (±${s.gps.accuracyFt} ft)` : ''}${s.adjusted ? ' (pin adjusted)' : ''}`,
+      `GPS: ${s.lat.toFixed(6)}, ${s.lon.toFixed(6)}${s.gps && s.gps.accuracyFt != null ? ` (±${s.gps.accuracyFt} ft)` : ''}${s.adjusted ? ' (pin adjusted)' : ''}`, WellsLL.text(s.lat, s.lon),
       `Map: https://www.google.com/maps/search/?api=1&query=${s.lat.toFixed(6)},${s.lon.toFixed(6)}`, s.notes ? `Notes: ${s.notes}` : '', `Tagged: ${when(s.created)}`].filter(Boolean).join('\n');
   }
   async function share(s) {
@@ -238,7 +238,7 @@
       const cls = accClass(best.accuracyFt);
       $('gpsAcc').className = 'acc ' + cls;
       $('gpsAcc').innerHTML = `±${best.accuracyFt} ft <small>${cls === 'good' ? 'good' : cls === 'ok' ? 'fair' : 'poor'}</small>`;
-      $('gpsSub').textContent = `${fixes} fix${fixes === 1 ? '' : 'es'} · best of ${el}s${done ? ' — done refining' : ` (refining up to ${G.maxWaitS}s)`} · ${best.lat.toFixed(6)}, ${best.lon.toFixed(6)}`;
+      $('gpsSub').textContent = `${fixes} fix${fixes === 1 ? '' : 'es'} · best of ${el}s${done ? ' — done refining' : ` (refining up to ${G.maxWaitS}s)`} · ${best.lat.toFixed(6)}, ${best.lon.toFixed(6)} · ${WellsLL.text(best.lat, best.lon)}`;
       cap.disabled = false;
       cap.className = 'big ' + cls;
       cap.textContent = cls === 'good' || done ? `Capture (±${best.accuracyFt} ft)` : `Capture anyway (±${best.accuracyFt} ft)`;
@@ -317,7 +317,7 @@
     const r = editing; if (!r || !$('fGps')) return;
     const g = r.gps || {};
     $('fGps').innerHTML = `<b>${r.lat.toFixed(6)}, ${r.lon.toFixed(6)}</b> <span class="acc-chip ${accClass(g.accuracyFt)}">${g.manual ? 'placed by hand' : g.accuracyFt != null ? '±' + g.accuracyFt + ' ft' : ''}</span>
-      ${r.adjusted ? `<span class="badge warn">pin moved ${r.adjustedFt} ft</span>` : ''}<br><small>Drag the orange pin on the map to fine-tune.</small>`;
+      ${r.adjusted ? `<span class="badge warn">pin moved ${r.adjustedFt} ft</span>` : ''}<br>${WellsLL.html(r.lat, r.lon)}<br><small>Drag the orange pin on the map to fine-tune.</small>`;
   }
   function renderParcel(msg) {
     const r = editing; if (!r || !$('fParcel')) return;
@@ -393,7 +393,7 @@
       const it = document.createElement('div'); it.className = 'l-item';
       it.innerHTML = `<div class="l-main"><b>${esc(s.customer)}</b> <small class="muted">${esc(when(s.created))}</small><br>
         APN <b>${esc(s.apn || '—')}</b> ${apnBadge(s)}${s.address ? `<br><small>${esc(s.address)}</small>` : ''}<br>
-        <small class="muted">${s.lat.toFixed(6)}, ${s.lon.toFixed(6)} · ${gpsNote(s)}${s.photo ? ' · 📷' : ''}</small>${window.WellsSeptic ? WellsSeptic.summaryHtml(s) : ''}</div><div class="site-actions"></div>`;
+        <small class="muted">${s.lat.toFixed(6)}, ${s.lon.toFixed(6)} · ${gpsNote(s)}${s.photo ? ' · 📷' : ''}</small><br>${WellsLL.html(s.lat, s.lon)}${window.WellsSeptic ? WellsSeptic.summaryHtml(s) : ''}</div><div class="site-actions"></div>`;
       it.querySelector('.l-main').onclick = () => showOnMap(s);
       actionButtons(s, it.querySelector('.site-actions'), false);
       box.appendChild(it);

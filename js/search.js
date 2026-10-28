@@ -415,7 +415,7 @@
     pinLayer.clearLayers();
     if (c.rings) L.polygon(c.rings, { color: '#f472b6', weight: 3, fill: false, dashArray: '6 4', interactive: false }).addTo(pinLayer);
     const m = L.marker([c.lat, c.lon], { icon: L.divIcon({ className: '', html: '<div class="as-pin"><span>🔎</span></div>', iconSize: [30, 36], iconAnchor: [15, 33], popupAnchor: [0, -30] }), zIndexOffset: 1200 })
-      .bindPopup(() => `<div class="popup"><h3>${esc(c.label)}</h3>${c.sub ? esc(c.sub) + '<br>' : ''}<small class="muted">${c.lat.toFixed(5)}, ${c.lon.toFixed(5)}</small></div>`).addTo(pinLayer);
+      .bindPopup(() => `<div class="popup"><h3>${esc(c.label)}</h3>${c.sub ? esc(c.sub) + '<br>' : ''}<small class="muted">${c.lat.toFixed(5)}, ${c.lon.toFixed(5)}</small><br>${WellsLL.html(c.lat, c.lon)}</div>`).addTo(pinLayer);
     pinAt = { lat: c.lat, lon: c.lon, marker: m };
   }
   function clearPin() { pinLayer.clearLayers(); pinAt = null; }
