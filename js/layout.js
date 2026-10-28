@@ -324,6 +324,31 @@
     const open = tool ? legPeek : legOpen;   // folded while drawing so it never eats a tap
     d.innerHTML = `<button type="button" class="lo-legbtn">Legend ${open ? '▾' : '▸'}</button>${open ? `<div class="lo-legrows">${used.map((e) => `<div>${swatch(e, 24, 14)}<span>${esc(e.label)}</span></div>`).join('')}${rings.map((r) => `<div>${swatch(RING_ENTRY(r), 24, 14)}<span>${r.ft} ft well setback</span></div>`).join('')}</div>` : ''}`;
     d.querySelector('.lo-legbtn').onclick = () => { if (tool) legPeek = !open; else legOpen = !open; renderMapLegend(LC.setbackChecks(lay)); };
+    requestAnimationFrame(clearLegend);
+  }
+  // v28: call-out labels (measurements, sizes, setback distances) that would sit under the map legend are slid just clear of it
+  // (to its right or above it, whichever is the shorter move), so every call-out stays readable and the legend stays clean.
+  function clearLegend() {
+    const d = legCtl.getContainer();
+    const lbls = document.querySelectorAll('.lo-lblw .lo-lbl');
+    for (const e of lbls) { e.style.marginLeft = ''; e.style.marginTop = ''; e.classList.remove('lo-nudged'); }
+    if (!d || !active || d.classList.contains('empty') || !d.offsetWidth) return;
+    const g = d.getBoundingClientRect(), pad = 4, mr = map.getContainer().getBoundingClientRect();
+    const placed = [];
+    for (const e of lbls) {
+      const r = e.getBoundingClientRect();
+      if (!r.width || r.right < g.left - pad || r.left > g.right + pad || r.bottom < g.top - pad || r.top > g.bottom + pad) continue;
+      const dx = g.right + pad - r.left, dy = g.top - pad - r.bottom;   // move right (dx > 0) or up (dy < 0)
+      let mx = 0, my = 0;
+      if (Math.abs(dy) <= dx || r.right + dx > mr.right) my = dy; else mx = dx;
+      // stack labels pushed to the same place so they don't land on each other
+      for (let i = 0; i < 20; i++) {
+        const b = { l: r.left + mx, t: r.top + my, r: r.right + mx, b: r.bottom + my };
+        if (!placed.some((p) => b.l < p.r && p.l < b.r && b.t < p.b && p.t < b.b)) { placed.push(b); break; }
+        my -= r.height + 2;
+      }
+      e.style.marginLeft = mx + 'px'; e.style.marginTop = my + 'px'; e.classList.add('lo-nudged');
+    }
   }
 
   // ------------------------------------------------------------------ enter / leave drawing mode
@@ -374,6 +399,7 @@
     map.invalidateSize({ pan: false });
     lay = null; undo = [];
   }
+  map.on('zoomend moveend resize', () => { if (active) clearLegend(); });
   map.on('moveend', () => { if (active && lay) { const c = map.getCenter(); lay.view = { lat: +c.lat.toFixed(6), lon: +c.lng.toFixed(6), z: map.getZoom() }; scheduleSave(); } });
 
   // ------------------------------------------------------------------ the sheet: editor
@@ -675,7 +701,29 @@
     lines.forEach((t, i) => ctx.fillText(t, x0 + w / 2, y0 + 2 * k + lh * (i + 0.5)));
   }
   function strokePath(ctx, pts, close) { ctx.beginPath(); pts.forEach((p, i) => (i ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y))); if (close) ctx.closePath(); }
-  function drawPlanShapes(ctx, l, P, k) {
+  const boxHit = (a, b) => a[0] < b[0] + b[2] && b[0] < a[0] + a[2] && a[1] < b[1] + b[3] && b[1] < a[1] + a[3];
+  /** Plot plan call-out: draw a pill at the first spot (as asked, then nudged up / down / sideways) clear of the keep-out boxes
+   * (scale bar, north arrow) and of the other call-outs already placed; record its box in out.boxes (v28). */
+  function placePill(ctx, x, y, text, k, o, out) {
+    const lines = String(text).split('\n');
+    ctx.font = `700 ${Math.round(11.5 * k)}px sans-serif`;
+    const lh = 14 * k, w = Math.max(...lines.map((t) => ctx.measureText(t).width)) + 10 * k, h = lines.length * lh + 4 * k;
+    const x0 = o.left ? x : o.right ? x - w : x - w / 2, y0 = y - h / 2, step = h + 2 * k;
+    const blocked = (bx) => out.keepOut.some((q) => boxHit(bx, q));
+    let dx = 0, dy = 0;
+    if (blocked([x0, y0, w, h])) {
+      found: for (let i = 1; i < 40; i++) for (const [ax, ay] of [[0, -1], [0, 1], [1, 0], [-1, 0], [1, -1], [-1, -1], [1, 1], [-1, 1]]) {
+        const tx = ax * i * w / 3, ty = ay * i * step / 2, bx = [x0 + tx, y0 + ty, w, h];
+        if (!blocked(bx) && bx[0] >= out.frame.x && bx[1] >= out.frame.y && bx[0] + w <= out.frame.x + out.frame.w && bx[1] + h <= out.frame.y + out.frame.h) { dx = tx; dy = ty; break found; }
+      }
+    }
+    if (dx || dy) {   // thin leader from where it belonged
+      ctx.beginPath(); ctx.moveTo(x0 + w / 2, y0 + h / 2); ctx.lineTo(x0 + dx + w / 2, y0 + dy + h / 2); ctx.strokeStyle = 'rgba(15,23,42,.85)'; ctx.lineWidth = 1.5 * k; ctx.stroke();
+    }
+    out.boxes.push({ t: text, r: [x0 + dx, y0 + dy, w, h], moved: !!(dx || dy) });
+    pill(ctx, x + dx, y + dy, text, k, o);
+  }
+  function drawPlanShapes(ctx, l, P, k, out = { keepOut: [], boxes: [], frame: { x: -1e9, y: -1e9, w: 2e9, h: 2e9 } }) {
     const chk = LC.setbackChecks(l), bad = new Set(l.opts.warnings !== false ? chk.inside.map((r) => r.shape.id) : []);
     ctx.lineJoin = 'round';
     if (l.opts.rings) for (const w of chk.wells) for (const r of K.RINGS) {
@@ -720,11 +768,11 @@
     for (const b of labelsFor(l, chk)) {
       if (!b.ll) continue;
       const q = P(b.ll);
-      if (b.cls === 'pt') pill(ctx, q.x + 16 * k, q.y, b.text, k, { left: true });
-      else if (b.cls === 'bad') pill(ctx, q.x + (b.right ? 18 : -18) * k, q.y, b.text, k, { bg: '#dc2626', left: b.right, right: !b.right });
-      else if (b.cls === 'ring') pill(ctx, q.x, q.y, b.text, k, { border: b.color });
-      else if (b.cls === 'seg') pill(ctx, q.x, q.y, b.text, k, { bg: 'rgba(15,23,42,.7)' });
-      else pill(ctx, q.x, q.y, b.text, k);
+      if (b.cls === 'pt') placePill(ctx, q.x + 16 * k, q.y, b.text, k, { left: true }, out);
+      else if (b.cls === 'bad') placePill(ctx, q.x + (b.right ? 18 : -18) * k, q.y, b.text, k, { bg: '#dc2626', left: b.right, right: !b.right }, out);
+      else if (b.cls === 'ring') placePill(ctx, q.x, q.y, b.text, k, { border: b.color }, out);
+      else if (b.cls === 'seg') placePill(ctx, q.x, q.y, b.text, k, { bg: 'rgba(15,23,42,.7)' }, out);
+      else placePill(ctx, q.x, q.y, b.text, k, {}, out);
     }
   }
   function northArrow(ctx, x, y, s) {
@@ -792,7 +840,14 @@
       }
       ctx.globalAlpha = 1; }
     }
-    drawPlanShapes(ctx, l, P, k);
+    // keep-out boxes drawn over the map afterwards (north arrow, scale bar): call-outs are placed clear of them (v28)
+    const naR = 0.3 * DPI * 1.05, naX = fr.x + fr.w - 0.45 * DPI, naY = fr.y + 0.5 * DPI;
+    const lat0 = cLL.lat, sc0 = LC.niceScale(40075016.686 * Math.cos(lat0 * Math.PI / 180) / (256 * Math.pow(2, z)) * LC.FT_PER_M, 1.6 * DPI);
+    const sbox = [fr.x + 0.1 * DPI, fr.y + fr.h - 0.72 * DPI, Math.max(sc0.px + 0.6 * DPI, 2.3 * DPI), 0.6 * DPI];
+    const out = { keepOut: [[naX - naR, naY - naR * 1.25, 2 * naR, naR * 2.25], sbox], boxes: [], frame: fr };
+    drawPlanShapes(ctx, l, P, k, out);
+    info.labelBoxes = out.boxes.map((b) => ({ t: b.t, moved: b.moved, r: b.r.map((v) => Math.round(v)), hidden: b.r[0] + b.r[2] < fr.x || b.r[0] > fr.x + fr.w || b.r[1] + b.r[3] < fr.y || b.r[1] > fr.y + fr.h }));
+    info.keepOut = out.keepOut.map((b) => b.map(Math.round));
     ctx.restore();
     ctx.lineWidth = 3; ctx.strokeStyle = '#000'; ctx.strokeRect(fr.x, fr.y, fr.w, fr.h);
     // ---- north arrow + scale bar on the map
@@ -866,6 +921,7 @@
     field('Scale', `1 in ≈ ${Math.round(info.ftPerInch)} ft at letter size — use the bar scale`);
     if (l.meta.notes) field('Notes', l.meta.notes);
     if (portrait) nextCol(); else rule();
+    const legX = cols[col].x, legY0 = y;
     text('LEGEND', 10.5, 800);
     const chk = LC.setbackChecks(l);
     const rows = LC.usedLegend(l).map((e) => [e, e.label]);
@@ -880,6 +936,7 @@
       lines.forEach((t, i) => ctx.fillText(t, X() + 0.5 * DPI, y + rh / 2 + (i - (lines.length - 1) / 2) * fs(9) * 1.2));
       y += rh;
     }
+    info.legendBox = [Math.round(legX), Math.round(legY0), Math.round(cols[col].x + cols[col].w - legX), Math.round(Math.max(y, legY0) - legY0)];
     rule();
     text('WELL SETBACKS', 10.5, 800);
     text('Sewer / tight line 50 ft · septic tank, distribution box, leach line / field, reserve area 100 ft · seepage pit 150 ft', 8, 500, '#334155');

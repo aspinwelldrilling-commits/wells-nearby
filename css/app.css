@@ -357,13 +357,14 @@ body.layout-open .sewer-ctl, body.layout-open .myjobs-ctl, body.layout-open .bot
 .lo-lbl.lo-ok { background: rgba(22,101,52,.92); }
 .lo-lbl.lo-ring { border: 2px solid; font-size: 11px; }
 .lo-lbl.lo-seg { background: rgba(15,23,42,.65); font-size: 10.5px; }
+.lo-lbl.lo-nudged { box-shadow: 0 0 0 1.5px #fff, 0 1px 4px rgba(0,0,0,.6); }
 .lo-lbl.lo-dim { background: #fff; color: #000; border: 1.5px solid #000; }
 .lo-h div, .lo-hm div, .lo-hmove div { box-sizing: border-box; border-radius: 50%; margin: 4px; width: 24px; height: 24px; }
 .lo-h div { background: #fff; border: 3px solid #0f172a; box-shadow: 0 0 5px rgba(0,0,0,.7); }
 .lo-h.on div { background: #22d3ee; }
 .lo-hm div { width: 18px; height: 18px; margin: 7px; background: rgba(255,255,255,.7); border: 2px solid #0f172a; font: 700 13px/13px sans-serif; text-align: center; color: #0f172a; }
 .lo-hmove div { width: 30px; height: 30px; margin: 1px; background: #0f172a; color: #fff; border: 2px solid #fff; font: 700 18px/26px sans-serif; text-align: center; box-shadow: 0 0 5px rgba(0,0,0,.7); }
-.lo-mapleg { background: rgba(255,255,255,.95); border-radius: 8px; box-shadow: 0 1px 5px rgba(0,0,0,.45); font-size: 11.5px; max-width: 190px; max-height: 38vh; overflow-y: auto; }
+.lo-mapleg { position: relative; z-index: 1; background: #fff; border-radius: 8px; box-shadow: 0 1px 5px rgba(0,0,0,.45); font-size: 11.5px; max-width: 190px; max-height: 38vh; overflow-y: auto; }
 .lo-mapleg.empty { display: none; }
 .lo-legbtn { display: block; width: 100%; text-align: left; font-size: 12px; font-weight: 700; padding: 4px 8px; border: 0; background: transparent; }
 .lo-legrows { padding: 0 8px 6px; }

@@ -7,7 +7,7 @@
   'use strict';
   const FEEDBACK_EMAIL = '';   // e.g. 'feedback@example.com'; empty = open a GitHub issue instead
   const ISSUE_URL = 'https://github.com/aspinwelldrilling-commits/wells-nearby/issues/new';
-  const APP_VERSION = 'v27';   // keep in step with the cache version in sw.js (wells-nearby-shell-vNN)
+  const APP_VERSION = 'v28';   // keep in step with the cache version in sw.js (wells-nearby-shell-vNN)
   const NOTICE_KEY = 'wellsNearby.noticeDismissed';
   const SUBJECT = 'Wells Nearby feedback';
   const $ = (id) => document.getElementById(id);
