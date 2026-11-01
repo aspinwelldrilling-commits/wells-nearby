@@ -238,6 +238,24 @@
     // reports with no County permit (reports matched to a County permit are left out; their WCR link shows in the County
     // popup). Own overlays (js/sdoswcr.js): water + destructions (on), monitoring & other (off). The live State search
     // returns the same WCRs, so the overlays are not merged into the search table / stats.
+    // San Bernardino County: state DWR OSWCR snapshot (tools/build_sb_oswcr.py -> data/sb-oswcr, same record shape as
+    // data/sd-oswcr) + the County Environmental Health weekly well-permit PDF (tools/sb_weekly_permits.py ->
+    // data/sbcounty-permits/permits.json, placed at the APN parcel centre, else PLSS section centre = approximate).
+    // Drawn by js/sbcounty.js; not merged into the search table / stats (the live State search returns the same WCRs).
+    sbCounty: {
+      manifestUrl: 'data/sb-oswcr/manifest.json',
+      permitsUrl: 'data/sbcounty-permits/permits.json',
+      label: 'SB County state WCRs (DWR): water wells + destructions',
+      otherLabel: 'SB County state WCRs (DWR): monitoring & other',
+      permitLabel: 'SB County well permits (weekly EH report)',
+      color: '#0d9488',        // teal: water-supply wells (dashed hollow = section centroid / approximate)
+      destroyRing: '#111827',  // destructions: teal fill inside a thick near-black ring
+      otherColor: '#64748b',
+      permitColor: '#e11d48',  // rose squares: County permits
+      minZoom: 12,
+      defaultOn: true,
+    },
+
     sdOswcr: {
       manifestUrl: 'data/sd-oswcr/manifest.json',
       matchedUrl: 'data/sd-oswcr/matched.json',

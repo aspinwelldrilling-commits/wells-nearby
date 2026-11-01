@@ -196,3 +196,19 @@ proposed well site popup / edit form / GPS capture / My sites list / share text,
 🖨 Plan tab, About feedback map centre, and the plot plan PDF/PNG title block (GPS field + dedicated `Latitude: … Longitude: …` line;
 source = proposed well, else first well, else the layout's map centre). Display only, nothing saved changes.
 Test: `tools/test-latlon-display.py [--base URL] [--shots DIR]`.
+
+## San Bernardino County (DWR OSWCR snapshot + weekly County permits, v33)
+- **State WCRs:** `python3 tools/build_sb_oswcr.py [--refresh]` → `data/sb-oswcr/manifest.json` + `tiles/<iy>_<ix>.json` (0.025° grid,
+  same slim record shape / categories as `data/sd-oswcr`: `k` = w water supply, d destruction, m monitoring/other; `ap` = DWR
+  section-centroid point). Source: OSWCR `CountyName='San Bernardino'`; raw pull cached outside the repo
+  (`/workspace/wells-state/sb-oswcr/raw`). Exact points outside the county line (TIGER 06071) / no coordinates → `unplaced.json`.
+- **County permits:** San Bernardino EH posts only the latest week as a PDF
+  (`ehs.sbcounty.gov/.../weekly-well-report.pdf`: PERMIT_NO, RECORD_ID, TWN/RNG/SEC, city, APN, description, type of work,
+  contractor; no depth / GPS). Weekly (idempotent): `python3 tools/sb_weekly_permits.py --push` → archives the PDF as
+  `data/sbcounty-permits/archive/<week-end>.pdf`, parses it, de-dupes by PERMIT_NO into `data/sbcounty-permits/permits.json`,
+  places new permits at the parcel centre by APN (DWR statewide LightBox parcels, `TAXAPN`, `pl:'apn'`), else the PLSS section
+  centre from TWN/RNG/SEC, San Bernardino Meridian (BLM CadNSDI, `pl:'section'`, labelled approximate), then commits only that
+  folder (`git pull --rebase` first). `--pdf FILE` parses a saved PDF.
+- App: `js/sbcounty.js` (config `sbCounty`): teal WCR pins (water + destructions on; monitoring & other off), rose squares =
+  permits (dashed = approximate). Not merged into search table / stats. Test: `/workspace/.venv-pw/bin/python tools/test-sbcounty.py [--base URL]`
+  (phone 390×844 + desktop 1440×900, screenshots in `screenshots/sbcounty/`).
