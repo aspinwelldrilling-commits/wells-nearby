@@ -42,6 +42,19 @@ with sync_playwright() as p, tempfile.TemporaryDirectory() as prof:
     check('WCR' in html and 'Accuracy' in html, 'popup shows WCR # and DWR accuracy')
     check('WCR PDF' in html or 'No PDF link' in html, 'popup shows PDF link state')
     pg.screenshot(path=os.environ.get('IMPERIAL_SHOT', '/tmp/imperial-popup.png'))
+    # TRS-placed record whose DWR lat/lon (Fresno) was replaced: popup must say so
+    pg.goto(f'{base}index.html?lat=32.6871&lon=-115.3355&r=1&view=both')
+    pg.wait_for_function("window.WellsImperial && WellsImperial.records['WCR2005-016498']", timeout=30000)
+    rec = pg.evaluate("WellsImperial.records['WCR2005-016498']")
+    rec = rec.r if isinstance(rec, dict) and 'r' in rec else rec
+    check(isinstance(rec, dict) and rec.get('trs') == 1 and rec.get('rep') == 1, 'WCR2005-016498 placed from TRS with replaced coords')
+    pg.evaluate('''() => { const r = WellsImperial.records['WCR2005-016498']; let hit = null;
+        WellsImperial.layer.eachLayer((l) => { const p = l.getLatLng && l.getLatLng(); if (!hit && p && Math.abs(p.lat - r.lat) < 1e-5 && Math.abs(p.lng - r.lon) < 1e-5) hit = l; });
+        WellsApp.map.closePopup(); hit.openPopup(); }''')
+    pg.wait_for_selector('.leaflet-popup-content .imp-tag', timeout=5000)
+    t2 = pg.inner_text('.leaflet-popup-content')
+    check('derived from TRS' in t2 or 'PLSS section' in t2, 'TRS popup states section-centroid placement')
+    check('were replaced' in t2 and 'Mount Diablo' in t2, 'popup says state coords replaced + meridian fix')
     check(not errs, 'no page errors ' + '; '.join(errs))
     ctx.close()
 print('all passed' if not fails else f'{len(fails)} FAILED'); sys.exit(1 if fails else 0)

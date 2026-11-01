@@ -40,9 +40,15 @@
   function accHtml(r) {
     let s = `${esc(r.acc || 'not recorded')}${r.llm ? ` (${esc(r.llm)})` : ''}`;
     let warn = '';
-    if (/centroid/i.test(r.acc || '')) warn = '⚠ Approximate: DWR placed this pin at the centre of the PLSS section (≈1 sq mi); the well may be up to ~0.7 mi away.';
+    if (r.trs) {
+      warn = '⚠ Approximate: Wells Nearby placed this pin at the centre of PLSS section ' + esc([r.twp, r.rng, r.sec].filter(Boolean).join(' ')) +
+        ' (San Bernardino meridian, BLM PLSS) from the TRS in the DWR record (≈1 sq mi; the well may be up to ~0.7 mi away).';
+      if (r.mer) warn += ' DWR listed the meridian as Mount Diablo, but the city is in Imperial County, so the TRS was read as San Bernardino meridian.';
+      if (r.rep) warn += ` The state's coordinates (${(+r.slat).toFixed(5)}, ${(+r.slon).toFixed(5)}) were replaced because they fall far outside Imperial County.`;
+    } else if (/centroid/i.test(r.acc || '')) warn = '⚠ Approximate: DWR placed this pin at the centre of the PLSS section (≈1 sq mi); the well may be up to ~0.7 mi away.';
     else if (!r.acc) warn = '⚠ DWR recorded no location accuracy — treat the pin as approximate.';
     else if (/^>/.test(r.acc)) warn = '⚠ DWR location accuracy is worse than 50 ft.';
+    if (r.xc) warn += (warn ? ' ' : '⚠ ') + `DWR filed this record under ${esc(r.xc)} County; its coordinates, TRS and city are in Imperial County.`;
     return { s, warn };
   }
 

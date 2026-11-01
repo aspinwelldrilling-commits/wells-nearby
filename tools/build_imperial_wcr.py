@@ -32,6 +32,14 @@ PLACE_BOX = (32.55, -116.20, 33.50, -114.38)          # S, W, N, E: Imperial Cou
 # Phase 1 = Ocotillo / Coyote Wells / Plaster City west corridor: west bbox OR T16S-T17S R9E-R10E SBBM
 OCOTILLO_BOX = (32.60, -116.20, 32.95, -115.70)
 OCOTILLO_TRS = ({'16S', '17S'}, {'9E', '09E', '10E'})
+PLSS_URL = ('https://gis.blm.gov/arcgis/rest/services/Cadastral/BLM_Natl_PLSS_CadNSDI/MapServer/2/query')  # BLM CadNSDI sections
+TRS_ACC = 'Centroid of Section (derived from TRS)'
+# Records DWR filed under ANOTHER county whose coordinates, TRS and city all say Imperial (checked by hand, Nov 2026).
+# Only rows with an affirmative Imperial city are added; border rows with a blank city are NOT added.
+EXTRA_WCRS = ['WCR2003-016141']
+IMPERIAL_CITIES = {'EL CENTRO', 'BRAWLEY', 'CALEXICO', 'IMPERIAL', 'HOLTVILLE', 'CALIPATRIA', 'WESTMORLAND', 'OCOTILLO',
+                   'OCOTILLA', 'SEELEY', 'SEELY', 'HEBER', 'NILAND', 'WINTERHAVEN', 'WINTER HAVEN', 'SALTON CITY',
+                   'BOMBAY BEACH', 'PLASTER CITY', 'GLAMIS', 'PALO VERDE'}
 UA = 'WellsNearby-Imperial/1.0 (aspinwelldrilling-commits; static map build)'
 
 # OSWCR field -> short key in the tiles (documented in manifest.json "fields")
@@ -84,6 +92,49 @@ def fetch_records(refresh=False):
     json.dump({'features': feats}, open(os.path.join(STATE, name), 'w'))
     log('fetched', len(feats), '->', name)
     return [f['attributes'] for f in feats], name
+
+
+def norm_tr(v, dirs):
+    v = (v or '').strip().upper()
+    if len(v) < 2 or v[-1] not in dirs or not v[:-1].isdigit():
+        return None
+    return int(v[:-1]), v[-1]
+
+
+def section_centroid(twp, rng, sec, cache):
+    """Area centroid of a San Bernardino-meridian PLSS section from BLM CadNSDI (cached; 1 s between requests)."""
+    t, r = norm_tr(twp, 'NS'), norm_tr(rng, 'EW')
+    s = (sec or '').strip()
+    if not t or not r or not s.isdigit() or not 1 <= int(s) <= 36:
+        return None
+    key = 'CA27%03d0%s%03d0%s0SN%02d0' % (t[0], t[1], r[0], r[1], int(s))
+    if key not in cache:
+        time.sleep(1.0)
+        j = get_json(PLSS_URL, {'where': "FRSTDIVID='%s'" % key, 'outFields': 'FRSTDIVID', 'returnGeometry': 'true',
+                                'outSR': 4326, 'f': 'json'})
+        if j.get('error'):
+            raise SystemExit('PLSS error: %s' % j['error'])
+        feats = j.get('features') or []
+        if len(feats) != 1:
+            cache[key] = None
+        else:
+            A = cx = cy = 0.0
+            for ring in feats[0]['geometry']['rings']:
+                for (x0, y0), (x1, y1) in zip(ring, ring[1:]):
+                    c = x0 * y1 - x1 * y0; A += c; cx += (x0 + x1) * c; cy += (y0 + y1) * c
+            cache[key] = [round(cy / (3 * A), 6), round(cx / (3 * A), 6)] if A else None
+    return cache[key]
+
+
+def fetch_extra():
+    path = os.path.join(STATE, 'extra_wcr_other_county.json')
+    if not os.path.exists(path):
+        where = 'WCRNumber IN (%s)' % ','.join("'%s'" % w for w in EXTRA_WCRS)
+        j = get_json(QUERY, {'where': where, 'outFields': '*', 'returnGeometry': 'false', 'f': 'json'})
+        if j.get('error'):
+            raise SystemExit('ArcGIS error: %s' % j['error'])
+        json.dump(j, open(path, 'w'))
+    return [f['attributes'] for f in json.load(open(path))['features']]
 
 
 def county_rings():
@@ -157,21 +208,58 @@ def main():
     rings = county_rings()
     sel = [a for a in recs if args.phase == 'all' or is_ocotillo(a)]
     tiles, unplaced = {}, []
-    for a in sel:
+    extra = [a for a in fetch_extra() if a['WCRNumber'] not in {x['WCRNumber'] for x in recs}]
+    cpath = os.path.join(STATE, 'plss_sections_sbbm.json')
+    cache = json.load(open(cpath)) if os.path.exists(cpath) else {}
+    added = []
+    for a in sel + extra:
         r = slim(a)
+        if a in extra:
+            r['xc'] = a.get('CountyName') or '(blank)'
+            added.append(r['wcr'])
         lat, lon = a.get('DecimalLatitude'), a.get('DecimalLongitude')
+        bad = None
         if lat is None or lon is None:
-            unplaced.append({'wcr': r['wcr'], 'why': 'no coordinates in DWR index', **{k: r[k] for k in ('twp', 'rng', 'sec', 'city', 'pdf') if k in r}})
-            continue
-        if not in_box(lat, lon, PLACE_BOX):
-            unplaced.append({'wcr': r['wcr'], 'why': 'DWR coordinates far outside Imperial County', 'lat': lat, 'lon': lon,
-                             **{k: r[k] for k in ('twp', 'rng', 'sec', 'city', 'pdf') if k in r}})
-            continue
-        if is_ocotillo(a):
+            bad = 'no coordinates in DWR index'
+        elif not in_box(lat, lon, PLACE_BOX):
+            bad = 'DWR coordinates far outside Imperial County'
+        if bad:
+            mer = (a.get('BaselineMeridian') or '').strip().lower()
+            # DWR rows keyed 'Mount Diablo' whose city is an Imperial town: the meridian label is the error (MDM T13-17S
+            # R9-16E lies in Fresno, which is exactly where DWR's bad lat/lon landed), so read the TRS as SBBM.
+            mdm_fix = mer == 'mount diablo' and (a.get('City') or '').strip().upper() in IMPERIAL_CITIES
+            c = section_centroid(a.get('Township'), a.get('Range'), a.get('Section'), cache) if (mer in ('', 'san bernardino', 's') or mdm_fix) else None
+            if c and inside(c[1], c[0], rings):
+                if lat is not None:
+                    r['slat'], r['slon'] = lat, lon
+                    r['rep'] = 1
+                r['lat'], r['lon'] = c
+                r['acc'] = TRS_ACC
+                r['llm'] = 'Wells Nearby: BLM CadNSDI section centroid from DWR TRS (SBBM)'
+                r['trs'] = 1
+                if mdm_fix:
+                    r['mer'] = 1
+                r['dat'] = 'WGS84'
+                lat, lon = c
+            else:
+                why = bad
+                if not c and (a.get('Section') or '').strip():
+                    why += '; TRS section not found in BLM PLSS (SBBM)' if norm_tr(a.get('Township'), 'NS') else '; TRS unusable'
+                elif c:
+                    why += '; TRS section centroid falls outside Imperial County'
+                else:
+                    why += '; no section number (TRS incomplete), no APN, no address'
+                u = {'wcr': r['wcr'], 'why': why, **{k: r[k] for k in ('twp', 'rng', 'sec', 'city', 'pdf') if k in r}}
+                if lat is not None:
+                    u['lat'], u['lon'] = lat, lon
+                unplaced.append(u)
+                continue
+        if is_ocotillo(a) or (r.get('trs') and in_box(lat, lon, OCOTILLO_BOX)):
             r['p1'] = 1
         if not inside(lon, lat, rings):
             r['oc'] = 1
         tiles.setdefault(tile_key(lat, lon), {})[r['wcr']] = r
+    json.dump(cache, open(cpath, 'w'))
 
     os.makedirs(TILES, exist_ok=True)
     man = {}
@@ -190,16 +278,23 @@ def main():
         'version': 1, 'generated': now, 'county': 'imperial', 'phase': args.phase,
         'source': 'CA DWR OSWCR well completion reports (CountyName=Imperial)', 'sourceUrl': QUERY.rsplit('/query', 1)[0],
         'raw': raw_name, 'sourceTotal': len(recs), 'selected': len(sel), 'count': len(placed),
-        'withPdf': sum(1 for r in placed if r.get('pdf')), 'centroid': sum(1 for r in placed if r.get('acc') == 'Centroid of Section'),
+        'withPdf': sum(1 for r in placed if r.get('pdf')), 'centroid': sum(1 for r in placed if (r.get('acc') or '').startswith('Centroid of Section')),
+        'trsPlaced': sum(1 for r in placed if r.get('trs')), 'coordsReplaced': sum(1 for r in placed if r.get('rep')),
+        'addedOtherCounty': sorted(added),
         'outsideCountyLine': sum(1 for r in placed if r.get('oc')),
         'tileDeg': TILE_DEG, 'boundsOrder': 'south,west,north,east',
         'fields': {key: src for src, key in FIELDS} | {'p1': 'in Ocotillo/Coyote Wells/Plaster City phase-1 corridor',
-                                                       'oc': 'DWR coordinates fall outside the Imperial County line'},
+                                                       'oc': 'DWR coordinates fall outside the Imperial County line',
+                                                       'trs': 'pin placed by Wells Nearby at the BLM PLSS section centroid from DWR TRS',
+                                                       'rep': 'DWR lat/lon was far outside Imperial County and was replaced by the TRS section centroid',
+                                                       'mer': 'DWR meridian said Mount Diablo but the city is in Imperial; TRS read as San Bernardino meridian',
+                                                       'slat': 'original DWR latitude (replaced)', 'slon': 'original DWR longitude (replaced)',
+                                                       'xc': 'DWR filed this record under another county name; coordinates, TRS and city place it in Imperial'},
         'tiles': man, 'unplaced': sorted(unplaced, key=lambda u: u['wcr']),
     }
     with open(os.path.join(OUT, 'manifest.json'), 'w') as f:
         json.dump(manifest, f, separators=(',', ':'))
-    log(json.dumps({k: manifest[k] for k in ('phase', 'sourceTotal', 'selected', 'count', 'withPdf', 'centroid', 'outsideCountyLine')}),
+    log(json.dumps({k: manifest[k] for k in ('phase', 'sourceTotal', 'selected', 'count', 'withPdf', 'centroid', 'outsideCountyLine', 'trsPlaced', 'coordsReplaced', 'addedOtherCounty')}),
         'tiles', len(man), 'unplaced', len(unplaced))
 
 
