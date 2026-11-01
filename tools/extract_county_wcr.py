@@ -603,7 +603,8 @@ def finalize(rec, all_pages):
         best = max(rec['wcrPages'], key=lambda p: p['nFields'])
         rec['bestDocUrl'] = best['url']; rec['bestDocPage'] = best['page']
     elif rec['docs']:
-        rec['bestDocUrl'] = rec['docs'][0]['url']
+        # first doc that has content (a 0 KB library entry has no PDF behind it)
+        rec['bestDocUrl'] = next((d['url'] for d in rec['docs'] if d.get('kb')), rec['docs'][0]['url'])
     rec['status'] = classify(rec)
 
 
