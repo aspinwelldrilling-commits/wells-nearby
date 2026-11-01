@@ -7,6 +7,10 @@
  *    release's metadata service.
  *  - USDA NAIP (1 m / 60 cm aerial photos) per year, served for California by CDFW (gis.wildlife.ca.gov ImageServer, one
  *    service per year, exportImage per 256 px tile).
+ *  - San Diego County historical aerials (COSDBaseMap_Imagery_Historical MapServer, gis-public.sandiegocounty.gov): a
+ *    dynamic (non-cached) service, so each 256 px tile is an /export?layers=show:<group id> request. Years: 1995 B&W,
+ *    1997/2000/2002 colour infrared, 2004/2006/2008/2011 true colour. Tiles are limited to the service extent; outside it
+ *    the bar says there is no County imagery here.
  *  - Compare: two dates side by side with a draggable divider (pointer events, works with touch).
  * Privacy: imagery and metadata requests carry only tile coordinates / the map centre point; nothing about sites, jobs or
  * customers. */
@@ -19,6 +23,10 @@
   const WB_TILE = WB + 'WMTS/1.0.0/default028mm/MapServer/tile/{r}/{z}/{y}/{x}';
   const NAIP = 'https://gis.wildlife.ca.gov/images/rest/services/Base_Remote_Sensing/NAIP_{year}/ImageServer';
   const NAIP_YEARS = [2005, 2009, 2010, 2012, 2014, 2016, 2018, 2020, 2022];   // natural-colour years CDFW serves (verified at Ramona)
+  const SDH = 'https://gis-public.sandiegocounty.gov/arcgis/rest/services/COSDBaseMap_Imagery_Historical/MapServer';
+  // year -> group layer id in the service (checked against ?f=json), and kind of photo
+  const SD_YEARS = [[1995, 85, 'bw'], [1997, 82, 'cir'], [2000, 79, 'cir'], [2002, 76, 'cir'], [2004, 66, 'tc'], [2006, 61, 'tc'], [2008, 56, 'tc'], [2011, 28, 'tc']];
+  const SD_BOUNDS = L.latLngBounds([32.530, -117.598], [33.512, -116.080]);   // service fullExtent
   const KEY = 'wellsNearby.history';
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -30,11 +38,25 @@
       return `${this._base}/exportImage?bbox=${x0.toFixed(2)},${(y1 - s).toFixed(2)},${(x0 + s).toFixed(2)},${y1.toFixed(2)}&bboxSR=3857&imageSR=3857&size=256,256&format=jpg&f=image`;
     },
   });
+  const SdLayer = L.TileLayer.extend({
+    getTileUrl(c) {
+      const z = this._getZoomForUrl(), s = 2 * Math.PI * 6378137 / Math.pow(2, z), o = Math.PI * 6378137;
+      const x0 = c.x * s - o, y1 = o - c.y * s;
+      return `${SDH}/export?bbox=${x0.toFixed(2)},${(y1 - s).toFixed(2)},${(x0 + s).toFixed(2)},${y1.toFixed(2)}&bboxSR=3857&imageSR=3857&size=256,256&format=jpg&transparent=false&layers=show:${this._lid}&f=image`;
+    },
+  });
+  const sdKind = (k) => (k === 'bw' ? ' (B&W)' : k === 'cir' ? ' (color infrared)' : '');
+  const SD_MINZ = 15;   // the service hides the photos above 1:36,112 scale (zoom 14 tiles come back blank)
+  const sdOutside = () => !SD_BOUNDS.contains(map.getCenter());
   function naipUrl(year) { return NAIP.replace('{year}', year); }
   function makeLayer(it, pane) {
     if (it.src === 'naip') {
       const l = new NaipLayer('', { pane, maxZoom: 19, maxNativeZoom: 18, minZoom: 8, crossOrigin: 'anonymous', attribution: `NAIP ${it.year} aerial: USDA FSA, via CA Dept. of Fish &amp; Wildlife` });
       l._base = naipUrl(it.year); return l;
+    }
+    if (it.src === 'sd') {
+      const l = new SdLayer('', { pane, maxZoom: 19, maxNativeZoom: 19, minZoom: SD_MINZ, bounds: SD_BOUNDS, crossOrigin: 'anonymous', attribution: `${it.year} aerial: San Diego County (SanGIS)` });
+      l._lid = it.lid; return l;
     }
     return L.tileLayer(WB_TILE.replace('{r}', it.r), { pane, maxZoom: 19, maxNativeZoom: 19, crossOrigin: 'anonymous', attribution: `Wayback ${it.date}: Esri World Imagery archive, Maxar, Earthstar Geographics` });
   }
@@ -43,6 +65,7 @@
   // ---------- timeline
   let releases = [];   // wayback items, newest first: {src:'wb', r, date, meta}
   const naipItems = NAIP_YEARS.map((y) => ({ src: 'naip', year: y, date: y + '-07-01', label: 'NAIP ' + y, id: 'naip' + y }));
+  const sdItems = SD_YEARS.map(([y, lid, k]) => ({ src: 'sd', year: y, lid, kind: k, date: y + '-06-01', label: 'SD County ' + y + sdKind(k), id: 'sd' + y }));
   let changed = null;  // Set of release numbers that differ at the current spot (null = not known yet)
   const st = { on: false, onlyChanged: true, compare: false, side: 'a', a: null, b: null, div: 0.5 };
   try { Object.assign(st, JSON.parse(localStorage.getItem(KEY) || '{}'), { on: false, compare: false }); } catch (e) { /* */ }
@@ -57,9 +80,9 @@
   }
   function items() {
     const wb = releases.filter((x) => !st.onlyChanged || !changed || changed.has(x.r));
-    return naipItems.concat(wb).sort((x, y) => (x.date < y.date ? -1 : x.date > y.date ? 1 : 0));
+    return naipItems.concat(sdItems, wb).sort((x, y) => (x.date < y.date ? -1 : x.date > y.date ? 1 : 0));
   }
-  const byId = (id) => naipItems.concat(releases).find((x) => x.id === id) || null;
+  const byId = (id) => naipItems.concat(sdItems, releases).find((x) => x.id === id) || null;
 
   // Local changes: newest release -> tilemap says the release the tile at this spot really came from -> continue from the release
   // just older than that one. ~1 request per distinct image at this spot.
@@ -92,6 +115,7 @@
   // ---------- metadata (capture date / provider for a Wayback release at the map centre)
   const metaCache = new Map();
   function metaFor(it) {
+    if (it.src === 'sd') return Promise.resolve(sdOutside() ? 'No County imagery for this year here (San Diego County only)' : map.getZoom() < SD_MINZ ? 'Zoom in closer to see County imagery' : `San Diego County ${it.year} aerial${it.kind === 'cir' ? ' · color infrared: plants look red' : it.kind === 'bw' ? ' · black & white' : ''}`);
     if (it.src === 'naip') return Promise.resolve(`USDA NAIP ${it.year} aerial photo (1 m or better) · CA Dept. of Fish & Wildlife service`);
     if (!it.meta) return Promise.resolve('');
     const z = Math.round(map.getZoom()), lid = Math.max(0, Math.min(13, 23 - z)), c = map.getCenter();
@@ -151,9 +175,9 @@
     const cur = st.compare ? st[st.side] : st.a, idx = Math.max(0, list.findIndex((x) => x.id === cur));
     range.max = list.length - 1; range.value = idx;
     const it = list[idx];
-    q('.hb-date').textContent = `${it.src === 'naip' ? '✈ NAIP ' + it.year : '🛰 Wayback ' + it.date}  (${idx + 1}/${list.length})`;
+    q('.hb-date').textContent = `${it.src === 'naip' ? '✈ NAIP ' + it.year : it.src === 'sd' ? '✈ ' + it.year + sdKind(it.kind) + ' County' : '🛰 Wayback ' + it.date}  (${idx + 1}/${list.length})`;
     q('.hb-changed').checked = st.onlyChanged; q('.hb-cmp').checked = st.compare;
-    for (const b of bar.querySelectorAll('.hb-side')) { const o = byId(st[b.dataset.s]); b.textContent = (b.dataset.s === 'a' ? 'L: ' : 'R: ') + (o ? (o.src === 'naip' ? 'NAIP ' + o.year : o.date) : '—'); b.classList.toggle('act', st.side === b.dataset.s); }
+    for (const b of bar.querySelectorAll('.hb-side')) { const o = byId(st[b.dataset.s]); b.textContent = (b.dataset.s === 'a' ? 'L: ' : 'R: ') + (o ? (o.src === 'naip' ? 'NAIP ' + o.year : o.src === 'sd' ? o.year + (o.kind === 'cir' ? ' CIR' : o.kind === 'bw' ? ' B&W' : '') : o.date) : '—'); b.classList.toggle('act', st.side === b.dataset.s); }
     setLayer('a', byId(st.a)); setLayer('b', st.compare ? byId(st.b) : null); clip();
     const m = q('.hb-meta'); m.textContent = ''; const tok = it.id;
     metaFor(it).then((t) => { if ((st.compare ? st[st.side] : st.a) === tok) m.textContent = t; });
@@ -190,15 +214,16 @@
   swipe.addEventListener('pointerup', end); swipe.addEventListener('pointercancel', end);
   map.on('move zoom resize viewreset zoomend', clip);
   let mvT = null;
-  map.on('moveend', () => { if (!st.on) return; clearTimeout(mvT); mvT = setTimeout(() => { if (st.onlyChanged) walkChanges(); else render(); }, 400); });
+  map.on('moveend', () => { if (!st.on) return; const cur = byId(st.compare ? st[st.side] : st.a); if (cur && cur.src === 'sd') render(); clearTimeout(mvT); mvT = setTimeout(() => { if (st.onlyChanged) walkChanges(); else render(); }, 400); });
 
   /** For the septic plot plan: the historical image shown on the left / only side, as a {z}/{y}/{x} template or a function. */
   function exportSource() {
     if (!st.on) return null;
     const it = byId(st.a); if (!it) return null;
     if (it.src === 'wb') return { tpl: WB_TILE.replace('{r}', it.r), credit: `Imagery: Esri World Imagery Wayback ${it.date} (archived release; Maxar, Earthstar Geographics).`, maxZ: 19 };
+    if (it.src === 'sd') return { tpl: (z, y, x) => SdLayer.prototype.getTileUrl.call({ _lid: it.lid, _getZoomForUrl: () => z }, { x, y }), credit: `Imagery: San Diego County ${it.year} aerial${sdKind(it.kind)}.`, maxZ: 19 };
     const base = naipUrl(it.year);
     return { tpl: (z, y, x) => NaipLayer.prototype.getTileUrl.call({ _base: base, _getZoomForUrl: () => z }, { x, y }), credit: `Imagery: USDA NAIP ${it.year} aerial (via CA Dept. of Fish & Wildlife).`, maxZ: 18 };
   }
-  window.WellsHistory = { exportSource, state: st, items, loadConfig, walkChanges, get changed() { return changed; }, render, NAIP_YEARS };
+  window.WellsHistory = { exportSource, state: st, items, loadConfig, walkChanges, get changed() { return changed; }, render, NAIP_YEARS, SD_YEARS };
 })();
