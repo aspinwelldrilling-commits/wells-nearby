@@ -202,6 +202,11 @@ Test: `tools/test-latlon-display.py [--base URL] [--shots DIR]`.
   same slim record shape / categories as `data/sd-oswcr`: `k` = w water supply, d destruction, m monitoring/other; `ap` = DWR
   section-centroid point). Source: OSWCR `CountyName='San Bernardino'`; raw pull cached outside the repo
   (`/workspace/wells-state/sb-oswcr/raw`). Exact points outside the county line (TIGER 06071) / no coordinates → `unplaced.json`.
+- **SB placement upgrade (v36):** `python3 tools/build_sb_oswcr.py --fetch` (helper `tools/sb_oswcr_place.py`, caches in
+  `/workspace/wells-state/sb-oswcr/place/`): report APN → County public parcel layer (ArcGIS Online `Parcels_for_San_Bernardino_County`,
+  9-digit `ParcelNumber`) centre, accepted only when inside / within 500 ft of the report's own T/R/S section (BLM CadNSDI) —
+  `pl:'apn'`, solid pin; parcels > 40 ac stay dashed (`ap`). No-coordinate reports with a T/R/S get the section centre (`pl:'sec'`,
+  dashed). DWR's original point is kept as `dll`. Only APNs / T/R/S numbers are sent out.
 - **County permits:** San Bernardino EH posts only the latest week as a PDF
   (`ehs.sbcounty.gov/.../weekly-well-report.pdf`: PERMIT_NO, RECORD_ID, TWN/RNG/SEC, city, APN, description, type of work,
   contractor; no depth / GPS). Weekly (idempotent): `python3 tools/sb_weekly_permits.py --push` → archives the PDF as

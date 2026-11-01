@@ -31,6 +31,7 @@ FIELDS = [
     ('PermitNumber', 'pmt'), ('PermitDate', 'pdt'), ('DecimalLatitude', 'lat'), ('DecimalLongitude', 'lon'),
     ('LLAccuracy', 'acc'), ('MethodofDeterminationLL', 'llm'), ('WCRLinks', 'pdf'),
 ]
+EXTRA = ['Township', 'Range', 'Section', 'BaselineMeridian']   # used for placement, not shipped
 DATE_FIELDS = {'DateWorkEnded', 'ReceivedDate', 'PermitDate'}
 DAY = 86400000
 
@@ -174,11 +175,12 @@ def section_level(a):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument('--fetch', action='store_true', help='look up missing APN parcels / PLSS sections (cached)')
     ap.add_argument('--refresh', action='store_true', help='re-pull DWR OSWCR instead of the cached raw file')
     args = ap.parse_args()
     today = dt.date.today().isoformat()
     recs, raw_name = cached('oswcr_sb', args.refresh, lambda: paged(
-        QUERY, "CountyName='San Bernardino'", ','.join(['OBJECTID'] + [s for s, _ in FIELDS]), 2000, 'oswcr'))
+        QUERY, "CountyName='San Bernardino'", ','.join(['OBJECTID'] + [s for s, _ in FIELDS] + EXTRA), 2000, 'oswcr'))
     by_wcr = {}
     for a in recs:
         w = (a.get('WCRNumber') or '').strip()
@@ -189,6 +191,30 @@ def main():
     rows = list(by_wcr.values())
     tiles, unplaced, cats, years = {}, [], {'w': 0, 'd': 0, 'm': 0}, {}
     rings = county_rings()
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import sb_oswcr_place as P
+    if not any(a.get('Township') for a in rows):
+        raise SystemExit('raw pull has no Township/Range/Section fields - run with --refresh')
+    if args.fetch:
+        P.fetch_sections([P.sec_fid(a.get('Township'), a.get('Range'), a.get('Section'), a.get('BaselineMeridian')) for a in rows])
+        P.fetch_apns([P.apn9(a.get('APN')) for a in rows])
+    secs, apns = P.load('sec_cache.json'), P.load('apn9_cache.json')
+    st = {'upgradedApn': 0, 'rejectedApnOutsideSection': 0, 'apnLargeParcel': 0, 'recoveredApn': 0, 'recoveredSection': 0, 'recoveredFix': 0}
+
+    def place(a):
+        """-> (lat, lon, extra dict) or None. Only APN parcels that fall in/near the report's own T/R/S section count."""
+        fid = P.sec_fid(a.get('Township'), a.get('Range'), a.get('Section'), a.get('BaselineMeridian'))
+        sec = secs.get(fid) if fid else None
+        k9 = P.apn9(a.get('APN'))
+        par = apns.get(k9) if k9 else None
+        if par and in_rings(par['lat'], par['lon'], rings):
+            if sec and P.dist_deg(par['lat'], par['lon'], sec['rings']) <= P.EDGE_DEG:
+                return par['lat'], par['lon'], {'pl': 'apn', 'pac': par['ac'], 'pchk': 'sec'}
+            if not sec:
+                return par['lat'], par['lon'], {'pl': 'apn', 'pac': par['ac'], 'pchk': 'none'}
+            st['rejectedApnOutsideSection'] += 1
+        return None
+
     for a in rows:
         r = slim(a)
         r['k'] = category(a)
@@ -196,11 +222,37 @@ def main():
             r['bd'] = 1
         lat, lon = a.get('DecimalLatitude'), a.get('DecimalLongitude')
         outside = lat is not None and lon is not None and not section_level(a) and not in_rings(lat, lon, rings)
-        if outside or lat is None or lon is None or not (PLACE_BOX[0] <= lat <= PLACE_BOX[2] and PLACE_BOX[1] <= lon <= PLACE_BOX[3]):
+        bad = outside or lat is None or lon is None or not (PLACE_BOX[0] <= lat <= PLACE_BOX[2] and PLACE_BOX[1] <= lon <= PLACE_BOX[3])
+        if bad or section_level(a):
+            got = place(a)
+            fid = P.sec_fid(a.get('Township'), a.get('Range'), a.get('Section'), a.get('BaselineMeridian'))
+            sec = secs.get(fid) if fid else None
+            if got and bad and got[2]['pchk'] == 'none' and lat is not None:
+                got = None   # unverifiable APN for a record with coordinates elsewhere: don't guess
+            if got:
+                if lat is not None:
+                    r['dll'] = [lat, lon]   # DWR's own point, kept for reference
+                lat, lon = got[0], got[1]
+                r.update({x: got[2][x] for x in ('pl', 'pac')})
+                if got[2]['pac'] > P.MAX_AC:
+                    r['ap'] = 1; st['apnLargeParcel'] += 1
+                st['recoveredApn' if bad else 'upgradedApn'] += 1
+                r['lat'], r['lon'] = lat, lon
+                bad = False; a = dict(a, LLAccuracy='parcel'); a.pop('MethodofDeterminationLL', None)
+            elif bad and lat is None and sec and in_rings(sec['lat'], sec['lon'], rings):
+                lat, lon = sec['lat'], sec['lon']; r['lat'], r['lon'] = lat, lon
+                r['pl'] = 'sec'; r['ap'] = 1; st['recoveredSection'] += 1; bad = False
+            elif bad and lat is not None and not section_level(a):
+                for la, lo in ((lat, -abs(lon)), (abs(lon), -abs(lat))):   # missing minus / swapped lat-lon
+                    if (la, lo) != (lat, lon) and PLACE_BOX[0] <= la <= PLACE_BOX[2] and in_rings(la, lo, rings) and \
+                            (not sec or P.dist_deg(la, lo, sec['rings']) <= P.EDGE_DEG):
+                        r['dll'] = [lat, lon]; lat, lon = la, lo; r['lat'], r['lon'] = lat, lon
+                        r['pl'] = 'fix'; st['recoveredFix'] += 1; bad = False; break
+        if bad:
             unplaced.append({'wcr': r['wcr'], 'why': 'no coordinates' if lat is None or lon is None else 'coordinates outside SB County',
                              **{x: r[x] for x in ('k', 'end', 'pmt', 'city', 'pdf') if x in r}})
             continue
-        if section_level(a):
+        if section_level(a) and r.get('pl') != 'apn':
             r['ap'] = 1   # approximate (section centroid / TRS)
         cats[r['k']] += 1
         yr = (r.get('end') if not r.get('bd') else None) or r.get('rcv') or ''
@@ -227,7 +279,11 @@ def main():
         'badDates': sum(1 for t in tiles.values() for r in t.values() if r.get('bd')),
         'tileDeg': TILE_DEG, 'boundsOrder': 'south,west,north,east',
         'fields': {key: src for src, key in FIELDS} | {'k': 'category: w water supply, d destruction, m monitoring/other',
-                                                       'bd': 'work-ended date in the future', 'ap': 'section-level (approximate) point'},
+                                                       'bd': 'work-ended date in the future', 'ap': 'section-level (approximate) point',
+                                                       'pl': "placement by this build: 'apn' parcel centre (APN, checked against the report's T/R/S section when it has one), 'sec' PLSS section centre from T/R/S (no DWR coordinates), 'fix' DWR coordinates with a missing minus / swapped lat-lon",
+                                                       'pac': 'parcel acres (pl=apn)', 'dll': "DWR's original lat/lon when moved"},
+        'placement': st | {'parcelExact': sum(1 for t in tiles.values() for r in t.values() if r.get('pl') == 'apn' and not r.get('ap')),
+                           'sectionLevel': sum(1 for t in tiles.values() for r in t.values() if r.get('ap'))},
         'unplaced': len(unplaced), 'unplacedUrl': 'unplaced.json', 'tiles': man,
     }
     with open(os.path.join(OUT, 'unplaced.json'), 'w') as f:

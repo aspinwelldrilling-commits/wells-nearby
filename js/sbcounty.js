@@ -42,7 +42,12 @@
 
   function wcrPopup(r) {
     const box = document.createElement('div'); box.className = 'popup';
-    const warn = r.ap ? '⚠ Approximate: DWR placed this pin at the centre of the PLSS section (≈1 sq mi).'
+    const moved = r.dll ? ` DWR's own point was ${(+r.dll[0]).toFixed(5)}, ${(+r.dll[1]).toFixed(5)}.` : '';
+    const warn = r.pl === 'apn' ? (r.ap ? `⚠ Approximate: pin at the centre of the report's parcel (APN ${esc(r.apn)}, ≈${esc(r.pac)} acres — large parcel).${moved}`
+        : `Pin at the centre of the report's parcel (APN ${esc(r.apn)}, ≈${esc(r.pac)} acres); the well is on that parcel.${moved}`)
+      : r.pl === 'sec' ? '⚠ Approximate: DWR gave no coordinates; pin at the centre of the report\'s PLSS section (≈1 sq mi).'
+      : r.pl === 'fix' ? `⚠ DWR coordinates had a sign / order typo; corrected here.${moved}`
+      : r.ap ? '⚠ Approximate: DWR placed this pin at the centre of the PLSS section (≈1 sq mi).'
       : !r.acc ? '⚠ DWR recorded no location accuracy — treat the pin as approximate.' : /^>/.test(r.acc) ? '⚠ DWR location accuracy is worse than 50 ft.' : '';
     const depth = [r.cd != null ? `${esc(r.cd)} ft completed` : '', r.dd != null ? `${esc(r.dd)} ft drilled` : ''].filter(Boolean).join(', ');
     const pdf = /^https:\/\//i.test(r.pdf || '') ? `<a href="${esc(r.pdf)}" target="_blank" rel="noopener">📄 WCR PDF (DWR Box viewer)</a>` : '<span class="muted">No PDF link in the DWR index</span>';
@@ -113,13 +118,13 @@
       list.sort((a, b) => ('wdm'.indexOf(a.k) - 'wdm'.indexOf(b.k)) || String(b.end || '').localeCompare(String(a.end || '')));
       const g = { lat: +list[0].lat, lon: +list[0].lon, markers: [] };
       for (const r of list.slice(0, 40)) {
-        const approx = !!r.ap || !r.acc || /^>/.test(r.acc);
+        const approx = r.pl === 'apn' ? !!r.ap : (!!r.ap || !r.acc || /^>/.test(r.acc));
         const o = r.k === 'd' ? { radius: 6, color: cfg.destroyRing, weight: 3, fillColor: cfg.color, fillOpacity: 0.55 }
           : r.k === 'm' ? { radius: 4.5, color: cfg.otherColor, weight: 2, fillColor: cfg.otherColor, fillOpacity: 0.15, dashArray: approx ? '3 3' : null }
             : { radius: 6, color: cfg.color, weight: 2, fillColor: cfg.color, fillOpacity: approx ? 0.25 : 0.85, dashArray: approx ? '3 3' : null };
         g.markers.push(L.circleMarker([g.lat, g.lon], { pane: 'sbOswcr', bubblingMouseEvents: false, className: 'sbo-' + r.k, ...o })
           .bindPopup(() => wcrPopup(r), { maxWidth: 310, maxHeight: 320 })
-          .bindTooltip(`${esc(r.wcr)} · ${KIND[r.k]}${r.ap ? ' (section-level)' : ''}`, { direction: 'top' }).addTo(target));
+          .bindTooltip(`${esc(r.wcr)} · ${KIND[r.k]}${r.ap ? ' (section-level)' : r.pl === 'apn' ? ' (parcel)' : ''}`, { direction: 'top' }).addTo(target));
       }
       if (g.markers.length > 1) { groups.push(g); placeGroup(g); }
     }
