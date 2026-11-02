@@ -1,0 +1,54 @@
+{
+ "permit": "DEH2023-LWELL-003537",
+ "processed": "2026-11-02T13:52:03-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35749774",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-04-30",
+   "kb": 1933
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35673463",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-12-18",
+   "kb": 18211
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35741928",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-04-30",
+   "kb": 2234
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35749774",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35749774",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {},
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35749774",
+ "errors": [
+  "read 35741928: Command '['tesseract', '/tmp/wcr-worker-b5qk53vj/p2.png', '-', '--psm', '6', 'tsv']' timed out after 180 seconds"
+ ],
+ "bestDocPage": 1,
+ "status": "unreadable",
+ "area": "",
+ "lat": 32.972226,
+ "lon": -116.791982,
+ "apn": "331-080-24-00",
+ "libraryOnly": true
+}

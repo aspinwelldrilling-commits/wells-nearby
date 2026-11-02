@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2022-LWELL-003352",
+ "processed": "2026-11-02T12:44:13-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35628465",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-12-06",
+   "kb": 5100
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35622619",
+   "desc": "Updated coordinates (permit)",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-06-05",
+   "kb": 2958
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35748376",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-10",
+   "kb": 3753
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35628465",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35628465",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 173.0,
+   "conf": "high",
+   "ocrConf": 81.028732,
+   "raw": "Total Depth of Completed Well 173",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 95.343246,
+   "raw": "Estimated Yield* 800 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 22.0,
+   "conf": "high",
+   "ocrConf": 95.985085,
+   "raw": "Water Level 22 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud",
+   "conf": "low",
+   "ocrConf": 42.536423,
+   "raw": "Drilling Method Other - MUD Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2023-03-27",
+   "conf": "high",
+   "ocrConf": 81.822525,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.08356,
+   "lon": -116.988762,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35628465",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.085397,
+ "lon": -116.98091,
+ "apn": "242-100-10-00",
+ "libraryOnly": true,
+ "addr": "0 YSABEL CREEK ROAD, SAN DIEGO 92027"
+}

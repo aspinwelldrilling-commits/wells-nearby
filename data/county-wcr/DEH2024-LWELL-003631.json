@@ -1,0 +1,86 @@
+{
+ "permit": "DEH2024-LWELL-003631",
+ "processed": "2026-11-02T14:33:18-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41499760",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-04-08",
+   "kb": 1780
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41499745",
+   "desc": "WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-04-08",
+   "kb": 1131
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41499871",
+   "desc": "Inspection Report",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-04-08",
+   "kb": 3970
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39868887",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-08",
+   "kb": 1903
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41499760",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1640.0,
+   "conf": "high",
+   "ocrConf": 93.358521,
+   "raw": "Total Depth of Completed Well: 1640",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 600.0,
+   "conf": "low",
+   "ocrConf": 3.272949,
+   "raw": "Estimated Yield*: 600 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 484.0,
+   "conf": "high",
+   "ocrConf": 92.083328,
+   "raw": "Water Level: 484 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2025-10-10",
+   "conf": "high",
+   "ocrConf": 95.255074,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41499760",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.338448,
+ "lon": -116.984555,
+ "apn": "131-100-20-00",
+ "libraryOnly": true,
+ "addr": "15942 ADAMS DR., PAUMA VALLEY, CA 92061"
+}

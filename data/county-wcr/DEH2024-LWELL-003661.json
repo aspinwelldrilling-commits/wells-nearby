@@ -1,0 +1,107 @@
+{
+ "permit": "DEH2024-LWELL-003661",
+ "processed": "2026-11-02T14:42:48-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40258698",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-04-10",
+   "kb": 2469
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35706009",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-08-23",
+   "kb": 2009
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40258710",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-04-10",
+   "kb": 279
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40258698",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40258698",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "high",
+   "ocrConf": 90.486771,
+   "raw": "Total Depth of Completed Well 410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 95.566971,
+   "raw": "Estimated Yield* 130 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 95.181351,
+   "raw": "Water Level 75 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 93.790649,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 33.241211,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2024-09-24",
+   "conf": "medium",
+   "ocrConf": 72.316742,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.265303,
+   "lon": -117.221752,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40258698",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.266475,
+ "lon": -117.221174,
+ "apn": "126-180-42-00",
+ "libraryOnly": true,
+ "addr": "30368 LA PRIMAVERA DRIVE, VISTA, CA 92084"
+}

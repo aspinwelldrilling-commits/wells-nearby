@@ -1,0 +1,87 @@
+{
+ "permit": "DEH2024-LWELL-003657",
+ "processed": "2026-11-02T14:42:28-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41923028",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-08-27",
+   "kb": 1614
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35706899",
+   "desc": "Email",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-09-03",
+   "kb": 923
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35760834",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-09-03",
+   "kb": 2439
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41923028",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1210.0,
+   "conf": "high",
+   "ocrConf": 85.115967,
+   "raw": "Total Depth of Completed Well: 1210",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 91.170364,
+   "raw": "Estimated Yield*: 15(GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 107.0,
+   "conf": "high",
+   "ocrConf": 94.675049,
+   "raw": "Water Level: 107 (feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 94.854073,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2024-11-13",
+   "conf": "high",
+   "ocrConf": 85.377396,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41923028",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.079963,
+ "lon": -117.174956,
+ "apn": "264-042-79-00",
+ "libraryOnly": true,
+ "addr": "20303 AGUILERA LN, ESCONDIDO, CA 92029"
+}

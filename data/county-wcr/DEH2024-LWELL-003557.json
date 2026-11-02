@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2024-LWELL-003557",
+ "processed": "2026-11-02T14:03:08-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35743004",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-07-01",
+   "kb": 1677
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35687213",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-01-12",
+   "kb": 1869
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35750849",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-07-01",
+   "kb": 274
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35743004",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35743004",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 585.0,
+   "conf": "high",
+   "ocrConf": 85.870338,
+   "raw": "Total Depth of Completed Well 585",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.449898,
+   "raw": "Estimated Yield* 300 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 133.0,
+   "conf": "high",
+   "ocrConf": 96.488213,
+   "raw": "Water Level 133 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "medium",
+   "ocrConf": 70.841843,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 55.317024,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2024-02-12",
+   "conf": "high",
+   "ocrConf": 82.197098,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35743004",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.260605,
+ "lon": -117.093196,
+ "apn": "129-292-49-00",
+ "libraryOnly": true,
+ "addr": "30318 AIRFLIGHT DR., VALLEY CENTER, CA 92082"
+}

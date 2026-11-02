@@ -1,0 +1,87 @@
+{
+ "permit": "DEH2023-LWELL-003358",
+ "processed": "2026-11-02T12:44:53-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41441193",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-03-19",
+   "kb": 1599
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35748073",
+   "desc": "Approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-04",
+   "kb": 2568
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41441203",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-03-19",
+   "kb": 158
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41441193",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1600.0,
+   "conf": "high",
+   "ocrConf": 91.043457,
+   "raw": "Total Depth of Completed Well: 1600",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "low",
+   "ocrConf": 40.923836,
+   "raw": "Estimated Yield*: 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 280.0,
+   "conf": "high",
+   "ocrConf": 87.184807,
+   "raw": "Water Level: 280 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 95.949753,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2023-05-01",
+   "conf": "high",
+   "ocrConf": 91.908669,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41441193",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.266132,
+ "lon": -117.188872,
+ "apn": "127-400-16-00",
+ "libraryOnly": true,
+ "addr": "6731 VIA DE LA REINA, BONSALL, CA 92003"
+}

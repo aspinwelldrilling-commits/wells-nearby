@@ -1,0 +1,106 @@
+{
+ "permit": "DEH2023-LWELL-003490",
+ "processed": "2026-11-02T13:42:01-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=42040812",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-10-08",
+   "kb": 1456
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=42040810",
+   "desc": "WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-10-08",
+   "kb": 664
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35675490",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-01-05",
+   "kb": 5737
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=42040811",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-10-08",
+   "kb": 7181
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=42040812",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=42040812",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 85.888641,
+   "raw": "Total Depth of Completed Well 130",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 95.888039,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 69.846924,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 90.527817,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2024-01-31",
+   "conf": "medium",
+   "ocrConf": 78.406242,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.01091,
+   "lon": -117.23517,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=42040812",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.010584,
+ "lon": -117.235011,
+ "apn": "268-030-62-00",
+ "libraryOnly": true,
+ "addr": "4537 LA ORIILLA, RANCHO SANTA FE, CA 92091"
+}

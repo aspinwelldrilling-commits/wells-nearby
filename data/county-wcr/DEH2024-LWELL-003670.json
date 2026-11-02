@@ -1,0 +1,108 @@
+{
+ "permit": "DEH2024-LWELL-003670",
+ "processed": "2026-11-02T14:44:03-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41277325",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-01-26",
+   "kb": 1602
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39916809",
+   "desc": "SDRWQCB letter",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-21",
+   "kb": 1420
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39916810",
+   "desc": "DTSC letter",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-21",
+   "kb": 287
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39916807",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-21",
+   "kb": 1864
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41277316",
+   "desc": "Approved Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-01-26",
+   "kb": 237
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41277325",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 895.0,
+   "conf": "medium",
+   "ocrConf": 64.005463,
+   "raw": "Total Depth of Completed Well: 895",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 25.107971,
+   "raw": "Estimated Yield*: 250 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 46.0,
+   "conf": "high",
+   "ocrConf": 92.868828,
+   "raw": "Water Level: 46 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 96.262611,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2025-02-28",
+   "conf": "high",
+   "ocrConf": 96.7994,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.092735,
+   "lon": -117.094372,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41277325",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.092445,
+ "lon": -117.094355,
+ "apn": "238-073-36-00",
+ "libraryOnly": true,
+ "addr": "1324 HAMILTON LN, ESCONDIDO, CA 92029"
+}

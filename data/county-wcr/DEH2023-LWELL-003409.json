@@ -1,0 +1,94 @@
+{
+ "permit": "DEH2023-LWELL-003409",
+ "processed": "2026-11-02T13:16:21-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40787253",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-08-20",
+   "kb": 1049
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35729419",
+   "desc": "Approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-03-17",
+   "kb": 1591
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40787323",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-08-20",
+   "kb": 278
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40787253",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 760.0,
+   "conf": "high",
+   "ocrConf": 93.153755,
+   "raw": "Total Depth of Completed Well: 760",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "low",
+   "ocrConf": 2.210175,
+   "raw": "Estimated Yield*: 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 185.0,
+   "conf": "high",
+   "ocrConf": 94.667007,
+   "raw": "Water Level: 185 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 95.035706,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2023-07-03",
+   "conf": "medium",
+   "ocrConf": 56.65379,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.019391,
+   "lon": -117.028198,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40787253",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.019371,
+ "lon": -117.027923,
+ "apn": "277-140-28-00",
+ "libraryOnly": true,
+ "addr": "16363 ESPOLA RD, POWAY, CA 92064"
+}

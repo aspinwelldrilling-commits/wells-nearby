@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2024-LWELL-003650",
+ "processed": "2026-11-02T14:41:26-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41982913",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-09-17",
+   "kb": 1357
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35753389",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-08-27",
+   "kb": 3243
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41982914",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-09-17",
+   "kb": 149
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41982913",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41982913",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1330.0,
+   "conf": "high",
+   "ocrConf": 85.550041,
+   "raw": "Total Depth of Completed Well 1330",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 96.712204,
+   "raw": "Estimated Yield* 60 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 282.0,
+   "conf": "high",
+   "ocrConf": 96.110626,
+   "raw": "Water Level 282 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 73.683487,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2024-09-12",
+   "conf": "medium",
+   "ocrConf": 76.005623,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.27096,
+   "lon": -117.14961,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41982913",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.269948,
+ "lon": -117.148933,
+ "apn": "127-551-01-00",
+ "libraryOnly": true,
+ "addr": "30570 VIA CANTAMAR"
+}
