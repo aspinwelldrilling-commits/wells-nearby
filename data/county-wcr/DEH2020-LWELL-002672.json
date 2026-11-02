@@ -1,0 +1,98 @@
+{
+ "permit": "DEH2020-LWELL-002672",
+ "processed": "2026-11-02T09:14:39-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35492617",
+   "desc": "WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-03-02",
+   "kb": 2481
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35490766",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-10-05",
+   "kb": 3345
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35492617",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35492617",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35492617",
+   "page": 4,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 498.0,
+   "conf": "high",
+   "ocrConf": 86.953506,
+   "raw": "Total Depth of Completed Well 498",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.341713,
+   "raw": "Estimated Yield* 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 96.893074,
+   "raw": "Water Level 55 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 88.466461,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 48.004044,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.718798,
+   "lon": -116.811626,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35492617",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 32.71844,
+ "lon": -116.811706,
+ "apn": "599-221-05-00",
+ "libraryOnly": true
+}

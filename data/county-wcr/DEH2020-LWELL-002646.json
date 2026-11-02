@@ -1,0 +1,93 @@
+{
+ "permit": "DEH2020-LWELL-002646",
+ "processed": "2026-11-02T09:09:55-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35560233",
+   "desc": "WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-12-23",
+   "kb": 1262
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35560220",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-08-19",
+   "kb": 3441
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35560233",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35560233",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 211.0,
+   "conf": "medium",
+   "ocrConf": 77.093597,
+   "raw": "Total Depth of Completed Well 211",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 95.268021,
+   "raw": "Estimated Yield* 70 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.504135,
+   "raw": "Water Level 40 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 81.116035,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-09-21",
+   "conf": "medium",
+   "ocrConf": 77.132339,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.1744,
+   "lon": -117.1503,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35560233",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.174614,
+ "lon": -117.150363,
+ "apn": "182-131-33-00",
+ "libraryOnly": true,
+ "addr": "1789 SAVANNAH WAY, SAN MARCOS 92069"
+}

@@ -1,0 +1,78 @@
+{
+ "permit": "DEH2021-LWELL-002962",
+ "processed": "2026-11-02T10:06:39-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432006",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-10-23",
+   "kb": 12667
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35701975",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-09-07",
+   "kb": 6941
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432856",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-10-23",
+   "kb": 285
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432006",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.963303,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.600639,
+   "raw": "Estimated Yield* 200+ (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.490135,
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-10-23",
+   "conf": "medium",
+   "ocrConf": 52.800694,
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432006",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 33.075462,
+ "lon": -117.178012,
+ "apn": "264-042-23-00",
+ "libraryOnly": true,
+ "addr": "20109 FORTUNA DEL ESTE, ESCONDIDO 92029"
+}

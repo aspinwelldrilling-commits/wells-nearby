@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2020-LWELL-002555",
+ "processed": "2026-11-02T09:08:24-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35617812",
+   "desc": "redacted wcr",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-06-18",
+   "kb": 1451
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35468461",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-04-16",
+   "kb": 243
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35617812",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35617812",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1460.0,
+   "conf": "medium",
+   "ocrConf": 65.407364,
+   "raw": "Total Depth of Completed Well 1460",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 94.15773,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 48.0,
+   "conf": "high",
+   "ocrConf": 96.632652,
+   "raw": "Water Level 48 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Oownhole Rotary",
+   "conf": "medium",
+   "ocrConf": 59.681763,
+   "raw": "Drilling Method Oownhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 44.230228,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-06-03",
+   "conf": "high",
+   "ocrConf": 81.968369,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.00467,
+   "lon": -117.02902,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35617812",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.004561,
+ "lon": -117.028658,
+ "apn": "278-170-89-00",
+ "libraryOnly": true,
+ "addr": "14009 LAKE POWAY ROAD, POWAY 92064"
+}

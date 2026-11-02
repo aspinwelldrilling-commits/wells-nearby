@@ -1,0 +1,85 @@
+{
+ "permit": "DEH2021-LWELL-002760",
+ "processed": "2026-11-02T09:34:36-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35500610",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-02-24",
+   "kb": 3833
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35492306",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-01-14",
+   "kb": 2961
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35500610",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35500610",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 374.0,
+   "conf": "high",
+   "ocrConf": 83.811646,
+   "raw": "Total Depth of Completed Well 374",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 95.844849,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.085472,
+   "raw": "Water Level 200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 78.229103,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-01-27",
+   "conf": "medium",
+   "ocrConf": 73.029312,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35500610",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.121863,
+ "lon": -116.145766,
+ "apn": "253-170-66-00",
+ "libraryOnly": true,
+ "addr": "0 SPLIT MOUNTAIN ROAD, OCOTILLO WELLS 92004"
+}

@@ -1,0 +1,92 @@
+{
+ "permit": "DEH2020-LWELL-002645",
+ "processed": "2026-11-02T09:09:37-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35573218",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-28",
+   "kb": 4078
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35488624",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-08-24",
+   "kb": 2402
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35642122",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-28",
+   "kb": 277
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35573218",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 92.742271,
+   "raw": "Total Depth of Completed Well 200",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 96.286873,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 94.634956,
+   "raw": "Drilling Method _ Direct Rotary Drilling Fluid Bentonite",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 82.0737,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-01-29",
+   "conf": "high",
+   "ocrConf": 80.466042,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.083536,
+   "lon": -116.453264,
+   "conf": "medium",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35573218",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.083768,
+ "lon": -116.453144,
+ "apn": "251-160-14-00",
+ "libraryOnly": true
+}

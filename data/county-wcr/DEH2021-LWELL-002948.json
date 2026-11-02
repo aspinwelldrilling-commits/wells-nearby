@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2021-LWELL-002948",
+ "processed": "2026-11-02T10:04:03-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35619258",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-08-14",
+   "kb": 4587
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35620918",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-08-16",
+   "kb": 3979
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35528213",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-08-14",
+   "kb": 274
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35619258",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35619258",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 710.0,
+   "conf": "medium",
+   "ocrConf": 78.323975,
+   "raw": "Total Depth of Completed Well 710",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 95.0,
+   "conf": "high",
+   "ocrConf": 96.537277,
+   "raw": "Estimated Yield* 95 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 96.411171,
+   "raw": "Water Level 10 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 93.401093,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 5,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 56.689888,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.07426,
+   "lon": -116.6457,
+   "conf": "high",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35619258",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 33.073106,
+ "lon": -116.645464,
+ "apn": "289-061-01-00",
+ "libraryOnly": true,
+ "addr": "3515 HIGHWAY 78, JULIAN 92036"
+}

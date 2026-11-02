@@ -1,0 +1,99 @@
+{
+ "permit": "DEH2021-LWELL-002782",
+ "processed": "2026-11-02T09:37:24-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35503081",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-08-29",
+   "kb": 1711
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35575404",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-02-08",
+   "kb": 3959
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35575412",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-08-29",
+   "kb": 286
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35503081",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35503081",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 318.0,
+   "conf": "high",
+   "ocrConf": 84.54599,
+   "raw": "Total Depth of Completed Well 318",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 125.0,
+   "conf": "high",
+   "ocrConf": 93.6418,
+   "raw": "Estimated Yield* 125 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 146.0,
+   "conf": "high",
+   "ocrConf": 96.71228,
+   "raw": "Water Level 146 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud",
+   "conf": "medium",
+   "ocrConf": 64.519287,
+   "raw": "Drilling Method Other - MUD Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-02-22",
+   "conf": "medium",
+   "ocrConf": 73.886612,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.128191,
+   "lon": -116.131091,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35503081",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.128264,
+ "lon": -116.129589,
+ "apn": "253-170-08-00",
+ "libraryOnly": true
+}

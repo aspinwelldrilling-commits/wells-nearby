@@ -1,0 +1,93 @@
+{
+ "permit": "DEH2021-LWELL-002917",
+ "processed": "2026-11-02T10:00:06-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35614743",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-09-19",
+   "kb": 2886
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35532075",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-07-13",
+   "kb": 4844
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35532522",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-09-19",
+   "kb": 284
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35614743",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35614743",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1217.0,
+   "conf": "high",
+   "ocrConf": 86.690567,
+   "raw": "Total Depth of Completed Well 1217",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 430.0,
+   "conf": "high",
+   "ocrConf": 96.075218,
+   "raw": "Estimated Yield* 430 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 96.489288,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 92.7239,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 45.735657,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35614743",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.416348,
+ "lon": -116.831334,
+ "apn": "112-030-73-00",
+ "libraryOnly": true,
+ "addr": "38790 HIGHWAY 79, WARNER SPRINGS 92086"
+}

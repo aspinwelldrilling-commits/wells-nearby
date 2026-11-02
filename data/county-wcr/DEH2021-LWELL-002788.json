@@ -1,0 +1,92 @@
+{
+ "permit": "DEH2021-LWELL-002788",
+ "processed": "2026-11-02T09:38:32-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35674436",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-08-11",
+   "kb": 4097
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35504662",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-02-19",
+   "kb": 3532
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35674436",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35674436",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 715.0,
+   "conf": "low",
+   "ocrConf": 47.767067,
+   "raw": "Total Depth of Completed Well 715",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 93.437752,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 228.0,
+   "conf": "high",
+   "ocrConf": 95.784325,
+   "raw": "Water Level 228 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 43.173668,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-03-05",
+   "conf": "high",
+   "ocrConf": 81.385574,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.2583,
+   "lon": -117.1791,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35674436",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 33.258463,
+ "lon": -117.179698,
+ "apn": "127-420-49-00",
+ "libraryOnly": true,
+ "addr": "29976 MARGALE LANE, VISTA 92084"
+}

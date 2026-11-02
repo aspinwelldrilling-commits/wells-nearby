@@ -1,0 +1,92 @@
+{
+ "permit": "DEH2021-LWELL-002778",
+ "processed": "2026-11-02T09:36:34-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35574634",
+   "desc": "Redacted WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-02-25",
+   "kb": 3404
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35496300",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-02-23",
+   "kb": 2378
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35574634",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35574634",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 280.0,
+   "conf": "low",
+   "ocrConf": 48.763504,
+   "raw": "Total Depth of Completed Well 280",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.146088,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 99.0,
+   "conf": "high",
+   "ocrConf": 96.847878,
+   "raw": "Water Level 99 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 91.549469,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-02-08",
+   "conf": "low",
+   "ocrConf": 29.479187,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.079,
+   "lon": -116.0996,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35574634",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 33.079381,
+ "lon": -116.099422,
+ "apn": "253-390-38-00",
+ "libraryOnly": true,
+ "addr": "7101 SPLIT MOUNTAIN ROAD, BORREGO SPRINGS 92004"
+}

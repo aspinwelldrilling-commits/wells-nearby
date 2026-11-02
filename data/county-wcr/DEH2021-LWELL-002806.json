@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2021-LWELL-002806",
+ "processed": "2026-11-02T09:40:46-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41887635",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-08-14",
+   "kb": 220
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41887670",
+   "desc": "Inspection Report",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-08-14",
+   "kb": 3590
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35670695",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-09-14",
+   "kb": 4323
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41887635",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41887635",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 975.0,
+   "conf": "low",
+   "ocrConf": 41.559738,
+   "raw": "Total Depth of Completed Well 975",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 18.0,
+   "conf": "high",
+   "ocrConf": 96.056435,
+   "raw": "Estimated Yield* 18 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 95.643028,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer Dniling",
+   "conf": "medium",
+   "ocrConf": 58.21582,
+   "raw": "Drilling Method Downhole Hammer Dniling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-03-18",
+   "conf": "medium",
+   "ocrConf": 77.568443,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.9636111,
+   "lon": -116.9647222,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41887635",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 32.963461,
+ "lon": -116.964942,
+ "apn": "322-041-35-00",
+ "libraryOnly": true,
+ "addr": "0 IRON MOUNTAIN DRIVE, POWAY 92064"
+}

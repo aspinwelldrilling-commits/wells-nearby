@@ -1,0 +1,99 @@
+{
+ "permit": "DEH2021-LWELL-002883",
+ "processed": "2026-11-02T09:54:35-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38431916",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-10-10",
+   "kb": 2169
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35539381",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-06-04",
+   "kb": 3253
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38433201",
+   "desc": "Approved Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-10-10",
+   "kb": 237
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38431916",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38431916",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 145.0,
+   "conf": "high",
+   "ocrConf": 83.862946,
+   "raw": "Total Depth of Completed Well 145",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 96.690559,
+   "raw": "Estimated Yield* 500 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 32.0,
+   "conf": "high",
+   "ocrConf": 96.376915,
+   "raw": "Water Level 32 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud",
+   "conf": "medium",
+   "ocrConf": 73.864197,
+   "raw": "Drilling Method Other - MUD Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-07-02",
+   "conf": "medium",
+   "ocrConf": 73.419609,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.07897,
+   "lon": -117.004061,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38431916",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.078445,
+ "lon": -117.004566,
+ "apn": "276-021-02-00",
+ "libraryOnly": true
+}

@@ -1,0 +1,92 @@
+{
+ "permit": "DEH2020-LWELL-002640",
+ "processed": "2026-11-02T09:09:31-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35641368",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-06-17",
+   "kb": 4223
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35478256",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-08-17",
+   "kb": 2798
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35641368",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35641368",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1710.0,
+   "conf": "medium",
+   "ocrConf": 79.825806,
+   "raw": "Total Depth of Completed Well 1710",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.662651,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 340.0,
+   "conf": "high",
+   "ocrConf": 96.105446,
+   "raw": "Water Level 340 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 45.543247,
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-10-02",
+   "conf": "medium",
+   "ocrConf": 75.196281,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.042036,
+   "lon": -117.023829,
+   "conf": "high",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35641368",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 33.04229,
+ "lon": -117.023747,
+ "apn": "277-202-02-00",
+ "libraryOnly": true,
+ "addr": "14195 BISCAYNE PLACE, POWAY 92064"
+}

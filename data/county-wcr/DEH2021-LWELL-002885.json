@@ -1,0 +1,78 @@
+{
+ "permit": "DEH2021-LWELL-002885",
+ "processed": "2026-11-02T09:54:47-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35544324",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-03-03",
+   "kb": 3419
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35523752",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-07-08",
+   "kb": 3510
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35544324",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35544324",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 955.0,
+   "conf": "high",
+   "ocrConf": 92.62664,
+   "raw": "Total Depth of Completed Well 955",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 94.770187,
+   "raw": "Estimated Yield* 130 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 320.0,
+   "conf": "high",
+   "ocrConf": 96.507019,
+   "raw": "Water Level 320 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-01-20",
+   "conf": "low",
+   "ocrConf": 13.987259,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35544324",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.259253,
+ "lon": -117.172698,
+ "apn": "127-512-02-00",
+ "libraryOnly": true,
+ "addr": "3755 PICO ROAD, VISTA 92084"
+}

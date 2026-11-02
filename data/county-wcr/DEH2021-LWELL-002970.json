@@ -1,0 +1,93 @@
+{
+ "permit": "DEH2021-LWELL-002970",
+ "processed": "2026-11-02T10:08:15-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35532003",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-08",
+   "kb": 5000
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35531646",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-09-09",
+   "kb": 2633
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35531993",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-08",
+   "kb": 91
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35532003",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35532003",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1510.0,
+   "conf": "high",
+   "ocrConf": 86.202896,
+   "raw": "Total Depth of Completed Well 1510",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 96.383018,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 234.0,
+   "conf": "high",
+   "ocrConf": 96.387711,
+   "raw": "Water Level 234 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 87.841705,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.277162,
+   "lon": -117.009606,
+   "conf": "high",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35532003",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 33.27673,
+ "lon": -117.009515,
+ "apn": "133-500-10-00",
+ "libraryOnly": true,
+ "addr": "31140 NORTH STAR WAY, VALLEY CENTER 92082"
+}

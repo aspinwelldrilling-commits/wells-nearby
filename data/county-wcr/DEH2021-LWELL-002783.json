@@ -1,0 +1,93 @@
+{
+ "permit": "DEH2021-LWELL-002783",
+ "processed": "2026-11-02T09:37:35-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35497055",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-11-17",
+   "kb": 2867
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35503297",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-02-09",
+   "kb": 3537
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35497055",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35497055",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 755.0,
+   "conf": "low",
+   "ocrConf": 70.251839,
+   "raw": "Total Depth of Boring 755",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 7.0,
+   "conf": "medium",
+   "ocrConf": 52.009449,
+   "raw": "Yield\" 7 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 140.0,
+   "conf": "high",
+   "ocrConf": 93.818474,
+   "raw": "Water Level 140 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 74.936569,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-03-11",
+   "conf": "medium",
+   "ocrConf": 76.856155,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.2037,
+   "lon": -117.0355,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35497055",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 33.203697,
+ "lon": -117.034671,
+ "apn": "186-280-16-00",
+ "libraryOnly": true,
+ "addr": "27179 TOYON RIDGE TRAIL, VALLEY CENTER 92082"
+}

@@ -1,0 +1,92 @@
+{
+ "permit": "DEH2020-LWELL-002686",
+ "processed": "2026-11-02T09:17:05-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35491791",
+   "desc": "Redacted WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-06-04",
+   "kb": 697
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35482483",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-10-15",
+   "kb": 3092
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35491791",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35491791",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 433.0,
+   "conf": "medium",
+   "ocrConf": 54.143364,
+   "raw": "Total Depth of Completed Well 433",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 93.965912,
+   "raw": "Estimated Yield* 75 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 83.043259,
+   "raw": "Water Level 100 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 66.52858,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-10-27",
+   "conf": "medium",
+   "ocrConf": 72.733749,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.0784,
+   "lon": -117.1677,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35491791",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.078226,
+ "lon": -117.168102,
+ "apn": "264-441-17-00",
+ "libraryOnly": true,
+ "addr": "7702 CAMINO SERENO, ESCONDIDO 92029"
+}

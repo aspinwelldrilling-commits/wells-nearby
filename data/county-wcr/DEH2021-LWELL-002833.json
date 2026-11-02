@@ -1,0 +1,85 @@
+{
+ "permit": "DEH2021-LWELL-002833",
+ "processed": "2026-11-02T09:44:27-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35506723",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-12-05",
+   "kb": 5688
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35507293",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-04-14",
+   "kb": 3502
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35506711",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-12-05",
+   "kb": 245
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35506723",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 300.0,
+   "conf": "medium",
+   "ocrConf": 59.11684,
+   "raw": "Total Depth of Completed Well 300",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 42.0,
+   "conf": "high",
+   "ocrConf": 96.636292,
+   "raw": "Estimated Yield* 42 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "low",
+   "ocrConf": 41.963608,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid Bentonite",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 53.636162,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-05-25",
+   "conf": "high",
+   "ocrConf": 80.301094,
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35506723",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.223013,
+ "lon": -116.336382,
+ "apn": "199-160-36-00",
+ "libraryOnly": true
+}

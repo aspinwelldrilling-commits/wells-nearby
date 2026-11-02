@@ -1,0 +1,84 @@
+{
+ "permit": "DEH2021-LWELL-002928",
+ "processed": "2026-11-02T10:01:29-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35618068",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-06-24",
+   "kb": 3510
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35616484",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-07-26",
+   "kb": 3151
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35533874",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-06-24",
+   "kb": 94
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35618068",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 2
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35618068",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 615.0,
+   "conf": "low",
+   "ocrConf": 32.569206,
+   "raw": "Total Depth of Completed Well 615",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 138.0,
+   "conf": "high",
+   "ocrConf": 95.699135,
+   "raw": "Water Level 138 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 44.796177,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.27303,
+   "lon": -117.06655,
+   "conf": "medium",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35618068",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "partial",
+ "area": "",
+ "lat": 33.27278,
+ "lon": -117.067046,
+ "apn": "129-060-66-00",
+ "libraryOnly": true,
+ "addr": "13216 MANZANITA CREST ROAD, VALLEY CENTER 92082"
+}

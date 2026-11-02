@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2021-LWELL-002896",
+ "processed": "2026-11-02T09:56:24-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35609540",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-06-27",
+   "kb": 8337
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35529801",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-06-21",
+   "kb": 4010
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35528419",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-06-27",
+   "kb": 277
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35609540",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35609540",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 917.0,
+   "conf": "high",
+   "ocrConf": 84.176468,
+   "raw": "Total Depth of Completed Well 917",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 250.0,
+   "conf": "high",
+   "ocrConf": 96.234436,
+   "raw": "Estimated Yield* 250 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.313232,
+   "raw": "Water Level 100 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 91.105995,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-07-28",
+   "conf": "medium",
+   "ocrConf": 78.159866,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.428189,
+   "lon": -117.230299,
+   "conf": "high",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35609540",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 33.429628,
+ "lon": -117.230609,
+ "apn": "102-640-12-00",
+ "libraryOnly": true,
+ "addr": "0 VIA DE LA ROCA, FALLBROOK 92028"
+}

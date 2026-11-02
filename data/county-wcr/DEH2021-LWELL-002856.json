@@ -1,0 +1,93 @@
+{
+ "permit": "DEH2021-LWELL-002856",
+ "processed": "2026-11-02T09:48:59-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35515194",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-19",
+   "kb": 5355
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35515181",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-05-27",
+   "kb": 3058
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35538221",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-19",
+   "kb": 277
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35515194",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 945.0,
+   "conf": "high",
+   "ocrConf": 84.859726,
+   "raw": "Total Depth of Completed Well 945",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 42.900333,
+   "raw": "Estimated Yield* 200 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 171.0,
+   "conf": "high",
+   "ocrConf": 95.66188,
+   "raw": "Water Level 171 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 90.798103,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-06-18",
+   "conf": "medium",
+   "ocrConf": 79.477936,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.055511,
+   "lon": -117.178361,
+   "conf": "medium",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35515194",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.055171,
+ "lon": -117.176459,
+ "apn": "264-110-18-00",
+ "libraryOnly": true
+}

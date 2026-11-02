@@ -1,0 +1,93 @@
+{
+ "permit": "DEH2021-LWELL-002789",
+ "processed": "2026-11-02T09:38:36-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35576202",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-10",
+   "kb": 5729
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35590614",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-02-16",
+   "kb": 3449
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35510696",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-10",
+   "kb": 277
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35576202",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 253.0,
+   "conf": "high",
+   "ocrConf": 80.507797,
+   "raw": "Total Depth of Completed Well 253",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 95.827354,
+   "raw": "Estimated Yield* 200 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 77.0,
+   "conf": "high",
+   "ocrConf": 86.5952,
+   "raw": "Water Level 77 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 85.493805,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Bentonite",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 78.062309,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.1029,
+   "lon": -116.0899,
+   "conf": "high",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35576202",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.102871,
+ "lon": -116.090773,
+ "apn": "253-360-04-00",
+ "libraryOnly": true
+}

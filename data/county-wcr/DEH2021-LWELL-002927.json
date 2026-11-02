@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2021-LWELL-002927",
+ "processed": "2026-11-02T10:01:25-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35547510",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-08-19",
+   "kb": 1977
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35613870",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-07-23",
+   "kb": 3078
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35533787",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-08-19",
+   "kb": 285
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35547510",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35547510",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 817.0,
+   "conf": "high",
+   "ocrConf": 84.48336,
+   "raw": "Total Depth of Completed Well 817",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 96.208237,
+   "raw": "Estimated Yield* 130 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 44.0,
+   "conf": "high",
+   "ocrConf": 96.970619,
+   "raw": "Water Level 44 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 95.686325,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-08-26",
+   "conf": "medium",
+   "ocrConf": 77.359085,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.270106,
+   "lon": -117.218838,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35547510",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.269482,
+ "lon": -117.218499,
+ "apn": "126-180-57-00",
+ "libraryOnly": true,
+ "addr": "1555 DENTRO DE LOMAS, BONSALL 92003"
+}

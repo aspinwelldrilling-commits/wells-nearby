@@ -1,0 +1,92 @@
+{
+ "permit": "DEH2020-LWELL-002583",
+ "processed": "2026-11-02T09:08:33-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35559654",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-08-24",
+   "kb": 5323
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35463249",
+   "desc": "Reconstruction",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-05-28",
+   "kb": 1769
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35622852",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-08-24",
+   "kb": 217
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35559654",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 610.0,
+   "conf": "high",
+   "ocrConf": 88.007111,
+   "raw": "Total Depth of Completed Well 610",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.461655,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 84.882561,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 62.291042,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-06-09",
+   "conf": "high",
+   "ocrConf": 80.215729,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.033,
+   "lon": -117.03644,
+   "conf": "high",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35559654",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.033132,
+ "lon": -117.037179,
+ "apn": "273-901-24-00",
+ "libraryOnly": true
+}

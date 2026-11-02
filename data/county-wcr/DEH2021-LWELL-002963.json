@@ -1,0 +1,71 @@
+{
+ "permit": "DEH2021-LWELL-002963",
+ "processed": "2026-11-02T10:06:45-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41483239",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-04-03",
+   "kb": 5604
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35541631",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-09-02",
+   "kb": 7896
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41483247",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-04-03",
+   "kb": 160
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41483239",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1300.0,
+   "conf": "high",
+   "ocrConf": 96.950897,
+   "raw": "Total Depth of Completed Well 1300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "high",
+   "ocrConf": 95.629272,
+   "raw": "Estimated Yield* 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-10-04",
+   "conf": "high",
+   "ocrConf": 96.330544,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41483239",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.265031,
+ "lon": -116.994906,
+ "apn": "133-342-33-00",
+ "libraryOnly": true,
+ "addr": "15440 CITRUS CREST ROAD, VALLEY CENTER 92082"
+}

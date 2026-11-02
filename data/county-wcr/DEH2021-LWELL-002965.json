@@ -1,0 +1,71 @@
+{
+ "permit": "DEH2021-LWELL-002965",
+ "processed": "2026-11-02T10:07:19-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35702154",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-05-02",
+   "kb": 3771
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35624343",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-09-08",
+   "kb": 3048
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35702154",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35702154",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1200.0,
+   "conf": "low",
+   "ocrConf": 73.730659,
+   "raw": "Total Depth of Boring 1200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 96.143852,
+   "raw": "Water Level 70 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-02-14",
+   "conf": "medium",
+   "ocrConf": 75.094299,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35702154",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 32.700325,
+ "lon": -116.85135,
+ "apn": "597-250-12-00",
+ "libraryOnly": true,
+ "addr": "14559 RANCHO JAMUL DRIVE, JAMUL 91935"
+}

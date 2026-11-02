@@ -1,0 +1,91 @@
+{
+ "permit": "DEH2020-LWELL-002661",
+ "processed": "2026-11-02T09:12:16-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41293973",
+   "desc": "WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-01-30",
+   "kb": 1291
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35578661",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-09-17",
+   "kb": 3178
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41293975",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-01-30",
+   "kb": 142
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41293973",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41293973",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1435.0,
+   "conf": "high",
+   "ocrConf": 80.849571,
+   "raw": "Total Depth of Completed Well 1435",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 96.34671,
+   "raw": "Estimated Yield* 80 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 95.702805,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 58.827469,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.203422,
+   "lon": -117.156118,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41293973",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.203855,
+ "lon": -117.15499,
+ "apn": "178-221-03-00",
+ "libraryOnly": true
+}

@@ -1,0 +1,92 @@
+{
+ "permit": "DEH2021-LWELL-002961",
+ "processed": "2026-11-02T10:06:35-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35621475",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-06-13",
+   "kb": 3852
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35530589",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-09-01",
+   "kb": 2919
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35541489",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-06-13",
+   "kb": 58
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35621475",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35621475",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "high",
+   "ocrConf": 92.777328,
+   "raw": "Total Depth of Completed Well 800",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 94.667503,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 94.797279,
+   "raw": "Water Level 100 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 67.96994,
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-03-01",
+   "conf": "medium",
+   "ocrConf": 74.882622,
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35621475",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 33.033563,
+ "lon": -117.208933,
+ "apn": "265-120-28-00",
+ "libraryOnly": true,
+ "addr": "5870 SAN ELIJO, RANCHO SANTA FE 92067"
+}

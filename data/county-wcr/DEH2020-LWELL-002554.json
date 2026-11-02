@@ -1,0 +1,93 @@
+{
+ "permit": "DEH2020-LWELL-002554",
+ "processed": "2026-11-02T09:08:21-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35463457",
+   "desc": "redacted wcr",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-06-18",
+   "kb": 2007
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35461606",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-04-20",
+   "kb": 332
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35463457",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35463457",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1285.0,
+   "conf": "medium",
+   "ocrConf": 55.046051,
+   "raw": "Total Depth of Completed Well 1285",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 10.0,
+   "conf": "medium",
+   "ocrConf": 53.330364,
+   "raw": "Estimated Yield* +~\u00ab 10 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 96.309784,
+   "raw": "Water Level 75 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 80.449387,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 52.423859,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-05-18",
+   "conf": "medium",
+   "ocrConf": 72.858627,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35463457",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.019141,
+ "lon": -117.02717,
+ "apn": "277-140-29-00",
+ "libraryOnly": true,
+ "addr": "0 ESPOLA ROAD, POWAY 92064"
+}

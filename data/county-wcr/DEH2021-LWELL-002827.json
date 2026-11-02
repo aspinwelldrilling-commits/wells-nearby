@@ -1,0 +1,93 @@
+{
+ "permit": "DEH2021-LWELL-002827",
+ "processed": "2026-11-02T09:43:09-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35520217",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-06-08",
+   "kb": 3312
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35522923",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-04-27",
+   "kb": 3552
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35601627",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-06-08",
+   "kb": 63
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35520217",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1415.0,
+   "conf": "medium",
+   "ocrConf": 55.964241,
+   "raw": "Total Depth of Completed Well 1415",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 30.039246,
+   "raw": "Yield\" 35 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 474.0,
+   "conf": "high",
+   "ocrConf": 96.768158,
+   "raw": "Water Level 474 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "medium",
+   "ocrConf": 64.739151,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid ",
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-08-05",
+   "conf": "medium",
+   "ocrConf": 77.863075,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.2901,
+   "lon": -117.1441,
+   "conf": "high",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35520217",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.290097,
+ "lon": -117.146145,
+ "apn": "127-061-13-00",
+ "libraryOnly": true
+}
