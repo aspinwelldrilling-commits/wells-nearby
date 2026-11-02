@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2022-LWELL-003214",
+ "processed": "2026-11-02T11:48:16-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41685350",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-06-04",
+   "kb": 224
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35609530",
+   "desc": "Approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-11",
+   "kb": 6263
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41685355",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-06-04",
+   "kb": 248
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41685350",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41685350",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 750.0,
+   "conf": "low",
+   "ocrConf": 38.209248,
+   "raw": "Total Depth of Completed Well 750",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 45.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Estimated Yield\u00ae+\u00ab45 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 95.643028,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer Dniling",
+   "conf": "medium",
+   "ocrConf": 58.21582,
+   "raw": "Drilling Method Downhole Hammer Dniling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-07-29",
+   "conf": "medium",
+   "ocrConf": 72.279175,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.6670333,
+   "lon": -116.7958833,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41685350",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 32.667667,
+ "lon": -116.79671,
+ "apn": "600-090-28-00",
+ "libraryOnly": true,
+ "addr": "1818 HONEY SPRINGS RD, JAMUL, CA 91935"
+}

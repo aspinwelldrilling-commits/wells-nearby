@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2022-LWELL-003181",
+ "processed": "2026-11-02T11:25:00-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39875178",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-09",
+   "kb": 3169
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35602074",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-06-15",
+   "kb": 3153
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39875182",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-09",
+   "kb": 284
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39875178",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39875178",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1710.0,
+   "conf": "medium",
+   "ocrConf": 75.405594,
+   "raw": "Total Depth of Completed Well 1710",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 15.0,
+   "conf": "high",
+   "ocrConf": 95.752678,
+   "raw": "Estimated Yield* 15 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.269829,
+   "raw": "Water Level 200 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 95.876404,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-07-29",
+   "conf": "medium",
+   "ocrConf": 74.134216,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.85474,
+   "lon": -116.880601,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39875178",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 32.854832,
+ "lon": -116.880876,
+ "apn": "395-321-42-00",
+ "libraryOnly": true,
+ "addr": "9569 PALOMINO RIDGE DRIVE, LAKESIDE 92040"
+}

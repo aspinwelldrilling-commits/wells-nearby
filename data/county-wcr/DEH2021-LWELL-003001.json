@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2021-LWELL-003001",
+ "processed": "2026-11-02T10:15:08-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35540637",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-09-15",
+   "kb": 5595
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35633907",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-11-05",
+   "kb": 2031
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35629544",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-09-15",
+   "kb": 274
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35540637",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35540637",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1420.0,
+   "conf": "high",
+   "ocrConf": 86.497292,
+   "raw": "Total Depth of Completed Well 1420",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "high",
+   "ocrConf": 96.125397,
+   "raw": "Estimated Yield* 75 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 946.0,
+   "conf": "high",
+   "ocrConf": 96.546486,
+   "raw": "Water Level 946 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "medium",
+   "ocrConf": 75.75531,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-09-09",
+   "conf": "medium",
+   "ocrConf": 76.208679,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.067244,
+   "lon": -116.989959,
+   "conf": "medium",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35540637",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 33.068082,
+ "lon": -116.989337,
+ "apn": "276-150-02-00",
+ "libraryOnly": true,
+ "addr": "15732 HIGHLAND VALLEY ROAD, ESCONDIDO 92025"
+}

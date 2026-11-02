@@ -1,0 +1,94 @@
+{
+ "permit": "DEH2022-LWELL-003302",
+ "processed": "2026-11-02T12:23:04-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35745580",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-10-05",
+   "kb": 6827
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35613669",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-11-07",
+   "kb": 3182
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35622545",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-10-05",
+   "kb": 236
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35745580",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 923.0,
+   "conf": "high",
+   "ocrConf": 86.41684,
+   "raw": "Total Depth of Completed Well 923",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 95.191116,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 280.0,
+   "conf": "high",
+   "ocrConf": 96.883339,
+   "raw": "Water Level 280 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 83.315483,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 61.823296,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2023-07-05",
+   "conf": "medium",
+   "ocrConf": 71.275681,
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35745580",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 32.992486,
+ "lon": -117.014477,
+ "apn": "321-030-22-00",
+ "libraryOnly": true,
+ "addr": "14576 HIGH VALLEY ROAD, POWAY 92064"
+}

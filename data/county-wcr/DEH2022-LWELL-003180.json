@@ -1,0 +1,94 @@
+{
+ "permit": "DEH2022-LWELL-003180",
+ "processed": "2026-11-02T11:23:48-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35600284",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-13",
+   "kb": 7588
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35737909",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-06-03",
+   "kb": 6039
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35591246",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-13",
+   "kb": 277
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35600284",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1190.0,
+   "conf": "low",
+   "ocrConf": 75.482529,
+   "raw": "Total Depth of Boring 1190",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 300.0,
+   "conf": "high",
+   "ocrConf": 96.852829,
+   "raw": "Water Level 300 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 95.985313,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid Air",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 47.533131,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-06-17",
+   "conf": "medium",
+   "ocrConf": 79.746262,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.0899139,
+   "lon": -116.7766417,
+   "conf": "high",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35600284",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "partial",
+ "area": "",
+ "lat": 33.089346,
+ "lon": -116.77799,
+ "apn": "246-130-39-00",
+ "libraryOnly": true,
+ "addr": "20993 SUTHERLAND DAM ROAD, RAMONA 92065"
+}

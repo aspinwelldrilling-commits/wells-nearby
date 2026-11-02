@@ -1,0 +1,101 @@
+{
+ "permit": "DEH2022-LWELL-003102",
+ "processed": "2026-11-02T10:39:56-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432590",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-09-25",
+   "kb": 4257
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35580901",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-02-17",
+   "kb": 3285
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432144",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-09-25",
+   "kb": 275
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432590",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1490.0,
+   "conf": "high",
+   "ocrConf": 88.815529,
+   "raw": "Total Depth of Completed Well 1490",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 94.730789,
+   "raw": "Estimated Yield* 30 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 510.0,
+   "conf": "high",
+   "ocrConf": 95.432022,
+   "raw": "Water Level 510 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 93.614883,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 38.864639,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-05-24",
+   "conf": "medium",
+   "ocrConf": 75.401474,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.425417,
+   "lon": -117.18555,
+   "conf": "medium",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432590",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.426145,
+ "lon": -117.184364,
+ "apn": "102-370-42-00",
+ "libraryOnly": true,
+ "addr": "0 TIERRA NUEVO DRIVE, FALLBROOK 92028"
+}

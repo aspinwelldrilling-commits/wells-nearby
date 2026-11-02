@@ -1,0 +1,107 @@
+{
+ "permit": "DEH2021-LWELL-003058",
+ "processed": "2026-11-02T10:30:30-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39839722",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-11-27",
+   "kb": 1729
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35633736",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-12-20",
+   "kb": 2966
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39843296",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-11-27",
+   "kb": 284
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39839722",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39839722",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "high",
+   "ocrConf": 84.805534,
+   "raw": "Total Depth of Completed Well 410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 95.139427,
+   "raw": "Estimated Yield* 30 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 38.0,
+   "conf": "high",
+   "ocrConf": 95.778763,
+   "raw": "Water Level 38 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 94.746338,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 41.79504,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-06-20",
+   "conf": "medium",
+   "ocrConf": 77.91568,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.378734,
+   "lon": -117.208275,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39839722",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.379065,
+ "lon": -117.20838,
+ "apn": "105-301-16-00",
+ "libraryOnly": true,
+ "addr": "2453 HOBBIT LANE, FALLBROOK 92028"
+}

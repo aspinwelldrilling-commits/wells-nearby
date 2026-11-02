@@ -1,0 +1,94 @@
+{
+ "permit": "DEH2022-LWELL-003138",
+ "processed": "2026-11-02T11:01:06-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35596943",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-08-03",
+   "kb": 6760
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35576641",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-04-12",
+   "kb": 6087
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35583402",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-08-03",
+   "kb": 277
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35596943",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 550.0,
+   "conf": "medium",
+   "ocrConf": 74.539612,
+   "raw": "Total Depth of Completed Well 550",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 95.828949,
+   "raw": "Estimated Yield\" 25 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 96.454887,
+   "raw": "Water Level 40 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 89.627579,
+   "raw": "Drilling Method Downhole Hammer Drilling Fluid ",
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-06-07",
+   "conf": "low",
+   "ocrConf": 37.852333,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.0192,
+   "lon": -116.6137389,
+   "conf": "high",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35596943",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.019283,
+ "lon": -116.613829,
+ "apn": "293-211-21-00",
+ "libraryOnly": true,
+ "addr": "5789 SHADY ACRES LANE, JULIAN 92036"
+}

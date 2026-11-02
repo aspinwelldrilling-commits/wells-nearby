@@ -1,0 +1,101 @@
+{
+ "permit": "DEH2022-LWELL-003220",
+ "processed": "2026-11-02T11:52:32-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35739597",
+   "desc": "WCR REDACTED",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-08-28",
+   "kb": 4594
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35590076",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-07",
+   "kb": 3056
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35590099",
+   "desc": "FINAL INSPECTION",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-08-28",
+   "kb": 222
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35739597",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1210.0,
+   "conf": "medium",
+   "ocrConf": 61.883522,
+   "raw": "Total Depth of Completed Well 1210",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 35.0,
+   "conf": "low",
+   "ocrConf": 42.252556,
+   "raw": "Estimated Yield* 35 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 440.0,
+   "conf": "high",
+   "ocrConf": 96.579361,
+   "raw": "Water Level 440 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 93.992973,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 64.880798,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-10-14",
+   "conf": "medium",
+   "ocrConf": 74.007011,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.287,
+   "lon": -117.24622,
+   "conf": "high",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35739597",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.286738,
+ "lon": -117.246587,
+ "apn": "121-312-19-00",
+ "libraryOnly": true,
+ "addr": "4114 TIERRA VISTA, BONSALL 92003"
+}

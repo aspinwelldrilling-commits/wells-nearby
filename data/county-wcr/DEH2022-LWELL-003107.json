@@ -1,0 +1,93 @@
+{
+ "permit": "DEH2022-LWELL-003107",
+ "processed": "2026-11-02T10:42:00-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35567014",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-09",
+   "kb": 5554
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35574012",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-03-01",
+   "kb": 3292
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35587746",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-09",
+   "kb": 277
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35567014",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 835.0,
+   "conf": "high",
+   "ocrConf": 87.570961,
+   "raw": "Total Depth of Completed Well 835",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 95.904579,
+   "raw": "Water Level 50 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 89.977798,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 61.07616,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-08-10",
+   "conf": "medium",
+   "ocrConf": 73.602867,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.285331,
+   "lon": -117.167751,
+   "conf": "high",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35567014",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.284784,
+ "lon": -117.167421,
+ "apn": "127-530-22-00",
+ "libraryOnly": true,
+ "addr": "31418 CALLE DE TALAR, BONSALL 92003"
+}

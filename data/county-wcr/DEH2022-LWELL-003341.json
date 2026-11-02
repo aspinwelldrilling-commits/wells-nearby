@@ -1,0 +1,86 @@
+{
+ "permit": "DEH2022-LWELL-003341",
+ "processed": "2026-11-02T12:40:32-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41677600",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-06-02",
+   "kb": 1561
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41677605",
+   "desc": "Inspection Report",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-06-02",
+   "kb": 8483
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35619728",
+   "desc": "Approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-12-19",
+   "kb": 2015
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41677600",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1310.0,
+   "conf": "high",
+   "ocrConf": 86.924553,
+   "raw": "Total Depth of Completed Well: 1310",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 350.0,
+   "conf": "high",
+   "ocrConf": 84.993027,
+   "raw": "Water Level: 350 (feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 94.751823,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2023-02-15",
+   "conf": "high",
+   "ocrConf": 94.878494,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.063806,
+   "lon": -116.592723,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41677600",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.06221,
+ "lon": -116.593241,
+ "apn": "292-011-35-00",
+ "libraryOnly": true,
+ "addr": "3772 SLUMBERING OAKS TRL, JULIAN, CA 92036"
+}

@@ -1,0 +1,71 @@
+{
+ "permit": "DEH2021-LWELL-003064",
+ "processed": "2026-11-02T10:31:13-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41455392",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-03-24",
+   "kb": 6468
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35564771",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-12-22",
+   "kb": 9493
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41455399",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-03-24",
+   "kb": 157
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41455392",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "high",
+   "ocrConf": 96.690132,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 25.0,
+   "conf": "high",
+   "ocrConf": 96.984505,
+   "raw": "Estimated Yield* 25 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-02-28",
+   "conf": "low",
+   "ocrConf": 0.0,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41455392",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.298377,
+ "lon": -117.080233,
+ "apn": "128-510-02-00",
+ "libraryOnly": true,
+ "addr": "32283 LILAC ROAD, VALLEY CENTER 92082"
+}

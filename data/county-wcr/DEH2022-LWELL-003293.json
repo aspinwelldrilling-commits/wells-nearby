@@ -1,0 +1,107 @@
+{
+ "permit": "DEH2022-LWELL-003293",
+ "processed": "2026-11-02T12:19:27-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39843333",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-11-27",
+   "kb": 1971
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35744873",
+   "desc": "Approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-10-24",
+   "kb": 2272
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39839195",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-11-27",
+   "kb": 285
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39843333",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39843333",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1300.0,
+   "conf": "high",
+   "ocrConf": 84.864555,
+   "raw": "Total Depth of Completed Well 1300",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 90.0,
+   "conf": "high",
+   "ocrConf": 94.899963,
+   "raw": "Estimated Yield* 90 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 125.0,
+   "conf": "high",
+   "ocrConf": 96.862419,
+   "raw": "Water Level 125 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 92.764351,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 36.934696,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2023-08-02",
+   "conf": "medium",
+   "ocrConf": 77.499634,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.307431,
+   "lon": -117.241111,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39843333",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.307734,
+ "lon": -117.240999,
+ "apn": "123-430-12-00",
+ "libraryOnly": true,
+ "addr": "5 GOLDEN MEADOW LN, FALLBROOK, CA 92028"
+}

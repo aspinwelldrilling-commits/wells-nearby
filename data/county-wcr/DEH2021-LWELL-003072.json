@@ -1,0 +1,77 @@
+{
+ "permit": "DEH2021-LWELL-003072",
+ "processed": "2026-11-02T10:34:20-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35555704",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-27",
+   "kb": 7593
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35639710",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-01-10",
+   "kb": 3251
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35653926",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-27",
+   "kb": 277
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35555704",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35639710",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "swlFt": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 1.247185,
+   "raw": "WATER LEVEL 250 (Ft",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 16.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "ESTIMATED YIELD 16 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2003-04-08",
+   "conf": "high",
+   "ocrConf": 91.500748,
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35639710",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "partial",
+ "area": "",
+ "lat": 32.724891,
+ "lon": -116.825951,
+ "apn": "596-161-26-00",
+ "libraryOnly": true,
+ "addr": "15430 PALLUX STAR COURT, JAMUL 91935"
+}

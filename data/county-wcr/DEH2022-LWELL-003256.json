@@ -1,0 +1,71 @@
+{
+ "permit": "DEH2022-LWELL-003256",
+ "processed": "2026-11-02T12:06:56-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35649249",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-06-06",
+   "kb": 10300
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35648170",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-05-23",
+   "kb": 12210
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35648174",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-06-06",
+   "kb": 251
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35649249",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 700.0,
+   "conf": "high",
+   "ocrConf": 85.642975,
+   "raw": "Total Depth of Completed Well 700",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 500.0,
+   "conf": "high",
+   "ocrConf": 89.662727,
+   "raw": "Estimated Yield * 500+ (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-09-30",
+   "conf": "high",
+   "ocrConf": 96.455162,
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35649249",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.059064,
+ "lon": -117.132853,
+ "apn": "272-160-75-00",
+ "libraryOnly": true,
+ "addr": "0 MOUNT ISRAEL RD, ESCONDIDO, CA 92029"
+}

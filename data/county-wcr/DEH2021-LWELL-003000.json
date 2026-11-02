@@ -1,0 +1,92 @@
+{
+ "permit": "DEH2021-LWELL-003000",
+ "processed": "2026-11-02T10:15:00-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35559128",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-02-17",
+   "kb": 5022
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35627185",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-10-15",
+   "kb": 2901
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35547301",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-02-17",
+   "kb": 245
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35559128",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35559128",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 110.0,
+   "conf": "medium",
+   "ocrConf": 71.807762,
+   "raw": "Total Depth of Completed Well 110",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 0.5,
+   "conf": "high",
+   "ocrConf": 83.473503,
+   "raw": "Estimated Yield* 0.5 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 89.768303,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-10-19",
+   "conf": "high",
+   "ocrConf": 86.42382,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.767825,
+   "lon": -116.969606,
+   "conf": "high",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35559128",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 32.767964,
+ "lon": -116.969604,
+ "apn": "497-061-09-00",
+ "libraryOnly": true,
+ "addr": "4902 CRESTLAND DRIVE, LA MESA 91941"
+}

@@ -1,0 +1,86 @@
+{
+ "permit": "DEH2021-LWELL-003063",
+ "processed": "2026-11-02T10:30:58-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35553947",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-15",
+   "kb": 4266
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35564863",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-12-22",
+   "kb": 3274
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35638053",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-15",
+   "kb": 88
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35553947",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1300.0,
+   "conf": "low",
+   "ocrConf": 41.557461,
+   "raw": "Total Depth of Completed Well 1300",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 94.136703,
+   "raw": "Estimated Yield* 55 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 296.0,
+   "conf": "high",
+   "ocrConf": 96.679031,
+   "raw": "Water Level 296 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 51.975479,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-06-16",
+   "conf": "medium",
+   "ocrConf": 75.488251,
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35553947",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "partial",
+ "area": "",
+ "lat": 33.268256,
+ "lon": -117.224955,
+ "apn": "126-180-63-00",
+ "libraryOnly": true,
+ "addr": "1309 CHARIOT COURT, BONSALL 92003"
+}

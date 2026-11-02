@@ -1,0 +1,84 @@
+{
+ "permit": "DEH2021-LWELL-003061",
+ "processed": "2026-11-02T10:30:55-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39926522",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-23",
+   "kb": 1948
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35568876",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-01-25",
+   "kb": 2969
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39926547",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-23",
+   "kb": 279
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39926522",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39926522",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 375.0,
+   "conf": "high",
+   "ocrConf": 85.084251,
+   "raw": "Total Depth of Completed Well 375",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 94.746162,
+   "raw": "Estimated Yield* 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-03-17",
+   "conf": "medium",
+   "ocrConf": 76.528458,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.17141,
+   "lon": -117.339141,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39926522",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.170995,
+ "lon": -117.339418,
+ "apn": "156-130-06-00",
+ "libraryOnly": true,
+ "addr": "2684 HIGHLAND DRIVE, CARLSBAD 92008"
+}

@@ -1,0 +1,94 @@
+{
+ "permit": "DEH2022-LWELL-003320",
+ "processed": "2026-11-02T12:34:46-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35709928",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-03-21",
+   "kb": 2464
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35616235",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-11-18",
+   "kb": 3882
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35730094",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-03-21",
+   "kb": 245
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35709928",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 275.0,
+   "conf": "high",
+   "ocrConf": 82.024406,
+   "raw": "Total Depth of Completed Well 275",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 94.559853,
+   "raw": "Estimated Yield\u201d 3 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.783012,
+   "raw": "Water Level 200 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary Dnilling",
+   "conf": "low",
+   "ocrConf": 45.144112,
+   "raw": "Drilling Method _ Direct Rotary Dnilling Fluid Bentonite",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "medium",
+   "ocrConf": 67.168747,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.13372,
+   "lon": -116.14283,
+   "conf": "high",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35709928",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.135771,
+ "lon": -116.143796,
+ "apn": "253-091-04-00",
+ "libraryOnly": true,
+ "addr": "0 SPLIT MOUNTAIN ROAD, OCOTILLO WELLS 92004"
+}

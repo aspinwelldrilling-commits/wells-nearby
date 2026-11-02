@@ -1,0 +1,99 @@
+{
+ "permit": "DEH2022-LWELL-003267",
+ "processed": "2026-11-02T12:11:46-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38442513",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-10-28",
+   "kb": 2035
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35701490",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-09-20",
+   "kb": 1475
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432946",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-10-28",
+   "kb": 279
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38442513",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38442513",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 810.0,
+   "conf": "high",
+   "ocrConf": 86.91201,
+   "raw": "Total Depth of Completed Well 810",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "high",
+   "ocrConf": 95.831818,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 95.37397,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 94.582863,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 74.751236,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.161307,
+   "lon": -116.756242,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38442513",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.162451,
+ "lon": -116.756252,
+ "apn": "245-020-09-00",
+ "libraryOnly": true
+}

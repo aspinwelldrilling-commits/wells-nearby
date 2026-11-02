@@ -1,0 +1,94 @@
+{
+ "permit": "DEH2022-LWELL-003325",
+ "processed": "2026-11-02T12:36:48-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35711359",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-05-12",
+   "kb": 6965
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35610882",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-11-29",
+   "kb": 3311
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35711359",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1015.0,
+   "conf": "high",
+   "ocrConf": 86.439964,
+   "raw": "Total Depth of Completed Well 1015",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "high",
+   "ocrConf": 95.181755,
+   "raw": "Estimated Yield* 20 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 96.335167,
+   "raw": "Water Level 55 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 90.489578,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 6,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 37.098156,
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2023-02-07",
+   "conf": "high",
+   "ocrConf": 88.021996,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.715102,
+   "lon": -116.39044,
+   "conf": "medium",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35711359",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 32.716393,
+ "lon": -116.391905,
+ "apn": "608-080-33-00",
+ "libraryOnly": true,
+ "addr": "0 OLD HIGHWAY 80, PINE VALLEY 91962"
+}

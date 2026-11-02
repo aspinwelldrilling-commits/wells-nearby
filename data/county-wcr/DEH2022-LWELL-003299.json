@@ -1,0 +1,66 @@
+{
+ "permit": "DEH2022-LWELL-003299",
+ "processed": "2026-11-02T12:22:31-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35713438",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-10",
+   "kb": 9997
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35623694",
+   "desc": "seal pour",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-09",
+   "kb": 7758
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35728859",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-10-25",
+   "kb": 9653
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35615437",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-10",
+   "kb": 251
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35713438",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 89.320023,
+   "raw": "TOTAL DEPTH OF BORING _ 200",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35713438",
+ "errors": [
+  "read 35623694: Command '['tesseract', '/tmp/wcr-worker-tiu0igzb/p2.png', '-', '--psm', '6', 'tsv']' timed out after 180 seconds"
+ ],
+ "bestDocPage": 6,
+ "status": "partial",
+ "area": "",
+ "lat": 33.004581,
+ "lon": -116.923759,
+ "apn": "285-011-39-00",
+ "libraryOnly": true,
+ "addr": "15851 MARMAC DRIVE, RAMONA 92065"
+}

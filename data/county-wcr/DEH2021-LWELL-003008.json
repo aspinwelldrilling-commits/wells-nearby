@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2021-LWELL-003008",
+ "processed": "2026-11-02T10:16:06-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35707445",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-07-18",
+   "kb": 1924
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35632176",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-10-19",
+   "kb": 4620
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35559794",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-07-18",
+   "kb": 285
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35707445",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35707445",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1510.0,
+   "conf": "medium",
+   "ocrConf": 75.304214,
+   "raw": "Total Depth of Completed Well 1510",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 2.0,
+   "conf": "high",
+   "ocrConf": 95.684143,
+   "raw": "Estimated Yield* 2 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 130.0,
+   "conf": "high",
+   "ocrConf": 95.179733,
+   "raw": "Water Level 130 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "medium",
+   "ocrConf": 70.437515,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 74.309387,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.380227,
+   "lon": -117.194529,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35707445",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.379872,
+ "lon": -117.194071,
+ "apn": "105-310-51-00",
+ "libraryOnly": true,
+ "addr": "0 VIA MONTEVINA, FALLBROOK 92028"
+}

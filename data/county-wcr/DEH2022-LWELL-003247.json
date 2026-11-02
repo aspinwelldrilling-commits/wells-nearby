@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2022-LWELL-003247",
+ "processed": "2026-11-02T12:03:25-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39874264",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-09",
+   "kb": 2872
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38437840",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-10-03",
+   "kb": 2626
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39874286",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-09",
+   "kb": 283
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39874264",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39874264",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 310.0,
+   "conf": "medium",
+   "ocrConf": 59.70639,
+   "raw": "Total Depth of Completed Well 310",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "low",
+   "ocrConf": 43.59893,
+   "raw": "Estimated Yield\u00ae 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 96.790703,
+   "raw": "Water Level 30 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "medium",
+   "ocrConf": 66.056503,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "medium",
+   "ocrConf": 55.07486,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.919759,
+   "lon": -116.882332,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39874264",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 32.919946,
+ "lon": -116.882219,
+ "apn": "329-160-61-00",
+ "libraryOnly": true,
+ "addr": "13046 WILDCAT CANYON ROAD, LAKESIDE 92040"
+}

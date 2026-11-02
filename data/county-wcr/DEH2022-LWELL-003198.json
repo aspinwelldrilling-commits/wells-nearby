@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2022-LWELL-003198",
+ "processed": "2026-11-02T11:38:47-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39817026",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-12-24",
+   "kb": 2029
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35594676",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-01",
+   "kb": 3286
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39817036",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-12-24",
+   "kb": 283
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39817026",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39817026",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1310.0,
+   "conf": "medium",
+   "ocrConf": 79.384567,
+   "raw": "Total Depth of Completed Well 1310",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 40.0,
+   "conf": "high",
+   "ocrConf": 95.293716,
+   "raw": "Estimated Yield* 40 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 240.0,
+   "conf": "high",
+   "ocrConf": 96.353104,
+   "raw": "Water Level 240 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 95.779892,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-10-11",
+   "conf": "medium",
+   "ocrConf": 68.868225,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.989843,
+   "lon": -117.027159,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39817026",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 32.989606,
+ "lon": -117.027243,
+ "apn": "321-012-37-00",
+ "libraryOnly": true,
+ "addr": "14016 DEL PONIENTE ROAD, POWAY 92064"
+}

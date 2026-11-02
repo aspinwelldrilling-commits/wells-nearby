@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2021-LWELL-003051",
+ "processed": "2026-11-02T10:29:54-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35563902",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-30",
+   "kb": 5935
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35554034",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-12-13",
+   "kb": 2952
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35651632",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-01-27",
+   "kb": 245
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35563902",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35563902",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1010.0,
+   "conf": "medium",
+   "ocrConf": 67.436783,
+   "raw": "Total Depth of Completed Well 1010",
+   "page": 5,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 125.0,
+   "conf": "high",
+   "ocrConf": 96.257828,
+   "raw": "Estimated Yield* 125 (GPM",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 124.0,
+   "conf": "high",
+   "ocrConf": 96.154198,
+   "raw": "Water Level 124 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 80.930016,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-02-01",
+   "conf": "high",
+   "ocrConf": 84.006447,
+   "page": 5,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.20855,
+   "lon": -117.17375,
+   "conf": "medium",
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35563902",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 33.206818,
+ "lon": -117.172722,
+ "apn": "178-170-10-00",
+ "libraryOnly": true,
+ "addr": "656 QUARRY ROAD, SAN MARCOS 92069"
+}

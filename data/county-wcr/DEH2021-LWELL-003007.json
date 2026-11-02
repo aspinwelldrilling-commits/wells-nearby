@@ -1,0 +1,71 @@
+{
+ "permit": "DEH2021-LWELL-003007",
+ "processed": "2026-11-02T10:15:58-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432122",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-10-24",
+   "kb": 5839
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35707281",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-10-18",
+   "kb": 8226
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38431948",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-10-24",
+   "kb": 286
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432122",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 96.664581,
+   "raw": "Total Depth of Completed Well 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 96.168533,
+   "raw": "Estimated Yield* 100+ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-12-13",
+   "conf": "medium",
+   "ocrConf": 68.060356,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=38432122",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.162956,
+ "lon": -117.030206,
+ "apn": "240-010-38-00",
+ "libraryOnly": true,
+ "addr": "0 VALLEY PARKWAY, ESCONDIDO"
+}

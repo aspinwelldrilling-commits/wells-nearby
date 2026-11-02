@@ -1,0 +1,85 @@
+{
+ "permit": "DEH2021-LWELL-002993",
+ "processed": "2026-11-02T10:14:00-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35631645",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-08-26",
+   "kb": 2102
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35537712",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-10-14",
+   "kb": 5221
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35631645",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35631645",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1310.0,
+   "conf": "high",
+   "ocrConf": 82.436646,
+   "raw": "Total Depth of Completed Well 1310",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "high",
+   "ocrConf": 91.422852,
+   "raw": "Estimated Yield* 3 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "medium",
+   "ocrConf": 63.141426,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "low",
+   "ocrConf": 47.759773,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.279281,
+   "lon": -117.037159,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35631645",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.279666,
+ "lon": -117.036694,
+ "apn": "129-370-47-00",
+ "libraryOnly": true,
+ "addr": "13496 HILLTOP TERRACE, VALLEY CENTER 92082"
+}

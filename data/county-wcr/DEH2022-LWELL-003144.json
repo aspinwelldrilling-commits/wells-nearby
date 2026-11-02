@@ -1,0 +1,100 @@
+{
+ "permit": "DEH2022-LWELL-003144",
+ "processed": "2026-11-02T11:03:31-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35584262",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-07-24",
+   "kb": 2243
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35597720",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-04-20",
+   "kb": 3218
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35576922",
+   "desc": "Final inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-07-24",
+   "kb": 286
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35584262",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35584262",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1420.0,
+   "conf": "high",
+   "ocrConf": 85.112465,
+   "raw": "Total Depth of Completed Well 1420",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 50.0,
+   "conf": "medium",
+   "ocrConf": 67.061386,
+   "raw": "Estimated Yield* 50 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 85.0,
+   "conf": "high",
+   "ocrConf": 95.665749,
+   "raw": "Water Level 85 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud Driling",
+   "conf": "medium",
+   "ocrConf": 53.921017,
+   "raw": "Drilling Method Other - MUD Driling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-08-26",
+   "conf": "high",
+   "ocrConf": 84.815521,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.188571,
+   "lon": -117.15149,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35584262",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.188032,
+ "lon": -117.151862,
+ "apn": "182-073-04-00",
+ "libraryOnly": true,
+ "addr": "236 DEER SPRINGS ROAD, SAN MARCOS 92069"
+}
