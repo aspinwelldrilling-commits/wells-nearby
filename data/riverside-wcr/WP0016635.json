@@ -1,0 +1,63 @@
+{
+ "permit": "WP0016635",
+ "processed": "2026-11-02T08:49:42-08:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "636-154-007",
+ "address": "69250 Buckthorn Dr",
+ "city": "Pinyon Pines",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244199",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1036
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244199",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 660.0,
+   "conf": "medium",
+   "ocrConf": 72.89032,
+   "raw": "Total Depth of Completed Well 660",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 3.0,
+   "conf": "medium",
+   "ocrConf": 78.895233,
+   "raw": "Estimated Yield* 3 ~~ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2006-08-09",
+   "conf": "high",
+   "ocrConf": 95.782722,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244199",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.591061154000045,
+ "lon": -116.46310657099997,
+ "permitPath": null,
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/244199",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "bestDocPage": 1,
+ "status": "readable"
+}

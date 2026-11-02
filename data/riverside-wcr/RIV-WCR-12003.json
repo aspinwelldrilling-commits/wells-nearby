@@ -1,0 +1,52 @@
+{
+ "permit": "RIV-WCR-12003",
+ "processed": "2026-11-02T08:46:57-08:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "584-280-020",
+ "address": "40230 Crazy Horse Canyon Dr",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12003",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 759
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12003",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 355.0,
+   "conf": "medium",
+   "ocrConf": 89.855476,
+   "raw": "(12) WELL LOG: Total depth 355",
+   "note": "total depth (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12003",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.531803,
+ "lon": -116.815972,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/11146",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/12003",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": "Submitted",
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "13890",
+ "bestDocPage": 1,
+ "status": "partial"
+}

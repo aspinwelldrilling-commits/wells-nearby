@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13703",
+ "processed": "2026-11-02T08:47:08-08:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "ROLLONG HILLS DR & SADDLEBACK DR; LAKE R",
+ "city": "Lake Riverside",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13703",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1075
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13703",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 240.0,
+   "conf": "medium",
+   "ocrConf": 72.722717,
+   "raw": "Completed depth 240 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13703",
+ "errors": [],
+ "area": "gap-sweep",
+ "lat": 33.516001000000074,
+ "lon": -116.80808599999995,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/14700",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13703",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15766",
+ "bestDocPage": 1,
+ "status": "partial"
+}
