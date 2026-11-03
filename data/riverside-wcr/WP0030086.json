@@ -1,6 +1,6 @@
 {
  "permit": "WP0030086",
- "processed": "2026-10-07T06:12:39-07:00",
+ "processed": "2026-11-02T20:33:40-08:00",
  "version": 1,
  "county": "riverside",
  "apn": "418-360-001",
@@ -15,8 +15,43 @@
    "kb": 370
   }
  ],
- "wcrPages": [],
- "fields": {},
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270795",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270795",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "fluid": {
+   "value": "None",
+   "conf": "high",
+   "ocrConf": 95.959137,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-06-24",
+   "conf": "medium",
+   "ocrConf": 62.180973,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.926308,
+   "lon": -116.968556,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
  "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/270795",
  "errors": [],
  "area": "beaumont-banning",
@@ -27,5 +62,6 @@
  "serviceType": "New Construction",
  "wellType": "Piezometer",
  "statusCounty": "Final",
- "status": "no_wcr"
+ "bestDocPage": 1,
+ "status": "partial"
 }

@@ -1,6 +1,6 @@
 {
  "permit": "WP0030643",
- "processed": "2026-10-07T21:10:18-07:00",
+ "processed": "2026-11-02T20:34:16-08:00",
  "version": 1,
  "county": "riverside",
  "apn": "119-270-001",
@@ -15,8 +15,45 @@
    "kb": 593
   }
  ],
- "wcrPages": [],
- "fields": {},
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275018",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  },
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275018",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 51.0,
+   "conf": "high",
+   "ocrConf": 86.007385,
+   "raw": "Total Depth of Completed Well 51",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "high",
+   "ocrConf": 96.337067,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.89238217,
+   "lon": -117.5633384,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  },
+  "activity": "destroy"
+ },
  "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/275018",
  "errors": [],
  "area": "jurupa-eastvale-corona-west",
@@ -27,5 +64,6 @@
  "serviceType": "Destruction",
  "wellType": "Monitoring",
  "statusCounty": "Final",
- "status": "no_wcr"
+ "bestDocPage": 1,
+ "status": "destruction_wcr"
 }

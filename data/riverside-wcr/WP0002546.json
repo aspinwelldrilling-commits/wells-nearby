@@ -1,6 +1,6 @@
 {
  "permit": "WP0002546",
- "processed": "2026-10-07T17:18:30-07:00",
+ "processed": "2026-11-02T20:16:03-08:00",
  "version": 1,
  "county": "riverside",
  "apn": "145-191-049",
@@ -15,7 +15,14 @@
    "kb": 184
   }
  ],
- "wcrPages": [],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235439",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
  "fields": {},
  "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/235439",
  "errors": [],
@@ -27,5 +34,6 @@
  "serviceType": "Destruction",
  "wellType": "Monitoring",
  "statusCounty": "Submitted",
- "status": "no_wcr"
+ "bestDocPage": 1,
+ "status": "unreadable"
 }
