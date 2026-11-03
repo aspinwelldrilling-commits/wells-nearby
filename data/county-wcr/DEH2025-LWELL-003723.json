@@ -1,0 +1,71 @@
+{
+ "permit": "DEH2025-LWELL-003723",
+ "processed": "2026-11-02T15:13:55-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40884824",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-09-16",
+   "kb": 5346
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39916932",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-21",
+   "kb": 1875
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40884831",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-09-16",
+   "kb": 169
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40884824",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 255.0,
+   "conf": "high",
+   "ocrConf": 96.344612,
+   "raw": "Total Depth of Completed Well 255",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 75.0,
+   "conf": "medium",
+   "ocrConf": 63.978302,
+   "raw": "Estimated Yield * 75 __ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2025-02-12",
+   "conf": "high",
+   "ocrConf": 89.012695,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40884824",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.046769,
+ "lon": -117.188009,
+ "apn": "265-433-09-00",
+ "libraryOnly": true,
+ "addr": "18170 LAGO VISTA, RANCHO SANTA FE, CA 92091"
+}

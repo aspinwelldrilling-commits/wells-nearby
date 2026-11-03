@@ -1,0 +1,87 @@
+{
+ "permit": "DEH2026-LWELL-003915",
+ "processed": "2026-11-02T17:19:00-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41676337",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-06-02",
+   "kb": 1619
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41676339",
+   "desc": "Inspection Report",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-06-02",
+   "kb": 2850
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41467610",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-03-27",
+   "kb": 2767
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41676337",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 615.0,
+   "conf": "high",
+   "ocrConf": 85.752304,
+   "raw": "Total Depth of Completed Well: 615",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 300.0,
+   "conf": "low",
+   "ocrConf": 25.174088,
+   "raw": "Estimated Yield*: 300 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 286.0,
+   "conf": "high",
+   "ocrConf": 92.38633,
+   "raw": "Water Level: 286 (feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 90.991371,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2026-04-27",
+   "conf": "medium",
+   "ocrConf": 75.21962,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41676337",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 32.820734,
+ "lon": -116.540007,
+ "apn": "410-030-23-00",
+ "libraryOnly": true,
+ "addr": "7473 CORTE MADERA RD, PINE VALLEY, CA 91962"
+}

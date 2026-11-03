@@ -1,0 +1,87 @@
+{
+ "permit": "DEH2025-LWELL-003837",
+ "processed": "2026-11-02T16:28:52-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41388051",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-03-04",
+   "kb": 1620
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40962226",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-10-07",
+   "kb": 9195
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41388057",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-03-04",
+   "kb": 144
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41388051",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 610.0,
+   "conf": "high",
+   "ocrConf": 87.325279,
+   "raw": "Total Depth of Completed Well: 610",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 70.0,
+   "conf": "high",
+   "ocrConf": 88.963943,
+   "raw": "Estimated Yield*: 70(GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 295.0,
+   "conf": "high",
+   "ocrConf": 95.546722,
+   "raw": "Water Level: 295 (feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 96.489578,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.94651,
+   "lon": -116.9597,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41388051",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 32.946308,
+ "lon": -116.960461,
+ "apn": "324-050-29-00",
+ "libraryOnly": true,
+ "addr": "13863 HIGHWAY 67, LAKESIDE, CA 92040"
+}

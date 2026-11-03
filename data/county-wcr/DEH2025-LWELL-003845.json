@@ -1,0 +1,87 @@
+{
+ "permit": "DEH2025-LWELL-003845",
+ "processed": "2026-11-02T16:36:30-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41842835",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-07-30",
+   "kb": 1683
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40965623",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-10-07",
+   "kb": 1925
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41842833",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-07-30",
+   "kb": 194
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41842835",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1542.0,
+   "conf": "high",
+   "ocrConf": 87.946243,
+   "raw": "Total Depth of Completed Well: 1542",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "low",
+   "ocrConf": 37.773815,
+   "raw": "Estimated Yield*: 200 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 93.463631,
+   "raw": "Water Level: 100 (feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 92.527374,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2025-12-12",
+   "conf": "high",
+   "ocrConf": 96.219704,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41842835",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.207287,
+ "lon": -117.16617,
+ "apn": "178-180-21-00",
+ "libraryOnly": true,
+ "addr": "435 CAMINO CALAFIA, SAN MARCOS, CA 92069"
+}

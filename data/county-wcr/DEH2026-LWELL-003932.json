@@ -1,0 +1,87 @@
+{
+ "permit": "DEH2026-LWELL-003932",
+ "processed": "2026-11-02T17:30:09-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41954787",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-09-08",
+   "kb": 1535
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41547245",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-04-23",
+   "kb": 1214
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41954788",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-09-08",
+   "kb": 158
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41954787",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 888.0,
+   "conf": "high",
+   "ocrConf": 88.879547,
+   "raw": "Total Depth of Completed Well: 888",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 140.0,
+   "conf": "low",
+   "ocrConf": 35.54718,
+   "raw": "Estimated Yield*: 140 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 215.0,
+   "conf": "high",
+   "ocrConf": 89.957596,
+   "raw": "Water Level: 215 (feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 96.70993,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2026-07-14",
+   "conf": "high",
+   "ocrConf": 93.179596,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41954787",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.076412,
+ "lon": -116.851515,
+ "apn": "279-120-42-00",
+ "libraryOnly": true,
+ "addr": "366 WASHINGTON STREET, RAMONA, CA 92065"
+}

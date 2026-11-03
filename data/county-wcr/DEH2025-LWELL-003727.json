@@ -1,0 +1,94 @@
+{
+ "permit": "DEH2025-LWELL-003727",
+ "processed": "2026-11-02T15:13:55-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41244144",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-01-13",
+   "kb": 1599
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39923235",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-22",
+   "kb": 1576
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41244141",
+   "desc": "Approved Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-01-13",
+   "kb": 239
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41244144",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1260.0,
+   "conf": "high",
+   "ocrConf": 94.600182,
+   "raw": "Total Depth of Completed Well: 1260",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 91.970558,
+   "raw": "Estimated Yield*: 100(GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 160.0,
+   "conf": "high",
+   "ocrConf": 90.365685,
+   "raw": "Water Level: 160 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 96.136536,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2025-02-24",
+   "conf": "high",
+   "ocrConf": 93.752899,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.25832,
+   "lon": -117.21887,
+   "conf": "low",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41244144",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.257343,
+ "lon": -117.218791,
+ "apn": "126-340-40-00",
+ "libraryOnly": true,
+ "addr": "0 ALDORADO DR., BONSALL, CA 92003"
+}

@@ -1,0 +1,101 @@
+{
+ "permit": "DEH2025-LWELL-003825",
+ "processed": "2026-11-02T16:19:52-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41336597",
+   "desc": "WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-02-13",
+   "kb": 1332
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41336604",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-02-13",
+   "kb": 1003
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41336662",
+   "desc": "Inspection Report",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-02-13",
+   "kb": 927
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40859721",
+   "desc": "Approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-09-09",
+   "kb": 3120
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41336597",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 200.0,
+   "conf": "medium",
+   "ocrConf": 77.650986,
+   "raw": "Total Depth of Completed Well: 200",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 65.0,
+   "conf": "low",
+   "ocrConf": 0.865555,
+   "raw": "Estimated Yield*: 65 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 60.0,
+   "conf": "high",
+   "ocrConf": 95.224167,
+   "raw": "Water Level: 60 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 95.978882,
+   "raw": "Drilling Method: Direct Rotary Drilling Fluid: Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 96.043808,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2025-10-24",
+   "conf": "high",
+   "ocrConf": 93.977112,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41336597",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.381571,
+ "lon": -116.789075,
+ "apn": "114-010-40-00",
+ "libraryOnly": true,
+ "addr": "25414 OAK GROVE TRUCK TRL, WARNER SPRINGS, CA 92086"
+}

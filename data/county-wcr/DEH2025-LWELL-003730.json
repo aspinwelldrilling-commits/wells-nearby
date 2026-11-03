@@ -1,0 +1,87 @@
+{
+ "permit": "DEH2025-LWELL-003730",
+ "processed": "2026-11-02T15:14:03-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41244156",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-01-13",
+   "kb": 1531
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=39918628",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-01-21",
+   "kb": 1316
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41244151",
+   "desc": "Approved Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-01-13",
+   "kb": 240
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41244156",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 510.0,
+   "conf": "high",
+   "ocrConf": 94.853989,
+   "raw": "Total Depth of Completed Well: 510",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 250.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Estimated Yield*: 250 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 21.0,
+   "conf": "high",
+   "ocrConf": 96.302094,
+   "raw": "Water Level: 21 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 93.145073,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2025-02-10",
+   "conf": "high",
+   "ocrConf": 92.650185,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41244156",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.174112,
+ "lon": -117.076707,
+ "apn": "187-221-01-00",
+ "libraryOnly": true,
+ "addr": "2403 MELRU LANE, ESCONDIDO, CA 92026"
+}

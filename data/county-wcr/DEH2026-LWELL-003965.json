@@ -1,0 +1,80 @@
+{
+ "permit": "DEH2026-LWELL-003965",
+ "processed": "2026-11-02T17:51:14-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41886838",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-08-14",
+   "kb": 1631
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41886843",
+   "desc": "Inspection Report",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-08-14",
+   "kb": 5545
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41670281",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-05-29",
+   "kb": 5012
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41886838",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41670281",
+   "page": 8,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1417.0,
+   "conf": "high",
+   "ocrConf": 88.720322,
+   "raw": "Total Depth of Completed Well: 1417",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Estimated Yield*: 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 135.0,
+   "conf": "high",
+   "ocrConf": 82.864426,
+   "raw": "Water Level: 135 (feet",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41886838",
+ "errors": [
+  "read 41886843: Command '['tesseract', '/tmp/wcr-worker-08d5duuz/p2.png', '-', '--psm', '6', 'tsv']' timed out after 180 seconds"
+ ],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.32323,
+ "lon": -117.011558,
+ "apn": "130-060-14-00",
+ "libraryOnly": true,
+ "addr": "0 SIERRA LANE, PAUMA VALLEY, CA 92061"
+}

@@ -1,0 +1,80 @@
+{
+ "permit": "DEH2025-LWELL-003876",
+ "processed": "2026-11-02T16:56:29-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41617461",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-05-15",
+   "kb": 1682
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41600320",
+   "desc": "Inspection Report",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-05-11",
+   "kb": 4384
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41131170",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-12-01",
+   "kb": 2344
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41617461",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1460.0,
+   "conf": "high",
+   "ocrConf": 91.194931,
+   "raw": "Total Depth of Completed Well: 1460",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 8.0,
+   "conf": "low",
+   "ocrConf": 0.0,
+   "raw": "Estimated Yield*: 8 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 157.0,
+   "conf": "high",
+   "ocrConf": 91.460693,
+   "raw": "Water Level: 157 (feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 94.614227,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41617461",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.332938,
+ "lon": -117.201894,
+ "apn": "124-203-44-00",
+ "libraryOnly": true,
+ "addr": "2438 VIA ALICIA, FALLBROOK, CA 92028"
+}

@@ -1,0 +1,72 @@
+{
+ "permit": "DEH2025-LWELL-003806",
+ "processed": "2026-11-02T16:10:00-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=42042848",
+   "desc": "WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-10-08",
+   "kb": 1658
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40715577",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-08-01",
+   "kb": 1750
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=42042848",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 435.0,
+   "conf": "high",
+   "ocrConf": 89.051369,
+   "raw": "Total Depth of Completed Well: 435",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 90.0,
+   "conf": "low",
+   "ocrConf": 9.209625,
+   "raw": "Estimated Yield*: 90 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 92.871658,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2025-08-28",
+   "conf": "high",
+   "ocrConf": 92.226379,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=42042848",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.213621,
+ "lon": -117.214544,
+ "apn": "174-144-23-00",
+ "libraryOnly": true,
+ "addr": "1110 BEVERLY DR., VISTA, CA 92084"
+}

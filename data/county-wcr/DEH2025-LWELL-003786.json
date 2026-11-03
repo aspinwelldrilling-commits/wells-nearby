@@ -1,0 +1,65 @@
+{
+ "permit": "DEH2025-LWELL-003786",
+ "processed": "2026-11-02T15:53:34-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41041780",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-10-29",
+   "kb": 1663
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40476836",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-06-02",
+   "kb": 3005
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41041780",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 3
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 800.0,
+   "conf": "medium",
+   "ocrConf": 96.406845,
+   "raw": "Total Depth of Boring 800",
+   "note": "total depth of boring (completed depth not read)",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 20.0,
+   "conf": "low",
+   "ocrConf": 36.950649,
+   "raw": "Estimated Yield * 20 _ (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2025-07-09",
+   "conf": "high",
+   "ocrConf": 90.908424,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41041780",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 32.997137,
+ "lon": -117.043183,
+ "apn": "275-260-30-00",
+ "libraryOnly": true,
+ "addr": "13311 SUMMIT CIRCLE, POWAY, CA 92064"
+}

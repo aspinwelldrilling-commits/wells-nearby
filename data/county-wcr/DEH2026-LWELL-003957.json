@@ -1,0 +1,101 @@
+{
+ "permit": "DEH2026-LWELL-003957",
+ "processed": "2026-11-02T17:47:45-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41815732",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-07-21",
+   "kb": 923
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41815734",
+   "desc": "Inspection Report",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-07-21",
+   "kb": 2423
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41683336",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-06-03",
+   "kb": 4081
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41815732",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 335.0,
+   "conf": "high",
+   "ocrConf": 88.709213,
+   "raw": "Total Depth of Completed Well: 335",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 30.0,
+   "conf": "high",
+   "ocrConf": 91.839989,
+   "raw": "Estimated Yield*: 30(GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 160.0,
+   "conf": "high",
+   "ocrConf": 95.163177,
+   "raw": "Water Level: 160 (feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": 95.995308,
+   "raw": "Drilling Method: Downhole Hammer Drilling Fluid: Air",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": 88.822029,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2026-06-22",
+   "conf": "high",
+   "ocrConf": 96.608627,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.28252,
+   "lon": -116.7857,
+   "conf": "medium",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41815732",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.282008,
+ "lon": -116.783283,
+ "apn": "136-190-13-00",
+ "libraryOnly": true,
+ "addr": "31403 WILL VALLEY RD, PALOMAR MOUNTAIN, CA 92060"
+}

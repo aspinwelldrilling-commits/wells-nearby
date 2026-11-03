@@ -1,0 +1,101 @@
+{
+ "permit": "DEH2025-LWELL-003869",
+ "processed": "2026-11-02T16:52:24-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41388320",
+   "desc": "WCR",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-03-04",
+   "kb": 1703
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41388329",
+   "desc": "WCR REDACTED",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-03-04",
+   "kb": 1161
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41388332",
+   "desc": "INSPECTION REPORT",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-03-04",
+   "kb": 4307
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41229087",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-01-07",
+   "kb": 5844
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41388320",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 400.0,
+   "conf": "high",
+   "ocrConf": 94.927864,
+   "raw": "Total Depth of Completed Well: 400",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 65.0,
+   "conf": "low",
+   "ocrConf": 15.275528,
+   "raw": "Estimated Yield*: 65 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 100.0,
+   "conf": "high",
+   "ocrConf": 95.05233,
+   "raw": "Water Level: 100 (feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "high",
+   "ocrConf": 93.32003,
+   "raw": "Drilling Method: Direct Rotary Drilling Fluid: Bentonite",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Bentonite",
+   "conf": "high",
+   "ocrConf": 84.212502,
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2026-01-12",
+   "conf": "high",
+   "ocrConf": 96.434158,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41388320",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.085598,
+ "lon": -116.452469,
+ "apn": "251-160-02-00",
+ "libraryOnly": true,
+ "addr": "1016 STAGECOACH TRL, JULIAN, CA 92036"
+}

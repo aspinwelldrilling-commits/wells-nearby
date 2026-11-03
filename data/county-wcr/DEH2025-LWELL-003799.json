@@ -1,0 +1,87 @@
+{
+ "permit": "DEH2025-LWELL-003799",
+ "processed": "2026-11-02T16:05:43-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41320040",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-02-09",
+   "kb": 1791
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=40559871",
+   "desc": "Approved Permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2025-06-24",
+   "kb": 1283
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41320041",
+   "desc": "Approved Final Inspetion",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-02-09",
+   "kb": 355
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41320040",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 410.0,
+   "conf": "high",
+   "ocrConf": 86.027786,
+   "raw": "Total Depth of Completed Well: 410",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 100.0,
+   "conf": "low",
+   "ocrConf": 17.201614,
+   "raw": "Estimated Yield*: 100 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 55.0,
+   "conf": "high",
+   "ocrConf": 84.921196,
+   "raw": "Water Level: 55 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 95.872993,
+   "raw": "Drilling Method: Downhole Rotary Drilling Fluid: Depth",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2025-09-02",
+   "conf": "high",
+   "ocrConf": 91.510445,
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41320040",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 32.849938,
+ "lon": -116.569523,
+ "apn": "408-120-28-00",
+ "libraryOnly": true,
+ "addr": "0 OLD HWY 80, GUATAY, CA 91931"
+}
