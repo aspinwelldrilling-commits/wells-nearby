@@ -272,7 +272,8 @@
     for (const [pid, ds] of byPermit) {
       if (known.has(pid)) continue;
       const first = ds.map((d) => (d.r_creation_date || '').slice(0, 10)).filter(Boolean).sort()[0];
-      const w = CW.libRecord(pid, cLat, cLon, apn, first, { lat, lon });
+      const lib = CW.index && CW.index[pid] && CW.index[pid].lib;   // cached library permit: its parcel situs address
+      const w = CW.libRecord(pid, cLat, cLon, apn, first, { lat, lon }, (lib && (lib.address || lib.addr)) || p.address || '');
       state.countyRecs.push(w); known.set(pid, w); added.push(pid);
     }
     // layer permits filed on this APN too (GIS Parcel_No is XXX-XXX-XX-XX)
@@ -392,7 +393,7 @@
       row('Opened', c.openedStr || c.dateStr),
       row('Work', esc(c.recordType || '—') + (c.status ? ` <small>(${esc(c.status)})</small>` : '')),
       row('Use', esc(c.wellUse || '—')),
-      row('Address', esc(c.address || '—')),
+      row('Address', esc(c.address || c.addr || '—')),
       row('APN', esc(c.apn || '—')),
     ].join('');
   }
@@ -422,7 +423,9 @@
       row('Perfs', w.perfTop || w.perfBottom ? `${esc(w.perfTop || '?')}–${esc(w.perfBottom || '?')} ft` : '—'),
       row('Driller', esc(w.driller || '—')),
       ...(() => { const pc = window.WellsSdOswcr && w.wcr && window.WellsSdOswcr.parcelFor(w.wcr);   // SD state wells on a parcel
-        return pc ? [row('Parcel', `${esc(pc.apn)}<br>${pc.address ? esc(pc.address) : '<i>no address on file</i>'}`)] : []; })(),
+        if (pc) return [row('Parcel', `${esc(pc.apn)}<br>${pc.address ? esc(pc.address) : '<i>no address on file</i>'}`)];
+        const cc = w.group === 'both' ? w.county : (w.match && w.match.county), ca = cc && (cc.address || cc.addr);   // merged County permit's parcel
+        return ca ? [row('Parcel', `${cc.apn ? esc(cc.apn) + '<br>' : ''}${esc(ca)}`)] : []; })(),
       row('Distance', w.distanceMi == null ? '—' : w.approxLoc ? `≈${fmt(w.distanceMi, 1)} mi <b>(approximate: section-level location, ±~0.7 mi)</b>` : fmt(w.distanceMi, 2) + ' mi'),
       row('Loc. accuracy', esc(w.llAccuracy || 'not recorded')),
     ]);
@@ -534,7 +537,9 @@
 
   function listAddr(w) {   // SD state well with a parcel address: one short line under the list item (fits a phone popup)
     const pc = window.WellsSdOswcr && w.wcr && window.WellsSdOswcr.parcelFor(w.wcr);
-    return pc && pc.address ? `<br><small class="muted">📍 ${esc(pc.address)}</small>` : '';
+    if (pc && pc.address) return `<br><small class="muted">📍 ${esc(pc.address)}</small>`;
+    const cc = w.group === 'county' ? w : w.group === 'both' ? w.county : (w.match && w.match.county), ca = cc && (cc.address || cc.addr);   // County permit (library-only ones too)
+    return ca ? `<br><small class="muted">📍 ${esc(ca)}</small>` : '';
   }
   function groupPopup(ws) {
     if (ws.length === 1) return `<div class="popup">${wellDetails(ws[0])}</div>`;

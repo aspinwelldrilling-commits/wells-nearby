@@ -84,6 +84,10 @@ are processed offline, per area, and cached in the repo:
   `libraryOnly`, `apn` and the parcel centre, and the tile entry gets `lib` so the app adds them as county permits. Corridor
   mode: `--corridor "lat,lon;lat,lon;…" --buffer 0.6` (permits within 0.6 mi of the polyline); `--list-only` prints the
   permit list. Several permits/WCRs on one APN are paired one-to-one first (`match.js`), so none is hidden.
+  The tile `lib` entry carries the parcel situs address (`addr`), shown as the permit's Address. `tools/build_sd_oswcr.py`
+  dedupes the SD state-WCR overlay against these library-only permits too (same permit-number rule as the GIS permits, plus the
+  report must lie within 1 mi of the parcel centre), so a state report filed under one is not drawn as a second pin (v37).
+  Test: `/workspace/.venv-pw/bin/python tools/test-lib-dedupe.py [--base URL] [--shots DIR]` (phone 390×844).
 - App "This parcel" card (under the summary): after every search, the parcel at the search point → all well permits filed
   under its APN in the DEH library (library-only ones are added to the map/table at the parcel centre) with their WCR status,
   plus the septic box (status layer + DEH septic records; "Septic on file" when the layer says Not known but OWTS records

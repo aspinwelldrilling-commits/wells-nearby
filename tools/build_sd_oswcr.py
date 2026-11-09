@@ -8,7 +8,9 @@ Source: CA DWR OSWCR index (ArcGIS MapServer i07_WellCompletionReports, the same
 CountyName='San Diego', paged 2,000 rows at a time, 1.5 s apart. Raw responses are cached OUTSIDE the repo
 (SD_OSWCR_STATE_DIR, default /workspace/wells-state/sd-oswcr/raw) and re-used unless --refresh.
 
-Dedupe against the County permits (SanGIS layer 100: Record_ID DEHyyyy-LWELL-nnnn, lat/lon, Opened_Date, Type_Work):
+Dedupe against the County permits (SanGIS layer 100: Record_ID DEHyyyy-LWELL-nnnn, lat/lon, Opened_Date, Type_Work) plus the
+library-only permits newer than that layer (data/county-wcr/*.json with libraryOnly: parcel centre, earliest document date;
+their state report must also be within 1 mi of the parcel centre, since library permit numbers restart every year):
   1. permit number: state PermitNumber normalised exactly like js/match.js permitKey() ("LWEL 15082", "LWELL-000577",
      "DEH2021-LWELL-001234" -> "15082"...) == County Record_ID number, same destruction/non-destruction kind, and the
      state date (PermitDate, else DateWorkEnded) within -365..+1825 days of the County opened date (or a date missing);
@@ -184,6 +186,33 @@ def in_rings(lat, lon, rings):
     return c
 
 
+COUNTY_WCR = os.path.join(ROOT, 'data', 'county-wcr')
+LIB_MAX_MI = 1.0   # a library-only permit sits at its parcel centre; its state report must be within this distance
+
+
+def library_permits(known):
+    """County permits that exist only in the DEH document library (newer than the GIS layer, which stops Aug 2020):
+    data/county-wcr/<PERMIT>.json with libraryOnly (written by tools/extract_county_wcr.py --apns / --library-parcels).
+    Shaped like GIS layer rows so the same dedupe applies: parcel centre as the point, the earliest library document
+    date as Opened_Date, Type_Work 'Destruction' when a document says so. Permits already in the GIS layer are skipped."""
+    out = []
+    for path in sorted(glob.glob(os.path.join(COUNTY_WCR, 'DEH*.json'))):
+        try:
+            d = json.load(open(path))
+        except (OSError, ValueError):
+            continue
+        rid = str(d.get('permit') or '').strip().upper()
+        if not d.get('libraryOnly') or not rid or rid in known or d.get('lat') is None or d.get('lon') is None:
+            continue
+        dates = sorted(x['scanned'] for x in d.get('docs') or [] if re.match(r'^\d{4}-\d{2}-\d{2}$', str(x.get('scanned') or '')))
+        opened = int(dt.datetime.strptime(dates[0], '%Y-%m-%d').replace(tzinfo=dt.timezone.utc).timestamp() * 1000) if dates else None
+        destr = any('destr' in (str(x.get('desc') or '') + ' ' + str(x.get('subtype') or '')).lower() for x in d.get('docs') or [])
+        out.append({'Record_ID': rid, 'LatitudeGS84': d['lat'], 'LongitudeGS84': d['lon'], 'Opened_Date': opened,
+                    'Type_Work': 'Destruction' if destr else 'Library-only permit', '_lib': True})
+    log('library-only County permits', len(out))
+    return out
+
+
 def section_level(a):
     return 'centroid' in (a.get('LLAccuracy') or '').lower() or 'trs' in (a.get('MethodofDeterminationLL') or '').lower()
 
@@ -199,6 +228,9 @@ def main():
         QUERY, "CountyName='San Diego'", ','.join(['OBJECTID'] + [s for s, _ in FIELDS]), 2000, 'oswcr'))
     county, county_name = cached('county_permits', args.refresh, lambda: paged(
         COUNTY_QUERY, '1=1', 'OBJECTID,Record_ID,LatitudeGS84,LongitudeGS84,Opened_Date,Type_Work', 1700, 'county'))
+
+    n_gis = len(county)
+    county = county + library_permits({c.get('Record_ID', '').strip().upper() for c in county})
 
     # de-duplicate the state rows themselves (a handful of WCRNumbers appear twice): keep the most complete row
     by_wcr = {}
@@ -234,6 +266,9 @@ def main():
             delta = None if sdate is None or c.get('Opened_Date') is None else (sdate - c['Opened_Date']) / DAY
             if delta is not None and not (-365 <= delta <= 1825):
                 continue
+            if c.get('_lib') and a.get('DecimalLatitude') is not None and a.get('DecimalLongitude') is not None and \
+                    hav(a['DecimalLatitude'], a['DecimalLongitude'], c['LatitudeGS84'], c['LongitudeGS84']) > LIB_MAX_MI:
+                continue   # library permit numbers restart every year: also require the report near the permit's parcel
             score = abs(delta) if delta is not None else 5000
             if best is None or score < best[0]:
                 best = (score, c)
@@ -308,7 +343,7 @@ def main():
         'source': "CA DWR OSWCR well completion reports (CountyName='San Diego'), minus reports matched to a County DEHQ permit",
         'sourceUrl': QUERY.rsplit('/query', 1)[0], 'countySourceUrl': COUNTY_QUERY.rsplit('/query', 1)[0],
         'raw': raw_name, 'countyRaw': county_name, 'sourceTotal': len(recs), 'uniqueWcrs': len(rows),
-        'countyPermits': len(county), 'matchedReports': sum(how_n.values()), 'matchedBy': how_n,
+        'countyPermits': n_gis, 'libraryPermits': len(county) - n_gis, 'matchedReports': sum(how_n.values()), 'matchedBy': how_n,
         'matchedPermits': len(matched), 'count': placed, 'categories': cats,
         'years': dict(sorted(years.items())), 'withPdf': sum(1 for t in tiles.values() for r in t.values() if r.get('pdf')),
         'badDates': sum(1 for t in tiles.values() for r in t.values() if r.get('bd')),

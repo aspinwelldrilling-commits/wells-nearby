@@ -678,6 +678,7 @@ def slim(r):
         # permit not in the county GIS layer (opened after Aug 2020): the app adds it as a county record from this
         dates = sorted(d['scanned'] for d in r.get('docs') or [] if d.get('scanned'))
         e['lib'] = {'lat': r['lat'], 'lon': r['lon'], 'apn': r.get('apn'), 'firstDoc': dates[0] if dates else None}
+        if r.get('addr'): e['lib']['addr'] = r['addr']   # parcel situs address (the app shows it as the permit's Address)
     return e
 
 
