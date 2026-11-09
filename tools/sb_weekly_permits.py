@@ -198,6 +198,15 @@ def main():
                           'pl': "placement: 'apn' parcel centre, 'section' PLSS section centre (approximate)"}})
     db['permits'] = dict(sorted(db['permits'].items()))
     db['weeks'].sort(key=lambda w: w['end'])
+    # Skip write/push when nothing meaningful changed (avoids timestamp-only commits on an unchanged PDF).
+    prev = json.load(open(path)) if os.path.exists(path) else None
+    if prev is not None:
+        prev_cmp = {k: v for k, v in prev.items() if k != 'updated'}
+        new_cmp = {k: v for k, v in db.items() if k != 'updated'}
+        if prev_cmp == new_cmp:
+            log('PDF/permits unchanged; skipping write and push')
+            log(json.dumps({k: db[k] for k in ('count', 'placedApn', 'placedSection', 'unplaced')}), 'new', new, 'week', start, '-', end)
+            return
     with open(path + '.tmp', 'w') as f:
         json.dump(db, f, separators=(',', ':'), sort_keys=True)
     os.replace(path + '.tmp', path)
@@ -207,7 +216,13 @@ def main():
         if not subprocess.run(['git', '-C', ROOT, 'status', '--porcelain', 'data/sbcounty-permits'], capture_output=True, text=True).stdout.strip():
             log('no changes to push'); return
         g('add', 'data/sbcounty-permits')
-        g('commit', '-m', f'SB County weekly well permits {start}..{end}', '--', 'data/sbcounty-permits')
+        # Include tools/sb_weekly_permits.py only when this run also fixed the no-op commit guard.
+        porcelain = subprocess.run(['git', '-C', ROOT, 'status', '--porcelain', 'tools/sb_weekly_permits.py'],
+                                   capture_output=True, text=True).stdout.strip()
+        if porcelain:
+            g('add', 'tools/sb_weekly_permits.py')
+        g('commit', '-m', f'SB County weekly well permits {start}..{end}', '--', 'data/sbcounty-permits',
+          *(['tools/sb_weekly_permits.py'] if porcelain else []))
         g('pull', '--rebase'); g('push')
 
 
