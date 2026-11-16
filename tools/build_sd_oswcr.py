@@ -190,6 +190,16 @@ COUNTY_WCR = os.path.join(ROOT, 'data', 'county-wcr')
 LIB_MAX_MI = 1.0   # a library-only permit sits at its parcel centre; its state report must be within this distance
 
 
+def apn8(v):   # APN -> 8-digit book+page+parcel key (js/match.js apnKey for San Diego): '188-230-49-00' / '1882304900' -> '18823049'
+    d = re.sub(r'\D', '', str(v or '').split(',')[0])
+    return d[:8] if len(d) >= 8 and d[:8].strip('0') else None
+
+
+def exact_permit(v):   # 'DEH2025-LWELL-003739' / 'DEH 2025 LWELL 3739' -> ('2025', '3739'); no year in the number -> None
+    m = re.search(r'DEH\s*-?\s*(\d{4})\s*-?\s*LWELL\s*-?\s*0*(\d+)\s*$', str(v or '').upper().strip())
+    return (m.group(1), m.group(2)) if m else None
+
+
 def library_permits(known):
     """County permits that exist only in the DEH document library (newer than the GIS layer, which stops Aug 2020):
     data/county-wcr/<PERMIT>.json with libraryOnly (written by tools/extract_county_wcr.py --apns / --library-parcels).
@@ -208,7 +218,7 @@ def library_permits(known):
         opened = int(dt.datetime.strptime(dates[0], '%Y-%m-%d').replace(tzinfo=dt.timezone.utc).timestamp() * 1000) if dates else None
         destr = any('destr' in (str(x.get('desc') or '') + ' ' + str(x.get('subtype') or '')).lower() for x in d.get('docs') or [])
         out.append({'Record_ID': rid, 'LatitudeGS84': d['lat'], 'LongitudeGS84': d['lon'], 'Opened_Date': opened,
-                    'Type_Work': 'Destruction' if destr else 'Library-only permit', '_lib': True})
+                    'Type_Work': 'Destruction' if destr else 'Library-only permit', '_lib': True, '_apn': apn8(d.get('apn'))})
     log('library-only County permits', len(out))
     return out
 
@@ -246,13 +256,17 @@ def main():
     for c in county:
         c['_k'] = county_key(c.get('Record_ID'))
         c['_d'] = 'destr' in (c.get('Type_Work') or '').lower()
+        c['_x'] = exact_permit(c.get('Record_ID'))
         if c['_k']:
             cby.setdefault(c['_k'], []).append(c)
-    claimed, matched, how_n = set(), {}, {'permit': 0, 'location': 0}
+    claimed, matched, how_n = set(), {}, {'permit': 0, 'permit+apn (kind differs)': 0, 'location': 0}
 
     def take(a, c, how):
         claimed.add(c['Record_ID'])
-        matched.setdefault(c['Record_ID'], []).append([a['WCRNumber'], (a.get('WCRLinks') or '').strip(), how])
+        e = [a['WCRNumber'], (a.get('WCRLinks') or '').strip(), how]
+        if how == 'permit+apn (kind differs)':
+            e.append(a.get('RecordType') or '')   # e.g. 'Drill and Destroy': the app marks the County pin as a destruction
+        matched.setdefault(c['Record_ID'], []).append(e)
         how_n[how] += 1
 
     rest = []
@@ -261,7 +275,11 @@ def main():
         sdate = a.get('PermitDate') or a.get('DateWorkEnded')
         best = None
         for c in cby.get(k, []) if k else []:
-            if c['_d'] != d:
+            kind_ok = c['_d'] == d
+            # A library-only permit has no Type_Work, so its kind is a guess: an exact permit number (year + number) on the
+            # same APN (and within LIB_MAX_MI below) is the same well whatever the kind (e.g. a Drill and Destroy report).
+            if not kind_ok and not (c.get('_lib') and c['_x'] and exact_permit(a.get('PermitNumber')) == c['_x']
+                                    and c['_apn'] and apn8(a.get('APN')) == c['_apn']):
                 continue
             delta = None if sdate is None or c.get('Opened_Date') is None else (sdate - c['Opened_Date']) / DAY
             if delta is not None and not (-365 <= delta <= 1825):
@@ -269,11 +287,11 @@ def main():
             if c.get('_lib') and a.get('DecimalLatitude') is not None and a.get('DecimalLongitude') is not None and \
                     hav(a['DecimalLatitude'], a['DecimalLongitude'], c['LatitudeGS84'], c['LongitudeGS84']) > LIB_MAX_MI:
                 continue   # library permit numbers restart every year: also require the report near the permit's parcel
-            score = abs(delta) if delta is not None else 5000
+            score = (0 if kind_ok else 1, abs(delta) if delta is not None else 5000)   # same kind first
             if best is None or score < best[0]:
                 best = (score, c)
         if best:
-            take(a, best[1], 'permit')
+            take(a, best[1], 'permit' if best[0][0] == 0 else 'permit+apn (kind differs)')
         else:
             rest.append(a)
     grid = {}

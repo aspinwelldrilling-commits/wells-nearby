@@ -79,8 +79,8 @@
   function countyLinkHtml(permit) {
     const m = matchedFor(permit);
     if (!m || !m.length) return '';
-    return `<div class="sdo-link">📄 State WCR on file: ${m.map(([w, pdf]) => (/^https:\/\//i.test(pdf || '')
-      ? `<a href="${esc(pdf)}" target="_blank" rel="noopener">${esc(w)}</a>` : esc(w))).join(', ')}</div>`;
+    return `<div class="sdo-link">📄 State WCR on file: ${m.map(([w, pdf, , rt]) => (/^https:\/\//i.test(pdf || '')
+      ? `<a href="${esc(pdf)}" target="_blank" rel="noopener">${esc(w)}</a>` : esc(w)) + (rt ? ` <b>(${esc(rt)})</b>` : '')).join(', ')}</div>`;
   }
 
   const approxOf = (r) => !r.acc || /centroid/i.test(r.acc) || /TRS/i.test(r.llm || '') || /^>/.test(r.acc);

@@ -44,24 +44,40 @@
     return m ? m[1] : null;
   }
 
+  // Full San Diego permit number with its year: 'DEH2025-LWELL-003739' -> '2025-3739' (none without a year).
+  function exactPermit(v) {
+    const m = String(v || '').toUpperCase().match(/DEH\s*-?\s*(\d{4})\s*-?\s*LWELL\s*-?\s*0*(\d+)\s*$/);
+    return m ? `${m[1]}-${m[2]}` : null;
+  }
+  // A library-only County permit (DEH document library, no Type_Work) and a state WCR of the other kind (destruction vs
+  // not) are still the same well when the full permit number AND the APN agree and they are within libKindMiles
+  // (same rule as tools/build_sd_oswcr.py). Typical case: a Drill and Destroy report filed under a library-only permit.
+  function libCrossKind(c, s) {
+    if (!c.libraryOnly || !c._apn || c._apn !== s._apn) return false;
+    const x = exactPermit(c.permit);
+    if (!x || x !== exactPermit(s.permit)) return false;
+    return s.lat == null || c.lat == null || D.haversineMi(s.lat, s.lon, c.lat, c.lon) <= 1;
+  }
+
   function within(x, [lo, hi]) { return x != null && x >= lo && x <= hi; }
 
   function findMatches(stateRecs, countyRecs) {
     const M = C.matching;
     stateRecs.forEach((s) => { s.match = null; s._apn = apnKey(s.apn); s._pk = permitKey(s.permit, false); });
-    countyRecs.forEach((c) => { c.matches = []; c._apn = apnKey(c.apn); c._pk = permitKey(c.permit, true); });
+    countyRecs.forEach((c) => { c.matches = []; c._apn = apnKey(c.apn); c._pk = permitKey(c.permit, true); if (c.libDestrSrc !== 'matched') c.libDestr = null; });
     const cands = [];
     for (const c of countyRecs) {
       for (const s of stateRecs) {
-        if (!!c.destruction !== !!s.destruction) continue;
+        const cross = !!c.destruction !== !!s.destruction;
+        if (cross && !libCrossKind(c, s)) continue;
         const byPermit = c._pk && s._pk && c._pk === s._pk;
         const byApn = c._apn && s._apn && c._apn === s._apn;
         const sDate = byPermit && s.permitDateMs != null ? s.permitDateMs : (s.dateMs ?? s.permitDateMs);
         const dt = sDate != null && c.dateMs != null ? (sDate - c.dateMs) / DAY : null;
         if (byPermit || byApn) {
           const reason = [byPermit && 'permit #', byApn && 'APN'].filter(Boolean).join(' + ');
-          if (within(dt, M.keyWindowDays)) cands.push({ c, s, conf: 'likely', score: 3 + (byPermit && byApn ? 1 : 0) - Math.abs(dt) / 3650, reason: `${reason}, dates ${Math.round(dt)} d apart`, key: true });
-          else if (dt == null) cands.push({ c, s, conf: 'possible', score: 1.5, reason: `${reason} (date missing)`, key: true });
+          if (within(dt, M.keyWindowDays)) cands.push({ c, s, cross, conf: 'likely', score: 3 + (byPermit && byApn ? 1 : 0) - Math.abs(dt) / 3650 - (cross ? 0.5 : 0), reason: `${reason}, dates ${Math.round(dt)} d apart`, key: true });
+          else if (dt == null) cands.push({ c, s, cross, conf: 'possible', score: 1.5 - (cross ? 0.5 : 0), reason: `${reason} (date missing)`, key: true });
           continue; // same parcel/permit number but dates far apart: different well
         }
         if (s._apn && c._apn && s._apn !== c._apn) continue; // conflicting APNs
@@ -76,6 +92,7 @@
     const exclusive = new Set();
     const take = (k) => {
       k.s.match = { county: k.c, conf: k.conf, reason: k.reason };
+      if (k.cross && k.s.destruction) { k.c.libDestr = k.s.recordType || 'Destruction'; k.c.libDestrSrc = 'live'; }
       k.c.matches.push({ state: k.s, conf: k.conf, reason: k.reason });
       if (!k.key) exclusive.add(k.c);
     };
@@ -123,7 +140,7 @@
           group: 'both', srcShort: 'Both', county: c, statePoint: [s.lat, s.lon],
           lat: keepState ? s.lat : c.lat, lon: keepState ? s.lon : c.lon, distanceMi: keepState ? s.distanceMi : c.distanceMi,
           llAccuracy: keepState ? s.llAccuracy + ' (state GPS)' : 'Parcel center (county APN) via matched permit',
-          address: s.address || c.address, apn: s.apn || c.apn,
+          address: s.address || c.address, apn: s.apn || c.apn, libDestr: c.libDestr || null,
         }));
       } else out.push(s);
     }
@@ -135,5 +152,5 @@
     return res;
   }
 
-  global.WellsMatch = { findMatches, buildView, apnKey, permitKey };
+  global.WellsMatch = { findMatches, buildView, apnKey, permitKey, exactPermit };
 })(typeof window !== 'undefined' ? window : globalThis);

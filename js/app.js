@@ -297,8 +297,11 @@
   function applyFilters() {
     if (state.lat == null) return;
     const allUses = $('optAllUses').checked, destroyed = $('optDestroyed').checked;
+    markLibDestr();
     const view = M.buildView(state.view, state.stateRecs, state.countyRecs, state.radius);
-    const keep = (w) => (allUses || w.waterSupply) && (destroyed || !w.destruction);
+    // libDestr: a library-only County permit whose state WCR is a destruction (merged into one pin, ringed black). It was
+    // always on the map (County pin + SD destruction overlay pin) before the merge, so the filters don't hide it.
+    const keep = (w) => !!w.libDestr || ((allUses || w.waterSupply) && (destroyed || !w.destruction));
     state.shown = view.filter(keep);
     state.nearestMode = false;
     if (!state.shown.length && state.radiusUi === 0) {
@@ -321,6 +324,24 @@
       const pts = state.shown.filter((w) => w.lat != null).map((w) => [w.lat, w.lon]).concat([[state.lat, state.lon]]);
       map.fitBounds(L.latLngBounds(pts).pad(0.3), { maxZoom: 17 });
     }
+  }
+
+  /** Library-only County permits the SD build matched to a destruction WCR (data/sd-oswcr/matched.json 4th field, e.g.
+   *  'Drill and Destroy'): flag them even when the live State search did not return that WCR. */
+  function markLibDestr() {
+    const S = window.WellsSdOswcr;
+    if (!S) return;
+    for (const c of state.countyRecs) {
+      if (!c.libraryOnly || c.libDestr) continue;
+      const e = (S.matchedFor(c.permit) || []).find((x) => /destr/i.test(x[3] || ''));
+      if (e) { c.libDestr = e[3]; c.libDestrSrc = 'matched'; c.libDestrWcr = e[0]; }
+    }
+  }
+  function destrNote(w) {
+    const c = w.group === 'county' ? w : w.county || (w.match && w.match.county), t = w.libDestr || (c && c.libDestr);
+    if (!t) return '';
+    const wcr = w.group === 'county' ? (w.wcr || (c && c.libDestrWcr) || '') : (w.wcr || '');
+    return `<div class="destr-note">🔨 <b>Destruction</b> — state WCR ${esc(wcr)} is a <b>${esc(t)}</b> report filed under this County permit.</div>`;
   }
 
   // ---------- Map drawing ----------
@@ -350,7 +371,7 @@
     const label = ws.length > 1 ? ws.length : '';
     const nRed = ws.filter((w) => w.wcrFlag === 'read').length, nPend = ws.filter(isPending).length;
     // Fluorescent red = at least one report here must be read by hand (all red if every record needs it).
-    const cls = nRed === ws.length ? ' pin-red' : nRed ? ' pin-somered' : nPend === ws.length ? ' pin-pending' : '';
+    const cls = (nRed === ws.length ? ' pin-red' : nRed ? ' pin-somered' : nPend === ws.length ? ' pin-pending' : '') + (ws.some((w) => w.libDestr) ? ' pin-destr' : '');
     const bg = nRed === ws.length ? C.countyWcr.needsReadColor : color;
     return L.divIcon({ className: '', html: `<div class="well-pin pin-${g}${cls}" style="width:${size}px;height:${size}px;background:${bg}">${label}</div>`, iconSize: [size, size], iconAnchor: [size / 2, size / 2] });
   }
@@ -413,7 +434,7 @@
       const mt = w.matches.length ? `<div class="dup">${esc(w.matchLabel)} same well as state ${esc(w.wcr)} — ${esc(w.matches[0].reason)}. Log values below are from that WCR.</div>` : '<div class="dup none">No matching state WCR found — permit record only.</div>';
       const pdf = w.pdfUrl ? ` · <a href="${esc(w.pdfUrl)}" target="_blank" rel="noopener">WCR PDF</a>` : '';
       const hasLog = w.matches.length || w.depthFt != null || w.gpm != null || w.swlFt != null || w.methodKey !== 'nolog';
-      return `${src}<b>${esc(w.permit || 'No permit #')}</b>${pdf}${wcrBlock(w)}${mt}<table>${countyRows(w)}${hasLog ? rowsLog.join('') : ''}${row('Distance', w.approxLoc ? `≈${fmt(w.distanceMi, 1)} mi (approximate: section-level location)` : fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>${(window.WellsSdOswcr && w.permit) ? window.WellsSdOswcr.countyLinkHtml(w.permit) : ''}${docsBlock(w)}`;
+      return `${src}<b>${esc(w.permit || 'No permit #')}</b>${pdf}${destrNote(w)}${wcrBlock(w)}${mt}<table>${countyRows(w)}${hasLog ? rowsLog.join('') : ''}${row('Distance', w.approxLoc ? `≈${fmt(w.distanceMi, 1)} mi (approximate: section-level location)` : fmt(w.distanceMi, 2) + ' mi')}${row('Loc. accuracy', esc(w.llAccuracy))}</table>${(window.WellsSdOswcr && w.permit) ? window.WellsSdOswcr.countyLinkHtml(w.permit) : ''}${docsBlock(w)}`;
     }
     const rows = rowsLog.concat([
       row('Date', w.dateStr),
@@ -433,7 +454,7 @@
     const c = w.group === 'both' ? w.county : (w.match && w.match.county);
     const dup = c ? `<div class="dup">${esc(w.matchLabel)} duplicate of county permit ${esc(c.permit || '(no permit #)')} — ${esc(w.match.reason)}</div>` : '';
     const ctab = c ? `<div class="sub">County permit</div><table>${countyRows(c)}</table>` : '';
-    return `${src}<b>${esc(w.wcr || w.legacyLog || 'WCR ?')}</b>${pdf}${c ? wcrBlock(w) : ''}${dup}<table>${rows.join('')}</table>${ctab}${docsBlock(w)}`;
+    return `${src}<b>${esc(w.wcr || w.legacyLog || 'WCR ?')}</b>${pdf}${destrNote(w)}${c ? wcrBlock(w) : ''}${dup}<table>${rows.join('')}</table>${ctab}${docsBlock(w)}`;
   }
 
   // County completion-report status: red call-to-action when the report must be read by hand.
@@ -569,7 +590,7 @@
     let nearest = '';
     if (s.total === 0) {
       const allUses = $('optAllUses').checked, destroyed = $('optDestroyed').checked;
-      const cand = M.buildView(state.view, state.stateRecs, state.countyRecs, 1e9).filter((w) => (allUses || w.waterSupply) && (destroyed || !w.destruction) && w.distanceMi != null).sort((a, b) => a.distanceMi - b.distanceMi);
+      const cand = M.buildView(state.view, state.stateRecs, state.countyRecs, 1e9).filter((w) => (!!w.libDestr || ((allUses || w.waterSupply) && (destroyed || !w.destruction))) && w.distanceMi != null).sort((a, b) => a.distanceMi - b.distanceMi);
       if (cand.length) nearest = ` Nearest record: ${esc(cand[0].wcr || cand[0].permit || '')} at ${cand[0].approxLoc ? '≈' + fmt(cand[0].distanceMi, 1) + ' mi (section-level, approximate)' : fmt(cand[0].distanceMi, 2) + ' mi'} — widen the radius.`;
     }
     const nCounty = state.shown.filter((w) => w.group === 'county').length;

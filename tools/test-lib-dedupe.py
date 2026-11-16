@@ -6,7 +6,8 @@ from playwright.sync_api import sync_playwright
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ap = argparse.ArgumentParser()
 ap.add_argument('--base'); ap.add_argument('--shots', default='/tmp/lib-dedupe')
-ap.add_argument('--permits', default='DEH2026-LWELL-003898,DEH2026-LWELL-003976,DEH2026-LWELL-004012,DEH2026-LWELL-004019,DEH2026-LWELL-004047')
+ap.add_argument('--permits', default='DEH2026-LWELL-003898,DEH2026-LWELL-003976,DEH2026-LWELL-004012,DEH2026-LWELL-004019,DEH2026-LWELL-004047,'
+                'DEH2025-LWELL-003739,DEH2022-LWELL-003105,DEH2025-LWELL-003752')
 a = ap.parse_args()
 os.makedirs(a.shots, exist_ok=True)
 base = a.base
@@ -27,6 +28,7 @@ with sync_playwright() as p:
         rec = json.load(open(os.path.join(root, 'data/county-wcr', pid + '.json')))
         lat, lon, addr = rec['lat'], rec['lon'], rec.get('addr')
         wcrs = [m[0] for m in matched.get(pid, [])]
+        destr = [m for m in matched.get(pid, []) if len(m) > 3 and 'destr' in m[3].lower()]   # library permit + destruction WCR
         ctx = b.new_context(viewport={'width': 390, 'height': 844}, device_scale_factor=2, is_mobile=True, has_touch=True,
                             geolocation={'latitude': lat, 'longitude': lon, 'accuracy': 10}, permissions=['geolocation'], service_workers='block')
         pg = ctx.new_page(); errs = []
@@ -42,7 +44,8 @@ with sync_playwright() as p:
           const mks = new Set(refs.map(w => w._marker).filter(Boolean));
           const sdo = []; WellsApp.map.eachLayer(l => { if (l.sdoWcr && wcrs.includes(l.sdoWcr)) sdo.push(l.sdoWcr); });
           const w = refs.find(x => x._marker); if (w) { WellsApp.map.setView(w._marker.getLatLng(), 17, {animate:false}); w._marker.openPopup(); }
-          return { refs: refs.map(x => [x.group, x.permit || (x.county && x.county.permit) || '', x.wcr || '']), markers: mks.size, sdo };
+          const ring = [...mks].some(m => m._icon && m._icon.querySelector('.pin-destr'));
+          return { refs: refs.map(x => [x.group, x.permit || (x.county && x.county.permit) || '', x.wcr || '']), markers: mks.size, sdo, ring };
         }''', [pid, wcrs])
         pg.wait_for_timeout(1500)
         listTxt = ''
@@ -60,6 +63,14 @@ with sync_playwright() as p:
         if addr: check(addr.split(',')[0].strip().upper() in txt.upper(), f'{pid}: popup shows address "{addr}"')
         check('Address\t—' not in txt and 'Address —' not in txt, f'{pid}: popup Address is not "—"')
         for wc in wcrs: check(wc in txt, f'{pid}: popup mentions state {wc}')
+        if destr:
+            check(r['ring'], f'{pid}: merged pin has the destruction ring (pin-destr)')
+            check('Destruction' in txt and destr[0][3] in txt, f'{pid}: popup says destruction ({destr[0][3]})')
+            check(not pg.is_checked('#optDestroyed'), f'{pid}: shown with "Include destruction records" OFF (default)')
+            pg.keyboard.press('Escape'); pg.evaluate('() => WellsApp.map.closePopup()')
+            pg.check('#optDestroyed'); pg.wait_for_timeout(800)
+            n2 = pg.evaluate('''([pid, wcrs]) => new Set(WellsApp.state.shown.filter(w => (w.permit && w.permit.toUpperCase() === pid) || (w.county && w.county.permit && w.county.permit.toUpperCase() === pid) || (w.wcr && wcrs.includes(w.wcr))).map(w => w._marker)).size''', [pid, wcrs])
+            check(n2 == 1, f'{pid}: still one pin with destructions ON (got {n2})')
         check(not errs, f'{pid}: no console errors {errs[:3]}')
         ctx.close()
     b.close()

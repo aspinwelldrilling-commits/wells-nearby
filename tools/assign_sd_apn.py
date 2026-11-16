@@ -94,7 +94,7 @@ def tc(s):   # MAIN ST -> Main St; 3RD -> 3rd
 
 
 def one_line(a):
-    # SanGIS situs attributes -> '802 Main St #B, Ramona CA 92065'; None when there is no house number
+    # SanGIS situs attributes -> ('802 Main St #B', 'Ramona', '92065'); None when there is no house number
     g = lambda k: str(a.get(k) or '').strip()
     try: num = int(a.get('SITUS_ADDRESS') or 0)
     except (TypeError, ValueError): num = 0
@@ -106,7 +106,15 @@ def one_line(a):
     if unit: line += ' #' + unit.lstrip('#')
     city = tc(g('SITUS_COMMUNITY')) or JURIS.get(g('SITUS_JURIS'), '')
     z = g('SITUS_ZIP')[:5]
-    return line + ', ' + ' '.join(x for x in [city, 'CA', z if z.isdigit() else ''] if x)
+    return (line, city, z if z.isdigit() else '')
+
+
+def fmt_addr(parts, wcr_city=''):
+    # ('802 Main St', 'Ramona', '92065') -> '802 Main St, Ramona CA 92065'. A parcel with no situs community / ZIP takes the
+    # city from the well's own state WCR (DWR 'City'); with neither, just the street line (no dangling ', CA').
+    line, city, z = parts
+    city = city or tc(str(wcr_city or '').strip())
+    return line + (', ' + ' '.join(x for x in [city, 'CA', z] if x) if city or z else '')
 
 
 def main():
@@ -130,7 +138,7 @@ def main():
                 hits = res[(r['lat'], r['lon'])]
                 if hits: apns.add(([h for h in hits if h[:3] < '760'] or hits)[0])
     addrs = {k: one_line(v) for k, v in fetch_addrs(sorted(apns), a.refresh).items()}
-    st.update({'withAddress': 0, 'noAddress': 0, 'parcels': len(addrs), 'parcelsNoAddress': sum(1 for v in addrs.values() if not v)})
+    st.update({'withAddress': 0, 'noAddress': 0, 'cityFromWcr': 0, 'parcels': len(addrs), 'parcelsNoAddress': sum(1 for v in addrs.values() if not v)})
     for f, t in tiles:
         for r in t['wcrs'].values():
             r.pop('pa', None); r.pop('pq', None); r.pop('ad', None); st['processed'] += 1
@@ -140,7 +148,9 @@ def main():
             if hits:
                 base = [h for h in hits if h[:3] < '760'] or hits
                 r['pa'] = base[0]
-                if addrs.get(r['pa']): r['ad'] = addrs[r['pa']]; st['withAddress'] += 1
+                if addrs.get(r['pa']):
+                    r['ad'] = fmt_addr(addrs[r['pa']], r.get('city')); st['withAddress'] += 1
+                    st['cityFromWcr'] += not addrs[r['pa']][1] and bool(str(r.get('city') or '').strip())
                 else: st['noAddress'] += 1
                 st['apn'] += 1; st['multi'] += len(base) > 1; st['overlayOnly'] += base is hits and hits[0][:3] >= '760'
             else:

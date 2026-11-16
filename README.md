@@ -87,6 +87,11 @@ are processed offline, per area, and cached in the repo:
   The tile `lib` entry carries the parcel situs address (`addr`), shown as the permit's Address. `tools/build_sd_oswcr.py`
   dedupes the SD state-WCR overlay against these library-only permits too (same permit-number rule as the GIS permits, plus the
   report must lie within 1 mi of the parcel centre), so a state report filed under one is not drawn as a second pin (v37).
+  v38: a library-only permit has no work type, so an exact permit number (year + number) on the same APN merges even when
+  the state report is a destruction (e.g. WCR2026-011147 Drill and Destroy under DEH2025-LWELL-003739). Such a merged pin
+  gets a black ring and a "🔨 Destruction" line in the popup, and stays on the map with "Include destruction records" off
+  (`matched.json` entries carry the report's RecordType as a 4th field; `js/match.js` `libCrossKind`).
+  `tools/assign_sd_apn.py`: a parcel with no situs community/ZIP takes the city from the well's own WCR, else no ", CA".
   Test: `/workspace/.venv-pw/bin/python tools/test-lib-dedupe.py [--base URL] [--shots DIR]` (phone 390×844).
 - App "This parcel" card (under the summary): after every search, the parcel at the search point → all well permits filed
   under its APN in the DEH library (library-only ones are added to the map/table at the parcel centre) with their WCR status,
