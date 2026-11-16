@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-13195",
+ "processed": "2026-11-16T08:01:58-08:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": "347-270-041",
+ "address": "LINDELL RD, REBA RD",
+ "city": "Lake Elsinore",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13195",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1083
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13195",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 250.0,
+   "conf": "high",
+   "ocrConf": 96.679588,
+   "raw": "Completed depth 250 ft",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13195",
+ "errors": [],
+ "area": "lake-elsinore",
+ "lat": 33.721453421000035,
+ "lon": -117.34145842599997,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13634",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/13195",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "15149",
+ "bestDocPage": 1,
+ "status": "partial"
+}

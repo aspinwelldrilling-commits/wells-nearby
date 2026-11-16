@@ -1,0 +1,51 @@
+{
+ "permit": "RIV-WCR-8030",
+ "processed": "2026-11-16T08:02:10-08:00",
+ "version": 1,
+ "county": "riverside",
+ "apn": null,
+ "address": "53510 S Frantz Rd",
+ "city": "Anza",
+ "docs": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8030",
+   "desc": "WCR_Path OpenDoc",
+   "subtype": "Well Completion Report",
+   "scanned": "",
+   "kb": 1007
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8030",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 1
+  }
+ ],
+ "fields": {
+  "gpm": {
+   "value": 30.0,
+   "conf": "low",
+   "ocrConf": 0.443817,
+   "raw": "Discharge____30 gal/min",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8030",
+ "errors": [],
+ "area": "anza",
+ "lat": 33.58471000000003,
+ "lon": -116.72723999999994,
+ "permitPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/4642",
+ "wcrPath": "https://weblink.rivcoeh.org/LFAPI/OpenDoc/8030",
+ "serviceType": "New Construction",
+ "wellType": "Individual",
+ "statusCounty": null,
+ "permitFallback": true,
+ "permitDisplay": "No permit #",
+ "legacyPermit": "10459",
+ "bestDocPage": 1,
+ "status": "unreadable"
+}
