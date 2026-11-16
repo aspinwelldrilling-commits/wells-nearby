@@ -9,7 +9,7 @@ Safe to run any number of times (weekly routine, Mondays):
 The county page only shows the latest week, so every distinct PDF is kept as archive/<week-end YYYY-MM-DD>.pdf
 (same week re-downloaded with identical bytes = no-op; changed bytes for the same week = <date>-<sha8>.pdf).
 Permits are keyed by PERMIT_NO (de-duped; a re-issued row updates the record, first-seen week kept).
-Placement: parcel centre by APN from DWR's statewide assessor-parcel layer (LightBox, COUNTYNAME='San Bernardino',
+Placement: parcel centre by APN from DWR's statewide assessor-parcel layer (LightBox, COUNTYNAME='San Bernardino', fallback to the county ParcelNumber layer),
 TAXAPN 'XXXX-XXX-XX-XXXX'), point-in-polygon checked (`pl:'apn'`). If the APN is not found / not a plain APN
 ("ADJ TO ..."), the centre of the PLSS section from the PDF's TWN/RNG/SEC (San Bernardino Meridian, BLM CadNSDI)
 is used and flagged approximate (`pl:'section'`). Placements are cached in permits.json; only new/unplaced permits
@@ -22,6 +22,8 @@ OUT = os.path.join(ROOT, 'data', 'sbcounty-permits')
 ARCH = os.path.join(OUT, 'archive')
 PDF_URL = 'https://ehs.sbcounty.gov/wp-content/uploads/sites/97/Programs/WaterAndWaste/weekly-well-report.pdf'
 PARCELS = 'https://gis.water.ca.gov/arcgis/rest/services/Planning/i15_Parcels_Assessor_Lightbox/MapServer/0/query'
+COUNTY_PARCELS = ('https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Parcels_for_San_Bernardino_County/'
+                  'FeatureServer/0/query')   # County 9-digit ParcelNumber; fallback when LightBox misses
 PLSS = 'https://gis.blm.gov/arcgis/rest/services/Cadastral/BLM_Natl_PLSS_CadNSDI/MapServer/2/query'
 UA = 'WellsNearby-SB-permits/1.0 (aspinwelldrilling-commits; static map build)'
 SB_BOX = (33.80, -117.85, 35.85, -114.10)
@@ -113,7 +115,12 @@ def by_apn(apn13):
                        'returnGeometry': 'true', 'outSR': '4326', 'f': 'json'})
     feats = (j or {}).get('features') or []
     if not feats:
-        return None
+        # LightBox miss or outage: county's public parcel layer (ParcelNumber = first 9 APN digits)
+        j = post(COUNTY_PARCELS, {'where': f"ParcelNumber='{apn13[:9]}'", 'outFields': 'ParcelNumber',
+                                  'returnGeometry': 'true', 'outSR': '4326', 'f': 'json'})
+        feats = (j or {}).get('features') or []
+        if not feats:
+            return None
     rings = [r for f in feats for r in f['geometry']['rings']]
     big = max(rings, key=area)
     lat, lon = ring_centroid(big)
