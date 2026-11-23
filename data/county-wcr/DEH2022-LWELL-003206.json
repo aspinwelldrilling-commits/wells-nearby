@@ -1,0 +1,95 @@
+{
+ "permit": "DEH2022-LWELL-003206",
+ "processed": "2026-11-23T08:07:28-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35597516",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-12-05",
+   "kb": 3717
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35588550",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-06-30",
+   "kb": 6926
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35597516",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35597516",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1210.0,
+   "conf": "low",
+   "ocrConf": 40.156906,
+   "raw": "Total Depth of Completed Well 1210",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 6.0,
+   "conf": "high",
+   "ocrConf": 96.746208,
+   "raw": "Estimated Yield* 6 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 80.0,
+   "conf": "high",
+   "ocrConf": 95.643028,
+   "raw": "Water Level 80 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Hammer Dnilling",
+   "conf": "medium",
+   "ocrConf": 73.761574,
+   "raw": "Drilling Method Downhole Hammer Dnilling Fluid Water",
+   "page": 1,
+   "source": "ocr"
+  },
+  "fluid": {
+   "value": "Water",
+   "conf": "medium",
+   "ocrConf": 51.336754,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 32.7968583,
+   "lon": -116.6542056,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35597516",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "partial",
+ "area": "",
+ "lat": 32.796858,
+ "lon": -116.654206,
+ "apn": "523-120-37-00",
+ "libraryOnly": true,
+ "addr": "23135 Japatul Valley Rd, Alpine CA 91901",
+ "locSource": "DWR WCR2022-009016 (exact permit #)",
+ "paperApn": "523-120-32-00"
+}

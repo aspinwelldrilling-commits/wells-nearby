@@ -1,0 +1,87 @@
+{
+ "permit": "DEH2021-LWELL-002991",
+ "processed": "2026-11-23T08:17:25-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35625557",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-01",
+   "kb": 2807
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35627962",
+   "desc": "approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-10-01",
+   "kb": 2648
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35630001",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2022-07-01",
+   "kb": 96
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35625557",
+   "page": 5,
+   "source": "ocr",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35625557",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 420.0,
+   "conf": "high",
+   "ocrConf": 85.901115,
+   "raw": "Total Depth of Completed Well 420",
+   "page": 5,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 32.0,
+   "conf": "high",
+   "ocrConf": 93.981995,
+   "raw": "Water Level 32 (Feet",
+   "page": 5,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Direct Rotary",
+   "conf": "low",
+   "ocrConf": 46.328331,
+   "raw": "Drilling Method Direct Rotary Drilling Fluid ",
+   "page": 5,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2022-03-25",
+   "conf": "medium",
+   "ocrConf": 73.436737,
+   "page": 5,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35625557",
+ "errors": [],
+ "bestDocPage": 5,
+ "status": "readable",
+ "area": "",
+ "lat": 33.1509,
+ "lon": -117.0516,
+ "apn": "225-270-58-00",
+ "libraryOnly": true,
+ "addr": "2322 E El Norte Pkwy, Escondido CA 92027",
+ "locSource": "DWR WCR2022-004548 (exact permit #)",
+ "paperApn": null
+}

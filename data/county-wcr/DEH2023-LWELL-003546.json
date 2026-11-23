@@ -1,0 +1,101 @@
+{
+ "permit": "DEH2023-LWELL-003546",
+ "processed": "2026-11-23T08:11:42-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35673719",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-09-05",
+   "kb": 3286
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35749837",
+   "desc": "Approved permit",
+   "subtype": "Water Well Permit",
+   "scanned": "2023-12-19",
+   "kb": 3267
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35741966",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-09-05",
+   "kb": 274
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35673719",
+   "page": 7,
+   "source": "text",
+   "nFields": 4
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35673719",
+   "page": 8,
+   "source": "text",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 1000.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Total Depth of Completed Well            1000",
+   "page": 7,
+   "source": "text"
+  },
+  "swlFt": {
+   "value": 140.0,
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Water Level                   140 (Feet",
+   "page": 7,
+   "source": "text"
+  },
+  "method": {
+   "value": "Downhole Hammer",
+   "conf": "high",
+   "ocrConf": null,
+   "raw": "Drilling Method         Downhole Hammer            Drilling Fluid    Air",
+   "page": 7,
+   "source": "text"
+  },
+  "fluid": {
+   "value": "Air",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 7,
+   "source": "text"
+  },
+  "dateEnded": {
+   "value": "2024-01-02",
+   "conf": "high",
+   "ocrConf": null,
+   "page": 7,
+   "source": "text"
+  },
+  "gps": {
+   "lat": 32.7549472,
+   "lon": -116.7013667,
+   "conf": "high",
+   "page": 7,
+   "source": "text"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35673719",
+ "errors": [],
+ "bestDocPage": 7,
+ "status": "readable",
+ "area": "",
+ "lat": 32.754947,
+ "lon": -116.701367,
+ "apn": "524-150-40-00",
+ "libraryOnly": true,
+ "addr": "3930 Gaskill Peak Rd, Alpine CA 91901",
+ "locSource": "DWR WCR2024-000637 (exact permit #)",
+ "paperApn": "524-060-04-00"
+}

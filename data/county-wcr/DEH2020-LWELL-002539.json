@@ -1,0 +1,108 @@
+{
+ "permit": "DEH2020-LWELL-002539",
+ "processed": "2026-11-23T08:02:01-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41337415",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-02-14",
+   "kb": 1982
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35461417",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2020-03-25",
+   "kb": 366
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41337416",
+   "desc": "Approved Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2026-02-14",
+   "kb": 327
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41337415",
+   "page": 1,
+   "source": "ocr",
+   "nFields": 5
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41337415",
+   "page": 2,
+   "source": "ocr",
+   "nFields": 0
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41337415",
+   "page": 3,
+   "source": "ocr",
+   "nFields": 0
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 985.0,
+   "conf": "high",
+   "ocrConf": 85.660072,
+   "raw": "Total Depth of Completed Well 985",
+   "page": 1,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 12.0,
+   "conf": "high",
+   "ocrConf": 96.054352,
+   "raw": "Estimated Yield* 12 (GPM",
+   "page": 1,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 123.0,
+   "conf": "high",
+   "ocrConf": 94.540855,
+   "raw": "Water Level 123 (Feet",
+   "page": 1,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Other - Mud",
+   "conf": "low",
+   "ocrConf": 3.487869,
+   "raw": "Drilling Method Other - MUD Drilling Fluid Other",
+   "page": 1,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2020-05-08",
+   "conf": "medium",
+   "ocrConf": 78.261444,
+   "page": 1,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.01113,
+   "lon": -117.23043,
+   "conf": "high",
+   "page": 1,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=41337415",
+ "errors": [],
+ "bestDocPage": 1,
+ "status": "readable",
+ "area": "",
+ "lat": 33.01113,
+ "lon": -117.23043,
+ "apn": "268-030-67-00",
+ "libraryOnly": true,
+ "addr": "16342 Rambla De Las Flores, Rancho Santa Fe CA 92067",
+ "locSource": "DWR WCR2024-011452 (exact permit #)",
+ "paperApn": "268-030-58-00"
+}

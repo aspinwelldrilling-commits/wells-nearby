@@ -1,0 +1,96 @@
+{
+ "permit": "DEH2021-LWELL-002812",
+ "processed": "2026-11-23T08:02:02-08:00",
+ "version": 6,
+ "docs": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35678634",
+   "desc": "WCR Redacted",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-09-05",
+   "kb": 4098
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35597692",
+   "desc": "",
+   "subtype": "Water Well Permit",
+   "scanned": "2021-03-22",
+   "kb": 3107
+  },
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35528538",
+   "desc": "Final Inspection",
+   "subtype": "Water Well Permit",
+   "scanned": "2024-09-05",
+   "kb": 274
+  }
+ ],
+ "wcrPages": [
+  {
+   "url": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35678634",
+   "page": 6,
+   "source": "ocr",
+   "nFields": 5
+  }
+ ],
+ "fields": {
+  "depthFt": {
+   "value": 360.0,
+   "conf": "medium",
+   "ocrConf": 71.231461,
+   "raw": "Total Depth of Completed Well 360",
+   "page": 6,
+   "source": "ocr"
+  },
+  "gpm": {
+   "value": 200.0,
+   "conf": "high",
+   "ocrConf": 96.230057,
+   "raw": "Estimated Yield* 200 (GPM",
+   "page": 6,
+   "source": "ocr"
+  },
+  "swlFt": {
+   "value": 34.0,
+   "conf": "high",
+   "ocrConf": 94.095123,
+   "raw": "Water Level 34 (Feet",
+   "page": 6,
+   "source": "ocr"
+  },
+  "method": {
+   "value": "Downhole Rotary",
+   "conf": "high",
+   "ocrConf": 94.675217,
+   "raw": "Drilling Method Downhole Rotary Drilling Fluid ",
+   "page": 6,
+   "source": "ocr"
+  },
+  "dateEnded": {
+   "value": "2021-06-24",
+   "conf": "medium",
+   "ocrConf": 79.101944,
+   "page": 6,
+   "source": "ocr"
+  },
+  "gps": {
+   "lat": 33.103766,
+   "lon": -116.602086,
+   "conf": "high",
+   "page": 6,
+   "source": "ocr"
+  }
+ },
+ "bestDocUrl": "https://file.sandiegocounty.gov/LUEG/LUEG_View?FileRecordId=35678634",
+ "errors": [],
+ "bestDocPage": 6,
+ "status": "readable",
+ "area": "",
+ "lat": 33.103766,
+ "lon": -116.602086,
+ "apn": "250-010-75-00",
+ "libraryOnly": true,
+ "addr": "1878 Wynola Rd, Julian CA 92036",
+ "locSource": "DWR WCR2024-007216 (exact permit #)",
+ "paperApn": "250-010-58-00"
+}
